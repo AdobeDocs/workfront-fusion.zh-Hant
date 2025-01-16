@@ -81,10 +81,9 @@ ht-degree: 0%
 >
 >```
 >{
->       "name" : "Peter",
+>    "name" : "Peter",
 >
->    
-   "ID" : 1
+>    "ID" : 1
 >}
 >```
 >
@@ -98,16 +97,15 @@ ht-degree: 0%
 >
 >```
 >[
->   {
->       "name" : "Peter",
->       "ID" : 1
->   },
+>  {
+>    "name" : "Peter",
+>    "ID" : 1
+>  },
 >
->  
- {
->       "name" : "Mike",
->       "ID" : 2
->   }
+>  {
+>    "name" : "Mike",
+>    "ID" : 2
+>  }
 >]
 >```
 >
@@ -238,48 +236,49 @@ ht-degree: 0%
 >
 >1. 將[!DNL Google Sheets] > [!UICONTROL Select rows]模組放置在情境中，以擷取資料。 設定模組以從[!DNL Google]試算表中擷取列。 將&#x200B;**[!UICONTROL Maximum number of returned rows]**&#x200B;設定為較小的數字，但為了測試目的而設定為大於一個數字（例如，3）。 執行[!DNL Google Sheets]模組，方法是按一下滑鼠右鍵並選擇&#39;&#39;**[!UICONTROL Run this module only]**&#39;&#39;。 驗證模組的輸出。
 >
-1. 在[!DNL Google Sheets]模組之後連線[!UICONTROL Array Aggregator]模組。 在模組的設定中，選擇&#x200B;**[!UICONTROL Source node]**&#x200B;欄位中的[!DNL Google Sheets]模組。 讓其他欄位維持目前的狀態。
+>1. 在[!DNL Google Sheets]模組之後連線[!UICONTROL Array Aggregator]模組。 在模組的設定中，選擇&#x200B;**[!UICONTROL Source node]**&#x200B;欄位中的[!DNL Google Sheets]模組。 讓其他欄位維持目前的狀態。
 >
-1. 在[!UICONTROL Array Aggregator]模組之後連線[!UICONTROL JSON] > [!UICONTROL Create JSON]模組。 模組的設定需要說明JSON格式的資料結構。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以開啟資料結構設定。 建立此資料結構的最簡單方法是，自動從JSON範例產生此資料結構。 按一下「**[!UICONTROL Generator]**」並將您的JSON範例貼到「**[!UICONTROL Sample data]**」欄位：
+>1. 在[!UICONTROL Array Aggregator]模組之後連線[!UICONTROL JSON] > [!UICONTROL Create JSON]模組。 模組的設定需要說明JSON格式的資料結構。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以開啟資料結構設定。 建立此資料結構的最簡單方法是，自動從JSON範例產生此資料結構。 按一下「**[!UICONTROL Generator]**」並將您的JSON範例貼到「**[!UICONTROL Sample data]**」欄位：
 >
-**範例：**
+>     **範例：**
 >
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>     ```
+>     {
+>     
+>     "books": [
+>     
+>     {
+>     
+>     "id": "ID",
+>     
+>     "title": "Title",
+>     
+>     "author": "Author"
+>     
+>     }
+>     
+>     ]
+>     
+>     }
+>     
+>     ```
 >
-1. 按一下&#x200B;**[!UICONTROL Save]**。 資料結構中的[!UICONTROL Specification]欄位現在包含產生的結構。
-1. 將您的資料結構名稱變更為更具體的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
+>1. 按一下&#x200B;**[!UICONTROL Save]**。 資料結構中的[!UICONTROL Specification]欄位現在包含產生的結構。
+>1. 將您的資料結構名稱變更為更具體的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
 >
-1. 按一下欄位旁的&#x200B;**[!UICONTROL Map]**&#x200B;按鈕，並將陣列彙總器輸出中的`Array[]`專案對應至該欄位。
+>1. 按一下欄位旁的&#x200B;**[!UICONTROL Map]**&#x200B;按鈕，並將陣列彙總器輸出中的`Array[]`專案對應至該欄位。
 >
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉[!UICONTROL JSON]模組的設定。
+>1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉[!UICONTROL JSON]模組的設定。
 >
-1. 開啟[!UICONTROL Array Aggregator]模組的設定。 將&#x200B;**[!UICONTROL Target structure]**&#x200B;從[!UICONTROL Custom]變更為與根陣列屬性對應的[!UICONTROL JSON]模組欄位。 將來自[!DNL Google Sheets]模組的專案對應到適當的欄位。
+>1. 開啟[!UICONTROL Array Aggregator]模組的設定。 將&#x200B;**[!UICONTROL Target structure]**&#x200B;從[!UICONTROL Custom]變更為與根陣列屬性對應的[!UICONTROL JSON]模組欄位。 將來自[!DNL Google Sheets]模組的專案對應到適當的欄位。
 >
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉[!UICONTROL Array Aggregator]模組的設定。
+>1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉[!UICONTROL Array Aggregator]模組的設定。
 >
-1. 執行情境。
+>1. 執行情境。
 >
-[!UICONTROL JSON]模組輸出正確的JSON格式。
+>[!UICONTROL JSON]模組輸出正確的JSON格式。
 >
-1. 開啟[!DNL Google Sheets]模組的設定，並將[!UICONTROL Maximum number of returned rows]數字增加到大於試算表中的列數，以處理所有資料。
+>1. 開啟[!DNL Google Sheets]模組的設定，並將[!UICONTROL Maximum number of returned rows]數字增加到大於試算表中的列數，以處理所有資料。
 
 ## 疑難排解
 
@@ -293,6 +292,6 @@ ht-degree: 0%
 
 >[!INFO]
 >
-**範例：**
+>**範例：**
 >
-![](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
+>![](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)

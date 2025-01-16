@@ -3,9 +3,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 81c9b141-4e40-430f-99f1-c44b7a833bcd
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 99f2e558db3d2b126adf748d7e013a4a39735bcd
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -456,8 +456,8 @@ Anaplan聯結器使用下列專案：
        <li> <p><b>[!UICONTROL Line items]</b> </p> <p>選取或對應包含您要擷取[!DNL line]個專案的模型識別碼。</p> </li> 
        <li> <p><b>[!UICONTROL Model lists]</b> </p> <p>選取或對應包含您要擷取之模型清單的Workspace ID和模型ID。</p> </li> 
        <li> <p><b>[!UICONTROL Model calendar]</b> </p> <p>選取或對應包含您要擷取之模型行事曆的Workspace ID。</p> </li> 
-       <li> <p><b>模型版本</b> </p> </li> 
-       <li> <p>選取或對應包含您要擷取之模型版本的模型[!UICONTROL ]識別碼。</p> </li> 
+       <li> <p><b>[!UICONTROL Model versions]</b> </p> </li> 
+       <li> <p>選取或對應包含要擷取之模型版本的模型ID。</p> </li> 
        <li> <p><b>[!UICONTROL Users]</b> </p> </li> 
        <li> <p><b>[!UICONTROL Views]</b> </p> <p>選取您要選擇「依模組」或「依模型」檢視，然後選取或對應包含您要擷取之檢視的「模組」或「模型」的ID。</p> </li> 
       </ul> 

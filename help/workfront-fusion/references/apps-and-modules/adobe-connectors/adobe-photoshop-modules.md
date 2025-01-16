@@ -4,9 +4,9 @@ description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 371adb5a5558674ecb8aa38b503b8a958c9fc5f5
 workflow-type: tm+mt
-source-wordcount: '3715'
+source-wordcount: '3714'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Adobe Photoshop聯結器會使用以下專案：
               <p>輸入檔案的密碼。</p>
             </li>
             <li value="5">
-              <p>按一下[儲存]，擷取檔案並返回[!UICONTROL ]e連線設定。<b></b></p>
+              <p>按一下<b>儲存</b>以擷取檔案，並返回連線設定。</p>
             </li>
           </ol>
         </td>

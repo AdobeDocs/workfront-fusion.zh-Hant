@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: 9e556ae5-e672-4872-9c40-8c8e5f0305be
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: b1b206a0554832aadc9c42ce0b4f952301474086
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2727'
 ht-degree: 0%
 
 ---
@@ -696,8 +696,8 @@ Workfront Proof聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>搜尋</td> 
-   <td> <p>選取[!UICONTROL ]您要模組搜尋的記錄型別。</p> 
+   <td>[!UICONTROL Search for]</td> 
+   <td> <p>選取您要模組搜尋的記錄型別。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Proof]</strong> </p> <p>輸入您要搜尋之校訂的校訂名稱。</p> </li> 
      <li> <p><strong>[!UICONTROL Recipient]</strong> </p> <p>輸入您要搜尋之收件者的電子郵件地址。</p> </li> 

@@ -5,9 +5,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 77237a1b-2acd-4350-9cc0-ec43b8b08137
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 8bd08379fc88c4d4f31ba1faba922869d7957b4a
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -166,7 +166,7 @@ Workday聯結器會使用以下專案：
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xre[!DNL ]f" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
+            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record Type]</td>
@@ -195,7 +195,7 @@ Workday聯結器會使用以下專案：
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>如需有關將您的[!DNL Workday]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#Connect" class="MCXref xre[!DNL ]f" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
+            <td>如需有關將您的[!DNL Workday]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#Connect" class="MCXref xref" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record type]</td>
@@ -231,7 +231,7 @@ Workday聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Connection]</p> </td> 
-            <td>如需有關將您的[!DNL Workday]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#Connect" class="MCXref xre[!DNL ]f" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
+            <td>如需有關將您的[!DNL Workday]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#Connect" class="MCXref xref" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -272,8 +272,8 @@ Workday聯結器會使用以下專案：
             <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday]到Workfront Fusion]</a></td>
         </tr>
         <tr>
-            <td  role="rowheader">記錄類型</td>
-            <td>選取您要更新的記錄型別t[!UICONTROL ]。</td>
+            <td  role="rowheader">[!UICONTROL Record Type]</td>
+            <td>選取您要更新的記錄型別。</td>
         </tr>
         <tr>
             <td role="rowheader">[!UICONTROL ID] </td>

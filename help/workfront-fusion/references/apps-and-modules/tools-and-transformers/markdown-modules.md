@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以使用Markdo
 author: Becky
 feature: Workfront Fusion
 exl-id: f1134bbf-c244-4f52-8744-f97453b2ce8a
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 1e95c93213c48aea9297a82669fb2012dbb27601
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>啟用此選項以將GitHub Flavored Markdown轉換為HTML。</p> <p>如需詳細資訊，請參閱[!DNL GitHub]檔案中的Mar[!DNL ]Kdown速查表。</p> </td> 
+   <td> <p>啟用此選項以將GitHub Flavored Markdown轉換為HTML。</p> <p>如需詳細資訊，請參閱[!DNL GitHub]檔案中的Markdown速查表。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sanitize]</td> 

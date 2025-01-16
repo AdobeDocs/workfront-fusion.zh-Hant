@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 62269eca-c3cf-42fe-a866-fb66d2363b8d
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 0581601a254a9492f4166d78eb0f11868d390f24
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---

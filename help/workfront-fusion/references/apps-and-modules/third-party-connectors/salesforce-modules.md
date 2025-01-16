@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesf
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: c4696ad91dd0a2cf753147bffbb6e7b74bb99b02
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2604'
 ht-degree: 0%
 
 ---
@@ -234,6 +234,7 @@ Salesforce聯結器會使用以下專案：
 * [[!UICONTROL Custom API Call]](#custom-api-call)
 * [[!UICONTROL Upload Attachment/Document]](#upload-attachmentdocument)
 * [[!UICONTROL Download Attachment/Document]](#download-attachmentdocument)
+* [上傳檔案](#upload-file)
 
 #### [!UICONTROL Create a Record]
 
@@ -498,6 +499,41 @@ Salesforce聯結器會使用以下專案：
   </tr> 
  </tbody> 
 </table>
+
+#### 上傳檔案
+
+此動作模組會將單一檔案上傳至Salesforce。
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>如需有關將您的[!DNL Salesforce]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL  Adobe Workfront Fusion]的連線 — 基本指示</a></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Document linking]</td> 
+   <td>選取是否要套用內容檔案連結。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL linkedEntityId]</td> 
+   <td>如果使用檔案連結，請輸入或對應連結物件的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ShareType]</td> 
+   <td>如果使用檔案連結，請選取檔案的許可權。<ul><li><b>檢視器許可權</b><p>使用者可以檢視檔案。</p></li><li><b>共同作業人員許可權</b><p>使用者可以檢視及編輯檔案。</p></li><li><b>推斷的許可權</b><p>許可權取決於使用者對相關記錄（例如程式庫）的許可權。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td>如果使用檔案連結，請輸入或對映檔案的可見度。<ul><li><b>所有使用者</b><p>適用於所有具有許可權的使用者</p></li><li><b>內部使用者</b><p>可供擁有許可權的內部使用者使用。</p></li><li><b>共用使用者</b><p>可供可以檢視已張貼檔案之摘要的使用者使用。</p></li></ul></td> 
+  </tr>
 
 ### 搜尋
 

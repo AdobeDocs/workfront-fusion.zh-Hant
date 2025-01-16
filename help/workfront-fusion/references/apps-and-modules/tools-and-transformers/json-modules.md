@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion JSON應用程式提供可處理JSON格式資
 author: Becky
 feature: Workfront Fusion
 exl-id: f8b281c5-bb63-4412-98c5-d82f45f8eafc
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: c895d496de66b475f907effaaf43fe2f7b7b457e
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -17,44 +17,48 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]用於Work Automation and Integration]，[!UICONTROL [!DNL Workfront Fusion]用於Work Automation]</p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
-## 剖析JSON
++++
+
+## 解析JSON時的注意事項
 
 * [資料結構](#data-structure)
 * [集合與陣列](#collection-vs-array)
@@ -75,41 +79,45 @@ ht-degree: 0%
 
 如果JSON字串欄位包含集合`{ ... }`，則輸出是包含集合專案的單一組合。
 
->[!INFO]
->
->**範例：**
->
->```
->{
->    "name" : "Peter",
->
->    "ID" : 1
->}
->```
->
->![](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+```
+{
+    "name" : "Peter",
+
+    "ID" : 1>}
+```
+
+
+![](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
+
+>[!ENDSHADEBOX]
 
 如果JSON字串欄位包含陣列`[ ... ]`，則輸出是一系列組合。 每個組合都包含陣列的一個元素。
 
->[!INFO]
->
->**範例：**
->
->```
->[
->  {
->    "name" : "Peter",
->    "ID" : 1
->  },
->
->  {
->    "name" : "Mike",
->    "ID" : 2
->  }
->]
->```
->
->![](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+```
+[
+  {
+    "name" : "Peter",
+    "ID" : 1
+  },
+
+  {
+    "name" : "Mike",
+    "ID" : 2
+  }
+]
+```
+
+![](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
+
+>[!ENDSHADEBOX]
 
 ## [!UICONTROL JSON]模組及其欄位
 
@@ -191,6 +199,10 @@ ht-degree: 0%
    <td role="rowheader">資料結構</td> 
    <td> <p>選取您要用來建立JSON的資料結構。 如需詳細資訊，請參閱本文中的<a href="#data-structure" class="MCXref xref">資料結構</a>。</p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">縮排</td> 
+   <td> <p>選取您要用於此JSON的縮排。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -222,6 +234,10 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
+   <td role="rowheader">縮排</td> 
+   <td> <p>選取您要用於此JSON的縮排。</p> </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Object]</td> 
    <td> <p>輸入或對應您要轉換為JSON的物件。</p> </td> 
   </tr> 
@@ -230,55 +246,48 @@ ht-degree: 0%
 
 ## 將資料記錄轉換為JSON
 
->[!INFO]
->
->**範例：**&#x200B;下列範例說明如何將資料記錄從[!DNL Google Sheets]轉換為JSON格式：
->
->1. 將[!DNL Google Sheets] > [!UICONTROL Select rows]模組放置在情境中，以擷取資料。 設定模組以從[!DNL Google]試算表中擷取列。 將&#x200B;**[!UICONTROL Maximum number of returned rows]**&#x200B;設定為較小的數字，但為了測試目的而設定為大於一個數字（例如，3）。 執行[!DNL Google Sheets]模組，方法是按一下滑鼠右鍵並選擇&#39;&#39;**[!UICONTROL Run this module only]**&#39;&#39;。 驗證模組的輸出。
->
->1. 在[!DNL Google Sheets]模組之後連線[!UICONTROL Array Aggregator]模組。 在模組的設定中，選擇&#x200B;**[!UICONTROL Source node]**&#x200B;欄位中的[!DNL Google Sheets]模組。 讓其他欄位維持目前的狀態。
->
->1. 在[!UICONTROL Array Aggregator]模組之後連線[!UICONTROL JSON] > [!UICONTROL Create JSON]模組。 模組的設定需要說明JSON格式的資料結構。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以開啟資料結構設定。 建立此資料結構的最簡單方法是，自動從JSON範例產生此資料結構。 按一下「**[!UICONTROL Generator]**」並將您的JSON範例貼到「**[!UICONTROL Sample data]**」欄位：
->
->     **範例：**
->
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
->
->1. 按一下&#x200B;**[!UICONTROL Save]**。 資料結構中的[!UICONTROL Specification]欄位現在包含產生的結構。
->1. 將您的資料結構名稱變更為更具體的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
->
->1. 按一下欄位旁的&#x200B;**[!UICONTROL Map]**&#x200B;按鈕，並將陣列彙總器輸出中的`Array[]`專案對應至該欄位。
->
->1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉[!UICONTROL JSON]模組的設定。
->
->1. 開啟[!UICONTROL Array Aggregator]模組的設定。 將&#x200B;**[!UICONTROL Target structure]**&#x200B;從[!UICONTROL Custom]變更為與根陣列屬性對應的[!UICONTROL JSON]模組欄位。 將來自[!DNL Google Sheets]模組的專案對應到適當的欄位。
->
->1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉[!UICONTROL Array Aggregator]模組的設定。
->
->1. 執行情境。
->
->[!UICONTROL JSON]模組輸出正確的JSON格式。
->
->1. 開啟[!DNL Google Sheets]模組的設定，並將[!UICONTROL Maximum number of returned rows]數字增加到大於試算表中的列數，以處理所有資料。
+>[!BEGINSHADEBOX]
+
+**範例：**&#x200B;下列範例說明如何將資料記錄從[!DNL Google Sheets]轉換為JSON格式：
+
+1. 將[!DNL Google Sheets] > [!UICONTROL Select rows]模組放置在情境中，以擷取資料。 設定模組以從[!DNL Google]試算表中擷取列。 將&#x200B;**[!UICONTROL Maximum number of returned rows]**&#x200B;設定為較小的數字，但為了測試目的而設定為大於一個數字（例如，3）。 執行[!DNL Google Sheets]模組，方法是按一下滑鼠右鍵並選擇&#39;&#39;**[!UICONTROL Run this module only]**&#39;&#39;。 驗證模組的輸出。
+
+1. 在[!DNL Google Sheets]模組之後連線[!UICONTROL Array Aggregator]模組。 在模組的設定中，選擇&#x200B;**[!UICONTROL Source node]**&#x200B;欄位中的[!DNL Google Sheets]模組。 讓其他欄位維持目前的狀態。
+
+1. 在[!UICONTROL Array Aggregator]模組之後連線[!UICONTROL JSON] > [!UICONTROL Create JSON]模組。 模組的設定需要說明JSON格式的資料結構。 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以開啟資料結構設定。 建立此資料結構的最簡單方法是，自動從JSON範例產生此資料結構。 按一下「**[!UICONTROL Generator]**」並將您的JSON範例貼到「**[!UICONTROL Sample data]**」欄位：
+
+   **範例：**
+
+   ```
+   {
+   "books": [
+   {
+   "id": "ID",
+   "title": "Title",
+   "author": "Author"
+   }
+   ]
+   }
+   ```
+
+1. 按一下&#x200B;**[!UICONTROL Save]**。 資料結構中的[!UICONTROL Specification]欄位現在包含產生的結構。
+1. 將您的資料結構名稱變更為更具體的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
+
+1. 按一下欄位旁的&#x200B;**[!UICONTROL Map]**&#x200B;按鈕，並將陣列彙總器輸出中的`Array[]`專案對應至該欄位。
+
+1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉[!UICONTROL JSON]模組的設定。
+
+1. 開啟[!UICONTROL Array Aggregator]模組的設定。 將&#x200B;**[!UICONTROL Target structure]**&#x200B;從[!UICONTROL Custom]變更為與根陣列屬性對應的[!UICONTROL JSON]模組欄位。 將來自[!DNL Google Sheets]模組的專案對應到適當的欄位。
+
+1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉[!UICONTROL Array Aggregator]模組的設定。
+
+1. 執行情境。
+
+   [!UICONTROL JSON]模組輸出正確的JSON格式。
+
+1. 開啟[!DNL Google Sheets]模組的設定，並將[!UICONTROL Maximum number of returned rows]數字增加到大於試算表中的列數，以處理所有資料。
+
+>[!ENDSHADEBOX]
 
 ## 疑難排解
 
@@ -290,8 +299,10 @@ ht-degree: 0%
 
 在JSON中使用條件陳述式（例如`if`）時，請將引號放在條件陳述式之外。
 
->[!INFO]
->
->**範例：**
->
->![](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+![](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
+
+>[!ENDSHADEBOX]

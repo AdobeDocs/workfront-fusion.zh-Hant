@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: 92cac080-d8f6-4770-a6a6-8934538c978b
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 4e45e691ed453cec5af1fa7b52204031af83f869
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1881'
 ht-degree: 1%
 
 ---
@@ -15,50 +15,54 @@ ht-degree: 1%
 
 在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Jira Software]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
+這些指示適用於Jira Cloud和Jira伺服器模組。
+
 如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
 如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
 
-<!-- Bob Fix this compared to original -->
-
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -110,10 +114,10 @@ Jira聯結器使用下列專案：
 
 #### 在[!DNL Jira]中建立API權杖
 
-1. 前往[https://id.atlassian.com/manage/api-tokens](https://id.atlassian.com/manage/api-tokens)並登入。
-1. 按一下&#x200B;**[!UICONTROL Create API token]**。
-1. 輸入權杖的名稱，例如&#x200B;*Workfront Fusion*。
-1. 使用&#x200B;**[!UICONTROL Copy to clipboard]**&#x200B;按鈕複製權杖。
+1. 在Jira中建立API權杖。
+
+   如需指示，我們建議您在Jira檔案中搜尋「建立API權杖」。
+1. 建立權杖後，將權杖複製到安全位置。
 
    >[!IMPORTANT]
    >
@@ -123,9 +127,11 @@ Jira聯結器使用下列專案：
 
 #### 在[!DNL Workfront Fusion]中設定[!DNL Jira] API權杖
 
-1. 在[!DNL Workfront Fusion]中，將[!DNL Jira]模組新增至情境以開啟&#x200B;**[!UICONTROL Create a connection]**&#x200B;方塊。
+1. 在[!DNL Workfront Fusion]的任何[!DNL Jira Cloud]模組中，按一下[!UICONTROL connection]欄位旁的&#x200B;**[!UICONTROL Add]**。
 1. 指定下列資訊：
 
+   * **環境**
+   * **型別**
    * **[!UICONTROL Service URL]：**&#x200B;這是您用來存取Jira帳戶的基本URL。 範例： `yourorganization.atlassian.net`
    * **[!UICONTROL Username]**
    * **[!UICONTROL API token]：**&#x200B;這是您在本文章的 [!DNL Jira]](#create-an-api-token-in-jira)區段[建立API權杖中建立的API權杖。
@@ -133,10 +139,6 @@ Jira聯結器使用下列專案：
 1. 按一下[!UICONTROL Continue]以建立連線並返回模組。
 
 ### 將[!DNL Jira Server]連線至[!DNL Workfront Fusion]
-
-<!--
-<p style="color: #ff1493;">Becky: Find out and document how to find these things</p>
--->
 
 若要授權[!DNL Workfront Fusion]與[!DNL Jira Server]之間的連線，您需要您的消費者金鑰、私密金鑰和服務URL。 您可能需要連絡您的[!DNL Jira]管理員以取得此資訊。
 
@@ -160,8 +162,7 @@ Jira聯結器使用下列專案：
 
    * `openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8`
 
-     這個命令會將私密金鑰（PKCS8格式）擷取到`jira_privatekey.pcks8`
-檔案。
+     這個命令會將私密金鑰（PKCS8格式）擷取到`jira_privatekey.pcks8`檔案。
 
    * `openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem`
 
@@ -175,7 +176,7 @@ Jira聯結器使用下列專案：
      >   
      >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
      >   
-     >1. 複製終端機輸出（包括`-------BEGIN PUBLIC KEY--------`和`-------END PUBLIC KEY--------`）
+     >1. 複製終端機輸出，包括`-------BEGIN PUBLIC KEY--------`和`-------END PUBLIC KEY--------`。
      >   
      >1. 將終端機輸出貼到名為`jira_publickey.pem`的檔案中。
 
@@ -253,6 +254,14 @@ Jira聯結器使用下列專案：
       <td> <p>輸入連線的名稱</p> </td> 
      </tr> 
      <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Environment]</p> </td> 
+      <td> <p>選取您使用生產或非生產環境。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Type]</p> </td> 
+      <td> <p>選取您是使用服務帳戶還是個人帳戶。</p> </td> 
+     </tr> 
+     <tr> 
       <td role="rowheader">[!UICONTROL Consumer Key]</td> 
       <td>貼入您複製到<a href="#configure-the-client-app-as-a-consumer-in-jira" class="MCXref xref">中安全位置的消費者金鑰在[!DNL Jira]</a>中將使用者端應用程式設定為消費者</td> 
      </tr> 
@@ -277,11 +286,11 @@ Jira聯結器使用下列專案：
 
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 #### [!UICONTROL Watch for records]
 
@@ -340,7 +349,7 @@ Jira聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Issue ID or Keys]</td> 
-   <td>針對您想要新增至衝刺的每個問題，新增問題ID或金鑰。</td> 
+   <td>對於您想要檢視體驗的每個問題或金鑰，按一下「<b>[!UICONTROL Add item]</b>」並輸入問題ID或金鑰。 在一個模組中最多可輸入50個。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -363,7 +372,7 @@ Jira聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>選取您要模組建立的記錄型別。 當您選取記錄型別時，該記錄型別專屬的其他欄位會出現在模組中。</p> 
+   <td> <p>選取您要模組建立的記錄型別，然後填寫專屬於該記錄型別的其他欄位，顯示在模組中。</p> 
     <ul> 
      <li>[!UICONTROL Attachment]</li> 
      <li>[!UICONTROL Comment]</li> 
@@ -378,7 +387,7 @@ Jira聯結器使用下列專案：
 
 #### [!UICONTROL Custom API Call]
 
-此動作模組可讓您對[!DNL Jira Software] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Jira Software]模組無法完成的資料流程自動化。
+此動作模組可讓您對[!DNL Jira Software] API進行自訂的已驗證呼叫。 使用此模組建立其他[!DNL Jira Software]模組無法完成的資料流程自動化。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -416,7 +425,7 @@ Jira聯結器使用下列專案：
 
 #### [!UICONTROL Delete a record]
 
-此動作模組會刪除特定記錄。
+此動作模組會刪除指定的記錄。
 
 您指定記錄的ID。
 
@@ -542,7 +551,7 @@ Jira聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID or Key]</td> 
-   <td>輸入或對應您要更新的記錄ID或金鑰。</td> 
+   <td>輸入或對應您要更新之記錄的ID或金鑰，然後填寫專屬於該記錄型別的其他欄位，即會顯示在模組中。</td> 
   </tr> 
  </tbody> 
 </table>

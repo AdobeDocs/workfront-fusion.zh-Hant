@@ -4,10 +4,10 @@ description: Workfront和HTTP聯結器目前提供大型檔案支援。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: c4696ad91dd0a2cf753147bffbb6e7b74bb99b02
+source-git-commit: 12620e137d2e536b90eb322de93fd39bb8374e51
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 0%
+source-wordcount: '1021'
+ht-degree: 1%
 
 ---
 
@@ -27,15 +27,26 @@ Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理�
 
 ## 支援大型檔案的聯結器
 
-初次發行時，下列聯結器支援大型檔案。
+目前，下列聯結器支援大型檔案。
 
-* Workfront >上傳檔案
-* Adobe Experience Manager Assets >上傳檔案
-* Workfront Proof >上傳檔案
-* Adobe Authenticator >進行自訂API呼叫
-* SharePoint >建立檔案和SharePoint >取得檔案
-* Salesforce >上傳檔案
-* AWS S3 >上傳檔案和AWS S3 >取得檔案
+* Workfront
+   * 上傳檔案
+   * 下載文件
+* Adobe Experience Manager Assets
+   * 上傳文件
+* Workfront Proof
+   * 上傳檔案
+   * 下載校訂
+* Adobe Authenticator
+   * 進行自訂API呼叫
+* SharePoint
+   * 建立檔案
+   * 取得檔案
+* Salesforce
+   * 上傳檔案
+* AWS S3
+   * 上傳檔案
+   * 取得檔案
 * HTTP
 
 未來版本將支援其他聯結器。
@@ -74,7 +85,7 @@ Fusion處理檔案時，會將較大的檔案新增到永久儲存體（S3儲存
 
 ### Fusion的UI何時會更新以顯示檔案傳輸資料？
 
-我們正在積極努力更新Fusion的UI，以便在儀表板和案例執行詳細頁面上傳輸檔案，預計於2025年第1季發行。
+此功能已完成並部署至生產環境。
 
 ### 有哪些方法可考慮協助我設計情境的新檔案處理限制？
 

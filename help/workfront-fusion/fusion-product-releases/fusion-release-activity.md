@@ -4,7 +4,7 @@ content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: product-releases
 title: Adobe Workfront Fusion發行活動概覽
-description: Adobe Workfront Fusion可順暢地連線您的應用程式和Web服務，因此您可以專注在新任務上，而不是一而再、再而三地重複相同的任務。
+description: Adobe Workfront Fusion 可無縫連接您的應用程式和網頁服務，讓您可以專注於新任務，而不用重複不斷地進行相同的任務。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -12,13 +12,13 @@ exl-id: c37aea95-7cc3-4939-a4d7-9a6a75557b85
 source-git-commit: cf2a4515ecd5e239e3370a6a0a3ffe70ecce3770
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # Adobe Workfront Fusion發行活動概覽
 
-Adobe Workfront Fusion可順暢地連線您的應用程式和Web服務，因此您可以專注在新任務上，而不是一而再、再而三地重複相同的任務。
+Adobe Workfront Fusion 可無縫連接您的應用程式和網頁服務，讓您可以專注於新任務，而不用重複不斷地進行相同的任務。
 
 ## 2025年Fusion發行版本
 

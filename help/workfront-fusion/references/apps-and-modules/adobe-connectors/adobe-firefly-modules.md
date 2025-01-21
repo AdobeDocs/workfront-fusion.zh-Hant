@@ -4,7 +4,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3b29ba3d-a769-4e97-b2c2-0b4eeed5b029
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 200907bb8d80f874227493b489ef1ea450198dc6
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 0%
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 * 您必須擁有使用中的[!DNL Adobe Firefly]帳戶。
 
-## Adobe Campaign API資訊
+## Adobe FireflyAPI資訊
 
-Adobe Campaign聯結器會使用以下專案：
+Adobe Firefly聯結器會使用以下專案：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,11 +109,11 @@ Adobe Campaign聯結器會使用以下專案：
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL Client ID]。 您可在[!UICONTROL Credentials]詳細資料區段的 [!DNL Adobe Developer Console]</td>
+        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL Client ID]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>輸入您的[!DNL Adobe] [!UICONTROL Client Secret]。 您可在[!UICONTROL Credentials]詳細資料區段的 [!DNL Adobe Developer Console]</td>
+        <td>輸入您的[!DNL Adobe] [!UICONTROL Client Secret]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td>
         </tr>
       </tbody>
     </table>

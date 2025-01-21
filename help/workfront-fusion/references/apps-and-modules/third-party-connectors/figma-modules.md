@@ -4,9 +4,9 @@ description: 使用 [!DNL Adobe Workfront Fusion] Figma模組，您可以擷取�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1220460b-1957-4dfc-b7c1-4c97b36ea061
-source-git-commit: a509fb54c5143945b873b2d8b146b6543107ae03
+source-git-commit: 200907bb8d80f874227493b489ef1ea450198dc6
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,55 @@ Figma聯結器使用下列專案：
  </tbody> 
  </table>
 
+## 建立與Figma的連線
+
+若要建立Figma模組的連線：
+
+1. 在任何Figma模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL Add]**。
+
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p> 若為新連線，請選取不含舊版標籤的<code>Figma</code>。 </p><p>Figma已於2025年1月變更其驗證要求。 <code>Figma</code>連線型別符合新需求。 <code>Figma (Legacy)</code>連線型別將在未來移除。</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>輸入此連線的名稱。</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>輸入您的[!UICONTROL Figme] [!UICONTROL Client ID]。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>輸入您的影象[!UICONTROL Client Secret]。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">自訂範圍</td>
+        <td>輸入此連線所需的任何自訂範圍。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">自訂連線驗證URL</td>
+        <td>驗證連線是否成功建立的預設端點為： <code>https://api.figma.com/v1/me</code>如果自訂範圍不支援此URL，請提供自訂驗證URL。</td>
+        </tr>
+      </tbody>
+    </table>
+
+1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以儲存連線並返回模組。
+
+
+
 ## [!DNL Figma]模組及其欄位
 
 當您設定[!DNL Figma]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Figma]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
@@ -125,7 +174,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
       </td>
     </tr>
     <tr>
@@ -149,7 +198,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
@@ -183,7 +232,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
       <td  role="rowheader">[!UICONTROL File ID]</td>
@@ -228,7 +277,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Object type]</td>
@@ -451,7 +500,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
       <td>
@@ -483,7 +532,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
@@ -513,7 +562,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Team ID]</td>
@@ -539,7 +588,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
       <td role="rowheader">Object&gt;型別</td>
@@ -594,7 +643,7 @@ Figma聯結器使用下列專案：
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示。</a></p>
+      <td> <p>如需有關將您的[!DNL Figma]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>

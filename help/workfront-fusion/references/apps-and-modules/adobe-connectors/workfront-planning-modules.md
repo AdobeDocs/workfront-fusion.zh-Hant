@@ -4,9 +4,9 @@ description: 透過 [!DNL Adobe Workfront Planning] 模組，您可以根據您 
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: 1972e445e7d4d3e4441feeda72ba9523fd1d9ff4
+source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Adobe Workfront Planning聯結器使用下列專案：
 
 ## [!DNL Adobe Workfront Planning]模組及其欄位
 
-### 觸發器
+### 觸發程序
 
 #### 觀看活動
 
@@ -228,7 +228,7 @@ Adobe Workfront Planning聯結器使用下列專案：
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法。</p> </td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>

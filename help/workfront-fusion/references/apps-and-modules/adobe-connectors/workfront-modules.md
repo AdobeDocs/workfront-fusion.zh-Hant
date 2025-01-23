@@ -4,7 +4,7 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 3ba5d67806e0d495bd4a91589d06cfb9adb25c0c
+source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
 workflow-type: tm+mt
 source-wordcount: '6208'
 ht-degree: 3%
@@ -104,7 +104,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>輸入您的Workfront使用者端ID。 您可在Workfront中「設定」區域的「OAuth2應用程式」區域中找到此專案。 如果您的Workfront中的OAuth2應用程式沒有使用者端密碼，您可以產生另一個密碼。 如需指示，請參閱Workfront檔案。</td>
+        <td>輸入您的Workfront使用者端密碼。 您可在Workfront中「設定」區域的「OAuth2應用程式」區域中找到此專案。 如果您的Workfront中的OAuth2應用程式沒有使用者端密碼，您可以產生另一個密碼。 如需指示，請參閱Workfront檔案。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Authentication URL]</td>
@@ -144,7 +144,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 <!--
 * [Watch Events](#watch-events) 

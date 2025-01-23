@@ -4,9 +4,9 @@ description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: 371adb5a5558674ecb8aa38b503b8a958c9fc5f5
+source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
 workflow-type: tm+mt
-source-wordcount: '3714'
+source-wordcount: '3713'
 ht-degree: 0%
 
 ---
@@ -984,7 +984,7 @@ Adobe Photoshop聯結器會使用以下專案：
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法。</p> </td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>

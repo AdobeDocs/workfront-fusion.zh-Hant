@@ -4,9 +4,9 @@ description: Workfront和HTTP聯結器目前提供大型檔案支援。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: 12620e137d2e536b90eb322de93fd39bb8374e51
+source-git-commit: 0e69dfa23fc12cb20c3fed772d72ef348536ea24
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '991'
 ht-degree: 1%
 
 ---
@@ -15,15 +15,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->大型檔案功能僅適用於Workfront Ultimate客戶，分階段推出。 到2025年1月，所有擁有Workfront Ultimate計畫的Fusion組織都將擁有大型檔案功能。
+>大型檔案功能僅適用於Workfront Ultimate套件上的組織。
 
 Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理顯著更大的檔案。
 
 若要處理大型檔案，必須更新您的情境。
-
->[!NOTE]
->
->此功能僅適用於Ultimate Workfront套件上的使用者。
 
 ## 支援大型檔案的聯結器
 

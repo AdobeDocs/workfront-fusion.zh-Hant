@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesf
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 17ac09a19562839a9fdfc11bd274a6ed11f6d8f5
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Salesforce聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">API版本</td> 
-   <td> v46.0 </td> 
+   <td> v62.0 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API標籤</td> 
@@ -104,6 +104,60 @@ Salesforce聯結器會使用以下專案：
 * 使用引號運運算元(「 」)尋找完全相符的片語。 例如：「星期一會議」
 
 如需有關搜尋可能性的詳細資訊，請參閱[!DNL Salesforce]有關SOQL和SOSL的開發人員檔案。
+
+## 建立與[!DNL Salesforce]的連線
+
+若要為您的[!DNL Salesforce]模組建立連線：
+
+1. 在任何[!DNL Salesforce]模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL Add]**。
+
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>輸入新連線的名稱。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>選取要連線到生產或非生產環境。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>
+          <p>選取您要連線到服務帳戶還是個人帳戶。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>輸入您的Salesforce使用者端ID。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>輸入您的Salesforce使用者端密碼。 </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Sandbox]</td>
+        <td>如果這是沙箱環境，則啟用此選項。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL API Version]</td>
+        <td>輸入您要使用的Salesforce API版本。 預設版本為62.0。</td>
+      </tr>
+    </tbody>
+    </table>
+
+1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以儲存連線並返回模組。
+
 
 ## [!DNL Salesforce]模組及其欄位
 

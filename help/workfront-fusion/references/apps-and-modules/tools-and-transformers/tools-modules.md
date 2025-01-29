@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion Tools] 區段包含數個可增強�
 author: Becky
 feature: Workfront Fusion
 exl-id: d9425f5b-4f4a-42da-9aca-1c1783be5fa7
-source-git-commit: 757580687ff5d1617f83432952d9870bd697925e
+source-git-commit: 7d5188d1ee4e40f74c750e3ce3dcbd0e08bc6606
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bundle]</td> 
-   <td> <p>新增陣列專案以建立自訂組合。 陣列由名稱 — 值配對組成。</p> </td> 
+   <td> <p>新增陣列專案以建立自訂組合。 針對您想要新增至組合的每個專案，按一下<b>新增專案</b>並輸入專案的名稱和值。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,32 +97,30 @@ ht-degree: 0%
 
 此模組會擷取先前由[!UICONTROL Set Variable]或[!UICONTROL Set Multiple Variables]模組建立的值。
 
-此模組可讀取在情境中任何位置設定的變數，即使變數設定在與[!UICONTROL Get Multiple Variables]模組所在不同的路由中。 唯一的要求是[!UICONTROL Tools] > [!UICONTROL Set Variable]或[!UICONTROL Tools] > [!UICONTROL Set Multiple Variable]模組必須在[!UICONTROL Tools] > [!UICONTROL Get Multiple Variables]模組之前執行。 如需模組執行順序的詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)中的[路由器模組。
+此模組可讀取在情境中任何位置設定的變數，即使變數設定在與[!UICONTROL Get Multiple Variables]模組所在不同的路由中。 唯一的要求是[!UICONTROL Tools] > [!UICONTROL Set Variable]或[!UICONTROL Tools] > [!UICONTROL Set Multiple Variable]模組必須在[!UICONTROL Tools] > [!UICONTROL Get Multiple Variables]模組之前執行。 如需模組執行順序的詳細資訊，請參閱[新增路由器模組並設定路由](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)。
 
 <table style="table-layout:auto">
     <tr>
         <td>[!UICONTROL Variables]</td>
-        <td>新增您想要模組取得的變數。</td>
-    </tr>
-    <tr>
-        <td>[!UICONTROL Variable name]</td>
-        <td>針對您新增的每個變數，對應您要取得之變數的名稱。</td>
+        <td>針對您想要模組取得的每個變數，按一下<b>新增專案</b>並輸入變數名稱。</td>
     </tr>
 </table>
 
->[!INFO]
->
->**範例：**&#x200B;下列是[!UICONTROL Set]/[!UICONTROL Get (multiple) variable(s)]模組的可能用法：
->
->* 儲存計算值以供稍後使用，即使是在不同的路由中。 當值用於多個模組且計算值的公式過於複雜時，這個用法很有用。
->* 對公式進行偵錯。 如果模組中使用的公式似乎未提供正確的結果，請複製公式並將其貼到您在相關模組之前插入的[!UICONTROL Set Variable]模組中。 在[!UICONTROL Set Variable]模組之後中斷模組連線，並執行情境。 驗證[!UICONTROL Set Variable]模組的輸出、調整或簡化公式、再次執行案例，並持續執行，直到問題解決為止。
+>[!BEGINSHADEBOX]
+
+**範例：**&#x200B;下列是[!UICONTROL Set]/[!UICONTROL Get (multiple) variable(s)]模組的可能用法：
+
+* 儲存計算值以供稍後使用，即使是在不同的路由中。 當值用於多個模組且計算值的公式過於複雜時，這個用法很有用。
+* 對公式進行偵錯。 如果模組中使用的公式似乎未提供正確的結果，請複製公式並將其貼到您在相關模組之前插入的[!UICONTROL Set Variable]模組中。 在[!UICONTROL Set Variable]模組之後中斷模組連線，並執行情境。 驗證[!UICONTROL Set Variable]模組的輸出、調整或簡化公式、再次執行案例，並持續執行，直到問題解決為止。
+
+>[!ENDSHADEBOX]
 
 
 #### [!UICONTROL Get Variable]
 
 此模組會擷取先前由[!UICONTROL Set Variable]或[!UICONTROL Set Multiple Variables]模組建立的值。
 
-此模組可讀取在情境中任何位置設定的變數，即使變數設定在與[!UICONTROL Get Variable]模組所在不同的路由中。 唯一的要求是[!UICONTROL Tools] > [!UICONTROL Set Variable]或[!UICONTROL Tools] > [!UICONTROL Set Multiple Variables]模組必須在[!UICONTROL Tools] > [!UICONTROL Get Variable]模組之前執行。 如需模組執行順序的詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)中的[路由器模組。
+此模組可讀取在情境中任何位置設定的變數，即使變數設定在與[!UICONTROL Get Variable]模組所在不同的路由中。 唯一的要求是[!UICONTROL Tools] > [!UICONTROL Set Variable]或[!UICONTROL Tools] > [!UICONTROL Set Multiple Variables]模組必須在[!UICONTROL Tools] > [!UICONTROL Get Variable]模組之前執行。 如需模組執行順序的詳細資訊，請參閱[新增路由器模組並設定路由](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -137,7 +135,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Increment function]
 
-此模組會傳回每個模組作業後以1為單位遞增的值。
+此模組會在每個週期或每個案例執行後，傳回以1為單位遞增的值。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,7 +143,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reset a value]</td> 
-   <td> <p>選取您想要模組增加值的時機。 </p> 
+   <td> <p>選取您希望模組重設值時。 這是您希望值在第一個值處重新開始的時間。</p> 
     <ul> 
      <li>[!UICONTROL After one cycle]</li> 
      <li>[!UICONTROL After one scenario run]</li> 
@@ -155,27 +153,30 @@ ht-degree: 0%
  </tbody> 
 </table>
 
->[!INFO]
->
->**範例：**
->
->此模組的用途之一，是實作任務、銷售機會、電子郵件等的「循環配置資源」指派給群組中的使用者。 演演算法會以某種合理的順序從群組選擇受指派人，通常會從清單的頂端移至底端。 當演演算法到達清單結尾時，它會將下一個指派指派給位於清單頂端的使用者，並繼續進行清單下方的指派。
->
->下列案例會在每個奇數位案例執行後向第一個收件者傳送電子郵件，並在每個偶數位案例執行後向第二個收件者傳送電子郵件。
->
->![](/help/workfront-fusion/references/apps-and-modules/assets/example-email-350x246.gif)
->
->1. 若要建立此情境：
->1. 將模組的&#x200B;**[!UICONTROL Reset a value]**&#x200B;欄位設定為「永不」。
->1. 設定奇數的路由。 使用等於`1`的模數數學函式設定此路由的篩選器：
->
->   ![](/help/workfront-fusion/references/apps-and-modules/assets/odd-350x459.png)
->
->  **附註**：別忘了將[!UICONTROL Equal to]運運算元從預設的[!UICONTROL Text]運運算元變更為[!UICONTROL Numeric]運運算元。
->
->1. 使用等於`0`的模數數學函式設定偶數值的路徑：
->
->增量函式會在每次案例執行時新增一次。 篩選器會檢查增量並根據其值採取行動，確保電子郵件平均散發。
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+此模組可用於對群組中的使用者實作任務、銷售機會、電子郵件等的「循環配置資源」指派。 演演算法會以某種合理的順序從群組選擇受指派人，通常會從清單的頂端移至底端。 當演演算法到達清單結尾時，它會將下一個指派指派給位於清單頂端的使用者，並繼續進行清單下方的指派。
+
+下列案例會在每個奇數位案例執行後向第一個收件者傳送電子郵件，並在每個偶數位案例執行後向第二個收件者傳送電子郵件。
+
+![](/help/workfront-fusion/references/apps-and-modules/assets/example-email.png)
+
+若要建立此情境：
+
+1. 將模組的&#x200B;**[!UICONTROL Reset a value]**&#x200B;欄位設定為「永不」。
+1. 設定奇數的路由。 使用等於`1`的模數數學函式設定此路由的篩選器：
+
+   ![](/help/workfront-fusion/references/apps-and-modules/assets/odd.png)
+
+**附註**：別忘了將[!UICONTROL Equal to]運運算元從預設的[!UICONTROL Text]運運算元變更為[!UICONTROL Numeric]運運算元。
+
+1. 使用等於`0`的模數數學函式設定偶數值的路徑：
+
+增量函式會在每次案例執行時新增一次。 篩選器會檢查增量並根據其值採取行動，確保電子郵件平均散發。
+
+>[!ENDSHADEBOX]
 
 #### [!UICONTROL Set Multiple Variables]
 
@@ -187,21 +188,13 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Variables]</td> 
-   <td>新增您想要模組設定的變數。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Variable name] </td> 
-   <td>針對每個變數，輸入變數名稱。 在其他模組中對應變數時，會顯示此名稱。 </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Variable value] </td> 
-   <td>針對每個變數，輸入變數的值。 </td> 
+   <td>針對您要新增的每個變數，按一下<b>新增專案</b>並輸入變數的名稱和值。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Variable lifetime] </td> 
    <td> <p>選取您想要變數維持有效期（保持相同值）的時間。</p> 
     <ul> 
-     <li><strong>[!UICONTROL One cycle]</strong>：變數僅對一個週期有效。 在收到一個案例執行中的多個Webhook時很有用（更多Webhook =更多週期）。 </li> 
+     <li><strong>[!UICONTROL One cycle]</strong>：變數僅對一個週期有效。 在收到一個案例執行中的多個Webhook時，這會很有用，因為更多Webhook會建立更多週期。 </li> 
      <li><strong>[!UICONTROL One execution]</strong>：變數對一個案例執行有效。 一個執行可以包含一個或多個週期。</li> 
     </ul> </td> 
   </tr> 
@@ -254,7 +247,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->如果您想要將流量暫停更長的一段時間，我們建議將您的案例分割為兩個案例：
+>如果您想要將流量暫停更長的一段時間，建議您將案例分割為兩個案例：
 >
 >* 第一個案例會包含暫停前的零件。
 >* 第二個案例會包含其後的零件。
@@ -358,19 +351,21 @@ ht-degree: 0%
    <td> <p>定義包含一或多個對應專案的運算式。 彙總資料會以相同運算式的值分隔在「群組」底下。 每個群組都會輸出為個別的組合，其中包含含運算式和彙總文字的索引鍵。 如此一來，您便可將索引鍵用作後續模組中的篩選條件。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Text]</td> 
-   <td> <p> 輸入或對應您要模組彙總的文字。</p> </td> 
-  </tr> 
-  <tr> 
    <td>[!UICONTROL Stop processing after an empty aggregation]</td> 
    <td>選取此選項可在沒有結果時停止情境。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Text]</td> 
+   <td> <p> 輸入或對應您要模組彙總的文字。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!INFO]
->
->**範例：**&#x200B;您可以使用文字彙總將更多值（例如客戶名稱或附註）插入單一套件組合中，並傳送包含電子郵件內文或電子郵件主旨中所有值的電子郵件。
+>[!BEGINSHADEBOX]
+
+**範例：**&#x200B;您可以使用文字彙總將更多值（例如客戶名稱或附註）插入單一套件組合中，並傳送包含電子郵件內文或電子郵件主旨中所有值的電子郵件。
+
+>[!ENDSHADEBOX]
 
 ### 轉換器
 
@@ -380,7 +375,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Compose a string]
 
-將任何值轉換為字串資料型別（文字）。 例如，當對應（如二進位資料）時，可讓對應更容易。
+將任何值轉換為字串資料型別（文字）。 這有助於進行對應（例如二進位資料）時輕鬆進行對應。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -443,7 +438,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL Cases] </td> 
-   <td> <p>如果輸入包含輸入至[!UICONTROL Pattern]欄位的值，則會傳回輸入至[!UICONTROL Output]欄位的值。</p> <p>如果輸入不符合您在[!UICONTROL Pattern]欄位中設定的任何值，則會發生下列其中一種情況：</p> 
+   <td> 針對您想要新增的每個案例，按一下<b>新增專案</b>並輸入專案的模式和輸出。 <p>如果輸入包含輸入至[!UICONTROL Pattern]欄位的值，則會傳回輸入至[!UICONTROL Output]欄位的值。</p> <p>如果輸入不符合您在[!UICONTROL Pattern]欄位中設定的任何值，則會發生下列其中一種情況：</p> 
     <ul> 
      <li>傳回[!UICONTROL Else]欄位的值</li> 
      <li>如果[!UICONTROL Else]欄位中沒有值，則不會傳回任何輸出。</li> 

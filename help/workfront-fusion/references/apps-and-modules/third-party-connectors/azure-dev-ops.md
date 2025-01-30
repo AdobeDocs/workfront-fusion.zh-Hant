@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: c0919a9a-ce99-485c-9627-45353741f6d8
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 66378d6f937f3b3b173447bd36fdef991d9956af
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto">
@@ -28,35 +30,37 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -104,6 +108,7 @@ Azure DevOps聯結器使用下列專案：
         </tr>
     </table>
 
+1. 若要輸入Azure DevOps應用程式ID或使用者端密碼，請按一下<b>顯示進階設定</b>，然後在開啟的欄位中輸入這些設定。
 1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;完成連線的設定並繼續建立您的情境。
 
 ## [!UICONTROL Azure DevOps]模組及其欄位
@@ -134,7 +139,7 @@ Azure DevOps聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td> <p>選取或新增模組的webhook。</p> <!--<p>For more information on webhooks in trigger modules, see <a href="For instructions, see [Instant triggers (webhooks) in Adobe Workfront Fusion](/help/workfront-fusion/)." class="MCXref xref">Instant triggers (webhooks) in [!DNL Adobe Workfront Fusion]</a>.</p> <p>For information on how to create a webhook, see <a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md" class="MCXref xref">Webhooks</a>.--></p> </td> 
+   <td> <p>選取或新增模組的webhook。</p> <p>如需有關觸發程式模組中webhook的詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/webhooks-reference.md" class="MCXref xref">即時觸發程式(webhook)</a>。</p> <p>如需如何建立Webhook的詳細資訊，請參閱<a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md" class="MCXref xref">Webhook</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,54 +153,6 @@ Azure DevOps聯結器使用下列專案：
 * [讀取記錄](#read-record)
 * [更新工作專案](#update-a-work-item)
 * [[!UICONTROL Upload an attachment]](#upload-an-attachment)
-
-#### [!UICONTROL Custom API Call]
-
-此動作模組可讓您對[!DNL Azure DevOps] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Azure DevOps]模組無法完成的資料流程自動化。
-
-當您設定此模組時，會顯示下列欄位。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Azure DevOps]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">將[!DNL Azure DevOps]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Base URL]</td> 
-   <td> <p>選取或對應您用來連線至[!DNL Azure DevOps]帳戶的基本URL</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Relative URL]</td> 
-   <td> <p>輸入此API呼叫要連線的相對URL。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL API Version]</td> 
-   <td>選取或對應您要連線至此API呼叫的[!DNL Azure DevOps] API版本。 如果未選取版本，[!DNL Workfront Fusion]會連線至[!DNL Azure DevOps] API 5.1版。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 #### [!UICONTROL Create a record]
 
@@ -221,15 +178,63 @@ Azure DevOps聯結器使用下列專案：
        <li> <p><strong>[!UICONTROL Description]</strong>：輸入或對應新專案的說明。 </p> </li> 
        <li> <p><strong>[!UICONTROL Visibility]</strong>：選取您要讓專案為公開或私人。 使用者必須登入您的組織，且必須已被授予專案的存取權，才能與私人專案互動。 未登入您組織的使用者可看見公用專案。</p> </li> 
        <li> <p><strong>[!UICONTROL Version control]</strong>：選取您要專案使用[!DNL Git]或[!UICONTROL Team Foundation Version Control (TFCV)]進行版本控制。</p> </li> 
-       <li> <p><strong>[!UICONTROL Work item process]</strong>：選取您要用於專案的工作程式。 選項為[!UICONTROL Basic]、[!UICONTROL Scrum]、[!UICONTROL Capability Maturity Model Integration (CMMI)]和[!UICONTROL Agile]。</p> <p>如需[!DNL Azure DevOps]處理程式的詳細資訊，請參閱[!DNL Azure DevOps]檔案中的<a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process">選擇處理序</a>。</p> </li> 
+       <li> <p><strong>[!UICONTROL Work item process]</strong>：選取您要用於專案的工作程式。 選項為[!UICONTROL Basic]、[!UICONTROL Scrum]、[!UICONTROL Capability Maturity Model Integration (CMMI)]和[!UICONTROL Agile]。</p> <p>如需[!DNL Azure DevOps]流程的詳細資訊，請參閱[!DNL Azure DevOps]檔案中的<a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process">預設流程與流程範本</a>。</p> </li> 
       </ul> </li> 
      <li> <p><strong>[!UICONTROL Work item]</strong> </p> <p>填寫下列欄位：</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Project]</strong>：選取您要建立工作專案的專案。</p> </li> 
        <li> <p><strong>[!UICONTROL Work item type]</strong>：選取您要建立的工作專案型別。</p> </li> 
-       <li> <p><strong>[!UICONTROL Other fields]</strong>：在這些欄位中，輸入您希望工作專案對於指定屬性具有的值。 可用欄位取決於工作專案型別。</p> </li> 
+       <li> <p><strong>[!UICONTROL Other fields]</strong>：在這些欄位中，輸入您希望工作專案對指定屬性具有的值。 可用欄位取決於工作專案型別。</p> </li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Custom API Call]
+
+此動作模組可讓您對[!DNL Azure DevOps] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Azure DevOps]模組無法完成的資料流程自動化。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Azure DevOps]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">將[!DNL Azure DevOps]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Base URL]</td> 
+   <td> <p>選取或對應您用來連線至[!DNL Azure DevOps]帳戶的基本URL</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Relative URL]</td> 
+   <td> <p>輸入此API呼叫要連線的相對URL。</p> <p><b>範例： </b><code>{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL API Version]</td> 
+   <td>選取或對應您要連線至此API呼叫的[!DNL Azure DevOps] API版本。 如果未選取版本，[!DNL Workfront Fusion]會連線至[!DNL Azure DevOps] API 5.1版。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,10 +264,6 @@ Azure DevOps聯結器使用下列專案：
 
 此動作模組連結兩個工作專案並定義它們之間的關係。
 
-模組會傳回主要工作專案的ID及任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
-當您設定此模組時，會顯示下列欄位。
-
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -281,7 +282,7 @@ Azure DevOps聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Link Type]</td> 
-   <td> <p>定義您要連結之工作專案之間的關係。</p> <p>如需詳細資訊，請參閱[!UICONTROL Azure DevOps]檔案中的<a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">連結型別參考</a>。</p> </td> 
+   <td> <p>定義您要連結之工作專案之間的關係。</p> <p>如需詳細資訊，請參閱[!UICONTROL Azure DevOps]檔案中的<a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">連結型別</a>參考指南。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comment]</td> 

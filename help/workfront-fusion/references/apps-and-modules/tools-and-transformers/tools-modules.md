@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion Tools] 區段包含數個可增強�
 author: Becky
 feature: Workfront Fusion
 exl-id: d9425f5b-4f4a-42da-9aca-1c1783be5fa7
-source-git-commit: 7d5188d1ee4e40f74c750e3ce3dcbd0e08bc6606
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2000'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront Fusion Tools]區段包含數個可增強您的情境的實用模組。
 
-可從應用程式清單或熒幕底部的[!UICONTROL Tools]圖示![](/help/workfront-fusion/references/apps-and-modules/assets/tools-icon-small.png)取得[!UICONTROL Tools]模組。
+可從應用程式清單或熒幕底部的[!UICONTROL Tools]圖示![工具圖示](/help/workfront-fusion/references/apps-and-modules/assets/tools-icon-small.png)取得[!UICONTROL Tools]模組。
 
 ## 存取需求
 
@@ -161,14 +161,14 @@ ht-degree: 0%
 
 下列案例會在每個奇數位案例執行後向第一個收件者傳送電子郵件，並在每個偶數位案例執行後向第二個收件者傳送電子郵件。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/example-email.png)
+![範例電子郵件](/help/workfront-fusion/references/apps-and-modules/assets/example-email.png)
 
 若要建立此情境：
 
 1. 將模組的&#x200B;**[!UICONTROL Reset a value]**&#x200B;欄位設定為「永不」。
 1. 設定奇數的路由。 使用等於`1`的模數數學函式設定此路由的篩選器：
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/odd.png)
+   ![奇數](/help/workfront-fusion/references/apps-and-modules/assets/odd.png)
 
 **附註**：別忘了將[!UICONTROL Equal to]運運算元從預設的[!UICONTROL Text]運運算元變更為[!UICONTROL Numeric]運運算元。
 

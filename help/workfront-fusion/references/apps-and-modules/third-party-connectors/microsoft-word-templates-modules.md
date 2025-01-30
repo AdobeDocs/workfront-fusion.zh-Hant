@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Micros
 author: Becky
 feature: Workfront Fusion
 exl-id: a5ba5634-226b-4886-a4f1-3a14948c1605
-source-git-commit: 9e560995ff9f58a76bbecc521f7d2eef9d47fa48
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,11 @@ ht-degree: 0%
 
 例如，您可以使用此[!DNL Microsoft Word]範本：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-before-filled-350x62.png)
+](/help/workfront-fusion/references/apps-and-modules/assets/word-template-before-filled-350x62.png)之前的![Word範本
 
 若要建立此檔案：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-exampled-filled-350x85.png)
+![已填入Word範本](/help/workfront-fusion/references/apps-and-modules/assets/word-template-exampled-filled-350x85.png)
 
 ## 關於值標籤
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 若要這麼做，您需設定模組，如下所示：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-simple-value-350x286.png)
+![Word範本簡單值](/help/workfront-fusion/references/apps-and-modules/assets/word-template-simple-value-350x286.png)
 
 ### 條件標籤 {#condition-tag}
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 若要這麼做，您需設定模組，如下所示：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-conditional-350x501.png)
+![條件式Word範本](/help/workfront-fusion/references/apps-and-modules/assets/word-template-conditional-350x501.png)
 
 在檔案中，電話號碼會顯示如下：
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 若要這麼做，您需設定模組，如下所示：
 
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-fill-out-a-document-350x732.png)
+![填寫檔案](/help/workfront-fusion/references/apps-and-modules/assets/word-template-fill-out-a-document-350x732.png)
 
 此模組將建立以下檔案：
 

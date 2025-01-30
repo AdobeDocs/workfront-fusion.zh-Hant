@@ -4,10 +4,10 @@ description: 本文說明為什麼作用中或停用案例在不同情況下很�
 author: Becky
 feature: Workfront Fusion
 exl-id: ecfcab45-5492-4e20-af8d-63ec9d233046
-source-git-commit: d79f8ac6d678a874e05e606d7b9ff7c812d93db1
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 2%
+source-wordcount: '303'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 ## 啟用或停用案例：
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png)，然後按一下情境以開啟它。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]** ![情境圖示](assets/scenarios-icon.png)，然後按一下情境以開啟它。
 1. 按一下「情境詳細資料」頁面右上角的開啟/關閉切換按鈕。
 
    ![詳細資料啟用切換](assets/active-toggle-details-page.png)
@@ -96,4 +96,4 @@ ht-degree: 2%
 
    按一下圖表以輸入案例編輯器，然後按一下視窗左下角的&#x200B;**[!UICONTROL On/Off]**&#x200B;切換按鈕。
 
-   ![](assets/on-off-switch.jpg)
+   ![開啟關閉開關](assets/on-off-switch.jpg)

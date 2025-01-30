@@ -4,9 +4,9 @@ description: 彙總器模組是一種模組，旨在將數個資料套件合併�
 author: Becky
 feature: Workfront Fusion
 exl-id: 93cde0d0-4013-463a-b19c-d58180632739
-source-git-commit: b7c511c51a2f27292cd0cb754673515e67c8a397
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 下圖顯示[!UICONTROL Aggregator]模組的典型設定：
 
-![](assets/array-aggregator.png)
+![陣列彙總](assets/array-aggregator.png)
 
 <table style="table-layout:auto">
  <col> 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 此範例案例顯示如何壓縮所有電子郵件附件，以及將ZIP上傳至[!DNL Dropbox]。
 
-![](assets/dropbox-archive.png)
+![Dropbox封存範例](assets/dropbox-archive.png)
 
 下列案例顯示如何：
 
@@ -129,4 +129,4 @@ ht-degree: 0%
 
 以下是[!UICONTROL Archive] > [!UICONTROL Create an archive]彙總程式的範例設定：
 
-![](assets/archive-create-an-archive.png)
+![建立封存](assets/archive-create-an-archive.png)

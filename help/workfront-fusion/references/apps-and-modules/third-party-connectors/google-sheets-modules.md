@@ -4,9 +4,9 @@ description: 為了使用 [!DNL Google Sheets] 搭配 [!DNL Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 80965570-2937-4ac8-97c0-54f7a813ec50
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '3366'
+source-wordcount: '3372'
 ht-degree: 0%
 
 ---
@@ -726,7 +726,7 @@ Google Sheets聯結器使用下列專案：
 1. 執行情境。
 1. 在Google工作表中，從主功能表列選擇&#x200B;**[!UICONTROL Insert]** > **[!UICONTROL Drawing]**...。
 
-1. 在[!UICONTROL Drawing]視窗中，按一下視窗頂端附近的&#x200B;**[!UICONTROL Text box]**&#x200B;圖示![](/help/workfront-fusion/references/apps-and-modules/assets/text-box.png)。
+1. 在[!UICONTROL Drawing]視窗中，按一下視窗頂端附近的&#x200B;**[!UICONTROL Text box]**&#x200B;圖示![文字方塊](/help/workfront-fusion/references/apps-and-modules/assets/text-box.png)。
 1. 設計按鈕並按一下右上角的&#x200B;**[!UICONTROL Save and Close]**&#x200B;按鈕：
 1. 此按鈕將會放置在您的工作表中。 按一下按鈕右上角的三個垂直點：
 1. 選擇&#x200B;**[!UICONTROL Assign script..]。功能表中的**。
@@ -750,7 +750,7 @@ Google Sheets聯結器使用下列專案：
 
 如果您將「日期」值儲存在沒有任何格式的試算表中，該值會在試算表中以ISO 8601格式顯示為文字。 但是，使用日期的[!DNL Google Sheets]公式或函式若不瞭解此文字（範例：公式`=A1+10`），將會顯示下列錯誤：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/mceclip6-350x87.png)
+![錯誤](/help/workfront-fusion/references/apps-and-modules/assets/mceclip6-350x87.png)
 
 為協助讓[!DNL Google Sheets]瞭解日期，請使用[[!UICONTROL formatDate] (date； format； [timezone])](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md#formatda)函式將其格式化。 傳遞給函式做為第二個引數的正確格式，取決於試算表的地區設定。
 
@@ -764,7 +764,7 @@ Google Sheets聯結器使用下列專案：
 
 **範例：**&#x200B;美國地區設定使用`MM/DD/YYYY HH:mm:ss`格式：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/locale-time-350x83.png)
+![地區設定時間公式](/help/workfront-fusion/references/apps-and-modules/assets/locale-time-350x83.png)
 
 ## 正在利用[!DNL Google Sheets]功能
 

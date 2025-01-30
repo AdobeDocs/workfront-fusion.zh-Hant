@@ -4,9 +4,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: e544768e-7023-473f-8d51-631b04183743
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)中將資訊從一個模組對應到另一個模組。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 <table style="table-layout:auto"> 
  <col> 

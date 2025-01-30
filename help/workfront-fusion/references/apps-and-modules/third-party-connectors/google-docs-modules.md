@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion [!DNL Google Docs] 模組可讓您監視、�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: cd44250d-c2cd-46b2-8773-15b30472a8d8
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '3215'
+source-wordcount: '3221'
 ht-degree: 0%
 
 ---
@@ -609,11 +609,11 @@ Google Docs聯結器會使用以下專案：
 
 [!UICONTROL GET]
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/api-call-example.png)
+![API呼叫範例](/help/workfront-fusion/references/apps-and-modules/assets/api-call-example.png)
 
 在[!UICONTROL Bundle] > [!UICONTROL Body]下的模組輸出中可找到擷取檔案的詳細資料。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/api-output.png)
+![API呼叫輸出](/help/workfront-fusion/references/apps-and-modules/assets/api-output.png)
 
 #### [!UICONTROL Make All Links in a Document Clickable]
 

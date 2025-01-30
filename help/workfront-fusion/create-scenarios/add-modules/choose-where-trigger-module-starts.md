@@ -4,9 +4,9 @@ description: 有些觸發程式模組可讓您選取要開始擷取套件的第�
 author: Becky
 feature: Workfront Fusion
 exl-id: 83628fa5-82e2-4f67-bfed-70a4c3c19f7f
-source-git-commit: 9ec972ef7677874965d6b4cb646e87c0b2240214
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 
    以滑鼠右鍵按一下觸發程式模組的圖示，然後選取&#x200B;**選擇開始位置**。
 
-   ![](assets/choose-where-to-start.png)
+   ![選擇開始位置](assets/choose-where-to-start.png)
 
 1. 在出現的&#x200B;**[!UICONTROL Choose where to start]**&#x200B;方塊中選取選項。
 

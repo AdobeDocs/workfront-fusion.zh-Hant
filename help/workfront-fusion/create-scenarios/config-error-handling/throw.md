@@ -8,9 +8,9 @@ description: 在某些情況下，您可能會想要強制停止案例執行，�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4bf2a6c7-16b2-4545-9adf-be3947a7017d
-source-git-commit: 0668441df8405610488e3e33658635e4cc7db270
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -85,4 +85,4 @@ ht-degree: 1%
 
 下列範例顯示[!DNL Rollback]指示詞的使用：
 
-![](assets/rollback-directive.png)
+![Rollback指令](assets/rollback-directive.png)

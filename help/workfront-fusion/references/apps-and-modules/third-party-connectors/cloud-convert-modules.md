@@ -4,9 +4,9 @@ description: CloudConvert模組
 author: Becky
 feature: Workfront Fusion
 exl-id: 52c4d18a-8bee-44d6-9a2c-cc9e157e1dde
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '2486'
+source-wordcount: '2498'
 ht-degree: 0%
 
 ---
@@ -541,7 +541,7 @@ CloudConvert聯結器會使用以下專案：
 >* 如果使用陣列彙總（例如，您有許多不同格式的檔案要轉換），請使用[!UICONTROL Add a task]對話方塊中的&#x200B;**[!UICONTROL I don't know the input format]**&#x200B;選項。 否則會傳回錯誤。
 >* 連結工作內的工作（名稱>輸入、名稱>輸入……）：
 >
->  ![](/help/workfront-fusion/references/apps-and-modules/assets/linking-name-across-jobs-350x808.png)>
+>  跨工作連結![名稱](/help/workfront-fusion/references/apps-and-modules/assets/linking-name-across-jobs-350x808.png)>
 
 ### 任務
 
@@ -745,13 +745,13 @@ URL： `/v2/tasks`
 
 方法： `GET`
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-input.png)
+![API範例輸入](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-input.png)
 
 在[!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL data]下模組的輸出中找到搜尋的相符專案。
 
 在我們的範例中，傳回6項工作：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-output.png)
+![API範例輸出](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-output.png)
 
 ## 疑難排解 {#troubleshooting}
 
@@ -817,6 +817,6 @@ URL： `/v2/tasks`
 >1. 開啟模組的設定。
 >1. 設定模組，如下所示：
 >
->   ![](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-mp4-example.png)
+>   ![CloudConvert範例](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-mp4-example.png)
 >
 >1. 確定在「轉換及引擎特定選項」欄位中包含所有設定：針對步驟5中的每個設定，找出步驟13中的對應引數及其對應值。

@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion]中的案例詳細資料
 author: Becky
 feature: Workfront Fusion
 exl-id: a6d07ed9-aa55-4993-9f78-7e691aa61049
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '539'
 ht-degree: 1%
 
 ---
@@ -77,11 +77,11 @@ ht-degree: 1%
 
    或
 
-   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
+   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
 
 1. 在顯示的頁面上，您可以檢閱下表列出的元素：
 
-   ![](assets/scenario-detail-350x207.png)
+   ![案例詳細資料](assets/scenario-detail-350x207.png)
 
    <table style="table-layout:auto"> 
     <col> 

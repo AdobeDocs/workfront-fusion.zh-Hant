@@ -4,9 +4,9 @@ description: 資料存放區（類似於資料庫或簡單表格）可以儲存�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8bfa3201-45db-49d7-985d-9c324acd56b6
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1215'
 ht-degree: 1%
 
 ---
@@ -197,8 +197,8 @@ Select或Prime套件上的Fusion執行個體會收到：—>
 
 資料存放區的屬性包含資料存放區使用的資料結構，以及資料存放區的大小。
 
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Data stores]** ![](assets/data-store-icon.png)以開啟[!UICONTROL Data stores]區域。
-1. 按一下您要編輯的資料存放區旁的&#x200B;**[!UICONTROL Edit]** ![](assets/data-store-edit.png)。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Data stores]** ![資料存放區圖示](assets/data-store-icon.png)以開啟[!UICONTROL Data stores]區域。
+1. 按一下您要編輯的資料存放區旁的&#x200B;**[!UICONTROL Edit]** ![編輯資料存放區](assets/data-store-edit.png)。
 1. （選擇性）如果要將此資料存放區使用的資料結構變更為其他現有的資料結構，請從&#x200B;**[!UICONTROL Data structure]**&#x200B;下拉式清單中選取它。
 
    或
@@ -210,7 +210,7 @@ Select或Prime套件上的Fusion執行個體會收到：—>
 
 ### 編輯資料存放區的內容
 
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Data Store]**&#x200B;圖示![](assets/data-store-icon.png)以開啟[!UICONTROL Data Store]區域。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Data Store]**&#x200B;圖示![資料存放區圖示](assets/data-store-icon.png)以開啟[!UICONTROL Data Store]區域。
 1. 按一下您要編輯的資料存放區旁的&#x200B;**[!UICONTROL Browse]**。
 1. （選用）將欄拖曳至所需位置以重新排序。
 1. （選擇性）按一下單一儲存格中的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示，然後輸入所要的值，以將[!UICONTROL Edit]儲存格。

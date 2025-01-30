@@ -4,9 +4,9 @@ description: 許多服務都會提供Webhook，以便在服務發生特定變更
 author: Becky
 feature: Workfront Fusion
 exl-id: 5bfda2b2-dc1c-4ff6-9236-b480bfda2e58
-source-git-commit: 4c0f050e40d28f236d6086e7dccea53d49252aa8
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 許多服務都會提供Webhook，以便在服務發生特定變更（事件）時立即傳送通知。 若要處理這些事件，建議您使用立即觸發程式。 即時觸發程式會在指定聯結器的模組清單中顯示`Instant`標籤。
 
-![](assets/instant.png)
+![即時](assets/instant.png)
 
 >[!TIP]
 >
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 當您設定立即觸發程式時，系統會提示您選取它何時執行。
 
-![](assets/schedule-setting.png)
+![排程設定](assets/schedule-setting.png)
 
 選取`Immediately`，以便在[!DNL Workfront Fusion]收到來自服務的新事件時立即執行案例。 這些事件會立即傳送到佇列中，然後在案例中一次處理一個，順序與接收資料的順序相同。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 如果您使用[!UICONTROL Immediately]以外的任何其他排程設定，情境會以您指定的間隔執行。 由於間隔期間可在佇列中收集到數個webhook，因此建議將[!UICONTROL Maximum number of cycles]選項設定為高於預設值1的值，以便在一個案例執行中處理更多webhook：
 
-1. 按一下情境底部的[!UICONTROL Scenario settings]圖示![](assets/scenario-settings-icon.png)。
+1. 按一下案例底部的[!UICONTROL Scenario settings]圖示![案例設定圖示](assets/scenario-settings-icon.png)。
 1. 在出現的&#x200B;**[!UICONTROL Scenario settings]**&#x200B;面板中，在&#x200B;**[!UICONTROL Max number of cycles]**&#x200B;欄位中輸入數字，以表示每次執行案例時要從佇列中執行的事件數。
 
 佇列中剩餘的事件將在下次執行案例時處理，最多可達在「最大週期數」欄位中設定的數量。

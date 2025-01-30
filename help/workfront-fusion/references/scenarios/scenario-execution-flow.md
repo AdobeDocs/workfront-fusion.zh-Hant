@@ -5,9 +5,9 @@ description: 本文說明情境如何執行以及資料如何流經情境。 本
 author: Becky
 feature: Workfront Fusion
 exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
-source-git-commit: fe503c27bc4e3beb5645f0efa7c2097297f19190
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 如果第一個模組傳回束，則束會通過案例的其餘部分。 在此範例中，該套件組合會移至第二個模組，此模組會將請求轉換為專案。
 
-![](assets/example-execution-flow-wf-only.png)
+![Workfront案例的執行流程](assets/example-execution-flow-wf-only.png)
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 如果傳回束，則束會通過場景的其餘部分。 在此範例中，此案例的其餘部分包含secondmodule，它會上傳套件組合至[!DNL Dropbox]資料夾。
 
-![](assets/example-execution-flow-wf-dropbox.png)
+![整合情境的執行流程](assets/example-execution-flow-wf-dropbox.png)
 
 如果第一個模組傳回多個組合，則在上傳第二個組合之前，會將第一個組合上傳至[!DNL Dropbox]。 然後上傳第二個套件，再上傳第三個套件，依此類推。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 案例執行完成後，每個模組都會顯示一個圖示，顯示已執行的運算元。 您可以按一下此圖示，以顯示流程中每個步驟之已處理套裝的詳細資訊。 您可以檢視已使用哪些模組設定，以及每個模組傳回哪些組合。
 
-![](assets/Info-processed-bundles.png)
+![已處理的組合](assets/Info-processed-bundles.png)
 
 在此範例中，模組收到如下所示的輸入資訊：
 

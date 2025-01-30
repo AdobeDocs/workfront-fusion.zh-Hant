@@ -4,9 +4,9 @@ description: '[!UICONTROL Incomplete executions]資料夾儲存因錯誤而未�
 author: Becky
 feature: Workfront Fusion
 exl-id: 974b32b4-d86a-48cd-a8d4-1ae2cf309b9b
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    或
 
-   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
+   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
 
 1. 按一下情境名稱附近的&#x200B;**歷程記錄**。
    ![歷程記錄標籤](assets/history-tab.png)
@@ -115,7 +115,7 @@ ht-degree: 0%
 
    或
 
-   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
+   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
 
 1. 按一下右側面板中的&#x200B;**[!UICONTROL History]**&#x200B;索引標籤。
 1. （選用）如需所選取案例執行的詳細資訊，請按一下右側面板中的執行。
@@ -133,7 +133,7 @@ ht-degree: 0%
 您可以篩選執行歷史記錄，以僅檢視具有指定值的執行。
 
 1. 開啟情境的全頁記錄，如本文中[在[!UICONTROL History]索引標籤](#view-scenario-history-on-the-history-tab)上檢視情境執行記錄中所述。
-1. 按一下要作為篩選依據之欄標題中的[!UICONTROL filter]圖示![](assets/fusion-scenario-filter-icon.png)。
+1. 按一下要作為篩選依據之欄標題中的[!UICONTROL filter]圖示![情境篩選圖示](assets/fusion-scenario-filter-icon.png)。
 1. 在[!UICONTROL filter]對話方塊中，輸入您要用來篩選的值。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 

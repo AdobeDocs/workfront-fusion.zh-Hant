@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] HubSpot CRM模組可讓您監視 [!
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5661'
 ht-degree: 0%
 
 ---
@@ -1969,13 +1969,13 @@ This action module associates two CRM objects.-->
 >
 >**方法**： `GET`
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-config.png)
+>![Hubspot API組態](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-config.png)
 >
 >在[!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL contacts]下模組的輸出中找到搜尋的相符專案。
 >
 >在我們的範例中，傳回3個連絡人：
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-output.png)
+>![Hubspot API輸出](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-output.png)
 
 +++
 

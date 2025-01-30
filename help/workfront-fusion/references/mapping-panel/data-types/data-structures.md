@@ -4,9 +4,9 @@ description: 資料結構是一份檔案，詳細說明要傳輸至Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 93abf8a5-a3a1-448e-834b-1cc81b88036b
-source-git-commit: b7c511c51a2f27292cd0cb754673515e67c8a397
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 1%
 
 ---
@@ -24,4 +24,4 @@ ht-degree: 1%
 
 資料結構並不一定都必須建立。 使用我們的內建產生器中的範本，可以更輕鬆進行。 藉由提供資料範例，產生器會自動根據您輸入的資料範例建立資料結構。 之後可以手動修改建立的資料結構。
 
-![](assets/data-structure-generator-350x341.jpg)
+![資料結構產生器](assets/data-structure-generator-350x341.jpg)

@@ -4,9 +4,9 @@ description: 您可以在 [!DNL Adobe] Workfront Fusion中建立新的情境範�
 author: Becky
 feature: Workfront Fusion
 exl-id: 9cb9bd04-e9ae-4162-a1b9-d71566582b7a
-source-git-commit: 7acc27ab2ce80b964b7f9fbb302816aa75964ab5
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -71,16 +71,16 @@ ht-degree: 0%
 
 ### 建立範本
 
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Templates]** ![](assets/templates-icon.png)。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Templates]** ![範本圖示](assets/templates-icon.png)。
 1. 按一下右上角的&#x200B;**[!UICONTROL Create a new template]**。
 1. （選擇性）取代左上角的預設&#x200B;**[!UICONTROL New template name]**&#x200B;以重新命名範本。
-1. （選擇性）若要變更範本的語言，請按一下&#x200B;**[!UICONTROL Set up a template]** ![](assets/scenario-settings-icon.png)，然後從[語言]下拉式清單中選取語言。
+1. （選擇性）若要變更範本的語言，請按一下&#x200B;**[!UICONTROL Set up a template]** ![案例設定圖示](assets/scenario-settings-icon.png)，然後從[語言]下拉式清單中選取語言。
 
    >[!IMPORTANT]
    >
    >「語言」選項對應於系統設定中可用的語言，並且只與公用範本的名稱及其說明有關。 一旦範本已儲存，您就無法變更範本語言。
 
-1. （選擇性）若要輸入範本的說明，請按一下&#x200B;**[!UICONTROL Set up a template]** ![](assets/scenario-settings-icon.png)並輸入說明。
+1. （選擇性）若要輸入範本的說明，請按一下&#x200B;**[!UICONTROL Set up a template]** ![案例設定圖示](assets/scenario-settings-icon.png)並輸入說明。
 1. 使用與將模組新增至情境相同的程式，新增應用程式、模組及工具。
 
    如需指示，請參閱[新增模組](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md)下的文章。
@@ -94,7 +94,7 @@ ht-degree: 0%
    >如果您的範本包含需要新增連線、憑證或其他隱私權敏感資訊的模組，則此資訊不會與範本使用者共用。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL Run once]**&#x200B;以測試您的範本。
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![](assets/save-icon.png)以儲存範本。
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![儲存圖示](assets/save-icon.png)以儲存範本。
 
 當您儲存範本時，您的團隊成員可以看到它。 如果您希望範本可在團隊外部存取，您必須提交要求以核准並發佈。 要求會傳送給Adobe Workfront Fusion團隊進行核准。 在核准後，您團隊以外的其他人可以存取範本。
 
@@ -113,13 +113,13 @@ ht-degree: 0%
 
    情境會複製到新範本頁面中。
 1. （選擇性）取代左上角的預設&#x200B;**[!UICONTROL New template name]**&#x200B;以重新命名範本。
-1. （選擇性）若要變更範本的語言，請按一下&#x200B;**[!UICONTROL Set up a template]** ![](assets/scenario-settings-icon.png)，然後從[語言]下拉式清單中選取語言。
+1. （選擇性）若要變更範本的語言，請按一下&#x200B;**[!UICONTROL Set up a template]** ![案例設定圖示](assets/scenario-settings-icon.png)，然後從[語言]下拉式清單中選取語言。
 
    >[!IMPORTANT]
    >
    >「語言」選項對應於系統設定中可用的語言，並且只與公用範本的名稱及其說明有關。 一旦範本已儲存，您就無法變更範本語言。
 
-1. （選擇性）若要輸入範本的說明，請按一下&#x200B;**[!UICONTROL Set up a template]** ![](assets/scenario-settings-icon.png)並輸入說明。
+1. （選擇性）若要輸入範本的說明，請按一下&#x200B;**[!UICONTROL Set up a template]** ![案例設定圖示](assets/scenario-settings-icon.png)並輸入說明。
 1. 視需要編輯應用程式、模組和工具，使用與將模組新增至情境相同的程式。
 
    如需指示，請參閱[新增模組](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md)下的文章。
@@ -131,7 +131,7 @@ ht-degree: 0%
    >如果您的範本包含需要新增連線、憑證或其他隱私權敏感資訊的模組，則此資訊不會與範本使用者共用。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL Run once]**&#x200B;以測試您的範本。
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![](assets/save-icon.png)。
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![儲存圖示](assets/save-icon.png)。
 
 ## 設定[!UICONTROL Wizard]功能 {#set-up-wizard-functionality}
 

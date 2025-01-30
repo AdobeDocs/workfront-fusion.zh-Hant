@@ -4,9 +4,9 @@ description: 您可以將陣列或個別陣列元素對應到Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: 0534ad8a-af80-46d2-857d-de882a235edb
-source-git-commit: b7c511c51a2f27292cd0cb754673515e67c8a397
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 
 陣列元素會在陣列名稱后方括弧中顯示為數字。 您可以使用此索引編號將陣列的個別元素對應到欄位中。
 
-![](assets/map-array-1st-element.png)
+![對應第一個元素](assets/map-array-1st-element.png)
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 
 1. 若要對應陣列的不同元素，請按一下[1]並輸入您要對應的陣列元素的索引編號。
 
-   ![](assets/access-another-element.png)
+   ![存取其他專案](assets/access-another-element.png)
 
 ### 使用指定索引鍵對應陣列的元素
 
@@ -138,13 +138,13 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 
 下列範例顯示[!DNL Jira]應用程式的輸出。
 
-![](assets/output-of-jira-app-350x100.png)
+![輸出Jira模組](assets/output-of-jira-app-350x100.png)
 
 此範例會針對識別碼為10108的特定附件，從附件的陣列取得檔案名稱。
 
 此範例會產生下列輸出：
 
-![](assets/output-from-jira-350x261.png)
+![輸出Jira模組](assets/output-from-jira-350x261.png)
 
 公式的說明如下：
 
@@ -153,7 +153,7 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
    1. `map()`函式的第一個引數是整個陣列專案。
    1. 第二個引數是值專案的原始名稱。 若要取得原始名稱，請將游標停留在[!UICONTROL mapping]面板中的專案上：
 
-      ![](assets/obtain-raw-name-350x124.png)
+      ![取得原始名稱](assets/obtain-raw-name-350x124.png)
 
       >[!NOTE]
       >
@@ -161,7 +161,7 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 
    1. 第三個引數是關鍵專案的原始名稱：
 
-      ![](assets/3rd-parameter-350x166.png)
+      ![第三個引數](assets/3rd-parameter-350x166.png)
 
    1. 第四個引數是指定的機碼值。
 
@@ -175,7 +175,7 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 
 此範例會產生下列輸出：
 
-![](assets/output-from-jira-350x261.png)
+![Jira模組的輸出](assets/output-from-jira-350x261.png)
 
 >[!ENDSHADEBOX]
 
@@ -187,4 +187,4 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 
 可以使用[!UICONTROL Iterator]模組將陣列轉換為一系列組合。 如需詳細資訊，請參閱[[!UICONTROL Iterator]模組](/help/workfront-fusion/references/modules/iterator-module.md)。
 
-![](assets/series-of-bundles.png)
+![系列組合](assets/series-of-bundles.png)

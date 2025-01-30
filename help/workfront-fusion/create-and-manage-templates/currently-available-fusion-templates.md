@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: b14bed4d-3503-42cf-a8c3-618d3b2448b4
-source-git-commit: ba205314949f2b061ba483efa8b972367928f8fe
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 您的團隊或組織可能有其他可用的團隊建立範本。
 
-若要檢視可用的範本，請按一下Fusion側邊導覽功能表中的&#x200B;**範本**&#x200B;圖示![](assets/templates-icon.png)。
+若要檢視可用的範本，請按一下Fusion側邊導覽功能表中的&#x200B;**範本**&#x200B;圖示![範本圖示](assets/templates-icon.png)。
 
 ## Workfront範本
 

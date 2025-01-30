@@ -4,9 +4,9 @@ description: 有些服務不允許整合解決方案(例如Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: 4a8ac816-52de-41e8-96d7-1c8cde2ebe32
-source-git-commit: 362952ec85b0df2306ba117ba530e95201330cca
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '958'
 ht-degree: 1%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 1%
 
 1. 輸入或對應您要建立JSON的值。
 
-   ![](/help/workfront-fusion/create-scenarios/connect-to-apps/assets/json-values-350x288.png)
+   ![JSON值](/help/workfront-fusion/create-scenarios/connect-to-apps/assets/json-values-350x288.png)
 
 1. 將JSON >建立JSON模組連線至HTTP >建立請求模組。
 1. 將JSON字串從建立JSON模組對應至「HTTP >提出請求」模組中的「請求內容」欄位。

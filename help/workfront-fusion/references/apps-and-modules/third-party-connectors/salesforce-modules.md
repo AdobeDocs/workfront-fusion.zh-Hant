@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesf
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 17ac09a19562839a9fdfc11bd274a6ed11f6d8f5
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2708'
 ht-degree: 0%
 
 ---
@@ -448,7 +448,7 @@ Salesforce聯結器會使用以下專案：
 >
 >在我們的範例中，傳回6個使用者：
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/matches-of-the-search-350x573.png)
+>![符合搜尋](/help/workfront-fusion/references/apps-and-modules/assets/matches-of-the-search-350x573.png)
 
 
 #### [!UICONTROL Upload Attachment/Document]

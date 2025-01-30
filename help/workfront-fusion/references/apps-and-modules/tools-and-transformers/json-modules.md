@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion JSON應用程式提供可處理JSON格式資
 author: Becky
 feature: Workfront Fusion
 exl-id: f8b281c5-bb63-4412-98c5-d82f45f8eafc
-source-git-commit: c895d496de66b475f907effaaf43fe2f7b7b457e
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 ```
 
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
+![JSON集合](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
 
 >[!ENDSHADEBOX]
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 ]
 ```
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
+![JSON陣列](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
 
 >[!ENDSHADEBOX]
 
@@ -303,6 +303,6 @@ ht-degree: 0%
 
 **範例：**
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
+JSON中的![引號](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
 
 >[!ENDSHADEBOX]

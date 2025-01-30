@@ -5,9 +5,9 @@ description: 我們建議您選擇加入每個模組相關附註的作法，但�
 author: Becky
 feature: Workfront Fusion
 exl-id: 754601fa-b572-42c2-96a3-3c36a8ed2c56
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ ht-degree: 0%
 
 1. 關閉&#x200B;**[!UICONTROL Notes]**&#x200B;區域。
 
-   將附註新增至情境後，情境編輯器底部的&#x200B;**[!UICONTROL Notes]**&#x200B;圖示![](assets/notes-icon-w-dot.png)上會顯示橘色點。
+   將附註新增至情境後，情境編輯器底部的&#x200B;**[!UICONTROL Notes]**&#x200B;圖示![附註圖示上會顯示橘色點](assets/notes-icon-w-dot.png)。
 
-1. 按一下&#x200B;**[!UICONTROL Notes]**&#x200B;圖示![](assets/notes-icon-w-dot.png)以檢視您的附註。
+1. 按一下&#x200B;**[!UICONTROL Notes]**&#x200B;圖示![帶有點的附註圖示](assets/notes-icon-w-dot.png)以檢視您的附註。

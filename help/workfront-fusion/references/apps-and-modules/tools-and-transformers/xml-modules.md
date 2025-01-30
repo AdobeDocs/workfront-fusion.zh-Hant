@@ -4,9 +4,9 @@ description: XML應用程式可讓您透過XML &amp；剖析XML模組來剖析XM
 author: Becky
 feature: Workfront Fusion
 exl-id: ab323361-cd04-4dcc-ab02-0fb468334fdb
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1302'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 2%
 >
 >   **URL**： XML檔案的URL （例如`https://siftrss.com/f/rqLy05ayMBJ`）
 >
->   ![](/help/workfront-fusion/references/apps-and-modules/assets/url-of-xml-file-350x184.png)
+>   ![XML檔案範例](/help/workfront-fusion/references/apps-and-modules/assets/url-of-xml-file-350x184.png)的URL
 >
 >1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以儲存並關閉模組的設定。
 1. 新增[!UICONTROL XML] > [!UICONTROL Parse XML]模組，在[!UICONTROL HTTP] > [!UICONTROL Get a file]模組之後連線它，並依照以下方式設定：
@@ -143,7 +143,7 @@ ht-degree: 2%
 
 會轉換為此套件組合：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/xml-converted-to-bundle.png)
+![XML已轉換為組合](/help/workfront-fusion/references/apps-and-modules/assets/xml-converted-to-bundle.png)
 
 ## 建立XML
 
@@ -198,7 +198,7 @@ ht-degree: 2%
 >
 1. 按一下「**[!UICONTROL Generator]**」按鈕，然後將您的XML範例貼到[!UICONTROL Sample data]欄位：
 >
-![](/help/workfront-fusion/references/apps-and-modules/assets/sample-data-field-350x146.png)
+![範例資料欄位](/help/workfront-fusion/references/apps-and-modules/assets/sample-data-field-350x146.png)
 >
 1. 按一下&#x200B;**[!UICONTROL Save]**。 資料結構中的「規格」欄位現在包含產生的結構。
 1. 將您的資料結構名稱變更為更具體的名稱，然後按一下&#x200B;**[!UICONTROL Save]**。 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。

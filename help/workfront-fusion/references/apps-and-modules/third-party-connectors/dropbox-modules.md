@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 29ce5940-4d71-4719-ab5e-f03c44b28c8c
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '2868'
+source-wordcount: '2876'
 ht-degree: 0%
 
 ---
@@ -744,15 +744,15 @@ Dropbox聯結器會使用以下專案：
 
 * 以dl取代www
 
-  ![](/help/workfront-fusion/references/apps-and-modules/assets/www-to-dl-350x32.png)
+  ![以dl](/help/workfront-fusion/references/apps-and-modules/assets/www-to-dl-350x32.png)取代www
 
 * 若要移除？dl=0
 
-  ![](/help/workfront-fusion/references/apps-and-modules/assets/remove-dl0-350x33.png)
+  ![移除DL](/help/workfront-fusion/references/apps-and-modules/assets/remove-dl0-350x33.png)
 
 若要在一個步驟中執行操作，請組合下列函式：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/replace-both-350x47.png)
+![取代兩者](/help/workfront-fusion/references/apps-and-modules/assets/replace-both-350x47.png)
 
 您也可以複製並貼到欄位中。 以URL取代`1.url`。
 

@@ -4,9 +4,9 @@ description: Adobe Workfront FusionTemplates功能可讓您建立並使用現有
 author: Becky
 feature: Workfront Fusion
 exl-id: 560c20b7-155c-40db-9018-5a51b40d6fb0
-source-git-commit: 7acc27ab2ce80b964b7f9fbb302816aa75964ab5
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ## 從範本建立情境
 
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Templates]**&#x200B;圖示![](assets/templates-icon.png)。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Templates]**&#x200B;圖示![範本圖示](assets/templates-icon.png)。
 1. 按一下包含您要使用之範本（公用範本或專案團隊範本）的標籤。
 1. 按一下您要用來開始建立情境的範本。 您可以使用右上角的搜尋方塊，依範本名稱或範本中包含的應用程式名稱來尋找範本。
 1. （視條件而定）如果您是多個組織或團隊的成員，請選取您要建立情境的組織或團隊，然後按一下&#x200B;**[!UICONTROL Continue]**。
@@ -78,4 +78,4 @@ ht-degree: 1%
 
    如需建立情境的相關資訊，請參閱建立情境](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md)的[工作流程。
 
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![](assets/save-icon.png)以儲存您的情境。 此情境會儲存至Workfront Fusion的「情境」區域。
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![儲存圖示](assets/save-icon.png)以儲存您的情境。 此情境會儲存至Workfront Fusion的「情境」區域。

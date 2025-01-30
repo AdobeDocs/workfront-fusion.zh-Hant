@@ -4,9 +4,9 @@ description: 您可以使用 [!DNL Adobe Workfront Fusion] 連線至Microsoft SQ
 author: Becky
 feature: Workfront Fusion
 exl-id: 8f3293f7-8b45-4e42-8ad8-f9d4969b63fd
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,6 @@ ht-degree: 0%
 
 開啟自動提交。 自動認可會在模組執行完成後立即完成（認可）每個交易。
 
-1. 按一下畫面底部的[!UICONTROL Scenario settings]圖示![](/help/workfront-fusion/references/apps-and-modules/assets/scenario-settings-icon.png)。
+1. 按一下畫面底部的[!UICONTROL Scenario settings]圖示![情境設定圖示](/help/workfront-fusion/references/apps-and-modules/assets/scenario-settings-icon.png)。
 1. 按一下&#x200B;**[!UICONTROL Auto commit]**&#x200B;核取方塊。
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;儲存情境設定。

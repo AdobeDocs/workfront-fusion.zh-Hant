@@ -4,9 +4,9 @@ description: 本文說明在 [!DNL Adobe Workfront Fusion] 案例執行時發生
 author: Becky
 feature: Workfront Fusion
 exl-id: abf41be5-df32-4eaf-b3f4-93ddf005bfe3
-source-git-commit: fe503c27bc4e3beb5645f0efa7c2097297f19190
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 1%
 >
 >所有支援回覆（也稱為異動）的[!DNL Workfront Fusion]模組都會標示ACID標籤。
 >
->![](assets/acid-modules.png)
+>![Acid模組](assets/acid-modules.png)
 >
 >當其他模組發生錯誤時，未標示此標籤的模組無法回覆為初始狀態。 非ACID模組的典型範例是[!UICONTROL Email] >[!UICONTROL Send an Email]動作。 傳送電子郵件後，您無法復原傳送。
 

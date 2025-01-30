@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion Devtool可讓您瞭解情境並疑難排解�
 author: Becky
 feature: Workfront Fusion
 exl-id: 34215370-27e3-4c28-8bd1-a16268900b86
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Workfront Fusion Devtool分為3個主要區段。 您可以在Devtool視窗的�
 
 即時資料流會在您的情境中按一下「執行一次」時，顯示背景中發生的情形。
 
-1. 按一下&#x200B;**[!UICONTROL Live Stream]**&#x200B;圖示![](assets/live-stream-icon.png)以開啟即時資料流區段。
+1. 按一下&#x200B;**[!UICONTROL Live Stream]**&#x200B;圖示![即時資料流圖示](assets/live-stream-icon.png)以開啟即時資料流區段。
 1. 執行下列任一項作業：
 
    <table style="table-layout:auto"> 
@@ -153,7 +153,7 @@ Workfront Fusion Devtool分為3個主要區段。 您可以在Devtool視窗的�
 
 情境偵錯工具適用於較複雜的情境。 它會顯示案例執行的歷史記錄，並可讓您依據模組名稱或ID來搜尋模組。
 
-1. 按一下&#x200B;**[!UICONTROL Scenario Debugger]**&#x200B;圖示![](assets/scenario-debugger-icon.png)以開啟Scenario Debugger。
+1. 按一下&#x200B;**[!UICONTROL Scenario Debugger]**&#x200B;圖示![偵錯工具圖示](assets/scenario-debugger-icon.png)以開啟「案例偵錯工具」。
 1. （選用）在搜尋欄位中輸入搜尋字詞（名稱或模組ID）。
 1. 按一下模組名稱。
 1. 按一下作業以檢視要求詳細資料。
@@ -162,7 +162,7 @@ Workfront Fusion Devtool分為3個主要區段。 您可以在Devtool視窗的�
 
 [!DNL Workfront Fusion] Devtool提供可讓您更輕鬆設定情境的工具。
 
-1. 按一下&#x200B;**[!UICONTROL Tools]**&#x200B;圖示![](assets/console-tools-icon.png)以開啟工具。
+1. 按一下&#x200B;**[!UICONTROL Tools]**&#x200B;圖示![主控台工具圖示](assets/console-tools-icon.png)以開啟工具。
 1. 選取您要使用的工具
 1. 設定欄位，如下所述。
 1. 按一下&#x200B;**[!UICONTROL Run]**。

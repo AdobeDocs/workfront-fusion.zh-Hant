@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e514204-cd8e-4f30-bbbb-b8fbe48fc670
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3314'
 ht-degree: 0%
 
 ---
@@ -829,7 +829,7 @@ Google Calendar聯結器使用下列專案：
 
 1. 使用[!UICONTROL Google Calendar] >[!UICONTROL Update an event]模組新增電子郵件提醒至您的活動：
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/trigger-scen-before-event-350x209.png)
+   ![在事件之前觸發情境](/help/workfront-fusion/references/apps-and-modules/assets/trigger-scen-before-event-350x209.png)
 
 1. 以[!UICONTROL Webhooks] >[!UICONTROL Custom mailhook]模組開始建立新情境。
 
@@ -847,11 +847,11 @@ Google Calendar聯結器使用下列專案：
    1. 按一下模組上方的泡泡圖示，檢查模組的輸出。
    1. 展開`Text`專案並複製確認代碼：
 
-      ![](/help/workfront-fusion/references/apps-and-modules/assets/confirmation-code-350x252.png)
+      ![確認代碼](/help/workfront-fusion/references/apps-and-modules/assets/confirmation-code-350x252.png)
 
    1. 在Gmail中，將確認代碼貼到編輯方塊中，然後按一下&#x200B;**[!UICONTROL Verify]**：
 
-      ![](/help/workfront-fusion/references/apps-and-modules/assets/paste-code-350x46.png)
+      ![貼上程式碼](/help/workfront-fusion/references/apps-and-modules/assets/paste-code-350x46.png)
 
    1. 開啟&#x200B;**[!UICONTROL Filters and Blocked Addresses]**&#x200B;標籤。
    1. 按一下&#x200B;**[!UICONTROL Create a new filter]**。

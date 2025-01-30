@@ -4,9 +4,9 @@ description: 您可以使用文字剖析器工具來剖析文字，以供其他 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 885d714e-fc09-41a2-89dc-ebe29a355e43
-source-git-commit: 4fa892b7875af2fcabaf26b375925af7a8cad2a0
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -267,21 +267,21 @@ ht-degree: 0%
 
 不過，在文字剖析器中實作此運算式不會產生相符專案：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-you-dont-get-a-match-350x365.png)
+![沒有相符項](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-you-dont-get-a-match-350x365.png)
 
 原因在於「i」僅顯示每個相符項的相符數，因此在此例中，我們有2個相符項，因此「i」後面有一個數值1和2。 此情況下的使用案例是，如果您只需要比對或傳遞資料至篩選器，就可以指定由數值表示的值（第二個相符值）。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-matches-350x355.png)
+![符合](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-matches-350x355.png)
 
 為了能夠取得您在要剖析的零件中新增方括弧所需的相符值（例如，從「filename.docx」 — 「docx」中擷取），然後根據我們用於此案例的規則運算式情境，方括弧應套用在\上。(.+)
 
 這會擷取DOCX、將其置於群組中，並保留「」。 盡情享受吧。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-get-matches-350x592.png)
+![取得相符專案](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-get-matches-350x592.png)
 
 在下圖所示的輸出中，擷取群組將符合任何字元（行終止元除外）。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-output-350x389.png)
+![輸出](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-output-350x389.png)
 
 另一個同時納入regex的因應措施是使用取代函式
 

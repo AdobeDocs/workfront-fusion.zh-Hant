@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion HTTP &amp；gt；發出請求模組是一個
 author: Becky
 feature: Workfront Fusion
 exl-id: 42f6176e-86e0-489e-868b-66823a932daf
-source-git-commit: 4377870d9441a3e84c51a547f17f154a78fb8f59
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 0%
 >
 >**範例：**&#x200B;此範例說明如何設定模組以使用JSON裝載提交[!UICONTROL POST]請求：
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/make-a-request-example-350x522.png)
+>![進行要求範例](/help/workfront-fusion/references/apps-and-modules/assets/make-a-request-example-350x522.png)
 
 >[!NOTE]
 >

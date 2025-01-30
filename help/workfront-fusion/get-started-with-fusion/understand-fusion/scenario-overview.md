@@ -4,9 +4,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: de81ad4c-27e5-4b6c-acf0-f01a8c85922e
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Workfront Fusion可讓您在Workfront中自動化簡單或複雜的工作流程�
 
 在此範例中，當[!DNL Workfront]中的任務或問題中的指定欄位變更時，就會觸發案例。 觸發時，情境會取得相關專案中的資訊，並為專案上特定角色指派的人員建立量身打造的更新。
 
-![](assets/fusion-template-example.png)
+![範本範例](assets/fusion-template-example.png)
 
 +++
 
@@ -90,7 +90,7 @@ Workfront Fusion可連線至其他應用程式和Web服務。 您可以存取、
 
 在此範例中，將使用者新增到[!DNL Excel]試算表時會觸發此案例。 案例會檢查使用者是否在[!DNL Workfront]中。 如果沒有，情境會在[!DNL Workfront]中建立使用者，並將其Workfront使用者ID新增回試算表。
 
-![](assets/fusion-integration-example.png)
+![整合範例](assets/fusion-integration-example.png)
 
 如需專用聯結器的清單，請參閱[Fusion應用程式及其模組參考：文章索引](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)。
 

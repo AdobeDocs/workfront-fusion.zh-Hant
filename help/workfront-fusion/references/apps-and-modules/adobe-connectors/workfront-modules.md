@@ -4,9 +4,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '6208'
+source-wordcount: '6213'
 ht-degree: 3%
 
 ---
@@ -2068,7 +2068,7 @@ Workfront [!UICONTROL Watch Events]模組會根據Workfront API中建立事件�
 >
 >使用事件篩選器，您可以設定webhook以在建立問題時將問題指派給Ana時觸發情境。 Ana具有userID b378489d8f7cd3cee0539260720a84b7。
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/event-filter-watch-events-350x277.png)
+>![事件篩選器](/help/workfront-fusion/references/apps-and-modules/assets/event-filter-watch-events-350x277.png)
 >
 >如果一天內建立100個問題，但只有兩個問題指派給Ana，則案例會執行兩次。
 >
@@ -2076,7 +2076,7 @@ Workfront [!UICONTROL Watch Events]模組會根據Workfront API中建立事件�
 >
 >若要篩選事件，以便只處理指派給Ana的問題，您可以在[!UICONTROL Watch Events]模組之後建立篩選器。
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/watch-events-non-event-filter-350x206.png)
+>![沒有事件篩選器](/help/workfront-fusion/references/apps-and-modules/assets/watch-events-non-event-filter-350x206.png)
 >
 >如果一天內建立100個問題，但只有兩個問題指派給Ana，則案例將執行100次。 98個執行會在篩選後停止，但觸發模組仍在所有執行中使用資料並執行操作。
 

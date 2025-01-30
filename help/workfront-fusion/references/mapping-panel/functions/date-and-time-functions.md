@@ -4,9 +4,9 @@ description: 下列日期和時間函式可在Adobe Workfront Fusion對應面板
 author: Becky
 feature: Workfront Fusion
 exl-id: 92813dac-4bf0-4681-9b71-7bd2e92a89a4
-source-git-commit: 2c732659f3f3e81e13b7b12a5df5bde19c0e0928
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1800'
 ht-degree: 1%
 
 ---
@@ -333,7 +333,7 @@ ht-degree: 1%
 
 **範例：**&#x200B;在這些範例中，案例和網頁時區都設為`Europe/Prague`。
 
-![](assets/date&time-functions-examples-350x61.png)
+![日期時間函式範例](assets/date&time-functions-examples-350x61.png)
 
 * `formatDate(1. Date created;MM/DD/YYYY)`
 
@@ -463,7 +463,7 @@ ht-degree: 1%
 
 如果您需要計算與當月第n天對應的日期（例如，第一個星期二、第三個星期五等），您可以使用下列公式：
 
-![](assets/date&time-functions-calc-nth-day-350x31.png)
+![計算第n天](assets/date&time-functions-calc-nth-day-350x31.png)
 
 ```
 {{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}
@@ -510,7 +510,7 @@ ht-degree: 1%
 * `1.dow` = `3`
 * `1.date` = `now`
 
-![](assets/nth-day-variable-value-350x33.png)
+![第N天變數值](assets/nth-day-variable-value-350x33.png)
 
 #### 說明：
 
@@ -521,7 +521,7 @@ ht-degree: 1%
 
 一種可能是使用以下運算式：
 
-![](assets/calculate-days-between-dates-350x68.png)
+![計算日期之間的天數](assets/calculate-days-between-dates-350x68.png)
 
 ```
 {{round((2.value - 1.value) / 1000 / 60 / 60 / 24)}}
@@ -541,7 +541,7 @@ ht-degree: 1%
 
 下列公式顯示一種計算前一個月最後一天的方法：
 
-![](assets/last-day-prev-month.png)
+![上個月的最後一天](assets/last-day-prev-month.png)
 
 ```
 {{addDays(setDate(now; 1); -1)}}
@@ -553,7 +553,7 @@ ht-degree: 1%
 
 此公式顯示計算前一個月最後一毫秒的一種方式：
 
-![](assets/last-millisecond-prev-month-350x45.png)
+![上個月的毫秒數](assets/last-millisecond-prev-month-350x45.png)
 
 ```
 {{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}
@@ -561,7 +561,7 @@ ht-degree: 1%
 
 如果您需要結果來使用時區設定，請省略UTC引數：
 
-![](assets/omit-utc-argument-350x45.png)
+![省略UTC](assets/omit-utc-argument-350x45.png)
 
 `{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD") - 1; "x")}}`
 

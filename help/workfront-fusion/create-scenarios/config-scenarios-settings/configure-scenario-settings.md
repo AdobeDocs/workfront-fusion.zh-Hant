@@ -5,9 +5,9 @@ description: 您可以在「情境設定」面板中設定情境的特定設定�
 author: Becky
 feature: Workfront Fusion
 exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
-source-git-commit: 3afa631a44c6dae8b1e6def6f842a9ced9de741e
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 按一下情境上的任何位置以輸入情境編輯器。
 1. 按一下頁面左下角附近的齒輪圖示。
 
-   ![](assets/scenario-settings-350x221.png)
+   ![案例設定](assets/scenario-settings-350x221.png)
 
    在顯示的[!UICONTROL Scenario settings]面板中，您可以為該案例設定各種進階設定。
 1. 視需要啟用或停用案例設定。 請參閱下方的[案例設定選項](#scenario-settings-options)。
@@ -162,13 +162,13 @@ ht-degree: 0%
 
 **範例：** [!DNL Workfront] > [!UICONTROL Watch record]監視傳入的新問題，而[!DNL Workfront] >[!UICONTROL Convert object]會將新要求轉換為專案並指派適當的範本。
 
-![](assets/scenario-settings-ex-1-350x157.png)
+![案例設定](assets/scenario-settings-ex-1-350x157.png)
 
 [!UICONTROL more cycles]設定只會在您排程情境執行時套用。 當您使用[!UICONTROL Run once]按鈕時，會考慮循環設定。
 
 #### 最大循環數設為1 （預設）
 
-![](assets/max-number-cycles-1-350x201.png)
+![最大週期數](assets/max-number-cycles-1-350x201.png)
 
 Workfront >監看記錄模組中的最大週期數設為`10`。
 如果向[!DNL Workfront]提交100個請求，且「最大循環數」欄位設為10，則在執行一個案例後仍有90個檔案未處理。 接下來10個檔案會在下一個排程案例執行中處理。
@@ -183,7 +183,7 @@ Workfront >監看記錄模組中的最大週期數設為`10`。
 
 您可以在案例詳細資訊中檢視已執行的週期：
 
-![](assets/scenario-detail-350x207.png)
+![案例詳細資料](assets/scenario-detail-350x207.png)
 
 如需此頁面的詳細資訊，請參閱[案例詳細資料](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md)。
 

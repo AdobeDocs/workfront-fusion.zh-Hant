@@ -7,9 +7,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
-source-git-commit: a252de430a3c712c48c1677433ce6176292bc6ce
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 您可以編輯[!UICONTROL Team templates]索引標籤中任何可用的範本。
 
-1. 按一下側面導覽功能表中的&#x200B;**[!UICONTROL Templates]**&#x200B;圖示![](assets/templates-icon.png)。
+1. 按一下側面導覽功能表中的&#x200B;**[!UICONTROL Templates]**&#x200B;圖示![範本圖示](assets/templates-icon.png)。
 1. 按一下「**[!UICONTROL Team templates]**」標籤。
 1. 按一下「**[!UICONTROL Private]**」標籤。
 1. 按一下您要編輯的範本。
@@ -128,7 +128,7 @@ ht-degree: 0%
    按一下範本圖表。
 
 1. 在範本中進行變更。 您可以存取建立範本時可用的所有選項。 若要檢視這些選項，請參閱[建立新範本](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md)。
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![](assets/save-icon.png)。
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![儲存圖示](assets/save-icon.png)。
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 請注意，刪除範本後即無法還原。 團隊範本可供您團隊的所有成員使用，因此在刪除範本之前，建議您先與團隊確認，以確保不需要該範本。
 
-1. 按一下側面導覽功能表中的&#x200B;**[!UICONTROL Templates]**&#x200B;圖示![](assets/templates-icon.png)。
+1. 按一下側面導覽功能表中的&#x200B;**[!UICONTROL Templates]**&#x200B;圖示![範本圖示](assets/templates-icon.png)。
 1. 按一下「**[!UICONTROL Team templates]**」標籤。
 1. 按一下範本名稱旁的&#x200B;**[!UICONTROL Delete]**
 

@@ -4,9 +4,9 @@ description: 情境編輯器可讓您在視覺介面中建立和編輯情境。
 author: Becky
 feature: Workfront Fusion
 exl-id: 47ccecf0-751c-4026-96a9-329c33cb6801
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '547'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 情境編輯器可讓您在視覺介面中建立和編輯情境。
 
-![](assets/scenario-editor.jpg)
+![案例編輯器](assets/scenario-editor.jpg)
 
 ## 存取需求
 
@@ -71,14 +71,14 @@ ht-degree: 3%
 
 ## 開啟案例編輯器並新增模組：
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png)。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]** ![案例圖示](assets/scenarios-icon.png)。
 1. 按一下問號圖示![問號圖示](assets/question-mark-full-size.png)，然後尋找並按一下您要開始使用的應用程式或服務。 如需設定模組的詳細資訊，請參閱[設定模組](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md)。
 
 ## 可用的案例編輯器動作
 
 ### 執行您的情境
 
-| 動作 | 詳细資料 |
+| 動作 | 詳細資料 |
 |----------|----------|
 | 測試執行情境 | 在啟用情景之前，請驗證情景是否以您預期的方式執行。 一旦啟用，情境將會根據其排程執行。 如果一切未如預期般執行，請參閱[新增錯誤處理](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md)以瞭解如何處理錯誤。 |
 
@@ -86,7 +86,7 @@ ht-degree: 3%
 
 ### 排程
 
-| 動作 | 詳细資料 |
+| 動作 | 詳細資料 |
 |----------|----------|
 | 排程情境 | 依預設，一個案例每15分鐘執行一次。 您可以定義已啟動案例執行的時間和頻率，以變更此專案。 融合情境可以排程為每5分鐘執行一次。 如需詳細資訊，請參閱[排程情境](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md)。 |
 
@@ -94,7 +94,7 @@ ht-degree: 3%
 
 ### 控制項
 
-| 動作 | 詳细資料 |
+| 動作 | 詳細資料 |
 |----------|----------|
 | 儲存 | 儲存您的情境後，三點選單底下將顯示新版本，以備您日後需要存取時使用。 先前儲存的案例版本僅可使用60天。 |
 | 案例設定 | 情境設定面板包含情境的進階設定。 如需有關可用設定的詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)。 |
@@ -108,7 +108,7 @@ ht-degree: 3%
 
 ### 工具
 
-| 動作 | 詳细資料 |
+| 動作 | 詳細資料 |
 |----------|----------|
 | 流量控制 | 設定設定以控制資料流經的方式。 如需詳細資訊，[檢視需要的連結]。 |
 | 工具 | 工具區段包含數個可增強案例的實用模組。 如需詳細資訊，[檢視需要的連結]。 |

@@ -4,7 +4,7 @@ description: 您可以使用SOAP模組來連線到Adobe Workfront Fusion中的SO
 author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
-source-git-commit: bf9af473f08463c00578a1a8b07c800239225f09
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 1%
@@ -119,7 +119,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-   <!--![](/help/workfront-fusion/references/apps-and-modules/assets/workaround-350x443.png)-->
+   <!--![Workaround](/help/workfront-fusion/references/apps-and-modules/assets/workaround-350x443.png)-->
 
 1. 開啟新的Web瀏覽器視窗或標籤。
 1. 將WSDL URL貼入網頁瀏覽器的位址列，並擷取XML檔案。
@@ -129,7 +129,7 @@ ht-degree: 1%
 1. 如果WSDL檔案沒有直接顯示在網頁瀏覽器中，請在文字編輯器中開啟下載的檔案。
 1. 搜尋`<service>`或`<wsdl:service>`標籤：
 
-   <!--![](/help/workfront-fusion/references/apps-and-modules/assets/service-350x65.png)-->
+   <!--![Service](/help/workfront-fusion/references/apps-and-modules/assets/service-350x65.png)-->
 
 1. 找到後，從`location`屬性複製URL。
 1. 在[!DNL Workfront Fusion]中，將URL貼到HTTP模組的URL欄位中。
@@ -141,7 +141,7 @@ ht-degree: 1%
 1. 在[!UICONTROL Workfront Fusion]中，將複製的內容貼到模組的URL欄位。
 1. 將問號取代為實際值，以提供所選引數的值：
 
-   <!--![](/help/workfront-fusion/references/apps-and-modules/assets/request-xml-350x172.png)-->
+   <!--![Request](/help/workfront-fusion/references/apps-and-modules/assets/request-xml-350x172.png)-->
 
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;關閉模組的設定。
 1. 執行案例或模組。

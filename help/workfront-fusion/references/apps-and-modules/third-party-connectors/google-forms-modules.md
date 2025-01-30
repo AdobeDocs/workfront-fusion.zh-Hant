@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion Google Forms] 模組可讓您監視�
 author: Becky
 feature: Workfront Fusion
 exl-id: dc017957-c0f8-4206-916f-21ccda346fb9
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Google Forms聯結器會使用以下專案：
 
 1. 開啟您的表單。
 1. 前往&#x200B;**[!UICONTROL Responses]**&#x200B;標籤。
-1. 按一下&#x200B;**[!UICONTROL Create Spreadsheet]**&#x200B;圖示![](/help/workfront-fusion/references/apps-and-modules/assets/spreadsheet-icon.png)。
+1. 按一下&#x200B;**[!UICONTROL Create Spreadsheet]**&#x200B;圖示![試算表圖示](/help/workfront-fusion/references/apps-and-modules/assets/spreadsheet-icon.png)。
 
 1. 選取您要建立新的試算表或現有的試算表
 1. 按一下&#x200B;**[!UICONTROL Create]**。
@@ -98,11 +98,11 @@ Google Forms聯結器會使用以下專案：
 
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+### 觸發程序
 
 #### [!UICONTROL Watch Responses]
 

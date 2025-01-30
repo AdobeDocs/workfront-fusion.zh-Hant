@@ -4,9 +4,9 @@ description: 有些模組有能力處理檔案。 這些模組可以傳回要傳
 author: Becky
 feature: Workfront Fusion
 exl-id: 25c632f4-169e-4d3c-989a-f57b398bd3f0
-source-git-commit: 839f6edf93df8a935b2c5d0a520bdc125fe60288
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '419'
 ht-degree: 1%
 
 ---
@@ -92,10 +92,10 @@ ht-degree: 1%
 1. 在目標模組（您對應到的目標）中，找出&#x200B;**Source檔案**&#x200B;區域。
 1. 若要對應上一個模組的檔案輸出，請選取輸出檔案的模組。
 
-   ![](assets/wf-download-document.png)
+   ![Workfront下載檔案](assets/wf-download-document.png)
 
 1. 若要手動對應名稱和資料，請選取「對應」，然後輸入或對應檔案的名稱和資料。
 
-   ![](assets/use-the-map-option.png)
+   ![使用地圖選項](assets/use-the-map-option.png)
 
 1. 繼續設定模組，或按一下[確定]。****

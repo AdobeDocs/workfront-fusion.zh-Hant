@@ -4,9 +4,9 @@ description: 透過 [!DNL Adobe Acrobat Sign] 模組，您可以根據您 [!DNL 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0ef9d40e-8ad6-434e-8fa0-076920ff29ea
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '5488'
+source-wordcount: '5501'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
 
 [!DNL Adobe Sign]個協定需要欄位才能使用。 有幾個選項可以執行此操作，但最簡單也最常用的是上傳暫時性檔案，然後將該檔案對應至您的合約。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
+![Adobe Sign建議](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
 
 ## [!DNL Adobe Acrobat Sign]模組及其欄位
 
@@ -941,11 +941,11 @@ Adobe Acrobat Sign聯結器會使用以下專案：
 
 **範例：**&#x200B;在此工作流程中，要簽署的檔案(先前從Workfront下載)會上傳為暫時性檔案。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/sign-example-1-350x308.png)
+(/help/workfront-fusion/references/apps-and-modules/assets/sign-example-1-350x308.png)
 
 [!UICONTROL Upload document]模組會提供檔案一個[!DNL Adobe Acrobat Sign] ID，可供後續模組參考。 建立合約時，上傳檔案的識別碼會包含在[!UICONTROL Files to send]欄位中。
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/sign-example-2-350x356.png)
+![簽署範例](/help/workfront-fusion/references/apps-and-modules/assets/sign-example-2-350x356.png)
 
 +++
 

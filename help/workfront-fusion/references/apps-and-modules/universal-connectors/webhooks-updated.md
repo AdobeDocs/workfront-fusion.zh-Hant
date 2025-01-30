@@ -4,9 +4,9 @@ description: webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來
 author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
-source-git-commit: d5ab7dc135206a7269ad4fa0b5c02bf77b97d873
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
     </tbody> 
    </table>
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/new-scenario-set-up-like-this-350x446.png)
+   ![新畫面設定](/help/workfront-fusion/references/apps-and-modules/assets/new-scenario-set-up-like-this-350x446.png)
 
 1. 在單獨的瀏覽器標籤或視窗中開啟具有[!UICONTROL Webhooks]模組的案例。
 1. 在webhooks模組中，按一下&#x200B;**[!UICONTROL Redetermine data structure]**。
@@ -132,7 +132,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 
    「[!UICONTROL Successfully determined]」訊息表示模組已成功判斷資料結構。
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/successfully-determined-350x175.png)
+   ![已成功判定](/help/workfront-fusion/references/apps-and-modules/assets/successfully-determined-350x175.png)
 
 1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以儲存資料結構。
 
@@ -241,7 +241,7 @@ Content-Type: application/json
 >
 >下列範例顯示從`Headers[]`陣列中擷取`authorization`標頭值的公式。 此公式會用於比較擷取值與指定文字的篩選中，以便只傳遞符合的Webhook。
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/set-up-a-filter-350x169.png)
+>![設定篩選器](/help/workfront-fusion/references/apps-and-modules/assets/set-up-a-filter-350x169.png)
 >
 >如需有關使用指定索引鍵取得陣列元素的進一步資訊，請參閱對應陣列文章中的[使用指定索引鍵對應陣列元素](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md#map-an-arrays-element-with-a-given-key)。
 
@@ -311,11 +311,11 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 &gt; </tbody> 
 &gt;</table>
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
+>![自訂標頭](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
 >這會產生HTML回應，並顯示在網頁瀏覽器中：
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/html-response-350x70.png)
+>![HEML回應](/help/workfront-fusion/references/apps-and-modules/assets/html-response-350x70.png)
 
 ### 重新導向範例
 
@@ -342,7 +342,7 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 &gt; </tbody> 
 &gt;</table>
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
+>![Webhook回應](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 
 ## Webhook停用
 
@@ -360,6 +360,6 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 
 如果在[!UICONTROL Webhooks] > [!UICONTROL Custom Webhook]模組之後的模組設定中，對應面板中遺漏了某些專案，請按一下&#x200B;**[!UICONTROL Webhooks]>[!UICONTROL Custom Webhook]**&#x200B;模組以開啟其設定，然後按一下&#x200B;**[!UICONTROL Re-determine data structure]**：
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/redetermine-data-structure-btn-350x195.png)
+![重新決定資料結構](/help/workfront-fusion/references/apps-and-modules/assets/redetermine-data-structure-btn-350x195.png)
 
 然後遵循本文中[設定webhook的資料結構](#configure-the-webhook-s-data-structure)一節中所述的步驟。

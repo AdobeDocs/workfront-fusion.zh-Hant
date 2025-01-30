@@ -4,9 +4,9 @@ description: 您可以還原案例的先前版本。 這可讓您變更情境，
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 2%
 ## 還原案例版本
 
 1. 開啟您的情境。
-1. 按一下畫面底部的[!UICONTROL More]圖示![](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL Previous Versions]**。
+1. 按一下畫面底部的[!UICONTROL More]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL Previous Versions]**。
 
 1. 按一下&#x200B;**[!UICONTROL Pick the version]**，然後按一下您要還原的版本。
 1. 按一下&#x200B;**[!UICONTROL OK]**。

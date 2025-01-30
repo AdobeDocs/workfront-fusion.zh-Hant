@@ -4,9 +4,9 @@ description: 當您建立或編輯案例時，可以設定設定來控制資料�
 author: Becky
 feature: Workfront Fusion
 exl-id: b3aed366-c399-44fa-8967-54ecb8647d96
-source-git-commit: ce2f13866fef97b5687991dfcf5d9579a5e539e4
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,13 @@ ht-degree: 0%
 
 若要使用[!UICONTROL Repeater]模組：
 
-1. 按一下畫面底部的[!UICONTROL Flow Control]圖示![](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif)，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL Repeater]**。
+1. 按一下畫面底部的[!UICONTROL Flow Control]圖示![流量控制圖示](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif)，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL Repeater]**。
 1. 按一下[!UICONTROL Repeater]組合，然後在顯示的方塊中按一下&#x200B;**[!UICONTROL Connect automatically]**。
 1. 在出現的[!UICONTROL Flow Control]方塊中，在&#x200B;**[!UICONTROL Repeats]**&#x200B;方塊中輸入您想要的重複（輸出組合）數目。
 
    在我們的電子郵件範例中，您會輸入5。
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/repeater-2-350x207.png)
+   ![中繼器](/help/workfront-fusion/references/apps-and-modules/assets/repeater-2-350x207.png)
 
    專案的值會隨著每次重複而增加這個在&#x200B;**[!UICONTROL Step]**&#x200B;欄位中指定的值，您可以選取&#x200B;**[!UICONTROL Show advanced settings]**&#x200B;來檢視該欄位。 此數字預設為1。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    在我們的電子郵件範例中，您會在[!UICONTROL Subject]方塊中輸入Hello，然後從中繼器模組對應`i`。
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/repeater-3-350x207.png)
+   ![中繼器](/help/workfront-fusion/references/apps-and-modules/assets/repeater-3-350x207.png)
 
 | 項目 | 說明 |
 |---|---|

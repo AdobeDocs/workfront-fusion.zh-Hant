@@ -7,9 +7,9 @@ description: 瞭解如何使用Adobe Workfront Fusion建立簡單的自動化案
 author: Becky
 feature: Workfront Fusion
 exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
-source-git-commit: 8884aef2237ad358c774110b81ac17b9efb386d4
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 1%
 
    名稱會出現在模組正下方。 在其下方，[!DNL Workfront Fusion]包含模組所執行之動作型別的簡短說明。
 
-   ![](assets/module-renamed-wf.png)
+   ![已重新命名模組](assets/module-renamed-wf.png)
 
 1. 繼續[新增並設定第二個模組](#add-and-configure-the-second-module)。
 
@@ -191,9 +191,9 @@ ht-degree: 1%
 >
 >1. 關閉&#x200B;**[!UICONTROL Notes]**&#x200B;區域。
 >
->     將附註新增至情境後，情境編輯器底部的&#x200B;**[!UICONTROL Notes]**&#x200B;圖示![](assets/notes-icon-w-dot.png)上會顯示橘色點。
+>     將附註新增至情境後，情境編輯器底部的&#x200B;**[!UICONTROL Notes]**&#x200B;圖示![附註圖示上會顯示橘色點](assets/notes-icon-w-dot.png)。
 >
->1. 按一下&#x200B;**[!UICONTROL Notes]**&#x200B;圖示![](assets/notes-icon-w-dot.png)以檢視您的附註。
+>1. 按一下&#x200B;**[!UICONTROL Notes]**&#x200B;圖示![帶有點的附註圖示](assets/notes-icon-w-dot.png)以檢視您的附註。
 >
 
 ## 啟動情境

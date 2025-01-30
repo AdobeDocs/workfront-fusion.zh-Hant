@@ -4,9 +4,9 @@ description: '[!UICONTROL Incomplete executions]資料夾儲存因錯誤而未�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8891b4d7-a39a-4f14-8521-8c2ca186ca6e
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 6%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 6%
 
 <!--
 
-![](assets/incomplete-executions-tab-350x102.png)
+![Incomplete executions tab](assets/incomplete-executions-tab-350x102.png)
 
 -->
 
@@ -113,7 +113,7 @@ ht-degree: 6%
 1. 開啟模組的記錄，其中顯示所有模組的操作。
 1. 找出失敗的作業，然後按一下&#x200B;**[!UICONTROL Resolve]**：
 
-   ![](assets/resolve-btn-350x188.png)
+   ![解析按鈕](assets/resolve-btn-350x188.png)
 
 ## 與未完成執行相關的選項
 

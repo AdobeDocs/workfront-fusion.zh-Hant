@@ -4,9 +4,9 @@ description: 您可以在Adobe Workfront Fusion中複製模組、模組群組或
 author: Becky
 feature: Workfront Fusion
 exl-id: 5cece7d4-b2c7-4276-8a6f-f65bad799c7a
-source-git-commit: 55fe4bc46bc50ad9ccfd1b234e89028cf3cd12d5
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 0%
 
       或
 
-      如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![](assets/exit-editing-arrow.png)。
+      如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
 
 1. 以滑鼠右鍵按一下頁面右上角的&#x200B;**[!UICONTROL Options]**。
 1. 選取&#x200B;**[!UICONTROL Clone]**。

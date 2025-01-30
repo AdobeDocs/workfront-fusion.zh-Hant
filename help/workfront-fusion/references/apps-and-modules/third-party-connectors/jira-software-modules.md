@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: 92cac080-d8f6-4770-a6a6-8934538c978b
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1883'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ Jira聯結器使用下列專案：
 #### 在[!DNL Jira]中將使用者端應用程式設定為消費者
 
 1. 登入您的[!DNL Jira]執行個體。
-1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL [!DNL Jira] Settings]** ![](/help/workfront-fusion/references/apps-and-modules/assets/jira-settings-icon.png) > **[!UICONTROL Applications]**> **[!UICONTROL Application links]**。
+1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL [!DNL Jira] Settings]** ![Jira設定圖示](/help/workfront-fusion/references/apps-and-modules/assets/jira-settings-icon.png) > **[!UICONTROL Applications]**> **[!UICONTROL Application links]**。
 1. 在&#x200B;**[!UICONTROL Enter the URL of the application you want to link]**&#x200B;欄位中，輸入
 
    ```

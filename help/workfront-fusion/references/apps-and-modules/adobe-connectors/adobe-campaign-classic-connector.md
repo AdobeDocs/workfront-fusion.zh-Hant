@@ -4,9 +4,9 @@ description: 透過 [!DNL Adobe Campaign] 模組，您可以根據您 [!DNL Adob
 author: Becky
 feature: Workfront Fusion
 exl-id: 9fdff26c-c7c0-4eb8-a36f-4aeaf432b333
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 9bcda2cc1a5f483a8db49eae8e4f3d10f0d39c67
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -17,49 +17,53 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td> 
-   <td> <p>[!UICONTROL Pro] 或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td> 
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
 您必須將Fusion IP位址新增到[!DNL Adobe Campaign]。
 
 * 如需將IP位址新增至您的Campaign允許清單的指示，請參閱Adobe Campaign檔案中的[將IP位址新增至允許清單](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list)。
-* 如需新增至允許清單的IP位址清單，請參閱[用於存取Adobe Workfront Fusion的IP位址](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)。
+* 如需新增至允許清單的IP位址清單，請參閱貴組織的允許清單](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)中的[設定Fusion的IP位址。
 
 ## Adobe Campaign API資訊
 
@@ -124,15 +128,7 @@ Adobe Campaign聯結器會使用以下專案：
           <td role="rowheader">[!UICONTROL Client Secret]</td>
           <td>如果您正在建立伺服器對伺服器連線，請輸入您的[!DNL Adobe] [!UICONTROL Client Secret]。 您可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials details]區段中找到此專案。
         </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Environment]</td>
-          <td>選取您是連線至生產或非生產環境。
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Type]</td>
-          <td>選取您要連線到服務帳戶還是個人帳戶。
-        </tr>
-   </tbody>
+     </tbody>
     </table>
 1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以建立連線，並返回模組。
 
@@ -144,15 +140,15 @@ Adobe Campaign聯結器會使用以下專案：
 
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+<!--* [Triggers](#triggers)-->
 * [動作](#actions)
 * [搜尋](#searches)
 
-### 觸發器
+<!--### Triggers
 
 #### [!UICONTROL Watch records]
 
-此排程觸發模組會在記錄變更時啟動案例。
+This scheduled trigger module starts a scenario when a record changes.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -160,39 +156,39 @@ Adobe Campaign聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>如需建立[!DNL Adobe Campaign]連線的說明，請參閱本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >建立與[!DNL Adobe Campaign]</a>的連線。</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign], see <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
-   <td>選取您要監視新記錄、更新記錄或兩者。</td> 
+   <td>Select whether you want to watch for new records, updated records, or both.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>選取您要監視的資源。</td> 
+   <td>Select the resource that you want to watch for.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fields to include in output]</td> 
-   <td>選取您要納入模組輸出的欄位。</td> 
+   <td>Select the fields that you want to include in the module's output.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields to include in output]</td> 
-   <td>針對您想包含在輸出中的每個自訂欄位，按一下<b>[!UICONTROL Add]</b>並輸入自訂欄位的名稱。</td> 
+   <td>For each custom field that you want to include in output, click <b>[!UICONTROL Add]</b> and enter the name of the custom field.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
-   <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->
 
 
 ### 動作
 
 * [[!UICONTROL Create a record]](#create-a-record)
-* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
 * [[!UICONTROL Delete a record]](#delete-record)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
 * [[!UICONTROL Perform an action]](#perform-an-action)
-* [[!UICONTROL Read a record]](#-read-a-record)
+* [[!UICONTROL Read a record]](#read-a-record)
 * [[!UICONTROL Subscribe or unsubscribe]](#subscribe-or-unsubscribe)
 * [[!UICONTROL Update a record]](#update-record)
 
@@ -219,6 +215,29 @@ Adobe Campaign聯結器會使用以下專案：
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields]</td> 
    <td> 針對您想要新增至新記錄的每個自訂欄位，按一下<b>[!UICONTROL Add item]</b>並輸入或對應欄位的名稱和值。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete Record]
+
+此動作模組會從[!DNL Adobe Campaign]刪除單一記錄。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>如需建立[!DNL Adobe Campaign]連線的說明，請參閱本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >建立與[!DNL Adobe Campaign]</a>的連線。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Resource]</td> 
+   <td>選取您要刪除的資源型別。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>輸入或對應您要刪除之資源的ID。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,29 +278,6 @@ Adobe Campaign聯結器會使用以下專案：
   </tbody>
 </table>
 
-#### [!UICONTROL Delete Record]
-
-此動作模組會從[!DNL Adobe Campaign]刪除單一記錄。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>如需建立[!DNL Adobe Campaign]連線的說明，請參閱本文中的<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >建立與[!DNL Adobe Campaign]</a>的連線。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>選取您要刪除的資源型別。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>輸入或對應您要刪除之資源的ID。</td> 
-  </tr> 
- </tbody> 
-</table>
-
 
 #### [!UICONTROL Perform an action]
 
@@ -308,7 +304,7 @@ Adobe Campaign聯結器會使用以下專案：
    <li><p><b>[!UICONTROL Delete]</b></p><p> 如需可用欄位，請參閱本文中的<a href="#delete-record" class="MCXref xref" >[!UICONTROL Delete a record]</a>。 </p></li>
    </ul>
    </td>
-</tr> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -419,6 +415,10 @@ Adobe Campaign聯結器會使用以下專案：
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
    <td>選取您要建立的[!DNL Adobe Campaign]記錄型別。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search criteria]</td> 
+   <td>輸入您希望搜尋使用的欄位和值。 欄位視選取的資源而定。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 

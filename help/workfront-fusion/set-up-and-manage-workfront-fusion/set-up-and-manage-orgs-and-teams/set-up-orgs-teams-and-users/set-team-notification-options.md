@@ -4,9 +4,9 @@ description: 在團隊層級設定電子郵件通知選項。
 author: Becky
 feature: Workfront Fusion
 exl-id: 570a09fc-01a9-4952-8a2b-8bfdd86d0bd8
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 410676b7def1e36de12fee9d6df79feba566d741
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Scenario deactivation]</p> </td> 
-      <td><p>當案例停用時收到電子郵件。</p><p><b>注意：</b>只有在案例因錯誤而自動停用時，您才會收到案例停用的通知。 您沒有收到有關手動停用案例的通知。</p><p>在某些情況下，案例可能會由[!DNL Workfront Fusion]工程團隊停用，因為案例會導致效能或其他問題。 在這些情況下，您不會在[!DNL Workfront Fusion]中收到通知。 </p></td>
+      <td><p>當案例停用時收到電子郵件。</p><p>在某些情況下，案例可能會由[!DNL Workfront Fusion]工程團隊停用，因為案例會導致效能或其他問題。 在這些情況下，您不會在[!DNL Workfront Fusion]中收到通知。 </p></td>
 
 </tr>
 </tbody>

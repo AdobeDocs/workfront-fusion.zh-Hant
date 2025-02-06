@@ -4,9 +4,9 @@ description: 依照此一般工作流程建立情境
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-source-git-commit: 0029e6a79c6fb7479ddd0948c773349efa075403
+source-git-commit: c34adf455ce01da52c321d3f997a58f8251d97bf
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -139,35 +139,41 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">[!UICONTROL Save] </td> 
    <td>Ctrl+Shift+S</td> 
-   <td><span style="font-weight: normal;">Cmd+Shift+S</span> </td> 
+   <td>Cmd+Shift+S</span> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Run Once]</td> 
    <td>Ctrl+Shift+Enter</td> 
-   <td><span style="font-weight: normal;">Cmd+Shift+Enter</span> </td> 
+   <td>Cmd+Shift+Enter</span> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Open the DevTool]</td> 
    <td>F12</td> 
-   <td><span style="font-weight: normal;">Ctrl+Fn+F12</span> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Copy]</td> 
-   <td>Ctrl+C</td> 
-   <td><span style="font-weight: normal;">Cmd+C</span> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Paste]</td> 
-   <td>Ctrl+V</td> 
-   <td><span style="font-weight: normal;">Cmd+V</span> </td> 
+   <td>Ctrl+Fn+F12</span> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Select multiple modules]</td> 
    <td>Shift+拖曳</td> 
-   <td><span style="font-weight: normal;">Shift+拖曳</span> </td> 
+   <td>Shift+拖曳</span> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Copy]</td> 
+   <td>Ctrl+C</td> 
+   <td>Cmd+C</span> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Paste]</td> 
+   <td>Ctrl+V</td> 
+   <td>Cmd+V</span> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">將cURL貼入情境以建立HTTP模組</td> 
+   <td colspan="2">複製cURL，然後貼到案例編輯器中的任何位置。<p>如需詳細資訊，請參閱<a href="/help/workfront-fusion/create-scenarios/add-modules/use-curl-create-http.md">使用cURL新增HTTP模組</a>。</td> 
   </tr> 
  </tbody> 
 </table>
+
+
 
 
 

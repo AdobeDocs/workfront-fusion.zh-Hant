@@ -4,9 +4,9 @@ description: 您可以使用AI輸入文字提示，說明您需要案例的區�
 author: Becky
 feature: Workfront Fusion
 exl-id: d231e33a-6033-4e3c-b1d4-7034797c45a5
-source-git-commit: 55fe4bc46bc50ad9ccfd1b234e89028cf3cd12d5
+source-git-commit: 9d29abc82a3bb09affc4d17d7ea214d7bb850294
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '600'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,15 @@ ht-degree: 1%
 
 +++
 
+## 先決條件
+
+您的組織必須符合下列必要條件，才能使用此功能：
+
+* 貴組織必須已參與Workfront AI Assistant Beta計畫。
+* Adobe必須為貴組織的檔案擁有已簽署的AdobeGen AI合約。
+
+  如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署AdobeGen AI合約](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
+
 ## 目前支援的AI模組應用程式
 
 Fusion AI目前可以產生連線到以下應用程式的模組：
@@ -95,15 +104,8 @@ Fusion AI目前可以產生連線到以下應用程式的模組：
 1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
 1. 選取您要新增模組的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 按一下案例編輯器頁面底部附近的「使用AI產生」圖示![使用AI產生](assets/generate-with-ai-icon-beta.png)。
-
-   或
-
-   開始新增模組，並從應用程式清單中選取&#x200B;**使用AI產生**。 將第一個（觸發器）模組新增至案例時，此選項未顯示。
-
-   AI助理面板隨即開啟。
-1. （視條件而定）如果這是第一次使用AI新增情境區段，請閱讀顯示的合約，然後按一下&#x200B;**同意**。
-1. 在方塊中輸入文字提示。
+1. 按一下熒幕右上角附近的&#x200B;**AI小幫手**&#x200B;圖示![AI小幫手圖示](assets/ai-assistant-icon.png)。
+1. 在AI助理面板中輸入文字提示。
 
    如需提示的相關提示，請參閱本文中[為案例區段建立提示的相關提示](#tips-for-creating-prompts-for-scenario-segments)。
 

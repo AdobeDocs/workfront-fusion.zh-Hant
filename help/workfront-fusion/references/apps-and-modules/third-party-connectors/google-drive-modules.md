@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Workfront Fusion Google Drive] 模組可讓您監視�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 788f4e1b-d774-45ad-a8be-b16922c1d5dc
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 5971b2210eaac8f8a75fd7a4aac5a9f7954d27ef
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 1%
+source-wordcount: '1617'
+ht-degree: 0%
 
 ---
 
@@ -23,42 +23,46 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## Google Drive API資訊
 
@@ -87,7 +91,7 @@ Google磁碟機聯結器使用下列專案：
 
 ## 正在連線[!DNL Google Drive]至[!DNL Workfront Fusion]
 
-如果您是[!DNL @gmail.com]或[!DNL @googlemail.com]使用者，您需要在[ [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project)上建立OAuth使用者端以取得[!UICONTROL Client ID]和[!UICONTROL Client Secret]。
+如果您使用[!DNL @gmail.com]或[!DNL @googlemail.com]使用者，必須在[!DNL Google Cloud Platform]上建立OAuth使用者端以取得您的[!UICONTROL Client ID]和[!UICONTROL Client Secret]。
 
 如需如何建立OAuth使用者端（以及取得[!UICONTROL Client ID]和[!UICONTROL Client Secret]）的逐步指示，請參閱[使用自訂OAuth使用者端](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md)連線 [!DNL Adobe Workfront Fusion] 至 [!DNL Google Services] 。
 
@@ -103,19 +107,96 @@ Google磁碟機聯結器使用下列專案：
 
 
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 
-### 觸發器
+### 觸發程序
 
-* [[!UICONTROL Watch Files In Folder]](#watch-files-in-folder)
-* [[!UICONTROL Watch All Files]](#watch-all-files)
+* [[!UICONTROL Watch all files]](#watch-all-files)
+* [[!UICONTROL Watch comments]](#watch-comments)
+* [[!UICONTROL Watch files in folder]](#watch-files-in-folder)
 * [[!UICONTROL Watch shared files]](#watch-shared-files)
-* [[!UICONTROL Watch Comments]](#watch-comments)
 
-#### [!UICONTROL Watch Files In Folder]
+#### [!UICONTROL Watch all files]
 
-在指定的資料夾中新增或修改檔案時，擷取檔案詳細資訊。
+新增或修改您[!DNL Google Drive]中的檔案時，此觸發模組會啟動情境。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL What files to watch]</td> 
+   <td> <p>選取您要觀看的檔案型別。</p> 
+    <ul> 
+     <li>[!UICONTROL All]</li> 
+     <li>[!DNL Google Documents]</li> 
+     <li>[!DNL Google Spreadsheets]</li> 
+     <li>[!DNL Google Slides]</li> 
+     <li>[!DNL Google Drawings]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+    <td >[!UICONTROL Convert [!DNL Google Documents] 要格式化的檔案]</td>
+    <td>選取您要將[!DNL Google Documents]轉換成的檔案格式。</td>
+  </tr> 
+  <tr>
+    <td>[!UICONTROL Convert [!DNL Google Spreadsheets] 要格式化的檔案]</td>
+    <td>選取您要將[!DNL Google Spreadsheets]轉換成的檔案格式。</td>
+  </tr> 
+  <tr>
+    <td>[!UICONTROL Convert [!DNL Google Slides] 要格式化的檔案]</td>
+    <td>選取您要將[!DNL Google Slides]轉換成的檔案格式。</td>
+  </tr> 
+  <tr>
+    <td>[!UICONTROL Convert [!DNL Google Drawings] 要格式化的檔案]</td>
+    <td>選取您要將[!DNL Google Drawings]轉換成的檔案格式。</td>
+  </tr>  
+  <tr> 
+   <td>[!UICONTROL Watch]</td> 
+   <td>選取您要監視新檔案與所有變更，還是隻監視新檔案。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximum number of downloaded files]</td> 
+   <td>設定[!DNL Workfront Fusion]在一個週期內下載的結果數目上限（每個案例執行的重複數目）。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Comments]
+
+在選取的檔案上新增或修改註解時，此觸發模組就會啟動案例。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL File]</td> 
+   <td>選取您要觀看註解的檔案。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Watch]</td> 
+   <td>選取您是要監視所有變更，還是隻監視新註解</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximum number of returned comments]</td> 
+   <td>設定[!DNL Workfront Fusion]在一個週期內傳回的評論數目上限（每個案例執行的重複數目）。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch files in folder]
+
+在指定的資料夾中新增或修改檔案時，此觸發模組就會啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -163,56 +244,6 @@ Google磁碟機聯結器使用下列專案：
   <tr> 
     <td>[!UICONTROL Maximum number of downloaded files]</td>
     <td>設定[!DNL Workfront Fusion]在一個週期內下載的結果數目上限（每個案例執行的重複數目）。</td>
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Watch All Files]
-
-新增或修改您[!DNL Google Drive]中的檔案時擷取檔案詳細資料。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL What files to watch]</td> 
-   <td> <p>選取您要觀看的檔案型別。</p> 
-    <ul> 
-     <li>[!UICONTROL All]</li> 
-     <li>[!DNL Google Documents]</li> 
-     <li>[!DNL Google Spreadsheets]</li> 
-     <li>[!DNL Google Slides]</li> 
-     <li>[!DNL Google Drawings]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-    <td >[!UICONTROL Convert [!DNL Google Documents] 要格式化的檔案]</td>
-    <td>選取您要將[!DNL Google Documents]轉換成的檔案格式。</td>
-  </tr> 
-  <tr>
-    <td>[!UICONTROL Convert [!DNL Google Spreadsheets] 要格式化的檔案]</td>
-    <td>選取您要將[!DNL Google Spreadsheets]轉換成的檔案格式。</td>
-  </tr> 
-  <tr>
-    <td>[!UICONTROL Convert [!DNL Google Slides] 要格式化的檔案]</td>
-    <td>選取您要將[!DNL Google Slides]轉換成的檔案格式。</td>
-  </tr> 
-  <tr>
-    <td>[!UICONTROL Convert [!DNL Google Drawings] 要格式化的檔案]</td>
-    <td>選取您要將[!DNL Google Drawings]轉換成的檔案格式。</td>
-  </tr>  
-  <tr> 
-   <td>[!UICONTROL Watch]</td> 
-   <td>選取您要監視新檔案與所有變更，還是隻監視新檔案。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Maximum number of downloaded files]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內下載的結果數目上限（每個案例執行的重複數目）。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -271,95 +302,21 @@ Google磁碟機聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch Comments]
-
-在選取的檔案上新增或修改註解時觸發。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL File]</td> 
-   <td>選取您要觀看註解的檔案。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Watch]</td> 
-   <td>選取您是要監視所有變更，還是隻監視新註解</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Maximum number of returned comments]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內傳回的評論數目上限（每個案例執行的重複數目）。</td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### 動作
 
-* [[!UICONTROL Upload a File]](#upload-a-file)
-* [[!UICONTROL Update a File]](#update-a-file)
-* [[!UICONTROL Copy a File]](#copy-a-file)
-* [[!UICONTROL Delete a File]](#delete-a-file)
-* [[!UICONTROL Move a File/Folder to Trash]](#move-a-filefolder-to-trash)
+* [[!UICONTROL Copy a file]](#copy-a-file)
+* [[!UICONTROL Create a fFolder]](#create-a-folder)
+* [[!UICONTROL Delete a file]](#delete-a-file)
 * [[!UICONTROL Get a file]](#get-a-file)
-* [[!UICONTROL Search for Files/Folders]](#search-for-filesfolders)
-* [[!UICONTROL Create a Folder]](#create-a-folder)
 * [[!UICONTROL Get a share link]](#get-a-share-link)
+* [[!UICONTROL Move a file to trash]](#move-a-filefolder-to-trash)
+* [[!UICONTROL Search for Files/Folders]](#search-for-filesfolders)
+* [[!UICONTROL Update a File]](#update-a-file)
+* [[!UICONTROL Upload a File]](#upload-a-file)
 
-#### [!UICONTROL Upload a File]
+#### [!UICONTROL Copy a file]
 
-上傳檔案至您的[!DNL Google Drive]。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!DNL Destination]</td> 
-   <td> <p>選取您要上傳檔案的目的地。</p> 
-    <ul> 
-     <li>[!DNL My Drive]</li> 
-     <li>[!DNL Shared with Me]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Target folder]</td> 
-   <td>選取您要上傳檔案的資料夾。 </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Source file]</td> 
-   <td>選取您要使用從先前模組傳入的檔案，或是要手動對應檔案。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL File name]</td> 
-   <td>選取檔案名稱。 如果您在「[!UICONTROL source file]」欄位中選取「[!UICONTROL Map]」，則此選項可供使用。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Data]</td> 
-   <td>選取您要上傳的資料檔案。 如果您在「[!UICONTROL source file]」欄位中選取「[!UICONTROL Map]」，則此選項可供使用。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Title]</td> 
-   <td>輸入新檔案的標題。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Convert a file]</td> 
-   <td>啟用此選項可讓模組將檔案轉換為對應的[!DNL Google]格式。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Update a File]
-
-更新檔案的中繼資料或內容。
+此動作模組會將檔案複製到新位置。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -371,58 +328,7 @@ Google磁碟機聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
-   <td> <p>選取您要上傳檔案的目的地。</p> 
-    <ul> 
-     <li>[!UICONTROL My Drive]</li> 
-     <li>[!UICONTROL Shared with Me]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Move to a folder]</td> 
-   <td>如果要將檔案移動到其他資料夾，請選取要將檔案移動到其中的資料夾。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL File ID]</td> 
-   <td>對應您要更新的檔案ID。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Title]</td> 
-   <td>輸入更新檔案的標題。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Change a file content]</td> 
-   <td>選取是否要取代檔案的內容。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Source file]</td> 
-   <td>選取您要使用從先前模組傳入的檔案，或是要手動對應檔案。 如果您在上一個欄位中選擇要變更檔案的內容，則可使用此欄位。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL File name]</td> 
-   <td>選取檔案名稱。 如果您在「[!UICONTROL source file]」欄位中選取「[!UICONTROL Map]」，則此選項可供使用。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Data]</td> 
-   <td>選取您要上傳的資料檔案。 如果您在「[!UICONTROL source file]」欄位中選取「[!UICONTROL Map]」，則此選項可供使用。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Copy a File]
-
-將檔案複製到新位置。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Destination]</td> 
-   <td> <p>選取您要上傳檔案的目的地。</p> 
+   <td> <p>選取您要複製檔案的目的地。</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared with Me]</li> 
@@ -430,11 +336,11 @@ Google磁碟機聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Target folder]</td> 
-   <td>選取您要複製的檔案所在的資料夾/</td> 
+   <td>選取包含要複製之檔案的資料夾。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
-   <td>對應您要更新的檔案ID。</td> 
+   <td>對應您要複製的檔案ID。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL The name of the copy]</td> 
@@ -443,9 +349,44 @@ Google磁碟機聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a File]
+#### [!UICONTROL Create a folder]
 
-永久刪除檔案或資料夾。
+此動作模組會在指定位置建立資料夾。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Destination]</td> 
+   <td> <p>選取您要建立資料夾的目的地。</p> 
+    <ul> 
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared with Me]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL New folder location]</td> 
+   <td>導覽至您要建立新資料夾的位置。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL The name of the new folder]</td> 
+   <td>輸入您正在建立的資料夾名稱。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Share folder]</td> 
+   <td>如果您想要與具有[!UICONTROL Share]連結的任何人共用資料夾，請選取此選項。 否則，共用連結僅供擁有者使用。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete a file]
+
+此動作模組會永久刪除檔案或資料夾。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -462,28 +403,9 @@ Google磁碟機聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Move a File/Folder to Trash]
-
-將檔案或資料夾移至垃圾桶。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL File ID]</td> 
-   <td>對應您要移至垃圾桶的檔案ID。</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Get a file]
 
-擷取具有指定ID的檔案。
+此動作模組會擷取具有指定ID的檔案。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -516,9 +438,47 @@ Google磁碟機聯結器使用下列專案：
  </tbody> 
 </table>
 
+#### [!UICONTROL Get a share link]
+
+此動作模組會擷取Google Drive中檔案的共用連結。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL File ID]</td> 
+   <td>對應您要取得共用連結的檔案ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Move a file to trash]
+
+此動作模組會將檔案或資料夾移至垃圾桶。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL File ID]</td> 
+   <td>對應您要移至垃圾桶的檔案ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Search for Files/Folders]
 
-根據搜尋條件搜尋檔案或資料夾。
+此搜尋模組會根據搜尋條件搜尋檔案或資料夾。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -530,7 +490,7 @@ Google磁碟機聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
-   <td> <p>選取您要搜尋的目的地。</p> 
+   <td> <p>選取您要搜尋的目的地磁碟機。</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared with Me]</li> 
@@ -575,9 +535,9 @@ Google磁碟機聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Create a Folder]
+#### [!UICONTROL Update a File]
 
-在指定位置中建立資料夾。
+此動作模組會更新檔案的中繼資料或內容。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -589,30 +549,42 @@ Google磁碟機聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
-   <td> <p>選取您要上傳檔案的目的地。</p> 
+   <td> <p>選取包含您要更新檔案的目的地。</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared with Me]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL New folder location]</td> 
-   <td>導覽至您要建立新資料夾的位置。</td> 
+   <td>[!UICONTROL Move to a folder]</td> 
+   <td>如果要將檔案移動到特定資料夾，請選取要將檔案移動到其中的資料夾。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL The name of the new folder]</td> 
-   <td>輸入您正在建立的資料夾名稱。</td> 
+   <td>[!UICONTROL File ID]</td> 
+   <td>對應您要更新的檔案ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Share folder]</td> 
-   <td>如果您想要與具有[!UICONTROL Share]連結的任何人共用資料夾，請選取此選項。 否則，共用連結僅供擁有者使用。</td> 
+   <td>[!UICONTROL Title]</td> 
+   <td>輸入更新檔案的標題。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Change a file content]</td> 
+   <td>選取是否要取代檔案的內容。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td>如果您要取代內容，請從先前的模組中選取來源檔案，或對映來源檔案的名稱和資料。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Conver a file]</td> 
+   <td>啟用此選項以將檔案轉換為對應的Google檔案格式。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Get a share link]
+#### [!UICONTROL Upload a File]
 
-擷取Google Drive中檔案的共用連結。
+上傳檔案至您的[!DNL Google Drive]。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -623,8 +595,28 @@ Google磁碟機聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File ID]</td> 
-   <td>對應您要取得共用連結的檔案ID。</td> 
+   <td>[!DNL Destination]</td> 
+   <td> <p>選取您要上傳檔案的目的地。</p> 
+    <ul> 
+     <li>[!DNL My Drive]</li> 
+     <li>[!DNL Shared with Me]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Target folder]</td> 
+   <td>選取您要上傳檔案的資料夾。 </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Title]</td> 
+   <td>輸入新檔案的標題。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Convert a file]</td> 
+   <td>啟用此選項可讓模組將檔案轉換為對應的[!DNL Google]格式。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -633,29 +625,31 @@ Google磁碟機聯結器使用下列專案：
 
 ### 無法上傳或更新檔案
 
-上傳或更新檔案失敗時有幾種情況：
+上傳或更新檔案失敗有幾個原因：
 
 * 上傳的檔案太大，超過您的[!DNL Google Drive]計畫允許的最大檔案大小限制，或者您已超過[!DNL Google Drive]儲存空間限制。 您可以升級儲存空間方案，或從[!DNL Google Drive]服務中刪除現有檔案。
-* 要上傳檔案到的所選資料夾已不存在。 此案例會停止，然後需要再次選取目標資料夾。
+* 要上傳檔案到的所選資料夾已不存在。 在此情況下，案例會停止，您必須在模組中選取不同的目標資料夾。
 
-## 搜尋檔案
+<!-- Not present February 2025
 
-在模組「列出資料夾中的檔案」中，您可以使用自己的查詢，該查詢由以下部分組成：
+## Search for files
 
-* **[!UICONTROL Field]** — 正在搜尋之檔案的屬性，例如，檔案的屬性`name`。
+In the module List files in a folder you can use your own query which consists of these parts:
 
-* **[!UICONTROL Operator]** — 對資料執行的測試，以提供相符專案，例如`contains`。
+* **[!UICONTROL Field]** - Attribute of the file that is being searched, for example, the attribute `name` of the file.
 
-* **[!UICONTROL Value]** — 測試之屬性的內容，例如，檔案`My cool document`的名稱。
+* **[!UICONTROL Operator]** - Test that is performed on the data to provide a match, for example, `contains`.
 
-將子句與結合項`and`或`or`結合，並使用`not`否定查詢。
+* **[!UICONTROL Value]** - The content of the attribute that is tested, for example, the name of the file `My cool document`.
 
-* [欄位](#fields)
-* [值型別](#value-types)
-* [運算子](#operators)
-* [範例](#examples)
+Combine clauses with the conjunctions `and` or `or`, and negate the query with `not`.
 
-### 欄位
+* [Fields](#fields)
+* [Value types](#value-types)
+* [Operators](#operators)
+* [Examples](#examples)
+
+### Fields 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -664,242 +658,244 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <thead> 
   <tr> 
-   <th>欄位 </th> 
-   <th>值型別 </th> 
-   <th>運算子</th> 
-   <th> <p> 說明</p> </th> 
+   <th>Field </th> 
+   <th>Value Type </th> 
+   <th>Operators</th> 
+   <th> <p> Description</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td><code>[!UICONTROL title]</code></td> 
-   <td>字串</td> 
-   <td><code>contains</code><sup>1</sup>，<code>=</code>， <code>!=</code></td> 
-   <td> <p> 檔案的名稱。</p> </td> 
+   <td>string</td> 
+   <td><code>contains</code><sup>1</sup>, <code>=</code>, <code>!=</code></td> 
+   <td> <p> Name of the file.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL fullText]</code> </td> 
-   <td>字串 </td> 
-   <td><code>contains</code><sup>2， 3</sup> </td> 
-   <td> <p> 檔案的全文，包括名稱、說明、內容和可建立索引的文字。</p> </td> 
+   <td>string </td> 
+   <td><code>contains</code><sup>2, 3</sup> </td> 
+   <td> <p> Full text of the file including name, description, content, and indexable text.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL mimeType]</code> </td> 
-   <td> 字串</td> 
-   <td><code>contains</code>，<code>=</code>， <code>!=</code></td> 
-   <td> <p> 檔案的MIME型別。</p> </td> 
+   <td> string</td> 
+   <td><code>contains</code>, <code>=</code>, <code>!=</code></td> 
+   <td> <p> MIME type of the file.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL modifiedDate]</code> </td> 
-   <td> 日期<sup>4</sup></td> 
-   <td><code> &lt;=</code>，<code>&lt;</code>，<code>=</code>，<code>!=</code>，<code>></code>， <code>>=</code></td> 
-   <td> <p> 上次修改檔案的日期。</p> </td> 
+   <td> date<sup>4</sup></td> 
+   <td><code> &lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
+   <td> <p> Date of the last modification to the file.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL lastViewedByMeDate]</code> </td> 
-   <td> 日期<sup>4</sup></td> 
-   <td><code>&lt;=</code>，<code>&lt;</code>，<code>=</code>，<code>!=</code>，<code>></code>， <code>>=</code></td> 
-   <td> <p> 使用者上次檢視檔案的日期。</p> </td> 
+   <td> date<sup>4</sup></td> 
+   <td><code>&lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
+   <td> <p> Date that the user last viewed a file.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL trashed]</code></td> 
-   <td>布林值 </td> 
-   <td><code>=</code>， <code>!=</code></td> 
-   <td> <p> 檔案是否在垃圾桶中。</p> </td> 
+   <td>boolean </td> 
+   <td><code>=</code>, <code>!=</code></td> 
+   <td> <p> Whether the file is in the trash or not.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL starred]</code></td> 
-   <td>布林值 </td> 
-   <td><code>=</code>， <code>!=</code></td> 
-   <td> <p>是否啟動檔案。</p> </td> 
+   <td>boolean </td> 
+   <td><code>=</code>, <code>!=</code></td> 
+   <td> <p>Whether the file is starred or not.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL parents]</code></td> 
-   <td>集合 </td> 
+   <td>collection </td> 
    <td><code>in </code> </td> 
-   <td> <p>[!UICONTROL parents]集合是否包含指定的識別碼。</p> </td> 
+   <td> <p>Whether the [!UICONTROL parents] collection contains the specified ID.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL owners]</code></td> 
-   <td>集合 </td> 
+   <td>collection </td> 
    <td><code>in </code> </td> 
-   <td> <p>擁有檔案的使用者。</p> </td> 
+   <td> <p>Users who own the file.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL writers]</code></td> 
-   <td>集合 </td> 
+   <td>collection </td> 
    <td><code>in </code> </td> 
-   <td> <p>有權修改檔案的使用者。</p> </td> 
+   <td> <p>Users who have permission to modify the file.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL readers] </code> </td> 
-   <td>集合 </td> 
+   <td>collection </td> 
    <td><code>in </code> </td> 
-   <td> <p>有權讀取檔案的使用者。</p> </td> 
+   <td> <p>Users who have permission to read the file.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL sharedWithMe]</code> </td> 
-   <td>布林值 </td> 
-   <td><code>=</code>， <code>!=</code></td> 
-   <td> <p> 使用者「與我共用」集合中的檔案。</p> </td> 
+   <td>boolean </td> 
+   <td><code>=</code>, <code>!=</code></td> 
+   <td> <p> Files that are in the user's "Shared with me" collection.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL properties] </code> </td> 
-   <td>集合</td> 
+   <td>collection</td> 
    <td><code>has </code> </td> 
-   <td> <p> 公用自訂檔案屬性。</p> </td> 
+   <td> <p> Public custom file properties.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-請考量下列這些欄位中的運運算元：
+Consider the following about operators in these fields:
 
-* `contains`運運算元只會執行`title`的前置詞比對。
+* The `contains` operator only performs prefix matching for a `title`.
 
-  例如，標題「HelloWorld」符合`title contains 'Hello'`，但不符合`title contains 'World'`。
+   For example, the title "HelloWorld" matches for `title contains 'Hello'` but not for `title contains 'World'`.
 
-* `contains`運運算元只對`fullText`的整個字串權杖執行比對。
+* The `contains` operator only performs matching on entire string tokens for `fullText`.
 
-  例如，如果檔案全文包含字串「HelloWorld」，則只有查詢`fullText contains 'HelloWorld'`會傳回結果。 在此案例中，`fullText contains 'Hello'`之類的查詢不會傳回結果。
+   For example, if the full text of a doc contains the string "HelloWorld" only the query `fullText contains 'HelloWorld'` returns a result. Queries such as `fullText contains 'Hello'` would not return results in this scenario.
 
-* 如果`contains`運運算元由雙引號包圍，則其符合的是完整的英數字元片語。
+* The `contains` operator matches on an exact alphanumeric phrase if it is surrounded by double quotes.
 
-  例如，如果檔案的`fullText`包含「Hello there world」字串，則查詢`fullText contains '"Hello there"'`會傳回結果，但查詢`fullText contains '"Hello world"'`不會傳回。
+   For example, if the `fullText` of a doc contains the string "Hello there world", then the query `fullText contains '"Hello there"'` returns a result, but the query `fullText contains '"Hello world"'` does not.
 
-  此外，因為搜尋是英數字元，如果檔案的`fullText`包含字串「Hello_world」，則查詢`fullText contains '"Hello world"'`會傳回結果。
+   Furthermore, because the search is alphanumeric, if the `fullText` of a doc contains the string "Hello_world", then the query `fullText contains '"Hello world"'` returns a result.
 
-* `type`日期的欄位目前無法相互比較，只能比較常數日期。
+* Fields of `type` date are currently not comparable to each other, only to constant dates.
 
-### 值型別
+### Value types
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>值型別</th> 
-   <th> <p> 附註</p> </th> 
+   <th>Value Type</th> 
+   <th> <p> Notes</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>字串 </td> 
-   <td> <p>以單引號括住'。 使用<code>\'</code> （例如<code> 'Valentine\'s Day'</code>）的查詢中逸出單引號。</p> </td> 
+   <td>String </td> 
+   <td> <p>Surround with single quotes '. Escape single quotes in queries with <code>\'</code>, e.g.,<code> 'Valentine\'s Day'</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>布林值 </td> 
-   <td> <p><code>true </code>或<code>false</code>。</p> </td> 
+   <td>Boolean </td> 
+   <td> <p><code>true </code>or <code>false</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>日期 </td> 
-   <td> <p>RFC 3339格式，預設時區為UTC，例如<code>2012-06-04T12:00:00-08:00</code>。</p> </td> 
+   <td>Date </td> 
+   <td> <p>RFC 3339 format, default timezone is UTC, e.g., <code>2012-06-04T12:00:00-08:00</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 運算子
+### Operators
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>運算子 </th> 
-   <th> <p>附註</p> </th> 
+   <th>Operator </th> 
+   <th> <p>Notes</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td><code>contains</code></td> 
-   <td> <p>一個字串的內容存在於另一個字串中。</p> </td> 
+   <td> <p>The content of one string is present in the other.</p> </td> 
   </tr> 
   <tr> 
    <td><code>=</code> </td> 
-   <td> <p> 字串或布林值的內容等於另一個字串。</p> </td> 
+   <td> <p> The content of a string or boolean is equal to the other.</p> </td> 
   </tr> 
   <tr> 
    <td><code>!=</code> </td> 
-   <td> <p> 字串或布林值的內容不等於其他字串。</p> </td> 
+   <td> <p> The content of a string or boolean is not equal to the other.</p> </td> 
   </tr> 
   <tr> 
    <td><code>&lt;</code> </td> 
-   <td> <p> 日期早於另一個日期。</p> </td> 
+   <td> <p> A date is earlier than another.</p> </td> 
   </tr> 
   <tr> 
    <td><code>&lt;=</code> </td> 
-   <td> <p> 日期早於或等於另一個日期。</p> </td> 
+   <td> <p> A date is earlier than or equal to another.</p> </td> 
   </tr> 
   <tr> 
    <td><code>></code> </td> 
-   <td> <p> 日期晚於另一個日期。</p> </td> 
+   <td> <p> A date is later than another.</p> </td> 
   </tr> 
   <tr> 
    <td><code>>=</code> </td> 
-   <td> <p> 日期晚於或等於另一個日期。</p> </td> 
+   <td> <p> A date is later than or equal to another.</p> </td> 
   </tr> 
   <tr> 
    <td><code>in </code> </td> 
-   <td> <p>元素包含在集合中。</p> </td> 
+   <td> <p>An element is contained within a collection.</p> </td> 
   </tr> 
   <tr> 
    <td><code>and </code> </td> 
-   <td> <p>傳回符合兩個子句的檔案。</p> </td> 
+   <td> <p>Return files that match both clauses.</p> </td> 
   </tr> 
   <tr> 
    <td><code>or </code> </td> 
-   <td> <p>傳回符合任一子句的檔案。</p> </td> 
+   <td> <p>Return files that match either clause.</p> </td> 
   </tr> 
   <tr> 
    <td><code>not </code> </td> 
-   <td> <p>讓搜尋子句無效。</p> </td> 
+   <td> <p>Negates a search clause.</p> </td> 
   </tr> 
   <tr> 
    <td><code>has </code> </td> 
-   <td> <p>收集包含符合引數的要素。</p> </td> 
+   <td> <p>A collection contains an element matching the parameters.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-對於複合子句，您可以使用括弧將子句組合在一起。 例如：
-`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')`此搜尋會傳回影像或視訊MIME型別的所有檔案，其上次修改是在2012年6月4日之後。 由於`and`和`or`運運算元是從左到右評估，不含括弧，因此上述範例只會傳回2012年6月4日之後修改的影像，但會傳回所有視訊，甚至是2012年6月4日之前的視訊。
+For compound clauses, you can use parentheses to group clauses together. For example:
+`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` This search returns all files with an image or video MIME type that their last modification was after June 4, 2012. Because `and` and `or` operators are evaluated from left to right, without parentheses, the above example would return only images modified after June 4, 2012, but would return all videos, even those before June 4, 2012.
 
-### 範例
+### Examples 
 
-本頁的所有範例皆顯示未編碼的`<q>q</q>`引數，其中`title = 'hello'`編碼為`title+%3d+%27hello%27`。 使用者端程式庫會自動處理此編碼。
+All examples on this page show the unencoded `<q>q</q>` parameter, where `title = 'hello'` is encoded as `title+%3d+%27hello%27`. Client libraries handle this encoding automatically.
 
-* 搜尋名稱為「hello」的檔案
-  <pre>標題= 'hello'</pre>
-* 使用檔案夾特定的MIME型別來搜尋檔案夾
-  <pre>mimetype = 'application/vnd.google-apps.folder'</pre>
-* 搜尋不是資料夾的檔案
-  <pre>mimeType ！= 'application/vnd.google-apps.folder'</pre>
-* 搜尋名稱包含「hello」和「goodbye」字樣的檔案
-  <pre>標題包含'hello'，[!UICONTROL name]包含'goodbye'</pre>
-* 搜尋名稱不包含「hello」字樣的檔案
-  <pre>標題不包含'hello'</pre>
-* 搜尋內容中包含「hello」字樣的檔案
-  <pre>fullText包含'hello'</pre>
-* 搜尋內容中不含單字「hello」的檔案
-  <pre>非fullText包含'hello'</pre>
-* 搜尋包含內容中確切片語「hello world」的檔案
-  <pre>fullText包含'"hello world"'fullText包含'"hello_world"'</pre>
-* 使用包含「\」字元的查詢來搜尋檔案（例如「\authors」）
-  <pre>fullText包含'\\authors'</pre>
-* 搜尋使用者`test@example.org`可寫入的檔案
-  <pre>中的'test@example.org' [!DNL writers]</pre>
-* 搜尋`parents`集合中的識別碼`1234567`。 這會尋找直接位於識別碼為`1234567`的資料夾中的所有檔案與資料夾。
-  <pre>中的'1234567' [!UICONTROL parents]</pre>
-* 在`parents`集合中搜尋別名識別碼`appDataFolder`。 這會尋找位於[應用程式資料資料夾](https://developers.google.com/drive/api/v2/appdata)下方的全部檔案和資料夾。
-  <pre>父級中的「appDataFolder」</pre>
-* 搜尋使用者`test@example.org`和`test2@example.org`可寫入的檔案
-  <pre>writer中的「test@example.org」及writer中的「test2@example.org」</pre>
-* 搜尋垃圾桶內包含「重要」文字的檔案
-  <pre>fullText包含'important'且true = true</pre>
-* 搜尋在2012年6月4日之後修改的檔案
-  <pre>modifiedDate &gt; '2012-06-04T12:00:00' //預設時區為UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
-* 搜尋與授權使用者共用的檔案，其名稱中包含「hello」
-  <pre>sharedWithMe且標題包含「hello」</pre>
-* 搜尋具有名為`additionalID`且值為`8e8aceg2af2ge72e78`的[自訂檔案屬性](https://developers.google.com/drive/api/v2/properties)的檔案。
-  <pre>屬性有{ key='additionalID'和value='8e8aceg2af2ge72e78'和visibility='PRIVATE' }</pre>
+* Search for files with the name "hello"
+   <pre>title = 'hello'</pre>
+* Search for folders using the folder-specific MIME type
+   <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
+* Search for files that are not folders
+   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
+* Search for files with a name containing the words "hello" and "goodbye"
+   <pre>title contains 'hello' and [!UICONTROL name] contains 'goodbye'</pre>
+* Search for files with a name that does not contain the word "hello"
+   <pre>not title contains 'hello'</pre>
+* Search for files containing the word "hello" in the content
+   <pre>fullText contains 'hello'</pre>
+* Search for files not containing the word "hello" in the content
+   <pre>not fullText contains 'hello'</pre>
+* Search for files containing the exact phrase "hello world" in the content
+   <pre>fullText contains '"hello world"'fullText contains '"hello_world"'</pre>
+* Search for files with a query containing the "\" character (e.g., "\authors")
+   <pre>fullText contains '\\authors'</pre>
+* Search for files writeable by the user `test@example.org`
+   <pre>'test@example.org' in [!DNL writers]</pre>
+* Search for the ID `1234567` in the `parents` collection. This finds all files and folders located directly in the folder whose ID is `1234567`.
+   <pre>'1234567' in [!UICONTROL parents]</pre>
+* Search for the alias ID `appDataFolder` in the `parents` collection. This finds all files and folders located directly under the [Application Data folder](https://developers.google.com/drive/api/v2/appdata).
+   <pre>'appDataFolder' in parents</pre>
+* Search for files writeable by the users `test@example.org` and `test2@example.org`
+   <pre>'test@example.org' in writers and 'test2@example.org' in writers</pre>
+* Search for files containing the text "important" which are in the trash
+   <pre>fullText contains 'important' and trashed = true</pre>
+* Search for files modified after June 4th 2012
+   <pre>modifiedDate > '2012-06-04T12:00:00' // default time zone is UTC</pre><pre>modifiedDate > '2012-06-04T12:00:00-08:00'</pre>
+* Search for files shared with the authorized user with "hello" in the name
+   <pre>sharedWithMe and title contains 'hello'</pre>
+* Search for files with a [custom file property](https://developers.google.com/drive/api/v2/properties) named `additionalID` with the value `8e8aceg2af2ge72e78`.
+   <pre>properties has { key='additionalID' and value='8e8aceg2af2ge72e78' and visibility='PRIVATE' }</pre>
 
-本指南的Source為[[!DNL Google Drive] 檔案](https://developers.google.com/drive/api/v2/search-shareddrives)。
+Source of this guide is [[!DNL Google Drive] documentation](https://developers.google.com/drive/api/v2/search-shareddrives).
+
+-->

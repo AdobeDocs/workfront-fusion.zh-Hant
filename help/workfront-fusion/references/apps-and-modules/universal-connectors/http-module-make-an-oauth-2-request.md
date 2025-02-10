@@ -4,7 +4,7 @@ description: 若要向需要OAuth 2.0授權的伺服器發出 [!DNL Adobe Workfr
 author: Becky
 feature: Workfront Fusion
 exl-id: a302a1d4-fddf-4a71-adda-6b87ff7dba4b
-source-git-commit: d9d3f21279ba89f544adc0ffa9345543907aa777
+source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 0%
@@ -80,7 +80,7 @@ ht-degree: 0%
 ## 建立[!DNL OAuth]要求的連線
 
 * [在「HTTP >建立OAuth 2.0請求模組」中建立連線的一般指示](#general-instructions-for-creating-a-connection-in-the-http--make-an-oauth-20-request-module)
-* [在HTTP >[!UICONTROL Make] OAuth 2.0請求模組中建立與Google之連線的指示](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
+* [在http > [!UICONTROL Make] OAuth 2.0請求模組中建立與Google之連線的指示](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
 * [透過「HTTP >產生OAuth 2.0請求模組」連線Microsoft Graph API的指示](#instructions-for-connecting-to-microsoft-graph-api-via-the-http--make-an-oauth-20-request-module)
 
 ### 在[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]模組中建立連線的一般指示

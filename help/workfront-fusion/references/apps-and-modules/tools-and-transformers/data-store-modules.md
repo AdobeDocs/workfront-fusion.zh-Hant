@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] 資料存放區（類似資料庫�
 author: Becky
 feature: Workfront Fusion
 exl-id: 0338b822-b345-429e-850d-3978b692231d
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 7404dafc0b368a8f1785be7b6a65fe45c0f12172
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto">
@@ -32,60 +34,61 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
-   <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]用於Work Automation and Integration]，[!UICONTROL [!DNL Workfront Fusion]用於Work Automation]</p>
+   <p>不需要Workfront Fusion授權。</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
 若要使用[!UICONTROL Data Store]模組，您必須先建立資料存放區。
 
-<!--For information on creating data stores, see [Data Stores in [!UICONTROL Adobe Workfront Fusion]]()-->
+如需建立資料存放區的資訊，請參閱[建立及管理資料存放區](/help/workfront-fusion/create-scenarios/map-data/data-stores.md)。
 
-## [!UICONTROL Data Store]模組及其欄位
+## [!UICONTROL Data store]模組及其欄位
 
 當您設定資料存放區模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除此之外，其他資料存放區欄位可能會顯示，端視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+
+您不需要建立連線即可使用資料存放區。
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-所有[!UICONTROL Data Store]模組都是動作型別模組。
 
 * [新增/取代記錄](#addreplace-a-record)
-* [更新記錄](#update-a-record)
-* [取得記錄](#get-a-record)
 * [檢查記錄是否存在](#check-the-existence-of-a-record)
+* [計算記錄](#count-records)
 * [刪除記錄](#delete-a-record)
 * [刪除所有記錄](#delete-all-records)
+* [取得記錄](#get-a-record)
 * [搜尋記錄](#search-records)
-* [計算記錄](#count-records)
+* [更新記錄](#update-a-record)
 
 ### [!UICONTROL Add/Replace a Record]
 
@@ -124,62 +127,6 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL Update a Record]
-
-此動作模組會更新記錄。
-
-您可以指定資料存放區和記錄的索引鍵。
-
-模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
-當您設定此模組時，會顯示下列欄位。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Data store]</td> 
-   <td> <p> 選取或新增要建立記錄的資料存放區。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Key] </td> 
-   <td> <p>輸入您要模組更新的記錄唯一索引鍵。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Insert missing record] </td> 
-   <td> <p>啟用此選項以在指定索引鍵的記錄不存在時建立新記錄。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Record]</td> 
-   <td> <p> 在您要更新的記錄欄位中輸入所需的值。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Get a Record]
-
-此動作模組會擷取記錄。
-
-您可以指定資料存放區和記錄的索引鍵。
-
-模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Data store]</td> 
-   <td> <p> 選取您要從中擷取記錄的資料存放區</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Key] </td> 
-   <td> <p>輸入您要模組擷取之記錄的唯一索引鍵。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### [!UICONTROL Check the Existence of a Record]
 
 此動作模組會指定特定記錄是否存在。
@@ -197,6 +144,25 @@ ht-degree: 0%
   <tr> 
    <td>[!UICONTROL Key] </td> 
    <td> <p>輸入您要模組檢查其是否存在之記錄的唯一索引鍵。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Count Records]
+
+此動作模組對資料存放區中的記錄進行編號。
+
+您可以指定資料存放區。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Data store] </td> 
+   <td> <p>選取包含您要計算之記錄的資料存放區。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -241,6 +207,29 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+### [!UICONTROL Get a Record]
+
+此動作模組會擷取記錄。
+
+您可以指定資料存放區和記錄的索引鍵。
+
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Data store]</td> 
+   <td> <p> 選取您要從中擷取記錄的資料存放區</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Key] </td> 
+   <td> <p>輸入您要模組擷取之記錄的唯一索引鍵。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### [!UICONTROL Search Records]
 
 此搜尋模組會在資料存放區中尋找符合您指定之搜尋查詢的物件記錄。
@@ -276,21 +265,35 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL Count Records]
+### [!UICONTROL Update a Record]
 
-此動作模組對資料存放區中的記錄進行編號。
+此動作模組會更新記錄。
 
-您可以指定資料存放區。
+您可以指定資料存放區和記錄的索引鍵。
+
+模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store] </td> 
-   <td> <p>選取包含您要計算之記錄的資料存放區。</p> </td> 
+   <td>[!UICONTROL Data store]</td> 
+   <td> <p> 選取或新增要建立記錄的資料存放區。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Key] </td> 
+   <td> <p>輸入您要模組更新的記錄唯一索引鍵。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Insert missing record] </td> 
+   <td> <p>啟用此選項以在指定索引鍵的記錄不存在時建立新記錄。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record]</td> 
+   <td> <p> 在您要更新的記錄欄位中輸入所需的值。</p> </td> 
   </tr> 
  </tbody> 
 </table>

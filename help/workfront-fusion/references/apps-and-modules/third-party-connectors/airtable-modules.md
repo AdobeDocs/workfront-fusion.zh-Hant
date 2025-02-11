@@ -4,7 +4,7 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 3b445b50-5812-4ded-9788-f467991e0b52
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 7404dafc0b368a8f1785be7b6a65fe45c0f12172
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 2%
@@ -83,7 +83,7 @@ Airtable聯結器使用下列專案：
 -->
 1. 開啟Workfront Fusion並開啟所需模組的&#x200B;**建立連線**&#x200B;對話方塊。
 1. 輸入連線的名稱。
-1. （選用）按一下「顯示進階設定」 ，然後輸入您的Airtable使用者端ID和使用者端密碼。
+1. （選擇性）按一下「顯示進階設定」，然後輸入您的Airtable使用者端ID和使用者端密碼。
 1. 按一下&#x200B;**繼續**&#x200B;按鈕以建立連線並返回模組。
 
 ## 可座飛機模組及其欄位

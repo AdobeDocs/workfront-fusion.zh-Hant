@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion
 exl-id: 0a45f8a7-12cc-41cc-9135-92f4779afac0
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 024176956d5ca9c88112a67c6948d6297f53810e
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,10 @@ Bynder聯結器會使用以下專案：
 
 ## 將[!DNL Bynder]連線至Workfront Fusion  {#connect-bynder-to-workfront-fusion}
 
+>[!NOTE]
+>
+>Bynder使用授權代碼/重新整理權杖授予型別。 這是Fusion Bynder聯結器使用的唯一授予型別。
+
 * [從 [!DNL Workfront Fusion]建立與 [!DNL Bynder] 的連線](#create-a-connection-to-bynder-from-workfront-fusion)
 * [在 [!DNL Bynder] 中產生[!UICONTROL Client ID]和[!UICONTROL Client Secret] （選擇性）](#generate-a-client-id-and-client-secret-in-bynder-optional)
 
@@ -107,9 +111,10 @@ Bynder聯結器會使用以下專案：
 
 >[!NOTE]
 >
->在[!DNL Bynder]中建立應用程式時，請輸入下列專案作為`redirect uri`：
+>* 在[!DNL Bynder]中建立應用程式時，請輸入下列專案作為`redirect uri`：
 >
->`https://app.workfrontfusion.com/oauth/cb/workfront-bynder`
+>   `https://app.workfrontfusion.com/oauth/cb/workfront-bynder`
+>* Bynder使用授權代碼/重新整理權杖授予型別。 這是Fusion Bynder聯結器使用的唯一授予型別。
 
 ## [!DNL Bynder]模組及其欄位
 

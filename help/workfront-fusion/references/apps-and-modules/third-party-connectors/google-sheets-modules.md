@@ -4,9 +4,9 @@ description: 為了使用 [!DNL Google Sheets] 搭配 [!DNL Adobe Workfront Fusi
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 80965570-2937-4ac8-97c0-54f7a813ec50
-source-git-commit: 5a95b2c191d4e6d8750dc57a47923f416612b4a9
+source-git-commit: 994dffd83d5b7d8b72396f147df352dfb74d6219
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3464'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,46 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -83,17 +87,25 @@ Google Sheets聯結器使用下列專案：
  </tbody> 
  </table>
 
-## 觸發程序
+## Google工作表模組及其欄位
 
-### [!UICONTROL Watch Rows]
+當您設定[!DNL Google Forms]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Google Sheets]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
-從試算表中每個新新增的列擷取值。
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-模組只會擷取之前未填入的新列。 觸發器不會處理覆寫的列。
+![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+
+### 觸發程序
+
+#### [!UICONTROL Watch Rows]
+
+從試算表中新新增的列擷取值。
+
+模組只會擷取先前未填入的新列。 觸發器不會處理覆寫的列。
 
 >[!IMPORTANT]
 >
->如果工作表包含空白列，則不會處理空白列之後的列。
+>如果工作表包含空白列，則不會處理空白列之後的任何列。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,11 +141,11 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Value render option]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>將根據儲存格的格式在回覆中計算並格式化值。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"$1.23"</code>。</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>"1.23"</code>。</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>將不會計算值。 回覆將包含公式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"=A1"</code>。</p> </td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"$1.23"</code>。</p></li><li> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>"1.23"</code>。</p></li><li> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"=A1"</code>。</p> </li><ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Date and time render option]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>指示date、time、datetime和duration欄位以「序號」格式輸出為兩倍，如Lotus 1-2-3所普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>指示日期、時間、日期時間和持續時間欄位，以指定的數字格式（視試算表的地區設定而定）輸出為字串。</p> </td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
@@ -142,21 +154,21 @@ Google Sheets聯結器使用下列專案：
  </tbody> 
 </table>
 
-## 動作
+### 動作
 
 * [[!UICONTROL Add a Row]](#add-a-row)
-* [[!UICONTROL Update a Row]](#update-a-row)
-* [[!UICONTROL Clear a Row]](#clear-a-row)
-* [[!UICONTROL Delete a Row]](#delete-a-row)
-* [[!UICONTROL Get a Cell]](#get-a-cell)
-* [[!UICONTROL Update a Cell]](#update-a-cell)
-* [[!UICONTROL Clear a Cell]](#clear-a-cell)
 * [[!UICONTROL Add a Sheet]](#add-a-sheet)
+* [[!UICONTROL Clear a Cell]](#clear-a-cell)
+* [[!UICONTROL Clear a Row]](#clear-a-row)
 * [[!UICONTROL Create a Spreadsheet]](#create-a-spreadsheet)
+* [[!UICONTROL Delete a Row]](#delete-a-row)
 * [[!UICONTROL Delete a Sheet]](#delete-a-sheet)
+* [[!UICONTROL Get a Cell]](#get-a-cell)
 * [[!UICONTROL Make an API Call]](#make-an-api-call)
+* [[!UICONTROL Update a Cell]](#update-a-cell)
+* [[!UICONTROL Update a Row]](#update-a-row)
 
-### [!UICONTROL Add a Row]
+#### [!UICONTROL Add a Row]
 
 此模組會附加一列至工作表。
 
@@ -207,7 +219,7 @@ Google Sheets聯結器使用下列專案：
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
-     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並儲存為輸入值。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -221,7 +233,290 @@ Google Sheets聯結器使用下列專案：
  </tbody> 
 </table>
 
-### [!UICONTROL Update a Row]
+#### [!UICONTROL Add a Sheet]
+
+在選取的試算表中建立新工作表。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>選取您要新增工作表的Google試算表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Properties]</td> 
+   <td> 
+    <ul> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Title]</p> <p>輸入新頁面的名稱。</p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Index]</p> <p>輸入頁面位置。 預設值為0 （將頁面放在第一位）。</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Clear a Cell]
+
+刪除指定儲存格的值。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>選取包含您要清除儲存格之工作表的Google試算表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Sheet] </td> 
+   <td> <p>選取您要清除儲存格的頁面。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Cell] </td> 
+   <td> <p>輸入或對應您要清除的儲存格識別碼。 範例： <code>A5</code>。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Clear a Row]
+
+從指定的列刪除值。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>選取包含您要清除資料列之工作表的[!DNL Google]試算表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Sheet] </td> 
+   <td> <p> 選取您要清除其資料的工作表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Row number]</td> 
+   <td> <p>輸入您要清除資料的資料列編號。 範例： <code> 23</code>。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Create a Spreadsheet]
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Title] </td> 
+   <td> <p>輸入新試算表的名稱。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Locale]</td> 
+   <td> <p>以下列格式之一輸入試算表的地區設定：</p> 
+    <ul> 
+     <li>ISO 639-1語言代碼，例如 <code>en</code></li> 
+     <li>ISO 639-2語言代碼，例如<code>haw</code> （如果沒有639-1代碼）</li> 
+     <li>ISO語言代碼和國家/地區代碼的組合，例如 <code>en_US</code></li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Recalculation interval]</td> 
+   <td> <p>重新計算易失性函式之前要等待的時間量：</p> <ul><li><p style="font-weight: bold;">[!UICONTROL On change]</p> <p>每次變更時，都會更新易失性函式。</p></li><li> <p style="font-weight: bold;">[!UICONTROL On change and every minute]</p> <p>易失性函式會在每一次變更和每分鐘更新一次。</p></li> <li><p style="font-weight: bold;">[!UICONTROL On change and hourly]</p> <p>揮發性函式會在每次變更時每小時更新。</p></li></ul> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Time zone]</td> 
+   <td> <p> 選取試算表的時區。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Number format]</td> 
+   <td> <p>選取試算表中所有儲存格的預設格式。</p> <p><strong>[!UICONTROL Text]</strong>：文字格式。 範例： <code>1000. 12</code></p> <p><strong>[!UICONTROL Number]</strong>：數字格式。 範例： <code>1,000.12</code></p> <p><strong>[!UICONTROL Percent]</strong>：百分比格式。 範例： <code>10. 12%</code></p> <p><strong>[!UICONTROL Currency]</strong>：貨幣格式。 範例： <code>$1,000.12</code></p> <p><strong>[!UICONTROL Date]</strong>：日期格式。 範例： <code>9/26/2008</code></p> <p><strong>[!UICONTROL Time]</strong>：時間格式。 範例： <code>3:59:00 PM</code></p> <p><strong>[!UICONTROL Date time]</strong>：日期和時間格式。 範例： <code>9/26/08 15:59:00</code> </p> <p><strong>[!UICONTROL Scientific]</strong>：科學數字格式。 範例： <code>1. 01E+03</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Sheets] </td> 
+   <td> <p>針對您想要新增至試算表的每個工作表，按一下<strong>[!UICONTROL Add item]</strong>，然後輸入或對應工作表的標題與工作表的索引。 0的索引代表第一個工作表。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete a Row]
+
+刪除指定的列。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>選取包含您要刪除列之工作表的Google試算表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>表 </td> 
+   <td> <p>選取您要從中刪除資料列的頁面。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>列號</td> 
+   <td> <p>輸入要刪除的列數。 範例： <code>23</code></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete a Sheet]
+
+刪除特定工作表。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>選取[!DNL Google]試算表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Sheet] </td> 
+   <td> <p>選取您要刪除的頁面。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get a Cell]
+
+從選取的儲存格擷取值。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>選取[!DNL Google]試算表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Sheet] </td> 
+   <td> <p>選取包含您要擷取資料之儲存格的工作表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Cell] </td> 
+   <td> <p>輸入您要擷取資料的儲存格識別碼。 範例： <code>A6</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Value render option]</td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"$1.23"</code>。</p></li><li> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>"1.23"</code>。</p></li><li> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"=A1"</code>。</p> </li><ul></td> 
+  </tr> 
+  <tr> 
+   <td>[!DNL Date and time render option]</td> 
+   <td> <ul><li><p style="font-weight: bold;">[!DNL Serial number]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p></li><li> <p style="font-weight: bold;">[!DNL Formatted string]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p> </li><ul></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Make an API Call]
+
+此動作模組可讓您執行自訂API呼叫。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[Fusion App]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
+   <td>輸入相對於<code>https://sheets.googleapis.com/v4/</code>的路徑。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。 例如，<code>{"Content-type":"application/json"}</code>。 [!DNL Workfront Fusion]為您新增授權標頭。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p> 以標準JSON物件的形式新增API呼叫的查詢。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：   <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>">  
+      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Update a Cell]
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Spreadsheet] </td> 
+   <td> <p>選取[!DNL Google]試算表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Sheet] </td> 
+   <td> <p>選取要更新儲存格的工作表。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Cell] </td> 
+   <td> <p>輸入要更新的儲存格識別碼。 範例： <code>A5</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Value]</td> 
+   <td> <p>輸入儲存格的新值。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Value input option]</td> 
+   <td> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並儲存為輸入值。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Update a Row]
 
 此模組可讓您變更所選列中的儲存格內容。
 
@@ -266,69 +561,20 @@ Google Sheets聯結器使用下列專案：
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
-     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並儲存為輸入值。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Clear a Row]
+### 搜尋
 
-從指定的列刪除值。
+* [[!UICONTROL Get Range Values]](#get-range-values)
+* [[!UICONTROL List Sheets]](#list-sheets)
+* [[!UICONTROL Search Rows]](#search-rows)
+* [[!UICONTROL Search Rows (Advanced)]](#search-rows-advanced)
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>選取包含您要清除資料列之工作表的[!DNL Google]試算表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Sheet] </td> 
-   <td> <p> 選取您要清除其資料的工作表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Row number]</td> 
-   <td> <p>輸入您要清除資料的資料列編號。 例如，<code> 23</code>。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Delete a Row]
-
-刪除指定的列。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>選取包含您要刪除列之工作表的Google試算表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>表 </td> 
-   <td> <p>選取您要從中刪除資料列的頁面。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>列號</td> 
-   <td> <p>輸入要刪除的列數。 範例： <code>23</code></p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Get a Cell]
-
-從選取的儲存格擷取值。
+#### [!UICONTROL Get Range Values]
 
 <table style="table-layout:auto"> 
  <col> 
@@ -344,24 +590,34 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
-   <td> <p>選取包含您要擷取資料之儲存格的工作表。</p> </td> 
+   <td> <p>選取您要取得範圍內容的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Cell] </td> 
-   <td> <p>輸入您要擷取資料的儲存格識別碼。 範例： <code>A6</code></p> </td> 
+   <td>[!UICONTROL Range] </td> 
+   <td> <p>輸入您要取得的範圍。 範例： <code>A1:D25</code>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Table contains headers]</td> 
+   <td> <p>如果工作表有標題列，請核取此方塊</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Row with headers]</td> 
+   <td>輸入表格標題的範圍。 範例<code>A1:F1</code>。 如果您將欄位留空，[!DNL Workfront Fusion]會將指定範圍的第一列視為標頭。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Value render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>將根據儲存格的格式在回覆中計算並格式化值。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"$1.23"</code>。</p> <p style="font-weight: bold;">[!DNL Unformatted value]</p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>"1.23"</code>。</p> <p style="font-weight: bold;">[!DNL Formula]</p> <p>將不會計算值。 回覆將包含公式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"=A1"</code>。</p> </td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"$1.23"</code>。</p></li><li> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>"1.23"</code>。</p></li><li> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"=A1"</code>。</p> </li><ul></td> 
   </tr> 
   <tr> 
-   <td>[!DNL Date and time render option]</td> 
-   <td> <p style="font-weight: bold;">[!DNL Serial number]</p> <p>指示date、time、datetime和duration欄位以「序號」格式輸出為兩倍，如Lotus 1-2-3所普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> <p style="font-weight: bold;">[!DNL Formatted string]</p> <p>指示日期、時間、日期時間和持續時間欄位，以指定的數字格式（視試算表的地區設定而定）輸出為字串。</p> </td> 
+   <td>[!UICONTROL Date and time render option]</td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Update a Cell]
+#### [!UICONTROL List Sheets]
+
+此模組會傳回試算表中所有工作表的清單。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -373,192 +629,12 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>選取[!DNL Google]試算表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Cell] </td> 
-   <td> <p>輸入要更新的儲存格識別碼。 範例： <code>A5</code></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Value]</td> 
-   <td> <p>輸入儲存格的新值。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Value input option]</td> 
-   <td> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
-     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
-    </ul> </td> 
+   <td> <p>選取包含您要列出工作表的[!DNL Google]試算表。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### [!UICONTROL Clear a Cell]
-
-刪除指定儲存格的值。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>選取包含您要清除儲存格之工作表的Google試算表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Sheet] </td> 
-   <td> <p>選取您要清除儲存格的頁面。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Cell] </td> 
-   <td> <p>輸入您要清除的儲存格識別碼。 範例： <code>A5</code>。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Add a Sheet]
-
-在選取的試算表中建立新工作表。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>選取您要新增工作表的Google試算表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Properties]</td> 
-   <td> 
-    <ul> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Title]</p> <p>輸入新頁面的名稱。</p> </li> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Index]</p> <p>輸入頁面位置。 預設值為0 （將頁面放在第一位）</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Create a Spreadsheet]
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Title] </td> 
-   <td> <p>輸入新試算表的名稱。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Locale]</td> 
-   <td> <p>以下列格式之一輸入試算表的地區設定：</p> 
-    <ul> 
-     <li>ISO 639-1語言代碼，例如 <code>en</code></li> 
-     <li>ISO 639-2語言代碼，例如<code>haw</code> （如果沒有639-1代碼）</li> 
-     <li>ISO語言代碼和國家/地區代碼的組合，例如 <code>en_US</code></li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Recalculation interval]</td> 
-   <td> <p>重新計算易失性函式之前要等待的時間量：</p> <p style="font-weight: bold;">[!UICONTROL On change]</p> <p>每次變更時，都會更新易失性函式。</p> <p style="font-weight: bold;">[!UICONTROL On change and every minute]</p> <p>易失性函式會在每一次變更和每分鐘更新一次。</p> <p style="font-weight: bold;">[!UICONTROL On change and hourly]</p> <p>揮發性函式會在每次變更時每小時更新。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Time zone]</td> 
-   <td> <p> 選取試算表的時區。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Number format]</td> 
-   <td> <p>選取試算表中所有儲存格的預設格式。</p> <p><strong>[!UICONTROL Text]</strong>：文字格式。 範例： <code>1000. 12</code></p> <p><strong>[!UICONTROL Number]</strong>：數字格式。 範例： <code>1,000.12</code></p> <p><strong>[!UICONTROL Percent]</strong>：百分比格式。 範例： <code>10. 12%</code></p> <p><strong>[!UICONTROL Currency]</strong>：貨幣格式。 範例： <code>$1,000.12</code></p> <p><strong>[!UICONTROL Date]</strong>：日期格式。 範例： <code>9/26/2008</code></p> <p><strong>[!UICONTROL Time]</strong>：時間格式。 範例： <code>3:59:00 PM</code></p> <p><strong>[!UICONTROL Date time]</strong>：日期和時間格式。 範例： <code>9/26/08 15:59:00</code> </p> <p><strong>[!UICONTROL Scientific]</strong>科學數字格式。 範例： <code>1. 01E+03</code></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Sheets] </td> 
-   <td> <p>按一下<strong>[!UICONTROL Add]</strong>將工作表新增至試算表。 對於每個頁面，輸入或對應頁面的標題和頁面的索引。 0的索引代表第一個工作表。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Delete a Sheet]
-
-刪除特定工作表。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>選取[!DNL Google]試算表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Sheet] </td> 
-   <td> <p>選取您要刪除的頁面。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Make an API Call]
-
-此動作模組可讓您執行自訂API呼叫。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[Fusion App]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td>輸入相對於<code>https://sheets.googleapis.com/v4/</code>的路徑。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。 例如，<code>{"Content-type":"application/json"}</code>。 [!DNL Workfront Fusion]為您新增授權標頭。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> 以標準JSON物件的形式新增API呼叫的查詢。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：   <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>">  
-      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## 搜尋
-
-* [[!UICONTROL Search Rows]](#search-rows)
-* [[!UICONTROL Search Rows (Advanced)]](#search-rows-advanced)
-* [[!UICONTROL Get Range Values]](#get-range-values)
-* [[!UICONTROL List Sheets]](#list-sheets)
-
-### [!UICONTROL Search Rows]
+#### [!UICONTROL Search Rows]
 
 使用篩選選項來搜尋列。
 
@@ -588,7 +664,7 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Filter]</td> 
-   <td> <p>設定要搜尋之列的篩選器。</p> <!--<p>For more information about filters, see <a href="/help/workfront-fusion/create-scenarios/add-modules/" class="MCXref xref">Add a filter to a scenario in [!UICONTROL Adobe Workfront Fusion]</a>.</p>--> </td> 
+   <td> <p>設定您要用來搜尋列的篩選器。</p> <!--<p>For more information about filters, see <a href="/help/workfront-fusion/create-scenarios/add-modules/" class="MCXref xref">Add a filter to a scenario in [!UICONTROL Adobe Workfront Fusion]</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sort order]</td> 
@@ -600,11 +676,11 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Value render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>將根據儲存格的格式在回覆中計算並格式化值。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"$1.23"</code>。</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>"1.23"</code>。</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>將不會計算值。 回覆將包含公式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"=A1"</code>。</p> </td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"$1.23"</code>。</p></li><li> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>"1.23"</code>。</p></li><li> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"=A1"</code>。</p> </li><ul></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Date and time render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>指示date、time、datetime和duration欄位輸出為Lotus 1-2-3所推廣的「序號」格式的雙面。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>指示日期、時間、日期時間和持續時間欄位，以指定的數字格式（視試算表的地區設定而定）輸出為字串。</p> </td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned rows]</td> 
@@ -613,7 +689,7 @@ Google Sheets聯結器使用下列專案：
  </tbody> 
 </table>
 
-### [!UICONTROL Search Rows (Advanced)]
+#### [!UICONTROL Search Rows (Advanced)]
 
 傳回符合指定准則的結果。
 
@@ -640,66 +716,6 @@ Google Sheets聯結器使用下列專案：
  </tbody> 
 </table>
 
-### [!UICONTROL Get Range Values]
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>選取[!DNL Google]試算表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Sheet] </td> 
-   <td> <p>選取您要取得範圍內容的工作表。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Range] </td> 
-   <td> <p>輸入您要取得的範圍。 範例： <code>A1:D25</code>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Table contains headers]</td> 
-   <td> <p>如果工作表有標題列，請核取此方塊</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Row with headers]</td> 
-   <td>輸入表格標題的範圍。 範例<code>A1:F1</code>。 如果您將欄位留空，[!DNL Workfront Fusion]會假設標題在指定範圍的第一列。</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Value render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>將根據儲存格的格式在回覆中計算並格式化值。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"$1.23"</code>。</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>"1.23"</code>。</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>將不會計算值。 回覆將包含公式。 例如，如果<code>A1</code>是<code>1.23</code>，<code>A2</code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>"=A1"</code>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Date and time render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>指示date、time、datetime和duration欄位輸出為Lotus 1-2-3所推廣的「序號」格式的雙面。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>指示日期、時間、日期時間和持續時間欄位，以指定的數字格式（視試算表的地區設定而定）輸出為字串。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL List Sheets]
-
-此模組會傳回試算表中所有工作表的清單。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>選取包含您要列出工作表的[!DNL Google]試算表。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ## 使用量限制
 
 如果發生錯誤`429: RESOURCE_EXHAUSTED`，表示您已超過API速率限制。
@@ -710,17 +726,22 @@ Google Sheets聯結器使用下列專案：
 
 ## 提示與秘訣
 
-* [如何從 [!DNL Google] 工作表取得空白儲存格](#how-to-get-empty-cells-from-a-google-sheet)
+* [從 [!DNL Google] 工作表取得空白儲存格](#get-empty-cells-from-a-google-sheet)
 * [在工作表中新增按鈕以執行案例](#add-a-button-in-a-sheet-to-run-a-scenario)
 
-### 如何從[!DNL Google Sheet]取得空白儲存格
+### 從[!DNL Google Sheet]取得空白儲存格
 
-使用[!UICONTROL Search Rows (Advanced)]模組並使用此公式來取得空白欄。
-<pre>選取*，其中E為Null</pre>其中，「E」為欄，「為null」為條件。 您可以使用[Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage)建立更進階的查詢。
+若要取得空白儲存格，您可以使用[!UICONTROL Search Rows (Advanced)]模組。 使用此公式來取得空白欄。
+
+```
+select * where E is null
+```
+
+其中，「E」為欄，而「is null」為條件。 您可以使用Google查詢語言建立更進階的查詢。 如需詳細資訊，請參閱Google檔案中的[Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage)。
 
 ### 在工作表中新增按鈕以執行案例
 
-1. 在[!DNL Workfront Fusion]中，在情境中插入&#x200B;**[!UICONTROL Webhook]** > **[!UICONTROL Custom webhooks]**&#x200B;模組/觸發器並加以設定（請參閱[Webhooks](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md)）。
+1. 在[!DNL Workfront Fusion]中，在情境中插入&#x200B;**[!UICONTROL Webhook]** > **[!UICONTROL Custom webhooks]**&#x200B;模組並加以設定。 如需指示，請參閱[Webhooks](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md)。
 
 1. 複製webhook的URL。
 1. 執行情境。
@@ -728,7 +749,7 @@ Google Sheets聯結器使用下列專案：
 
 1. 在[!UICONTROL Drawing]視窗中，按一下視窗頂端附近的&#x200B;**[!UICONTROL Text box]**&#x200B;圖示![文字方塊](/help/workfront-fusion/references/apps-and-modules/assets/text-box.png)。
 1. 設計按鈕並按一下右上角的&#x200B;**[!UICONTROL Save and Close]**&#x200B;按鈕：
-1. 此按鈕將會放置在您的工作表中。 按一下按鈕右上角的三個垂直點：
+1. 此按鈕會放置在您的工作表中。 按一下按鈕右上角的三個垂直點：
 1. 選擇&#x200B;**[!UICONTROL Assign script..]。功能表中的**。
 1. 輸入指令碼（函式）的名稱，例如`runScenario`，然後按一下&#x200B;**[!UICONTROL OK]**：
 1. 從主功能表列選擇&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Script editor]**。
@@ -738,7 +759,11 @@ Google Sheets聯結器使用下列專案：
    * 函式的名稱必須對應到您在步驟9中指定的名稱。
    * 將URL取代為您在步驟2中複製的webhook URL。
 
-     <pre>函式runScenario() {</pre><pre>UrlFetchApp.fetch("&lt;webhook you copied&gt;")；</pre><pre>}</pre>
+     ```
+     function runScenario() {
+     UrlFetchApp.fetch("&lt;webhook you copied>");
+     }
+     ```
 
 1. 按&#x200B;**[!UICONTROL Ctrl+S]**&#x200B;儲存指令碼檔案，輸入專案名稱並按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -748,31 +773,39 @@ Google Sheets聯結器使用下列專案：
 
 ## 將日期儲存在試算表中
 
-如果您將「日期」值儲存在沒有任何格式的試算表中，該值會在試算表中以ISO 8601格式顯示為文字。 但是，使用日期的[!DNL Google Sheets]公式或函式若不瞭解此文字（範例：公式`=A1+10`），將會顯示下列錯誤：
+如果您將「日期」值儲存在試算表中沒有任何格式，該值會在試算表中顯示為ISO 8601格式的文字。 但是，使用日期的[!DNL Google Sheets]公式或函式無法理解此文字（範例：公式`=A1+10`）會顯示下列錯誤：
 
 ![錯誤](/help/workfront-fusion/references/apps-and-modules/assets/mceclip6-350x87.png)
 
-為協助讓[!DNL Google Sheets]瞭解日期，請使用[[!UICONTROL formatDate] (date； format； [timezone])](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md#formatda)函式將其格式化。 傳遞給函式做為第二個引數的正確格式，取決於試算表的地區設定。
+為協助讓[!DNL Google Sheets]瞭解日期，請使用`formatDate`函式將其格式化。 傳遞給函式做為第二個引數的正確格式，取決於試算表的地區設定。
+
+如需有關此函式的詳細資訊，請參閱文章日期與時間函式中的[[!UICONTROL formatDate] （日期；格式； [時區]）](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md#formatdate-date-format-timezone)。
 
 若要判斷正確的格式：
 
-1. 從主功能表選擇&#x200B;**[!UICONTROL File]** > **[!UICONTROL Spreadsheet]**&#x200B;設定以驗證/設定地區設定。
+1. 在Google Sheets中，從主功能表選擇&#x200B;**[!UICONTROL File]** > **[!UICONTROL Spreadsheet]**&#x200B;設定以驗證和設定地區設定。
 
-1. 驗證/設定適當的地區設定後，從主功能表選擇&#x200B;**[!UICONTROL Format]** > **[!UICONTROL Number]**&#x200B;以決定對應的日期和時間格式。 格式會顯示在日期時間功能表專案旁：
+1. 在驗證或設定正確的地區設定後，請從主功能表中選擇&#x200B;**[!UICONTROL Format]** > **[!UICONTROL Number]**&#x200B;來決定對應的日期和時間格式。 格式會顯示在日期時間功能表專案旁：
 
 1. 若要撰寫應傳遞至[!UICONTROL formatDate()]函式的正確格式，請參閱[代號清單中的日期與時間格式](/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md)。
 
-**範例：**&#x200B;美國地區設定使用`MM/DD/YYYY HH:mm:ss`格式：
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+對於`MM/DD/YYYY HH:mm:ss`格式（美國地區設定）：
 
 ![地區設定時間公式](/help/workfront-fusion/references/apps-and-modules/assets/locale-time-350x83.png)
 
+>[!ENDSHADEBOX]
+
 ## 正在利用[!DNL Google Sheets]功能
 
-如果您遺漏內建功能，但此功能是由[!DNL Google Sheets]所提供，則您可以加以利用。 如需詳細資訊，請參閱[使用 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md)中的函式對映專案中的[使用 [!DNL Google Sheets] 函式](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md#exploiti)。
+若要使用Google Sheets的內建函式，您可以加以利用。 如需詳細資訊，請參閱文章中的[使用 [!DNL Google Sheets] 函式](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md#use-google-sheets-functions)使用函式對應專案。
 
-## 保留[!DNL Google Sheets]不要將數字變更為日期
+## 防止[!DNL Google Sheets]將數字變更為日期
 
-您可能會發現您當作文字使用的數字字串正在解譯為[!DNL Google]工作表中的日期。 例如，您輸入1-2019，打算將它當作文字，但Google將其解譯為日期。 您可以預先將數字格式設定為純文字以防止此情況發生。
+如果您用來作為文字的數字字串被解譯為[!DNL Google]工作表中的日期，您可以將數字預先格式化為純文字以防止此情況。 例如，如果您輸入1-2019，打算將它當作文字，Google可能會將其解譯為日期。
 
 1. 在[!DNL Google Sheets]中，反白顯示包含數字的欄或儲存格。
 1. 按一下&#x200B;**[!UICONTROL Format]** > **[!UICONTROL Number]** > **[!UICONTROL Plain text]**。

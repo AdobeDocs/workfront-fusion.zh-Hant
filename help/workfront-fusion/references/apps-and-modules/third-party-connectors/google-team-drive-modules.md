@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Workfront Fusion Google Team Drive] 模組可讓您�
 author: Becky
 feature: Workfront Fusion
 exl-id: 95dd9d23-1df9-40da-8fd0-646cc697bfc8
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: cca7aa6e15df0fd313e9d4ca391994a8ef4c974a
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-### 觸發器
+### 觸發程序
 
 #### [!UICONTROL Watch Files]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Source File]</p> </td> 
-   <td> <p>指定您要上傳至共用磁碟機的檔案。</p> <p>對應您要從上一個模組上傳的檔案（例如[!UICONTROL HTTP] &gt;[!UICONTROL Get a File]或[!UICONTROL Dropbox] &gt;[!UICONTROL Get a file)]），或手動輸入檔案名稱和檔案資料。</p> </td> 
+   <td> <p>指定您要上傳至共用磁碟機的檔案。</p> <p>對應您想從上一個模組上傳的檔案(例如[!UICONTROL HTTP] &gt; [!UICONTROL Get a File]或[!UICONTROL Dropbox] &gt;[!UICONTROL Get a file)]，或手動輸入檔案名稱和檔案資料。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Title]</td> 

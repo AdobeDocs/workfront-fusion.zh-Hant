@@ -1,12 +1,12 @@
 ---
-title: HTTP &amp；gt；發出API金鑰授權請求
+title: HTTP >提出API金鑰授權請求
 description: 此 [!DNL Adobe Workfront Fusion] 動作模組傳送HTTPS要求至需要API金鑰驗證授權的指定URL，並處理回應。
 author: Becky
 feature: Workfront Fusion
 exl-id: 362b80b5-42f4-4b82-b06c-39c7c5a1eb1a
-source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 1%
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data]是用於傳送檔案和資料的HTTP多部分要求。 它通常用於將檔案上傳到伺服器。</p> <p>新增要在請求中傳送的欄位。 每個欄位都必須包含索引鍵/值組。</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>輸入要在要求內文中傳送的索引鍵和值。</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案（例如[!UICONTROL HTTP] &gt;[!UICONTROL Get a File]或[!UICONTROL Google Drive] &gt;[!UICONTROL Download a File)]），或手動輸入檔案名稱和檔案資料。</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案（例如[!UICONTROL HTTP] &gt; [!UICONTROL Get a File]或[!UICONTROL Google Drive] &gt;[!UICONTROL Download a File]），或手動輸入檔案名稱和檔案資料。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

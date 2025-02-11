@@ -1,12 +1,12 @@
 ---
-title: HTTP &amp；gt；建立基本授權請求模組
+title: HTTP >建立基本授權請求模組
 description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
 author: Becky
 feature: Workfront Fusion
 exl-id: e544768e-7023-473f-8d51-631b04183743
-source-git-commit: 5a95b2c191d4e6d8750dc57a47923f416612b4a9
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
 
-## [!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request]模組組態
+## [!UICONTROL HTTP] > [!UICONTROL Make a Basic Authorization request]模組組態
 
-當您設定[!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request]模組時，[!DNL Adobe Workfront Fusion]會顯示下列欄位。 模組中的粗體標題表示必填欄位。
+當您設定[!UICONTROL HTTP] > [!UICONTROL Make a Basic Authorization request]模組時，[!DNL Adobe Workfront Fusion]會顯示下列欄位。 模組中的粗體標題表示必填欄位。
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)中將資訊從一個模組對應到另一個模組。
 

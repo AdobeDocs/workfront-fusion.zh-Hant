@@ -1,37 +1,76 @@
 ---
-title: HTTP &amp；gt；其他模組
+title: HTTP >其他模組
 description: ' [!DNL Adobe Workfront Fusion] HTTP應用程式提供各種模組，用於以超文字傳輸通訊協定(HTTP)通訊協定為基礎的通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 7db97e6e-262d-4be2-823b-423f56a7d886
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
 # HTTP >其他模組
 
->[!NOTE]
->
->除了[!UICONTROL Adobe Workfront]授權之外，[!UICONTROL Adobe Workfront Fusion]還需要[!UICONTROL Adobe Workfront Fusion]授權。
-
 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP]應用程式提供各種模組，用於以超文字傳輸通訊協定(HTTP)通訊協定為基礎的通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
 
 模組的正確選擇取決於您要存取的資源所使用的驗證/授權機制。 以下是模組的範例
 
-* 提出請求：通用模組主要用於不使用任何型別的驗證/授權的資源
-* 提出基本驗證要求：針對採用[!DNL HTTP]基本驗證(BA)的資源
-* 提出OAuth 2.0請求：針對採用OAuth 2.0授權通訊協定的資源
-* 提出使用者端憑證驗證請求：針對採用需要使用者端憑證之授權通訊協定的資源。
-* 發出API金鑰授權請求：針對採用API金鑰授權的資源。
+* **提出要求**：主要用於不使用任何驗證或授權型別的資源
+* **提出基本驗證要求**：針對使用[!DNL HTTP]基本驗證(BA)的資源
+* **提出OAuth 2.0要求**：針對使用OAuth 2.0授權通訊協定的資源
+* **提出使用者端憑證驗證要求**：針對採用需要使用者端憑證之授權通訊協定的資源
+* **提出API金鑰授權要求**：針對採用API金鑰授權的資源
 
 >[!NOTE]
 >
 >如果您要連線至目前沒有專用聯結器的Adobe產品，建議您使用Adobe Authenticator模組。
 >
 >如需詳細資訊，請參閱[Adobe Authenticator模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md)。
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+您必須具有下列存取權才能使用本文中的功能：
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td>
+   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>或</p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">產品</td> 
+   <td>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>或</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 請求模組
 
@@ -57,8 +96,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Evaluate all states as errors (except for 2xx and 3xx )] </td> 
+   <td> <p>使用此選項來設定錯誤處理。</p> <p>如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md" class="MCXref xref">錯誤處理。</p> </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
    <td> <p>輸入或對應您要下載之檔案的URL。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Share cookies with other HTTP modules] </td> 
+   <td> <p>如果您希望此網站的Cookie對其他模組可用，請啟用此選項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

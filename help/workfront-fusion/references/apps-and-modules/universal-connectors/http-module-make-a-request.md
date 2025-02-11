@@ -1,12 +1,12 @@
 ---
-title: HTTP &amp；gt；建立請求模組
-description: Adobe Workfront Fusion HTTP &amp；gt；發出請求模組是一個通用模組，可讓您設定HTTP請求並將其提交至伺服器。 接收的HTTP回應隨後會包含在輸出套件組合中。
+title: HTTP >建立請求模組
+description: Adobe Workfront Fusion HTTP >提出請求模組是通用模組，可讓您設定HTTP請求並將其提交至伺服器。 接收的HTTP回應隨後會包含在輸出套件組合中。
 author: Becky
 feature: Workfront Fusion
 exl-id: 42f6176e-86e0-489e-868b-66823a932daf
-source-git-commit: 5a95b2c191d4e6d8750dc57a47923f416612b4a9
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 1%
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL  Multipart/form-data]是用於傳送檔案和資料的HTTP多部分要求。 它通常用於將檔案上傳到伺服器。</p> <p>新增要在請求中傳送的欄位。 每個欄位都必須包含索引鍵/值組。</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>輸入要在要求內文中傳送的索引鍵和值。</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案（例如[!UICONTROL HTTP] &gt;[!UICONTROL Get a File]或[!UICONTROL Google Drive] &gt;下載檔案），或手動輸入檔案名稱和檔案資料。</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案（例如[!UICONTROL HTTP] &gt; [!UICONTROL Get a File]或[!UICONTROL Google Drive] &gt;下載檔案），或手動輸入檔案名稱和檔案資料。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

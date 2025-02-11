@@ -6,7 +6,7 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
+source-git-commit: cca7aa6e15df0fd313e9d4ca391994a8ef4c974a
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -24,19 +24,19 @@ ht-degree: 0%
 這些聯結器可讓您連線至任何具有公用API的應用程式或網頁服務。
 
 * [http > [!UICONTROL Make a request]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make a Basic Authorization request]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-basic-auth-request.md)
 * [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Make a Client Certificate Authorization request]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-client-cert-auth-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Make an API Key Authorization request]](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-api-key-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make a Client Certificate Authorization request]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make an API Key Authorization request]](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-api-key-auth-request.md)
 * [[!UICONTROL HTTP] >其他模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-modules.md)
 * [SOAP 模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/soap-module.md)
 * [FTP模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/ftp-modules.md)
 * [sftp模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/sftp.md)
 * [在 [!DNL Adobe Workfront Fusion]的HTTP模組中使用雙向TLS](/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md)
 
-## Adobe產品的聯結器
+## Adobe產品聯結器
 
-Fusion為許多Adobe的產品和服務提供聯結器。
+Fusion為許多Adobe產品和服務提供聯結器。
 
 * [Adobe Acrobat Sign模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-sign-modules.md)
 * [Adobe Authenticator模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md)
@@ -45,11 +45,11 @@ Fusion為許多Adobe的產品和服務提供聯結器。
 * [Adobe Experience Manager Assets模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
 * [Adobe Experience Manager Forms模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
 * [Adobe Firefly模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
-* [AdobeFrame.io模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
-* [Adobe I/O事件模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
+* [Adobe Frame.io模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
+* [Adobe I/O Events模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
 * [Adobe Journey Optimizer模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
-* [AdobeMarketo模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
+* [Adobe Marketo模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
 * [Adobe PDF服務模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/pdf-modules.md)
 * [Adobe Photoshop模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-photoshop-modules.md)
 * [Adobe Target模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
@@ -82,7 +82,7 @@ Fusion為許多第三方應用程式提供聯結器。
 * [gitlab模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gitlab-modules.md)
 * [Gmail模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gmail-modules.md)
 * [Google行事曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-calendar-modules.md)
-* [Google檔案模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
+* [Google Docs模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
 * [Google磁碟機模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-drive-modules.md)
 * [Google Forms模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-forms-modules.md)
 * [Google工作表模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-sheets-modules.md)

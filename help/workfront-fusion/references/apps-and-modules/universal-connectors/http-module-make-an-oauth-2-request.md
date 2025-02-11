@@ -1,12 +1,12 @@
 ---
-title: HTTP &amp；gt；建立OAuth 2.0請求模組
+title: HTTP >建立OAuth 2.0請求模組
 description: 若要向需要OAuth 2.0授權的伺服器發出 [!DNL Adobe Workfront Fusion] HTTP(S)請求，您必須先建立OAuth連線。 [!DNL Adobe Workfront Fusion] 確保所有使用此連線進行的呼叫都有適當的授權標頭，並視需要自動重新整理關聯的權杖。
 author: Becky
 feature: Workfront Fusion
 exl-id: a302a1d4-fddf-4a71-adda-6b87ff7dba4b
-source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -227,7 +227,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以儲存連線並返回模組。
 1. 繼續[設定Make an OAuth 2.0要求模組](#configure-the-make-an-oauth-20-request-module)。
 
-### 在[!UICONTROL HTTP] >[!UICONTROL Make an OAuth 2.0 request module]中建立與[!DNL Google]之連線的指示
+### 在[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request module]中建立與[!DNL Google]之連線的指示
 
 下列範例顯示如何使用[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0]要求模組來連線至[!DNL Google]。
 
@@ -333,7 +333,7 @@ ht-degree: 0%
    <td> <p>HTTP內文是HTTP交易訊息中傳輸的資料位元組，緊接在標題之後（如果有任何要使用的話）。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Raw內文型別通常適用於大多數HTTP內文要求，即使在開發人員檔案未指定要傳送的資料的情況下亦然。</p> <p>在[!UICONTROL Content type]欄位中指定剖析資料的表單。</p> <p>儘管選取了內容型別，資料仍會以開發人員檔案規定或要求的任何格式輸入。</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>此內文型別是使用<code>[!UICONTROL application/x-www-form-urlencoded]</code>POST資料。</p> <p>對於<code>[!UICONTROL application/x-www-form-urlencoded]</code>，傳送至伺服器的HTTP訊息內文基本上是一個查詢字串。 索引鍵和值是以索引鍵/值組來編碼，以<code>&amp;</code>分隔，並在索引鍵和值之間使用<code>=</code>。 </p> <p>針對二進位資料，請改用<code>use [!UICONTROL multipart/form-data]</code>。</p> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>此內文型別是使用<code>[!UICONTROL application/x-www-form-urlencoded]</code>對資料進行POST。</p> <p>對於<code>[!UICONTROL application/x-www-form-urlencoded]</code>，傳送至伺服器的HTTP訊息內文基本上是一個查詢字串。 索引鍵和值是以索引鍵/值組來編碼，以<code>&amp;</code>分隔，並在索引鍵和值之間使用<code>=</code>。 </p> <p>針對二進位資料，請改用<code>use [!UICONTROL multipart/form-data]</code>。</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b>範例： </b></span></span> 
        <p>產生的HTTP要求格式範例：</p> 
@@ -342,7 +342,7 @@ ht-degree: 0%
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data]是用於傳送檔案和資料的HTTP多部分要求。 它通常用於將檔案上傳到伺服器。</p> <p>新增要在請求中傳送的欄位。 每個欄位都必須包含索引鍵值配對。</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>輸入要在要求內文中傳送的索引鍵和值。</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案（例如[!UICONTROL HTTP] &gt;[!UICONTROL Get a File]），或手動輸入檔案名稱和檔案資料。</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案（例如[!UICONTROL HTTP] &gt; [!UICONTROL Get a File]），或手動輸入檔案名稱和檔案資料。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

@@ -1,12 +1,12 @@
 ---
-title: HTTP &amp；gt；建立使用者端憑證授權要求模組
+title: HTTP >建立使用者端憑證授權要求模組
 description: 此 [!DNL Adobe Workfront Fusion] 模組可讓您設定具有HTTP使用者端憑證授權的HTTP要求，並將其提交至伺服器。 接收的HTTP回應隨後會包含在輸出套件組合中。
 author: Becky
 feature: Workfront Fusion
 exl-id: cc33530c-3010-4955-8819-5eb8373a0e10
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ ht-degree: 0%
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
 
-## [!UICONTROL HTTP] >[!UICONTROL Make a Client Certificate Authorization request]模組組態
+## [!UICONTROL HTTP] > [!UICONTROL Make a Client Certificate Authorization request]模組組態
 
-當您設定[!UICONTROL HTTP] >[!UICONTROL Make a Client Certificate Authorization request]模組時，[!DNL Adobe Workfront Fusion]會顯示下列欄位。 模組中的粗體標題表示必填欄位。
+當您設定[!UICONTROL HTTP] > [!UICONTROL Make a Client Certificate Authorization request]模組時，[!DNL Adobe Workfront Fusion]會顯示下列欄位。 模組中的粗體標題表示必填欄位。
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)中將資訊從一個模組對應到另一個模組。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data]是用於傳送檔案和資料的HTTP多部分要求。 它通常用於將檔案上傳到伺服器。</p> <p>新增要在請求中傳送的欄位。 每個欄位都必須包含索引鍵/值組。</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>輸入要在要求內文中傳送的索引鍵和值。</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案（例如[!UICONTROL HTTP] &gt;[!UICONTROL Get a File]或[!UICONTROL Google Drive] &gt;[!UICONTROL Download a File)]），或手動輸入檔案名稱和檔案資料。</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案(例如[!UICONTROL HTTP] &gt; [!UICONTROL Get a File]或[!UICONTROL Google Drive] &gt;[!UICONTROL Download a File)]，或手動輸入檔案名稱和檔案資料。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

@@ -4,9 +4,9 @@ description: 使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 程式庫
 author: Becky
 feature: Workfront Fusion
 exl-id: 85607e4e-538a-427f-8a99-a0ab65a75ac2
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: fedf8f3f4031faaad9f81ed38fbc77e40e3a85b6
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -25,47 +25,46 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-      <td>
-        <p>[!UICONTROL Pro] 或更高</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-      <td>
-        <p>[!UICONTROL Plan]， [!UICONTROL Work]</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td>
-      <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
-   </td>
-    </tr>
-    <tr>
-      <td role="rowheader">產品</td>
-      <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">產品</td> 
+   <td>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
-   </td>
-    </tr>
-  </tbody>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   </td> 
+  </tr>
+ </tbody> 
 </table>
 
-
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -135,11 +134,11 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >選取包含您要封存之元素的程式庫。</td>
+      <td >選取或對應包含您要封存之元素的程式庫。</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL Element ID]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">選取您要封存的元素。</td>
+      <td role="rowheader">[!UICONTROL Element ID]</td>
+      <td>選取或對應您要封存的元素。</td>
     </tr>
   </tbody>
 </table>
@@ -158,7 +157,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >選取包含您要擷取之元素的程式庫。</td>
+      <td>選取或對應包含您要擷取之元素的程式庫。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Element ID]</td>
@@ -204,15 +203,15 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >選取您要列出其元素的資料庫。</td>
+      <td >選取或對應您要列出其元素的資料庫。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Order by]</td>
-      <td>選取您要依名稱或上次修改元素的日期來排序結果。</td>
+      <td>選取您要依名稱排序結果，還是要依上次修改元素的日期排序。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Type]</td>
-      <td >輸入MIME型別，將結果限製為使用指定MIME型別識別的元素。 範例： <code>string</code>。</td>
+      <td >輸入或對應MIME型別，將結果限製為使用指定MIME型別識別的元素。 範例： <code>string</code>。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Selector]</td>
@@ -240,57 +239,6 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
       <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Upload an Element]
-
-此動作模組會將小型檔案資產上傳至現有程式庫。 檔案大小上限為1 GB。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >選取您要列出其元素的資料庫。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Invocation Mode]</td>
-      <td>
-        <p>選取要用來叫用此要求程式的處理模式。</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL sync]</b>
-            </p>
-            <p>API呼叫會同步處理。 處理完成時會傳送回應（除非呼叫逾時）。</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL async]</b>
-            </p>
-            <p>系統會立即傳回非同步監視器回應，且非同步處理請求。 呼叫負責輪詢端點，直到完成。</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL sync,async]</b> （預設）</p>
-            <p>已嘗試同步處理請求。 當處理過程延長超過5000毫秒時，將傳回非同步監視器回應。 應輪詢監視URL，直到請求完成。</p>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Type File]</td>
-      <td >輸入或對應已上傳檔案的MIME型別。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Source File]</td>
-      <td>
-        <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p>
-      </td>
     </tr>
   </tbody>
 </table>
@@ -389,6 +337,9 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
 
 ### 其他
 
+* [進行API呼叫](#make-an-api-call)
+* [上傳資產](#upload-an-asset)
+
 #### [!UICONTROL Make an API Call]
 
 此模組會對[!DNL Adobe Creative Cloud Libraries] API發出自訂API呼叫。
@@ -445,6 +396,66 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p>
     </td>
     </tr>
-
 </tbody>
 </table>
+
+
+#### [!UICONTROL Upload an Asset]
+
+此動作模組會將小型檔案資產上傳至現有程式庫。 檔案大小上限為1 GB。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
+      <td >選取您要上傳資產的資料庫。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Invocation Mode]</td>
+      <td>
+        <p>選取要用來叫用此要求程式的處理模式。</p>
+        <ul>
+          <li>
+            <p><b>[!UICONTROL sync]</b>
+            </p>
+            <p>API呼叫會同步處理。 處理完成時會傳送回應（除非呼叫逾時）。</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL async]</b>
+            </p>
+            <p>系統會立即傳回非同步監視器回應，且非同步處理請求。 呼叫負責輪詢端點，直到完成。</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL sync,async]</b> （預設）</p>
+            <p>已嘗試同步處理請求。 當處理過程延長超過5000毫秒時，將傳回非同步監視器回應。 應輪詢監視URL，直到請求完成。</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Element Type]</td>
+      <td >選取您要上傳的元素型別</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL File Type]</td>
+      <td >輸入或對應已上傳檔案的MIME型別。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Source File]</td>
+      <td>
+        <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+

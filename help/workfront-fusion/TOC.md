@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront Fusion。
-source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
+source-git-commit: da0c82d66bcd90a9e676f54c93252218f9b1de99
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1648'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 3%
 * Fusion發行活動{#fusion-release-activity}
    * [Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion版本 — 2025 {#fusion-releases-2025}
+      * [Workfront Fusion發行活動： 2025年2月10日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-2-10.md)
       * [Workfront Fusion發行活動： 2025年1月20日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-1-20.md)
       * [Workfront Fusion發行活動： 2025年1月13日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-1-13.md)
       * [Workfront Fusion發行活動： 2025年1月6日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-1-6.md)
@@ -229,7 +230,7 @@ ht-degree: 3%
    * [建立新範本](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md)
    * [使用範本建立案例](/help/workfront-fusion/create-and-manage-templates/create-scenarios-with-fusion-templates.md)
    * [檢視、編輯和刪除範本](/help/workfront-fusion/create-and-manage-templates/view-edit-and-delete-fusion-templates.md)
-   * [Publish和共用範本](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md)
+   * [發佈和共用範本](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md)
    * [目前可用的Adobe Workfront Fusion範本](/help/workfront-fusion/create-and-manage-templates/currently-available-fusion-templates.md)
    * [[!DNL Adobe Workfront Fusion]範本常見問答](/help/workfront-fusion/create-and-manage-templates/fusion-templates-faqs.md)
 * 參考{#references}
@@ -297,11 +298,11 @@ ht-degree: 3%
          * [Adobe Experience Manager Assets模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
          * [Adobe Experience Manager Forms模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
          * [Adobe Firefly模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
-         * [AdobeFrame.io模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
-         * [Adobe I/O事件模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
+         * [Adobe Frame.io模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
+         * [Adobe I/O Events模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
          * [Adobe Journey Optimizer模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
          * [Adobe Lightroom模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
-         * [AdobeMarketo模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
+         * [Adobe Marketo模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
          * [Adobe PDF服務模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/pdf-modules.md)
          * [Adobe Photoshop模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-photoshop-modules.md)
          * [Adobe Target模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
@@ -330,7 +331,7 @@ ht-degree: 3%
          * [gitlab模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gitlab-modules.md)
          * [Gmail模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gmail-modules.md)
          * [Google行事曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-calendar-modules.md)
-         * [Google檔案模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
+         * [Google Docs模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
          * [Google磁碟機模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-drive-modules.md)
          * [Google Forms模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-forms-modules.md)
          * [Google工作表模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-sheets-modules.md)

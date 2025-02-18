@@ -4,9 +4,9 @@ description: 開啟Fusion時，您有許多動作選項。 本文可協助您瞭
 author: Becky
 feature: Workfront Fusion
 exl-id: 427ec131-d68d-4401-b620-998d3d5162da
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: 45775149d8e4e8c2c25b4ebf0b5392f56a04633c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 | 區域圖 | 說明 | 如需詳細資訊，請參閱 |
 |---|---|---|
-| 組織概覽<br> ![組織圖示](assets/org-icon.png) | 在這裡，您可以看到有關您的Fusion組織的資訊。 您可以檢視此組織中案例執行的作業數目，以及作用中案例的清單。 您還可以檢視此組織的團隊、使用者和環境的清單。 | [組織和團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md) |
-| 團隊概述<br> ![團隊圖示](assets/team-icon.png) | 在這裡，您可以看到有關Fusion團隊的資訊，例如此團隊中案例執行的運算元以及作用中案例的清單。 您也可以檢視及管理此團隊的使用者。 檢視團隊時，您可以從本頁面頂端的下拉式清單中選取不同的團隊。 | [組織和團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md) |
+| 組織概覽<br> ![組織圖示](assets/org-icon.png) | 在這裡，您可以看到有關您的Fusion組織的資訊。 您可以檢視此組織中案例執行的作業數目，以及作用中案例的清單。 您還可以檢視此組織的團隊、使用者和環境的清單。<br>目前選取的組織會顯示在此圖示上方。 | [組織和團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md) |
+| 團隊概述<br> ![團隊圖示](assets/team-icon.png) | 在這裡，您可以看到有關Fusion團隊的資訊，例如此團隊中案例執行的運算元以及作用中案例的清單。 您也可以檢視及管理此團隊的使用者。 檢視團隊時，您可以從本頁面頂端的下拉式清單中選取不同的團隊。<br>目前選取的團隊會顯示在此圖示上方。 | [組織和團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md) |
 | 案例<br> ![案例圖示](assets/scenarios-icon.png) | Fusion中的案例代表自動化工作流程。 例如，一個案例可以監視傳入的Workfront請求並將它們轉換為專案，而另一個案例可以產生影像、將其上傳到檔案提供者，並將核准任務新增到Workfront。 您在Fusion中的大部分工作都是設定和管理情境。 在「情境」區域中，您可以檢視及組織團隊情境清單、選取個別情境以檢視或修改或開始建立新情境。 | [案例概述](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md) |
 | 範本<br> ![範本圖示](assets/templates-icon.png) | 範本是預先建立的情境，您可以針對自己的使用案例進行設定。 在這裡，您可以看到Workfront Fusion提供的公開情境，以及您的團隊建立的範本。 | [建立和管理範本：文章索引](/help/workfront-fusion/create-and-manage-templates/create-manage-templates-toc.md) |
 | 連線<br> ![連線圖示](assets/connections-icon.png) | 連線包含可讓Fusion與其他應用程式互動的登入憑證和許可權。 您可以使用特定應用程式的一組特定認證和許可權來建立連線，然後在您的情境中使用該連線。 然後，案例可以存取和修改具有這些憑證和許可權的使用者可用的記錄或其他資料。 您可以為一個應用程式建立多個連線，並可以在多個案例中使用一個連線。 在「連線」區域中，您可以檢視和管理由您的團隊所設定的連線清單。 | [連線總覽](/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md) |

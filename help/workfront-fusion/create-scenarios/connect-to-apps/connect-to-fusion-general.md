@@ -4,9 +4,9 @@ description: 許多 [!DNL Adobe Workfront Fusion] 聯結器在建立連線時不
 author: Becky
 feature: Workfront Fusion
 exl-id: e47ab4d9-6612-4d9a-a024-da508a8bbfb2
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: ef1a96d9ef4c2c82eaf376c84188e3ed6ea7b2cf
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ ht-degree: 0%
 
 1. 按一下「[!UICONTROL Connection]」方塊旁的「**[!UICONTROL Add]**」以開啟「**[!UICONTROL Create a connection]**」面板。
 1. （選用）變更預設&#x200B;**[!UICONTROL Connection name]**。
+1. 在「環境」欄位中，選取這是生產或非生產環境。 此資訊會顯示在Fusion的「連線」區域中。
+1. 在「型別」欄位中，選取這是服務或個人帳戶。 此資訊會顯示在Fusion的「連線」區域中。
 1. （條件式）如果應用程式需要進階連線設定（例如ID、金鑰或[!UICONTROL secret]），請輸入該資訊。
 
    您可能需要按一下&#x200B;**[!UICONTROL Show advanced settings]**&#x200B;以顯示可輸入這類資訊的欄位。

@@ -4,7 +4,7 @@ description: 開啟Fusion時，您有許多動作選項。 本文可協助您瞭
 author: Becky
 feature: Workfront Fusion
 exl-id: 427ec131-d68d-4401-b620-998d3d5162da
-source-git-commit: 45775149d8e4e8c2c25b4ebf0b5392f56a04633c
+source-git-commit: 6817565ec2a6a06a26033bb51a080b619a0d211d
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >團隊標題下的所有區域都由個別團隊擁有。 若要檢視屬於不同團隊的頁面（例如不同團隊的「情境」頁面），請按一下頁面頂端附近的「團隊」下拉式清單，然後選取其他團隊。
+

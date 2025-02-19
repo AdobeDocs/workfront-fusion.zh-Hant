@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 5df5cd2b-ad4c-4a02-9d0c-7cee35232f93
-source-git-commit: a0a53d5c5af0956635f5026bbf8f8ee681946d86
+source-git-commit: 46bb455ecc0820dc68468f9f810bd51074c224fa
 workflow-type: tm+mt
-source-wordcount: '4320'
+source-wordcount: '4370'
 ht-degree: 0%
 
 ---
@@ -872,7 +872,7 @@ Trello聯結器使用下列專案：
 
 +++ **[!UICONTROL Watch cards]**
 
-此觸發模組在新增卡片時啟動。
+此觸發模組會在新增卡片時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -893,7 +893,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>在一個執行週期內傳回的卡片數目上限[!DNL Workfront Fusion]。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -947,7 +947,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query] </td> 
-   <td> <p>輸入您要尋找之使用者的全名或使用者名稱。</p> </td> 
+   <td> <p>輸入您要尋找之使用者的名稱或使用者名稱。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Partial] </td> 
@@ -955,7 +955,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned members]</td> 
-   <td> <p> 在一個執行週期內傳回的成員數目上限[!DNL Workfront Fusion]。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -996,11 +996,11 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Position] </td> 
-   <td> <p>選擇您要將檢查清單新增到卡片頂端，還是要將[!UICONTROL append the]檢查清單新增到卡片底部。</p> </td> 
+   <td> <p>選擇您要將檢查清單新增到卡片頂端，還是要將檢查清單附加到卡片底部。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Enter checklist ID]</p> </td> 
-   <td> <p>輸入或對應您要複製到新清單中的來源檢查清單ID。</p> </td> 
+   <td> <p>如果您是透過複製現有的檢查清單來建立檢查清單，請輸入或對應要複製到新檢查清單中的來源檢查清單ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1021,7 +1021,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter checklist ID]</td> 
-   <td> <p> 選取您要如何輸入要新增專案的檢查清單ID。</p> 
+   <td> <p> 如果您要複製現有的檢查清單來建立新的檢查清單，請選取要如何輸入要新增專案的檢查清單ID。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>在<strong>[!UICONTROL Checklist ID]</strong>欄位中，輸入或對應您要新增檢查清單之卡片的ID。<br></p> </li> 
      <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>選取包含您要新增檢查清單之卡片的展示板，然後選取包含卡片的清單，再選取卡片，然後選取檢查清單。</p> </li> 
@@ -1136,7 +1136,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comment] </td> 
-   <td> <p>輸入要新增到所選卡片的註解。</p> </td> 
+   <td> <p>輸入或對應您要新增至所選卡片的註解。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1180,7 +1180,7 @@ Trello聯結器使用下列專案：
 
 +++ **[!UICONTROL Watch Comments]**
 
-當指定位置中有新註解時，擷取註解詳細資料。
+此觸發模組會在新增評論時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1203,7 +1203,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>在一個執行週期內傳回的註解數目上限[!DNL Workfront Fusion]。</p> </td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大註解數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1223,4 +1223,4 @@ Trello聯結器使用下列專案：
 
 ### 如何在[!DNL Trello]中尋找其他物件的ID
 
-面板、清單和註解ID只能使用觸發器取得。 [!DNL trello.com]網站未顯示這些ID。
+面板、清單和註解ID只能使用觸發器取得。 [!DNL `trello.com`]網站未顯示這些ID。

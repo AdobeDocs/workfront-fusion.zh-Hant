@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: d9e6c26c-8770-40bc-a83a-8c05f86e4a3f
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e11c73482a3844bbc96c8d08f8e50a53bc302513
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -17,42 +17,46 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -70,20 +74,74 @@ ht-degree: 0%
 
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 
-### 觸發器
+### 觸發程序
 
-* [[!UICONTROL Watch Issues]](#watch-issues)
-* [[!UICONTROL Watch Repositories]](#watch-repositories)
-* [[!UICONTROL Watch Forks]](#watch-forks)
 * [[!UICONTROL Watch Comments]](#watch-comments)
+* [[!UICONTROL Watch Forks]](#watch-forks)
+* [[!UICONTROL Watch Issues]](#watch-issues)
 * [[!UICONTROL Watch Pull Requests]](#watch-pull-requests)
+* [[!UICONTROL Watch Repositories]](#watch-repositories)
+
+#### [!UICONTROL Watch Comments]
+
+此觸發模組會在新增評論或修改現有評論時啟動案例。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取您要監看的存放庫。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Issue number]</td> 
+   <td>如果您只想搜尋針對特定問題所做的新註解，以限制搜尋，請輸入問題編號。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
+   <td> <p> 設定[!DNL Workfront Fusion]在一個週期內傳回的最大評論數量。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Watch]</td> 
+   <td>選取您是要只觀看新註解，還是要觀看註解和所有變更。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Forks]
+
+此觸發模組會在建立新復本時啟動案例。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取您要監視分支的存放庫。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned forks]</td> 
+    <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大分叉數目。</td>
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Watch Issues]
 
-當新增問題或修改現有問題時，就會觸發此模組。
+此觸發模組會在新增問題或修改現有問題時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +153,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL I want to watch]</td> 
-   <td>選擇您是要監視所有存放庫，還是隻監視一個存放庫。</td> 
+   <td>選取您要監視與此帳戶關聯的所有存放庫，還是隻想監視一個存放庫。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -103,7 +161,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內可處理的最大結果數量。 </td> 
+   <td> <p> 設定[!DNL Workfront Fusion]在一個週期內傳回的問題數上限。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch]</td> 
@@ -126,84 +184,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Labels]</td> 
-   <td>新增標籤。 模組會監視此標籤的問題。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Watch Repositories]
-
-建立或修改存放庫時，會觸發此模組。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned repositories]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內可處理的最大結果數量。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Watch]</td> 
-   <td>選取您要監視新存放庫和所有變更，還是隻監視新存放庫。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Watch Forks]
-
-此模組會在建立新復本時觸發。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取您要監視分支的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned forks]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內可處理的最大結果數量。 </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Watch Comments]
-
-此模組在新增評論或修改現有評論時觸發。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取您要監看的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Issue number]</td> 
-   <td>如果您只想搜尋針對特定問題所做的新註解，以限制搜尋，請輸入問題編號。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內可處理的最大結果數量。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Watch]</td> 
-   <td>選取您是要只觀看新註解，還是要觀看註解和所有變更。</td> 
+   <td>針對您要新增的每個標籤，按一下[新增專案] <b>並輸入標籤。 </b>模組會監視這些標籤的問題。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,7 +207,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned pull requests]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內可處理的最大結果數量。 </td> 
+   <td> <p> 設定[!DNL Workfront Fusion]在一個週期內傳回的最大提取要求數目。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL State]</td> 
@@ -239,22 +220,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### 動作
+#### [!UICONTROL Watch Repositories]
 
-* [[!UICONTROL Search for an issue]](#search-for-an-issue)
-* [[!UICONTROL Create an issue]](#create-an-issue)
-* [[!UICONTROL Update an issue]](#update-an-issue)
-* [[!UICONTROL Get an issue]](#get-an-issue)
-* [[!UICONTROL Add assignees]](#add-assignees)
-* [[!UICONTROL Remove assignees]](#remove-assignees)
-* [[!UICONTROL Add labels to an issue]](#add-labels-to-an-issue)
-* [[!UICONTROL Remove a label from an issue]](#remove-a-label-from-an-issue)
-* [[!UICONTROL Create a comment]](#create-a-comment)
-* [[!UICONTROL List comments]](#list-comments)
-
-#### [!UICONTROL Search for an issue]
-
-此模組會搜尋符合您搜尋條件的問題。
+此觸發模組會在建立或修改存放庫時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -265,26 +233,106 @@ ht-degree: 0%
    <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內可處理的最大結果數量（每個案例執行的重複數目）。 </td> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned repositories]</td> 
+   <td> <p> 設定[!DNL Workfront Fusion]在一個週期內傳回的存放庫數目上限。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Sort by]</td> 
-   <td> <p>選取您要如何排序搜尋結果。</p> 
-    <ul> 
-     <li> <p>[!UICONTROL Best match] </p> </li> 
-     <li>[!UICONTROL Date created]</li> 
-     <li>[!UICONTROL Date updated]</li> 
-     <li>[!UICONTROL Number of comments]</li> 
-    </ul> </td> 
+   <td role="rowheader">[!UICONTROL Watch]</td> 
+   <td>選取您要監視新存放庫和所有變更，還是隻監視新存放庫。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 動作
+
+* [[!UICONTROL Add assignees]](#add-assignees)
+* [[!UICONTROL Add labels to an issue]](#add-labels-to-an-issue)
+* [[!UICONTROL Create a comment]](#create-a-comment)
+* [[!UICONTROL Create an issue]](#create-an-issue)
+* [[!UICONTROL Get an issue]](#get-an-issue)
+* [[!UICONTROL List comments]](#list-comments)
+* [[!UICONTROL Remove a label from an issue]](#remove-a-label-from-an-issue)
+* [[!UICONTROL Remove assignees]](#remove-assignees)
+* [[!UICONTROL Search for an issue]](#search-for-an-issue)
+* [[!UICONTROL Update an issue]](#update-an-issue)
+
+#### [!UICONTROL Add assignees]
+
+此模組會將受指派人新增至指定問題
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Sort direction]</td> 
-   <td> <p>選取升序或降序。 </p> <p>對於日期，選取<strong>[!UICONTROL descending]</strong>會先傳回最近的日期。 </p> <p>針對[!UICONTROL number of comments]，選取<strong>[!UICONTROL descending]</strong>將會先傳回評論數量最多的問題。</p> </td> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取包含您要新增受指派人之問題的存放庫。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query]</td> 
-   <td>輸入或對應您的搜尋查詢。 如需搜尋選項的詳細說明，請參閱[!DNL GitHub]說明網站上的<a href="https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests">搜尋問題和提取要求</a>。</td> 
+   <td role="rowheader">[!UICONTROL Assignee]</td> 
+   <td>選取您要指派給問題的人員。 可用的受指派人包括擁有存放庫寫入許可權的任何人，以及擁有存放庫讀取許可權的組織成員。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number]</td> 
+   <td>輸入或對應您要新增受指派人之問題的問題編號。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Add labels to an issue]
+
+此模組向問題新增標籤。 標籤是在存放庫層級上定義，而且只能由擁有存放庫寫入許可權的人建立。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取包含您要新增標籤之問題的存放庫。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Labels]</td> 
+   <td>選取您要新增至問題的標籤。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number]</td> 
+   <td>輸入或對應您要新增標籤的問題編號。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Create a comment]
+
+此模組會針對指定問題建立評論。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取包含您要建立註解之問題的存放庫。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number]</td> 
+   <td>輸入或對應您要建立評論之問題的問題編號。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td>輸入或對應註解的內容。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -328,6 +376,151 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL Get an issue]
+
+此模組會擷取有關指定問題的詳細資料
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取包含您要擷取其詳細資訊之問題的存放庫。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number]</td> 
+   <td>輸入或對應您要擷取詳細資訊的問題編號。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List comments]
+
+此模組會列出指定問題的所有註解。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取包含您要列出其註釋之問題的存放庫。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number]</td> 
+   <td>輸入或對應您要列出註解之問題的問題編號。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Since]</td> 
+   <td>模組將傳回在此日期之後建立的註解。 如需支援的日期格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中輸入強制格式。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned comments]</td> 
+   <td> <p> 設定[!DNL Workfront Fusion]在一個週期內傳回的最大評論數量。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Remove a label from an issue]
+
+此模組會從問題中移除單一標籤。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取包含您要移除其標籤之問題的存放庫。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Labels]</td> 
+   <td>選取您要從問題中移除的標籤。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number]</td> 
+   <td>輸入或對應您要移除標籤之問題的問題編號。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Remove assignees]
+
+此模組會從指定的問題中移除受指派人。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Repository]</td> 
+   <td>選取包含您要移除被指定者之問題的存放庫。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Assignee]</td> 
+   <td>選取您要從問題中移除的人員。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number]</td> 
+   <td>輸入或對應您要移除受指派人之問題的問題編號。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Search for an issue]
+
+此模組會搜尋符合您搜尋條件的問題。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
+   <td> <p> 設定[!DNL Workfront Fusion]在一個週期內傳回的問題數上限。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Sort by]</td> 
+   <td> <p>選取您要如何排序搜尋結果。</p> 
+    <ul> 
+     <li> <p>[!UICONTROL Best match] </p> </li> 
+     <li>[!UICONTROL Date created]</li> 
+     <li>[!UICONTROL Date updated]</li> 
+     <li>[!UICONTROL Number of comments]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Sort direction]</td> 
+   <td> <p>選取升序或降序。 </p> <p>對於日期，選取<strong>[!UICONTROL descending]</strong>會先傳回最近的日期。 </p> <p>針對[!UICONTROL number of comments]，選取<strong>[!UICONTROL descending]</strong>將會先傳回評論數量最多的問題。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
+   <td>輸入或對應您的搜尋查詢。 如需搜尋選項的詳細說明，請參閱[!DNL GitHub]說明網站上的<a href="https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests">搜尋問題和提取要求</a>。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Update an issue]
 
 此模組會更新現有的[!DNL GitHub]問題。
@@ -366,220 +559,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Title]</td> 
-   <td>輸入或對應問題的標題。</td> 
+   <td>輸入或對應問題的新標題。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td>輸入或對應問題本文，例如說明或其他資訊</td> 
+   <td>輸入或對應問題的新內文，例如說明或其他資訊</td> 
   </tr> 
  </tbody> 
 </table>
-
-#### [!UICONTROL Get an issue]
-
-此模組會擷取有關指定問題的詳細資料
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取包含您要擷取其詳細資訊之問題的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Number]</td> 
-   <td>輸入或對應您要擷取詳細資訊的問題編號。 </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Add assignees]
-
-此模組會將受指派人新增至指定問題
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取包含您要新增受指派人之問題的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Assignee]</td> 
-   <td>選取您要指派給問題的人員。 可用的受指派人包括擁有存放庫寫入許可權的任何人，以及擁有存放庫讀取許可權的組織成員。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Number]</td> 
-   <td>輸入或對應您要新增受指派人之問題的問題編號。 </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Remove assignees]
-
-此模組會從指定的問題中移除受指派人。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取包含您要移除被指定者之問題的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Assignee]</td> 
-   <td>選取您要從問題中移除的人員。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Number]</td> 
-   <td>輸入或對應您要移除受指派人之問題的問題編號。 </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Add labels to an issue]
-
-此模組向問題新增標籤。 標籤是在存放庫層級上定義，而且只能由擁有存放庫寫入許可權的人建立。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取包含您要新增標籤之問題的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Labels]</td> 
-   <td>選取您要新增至問題的標籤。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Number]</td> 
-   <td>輸入或對應您要新增標籤的問題編號。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Remove a label from an issue]
-
-此模組會從問題中移除單一標籤。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取包含您要移除其標籤之問題的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Labels]</td> 
-   <td>選取您要從問題中移除的標籤。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Number]</td> 
-   <td>輸入或對應您要移除標籤之問題的問題編號。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Create a comment]
-
-此模組會針對指定問題建立評論。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取包含您要建立註解之問題的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Number]</td> 
-   <td>輸入或對應您要建立評論之問題的問題編號。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td>輸入或對應註解的內容。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL List comments]
-
-此模組會列出指定問題的所有註解。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL GitHub]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Repository]</td> 
-   <td>選取包含您要列出其註釋之問題的存放庫。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Number]</td> 
-   <td>輸入或對應您要列出註解之問題的問題編號。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Since]</td> 
-   <td>模組將傳回在此日期之後建立的註解。 如需支援的日期格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中輸入強制格式。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned comments]</td> 
-   <td>設定[!DNL Workfront Fusion]在一個週期內可處理的最大結果數量。 </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<!--
-<h2>Troubleshooting</h2>
--->
-
-<!--
-<h3>Module does not receive any events</h3>
--->
-
-<!--
-<p>If a module does not receive any events, check the webhook settings in Github and make sure that:</p>
--->
-
-<!--
-  <p>You have set the correct type of event that the chosen module should receive</p>
-  -->
-
-<!--
-  <p>You have entered the correct Payload URL</p>
-  -->

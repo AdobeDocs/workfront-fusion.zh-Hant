@@ -1,60 +1,72 @@
 ---
-title: Adobe I/O事件模組
-description: 使用Adobe I/O事件模組，您可以根據Adobe應用程式中的事件啟動Adobe Workfront Fusion案例。
+title: Adobe I/O Events模組
+description: 透過Adobe I/O Events模組，您可以根據Adobe應用程式中的事件啟動Adobe Workfront Fusion案例。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: b2229f3e-a2a7-4b07-8ead-a37d193c2ec7
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 9cea5de748873720247db39161cea12c7e9c7186
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
 
-# Adobe I/O事件模組
+# Adobe I/O Events模組
 
-您可以使用「Adobe I/O事件」模組，根據沒有專用Adobe Workfront Fusion聯結器的Adobe帳戶和服務中的事件來啟動Workfront Fusion案例。
+透過Adobe I/O Events模組，您可以根據沒有專用Adobe Workfront Fusion聯結器的Adobe帳戶和服務中的事件來啟動Workfront Fusion案例。
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
-   <td> <p>Pro或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>計畫、工作</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td> <p>適用於工作自動化和整合的Workfront Fusion </p>  </td> 
+   <td>
+   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>或</p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>您的組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。</td> 
-  </tr> 
+   <td>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>或</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
-&#42;&#42;如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
-使用Adobe I/O事件聯結器之前，您必須確保符合下列先決條件：
+使用Adobe I/O Events聯結器之前，您必須確保符合下列先決條件：
 
-* 您必須擁有使用中的Adobe帳戶。
+* 您必須擁有作用中的Adobe帳戶。
 
-## Adobe I/O事件API資訊
+## Adobe I/O Events API資訊
 
-Adobe I/O事件聯結器會使用以下專案：
+Adobe I/O Events聯結器會使用以下專案：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,9 +83,9 @@ Adobe I/O事件聯結器會使用以下專案：
  </tbody> 
  </table>
 
-## 建立與Adobe I/O事件的連線
+## 建立與Adobe I/O Events的連線
 
-若要建立「Adobe I/O事件」模組的連線：
+若要建立Adobe I/O Events模組的連線：
 
 1. 按一下「連線」方塊旁的「新增」。
 
@@ -135,7 +147,7 @@ Adobe I/O事件聯結器會使用以下專案：
 
 1. 按一下&#x200B;**繼續**&#x200B;以儲存連線並返回模組。
 
-## Adobe I/O事件模組及其欄位
+## Adobe I/O Events模組及其欄位
 
 當您設定[!DNL Adobe I/O Events]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Adobe I/O Events]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
@@ -309,7 +321,7 @@ Adobe I/O事件聯結器會使用以下專案：
 
 #### 取得提供者和事件ID
 
-此搜尋模組取得指定之提供者和事件的Adobe I/O事件ID。
+此搜尋模組會取得指定之提供者和事件的Adobe I/O Events ID。
 
 <table>
      <col/>

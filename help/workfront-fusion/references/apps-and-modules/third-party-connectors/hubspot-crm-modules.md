@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] HubSpot CRM模組可讓您監視 [!
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 9cea5de748873720247db39161cea12c7e9c7186
 workflow-type: tm+mt
-source-wordcount: '5661'
+source-wordcount: '5530'
 ht-degree: 0%
 
 ---
@@ -17,42 +17,46 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -107,19 +111,17 @@ HubSpot CRM聯結器使用下列專案：
 * [表格](#forms)
 * [社群媒體（廣播）](#social-media-broadcast)
 * [部落格](#blog-posts)
-  <!--* [Workflows]-->
+  <!--* [Workflows]()-->
 * [訂閱](#subscriptions)
-  <!--* [Associations](#associations)-->
+  <!--* [Associations]()-->
 * [其他](#other)
-
-+++**CRM物件**
 
 ### crm物件
 
-* [搜尋CRM物](#search-for-crm-objects)
-* [觀看CRM物件](#watch-crm-objects)
+<!--* [Search for CRM objects](#search-for-crm-objects)
+* [Watch CRM objects](#watch-crm-objects)-->
 
-#### [!UICONTROL Search for CRM Objects]
++++ **[!UICONTROL Search for CRM Objects]**
 
 此搜尋模組會依自訂屬性或查詢來搜尋CRM物件。 若要搜尋產品或條列專案，請使用具有所需自訂範圍的特殊連線。
 
@@ -166,7 +168,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 觀看CRM物件
++++
+
++++ **觀看CRM物件**
 
 此觸發模組會在建立或更新CRM物件時啟動案例。
 
@@ -203,20 +207,18 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**筆記錄（交易、連絡人和公司）**
-
 ### 記錄（交易、聯絡人和公司）
 
-* [建立記錄](#create-a-record)
+<!--* [Create a Record](#create-a-record)
 * [[!UICONTROL Create a Record (Legacy)]](#create-a-record-legacy)
 * [[!UICONTROL Delete a Record]](#delete-a-record)
 * [[!UICONTROL Get a Record]](#get-a-record)
 * [[!UICONTROL Get a Record Property]](#get-a-record-property)
-* [清單記錄](#list-records)
+* [List Records](#list-records)
 * [[!UICONTROL Update a Record]](#update-a-record)
-* [[!UICONTROL Watch Records]](#watch-records)
+* [[!UICONTROL Watch Records]](#watch-records)-->
 
-#### 建立記錄
++++ **建立記錄**
 
 此動作模組會建立聯絡人、公司或交易。
 
@@ -239,7 +241,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Create a Record (Legacy)]
++++
+
++++ **[!UICONTROL Create a Record (Legacy)]**
 
 此動作模組會建立聯絡人、公司或交易。
 
@@ -262,7 +266,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Record]
++++
+
++++ **[!UICONTROL Delete a Record]**
 
 此動作模組會刪除連絡人、公司或交易。
 
@@ -285,7 +291,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Get a Record]
++++
+
++++ [!UICONTROL Get a Record]
 
 此動作模組會取得聯絡人、公司或交易的詳細資料。
 
@@ -321,7 +329,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Get a Record Property]
++++
+
++++ **[!UICONTROL Get a Record Property]**
 
 此動作模組透過其（內部）名稱取得特定記錄屬性的中繼資料。
 
@@ -348,7 +358,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 清單記錄
++++
+
++++ **列出記錄**
 
 此搜尋模組會傳回聯絡人、公司或交易的清單。 輸出限製為5000個連絡人、12,500家公司或12,500筆交易。
 
@@ -371,12 +383,13 @@ HubSpot CRM聯結器使用下列專案：
     <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
-  </tr>
-
-</tbody> 
+  </tr> 
+ </tbody> 
 </table>
 
-#### [!UICONTROL Update a Record]
++++
+
++++ **[!UICONTROL Update a Record]**
 
 此動作模組會更新聯絡人、公司或交易。
 
@@ -415,7 +428,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch Records]
++++
+
++++ **[!UICONTROL Watch Records]**
 
 在過去30天內修改或建立連絡人、公司或交易時，此觸發模組就會開始案例。 輸出限製為10,000筆記錄。
 
@@ -448,12 +463,10 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**連絡人**
-
 ### 連絡人
 
-* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
-* [建立/更新連絡人](#createupdate-a-contact)
+<!--* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
+* [Create/Update a contact](#createupdate-a-contact)
 * [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
 * [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
 * [[!UICONTROL List Contacts]](#list-contacts)
@@ -461,9 +474,9 @@ HubSpot CRM聯結器使用下列專案：
 * [[!UICONTROL Merge contacts]](#merge-contacts)
 * [[!UICONTROL Remove a Contact from a List]](#remove-a-contact-from-a-list)
 * [[!UICONTROL Search for Contacts]](#search-for-contacts)
-* [觀看新增至清單的連絡人](#watch-contacts-added-to-a-list)
+* [Watch Contacts Added to a List](#watch-contacts-added-to-a-list)-->
 
-#### [!UICONTROL Add Contacts to a List]
++++ **[!UICONTROL Add Contacts to a List]**
 
 此模組會將系統中已建立的連絡人記錄新增至連絡人清單。
 
@@ -490,7 +503,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 建立/更新連絡人
++++
+
++++ **建立/更新連絡人**
 
 如果連絡人不存在入口網站中，此動作模組會建立連絡人。 如果入口網站中確實有連絡人，此模組會以提供的值更新連絡人。
 
@@ -509,7 +524,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Create/Update a Contact (Legacy)]
++++
+
++++ **[!UICONTROL Create/Update a Contact (Legacy)]**
 
 如果入口網站中不存在連絡人，則建立連絡人；如果入口網站中不存在連絡人，則使用最新屬性值更新連絡人。
 
@@ -528,7 +545,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Create/Update a Group of Contacts]
++++
+
++++ **[!UICONTROL Create/Update a Group of Contacts]**
 
 建立連絡人群組或更新連絡人（如果已經存在）。 當批次大小限製為100個或更少聯絡人時，效能最佳。 透過此端點進行的變更會以非同步方式處理，因此可能需要幾分鐘的時間才能將變更套用至聯絡人記錄。
 
@@ -555,7 +574,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL List Contacts]
++++
+
++++ **[!UICONTROL List Contacts]**
 
 傳回入口網站中建立的所有連絡人。 輸出限製為5000個連絡人。 若要列出上一個或下一個連絡人，您可以使用[!UICONTROL advanced]引數來位移清單。
 
@@ -582,7 +603,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL List Contacts of a Company]
++++
+
++++ **[!UICONTROL List Contacts of a Company]**
 
 擷取公司中的聯絡人清單。 輸出限製為5000個連絡人。 若要列出上一個或下一個連絡人，您可以使用[!UICONTROL advanced]引數來位移清單。
 
@@ -609,7 +632,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Merge contacts]
++++
+
++++ **[!UICONTROL Merge contacts]**
 
 此動作模組會合併連絡人
 
@@ -632,7 +657,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Remove a Contact from a List]
++++
+
++++ **[!UICONTROL Remove a Contact from a List]**
 
 從連絡人清單移除連絡人。
 
@@ -659,7 +686,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Search for Contacts]
++++
+
++++ **[!UICONTROL Search for Contacts]**
 
 使用搜尋查詢來擷取連絡人清單。
 
@@ -682,7 +711,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch contacts added to a list]
++++
+
++++ **[!UICONTROL Watch contacts added to a list]**
 
 此觸發模組會在清單中新增連絡人時啟動案例。 此僅供擁有付費行銷帳戶的使用者使用。
 
@@ -711,14 +742,12 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**個交易**
-
 ### 交易
 
-* [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
-* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)
+<!--* [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
+* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)-->
 
-#### [!UICONTROL Get a Deal's CRM Pipeline]
++++ **[!UICONTROL Get a Deal's CRM Pipeline]**
 
 傳回特定交易管道。
 
@@ -741,7 +770,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL List Deal/Ticket Pipelines]
++++
+
++++ **[!UICONTROL List Deal/Ticket Pipelines]**
 
 傳回給定入口網站的所有交易和票證管道。
 
@@ -762,11 +793,9 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**公司**
-
 ### 公司
 
-#### [!UICONTROL Search for Companies by domain]
++++ **[!UICONTROL Search for Companies by domain]**
 
 根據與網域屬性的完全相符專案擷取公司清單。
 
@@ -795,16 +824,14 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**參與**
-
 ### 參與
 
-* [將參與與CRM物件建立關聯](#associate-an-engagement-with-a-crm-object)
-* [建立參與](#create-an-engagement)
-* [刪除參與](#delete-an-engagement)
-* [Watch參與](#watch-engagements)
+<!--* [Associate an Engagement with a CRM object](#associate-an-engagement-with-a-crm-object)
+* [Create an Engagement](#create-an-engagement)
+* [Delete an Engagement](#delete-an-engagement)
+* [Watch Engagements](#watch-engagements)-->
 
-#### 將參與與CRM物件建立關聯
++++ **將參與與CRM物件建立關聯**
 
 此動作模組會將參與和聯絡人、公司或交易建立關聯。
 
@@ -831,7 +858,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 建立參與
++++
+
++++ **建立參與**
 
 此動作模組會在HubSpot中建立具有CRM物件的參與（例如附註、任務或活動）。 參與是指與應登入CRM之連絡人的任何互動。
 
@@ -898,7 +927,7 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-##### 電子郵件中繼資料
+#### 電子郵件中繼資料
 
 <table style="table-layout:auto"> 
  <col> 
@@ -935,7 +964,7 @@ HubSpot CRM聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">HTML</td> 
-   <td>若要傳送HTML格式的電子郵件，請輸入或對映電子郵件內文，包括HTML標籤。</td> 
+   <td>若要傳送HTML格式的電子郵件，請輸入或對應電子郵件內文，包括HTML標籤。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">文字</td> 
@@ -944,7 +973,7 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-##### 呼叫中繼資料
+#### 呼叫中繼資料
 
 <table style="table-layout:auto"> 
  <col> 
@@ -986,7 +1015,7 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-##### 會議欄位
+#### 會議欄位
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1012,7 +1041,7 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-##### 工作列位
+#### 工作列位
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1038,7 +1067,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 刪除參與
++++
+
++++ **刪除參與**
 
 此動作模組會依ID刪除參與。
 
@@ -1057,7 +1088,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### Watch參與
++++
+
++++ **觀看預約**
 
 此觸發模組會在入口網站中建立新參與時開始案例。 此模組僅傳回過去30天內建立的記錄，或最近建立的10,000筆記錄。
 
@@ -1082,16 +1115,14 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**個事件和通知**
-
 ### 事件與通知
 
-* [建立/更新時間表事件](#create--update-a-timeline-event)
-* [列出時間表事件型別](#list-timeline-event-types)
-* [觀看行事曆事件](#watch-calendar-events)
-* [Watch通知](#watch-notifications)
+<!--* [Create / Update a Timeline Event](#create--update-a-timeline-event)
+* [List Timeline Event Types](#list-timeline-event-types)
+* [Watch Calendar Events](#watch-calendar-events)
+* [Watch Notifications](#watch-notifications)-->
 
-#### 建立/更新時間表事件
++++ **建立/更新時間表事件**
 
 此動作模組會建立或更新時間表事件。 此模組只能與包含使用者識別碼、HubSpot API金鑰、使用者端ID和使用者端密碼的開發人員連線一起使用。
 
@@ -1134,7 +1165,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 列出時間表事件型別
++++
+
++++ **列出時間表事件型別**
 
 此搜尋模組會傳回特定應用程式的所有時間表事件清單。 此模組只能與包含使用者識別碼、HubSpot API金鑰、使用者端ID和使用者端密碼的開發人員連線一起使用。
 
@@ -1153,7 +1186,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 觀看行事曆事件
++++
+
++++ **觀看行事曆活動**
 
 此觸發模組會在新事件新增至行事曆時啟動案例。 它包含最多500個介於開始和結束日期之間的任務。 此模組只能與包含使用者識別碼、HubSpot API金鑰、使用者端ID和使用者端密碼的開發人員連線一起使用。
 
@@ -1184,7 +1219,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### Watch通知
++++
+
++++ **觀看通知**
 
 此觸發模組會在傳送有關變更的新通知時啟動案例。  它包含最多500個介於開始和結束日期之間的任務。 此模組只能與包含使用者識別碼、HubSpot API金鑰、使用者端ID和使用者端密碼的開發人員連線一起使用。 在HubSpot中，每個開發人員應用程式只能有一個webhook URL。
 
@@ -1215,19 +1252,17 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**檔案**
-
 ### 檔案
 
-* [[!UICONTROL Create a Folder]](#create-a-folder)
-* [刪除檔案](#delete-a-file)
+<!--* [[!UICONTROL Create a Folder]](#create-a-folder)
+* [Delete a File](#delete-a-file)
 * [[!UICONTROL Delete a Folder]](#delete-a-folder)
-* [清單檔案](#list-files)
+* [List Files](#list-files)
 * [[!UICONTROL Move a File]](#move-a-file)
-* [上傳檔案](#upload-a-file)
-* [觀看檔案](#watch-files)
+* [Upload a file](#upload-a-file)
+* [Watch files](#watch-files)-->
 
-#### [!UICONTROL Create a Folder]
++++ **[!UICONTROL Create a Folder]**
 
 此模組會建立資料夾。
 
@@ -1250,7 +1285,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 刪除檔案
++++
+
++++ **刪除檔案**
 
 此動作模組會從檔案管理員永久刪除檔案及所有相關資料和縮圖。
 
@@ -1269,7 +1306,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Folder]
++++
+
++++ **[!UICONTROL Delete a Folder]**
 
 將資料夾標籤為已刪除。
 
@@ -1288,7 +1327,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 清單檔案
++++
+
++++ **列出檔案**
 
 此搜尋模組會傳回儲存在檔案管理員中的檔案清單。
 
@@ -1315,7 +1356,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Move a File]
++++
+
++++ **[!UICONTROL Move a File]**
 
 將檔案移至其他資料夾。
 
@@ -1342,7 +1385,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 上傳檔案
++++
+
++++ **上傳檔案**
 
 此動作模組會將檔案上傳至檔案管理員。
 
@@ -1373,7 +1418,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-### 觀看檔案
++++
+
++++ **觀看檔案**
 
 此觸發模組會在新檔案儲存至檔案管理員時啟動案例。
 
@@ -1402,15 +1449,13 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**任務**
-
 ### 任務
 
-* [建立行事曆任務](#create-a-calendar-task)
-* [刪除行事曆任務](#create-a-calendar-task)
-* [觀看任務事件](#watch-task-events)
+<!--* [Create a Calendar Task](#create-a-calendar-task)
+* [Delete a Calendar Task](#create-a-calendar-task)
+* [Watch Task Events](#watch-task-events)-->
 
-#### 建立行事曆任務
++++ **建立行事曆工作**
 
 此動作模組會為行事曆建立新任務。 此模組中使用的連線必須使用擁有付費行銷帳戶之使用者的認證。
 
@@ -1453,7 +1498,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 刪除行事曆任務
++++
+
++++ **刪除行事曆工作**
 
 此動作模組會刪除行事曆工作。 此模組中使用的連線必須使用擁有付費行銷帳戶之使用者的認證。
 
@@ -1472,7 +1519,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 觀看任務事件
++++
+
++++ **觀看工作事件**
 
 當行事曆中有新任務事件時，此觸發模組會啟動案例。 此模組中使用的連線必須使用擁有付費行銷帳戶之使用者的認證。 模組最多可傳回500個事件。
 
@@ -1501,14 +1550,12 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**使用者**
-
 ### 使用者
 
-* [取得擁有者](#get-an-owner)
-* [清單擁有者](#list-owners)
+<!--* [Get an Owner](#get-an-owner)
+* [List Owners](#list-owners)-->
 
-#### 取得擁有者
++++ **取得擁有者**
 
 此動作模組會傳回擁有者的詳細資訊。
 
@@ -1527,7 +1574,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 清單擁有者
++++
+
++++ **清單擁有者**
 
 此搜尋模組會傳回HubSpot帳戶中所有擁有者的清單。
 
@@ -1544,20 +1593,18 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**票**
-
 ### 票證
 
 <!--* [Create a Ticket]-->
-* [刪除票證](#delete-a-ticket)
-  <!--* [Create a Ticket]-->
-  <!--* [Create a Ticket]-->
-  <!--* [Create a Ticket]-->
-  <!--* [Create a Ticket]-->
+<!--* [Delete a Ticket](#delete-a-ticket)-->
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
 
 <!-- Create a Ticket Need to find a working connection-->
 
-#### [!UICONTROL Delete a Ticket]
++++ **[!UICONTROL Delete a Ticket]**
 
 依其ID刪除現有票證。
 
@@ -1576,6 +1623,8 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
++++
+
 <!-- Get a Ticket  Need to find a working connection-->
 
 <!-- List Tickets  Need to find a working connection-->
@@ -1584,18 +1633,14 @@ HubSpot CRM聯結器使用下列專案：
 
 <!-- Watch Tickets Need to find a working connection-->
 
-+++
-
-+++**Forms**
-
 ### 表格
 
-* [透過表單上傳檔案](#get-a-file-uploaded-via-form)
-* [列出Forms](#list-forms)
-  <!--* [Submit Data to a Form]-->
-  <!--* [Watch Submissions for a Form]-->
+<!--* [Get a File Uploaded via Form](#get-a-file-uploaded-via-form)
+* [List Forms](#list-forms)-->
+<!--* [Submit Data to a Form]-->
+<!--* [Watch Submissions for a Form]-->
 
-#### 透過表單上傳檔案
++++ **透過表單上傳檔案**
 
 此動作模組會傳回透過表單上傳的檔案。
 
@@ -1614,7 +1659,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 列出Forms
++++
+
++++ **列出Forms**
 
 此動作模組會傳回在與用於此模組的連線相關聯的帳戶中建立的所有表單。
 
@@ -1633,25 +1680,23 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
++++
+
 <!--#### Submit Data to a Form Need to find a working connection-->
 
 
 
 &lt;！—####觀看表單提交 — 需要尋找有效連線>—>
 
-+++
-
-+++**社群媒體（廣播）**
-
 ### 社群媒體（廣播）
 
-* [取消廣播訊息](#cancel-a-broadcast-message)
-* [建立廣播訊息](#create-a-broadcast-message)
-* [觀看廣播訊息](#watch-broadcast-messages)
+<!--* [Cancel a Broadcast Message](#cancel-a-broadcast-message)
+* [Create a Broadcast Message](#create-a-broadcast-message)
+* [Watch Broadcast Messages](#watch-broadcast-messages)-->
 
-#### 取消廣播訊息
++++ **取消廣播訊息**
 
-此動作模組會取消已排程的廣播，例如推文或Facebook貼文。
+此動作模組會取消排程的廣播，例如推文或Facebook貼文。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1668,7 +1713,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 建立廣播訊息
++++
+
++++ **建立廣播訊息**
 
 此動作模組會在指定的社群媒體頻道上建立並立即發佈訊息。
 
@@ -1707,7 +1754,9 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 觀看廣播訊息
++++
+
++++ **觀看廣播訊息**
 
 從HubSpot張貼訊息至指定的社群媒體頻道時，此觸發模組就會開始案例。
 
@@ -1740,22 +1789,20 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-+++**部落格**
-
 ### 部落格貼文
 
 <!--* [Create a Blog Post]-->
-* [刪除部落格](#delete-a-blog-post)
-  <!--* [List Blog Posts]-->
-* [Publish/取消發佈部落格](#publish--unpublish-a-blog-post)
-  <!--* [Watch Blog Posts]-->
+<!--* [Delete a Blog Post](#delete-a-blog-post)-->
+<!--* [List Blog Posts]-->
+&lt;！—* [發佈/取消發佈部落格](#publish--unpublish-a-blog-post)—>
+<!--* [Watch Blog Posts]-->
 
 <!--
 #### Create a Blog Post May need connection
 -->
 
 
-#### 刪除部落格
++++ **刪除部落格**
 
 此動作模組會刪除單一部落格。
 
@@ -1774,11 +1821,13 @@ HubSpot CRM聯結器使用下列專案：
  </tbody> 
 </table>
 
++++
+
 <!--#### List Blog Posts May need connection
 
 This search module retrieves posts from a HubSpot blog.-->
 
-#### Publish /取消發佈部落格
++++ **發佈/取消發佈部落格**
 
 此動作模組會排程或取消發佈部落格。
 
@@ -1801,9 +1850,9 @@ This search module retrieves posts from a HubSpot blog.-->
  </tbody> 
 </table>
 
-<!--#### Watch Blog PostsMay need connection-->
-
 +++
+
+<!--#### Watch Blog PostsMay need connection-->
 
 <!--+++**Workflows**>
 
@@ -1818,14 +1867,12 @@ This search module retrieves posts from a HubSpot blog.-->
 
 <!--+++-->
 
-+++**訂閱**
-
 ### 訂閱
 
-* [更新電子郵件訂閱](#update-email-subscription)
-* [觀看入口網站的訂閱時間表](#watch-subscriptions-timeline-for-a-portal)
+<!--* [Update Email Subscription](#update-email-subscription)
+* [Watch Subscriptions Timeline for a Portal](#watch-subscriptions-timeline-for-a-portal)-->
 
-#### 更新電子郵件訂閱
++++ **更新電子郵件訂閱**
 
 此動作模組會更新HubSpot中的電子郵件訂閱。
 
@@ -1856,7 +1903,9 @@ This search module retrieves posts from a HubSpot blog.-->
  </tbody> 
 </table>
 
-#### 觀看入口網站的訂閱時間表
++++
+
++++ **觀看入口網站的訂閱時間表**
 
 此觸發模組會在新的電子郵件時間表訂閱新增至入口網站時啟動案例。
 
@@ -1909,11 +1958,9 @@ This action module associates two CRM objects.-->
 
 <!--+++-->
 
-+++**其他**
-
 ### 其他
 
-#### [!UICONTROL Make an API Call]
++++ **[!UICONTROL Make an API Call]**
 
 可讓您執行自訂API呼叫。
 

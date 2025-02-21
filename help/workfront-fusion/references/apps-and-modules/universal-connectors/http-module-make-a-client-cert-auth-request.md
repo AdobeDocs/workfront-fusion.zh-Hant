@@ -4,10 +4,10 @@ description: 此 [!DNL Adobe Workfront Fusion] 模組可讓您設定具有HTTP�
 author: Becky
 feature: Workfront Fusion
 exl-id: cc33530c-3010-4955-8819-5eb8373a0e10
-source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
+source-git-commit: c2680972c616a90b55fdaf2c907920e435f23469
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 0%
+source-wordcount: '847'
+ht-degree: 1%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 0%
    <td> <p>HTTP內文是HTTP交易訊息中傳輸的資料位元組，緊接在標題之後（如果有任何要使用的話）。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Raw內文型別通常適用於大多數HTTP內文要求，即使在開發人員檔案未指定要傳送的資料的情況下亦然。</p> <p>在[!UICONTROL Content type]欄位中指定剖析資料的表單。</p> <p>儘管選取了內容型別，模組仍會以開發人員檔案規定或要求的任何格式輸入資料。</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>此內文型別使用<code>application/x-www-form-urlencoded</code>為[!UICONTROL POST]資料。</p> <p>對於<code>[!UICONTROL application/x-www-form-urlencoded]</code>，傳送至伺服器的HTTP訊息內文基本上是一個查詢字串。 索引鍵和值是以索引鍵/值組來編碼，以<code>&amp;</code>分隔，並在索引鍵和值之間使用<code>=</code>。 </p> <p>針對二進位資料，請改用<code>[!UICONTROL multipart/form-data]</code>。</p> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>此內文型別使用<code>application/x-www-form-urlencoded</code>為[!UICONTROL POST]資料。</p> <p>對於<code>[!UICONTROL application/x-www-form-urlencoded]</code>，傳送至伺服器的HTTP訊息內文基本上是一個查詢字串。 索引鍵和值是以索引鍵/值組來編碼，以<code>&amp;</code>分隔，並在索引鍵和值之間使用<code>=</code>。 </p> <p>針對二進位資料，請改用<code>[!UICONTROL multipart/form-data]</code>。</p> <p>針對您要新增的每個索引鍵/值組，在[欄位]欄位中按一下[新增專案] <b> </b>，然後輸入索引鍵和值。</p>
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b>範例： </b></span></span> 
        <p>產生的HTTP要求格式範例：</p> 
@@ -114,7 +114,7 @@ ht-degree: 0%
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data]是用於傳送檔案和資料的HTTP多部分要求。 它通常用於將檔案上傳到伺服器。</p> <p>新增要在請求中傳送的欄位。 每個欄位都必須包含索引鍵/值組。</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>輸入要在要求內文中傳送的索引鍵和值。</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。</p> <p>對應您要從上一個模組上傳的檔案(例如[!UICONTROL HTTP] &gt; [!UICONTROL Get a File]或[!UICONTROL Google Drive] &gt;[!UICONTROL Download a File)]，或手動輸入檔案名稱和檔案資料。</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>輸入金鑰，並指定您要在要求內文中傳送的來源檔案。 從先前的模組中選取來源檔案，或對應檔案的名稱和資料。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -132,7 +132,25 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Self-signed certificate]</td> 
-   <td> <p> 如果您想要使用自我簽署憑證的TLS，請上傳憑證。</p> </td> 
+   <td> <p>若要新增自我簽署憑證：</p>
+          <ol>
+            <li value="1">
+              <p>按一下<b>[!UICONTROL Extract]</b>。</p>
+            </li>
+            <li value="2">
+              <p>選取要解壓縮的檔案型別。</p>
+            </li>
+            <li value="3">
+              <p>選取包含或憑證的檔案。</p>
+            </li>
+            <li value="4">
+              <p>輸入檔案的密碼。</p>
+            </li>
+            <li value="5">
+              <p>按一下<b>[!UICONTROL Save]</b>以擷取檔案並返回模組設定。</p>
+            </li>
+          </ol>
+</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reject connections that are using unverified (self-signed) certificates] </td> 
@@ -156,7 +174,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Use Mutual TLS]</td> 
-   <td> <p>啟用此選項以在HTTP請求中使用雙向TLS。</p> <p>如需雙向TLS的詳細資訊，請參閱<a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>的HTTP模組中使用雙向TLS。</p> </td> 
+   <td> <p>啟用此選項以在HTTP請求中使用雙向TLS。</p> <p>如需雙向TLS的詳細資訊，請參閱<a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md" class="MCXref xref">在HTTP模組中使用雙向TLS</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>

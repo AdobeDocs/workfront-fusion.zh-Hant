@@ -1,13 +1,13 @@
 ---
 title: SOAP 模組
-description: 您可以使用SOAP模組來連線到Adobe Workfront Fusion中的SOAP API。
+description: 您可以使用SOAP模組來連線至Adobe Workfront Fusion中的SOAP API。
 author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 3a27a51e10438e6cf8862bf28b1d58273bbaff36
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 1%
+source-wordcount: '608'
+ht-degree: 0%
 
 ---
 
@@ -15,44 +15,95 @@ ht-degree: 1%
 
 您可以使用[!UICONTROL SOAP]模組連線至[!UICONTROL Adobe Workfront Fusion]中的[!UICONTROL SOAP] API。
 
+## SOAP模組及其欄位
+
+SOAP聯結器僅包含一個模組：執行SOAP動作
+
+### 執行SOAP動作
+
+此動作模組會執行指定的SOAP動作。
+
+
+
 ## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
 
 您必須具有下列存取權才能使用本文中的功能：
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
+
+## SOAP模組及其欄位
+
+當您設定SOAP模組時，[!DNL Workfront Fusion]會顯示下列欄位。  模組中的粗體標題表示必填欄位。
+
+如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+
+![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+
+### 執行SOAP動作
+
+此動作模組會根據您指定的WSDL執行SOAP動作。
+
+<table style="table-layout:auto">
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL WSDL]</td> 
+   <td> 選取您希望模組使用的WSDL。 若要建立WSDL，請按一下欄位旁的<b>新增</b>並填寫欄位。 </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL HTTP headers]</td> 
+   <td> 針對您想要新增的每個HTTP標頭，按一下<b>新增專案</b>並輸入標頭的名稱和值。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL SOAP headers]</td> 
+   <td> 針對您要新增的每個SOAP標頭，按一下<b>新增專案</b>並輸入標頭的名稱、值、名稱空間及XMLNS。</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Force SOAP headers]</td> 
+   <td> 啟用此選項以設定SOAP 1.2的標頭。 </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 ## [!UICONTROL SOAP]模組的限制
 
@@ -67,26 +118,28 @@ ht-degree: 1%
 * 總數字限制
 * 空白字元限制
 * 輸入和輸出訊息中有多個部分。 僅支援單一零件訊息
-* 在[[!UICONTROL SOAP]編碼](https://schemas.xmlsoap.org)結構描述和元素的說明下定義的自訂XML結構描述元素。
+* 在SOAP編碼結構描述和元素的協助下定義的自訂XML結構描述元素。
 
->[!INFO]
->
->**範例：**
->  
->[!UICONTROL Workfront Fusion]無法正確辨識下列專案：
->
->```
-><complexType name="ArrayOfFloat">
->     <complexContent>
->           <restriction base="soapenc:Array">
->                 <attribute ref="soapenc:arrayType"
->                       wsdl:arrayType="xsd:integer[]"/>
->           </restriction>
->     </complexContent>
-></complexType>
->```
->
->此範例包含[!UICONTROL Workfront Fusion]尚未支援的`soapenc:Array`、`soapenc:arrayType`和`wsdl:arrayType`參考。
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+[!UICONTROL Workfront Fusion]無法正確辨識下列專案：
+
+```
+<complexType name="ArrayOfFloat">
+   <complexContent>
+      <restriction base="soapenc:Array">
+         <attribute ref="soapenc:arrayType"
+            wsdl:arrayType="xsd:integer[]"/>
+      </restriction>
+   </complexContent>
+</complexType>
+```
+
+此範例包含[!UICONTROL Workfront Fusion]尚未支援的`soapenc:Array`、`soapenc:arrayType`和`wsdl:arrayType`參考。
+
+>[!ENDSHADEBOX]
 
 ## 因應措施
 

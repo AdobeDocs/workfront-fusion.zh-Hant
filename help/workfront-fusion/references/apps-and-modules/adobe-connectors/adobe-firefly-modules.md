@@ -4,7 +4,7 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3b29ba3d-a769-4e97-b2c2-0b4eeed5b029
-source-git-commit: a3494479614a4930427842fa68e6b586edca0833
+source-git-commit: 70038b21d9b486da23895533cad0fa1f58850e76
 workflow-type: tm+mt
 source-wordcount: '2248'
 ht-degree: 0%
@@ -136,7 +136,7 @@ Adobe Firefly聯結器會使用以下專案：
 
 此動作模組會展開影像，選擇性地從您提供的提示中展開內容。
 
-此模組適用於Firefly API V3 Async。 此模組的先前版本已淘汰，將於不久將來移除。
+此模組適用於Firefly API V3 Async。 此模組的先前版本已淘汰，將於近期移除。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -191,7 +191,7 @@ Adobe Firefly聯結器會使用以下專案：
 
 此動作模組會填滿影像的遮色區域，選擇性地使用您提供的提示內容。
 
-此模組適用於Firefly API V3 Async。 此模組的先前版本已淘汰，將於不久將來移除。
+此模組適用於Firefly API V3 Async。 此模組的先前版本已淘汰，將於近期移除。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -245,7 +245,7 @@ Adobe Firefly聯結器會使用以下專案：
 
 此動作模組會根據您提供的提示產生和影像。 您也可以提供選用的參考影像，產生的影像將與參考影像的樣式相符。
 
-此模組適用於Firefly API V3 Async。 此模組的先前版本已淘汰，將於不久將來移除。
+此模組適用於Firefly API V3 Async。 此模組的先前版本已淘汰，將於近期移除。
 
 <table style="table-layout:auto"> 
  <col> 

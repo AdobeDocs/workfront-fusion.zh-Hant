@@ -4,9 +4,9 @@ description: 透過Adobe Lightroom模組，您可以根據Adobe Lightroom帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3f29ab35-7a90-4afb-a283-4faaacec5b15
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e1e15985db9683525250d1f9f9276224b2baf0e6
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -500,7 +500,7 @@ Adobe Lightroom聯結器會使用以下專案：
     <tr>
       <td role="rowheader">[!UICONTROL Maximum number of returned assets]</td>
       <td>
-        <p>設定[!DNL Workfront Fusion]在一個執行週期內傳回的最大資產數量。 此數字必須小於或等於100。</p>
+        <p>輸入您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
       </td>
     </tr>
     <tr>

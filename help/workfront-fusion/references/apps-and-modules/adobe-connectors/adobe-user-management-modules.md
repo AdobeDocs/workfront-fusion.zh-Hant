@@ -4,11 +4,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe使用者管理模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化管理Adobe帳戶中使用者的工作流程。
+description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化在Adobe帳戶中管理使用者的工作流程。
 author: Becky
 feature: Workfront Fusion
 exl-id: e8fe8ec4-4b00-4c9a-81a5-acb2039b153b
-source-git-commit: 640fec2de63ad59ba89fae5373f85b8147d8dac0
+source-git-commit: 234a6a537718328e92eec13672a73bc43add17c1
 workflow-type: tm+mt
 source-wordcount: '2323'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Adobe使用者管理模組
 
-在[!DNL Adobe Workfront Fusion]案例中，您可以自動化管理Adobe帳戶中使用者的工作流程。
+在[!DNL Adobe Workfront Fusion]案例中，您可以自動化在Adobe帳戶中管理使用者的工作流程。
 
 如果您需要建立案例的指示，請參閱[建立案例：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 +++
 
-## 建立與「Adobe使用者管理」的連線
+## 建立與Adobe使用者管理的連線
 
 若要為您的[!DNL Adobe User Management]模組建立連線：
 
@@ -104,7 +104,7 @@ ht-degree: 2%
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL IMS Organization ID]</td>
-        <td>輸入您的[!DNL Adobe] IMS認證。 適用於組織的唯一識別碼。 此字串格式為A495E53@AdobeOrg，其中@的前置詞為十六進位數字。 您可以在Admin Console或adobe.io主控台中，找到這個值，做為組織URL路徑的一部分，用於進行「使用者管理」整合。</td>
+        <td>輸入您的[!DNL Adobe] IMS認證。 適用於組織的唯一識別碼。 此字串格式為A495E53@AdobeOrg，其中@的前置詞為十六進位數字。 您可以在Admin Console或adobe.io主控台中，將此值視為組織URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Additional scopes]</td>
@@ -119,7 +119,7 @@ ht-degree: 2%
 
 ## Adobe使用者管理模組及其欄位
 
-當您設定「Adobe使用者管理」模組時，Workfront Fusion會顯示下列欄位。 除此之外，可能還會顯示其他「Adobe使用者管理」欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定Adobe使用者管理模組時，Workfront Fusion會顯示下列欄位。 除此之外，也會根據您應用程式或服務中的存取層級等因素，顯示其他Adobe「使用者管理」欄位。 模組中的粗體標題表示必填欄位。
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
@@ -264,7 +264,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">使用Adobe ID</td> 
-   <td>選取true可確保使用者ID會解譯為參考現有的Adobe ID，即使存在具有相同名稱的Enterprise或Federated ID亦然。</td> 
+   <td>選取true可確保使用者ID會解譯成參考現有的Adobe ID，即使Enterprise或Federated ID存在時具有相同名稱。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -295,11 +295,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">網域</td> 
-   <td>如果您使用以網域為基礎的登入來建立Federated ID的使用者，請輸入或對應網域。</td> 
+   <td>如果您使用Federated ID建立具有網域型登入的使用者，請輸入或對應網域。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">使用者</td> 
-   <td>如果您使用網域式登入的Federated ID來建立使用者，請輸入或對應此新使用者將代表的使用者。</td> 
+   <td>如果您使用Federated ID建立具有網域式登入的使用者，請輸入或對應新使用者將代表的使用者。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">名字</td> 
@@ -319,7 +319,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">使用Adobe ID</td> 
-   <td>若為True，系統會將使用者ID解譯為參考現有的Adobe ID，即便存在具有相同名稱的Enterprise或Federated ID。</td> 
+   <td>為true時，使用者ID會解譯為參考現有的Adobe ID，即使Enterprise或Federated ID存在時具有相同名稱。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -350,7 +350,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">使用Adobe ID</td> 
-   <td>選取true可確保使用者ID會解譯為參考現有的Adobe ID，即使存在具有相同名稱的Enterprise或Federated ID亦然。</td> 
+   <td>選取true可確保使用者ID會解譯成參考現有的Adobe ID，即使Enterprise或Federated ID存在時具有相同名稱。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,7 +375,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">網域</td> 
-   <td>如果您更新的Federated ID不是電子郵件地址的使用者，請輸入或對應該使用者所屬的網域，以識別該使用者。</td> 
+   <td>如果您更新的Federated ID使用者不是電子郵件地址，請輸入或對應使用者所屬的網域，以便識別使用者。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">電子郵件</td> 
@@ -421,7 +421,7 @@ ht-degree: 2%
    <td>針對您想要新增的每個使用者，按一下<b>新增使用者</b>並輸入使用者的電子郵件地址。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">輪廓</td> 
+   <td role="rowheader">設定檔</td> 
    <td>針對您想要新增至群組的每個設定檔，按一下<b>新增使用者</b>並輸入設定檔名稱</td> 
   </tr> 
  </tbody> 
@@ -494,12 +494,12 @@ ht-degree: 2%
    <td>針對您要移除的每個使用者，按一下[新增使用者] <b> </b>並輸入使用者的電子郵件地址。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">輪廓</td> 
+   <td role="rowheader">設定檔</td> 
    <td>針對您要從群組移除的每個設定檔，按一下[新增使用者] <b> </b>並輸入設定檔名稱</td> 
   </tr> 
   <tr> 
    <td role="rowheader">使用Adobe ID</td> 
-   <td>為true時，使用者ID會解譯為參考現有的Adobe ID，即使存在具有相同名稱的Enterprise或Federated ID亦然。</td> 
+   <td>為true時，使用者ID會解譯為參考現有的Adobe ID，即使Enterprise或Federated ID存在具有相同名稱。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -528,13 +528,15 @@ ht-degree: 2%
    <td role="rowheader">原始群組名稱</td> 
    <td>輸入或對應更新後的群組說明。</td> 
   </tr> 
- </tbody>
+ </tbody> 
+ </table>
 
 ### 其他
 
-此動作模組會對Adobe User Management API進行自訂呼叫。
 
 #### 進行自訂API呼叫
+
+此動作模組會對Adobe使用者管理API進行自訂呼叫。
 
 <table style="table-layout:auto"> 
   <col/>

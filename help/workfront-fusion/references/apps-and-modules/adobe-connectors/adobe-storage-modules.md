@@ -7,10 +7,12 @@ title: Adobe儲存模組
 description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以在Adobe Admin Console中建立和管理專案。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: e027c93b77d825337b7fb2582c3de2a93c5c71f6
+hide: true
+hidefromtoc: true
+source-git-commit: 70a2d06da6be6c892df12faa3a168e66daef118e
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 3%
+source-wordcount: '1351'
+ht-degree: 2%
 
 ---
 
@@ -116,30 +118,25 @@ ht-degree: 3%
       </col>
       <tbody>
         <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>選取<code>Server to server</code>。</td>
+        </tr>
+        <tr>
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
-        <tr>
-        <td role="rowheader">[!UICONTROL Environment]</td>
-        <td>選取您要連線到生產或非生產環境。</td>
-        </tr>
-        <tr>
-        <td role="rowheader">[!UICONTROL Type]</td>
-        <td>選取您要連線到服務帳戶還是個人帳戶。</td>
-        </tr>
-        <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL Client ID]。 您可在專案的[!UICONTROL Credential details]區段中找到 [!DNL Adobe Developer Console]</td>
+        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL Client ID]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL Credential details]區段中找到此專案。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>輸入您的[!DNL Adobe] [!UICONTROL Client Secret]。 您可在專案的[!UICONTROL Credential details]區段中找到 [!DNL Adobe Developer Console]</td>
+        <td>輸入您的[!DNL Adobe] [!UICONTROL Client Secret]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL Credential details]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Authentication URL]</td>
-        <td>輸入驗證URL。 預設值為<code>https://ims-na1.adobelogin.com</code>。 </td>
+        <td role="rowheader">[!UICONTROL IMS Organization ID]</td>
+        <td>輸入或對應您的Adobe IMS組織ID。 這是格式為<code> 123abc@AdobeOrg</code>的字串，其中@之前的區段是十六進位數字。 您可以在Adobe Admin Console中，或在Adobe.IO主控台中，將此值視為您組織的URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
       </tbody>
     </table>

@@ -7,9 +7,8 @@ title: Adobe儲存模組
 description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以在Adobe Admin Console中建立和管理專案。
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
-source-git-commit: 70a2d06da6be6c892df12faa3a168e66daef118e
+exl-id: 78ee905f-4713-44a4-bffb-c64cdb3665c2
+source-git-commit: 284e5bda7fef82bac02f3200efe1662fd55586bf
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 2%
@@ -361,6 +360,3 @@ ht-degree: 2%
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-
-
-

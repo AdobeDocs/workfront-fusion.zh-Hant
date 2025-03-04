@@ -4,16 +4,16 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 29ce5940-4d71-4719-ab5e-f03c44b28c8c
-source-git-commit: 04f0678b67cf6bffdb791a9ab38be27a6417370c
+source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
 workflow-type: tm+mt
-source-wordcount: '2870'
+source-wordcount: '3203'
 ht-degree: 0%
 
 ---
 
 # [!DNL Dropbox]模組
 
-在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!UICONTROL Dropbox]或[!DNL Dropbox Business]的工作流程，以及將其連線至多個協力廠商應用程式和服務。這可讓您自動化活動，例如監視、搜尋、擷取、列出、建立及編輯[!UICONTROL Dropbox]中的檔案和資料夾。
+在[!DNL Adobe Workfront Fusion]案例中，您可以自動執行使用[!UICONTROL Dropbox]或[!DNL Dropbox Business]的工作流程，以及將其連線至多個協力廠商應用程式和服務。這可讓您自動執行諸如監視、搜尋、擷取、列出、建立及編輯[!UICONTROL Dropbox]中的檔案與資料夾等活動。
 
 如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
@@ -100,7 +100,7 @@ Dropbox聯結器會使用以下專案：
 
 若要為您的[!DNL Dropbox]模組建立連線：
 
-1. 按一下[連線]方塊旁的&#x200B;**[!UICONTROL Add]**。
+1. 在任何模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 
 1. 填寫下列欄位：
 
@@ -111,38 +111,38 @@ Dropbox聯結器會使用以下專案：
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         <tr>
-        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td role="rowheader">[！UICONTROL環境]</td>
         <td>選取此連線是用於生產或非生產環境。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Type]</td>
+        <td role="rowheader">[！UICONTROL型別]</td>
         <td>選取您要連線到服務帳戶還是個人帳戶。</td>
         </tr>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>輸入您的[!UICONTROL Dropbox] [!UICONTROL Client ID]。 </tr>
+        <td role="rowheader">[！UICONTROL使用者端ID]</td>
+        <td>輸入您的[！UICONTROL Dropbox] [！UICONTROL使用者端ID]。 </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>輸入您的[!DNL Dropbox] [!UICONTROL Client Secret]。 </td>
+        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+        <td>輸入您的[!DNL Dropbox] [！UICONTROL使用者端密碼]。 </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Account Type]</td>
+        <td role="rowheader">[！UICONTROL帳戶型別]</td>
         <td>選取您要連線至個人Dropbox帳戶或企業(Dropbox企業)帳戶。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Exclude dropbox-api-path-root header]</td>
+        <td role="rowheader">[！UICONTROL排除dropbox-api-path-root標頭]</td>
         <td>啟用此選項即可排除具有應用程式資料夾存取權的Dropbox應用程式的dropbox-api-path-root標頭</td>
         </tr>
       </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以儲存連線並返回模組。## [!DNL Dropbox]模組及其欄位
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。## [!DNL Dropbox]模組及其欄位
 
 ## [!DNL Dropbox]模組及其欄位
 
@@ -159,7 +159,7 @@ Dropbox聯結器會使用以下專案：
 
 ### 觸發模組
 
-#### [!UICONTROL Watch Files]
+#### [!UICONTROL 觀看檔案]
 
 修改指定資料夾中的檔案時，此觸發型別模組會傳回檔案詳細資訊。
 
@@ -168,19 +168,19 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>選取您要監視變更的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Watch also subfolders]</td> 
+   <td>[！UICONTROL Watch也包含子資料夾]</td> 
    <td> <p> 啟用此選項也可監視所選資料夾中用於修改檔案的子資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Limit] </td> 
+   <td>[！UICONTROL限制] </td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -188,13 +188,13 @@ Dropbox聯結器會使用以下專案：
 
 ### 取得[!DNL Dropbox]檔案與資料夾的模組
 
-* [[!UICONTROL Download a File]](#download-a-file)
-* [[!UICONTROL Get a Folder Metadata]](#get-a-folder-metadata)
-* [[!UICONTROL List All Files/Subfolders in a Folder]](#list-all-filessubfolders-in-a-folder)
-* [[!UICONTROL List File Revisions]](#list-file-revisions)
-* [[!UICONTROL Search Files/Folders]](#search-filesfolders)
+* [[!UICONTROL 下載檔案]](#download-a-file)
+* [[!UICONTROL 取得資料夾中繼資料]](#get-a-folder-metadata)
+* [[!UICONTROL 列出資料夾中的所有檔案/子資料夾]](#list-all-filessubfolders-in-a-folder)
+* [[!UICONTROL 列出檔案修訂版本]](#list-file-revisions)
+* [[!UICONTROL 搜尋檔案/資料夾]](#search-filesfolders)
 
-#### [!UICONTROL Download a File]
+#### [!UICONTROL 下載檔案]
 
 此動作模組會從資料夾下載檔案。
 
@@ -213,7 +213,7 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
@@ -227,7 +227,7 @@ Dropbox聯結器會使用以下專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Get a Folder Metadata]
+#### [!UICONTROL 取得資料夾中繼資料]
 
 此動作模組會擷取共用資料夾詳細資料。
 
@@ -242,7 +242,7 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ Dropbox聯結器會使用以下專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL List All Files/Subfolders in a Folder]
+#### [!UICONTROL 列出資料夾中的所有檔案/子資料夾]
 
 此動作模組會列出特定資料夾中的檔案或資料夾。
 
@@ -267,7 +267,7 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
@@ -289,7 +289,7 @@ Dropbox聯結器會使用以下專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL List File Revisions]
+#### [!UICONTROL 列出檔案修訂版本]
 
 此動作模組會擷取特定檔案的所有檔案修訂版本（版本記錄）。\
 您指定檔案的ID。
@@ -303,7 +303,7 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
@@ -321,7 +321,7 @@ Dropbox聯結器會使用以下專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Search Files/Folders]
+#### [!UICONTROL 搜尋檔案/資料夾]
 
 此搜尋模組會在[!DNL Dropbox]中尋找符合您指定之搜尋查詢的物件記錄。
 
@@ -332,15 +332,15 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Search] </td> 
+   <td>[！UICONTROL搜尋] </td> 
    <td> <p>輸入搜尋字詞。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>選取您要搜尋的資料夾。 如果您未選取資料夾，此模組會搜尋整個[!DNL Dropbox]帳戶。</p> </td> 
   </tr> 
   <tr> 
@@ -364,16 +364,16 @@ Dropbox聯結器會使用以下專案：
 
 ### 建立和編輯[!DNL Dropbox]檔案與資料夾的模組
 
-* [[!UICONTROL Create a Folder]](#create-a-folder)
-* [[!UICONTROL Create/Overwrite a Text File]](#createoverwrite-a-text-file)
-* [[!UICONTROL Create/Update a Share Link]](#createupdate-a-share-link)
-* [[!UICONTROL Delete a File/Folder]](#delete-a-filefolder)
-* [[!UICONTROL Move a File/Folder]](#move-a-filefolder)
-* [[!UICONTROL Rename a File/Folder]](#rename-a-filefolder)
-* [[!UICONTROL Restore a File]](#restore-a-file)
-* [[!UICONTROL Upload]檔案](#upload-a-file)
+* [[!UICONTROL 建立資料夾]](#create-a-folder)
+* [[!UICONTROL 建立/覆寫文字檔]](#createoverwrite-a-text-file)
+* [[!UICONTROL 建立/更新共用連結]](#createupdate-a-share-link)
+* [[!UICONTROL 刪除檔案/資料夾]](#delete-a-filefolder)
+* [[!UICONTROL 移動檔案/資料夾]](#move-a-filefolder)
+* [[!UICONTROL 重新命名檔案/資料夾]](#rename-a-filefolder)
+* [[!UICONTROL 還原檔案]](#restore-a-file)
+* [[!UICONTROL 上傳]檔案](#upload-a-file)
 
-#### [!UICONTROL Create a Folder]
+#### [!UICONTROL 建立資料夾]
 
 此動作模組會建立新資料夾。
 
@@ -388,25 +388,25 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder Name] </td> 
+   <td>[！UICONTROL資料夾名稱] </td> 
    <td> <p>輸入新資料夾的名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Folder]</p> </td> 
+   <td> <p>[！UICONTROL資料夾]</p> </td> 
    <td> <p>輸入或對應您要建立新資料夾的路徑。</p> <p>注意：   <p>如果您使用[!DNL Dropbox Business]帳戶（含團隊空間），您必須移除斜線<code>/</code>，或不要按一下<strong>按一下這裡選擇資料夾</strong>，以在根目錄中建立團隊資料夾。</p> <p>如果未移除斜線，則會傳回錯誤<code>[409] path/malformed_path/..</code>。</p> </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Auto rename]</td> 
+   <td>[！UICONTROL自動重新命名]</td> 
    <td> <p> 啟用此選項可重新命名新資料夾（如果目標位置中已存在相同名稱的資料夾）。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Create/Overwrite a Text File]
+#### [!UICONTROL 建立/覆寫文字檔]
 
 此動作模組會建立DOC檔案，或覆寫現有檔案的內容。
 
@@ -419,21 +419,21 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Select to]</td> 
+   <td>[！UICONTROL選取至]</td> 
    <td> <p> 選取您要建立或覆寫DOC檔案。</p><ul><li><b>建立</b></p>選取您要建立檔案的資料夾。</li><li><b>覆寫</b><p>選取您要如何選擇要覆寫的檔案，然後對應檔案路徑或選取檔案。 </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Source File]</p> </td> 
+   <td> <p>[！UICONTROL Source檔案]</p> </td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的內容。 </p> <p>如果您正在建立檔案，請選取<b>空白</b>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Create/Update a Share Link]
+#### [!UICONTROL 建立/更新共用連結]
 
 此動作模組會建立檔案的公開連結。
 
@@ -448,34 +448,34 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Way of selecting files]</td> 
+   <td>[！UICONTROL選取檔案的方式]</td> 
    <td> <p> 選取您要對映或輸入檔案路徑，或手動選取檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL File Path / File]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL File Path]</p> <p>輸入或對應路徑至目標檔案。</p> <p style="font-weight: bold;">[!UICONTROL File]</p> <p>選取目標檔案。</p> </td> 
+   <td> <p>[！UICONTROL檔案路徑/檔案]</p> </td> 
+   <td> <p style="font-weight: bold;">[！UICONTROL檔案路徑]</p> <p>輸入或對應路徑至目標檔案。</p> <p style="font-weight: bold;">[！UICONTROL檔案]</p> <p>選取目標檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Requested Visibility]</p> </td> 
-   <td> <p>選取連結是公用連結、專案團隊連結或密碼限制連結。</p> <p><b>注意：</b></p><p> [!UICONTROL Team only]僅適用於Dropbox商業帳戶。 [!UICONTROL Access with password]僅適用於[!DNL Dropbox Pro]或Dropbox商業帳戶。</p> </td> 
+   <td> <p>[！UICONTROL要求的可見度]</p> </td> 
+   <td> <p>選取連結是公用連結、專案團隊連結或密碼限制連結。</p> <p><b>注意：</b></p><p> [！UICONTROL Team]僅適用於Dropbox企業帳戶。 [!DNL Dropbox Pro]或Dropbox企業帳戶只能使用[！UICONTROL密碼存取。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Link's Expiration Date]</td> 
+   <td>[！UICONTROL連結的到期日]</td> 
    <td> <p> 輸入連結到期且無法再存取的日期和時間。 如果此欄位留空，連結將不會過期。 如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref" data-mc-variable-override="">型別強制執行</a>。</p>  </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Link's Access Level]</p> </td> 
-   <td> <p>設定連結收件者的許可權。</p> <ul><li><strong>[!UICONTROL Viewer]</strong> <p>使用連結的使用者可以檢視內容並加上註解。</p> </li><li><strong>[!UICONTROL Editor]</strong><p> 使用連結的使用者可以編輯、檢視和評論內容。 此存取層級僅適用於雲端型檔案。</p> </li><li><strong>[!UICONTROL Max]</strong> <p>使用連結的使用者會收到您可以為其設定連結的最大存取層級。</p></li><ul> </td> 
+   <td> <p>[！UICONTROL連結的存取層級]</p> </td> 
+   <td> <p>設定連結收件者的許可權。</p> <ul><li><strong>[！UICONTROL檢視器]</strong> <p>使用連結的使用者可以檢視內容並加上註解。</p> </li><li><strong>[！UICONTROL編輯器]</strong><p> 使用連結的使用者可以編輯、檢視和評論內容。 此存取層級僅適用於雲端型檔案。</p> </li><li><strong>[！UICONTROL Max]</strong> <p>使用連結的使用者會收到您可以為其設定連結的最大存取層級。</p></li><ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
-#### [!UICONTROL Delete a File/Folder]
+#### [!UICONTROL 刪除檔案/資料夾]
 
 此動作模組會刪除檔案或資料夾。
 
@@ -490,21 +490,21 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Way of selecting files]</td> 
+   <td>[！UICONTROL選取檔案的方式]</td> 
    <td> <p> 選取您要對映或輸入檔案路徑，或手動選取檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL File or Folder Path] / [!UICONTROL File or Folder]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL File/Folder Path]</p> <p>輸入或對應目標路徑至檔案或資料夾。</p> <p style="font-weight: bold;">[!UICONTROL File/Folder]</p> <p>從選單中選取檔案或資料夾。</p> </td> 
+   <td> <p>[！UICONTROL檔案或資料夾路徑] / [！UICONTROL檔案或資料夾]</p> </td> 
+   <td> <p style="font-weight: bold;">[！UICONTROL檔案/資料夾路徑]</p> <p>輸入或對應目標路徑至檔案或資料夾。</p> <p style="font-weight: bold;">[！UICONTROL檔案/資料夾]</p> <p>從選單中選取檔案或資料夾。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Move a File/Folder]
+#### [!UICONTROL 移動檔案/資料夾]
 
 此動作模組會將檔案或資料夾移至其他位置。
 
@@ -519,37 +519,37 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Way of selecting files / folders] </td> 
+   <td>[！UICONTROL選取檔案/資料夾的方式] </td> 
    <td> <p>選取您要對映或輸入檔案或資料夾路徑，或手動選取檔案或資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL File / Folder Path] /</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL File/Folder Path]</p> <p>輸入或對應目標路徑至檔案或資料夾。</p> <p style="font-weight: bold;">[!UICONTROL File/Folder]</p> <p>選取您要移動檔案或資料夾，然後選取檔案或資料夾。</p> </td> 
+   <td> <p>[！UICONTROL檔案/資料夾路徑] /</p> </td> 
+   <td> <p style="font-weight: bold;">[！UICONTROL檔案/資料夾路徑]</p> <p>輸入或對應目標路徑至檔案或資料夾。</p> <p style="font-weight: bold;">[！UICONTROL檔案/資料夾]</p> <p>選取您要移動檔案或資料夾，然後選取檔案或資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL To Folder]</p> </td> 
+   <td> <p>[！UICONTROL至資料夾]</p> </td> 
    <td> <p>輸入或對應檔案或資料夾的目標位置。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL New Name]</p> </td> 
+   <td> <p>[！UICONTROL新名稱]</p> </td> 
    <td> <p>在新位置輸入檔案或資料夾的新名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Auto Rename]</p> </td> 
-   <td> <p>啟用此選項以確保如果存在相同名稱的檔案或資料夾，模組會重新命名新檔案或資料夾，方法是在檔案或資料夾名稱后面新增([!UICONTROL NUMBER])。 否則，會覆寫目標位置中的檔案或資料夾。</p> </td> 
+   <td> <p>[！UICONTROL自動重新命名]</p> </td> 
+   <td> <p>啟用此選項以確保如果存在具有相同名稱的檔案或資料夾，模組會重新命名新檔案或資料夾，方法是在檔案或資料夾名稱后面新增([！UICONTROL NUMBER])。 否則，會覆寫目標位置中的檔案或資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Allow ownership transfer]</p> </td> 
+   <td> <p>[！UICONTROL允許所有權轉讓]</p> </td> 
    <td> <p>啟用此選項可允許所有者移動，即使這將導致所移動內容的所有權轉移。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Rename a File/Folder]
+#### [!UICONTROL 重新命名檔案/資料夾]
 
 此動作模組會重新命名檔案或資料夾。
 
@@ -564,7 +564,7 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
@@ -583,7 +583,7 @@ Dropbox聯結器會使用以下專案：
 </table>
 
 
-#### [!UICONTROL Restore a File]
+#### [!UICONTROL 還原檔案]
 
 此動作模組會還原檔案的先前版本。
 
@@ -598,25 +598,25 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Way of selecting files]</td> 
+   <td>[！UICONTROL選取檔案的方式]</td> 
    <td> <p> 選取您要對映或輸入檔案路徑，或手動選取檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL File Path] / [!UICONTROL File]</p> </td> 
-   <td> <p><strong>[!UICONTROL File Path]</strong> </p> <p>輸入或對應目標路徑至檔案。</p> <p><strong>[!UICONTROL File]</strong> </p> <p>從選單中選取檔案。</p> </td> 
+   <td> <p>[！UICONTROL檔案路徑] / [！UICONTROL檔案]</p> </td> 
+   <td> <p><strong>[！UICONTROL檔案路徑]</strong> </p> <p>輸入或對應目標路徑至檔案。</p> <p><strong>[！UICONTROL檔案]</strong> </p> <p>從選單中選取檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Revision]</p> </td> 
+   <td> <p>[！UICONTROL修訂版]</p> </td> 
    <td> <p>輸入或對應您要還原之修訂版本的修訂版本編號。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Upload a File]
+#### [!UICONTROL 上傳檔案]
 
 此動作模組會將檔案上傳至資料夾。
 
@@ -631,19 +631,19 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder]</td> 
+   <td>[！UICONTROL資料夾]</td> 
    <td> <p> 選取您要上傳檔案的[!DNL Dropbox]資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Source File]</p> </td> 
+   <td> <p>[！UICONTROL Source檔案]</p> </td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p><b>注意：</b></p><p> 上傳檔案的大小上限為150 MB。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Overwrite an existing file]</td> 
+   <td>[！UICONTROL覆寫現有檔案]</td> 
    <td> <p> 啟用此選項以新檔案取代現有檔案。 如果此選項保持停用，則會重新命名上傳的檔案。</p> </td> 
   </tr> 
  </tbody> 
@@ -652,7 +652,7 @@ Dropbox聯結器會使用以下專案：
 
 ### 其他模組
 
-#### [!UICONTROL Make an API Call]
+#### [!UICONTROL 進行API呼叫]
 
 此動作模組可讓您對[!DNL Dropbox] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Dropbox]模組無法完成的資料流程自動化。
 
@@ -663,27 +663,27 @@ Dropbox聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Dropbox]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection-to-dropbox" class="MCXref xref">建立與[!DNL Dropbox]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL URL]</p> </td> 
+   <td> <p>[！UICONTROL URL]</p> </td> 
    <td> <p>輸入相對路徑。輸入相對於<code>https://api.dropboxapi.com</code>的路徑。 例如， <code>/2/files/list_folder</code></p>  </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Method]</p> </td> 
+   <td> <p>[！UICONTROL方法]</p> </td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Headers] </td> 
+   <td>[！UICONTROL Headers] </td> 
    <td> <p>輸入所需的請求標頭。 [!DNL Workfront Fusion]會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Query String]</td> 
+   <td>[！UICONTROL查詢字串]</td> 
    <td> <p> 輸入請求查詢字串。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Body] </td> 
+   <td>[！UICONTROL Body] </td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：   <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -711,7 +711,7 @@ URL： `/2/files/list_folder`
 }
 ```
 
-在[!UICONTROL Bundle] > [!UICONTROL Body] >專案下的模組輸出中可找到搜尋的相符專案。
+在[!UICONTROL 組合] > [!UICONTROL 內文] >專案下的模組輸出中，可找到搜尋的相符專案。
 
 在我們的範例中，傳回10張票證。
 
@@ -731,7 +731,7 @@ URL： `/2/files/list_folder`
 
 ### 透過共用連結參照的影像無法呈現
 
-[!UICONTROL Dropbox] >[!UICONTROL Create a shared link]傳回的URL未直接連結至影像，而是連結至[!DNL Dropbox]頁面。 若要強制下載影像，請將結尾的`?dl=0`取代為`?dl=1`。 若要強制轉譯影像（例如在Web瀏覽器或Facebook Messenger中），請將`&raw=1`附加至URL。
+[!UICONTROL Dropbox] >[!UICONTROL 建立共用連結]傳回的URL不會直接連結至影像，而是連結至[!DNL Dropbox]頁面。 若要強制下載影像，請將結尾的`?dl=0`取代為`?dl=1`。 若要強制轉譯影像（例如在Web瀏覽器或Facebook Messenger中），請將`&raw=1`附加至URL。
 
 如果您需要取得您網站或其他[!DNL Workfront Fusion]模組的直接或原始影像連結，您必須以下列方式修改初始的共用URL：
 

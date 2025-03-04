@@ -8,9 +8,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以在Adobe Adm
 author: Becky
 feature: Workfront Fusion
 exl-id: 78ee905f-4713-44a4-bffb-c64cdb3665c2
-source-git-commit: 284e5bda7fef82bac02f3200efe1662fd55586bf
+source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1386'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 2%
 
 若要為您的[!DNL Adobe Storage]模組建立連線：
 
-1. 按一下[連線]方塊旁的&#x200B;**[!UICONTROL Add]**。
+1. 在任何模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 
 1. 填寫下列欄位：
 
@@ -117,30 +117,30 @@ ht-degree: 2%
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td role="rowheader">[！UICONTROL連線型別]</td>
         <td>選取<code>Server to server</code>。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
-        <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL Client ID]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL Credential details]區段中找到此專案。</td>
+        <td role="rowheader">[！UICONTROL使用者端ID]</td>
+        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>輸入您的[!DNL Adobe] [!UICONTROL Client Secret]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL Credential details]區段中找到此專案。</td>
+        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL IMS Organization ID]</td>
+        <td role="rowheader">[！UICONTROL IMS組織識別碼]</td>
         <td>輸入或對應您的Adobe IMS組織ID。 這是格式為<code> 123abc@AdobeOrg</code>的字串，其中@之前的區段是十六進位數字。 您可以在Adobe Admin Console中，或在Adobe.IO主控台中，將此值視為您組織的URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
       </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以儲存連線並返回模組。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
 ## Adobe儲存模組及其欄位
 

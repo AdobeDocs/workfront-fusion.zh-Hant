@@ -8,9 +8,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化在
 author: Becky
 feature: Workfront Fusion
 exl-id: e8fe8ec4-4b00-4c9a-81a5-acb2039b153b
-source-git-commit: 234a6a537718328e92eec13672a73bc43add17c1
+source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2374'
 ht-degree: 2%
 
 ---
@@ -35,24 +35,24 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
    <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]用於Work Automation and Integration]，[!UICONTROL [!DNL Workfront Fusion]用於Work Automation]</p>
+   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，貴組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
    <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 若要為您的[!DNL Adobe User Management]模組建立連線：
 
-1. 按一下[連線]方塊旁的&#x200B;**[!UICONTROL Add]**。
+1. 在任何模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 
 1. 填寫下列欄位：
 
@@ -81,39 +81,39 @@ ht-degree: 2%
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td role="rowheader">[！UICONTROL環境]</td>
         <td>選取您要連線到生產或非生產環境。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Type]</td>
+        <td role="rowheader">[！UICONTROL型別]</td>
         <td>選取您要連線到服務帳戶還是個人帳戶。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL Client ID]。 您可在[!UICONTROL Credentials]詳細資料區段的 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[！UICONTROL使用者端ID]</td>
+        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>輸入您的[!DNL Adobe] [!UICONTROL Client Secret]。 您可在[!UICONTROL Credentials]詳細資料區段的 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL IMS Organization ID]</td>
+        <td role="rowheader">[！UICONTROL IMS組織識別碼]</td>
         <td>輸入您的[!DNL Adobe] IMS認證。 適用於組織的唯一識別碼。 此字串格式為A495E53@AdobeOrg，其中@的前置詞為十六進位數字。 您可以在Admin Console或adobe.io主控台中，將此值視為組織URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Additional scopes]</td>
+        <td role="rowheader">[！UICONTROL其他範圍]</td>
         <td>針對您想要新增的每個其他範圍，按一下<b>新增專案</b>並輸入範圍。</td>
         </tr>
       </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以儲存連線並返回模組。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
 
 

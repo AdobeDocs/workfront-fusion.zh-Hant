@@ -3,9 +3,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 81c9b141-4e40-430f-99f1-c44b7a833bcd
-source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
+source-git-commit: defc5aa9b2e3ffa5c698c5a19dd8d9d8768d72c2
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1983'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Anaplan聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">API標籤</td> 
-   <td>v1.11.5/td&gt; 
+   <td>v1.11.5</td> 
  </tbody> 
 </table>
 
@@ -96,24 +96,66 @@ Anaplan聯結器使用下列專案：
 若要為您的[!DNL Anaplan]模組建立連線：
 
 1. 按一下[!UICONTROL 連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
-1. 選取連線型別。
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
+        <td>
+          <p>輸入新連線的名稱。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL環境]</td>
+        <td>
+          <p>選取要連線到生產或非生產環境。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL型別]</td>
+        <td>
+          <p>選取您要連線到服務帳戶還是個人帳戶。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL電子郵件]</td>
+        <td>
+          <p>輸入此Anaplan帳戶的電子郵件地址</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[！UICONTROL密碼]</td>
+        <td>輸入此Anaplan帳戶的密碼。</td>
+      </tr>
+     </tbody>
+    </table>
+
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
+
+<!--1. Click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
+1. Select the connection type.
 
    <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!DNL Anaplan] [！UICONTROL Basic]</td> 
-      <td> <p>[!DNL Anaplan] [！UICONTROL Basic]連線只需要電子郵件地址和密碼即可建立連線。 </p> <p>輸入連線的名稱，然後輸入您的電子郵件地址和[!DNL Anaplan]帳戶的密碼。</p> </td> 
+      <td role="rowheader">[!DNL Anaplan] [!UICONTROL Basic]</td> 
+      <td> <p>An [!DNL Anaplan] [!UICONTROL Basic] connection requires only an email address and password to create the connection. </p> <p>Enter a name for the connection, then enter your email address and the password of your [!DNL Anaplan] account.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!DNL Anaplan] [！UICONTROL CA憑證]</td> 
-      <td> <p>[!DNL Anaplan] [！UICONTROL CA Certificate]連線需要[！UICONTROL憑證金鑰]、[！UICONTROL編碼資料]和[！UICONTROL編碼簽署資料]。 您可以在您的[!DNL Anaplan]帳戶中產生這些專案。 如需指示，請參閱[!DNL Anaplan]檔案。</p> <p>輸入連線的名稱，然後輸入您在[!DNL Anaplan]帳戶中產生的[！UICONTROL憑證金鑰]、[！UICONTROL編碼資料]和[！UICONTROL編碼簽署資料]。</p> </td> 
+      <td role="rowheader">[!DNL Anaplan] [!UICONTROL CA Certificate]</td> 
+      <td> <p>An [!DNL Anaplan] [!UICONTROL CA Certificate] connection requires a [!UICONTROL Certificate Key], [!UICONTROL Encoded Data], and [!UICONTROL Encoded Signed Data]. You can generate these in your [!DNL Anaplan] account. For instructions, see the [!DNL Anaplan] documentation.</p> <p>Enter a name for the connection, then enter the [!UICONTROL Certificate Key], [!UICONTROL Encoded Data], and [!UICONTROL Encoded Signed Data] that you generated in your [!DNL Anaplan] account.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.-->
 
 ## [!DNL Anaplan]模組及其欄位
 
@@ -163,6 +205,9 @@ Anaplan聯結器使用下列專案：
 ### 動作
 
 * [[!UICONTROL 建立清單專案]](#create-a-list-item)
+* [刪除記錄](#delete-a-record)
+* [匯出資料](#export-data)
+* [匯入資料](#import-data)
 * [[!UICONTROL 進行自訂API呼叫]](#make-a-custom-api-call)
 * [[!UICONTROL 讀取記錄]](#read-a-record)
 * [[!UICONTROL 執行動作]](#run-an-action)
@@ -208,8 +253,98 @@ Anaplan聯結器使用下列專案：
     </tr>
     <tr>
         <td>[！UICONTROL子集]</td>
-        <td>如果您要新增專案的清單有自訂子集，請選取要新增專案的子集，然後選取<b>[！UICONTROL是]</b>將新專案新增到該子集。</td>
+        <td>如果要新增專案的清單具有自訂子集，請選取要新增專案的子集。</td>
     </tr>
+</table>
+
+#### [!UICONTROL 刪除記錄]
+
+此動作模組會刪除現有記錄。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>如需建立[!DNL Anaplan]連線的說明，請參閱本文中的<a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">連線[!DNL Anaplan]至[!DNL Workfront Fusion]</a>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Workspace ID]</td> 
+   <td>選取或對應包含您要刪除之物件的Anaplan Workspace的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL模型ID]</td> 
+   <td>輸入或對應包含要刪除物件的模型ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄類型</td> 
+   <td> <p>選取要刪除的物件型別。</p> 
+    <ul> 
+     <li> <p><b>動作</b> </p> <p>選取或對應要刪除的動作。</p> </li> 
+     <li> <p><b>清單專案</b> </p> <p>選取您要刪除專案的清單，然後輸入或對應您要刪除的專案識別碼或代碼</p>  </li> 
+     <li> <p><b>[！UICONTROL檔案]</b> </p> <p>選取或對應要刪除的檔案。</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+#### [!UICONTROL 匯出資料]
+
+此動作模組使用匯出定義從Anaplan擷取資料。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>如需建立[!DNL Anaplan]連線的說明，請參閱本文中的<a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">連線[!DNL Anaplan]至[!DNL Workfront Fusion]</a>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Workspace ID]</td> 
+   <td>選取或對應包含您要匯出之資料的Anaplan Workspace的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL模型ID]</td> 
+   <td>輸入或對應包含您要匯出之資料的模型ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">匯出定義ID</td> 
+   <td> <p>輸入或對應您要使用的「Anaplan匯出」定義的ID。</p> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 匯入資料
+
+此動作模組會將資料匯入Anaplan。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td>如需建立[!DNL Anaplan]連線的說明，請參閱本文中的<a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">連線[!DNL Anaplan]至[!DNL Workfront Fusion]</a>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Workspace ID]</td> 
+   <td>選取或對應您要匯入資料之Anaplan Workspace的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL模型ID]</td> 
+   <td>輸入或對應您要匯入資料之模型的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">匯出定義ID</td> 
+   <td> <p>輸入或對應您要使用的「Anaplan匯入」定義的ID。</p> 
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
 #### [!UICONTROL 進行自訂API呼叫]
@@ -250,38 +385,6 @@ Anaplan聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL 刪除記錄]
-
-此動作模組會刪除現有記錄。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td>如需建立[!DNL Anaplan]連線的說明，請參閱本文中的<a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">連線[!DNL Anaplan]至[!DNL Workfront Fusion]</a>。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Workspace ID]</td> 
-   <td>選取或對應包含您要刪除之物件的Anaplan Workspace的ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL模型ID]</td> 
-   <td>輸入或對應包含要刪除物件的模型ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">刪除</td> 
-   <td> <p>選取要刪除的物件型別。</p> 
-    <ul> 
-     <li> <p><b>動作</b> </p> <p>選取或對應要刪除的動作。</p> </li> 
-     <li> <p><b>清單專案</b> </p> <p>選取您要刪除專案的清單，然後輸入或對應您要刪除的專案識別碼或代碼</p>  </li> 
-     <li> <p><b>[！UICONTROL檔案]</b> </p> <p>選取或對應要刪除的檔案。</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL 讀取記錄]
 
 此動作模組會讀取單一記錄。
@@ -303,6 +406,7 @@ Anaplan聯結器使用下列專案：
      <li> <p><b>模型版本</b> </p> <p>選取或對應您要讀取的模型ID。</p> </li> 
      <li> <p><b>使用者</b> </p> <p>選取您是否要傳回正在使用的帳戶擁有者或其他使用者的相關資料。 如果您選取其他使用者，請選取該使用者的名稱。</p> </li> 
      <li> <p><b>Workspace</b> </p> <p>選取或對應您要讀取之Workspace的ID。</p> </li> 
+     <li> <p><b>檢視</b> </p> <p>選取或對應包含您要讀取之檢視的模型ID。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -410,9 +514,9 @@ Anaplan聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL 上傳檔案]
+#### [!UICONTROL 上傳動作檔案]
 
-此動作模組會將檔案上傳至Anaplan。 檔案必須已上傳至Anaplan。 您可以使用此模組將其上傳至Anaplan中的其他位置。
+此動作模組會將Anaplan中的現有檔案上傳到Anaplan內的其他位置。
 <table style="table-layout:auto">
 <col>
 <col>

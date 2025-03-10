@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: d21eafad-9c67-4f42-b718-0aa4223846e6
-source-git-commit: 632128bdcb6f8b8361f5a28e4a5fb527eb274d54
+source-git-commit: 337a6918dc20f2e7523438dea752393a1b3f50ee
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4088'
 ht-degree: 0%
 
 ---
@@ -207,8 +207,6 @@ OneDrive聯結器使用下列專案：
  </tbody> 
 </table>
 
-<!-- Start audit here-->
-
 #### [!UICONTROL 建立資料夾]
 
 這個動作模組會在指定的磁碟機中建立新資料夾。
@@ -231,7 +229,7 @@ OneDrive聯結器使用下列專案：
        <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
      <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取您要建立資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取擁有您要建立資料夾之驅動程式的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取擁有您要建立資料夾之磁碟機的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -255,7 +253,7 @@ OneDrive聯結器使用下列專案：
 
 #### [!UICONTROL 刪除檔案/資料夾]
 
-此動作模組會刪除選取的檔案。
+此動作模組會刪除選取的檔案或資料夾。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -730,7 +728,7 @@ OneDrive聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL方法]</td> 
-   td&gt; <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL Headers]</td> 

@@ -4,16 +4,18 @@ description: 在團隊層級設定電子郵件通知選項。
 author: Becky
 feature: Workfront Fusion
 exl-id: 570a09fc-01a9-4952-8a2b-8bfdd86d0bd8
-source-git-commit: 410676b7def1e36de12fee9d6df79feba566d741
+source-git-commit: 0689cfee7cf546a6c1f5f72c79a1e7be9df85a8c
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '300'
 ht-degree: 1%
 
 ---
 
 # 設定團隊通知選項
 
-在Workfront Fusion中，您會透過「Adobe通知」區域收到通知。 您可以選擇團隊收到的通知。 在團隊層級上設定通知。
+在您使用Adobe Unified Shell的組織中，您會透過Adobe通知區域接收通知。
+
+如果您的組織尚未移轉至Adobe Unified Shell，您可以選擇團隊收到的通知。 在團隊層級上設定通知。
 
 ## 存取需求
 
@@ -31,7 +33,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -44,7 +46,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -69,10 +71,12 @@ ht-degree: 1%
 
 ## 設定通知選項
 
+如果您的組織不在Adobe Unified Shell上，您可以直接在Fusion中設定通知設定。
+
 在團隊層級設定電子郵件通知選項。
 
-1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL Team]**
-1. 選取&#x200B;**[!UICONTROL Notification Options]**&#x200B;標籤。
+1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 團隊]**
+1. 選取&#x200B;**[!UICONTROL 通知選項]**&#x200B;標籤。
 1. 啟用您希望團隊收到的通知。
 
    <table style="table-layout:auto"> 
@@ -80,15 +84,15 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">'[!UICONTROL Warning in scenario run]'</td> 
+      <td role="rowheader">'[！UICONTROL案例執行中的警告]'</td> 
       <td> <p>當案例執行中有警告時收到電子郵件</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Errors in scenario run]</td> 
+      <td role="rowheader">情景執行中的[！UICONTROL錯誤]</td> 
       <td>當案例執行中發生錯誤時收到電子郵件。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Scenario deactivation]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL案例停用]</p> </td> 
       <td><p>當案例停用時收到電子郵件。</p><p>在某些情況下，案例可能會由[!DNL Workfront Fusion]工程團隊停用，因為案例會導致效能或其他問題。 在這些情況下，您不會在[!DNL Workfront Fusion]中收到通知。 </p></td>
 
 </tr>

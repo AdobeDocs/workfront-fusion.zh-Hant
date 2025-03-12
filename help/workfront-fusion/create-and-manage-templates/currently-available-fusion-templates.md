@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: b14bed4d-3503-42cf-a8c3-618d3b2448b4
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 47f1e2b6a812f4ac44e2daf08cb1937f1ef02981
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,15 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 ### [!BADGE 新增！]{type=Informative}
 
+<!--New March 12, 2025-->
+
+從指定展示板上的指定欄刪除已存檔的卡片（隨選）。
+
+### Workfront面板>根據面板欄建立標準檢查清單
+
 此Fusion範本會針對在計時基礎上輸入特定欄位的所有卡片建立標準檢查清單。
 
-### [!BADGE 新增！]{type=Informative}
-
-<!--new Aug 1. 2024-->
+### Workfront > Workfront展示板 — 建立自訂設定的展示板
 
 此情境由正在建立的新專案觸發。 在此案例中，您可以建立以專案命名的展示板、根據您的需求重新命名或建立欄、建立自訂標籤，以及將輸入欄篩選器與原始專案建立關聯。  您可能會進行數千項其他變更，但從這裡開始，將可讓您瞭解為貴組織的主機板標準化建立起點的可能性。
 
@@ -57,7 +61,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 此自動化功能會使用自訂表單來監視程式中的新專案。 然後，它會將這些計畫自訂表單和欄位新增到新專案。
 
-### Workfront — 將自訂Forms和欄位資料複製到關聯的新專案Portfolio
+### Workfront — 複製Portfolio自訂Forms和欄位資料至關聯的新專案
 
 此自動化功能會透過自訂表單，監控投資組合中的新專案。 然後，它會將這些產品組合自訂表單和欄位新增到新專案。
 
@@ -97,6 +101,12 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本可自動化結合Workfront與Workfront Proof的工作流程。
 
+### [!BADGE 新增！]{type=Informative}
+
+<!--New March 12, 2025-->
+
+此範本會監視專案是否更新為等於已拒絕、已完成或廢棄的狀態。 之後，它會將任何具有待定校訂決定的使用者變更為唯讀。 最後，它會鎖定校樣並傳送更新至檔案。
+
 ### Workfront Proof > Workfront — 校訂決定時的專案更新
 
 當對直接新增到專案的校訂做出決定時，此自動化會收集關於校訂決定的資訊（例如誰做出了決定），然後將這個進度反映在對應Workfront專案作為更新。
@@ -131,15 +141,15 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 ### 透過Workfront核准工作流程核准您的Marketo Engage電子郵件草稿
 
-這是Workfront與Marketo Engage之間檢閱和核准整合的一部分。 此範本會偵測Workfront中的電子郵件校訂是否已核准，然後更新Marketo Engage中已核准的對應電子郵件。
+這是Workfront與Marketo Engage之間檢閱和核准整合的一部分。 此範本會偵測Workfront中的電子郵件校訂是否已核准，然後更新Marketo Engage中對應的電子郵件是否已核准。
 
 ### 在Workfront中接收行銷活動請求，並在Marketo Engage中自動建立行銷活動
 
-此情境提供了一種程式化方式，可讓您根據在Workfront中提出的請求，在Marketo Engage中建立電子郵件和網路研討會行銷活動。 透過使用自動化來建立、組織和設定行銷活動，團隊能夠提高效率。
+此情境提供了一種程式化方式，可讓您根據Workfront中的請求，在Marketo Engage中建立電子郵件和網路研討會行銷活動。 透過使用自動化來建立、組織和設定行銷活動，團隊能夠提高效率。
 
-### 在Workfront中檢閱您Marketo Engage電子郵件草稿的電子郵件校樣
+### 在Workfront中檢閱Marketo Engage電子郵件草稿的電子郵件校樣
 
-此範本會偵測Workfront任務是否已設定為準備好檢閱狀態，然後從Marketo Engage匯出電子郵件草稿以將其儲存為Workfront中的校訂。
+此範本會偵測Workfront任務是否已設定為準備好檢閱狀態，然後從Marketo Engage匯出電子郵件草稿，以儲存為Workfront中的校訂。
 
 ## Workfront-SharePoint範本
 

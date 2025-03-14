@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion [!DNL Google Docs] 模組可讓您監視、�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: cd44250d-c2cd-46b2-8773-15b30472a8d8
-source-git-commit: eac874d588e026cab3a01017d32e291d5c8b7b74
+source-git-commit: 2af808aaf8136253c623ee65641d0e57d4f6cf10
 workflow-type: tm+mt
-source-wordcount: '3999'
+source-wordcount: '4045'
 ht-degree: 0%
 
 ---
@@ -498,8 +498,12 @@ Google Docs聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td> <p>對應或選取您要取代文字的檔案。</p> </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"> <p>[！UICONTROL取代文字]</p> </td> 
-   <td> <p>新增您想要取代的每一個文字。</p> 
+   <td> <p>針對您要取代的每一段文字，按一下<b>新增專案</b>並輸入下列內容：</p> 
     <ul> 
      <li> <p><strong>[！UICONTROL要取代的舊文字]</strong> </p> <p>輸入要取代的文字。</p> </li> 
      <li> <p><strong>[！UICONTROL要插入的新文字]</strong> </p> <p>輸入新文字。</p> </li> 
@@ -538,8 +542,12 @@ Google Docs聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL影像URL]</p> </td> 
-   <td> <p>輸入或對映將取代現有影像之新影像的URL。</p> <p>影像會以它們在檔案中的顯示順序列出。 例如，<code>Body: Image No. 1</code>是檔案中的第一個影像。</p> </td> 
+   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td> <p>對應或選取您要取代影像的檔案。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL影像取代]</p> </td> 
+   <td> 針對您要取代的每個影像，按一下[新增專案] <b>並輸入現有的影像ID，然後輸入或對應將取代現有影像的新影像URL。</b> <p>影像會以它們在檔案中的顯示順序列出。 例如，<code>Body: Image No. 1</code>是檔案中的第一個影像。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -579,8 +587,48 @@ Google Docs聯結器會使用以下專案：
 
 ### 其他
 
-* [[!UICONTROL 進行API呼叫]](#make-an-api-call)
 * [[!UICONTROL 使檔案中的所有連結都可點按]](#make-all-links-in-a-document-clickable)
+* [[!UICONTROL 進行API呼叫]](#make-an-api-call)
+
+#### [!UICONTROL 使檔案中的所有連結都可點按]
+
+此動作模組會尋找檔案中的所有連結，並讓這些連結可供點按。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Google]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Make All Links in a Document]</p> </td> 
+   <td> 
+    <ul> 
+     <li><strong>[！UICONTROL依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
+     <li><strong>[！UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
+   <td> <p>選取您想讓連結可點選的檔案所在的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
+    <ul> 
+     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您想讓連結可點選的檔案所在的資料夾。</p> </li> 
+     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您想讓連結可點選的檔案所在的資料夾。</p> </li> 
+     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您想讓連結可點選的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL共用磁碟機]</td> 
+   <td> <p>選取包含您要更新連結之檔案的磁碟機，然後選取檔案。 如果您已在[！UICONTROL選擇磁碟機欄位]中選取[!DNL My Drive]，則此選項可供使用。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td> <p> 選取或對應您要更新連結的檔案。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL 進行API呼叫]
 
@@ -620,6 +668,8 @@ Google Docs聯結器會使用以下專案：
  </tbody> 
 </table>
 
+>[!BEGINSHADEBOX]
+
 **範例：**&#x200B;下列API呼叫會擷取Google Docs中指定檔案的詳細資料：
 
 **URL：**
@@ -636,42 +686,4 @@ Google Docs聯結器會使用以下專案：
 
 ![API呼叫輸出](/help/workfront-fusion/references/apps-and-modules/assets/api-output.png)
 
-#### [!UICONTROL 使檔案中的所有連結都可點按]
-
-此動作模組會尋找檔案中的所有連結，並讓這些連結可供點按。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Google]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Make All Links in a Document]</p> </td> 
-   <td> 
-    <ul> 
-     <li><strong>[！UICONTROL依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
-     <li><strong>[！UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取您想讓連結可點選的檔案所在的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
-    <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您想讓連結可點選的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您想讓連結可點選的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您想讓連結可點選的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL共用磁碟機]</td> 
-   <td> <p>選取包含您要更新連結之檔案的磁碟機，然後選取檔案。 如果您已在[！UICONTROL選擇磁碟機欄位]中選取[!DNL My Drive]，則此選項可供使用。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL檔案ID]</td> 
-   <td> <p> 選取或對應您要更新連結的檔案。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!ENDSHADEBOX]

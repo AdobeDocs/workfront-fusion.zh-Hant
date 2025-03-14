@@ -4,9 +4,9 @@ description: 工作自動化需要快速處理，因此 [!DNL Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: fe503c27bc4e3beb5645f0efa7c2097297f19190
+source-git-commit: 2af808aaf8136253c623ee65641d0e57d4f6cf10
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,8 @@ ht-degree: 0%
 ## Webhook
 
 * 承載的預設大小上限為&#x200B;**5 MB**。
-* Webhook限製為每秒&#x200B;**100個要求**。 達到此限制時，Workfront Fusion會傳送429 ([!UICONTROL Too Many Requests])狀態。
-* [!DNL Workfront Fusion]儲存webhook裝載30天。 在收到webhook裝載超過30天後存取該裝載會導致錯誤&quot;[!UICONTROL Failed to read file from storage.]&quot;
+* Webhook限製為每秒&#x200B;**100個要求**。 達到此限制時，Workfront Fusion會傳送429 （[!UICONTROL 太多請求]）狀態。
+* [!DNL Workfront Fusion]儲存webhook裝載30天。 在收到webhook裝載超過30天後存取該裝載會導致錯誤&quot;[!UICONTROL 無法從儲存體讀取檔案。]&quot;
 * 如果符合下列任一條件，Webhook就會自動停用：
 
    * webhook已超過5天未連線至任何案例
@@ -76,3 +76,17 @@ ht-degree: 0%
 ## 重試次數
 
 * 使用Break模組並指定Retry指示詞時，如果案例在2分鐘的時間範圍內連續失敗10次，則案例將自動停用。
+
+## 遞回
+
+遞回發生在案例觸發自身的新執行、觸發新的執行，以及在無限回圈中發生等等。
+
+例如，建立任務時會觸發情境，而該情境會建立任務。 新建立的任務會再次觸發情境，進而建立另一個任務。 每次建立任務時，就會觸發案例，而每次案例執行時，都會建立任務。
+
+遞回可能會對擁有遞回案例的組織和其他組織造成效能問題。
+
+關於遞回，請考量下列事項：
+
+* **當案例導致遞回時，Fusion工程團隊會停用它以防止進一步的效能問題。**
+* 由於遞回是案例設計的結果，因此您必須以確保案例不包含觸發案例的動作的方式來設計案例。
+

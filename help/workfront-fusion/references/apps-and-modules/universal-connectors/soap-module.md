@@ -4,16 +4,16 @@ description: 您可以使用SOAP模組來連線至Adobe Workfront Fusion中的SO
 author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
-source-git-commit: 3a27a51e10438e6cf8862bf28b1d58273bbaff36
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL SOAP]模組
 
-您可以使用[!UICONTROL SOAP]模組連線至[!UICONTROL Adobe Workfront Fusion]中的[!UICONTROL SOAP] API。
+您可以使用[!UICONTROL SOAP]模組來連線至[!UICONTROL Adobe Workfront Fusion]中的[!UICONTROL SOAP] API。
 
 ## SOAP模組及其欄位
 
@@ -46,7 +46,7 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -87,19 +87,19 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL WSDL]</td> 
+   <td>[！UICONTROL WSDL]</td> 
    <td> 選取您希望模組使用的WSDL。 若要建立WSDL，請按一下欄位旁的<b>新增</b>並填寫欄位。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL HTTP headers]</td> 
+   <td>[！UICONTROL HTTP標頭]</td> 
    <td> 針對您想要新增的每個HTTP標頭，按一下<b>新增專案</b>並輸入標頭的名稱和值。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL SOAP headers]</td> 
+   <td>[！UICONTROL SOAP headers]</td> 
    <td> 針對您要新增的每個SOAP標頭，按一下<b>新增專案</b>並輸入標頭的名稱、值、名稱空間及XMLNS。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Force SOAP headers]</td> 
+   <td>[！UICONTROL Force SOAP headers]</td> 
    <td> 啟用此選項以設定SOAP 1.2的標頭。 </td> 
   </tr> 
   </tbody> 
@@ -143,10 +143,10 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
 
 ## 因應措施
 
-如果[!UICONTROL SOAP]模組拒絕處理WSDL檔案或在模組設定中擲回各種錯誤，您可以嘗試改用通用&#x200B;**[!UICONTROL HTTP]>[!UICONTROL Make a request]**&#x200B;模組：
+如果[!UICONTROL SOAP]模組拒絕處理WSDL檔案或在模組設定中擲回各種錯誤，您可以嘗試改用通用&#x200B;**[!UICONTROL HTTP] > [!UICONTROL 發出要求]**&#x200B;模組：
 
 1. 在[!DNL Workfront Fusion]中建立新情境。
-1. 在情境中插入&#x200B;**[!UICONTROL HTTP]>[!UICONTROL Make a request]**&#x200B;模組。
+1. 在情境中插入&#x200B;**[!UICONTROL HTTP] > [!UICONTROL 提出要求]**&#x200B;模組。
 1. 開啟模組的設定，並填寫下列欄位：
 
    <table style="table-layout:auto"> 
@@ -154,20 +154,20 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Method]</td> 
-      <td> <p>[!UICONTROL POST]</p> </td> 
+      <td role="rowheader">[！UICONTROL方法]</td> 
+      <td> <p>[！UICONTROL POST]</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Body type]</td> 
-      <td> <p>[!UICONTROL Raw]</p> </td>
+      <td role="rowheader">[！UICONTROL主體型別]</td> 
+      <td> <p>[！UICONTROL Raw]</p> </td>
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Content type]</td> 
-      <td> <p>[!UICONTROL XML (application/xml)]</p> </td> 
+      <td role="rowheader">[！UICONTROL內容型別]</td> 
+      <td> <p>[！UICONTROL XML (application/xml)]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Parse response]</td> 
-      <td>[!UICONTROL Enabled]</td> 
+      <td role="rowheader">[！UICONTROL剖析回應]</td> 
+      <td>[！UICONTROL已啟用]</td> 
      </tr> 
     </tbody> 
    </table>
@@ -188,13 +188,13 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
 1. 在[!DNL Workfront Fusion]中，將URL貼到HTTP模組的URL欄位中。
 1. 在新的網頁瀏覽器視窗/標籤中開啟[線上[!UICONTROL SOAP]使用者端](https://wsdlbrowser.com/)。
 1. 將WSDL URL貼到WSDL URL欄位中。
-1. 按一下&#x200B;**[!UICONTROL Browse]**。
+1. 按一下&#x200B;**[!UICONTROL 瀏覽]**。
 1. 從左側的函式清單中選取，例如`getLanguages`。
-1. 複製[!UICONTROL Request XML]文字區域的內容。
+1. 複製[!UICONTROL 要求XML]文字區域的內容。
 1. 在[!UICONTROL Workfront Fusion]中，將複製的內容貼到模組的URL欄位。
 1. 將問號取代為實際值，以提供所選引數的值：
 
    <!--![Request](/help/workfront-fusion/references/apps-and-modules/assets/request-xml-350x172.png)-->
 
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;關閉模組的設定。
+1. 按一下&#x200B;**[!UICONTROL 確定]**，關閉模組的設定。
 1. 執行案例或模組。

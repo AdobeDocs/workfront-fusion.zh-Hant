@@ -4,7 +4,7 @@ description: FTP模組可讓您監視所選資料夾中的檔案變更、將新�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e14f778-ab8c-421f-a4b4-c57be66c7cad
-source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -36,7 +36,7 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 

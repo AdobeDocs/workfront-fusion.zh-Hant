@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 059bc82b-f1bc-4b92-a44b-51c1daf14f08
-source-git-commit: 2ef98aa858c1459f214b12be3bf52f4f731012a2
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '2260'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -93,7 +93,7 @@ Microsoft Office 365 Excel聯結器使用下列專案：
 
 ## 正在將[!DNL Office 365 Excel]服務連線到[!DNL Workfront Fusion]
 
-如需有關將您的[!DNL Office 365 Excel]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線 — 基本指示](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+如需有關將您的[!DNL Office 365 Excel]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md) — 基本指示
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Microsoft Office 365 Excel聯結器使用下列專案：
 * [搜尋活頁簿](#search-workbooks)
 * [監視活頁簿](#watch-workbooks)
 
-#### [!UICONTROL Download a Workbook]
+#### [!UICONTROL 下載活頁簿]
 
 此動作模組會下載指定Excel活頁簿的內容。
 
@@ -129,20 +129,20 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Download a workbook]</td> 
+   <td role="rowheader">[！UICONTROL下載活頁簿]</td> 
    <td> <p>選取您要如何識別供模組下載的活頁簿。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL By entering an ID manually]</strong> </p> <p>在[!UICONTROL Workbook ID]欄位中，輸入或對應您想要模組下載之特定活頁簿的識別碼。</p> </li> 
-     <li> <p><strong>[!UICONTROL By selecting from the path]</strong> </p> <p>在[!UICONTROL Workbook]欄位中，選取您要模組下載的活頁簿，包括路徑（如果不在根資料夾中）。</p> </li> 
+     <li> <p><strong>[！UICONTROL，手動輸入ID]</strong> </p> <p>在[！UICONTROL活頁簿ID]欄位中，輸入或對應您要模組下載之特定活頁簿的ID。</p> </li> 
+     <li> <p>從路徑選取<strong>[！UICONTROL]</strong> </p> <p>在[！UICONTROL活頁簿]欄位中，選取您要模組下載的活頁簿，包括若不在根資料夾中的路徑。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody>
 
-#### [!UICONTROL Search Workbooks]
+#### [!UICONTROL 搜尋活頁簿]
 
 此動作模組搜尋[!DNL Excel]活頁簿。
 
@@ -151,26 +151,26 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
    <td> <p>選取您要搜尋活頁簿的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Filter]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL篩選器]</p> </td> 
    <td> <p>您可以設定篩選器，只搜尋符合您選取條件的活頁簿。</p> <p>針對每個篩選器，輸入您希望篩選器評估的欄位、運運算元，以及您希望篩選器允許的值。 您可以新增AND或OR規則，以使用一個以上的篩選器。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
    <td> <p>輸入或對應每個案例執行週期中您希望模組傳回的最大工作表數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 </table>
 
-#### [!UICONTROL Watch Workbooks]
+#### [!UICONTROL 觀看活頁簿]
 
 此觸發模組會在建立活頁簿時啟動案例。
 
@@ -179,19 +179,19 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
    <td> <p>選取您要監視新活頁簿的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Filter]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL篩選器]</p> </td> 
    <td> <p>您可以設定篩選器，只監視符合您選取條件的活頁簿。</p> <p>針對每個篩選器，輸入您希望篩選器評估的欄位、運運算元，以及您希望篩選器允許的值。 您可以新增AND或OR規則，以使用一個以上的篩選器。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大活頁簿數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -199,15 +199,15 @@ Microsoft Office 365 Excel聯結器使用下列專案：
 
 ### 工作表
 
-* [[!UICONTROL Add a Worksheet]](#add-a-worksheet)
-* [[!UICONTROL Add a Worksheet Row]](#add-a-worksheet-row)
-* [[!UICONTROL Delete a Worksheet Row]](#delete-a-worksheet-row)
-* [[!UICONTROL List Worksheet Rows]](#list-worksheet-rows)
-* [[!UICONTROL List Worksheets]](#list-worksheets)
-* [[!UICONTROL Update a Worksheet Row]](#update-a-worksheet-row)
-* [[!UICONTROL Watch Worksheet Rows]](#watch-worksheet-rows)
+* [[!UICONTROL 新增工作表]](#add-a-worksheet)
+* [[!UICONTROL 新增工作表列]](#add-a-worksheet-row)
+* [[!UICONTROL 刪除工作表列]](#delete-a-worksheet-row)
+* [[!UICONTROL 列出工作表列]](#list-worksheet-rows)
+* [[!UICONTROL 列出工作表]](#list-worksheets)
+* [[!UICONTROL 更新工作表列]](#update-a-worksheet-row)
+* [[!UICONTROL 監視工作表列]](#watch-worksheet-rows)
 
-#### [!UICONTROL Add a Worksheet]
+#### [!UICONTROL 新增工作表]
 
 此動作模組會在選取的活頁簿中建立新的工作表。
 
@@ -216,21 +216,21 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取您要新增工作表的活頁簿，包括路徑（如果活頁簿不在根目錄中）。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Name] </td>
+    <td role="rowheader" >[！UICONTROL名稱] </td>
    <td> <p>輸入或對應新工作表的名稱。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Add a Worksheet Row]
+#### [!UICONTROL 新增工作表列]
 
 此動作模組會新增一列至選取的工作表。
 
@@ -239,34 +239,34 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要新增列的工作表的活頁簿，如果活頁簿不在根目錄中，請加入路徑。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Worksheet] </td>
+    <td role="rowheader" >[！UICONTROL工作表] </td>
    <td> <p>選取您要新增資料列的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Type of values being entered]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL輸入的值型別]</p> </td> 
    <td> <p>選取要輸入工作表中的值型態。 </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Formulas]</strong> </p> <p> Excel會嘗試評估指定的運算式。 公式中的函式名稱為英文。 範例： <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
-     <li> <p><strong>[!UICONTROL Formulas local]</strong> </p> <p>Excel會嘗試評估指定的運算式。 函式名稱使用Excel應用程式的語言。 範例： <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
-     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Excel不會評估值。 </p> </li> 
+     <li> <p><strong>[！UICONTROL公式]</strong> </p> <p> Excel會嘗試評估指定的運算式。 公式中的函式名稱為英文。 範例： <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
+     <li> <p><strong>[！UICONTROL公式本機]</strong> </p> <p>Excel會嘗試評估指定的運算式。 函式名稱使用Excel應用程式的語言。 範例： <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
+     <li> <p><strong>[！UICONTROL值]</strong> </p> <p>Excel不會評估值。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Row]</td>
+    <td role="rowheader" >[！UICONTROL Row]</td>
     <td>針對每一欄，輸入您希望欄在新列中的值。</td>
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Worksheet Row]
+#### [!UICONTROL 刪除工作表列]
 
 此動作模組會從工作表刪除列。
 
@@ -275,25 +275,25 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要刪除之資料列的工作表的活頁簿。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Worksheet]</td>
+    <td role="rowheader" >[！UICONTROL工作表]</td>
    <td> <p> 選取包含您要刪除之資料列的工作表。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Row ID]</td>
+    <td role="rowheader" >[！UICONTROL列ID]</td>
    <td>輸入或對應您要刪除之列的ID。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL List Worksheet Rows]
+#### [!UICONTROL 列出工作表列]
 
 此動作模組會擷取指定工作表中的列清單。
 
@@ -302,25 +302,25 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要列出之列的工作表的活頁簿，如果活頁簿不在根目錄中，請包含路徑。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Worksheet] </td>
+    <td role="rowheader" >[！UICONTROL工作表] </td>
    <td> <p>選取包含您要列示之資料列的工作表。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Limit]</td>
+    <td role="rowheader" >[！UICONTROL限制]</td>
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大工作表列數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL List Worksheets]
+#### [!UICONTROL 列出工作表]
 
 此動作模組會擷取指定活頁簿中的工作表清單。
 
@@ -329,21 +329,21 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要模組列出之工作表的工作簿。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Limit]</td>
+    <td role="rowheader" >[！UICONTROL限制]</td>
    <td> <p>輸入或對應每個案例執行週期中您希望模組傳回的最大工作表數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Update a Worksheet Row]
+#### [!UICONTROL 更新工作表列]
 
 此動作模組會更新現有的工作表列。
 
@@ -352,38 +352,38 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要更新之資料列的工作表的活頁簿。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Worksheet] </td>
+    <td role="rowheader" >[！UICONTROL工作表] </td>
    <td> <p>選取包含您要更新之資料列的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Type of values being entered]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL輸入的值型別]</p> </td> 
    <td> <p>選取要輸入工作表中的值型態。 </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Formulas]</strong> </p> <p> Excel會嘗試評估指定的運算式。 公式中的函式名稱為英文。 範例： <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
-     <li> <p><strong>[!UICONTROL Formulas local]</strong> </p> <p>Excel會嘗試評估指定的運算式。 函式名稱使用Excel應用程式的語言。 範例： <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
-     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Excel不會評估值。 </p> </li> 
+     <li> <p><strong>[！UICONTROL公式]</strong> </p> <p> Excel會嘗試評估指定的運算式。 公式中的函式名稱為英文。 範例： <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
+     <li> <p><strong>[！UICONTROL公式本機]</strong> </p> <p>Excel會嘗試評估指定的運算式。 函式名稱使用Excel應用程式的語言。 範例： <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
+     <li> <p><strong>[！UICONTROL值]</strong> </p> <p>Excel不會評估值。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Row ID]</td> 
+   <td role="rowheader">[！UICONTROL列ID]</td> 
    <td>選取要更新的列編號。</td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Row]</td>
+    <td role="rowheader" >[！UICONTROL Row]</td>
     <td>針對每一欄，輸入您希望欄在新列中的值。</td>
     </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch Worksheet Rows]
+#### [!UICONTROL 監視工作表列]
 
 此觸發模組會在工作表新增新列時啟動案例。
 
@@ -392,23 +392,23 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要監視新資料列的工作表的活頁簿。</p> </td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL Worksheet] </td>
+    <td role="rowheader" >[！UICONTROL工作表] </td>
    <td> <p>選取要監視新列的Excel工作表。</p> </td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL Skip Empty Rows] </td>
+    <td role="rowheader" >[！UICONTROL略過空白列] </td>
    <td> <p>啟用此選項不會傳回工作表中空白列的組合。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Limit]</td>
+    <td role="rowheader" >[！UICONTROL限制]</td>
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大工作表列數。</p> </td> 
   </tr> 
  </tbody> 
@@ -416,16 +416,16 @@ Microsoft Office 365 Excel聯結器使用下列專案：
 
 ### 表格
 
-* [[!UICONTROL Add a table]](#add-a-table)
-* [[!UICONTROL Add a table row]](#add-a-table-row)
-* [[!UICONTROL Delete a table]](#delete-a-table)
-* [[!UICONTROL Get a Table]](#get-a-table)
-* [[!UICONTROL List table rows]](#list-table-rows)
-* [[!UICONTROL List tables]](#list-tables)
-* [[!UICONTROL Update a table]](#update-a-table)
-* [[!UICONTROL Watch table rows]](#watch-table-rows)
+* [[!UICONTROL 新增資料表]](#add-a-table)
+* [[!UICONTROL 新增資料表列]](#add-a-table-row)
+* [[!UICONTROL 刪除資料表]](#delete-a-table)
+* [[!UICONTROL 取得資料表]](#get-a-table)
+* [[!UICONTROL 列出資料表列]](#list-table-rows)
+* [[!UICONTROL 列出資料表]](#list-tables)
+* [[!UICONTROL 更新資料表]](#update-a-table)
+* [[!UICONTROL 觀看資料表列]](#watch-table-rows)
 
-#### [!UICONTROL Add a table]
+#### [!UICONTROL 新增資料表]
 
 此動作模組會在Excel工作表中建立表格元素。
 
@@ -434,29 +434,29 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Workbook] </td> 
+   <td role="rowheader">[！UICONTROL活頁簿] </td> 
    <td> <p>選取包含您要新增表格之工作表的活頁簿。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Worksheet] </td> 
+   <td role="rowheader">[！UICONTROL工作表] </td> 
    <td> <p>選取您要新增表格的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Has headers]</td> 
+   <td role="rowheader">[！UICONTROL有標題]</td> 
    <td> <p>啟用此選項可將第一列定義為表格標題。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Address]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL位址]</p> </td> 
    <td> <p>指示左上角與右下角的儲存格，以設定表格的大小。 範例： <code>A1:C10</code>會建立包含3欄和10列的表格。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Add a table row]
+#### [!UICONTROL 新增資料表列]
 
 此動作模組會修改現有表格。
 
@@ -465,33 +465,33 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要新增列之表格的活頁簿。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Worksheet] </td>
+    <td role="rowheader" >[！UICONTROL工作表] </td>
    <td> <p>選取包含您要新增資料列之表格的工作表。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Table]</td>
+    <td role="rowheader" >[！UICONTROL表格]</td>
    <td>選取您要新增列的表格。</td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL Row]</td>
+    <td role="rowheader" >[！UICONTROL Row]</td>
     <td>針對每一欄，輸入您希望欄在新列中的值。</td>
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Row ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL列ID]</p> </td> 
    <td> <p>若要在表格的特定位置中新增列，請輸入或對映列號。 模組會在此列之後插入新的一列。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a table]
+#### [!UICONTROL 刪除資料表]
 
 此動作模組會從[!DNL Excel]工作表刪除指定的資料表。
 
@@ -500,21 +500,21 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Delete a table]</td> 
+   <td role="rowheader">[！UICONTROL刪除表格]</td> 
    <td> <p>選取您要如何識別要刪除的表格。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>輸入或對應包含您要刪除之表格之活頁簿的ID，然後輸入或對應包含表格之工作表的ID。</p> <p>在[!UICONTROL Table Name]欄位中，輸入或對應您要刪除之資料表的名稱。</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>選取包含您要刪除之表格的活頁簿和工作表，然後選取表格。</p> </li> 
+     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應包含您要刪除之表格之活頁簿的ID，然後輸入或對應包含表格之工作表的ID。</p> <p>在[！UICONTROL表格名稱]欄位中，輸入或對應您要刪除的表格名稱。</p> </li> 
+     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要刪除之表格的活頁簿和工作表，然後選取表格。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Get a Table]
+#### [!UICONTROL 取得資料表]
 
 此動作模組會擷取指定表格的中繼資料。
 
@@ -524,24 +524,24 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader"> 
-     <p >[!UICONTROL Connection]</p>
+     <p >[！UICONTROL Connection]</p>
    </td> 
    <td> 
      <p>如需有關將您的Office 365帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p>
     —&gt; </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Get a table]</td> 
+   <td role="rowheader">[！UICONTROL取得表格]</td> 
    <td> <p>選取您要如何識別要擷取的表格。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>輸入或對應包含您要擷取之表格之活頁簿的ID，然後輸入或對應包含表格之工作表的ID。</p> <p>在[!UICONTROL Table Name]欄位中，輸入或對應您要擷取之資料表的名稱。</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>選取包含您要擷取之表格的活頁簿和工作表，然後選取表格。</p> </li> 
+     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應包含您要擷取之表格之活頁簿的ID，然後輸入或對應包含表格之工作表的ID。</p> <p>在[！UICONTROL表格名稱]欄位中，輸入或對應您要擷取的表格名稱。</p> </li> 
+     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要擷取之表格的活頁簿和工作表，然後選取表格。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL List table rows]
+#### [!UICONTROL 列出資料表列]
 
 此搜尋模組會擷取活頁簿中所有表格列的清單。
 
@@ -550,29 +550,29 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要列出之資料列的表格活頁簿。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Worksheet] </td>
+    <td role="rowheader" >[！UICONTROL工作表] </td>
    <td> <p>選取包含您要列示之資料列的表格的工作表</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Table] </td>
+    <td role="rowheader" >[！UICONTROL表格] </td>
    <td> <p>選取包含要列出之列的表格。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Limit]</td>
+    <td role="rowheader" >[！UICONTROL限制]</td>
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大表格列數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL List tables]
+#### [!UICONTROL 列出資料表]
 
 此搜尋模組會擷取所有表格物件的清單。
 
@@ -581,25 +581,25 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL Workbook] </td>
+    <td role="rowheader" >[！UICONTROL活頁簿] </td>
    <td> <p>選取包含您要列出之表格的活頁簿。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Worksheet] </td>
+    <td role="rowheader" >[！UICONTROL工作表] </td>
    <td> <p>選取包含您要列出之表格的工作表</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Limit]</td>
+    <td role="rowheader" >[！UICONTROL限制]</td>
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大表格數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Update a table]
+#### [!UICONTROL 更新資料表]
 
 此動作模組會更新現有的表格。
 
@@ -608,37 +608,37 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Update a table]</td> 
+   <td role="rowheader">[！UICONTROL更新表格]</td> 
    <td> <p>選取要如何識別要更新的表格。</p> 
     <ul> 
-     <li> <p><strong>手動輸入</strong> </p> <p>在[!UICONTROL Workbook ID]欄位中，輸入或對應包含您要更新之資料表的活頁簿識別碼。</p> <p>在[!UICONTROL Table Name]欄位中，輸入或對應您要更新的資料表名稱。</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>選取包含您要更新之表格的活頁簿和工作表，然後選取表格。</p> </li> 
+     <li> <p><strong>手動輸入</strong> </p> <p>在[！UICONTROL活頁簿ID]欄位中，輸入或對應包含您要更新之資料表的活頁簿ID。</p> <p>在[！UICONTROL表格名稱]欄位中，輸入或對應您要更新的表格名稱。</p> </li> 
+     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要更新之表格的活頁簿和工作表，然後選取表格。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td role="rowheader">[！UICONTROL名稱]</td> 
    <td> <p>如果要重新命名表格，請輸入或對應表格的新名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Show Headers]</td> 
+   <td role="rowheader">[！UICONTROL Show Headers]</td> 
    <td> <p>啟用此選項以顯示更新表格的標題。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Show totals]</td> 
+   <td role="rowheader">[！UICONTROL顯示總計]</td> 
    <td>啟用此選項以顯示表格的總值。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Style]</td> 
+   <td role="rowheader">[！UICONTROL樣式]</td> 
    <td>選擇新表格的樣式。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch table rows]
+#### [!UICONTROL 觀看資料表列]
 
 此觸發器會在表格中新增新列時啟動案例。
 
@@ -653,23 +653,23 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Workbook]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL活頁簿]</p> </td> 
    <td> <p>選取包含您要觀看之表格的活頁簿。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Worksheet] </td>
+    <td role="rowheader" >[！UICONTROL工作表] </td>
    <td> <p> 選取包含您要監視之表格的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Table]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL表格]</p> </td> 
    <td> <p>選取您要觀看的表格。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL Limit]</td>
+    <td role="rowheader" >[！UICONTROL限制]</td>
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大列數。</p> </td> 
   </tr> 
  </tbody> 
@@ -677,10 +677,10 @@ Microsoft Office 365 Excel聯結器使用下列專案：
 
 ### 其他
 
-* [[!UICONTROL Make an API Call]](#make-an-api-call)
-* [[!UICONTROL Retrieve data]](#retrieve-data)
+* [[!UICONTROL 進行API呼叫]](#make-an-api-call)
+* [[!UICONTROL 擷取資料]](#retrieve-data)
 
-#### [!UICONTROL Make an API Call]
+#### [!UICONTROL 進行API呼叫]
 
 此動作模組可讓您進行自訂API呼叫。
 
@@ -689,27 +689,27 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td>輸入相對於<code>https://graph.microsoft.com</code>的路徑。 範例：<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    td&gt; <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：   <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -718,7 +718,7 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Retrieve data]
+#### [!UICONTROL 擷取資料]
 
 此動作會從定義的工作表範圍擷取資料，並傳回每一列的組合。
 
@@ -727,19 +727,19 @@ Microsoft Office 365 Excel聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Workbook] </td> 
+   <td role="rowheader">[！UICONTROL活頁簿] </td> 
    <td> <p>選取包含您要擷取之資料的活頁簿。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Worksheet] </td> 
+   <td role="rowheader">[！UICONTROL工作表] </td> 
    <td> <p>選取包含您要擷取之資料的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Range] </td> 
+   <td role="rowheader">[！UICONTROL範圍] </td> 
    <td> <p>指定您要擷取資料的工作表區域，方法為指定左上方與右下方的儲存格。 範例： <code>A1:D10</code></p> </td> 
   </tr> 
  </tbody> 

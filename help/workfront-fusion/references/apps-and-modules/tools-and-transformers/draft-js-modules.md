@@ -4,10 +4,10 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以使用Draft.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0116e379-cef8-4036-875b-46ca79a9e94d
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 54098f2da1db85d9a596f3fc4753aebb298d5b78
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 2%
+source-wordcount: '244'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 2%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto">
@@ -28,27 +30,25 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無[!DNL Workfront Fusion]授權需求。</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
+   <p>無Workfront Fusion授權需求</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
   </tr>
  </tbody> 
@@ -58,7 +58,9 @@ ht-degree: 2%
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
-## [!UICONTROL Draft.js to HTML]
++++
+
+## [!UICONTROL Draft.js至HTML]
 
 此模組會將Draft.js轉換為HTML。
 
@@ -69,13 +71,13 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Draft.js]</td> 
-   <td> <p>輸入Draft.js文字。</p> </td> 
+   <td role="rowheader">[！UICONTROL Draft.js]</td> 
+   <td> <p>輸入或對應您要轉換成HTML的Draft.js文字。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## [!UICONTROL HTML to Draft.js]
+## [!UICONTROL HTML到Draft.js]
 
 此模組會將HTML程式碼轉換為Draft.js。
 
@@ -84,8 +86,8 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Draft.js]</td> 
-   <td> <p>輸入要轉換為Draft.js的HTML代碼。</p> </td> 
+   <td role="rowheader">[！UICONTROL Draft.js]</td> 
+   <td> <p>輸入或對應您要轉換成Draft.js的HTML程式碼。</p> </td> 
   </tr> 
  </tbody> 
 </table>

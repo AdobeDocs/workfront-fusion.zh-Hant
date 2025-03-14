@@ -5,9 +5,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 77237a1b-2acd-4350-9cc0-ec43b8b08137
-source-git-commit: fedf8f3f4031faaad9f81ed38fbc77e40e3a85b6
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -92,7 +92,7 @@ Workday聯結器會使用以下專案：
 
 ## 將[!DNL Workday]連線至[!DNL Workfront Fusion]
 
-1. 在任何[!DNL Workfront Fusion]模組中，按一下[!UICONTROL Connection]欄位旁的[!UICONTROL Add]
+1. 在任何[!DNL Workfront Fusion]模組中，按一下[!UICONTROL 連線]欄位旁的[!UICONTROL 新增]
 
 2. 填寫下列欄位：
 
@@ -102,39 +102,39 @@ Workday聯結器會使用以下專案：
         <tbody>
             <tr>
                 <td role="rowheader">
-                    <p role="rowheader">[!UICONTROL Connection name]</p>
+                    <p role="rowheader">[！UICONTROL連線名稱]</p>
                 </td>
                 <td>輸入連線的名稱</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Workday host]</td>
+                <td  role="rowheader">[！UICONTROL Workday主機]</td>
                 <td>輸入不含<code>https://</code>的[!DNL Workday]主機位址。 例如： <code>mycompany.workday.com</code>。</td>
             </tr>
             <tr>
-                <td role="rowheader">[!UICONTROL Services URL]</td>
+                <td role="rowheader">[！UICONTROL服務URL]</td>
                 <td>輸入您的[!DNL Workday]網路服務位址（不含<code>https://</code>）。 例如： <code>mycompany-services.workday.com</code>。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Tenant name]</td>
+                <td  role="rowheader">[！UICONTROL租使用者名稱稱]</td>
                 <td>輸入此[!DNL Workday]帳戶的租使用者。 您的租使用者是您組織的識別碼，可在您用來登入Workday的URL中看見。 範例：在地址<code>https://www.myworkday.com/mycompany</code>中，租使用者是<code>mycompany</code>。</td>
             </tr>
             <tr>
-                <td role="rowheader">[!UICONTROL Client ID]</td>
+                <td role="rowheader">[！UICONTROL使用者端ID]</td>
                 <td>輸入此連線使用的[!DNL Workday]應用程式的使用者端識別碼。 當您在[!DNL Workday]中建立應用程式時，就會取得此資訊。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Client Secret]</td>
+                <td  role="rowheader">[！UICONTROL使用者端密碼]</td>
                 <td>輸入此連線使用的[!DNL Workday]應用程式的使用者端密碼。 當您在[!DNL Workday]中建立應用程式時，就會取得此資訊。</td>
             </tr>
             <tr>
-                <td role="rowheader">[!UICONTROL Session timeout (min)]</td>
+                <td role="rowheader">[！UICONTROL工作階段逾時（分鐘）]</td>
                 <td >輸入您的授權Token過期的分鐘數。</td>
             </tr>
         </tbody>
     </table>
 
 
-3. 按一下[!UICONTROL Continue]以儲存連線並返回模組
+3. 按一下[!UICONTROL 繼續]以儲存連線並返回模組
 
 ## [!DNL Workday]模組及其欄位
 
@@ -151,16 +151,16 @@ Workday聯結器會使用以下專案：
 
 ### 動作
 
-* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL 建立記錄]](#create-a-record)
 
-* [[!UICONTROL Delete a record]](#delete-a-record)
+* [[!UICONTROL 刪除記錄]](#delete-a-record)
 
-* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
+* [[!UICONTROL 進行自訂API呼叫]](#make-a-custom-api-call)
 
-* [[!UICONTROL Update a record]](#update-a-record)
+* [[!UICONTROL 更新記錄]](#update-a-record)
 
 
-#### [!UICONTROL Create a record]
+#### [!UICONTROL 建立記錄]
 
 此動作模組會在[!DNL Workday]中建立單一記錄。
 
@@ -169,25 +169,25 @@ Workday聯結器會使用以下專案：
     <col/>
     <tbody>
         <tr>
-            <td role="rowheader">[!UICONTROL Connection]</td>
+            <td role="rowheader">[！UICONTROL Connection]</td>
             <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
         </tr>
         <tr>
-            <td  role="rowheader">[!UICONTROL Record Type]</td>
+            <td  role="rowheader">[！UICONTROL記錄型別]</td>
             <td>選取您要建立的記錄型別。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL ID] </td>
+            <td role="rowheader">[！UICONTROL ID] </td>
             <td>輸入或對應您要建立的記錄ID。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL Subresource ID]</td>
+            <td role="rowheader">[！UICONTROL子資源ID]</td>
             <td >輸入或對應您要建立之子資源的ID。</td>
         </tr>
     </tbody>
 </table>
 
-#### [!UICONTROL Delete a record]
+#### [!UICONTROL 刪除記錄]
 
 此動作模組會刪除[!DNL Workday]中的單一記錄。
 
@@ -198,30 +198,30 @@ Workday聯結器會使用以下專案：
     </col>
     <tbody>
         <tr>
-            <td role="rowheader">[!UICONTROL Connection]</td>
+            <td role="rowheader">[！UICONTROL Connection]</td>
             <td>如需有關將您的[!DNL Workday]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#Connect" class="MCXref xref" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
         </tr>
         <tr>
-            <td  role="rowheader">[!UICONTROL Record type]</td>
+            <td  role="rowheader">[！UICONTROL記錄型別]</td>
             <td>選取您要刪除的記錄型別。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL Specific record type]</td>
+            <td role="rowheader">[！UICONTROL特定記錄型別]</td>
             <td>選取您要刪除的特定記錄型別。 這些是以您選擇的記錄型別為基礎。</td>
         </tr>
         <tr>
-            <td  role="rowheader">[!UICONTROL Subresource ID]</td>
+            <td  role="rowheader">[！UICONTROL子資源ID]</td>
             <td>輸入或對應您要刪除之子資源的ID。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL ID] </td>
+            <td role="rowheader">[！UICONTROL ID] </td>
             <td >輸入或對應您要刪除之記錄的ID。</td>
         </tr>
     </tbody>
 </table>
 
 
-### [!UICONTROL Make a custom API call]
+### [!UICONTROL 進行自訂API呼叫]
 
 此動作模組可讓您對[!DNL Workday] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Workday]模組無法完成的資料流程自動化。
 
@@ -238,23 +238,23 @@ Workday聯結器會使用以下專案：
             <td>如需有關將您的[!DNL Workday]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#Connect" class="MCXref xref" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a>。</td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td>輸入相對於<code style="color: #ff1493;">https://&lt;tenantHostname>/api/&lt;serviceName>/&lt;version>/&lt;tenant></code>的路徑。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion] 為您新增授權標頭。</p> </td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[！UICONTROL Workfront Fusion]會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -263,7 +263,7 @@ Workday聯結器會使用以下專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL Update a record]
+#### [!UICONTROL 更新記錄]
 
 此動作模組更新[!DNL Workday]中的單一記錄。
 
@@ -272,19 +272,19 @@ Workday聯結器會使用以下專案：
     <col/>
     <tbody>
         <tr>
-            <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday]到Workfront Fusion]</a></td>
+            <td role="rowheader">[！UICONTROL Connection]</td>
+            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[！UICONTROL連線[!DNL Workday]到Workfront Fusion]</a></td>
         </tr>
         <tr>
-            <td  role="rowheader">[!UICONTROL Record Type]</td>
+            <td  role="rowheader">[！UICONTROL記錄型別]</td>
             <td>選取您要更新的記錄型別。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL ID] </td>
+            <td role="rowheader">[！UICONTROL ID] </td>
             <td>輸入或對應您要更新的記錄ID。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL Subresource ID]</td>
+            <td role="rowheader">[！UICONTROL子資源ID]</td>
             <td >輸入或對應您要更新的子資源ID。</td>
         </tr>
     </tbody>
@@ -292,12 +292,12 @@ Workday聯結器會使用以下專案：
 
 ### 搜尋
 
-* [[!UICONTROL Read a record]](#read-a-record)
+* [[!UICONTROL 讀取記錄]](#read-a-record)
 
-* [[!UICONTROL List records]](#list-records)
+* [[!UICONTROL 清單記錄]](#list-records)
 
 
-#### [!UICONTROL Read a record]
+#### [!UICONTROL 讀取記錄]
 
 此動作模組會讀取單一記錄。
 
@@ -308,25 +308,25 @@ Workday聯結器會使用以下專案：
     </col>
     <tbody>
         <tr>
-            <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday]到Workfront Fusion]</a></td>
+            <td role="rowheader">[！UICONTROL Connection]</td>
+            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[！UICONTROL連線[!DNL Workday]到Workfront Fusion]</a></td>
         </tr>
         <tr>
-            <td  role="rowheader">[!UICONTROL Record type]</td>
+            <td  role="rowheader">[！UICONTROL記錄型別]</td>
             <td>選取您要刪除的記錄型別。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL Specific record type]</td>
+            <td role="rowheader">[！UICONTROL特定記錄型別]</td>
             <td>選取您要讀取的特定記錄型別。 這些是以您選擇的記錄型別為基礎。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL ID] </td>
+            <td role="rowheader">[！UICONTROL ID] </td>
             <td >輸入或對應您要刪除之記錄的ID。</td>
         </tr>
     </tbody>
 </table>
 
-#### [!UICONTROL List records]
+#### [!UICONTROL 清單記錄]
 
 此搜尋模組會擷取指定型別的記錄清單。
 
@@ -335,15 +335,15 @@ Workday聯結器會使用以下專案：
       <col/>
       <tbody>
           <tr>
-              <td role="rowheader">[!UICONTROL Connection]</td>
+              <td role="rowheader">[！UICONTROL Connection]</td>
               <td>如需有關將您的[!DNL Workday]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱<a href="#Connect" class="MCXref xref" >將[!DNL Workday]連線到[!DNL Workfront Fusion]</a></td>
           </tr>
           <tr>
-              <td  role="rowheader">[!UICONTROL Record Type]</td>
+              <td  role="rowheader">[！UICONTROL記錄型別]</td>
               <td>選取您要擷取的記錄型別。</td>
           </tr>
           <tr>
-              <td role="rowheader">[!UICONTROL Limit]</td>
+              <td role="rowheader">[！UICONTROL限制]</td>
               <td >
                   <p>輸入或對應您希望模組在每個案例執行週期中擷取的記錄數上限。</p>
               </td>

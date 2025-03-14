@@ -4,10 +4,10 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '6213'
-ht-degree: 3%
+source-wordcount: '6684'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -81,43 +81,43 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
     </col>
     <tbody>
       <tr>
-        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
         <td>
           <p>輸入新連線的名稱。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td role="rowheader">[！UICONTROL環境]</td>
         <td>
           <p>選取要連線到生產或非生產環境。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td role="rowheader">[！UICONTROL連線型別]</td>
         <td>
           <p>選取您要連線到服務帳戶還是個人帳戶。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td role="rowheader">[！UICONTROL使用者端ID]</td>
         <td>輸入您的Workfront使用者端ID。 您可在Workfront中「設定」區域的「OAuth2應用程式」區域中找到此專案。 開啟您要連線的特定應用程式以檢視使用者端ID。</td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
         <td>輸入您的Workfront使用者端密碼。 您可在Workfront中「設定」區域的「OAuth2應用程式」區域中找到此專案。 如果您的Workfront中的OAuth2應用程式沒有使用者端密碼，您可以產生另一個密碼。 如需指示，請參閱Workfront檔案。</td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td role="rowheader">[！UICONTROL驗證URL]</td>
         <td>這可以維持預設值，或者您可以輸入Workfront執行個體的URL，然後輸入<code>/integrations/oauth2</code>。 <p>範例： <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Host prefix]</td>
+        <td role="rowheader">[！UICONTROL主機前置詞]</td>
         <td>在大多數情況下，此值應該是<code>origin</code>。
       </tr>
     </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以儲存連線並返回模組。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
    如果您未登入Workfront，系統會將您導向至登入畫面。 登入後，您可以允許連線。
 
@@ -152,49 +152,49 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 * [Watch Field](#watch-field)
 -->
 
-+++ **[!UICONTROL Watch Events]**
++++ **[!UICONTROL 觀看活動]**
 
 在Workfront中新增、更新或刪除特定型別的物件時，此觸發模組會即時執行案例
 
 模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
-1. 按一下&#x200B;**Webhook**&#x200B;方塊右側的&#x200B;**[!UICONTROL Add]**。
+1. 按一下&#x200B;**Webhook**&#x200B;方塊右側的&#x200B;**[!UICONTROL [新增]**]。
 
-1. 在顯示的&#x200B;**[!UICONTROL Add a hook]**&#x200B;方塊中設定webhook。
+1. 在顯示的&#x200B;**[!UICONTROL 新增連結]**&#x200B;方塊中設定webhook。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Webhook name]</td> 
+      <td>[！UICONTROL Webhook名稱]</td> 
       <td>輸入webhook的名稱</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Connection]</td> 
+      <td>[！UICONTROL Connection]</td> 
       <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Record Type]</td> 
+      <td>[！UICONTROL記錄型別]</td> 
       <td>選取您要模組觀看的Workfront記錄型別。</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL State]</td> 
-      <td>選取您要觀看舊狀態還是新狀態。<ul><li><p><b>[!UICONTROL New state]</b></p><p>當記錄將指定值<b>變更為</b>時觸發案例。</p><p>例如，如果狀態設定為[!UICONTROL New State]且篩選器設定為[!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In Progress]，則無論狀態之前為何，webhook會在[!UICONTROL Status]變更為[!UICONTROL In Progress]時觸發案例。 </p></li><li><p><b>[!UICONTROL Old state]</b></p><p>當記錄從</b>變更指定值時，觸發案例<b>。</p><p>例如，如果狀態設定為[!UICONTROL Old State]且篩選器設定為[!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In Progress]，則當目前為[!UICONTROL In Progress]的[!UICONTROL Status]變更為另一個狀態時，webhook會觸發一個情境。 </p></li></ul></td> 
+      <td>[！UICONTROL狀態]</td> 
+      <td>選取您要觀看舊狀態還是新狀態。<ul><li><p><b>[！UICONTROL新狀態]</b></p><p>當記錄將指定值<b>變更為</b>時觸發案例。</p><p>例如，如果狀態設為[！UICONTROL New State]，而篩選條件設為[！UICONTROL Status] [！UICONTROL Equals] [！UICONTROL In Progress]，則webhook會在[！UICONTROL Status]變更為[！UICONTROL In Progress]時觸發案例，無論狀態之前為何。 </p></li><li><p><b>[！UICONTROL舊狀態]</b></p><p>當記錄從</b>變更指定值時，觸發案例<b>。</p><p>例如，如果狀態設為[！UICONTROL Old State]，而篩選條件設為[！UICONTROL Status] [！UICONTROL Equals] [！UICONTROL In Progress]，則當[！UICONTROL Status]目前為[！UICONTROL In Progress]的狀態變更為其他狀態時，webhook會觸發一個情境。 </p></li></ul></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td> <p>[!UICONTROL Events filters]</p> </td> 
-      <td> <p>您可以設定篩選器，只監視符合您選取條件的記錄。</p> <p>針對每個篩選器，輸入您希望篩選器評估的欄位、運運算元，以及您希望篩選器允許的值。 您可以新增AND規則來使用一個以上的篩選器。</p> <p><b>注意</b>：您無法編輯現有Workfront Webhook中的篩選器。 若要為Workfront活動訂閱設定不同的篩選器，請移除目前的webhook並建立新的篩選器。</p> <p>如需事件篩選的詳細資訊，請參閱本文中的Workfront &gt; [!UICONTROL Watch Events]模組</a>中的<a href="#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">事件訂閱篩選。</p> </td> 
+      <td> <p>[！UICONTROL事件篩選器]</p> </td> 
+      <td> <p>您可以設定篩選器，只監視符合您選取條件的記錄。</p> <p>針對每個篩選器，輸入您希望篩選器評估的欄位、運運算元，以及您希望篩選器允許的值。 您可以新增AND規則來使用一個以上的篩選器。</p> <p><b>注意</b>：您無法編輯現有Workfront Webhook中的篩選器。 若要為Workfront活動訂閱設定不同的篩選器，請移除目前的webhook並建立新的篩選器。</p> <p>如需事件篩選的詳細資訊，請參閱本文中的Workfront &gt; [！UICONTROL觀看活動]模組</a>中的<a href="#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">事件訂閱篩選。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>排除此連線造成的事件</td> 
       <td>啟用此選項可排除使用此觸發模組使用的相同聯結器建立或更新的事件。 這可防止案例可能觸發自身的情況，導致其在無限回圈中重複。<p><b>注意</b>： Assignment記錄型別不包含此選項。</p></td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Record Origin]</td> 
+      <td>[！UICONTROL記錄來源]</td> 
       <td>
-       <p>選擇您要案例觀看[!UICONTROL New Records Only]、[!UICONTROL Updated Records Only]、[!UICONTROL New and Updated Records]或[!DNL Deleted Records Only]。</p>
-       <p><b>注意</b>：如果您選擇[!UICONTROL New and Updated Records]，webhook建立會建立2個事件訂閱（針對相同的webhook位址）。</p>
+       <p>選擇您希望案例僅觀看[！UICONTROL新記錄]、僅觀看[！UICONTROL更新記錄]、[！UICONTROL新記錄和更新記錄]或[!DNL Deleted Records Only]。</p>
+       <p><b>注意</b>：如果您選擇[！UICONTROL新增和更新的記錄]，webhook建立將建立2個事件訂閱（針對相同的webhook位址）。</p>
        </td> 
      </tr> 
     </tbody> 
@@ -212,7 +212,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Watch Field]**
++++ **[!UICONTROL 觀看欄位]**
 
 當您指定的欄位更新時，此觸發模組會執行情境。 模組會傳回指定欄位的舊值和新值。 您可以在情境中的後續模組中對應此資訊。
 
@@ -223,23 +223,23 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>選取您要模組觀看的Workfront記錄型別。</p> <p>例如，如果您要在每次更新任務中的記錄欄位時開始執行案例，請選取[!UICONTROL Task]。</p> </td> 
+   <td>[！UICONTROL記錄型別]</td> 
+   <td> <p>選取您要模組觀看的Workfront記錄型別。</p> <p>例如，如果您要在每次更新任務中的記錄欄位時開始執行案例，請選取[！UICONTROL任務]。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Field]</td> 
+   <td>[！UICONTROL欄位]</td> 
    <td>選取您希望模組監視更新的欄位。 這些欄位反映Workfront管理員針對追蹤而設定的欄位。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Outputs]</td> 
+   <td>[！UICONTROL輸出]</td> 
    <td>選取您要包含在此模組輸出組合中的物件欄位。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Limit]</td> 
+   <td>[！UICONTROL限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -249,7 +249,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Watch Record]**
++++ **[!UICONTROL 觀看記錄]**
 
 此觸發模組會在新增、更新特定型別的物件或兩者同時進行時，執行案例。 模組會傳回與一個或多個記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
 
@@ -264,35 +264,35 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Filter]</td> 
-   <td> <p>選擇您要讓情境觀看[!UICONTROL New Records Only]、[!UICONTROL Updated Records Only]或[!UICONTROL New and Updated Records]。</p> </td> 
+   <td role="rowheader">[！UICONTROL篩選器]</td> 
+   <td> <p>選擇您希望情境只觀看[！UICONTROL新記錄]、只觀看[！UICONTROL更新記錄]還是[！UICONTROL新記錄和更新記錄]。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>選取您要模組觀看的Workfront記錄型別。</p> <p>例如，如果您要在每次建立新專案時啟動案例，請選取 [!UICONTROL Project]</p> </td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td> <p>選取您要模組觀看的Workfront記錄型別。</p> <p>例如，如果您要在每次建立新專案時啟動情境，請選取[！UICONTROL專案]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Outputs]</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
    <td> <p>選取您要包含在此模組之輸出組合中的欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Reference]</td> 
+   <td role="rowheader">[！UICONTROL參考]</td> 
    <td> <p>選取您要包含在此模組輸出組合中的參考欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Outputs]</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
    <td> <p>選取您要包含在此模組輸出組合中的集合欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Optional Filter]</td> 
+   <td role="rowheader">[！UICONTROL選用篩選器]</td> 
    <td> <p>（進階）輸入API程式碼字串，以定義將縮小條件範圍的任何其他引數或程式碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -318,7 +318,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 * [Upload Document](#upload-document)
 -->
 
-+++ **[!UICONTROL Convert object]**
++++ **[!UICONTROL 轉換物件]**
 
 此動作模組會進行下列其中一個轉換：
 
@@ -335,39 +335,39 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Object type]</td> 
+   <td>[！UICONTROL物件型別]</td> 
    <td> <p>選取您要轉換的物件型別。 這是轉換前物件的型別。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Convert to]</td> 
+   <td>[！UICONTROL轉換為]</td> 
    <td>選取您想要將它轉換成的物件。 這是物件在轉換後的型別。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL <Object> ID]</td> 
+   <td>[！UICONTROL &lt;物件&gt; ID]</td> 
    <td> <p>輸入物件的ID。 </p> <p>附註：輸入物件識別碼時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Template ID]</td> 
+   <td>[！UICONTROL範本ID]</td> 
    <td> <p>如果要轉換為專案，請選取要用於專案的範本ID。</p> <p>附註：輸入物件識別碼時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Custom forms]</td> 
+   <td>[！UICONTROL自訂表單]</td> 
    <td>選取您要新增至新轉換物件的任何自訂表單，然後輸入自訂表單欄位的值。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Options]</td> 
+   <td>[！UICONTROL Options]</td> 
    <td> <p>啟用轉換物件時所需的任何選項。 選項是否可用取決於您轉換至哪個物件或轉換自哪個物件。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Copy native fields]</td> 
+   <td>[！UICONTROL複製原生欄位]</td> 
    <td> <p>啟用此選項可將任何原生欄位從原始物件複製到新物件。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Copy custom forms]</td> 
+   <td>[！UICONTROL複製自訂表單]</td> 
    <td> <p>啟用此選項可將任何原生欄位從原始物件複製到新物件。</p> </td> 
   </tr> 
  </tbody> 
@@ -375,7 +375,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Create a record (attaching custom forms)]**
++++ **[!UICONTROL 建立記錄（附加自訂表格）]**
 
 此動作模組會建立物件，例如Workfront中的專案、任務或問題，並允許您新增自訂表單至新物件。 模組可讓您選取可在模組中取得哪些物件欄位。
 
@@ -394,19 +394,19 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>選取您要模組建立的Workfront記錄型別。</p> <p>例如，如果您想要建立專案，請從下拉式清單中選取[!UICONTROL Project]。</p> </td> 
+   <td>[！UICONTROL記錄型別]</td> 
+   <td> <p>選取您要模組建立的Workfront記錄型別。</p> <p>例如，如果您想要建立專案，請從下拉式清單中選取[！UICONTROL專案]。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Select fields to map]</td> 
-   <td> <p>選取您想用於資料輸入的欄位。 這可讓您使用這些欄位，而無需捲動瀏覽您不需要的欄位。 您接著可以在這些欄位中輸入或對應資料。</p> <p>對於自訂表單中的欄位，請使用<b>[!UICONTROL Attach Custom Form]</b>欄位。</p> </td> 
+   <td>[！UICONTROL選擇要對應的欄位]</td> 
+   <td> <p>選取您想用於資料輸入的欄位。 這可讓您使用這些欄位，而無需捲動瀏覽您不需要的欄位。 您接著可以在這些欄位中輸入或對應資料。</p> <p>對於自訂表單中的欄位，請使用<b>[！UICONTROL附加自訂表單]</b>欄位。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Attach Custom Form]</td> 
+   <td>[！UICONTROL附加自訂表單]</td> 
    <td>選取您要新增至新物件的任何自訂表單，然後輸入或對應這些欄位的值。</td> 
   </tr> 
  </tbody> 
@@ -417,12 +417,12 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 >[!NOTE]
 >
 >* 輸入物件的ID時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。
->* 輸入自訂欄位或[!UICONTROL Note]物件（註解或回覆）的文字時，您可以使用[!UICONTROL Note Text]欄位中的HTML標籤來建立RTF文字，例如粗體或斜體文字。
+>* 輸入自訂欄位或[!UICONTROL Note]物件（註解或回覆）的文字時，您可以使用[!UICONTROL 註解文字]欄位中的HTML標籤來建立RTF文字，例如粗體或斜體文字。
 >
 
 +++
 
-+++ **[!UICONTROL Create Record]**
++++ **[!UICONTROL 建立記錄]**
 
 此動作模組會建立物件，例如Workfront中的專案、任務或問題。 模組可讓您選取可在模組中取得哪些物件欄位。
 
@@ -432,7 +432,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 請務必提供最小輸入欄位數。 例如，如果您想建立問題，則需要在「專案ID」欄位中提供有效的父專案ID，以指出問題應存在於Workfront中的何處。 您可以使用對應面板從情境中的另一個模組對應此資訊，或是輸入名稱，然後從清單中選取它，以手動方式輸入資訊。
 
-此模組在建立物件時未附加自訂表單。 若要在建立物件時附加自訂表單，請使用[!UICONTROL Create a record (attaching custom forms)]模組。
+此模組在建立物件時未附加自訂表單。 若要在建立物件時附加自訂表單，請使用[!UICONTROL 建立記錄（附加自訂表單）]模組。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -443,15 +443,15 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>選取您要模組建立的Workfront記錄型別。</p> <p>例如，如果您想要建立專案，請從下拉式清單中選取[!UICONTROL Project]。</p> </td> 
+   <td>[！UICONTROL記錄型別]</td> 
+   <td> <p>選取您要模組建立的Workfront記錄型別。</p> <p>例如，如果您想要建立專案，請從下拉式清單中選取[！UICONTROL專案]。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Select fields to map]</td> 
+   <td>[！UICONTROL選擇要對應的欄位]</td> 
    <td>選取您想用於資料輸入的欄位。 這可讓您使用這些欄位，而無需捲動瀏覽您不需要的欄位。</td> 
   </tr> 
  </tbody> 
@@ -462,22 +462,22 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 >[!NOTE]
 >
 >* 輸入物件的ID時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。
->* 輸入自訂欄位或[!UICONTROL Note]物件（註解或回覆）的文字時，您可以使用[!UICONTROL Note Text]欄位中的HTML標籤來建立RTF文字，例如粗體或斜體文字。
+>* 輸入自訂欄位或[!UICONTROL Note]物件（註解或回覆）的文字時，您可以使用[!UICONTROL 註解文字]欄位中的HTML標籤來建立RTF文字，例如粗體或斜體文字。
 
 +++
 
-+++ **[!UICONTROL Custom API Call]**
++++ **[!UICONTROL 自訂API呼叫]**
 
 此動作模組可讓您對Workfront API發出自訂的已驗證呼叫。 如此一來，您便可建立其他Workfront模組無法完成的資料流程自動化。
 
 模組會傳回下列資訊：
 
-* **[!UICONTROL Status Code]** （數字）：這表示您的HTTP要求成功或失敗。 這些是您可在網際網路上查閱的標準程式碼。
+* **[!UICONTROL 狀態碼]** （數字）：這表示您的HTTP要求成功或失敗。 這些是您可在網際網路上查閱的標準程式碼。
 * **[!UICONTROL Headers]** （物件）：與輸出本文無關之回應/狀態代碼的更詳細內容。 並非顯示在回應標題中的所有標題都是回應標題，因此某些標題可能對您並不實用。
 
   回應標題取決於您在設定模組時選擇的HTTP請求。
 
-* **[!UICONTROL Body]** （物件）：根據您在設定模組時所選擇的HTTP要求，您可能會收到傳回的部分資料。 該資料(例如來自GET請求的資料)包含在此物件中。
+* **[!UICONTROL 內文]** （物件）：根據您在設定模組時所選擇的HTTP要求，您可能會收到一些傳回的資料。 該資料(例如來自GET請求的資料)包含在此物件中。
 
 您可以在情境中的後續模組中對應此資訊。
 
@@ -488,7 +488,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -496,23 +496,23 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
    <td> <p>輸入相對於<code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>的路徑。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL API Version]</td> 
+   <td role="rowheader">[！UICONTROL API版本]</td> 
    <td>選取您希望模組使用的Workfront API版本。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱Adobe Workfront Fusion</a>中的<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。 這會決定請求的內容型別。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤且難以判斷其來源，請考慮根據Workfront檔案修改標題。 如果您的自訂API呼叫傳回422 HTTP請求錯誤，請嘗試使用<code>"Content-Type":"text/plain"</code>標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> <p>提示：建議您透過JSON內文傳送資訊，而非查詢引數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -525,7 +525,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Delete Record]**
++++ **[!UICONTROL 刪除記錄]**
 
 此動作模組會刪除物件，例如Workfront中的專案、任務或問題。
 
@@ -540,15 +540,15 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Force delete]</td> 
+   <td>[！UICONTROL強制刪除]</td> 
    <td>啟用此選項以確保刪除記錄，即使Workfront UI會請求確認刪除。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Async delete]</td> 
+   <td>[！UICONTROL非同步刪除]</td> 
    <td>啟用此選項可允許模組非同步刪除。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -556,7 +556,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
    <td> <p>輸入您要模組刪除之記錄的唯一Workfront ID。</p> <p>若要取得ID，請在瀏覽器中開啟Workfront物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
+   <td>[！UICONTROL記錄型別]</td> 
    <td>選取您要模組刪除的Workfront記錄型別。</td> 
   </tr> 
  </tbody> 
@@ -574,7 +574,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Download Document]**
++++ **[!UICONTROL 下載檔案]**
 
 此動作模組會從Workfront下載檔案。
 
@@ -589,11 +589,11 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Document ID]</td> 
+   <td>[！UICONTROL檔案ID]</td> 
    <td> <p>對應或手動輸入您要模組下載之檔案的唯一Workfront ID。</p> <p>若要取得ID，請在瀏覽器中開啟Workfront物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
@@ -603,7 +603,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Misc Action]**
++++ **[!UICONTROL 其他動作]**
 
 此動作模組可讓您對API執行動作。
 
@@ -618,31 +618,31 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Record Type]</td> 
+   <td>[！UICONTROL記錄型別]</td> 
    <td> <p>選取您希望模組與之互動的Workfront記錄型別。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Action]</td> 
-   <td> <p>選取您希望模組執行的動作。</p> <p>視您選擇的[!UICONTROL Record Type]和[!UICONTROL Action]而定，您可能需要填寫其他欄位。 這兩個設定的某些組合可能只需要記錄ID，而其他設定（例如<strong>[!UICONTROL Record Type]</strong>的Project和<strong>[!UICONTROL Action]</strong>的[!UICONTROL Attach Template]）則需要其他資訊（例如物件ID和範本ID）。</p><p>如需某些動作可用的選項，請參閱本文中的<a href="#misc-action-options" class="MCXref xref">其他動作選項</a>。</p> <p>如需個別欄位的詳細資訊，請參閱<a href="http://developer.workfront.com/">Workfront開發人員檔案</a>。 <p><strong>注意</strong>：開發人員檔案網站僅包含透過API版本14的資訊，但仍包含API呼叫的重要資訊。 </p> 
+   <td>[！UICONTROL動作]</td> 
+   <td> <p>選取您希望模組執行的動作。</p> <p>視您選擇的[！UICONTROL記錄型別]和[！UICONTROL動作]而定，您可能需要填寫其他欄位。 這兩個設定的某些組合可能只需要記錄ID，而其他設定（例如<strong>[！UICONTROL記錄型別]</strong>的Project和<strong>[！UICONTROL動作]</strong>的[！UICONTROL附加範本]）則需要其他資訊（例如物件ID和範本ID）。</p><p>如需某些動作可用的選項，請參閱本文中的<a href="#misc-action-options" class="MCXref xref">其他動作選項</a>。</p> <p>如需個別欄位的詳細資訊，請參閱<a href="http://developer.workfront.com/">Workfront開發人員檔案</a>。 <p><strong>注意</strong>：開發人員檔案網站僅包含透過API版本14的資訊，但仍包含API呼叫的重要資訊。 </p> 
     <ol> 
      <li value="1"> <p>在Workfront開發人員檔案頁面的左側導覽區中選取記錄型別。 下列型別有自己的頁面：</p> 
       <ul> 
-       <li> <p>[!UICONTROL Projects]</p> </li> 
-       <li> <p>[!UICONTROL Tasks]</p> </li> 
-       <li> <p>[!UICONTROL Issues]</p> </li> 
-       <li> <p>[!UICONTROL Users]</p> </li> 
-       <li> <p>[!UICONTROL Documents]</p> </li> 
-      </ul> <p>對於所有其他記錄型別，請選取<b>[!UICONTROL Other objects and endpoints]</b>，然後在按字母順序排序的頁面上找到記錄型別。</p> </li> 
+       <li> <p>[！UICONTROL專案]</p> </li> 
+       <li> <p>[！UICONTROL工作]</p> </li> 
+       <li> <p>[！UICONTROL問題]</p> </li> 
+       <li> <p>[！UICONTROL使用者]</p> </li> 
+       <li> <p>[！UICONTROL檔案]</p> </li> 
+      </ul> <p>針對所有其他記錄型別，選取<b>[！UICONTROL Other objects and endpoints]</b>，然後在依字母順序排序的頁面上尋找記錄型別。</p> </li> 
      <li value="2"> <p>在適當記錄型別的頁面上，搜尋動作（Ctrl-F或Cmd-F）。</p> </li> 
      <li value="3"> <p>檢視所選動作下可用欄位的說明。</p> </li> 
-    </ol> <p>注意：  <p>透過Workfront [!UICONTROL Misc Action]模組建立校訂時，最佳實務是在沒有任何進階選項的情況下建立校訂，然後使用[!DNL Workfront Proof] SOAP API更新校訂。</p><p>如需使用Workfront API （此模組使用）建立校訂的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/tips-troubleshooting-apis/api-create-proof-options-json" class="MCXref xref">透過Adobe Workfront API建立校訂時新增進階校訂選項</a></p> </p> </td> 
+    </ol> <p>注意：  <p>透過Workfront [！UICONTROL雜湊動作]模組建立校訂時，最佳實務是建立不含任何進階選項的校訂，然後使用[!DNL Workfront Proof] SOAP API更新校訂。</p><p>如需使用Workfront API （此模組使用）建立校訂的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/tips-troubleshooting-apis/api-create-proof-options-json" class="MCXref xref">透過Adobe Workfront API建立校訂時新增進階校訂選項</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ID]</td> 
+   <td>[！UICONTROL ID]</td> 
    <td>輸入或對應您希望模組與之互動之記錄的唯一Workfront ID。<p>若要取得ID，請在瀏覽器中開啟Workfront物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
@@ -802,7 +802,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Read a Record]**
++++ **[!UICONTROL 讀取記錄]**
 
 此動作模組會從單一記錄擷取資料。
 
@@ -819,30 +819,30 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
+    <td>[！UICONTROL Connection]</td>
 
 <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Record Type]</td>
+    <td>[！UICONTROL記錄型別]</td>
 
 <td>選擇您希望模組讀取的Workfront物件型別。</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Outputs]</td>
+    <td>[！UICONTROL輸出]</td>
 
 <td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL References]</td>
+    <td>[！UICONTROL參考]</td>
    <td>選取您要納入輸出的任何參考欄位。</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Collections]</td>
+    <td>[！UICONTROL集合]</td>
    <td>選取您要納入輸出的任何參考欄位。</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL ID]</td>
+    <td>[！UICONTROL ID]</td>
    <td> <p>輸入您希望模組讀取之記錄的唯一Workfront ID。</p> <p>若要取得ID，請在瀏覽器中開啟Workfront物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
@@ -852,7 +852,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Update Record]**
++++ **[!UICONTROL 更新記錄]**
 
 此動作模組會更新物件，例如專案、任務或問題。 模組可讓您選取可在模組中取得哪些物件欄位。
 
@@ -869,11 +869,11 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ID]</td> 
+   <td>[！UICONTROL ID]</td> 
    <td> <p>輸入您希望模組更新的記錄的唯一Workfront ID。</p> <p>若要取得ID，請在瀏覽器中開啟Workfront物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
@@ -892,11 +892,11 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 >[!NOTE]
 >
 >* 輸入物件的ID時，您可以開始輸入物件的名稱，然後從清單中選取它。 模組接著在欄位中輸入適當的ID。
->* 輸入自訂欄位或[!UICONTROL Note]物件（註解或回覆）的文字時，您可以使用[!UICONTROL Note Text]欄位中的HTML標籤來建立RTF文字，例如粗體或斜體文字。
+>* 輸入自訂欄位或[!UICONTROL Note]物件（註解或回覆）的文字時，您可以使用[!UICONTROL 註解文字]欄位中的HTML標籤來建立RTF文字，例如粗體或斜體文字。
 
 +++
 
-+++ **[!UICONTROL Upload Document]**
++++ **[!UICONTROL 上傳檔案]**
 
 此動作模組會將檔案上傳到Workfront物件，例如專案、任務或問題。 此模組會以區塊上傳檔案，讓Workfront的上傳程式更順暢。
 
@@ -913,23 +913,23 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Related Record ID]</td> 
+   <td>[！UICONTROL相關記錄ID]</td> 
    <td>輸入您要上傳檔案之記錄的唯一Workfront ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Related Record Type]</td> 
+   <td>[！UICONTROL相關記錄型別]</td> 
    <td>選取您希望模組上傳檔案的Workfront記錄型別。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder ID]</td> 
+   <td>[！UICONTROL資料夾ID]</td> 
    <td>視相關記錄的型別而定，您可能需要輸入或對映資料夾ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Source file]</td> 
+   <td>[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -939,7 +939,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Upload Document (Legacy)]**
++++ **[!UICONTROL 上傳檔案（舊版）]**
 
 此動作模組會將檔案上傳到Workfront物件，例如專案、任務或問題。 它會一次上傳整個檔案。
 
@@ -954,23 +954,23 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Related Record ID]</td> 
+   <td>[！UICONTROL相關記錄ID]</td> 
    <td>輸入您要上傳檔案之記錄的唯一Workfront ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Related Record Type]</td> 
+   <td>[！UICONTROL相關記錄型別]</td> 
    <td>選取您希望模組上傳檔案的Workfront記錄型別。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder ID]</td> 
+   <td>[！UICONTROL資料夾ID]</td> 
    <td>視相關記錄的型別而定，您可能需要輸入或對映資料夾ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Source file]</td> 
+   <td>[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -987,7 +987,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 * [Search](#search)
 -->
 
-+++ **[!UICONTROL Read Related Records]**
++++ **[!UICONTROL 讀取相關記錄]**
 
 此搜尋模組會讀取符合您指定之搜尋查詢的記錄（在特定父物件中）。
 
@@ -1000,23 +1000,23 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Record Type]</td> 
+   <td>[！UICONTROL記錄型別]</td> 
    <td> <p>選取您要讀取其關聯記錄的父記錄型別(Workfront物件)。</p> <p>請參閱本文中每個Workfront模組</a>可用的<a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">Workfront物件型別中，可使用此模組的Workfront物件型別清單。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Parent Record ID]</td> 
+   <td>[！UICONTROL父記錄ID]</td> 
    <td> <p>輸入或對應您要讀取其關聯記錄的父記錄識別碼。</p> <p>若要取得ID，請在瀏覽器中開啟Workfront物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Collections]</td> 
+   <td>[！UICONTROL集合]</td> 
    <td>選取或對應您希望模組讀取的子記錄型別。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Outputs]</td> 
+   <td>[！UICONTROL輸出]</td> 
    <td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
   </tr> 
  </tbody> 
@@ -1024,7 +1024,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL Search]**
++++ **[!UICONTROL 搜尋]**
 
 此搜尋模組會在Workfront中尋找符合您指定之搜尋查詢的物件記錄。
 
@@ -1037,39 +1037,39 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[！UICONTROL Connection]</td> 
    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
+   <td>[！UICONTROL記錄型別]</td> 
    <td> <p>選取您要模組搜尋的Workfront記錄型別。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Result Set]</td> 
+   <td>[！UICONTROL結果集]</td> 
    <td>選取選項以指定您希望模組取得符合搜尋條件的第一個結果，還是所有符合該條件的結果。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximal]</td> 
+   <td>[！UICONTROL Maximal]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Search criteria fields]</td> 
+   <td>[！UICONTROL搜尋條件欄位]</td> 
    <td> <p>選取您要用於搜尋條件的欄位。 這些欄位隨後將顯示在搜尋條件下拉式清單中。</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Search criteria]</td> 
+   <td>[！UICONTROL搜尋條件]</td> 
    <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運運算元，以及要在欄位中搜尋的值。</p> <p>注意：請勿在您的搜尋條件中使用<code>username </code>。 若在Workfront的API查詢中加入<code>username </code>，使用者就會登入Workfront，搜尋將不會成功。</p> <p>注意： <code>In</code>和<code>NotIn</code>可搭配陣列使用。 輸入的格式應為陣列。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Outputs]</td> 
+   <td>[！UICONTROL輸出]</td> 
    <td> <p>選取您要包含在此模組輸出中的欄位。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL References]</td> 
+   <td>[！UICONTROL參考]</td> 
    <td>選取您要納入搜尋的任何參考欄位。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Collections]</td> 
+   <td>[！UICONTROL集合]</td> 
    <td>選取您要新增至搜尋的任何集合。</td> 
   </tr> 
  </tbody> 
@@ -1145,83 +1145,83 @@ See a list of the Workfront object types for which you can use this module in [W
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL Watch Record]</th> 
-   <th>[!UICONTROL Watch Field]</th> 
-   <th>[!UICONTROL Watch Events]</th> 
+   <th>[！UICONTROL監看紀錄]</th> 
+   <th>[！UICONTROL監視欄位]</th> 
+   <th>[！UICONTROL觀看活動]</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>核准流程</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>指派</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>基準線</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 計費記錄 </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>計費率</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>儀表板</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>文件</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>文件資料夾</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>文件要求</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>文件版本</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>費用</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>費用類型</td> 
@@ -1231,111 +1231,111 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr> 
    <td>群組</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>小時</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>時數類型</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>問題</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>疊代</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>職務角色</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日誌輸入項目</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路徑</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>備註</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>附註標籤</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>方案</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>專案使用者</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>校樣核准</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>保留時間* </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>報告</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>風險</td> 
@@ -1352,44 +1352,44 @@ See a list of the Workfront object types for which you can use this module in [W
   <tr> 
    <td>步驟核准者</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>團隊</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>範本任務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>時程表</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>更新</td> 
@@ -1406,7 +1406,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 >[!NOTE]
 >
->[!UICONTROL Download Document]模組未包含在此資料表中，因為Workfront物件型別不是其設定的一部分。
+>[!UICONTROL 下載檔案]模組未包含在此資料表中，因為Workfront物件型別不是其設定的一部分。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1420,133 +1420,133 @@ See a list of the Workfront object types for which you can use this module in [W
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL Create a record]</th> 
-   <th>[!UICONTROL Update a record]</th> 
-   <th>[!UICONTROL Delete a record]</th> 
-   <th>[!UICONTROL Upload Document]</th> 
-   <th>[!UICONTROL Read a record]</th> 
-   <th>[!UICONTROL Custom API Call]</th> 
-   <th>[!UICONTROL Misc Action]</th> 
+   <th>[！UICONTROL建立記錄]</th> 
+   <th>[！UICONTROL更新記錄]</th> 
+   <th>[！UICONTROL刪除記錄]</th> 
+   <th>[！UICONTROL上傳檔案]</th> 
+   <th>[！UICONTROL讀取記錄]</th> 
+   <th>[！UICONTROL自訂API呼叫]</th> 
+   <th>[！UICONTROL其他動作]</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>核准流程</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>指派</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>基準線</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
    <tr> 
    <td>計費記錄</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>計費率</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>文件</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>文件資料夾</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>文件版本</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>匯率</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>費用</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>費用類型</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -1558,262 +1558,262 @@ See a list of the Workfront object types for which you can use this module in [W
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>群組</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>小時</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>時數類型</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>問題</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>疊代</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>職務角色</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日誌輸入項目</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路徑</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>備註</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>附註標籤</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>方案</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>專案使用者</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>保留時間* </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>風險</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>風險類型</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>步驟核准者</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>團隊</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本任務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>時程表</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>更新</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -1834,189 +1834,189 @@ See a list of the Workfront object types for which you can use this module in [W
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL Search]</th> 
-   <th>[!UICONTROL Read Related Records]</th> 
+   <th>[！UICONTROL搜尋]</th> 
+   <th>[！UICONTROL讀取相關記錄]</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>核准流程</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>指派</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>計費記錄</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>計費率</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>公司</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>文件</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>文件資料夾</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>文件版本</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>費用</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>費用類型</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>群組</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>小時</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>時數類型</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>問題</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>疊代</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>職務角色</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>日誌輸入項目</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>里程碑路徑</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>備註</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>附註標籤</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>專案組合</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>方案</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>專案</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>專案使用者</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>保留時間* </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>風險</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>風險類型</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>步驟核准者</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>任務</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>團隊</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>範本任務</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>時程表</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>使用者</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>使用者委派</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -2026,15 +2026,15 @@ See a list of the Workfront object types for which you can use this module in [W
 
 +++
 
-## Workfront > [!UICONTROL Watch Events]模組中的事件訂閱篩選器
+## Workfront > [!UICONTROL 觀看活動]模組中的活動訂閱篩選器
 
 >[!NOTE]
 >
->我們強烈建議您在您的[!UICONTROL Watch Events]模組中使用事件訂閱篩選器。
+>我們強烈建議您在您的[!UICONTROL 觀看活動]模組中使用事件訂閱篩選器。
 
-Workfront [!UICONTROL Watch Events]模組會根據Workfront API中建立事件訂閱的webhook來觸發案例。 事件訂閱是一組資料，可決定要將哪些事件傳送到webhook。 例如，如果您設定[!UICONTROL Watch Events]模組來監視問題，則事件訂閱只會傳送與問題相關的事件。
+Workfront [!UICONTROL 觀看活動]模組會根據在Workfront API中建立活動訂閱的webhook觸發案例。 事件訂閱是一組資料，可決定要將哪些事件傳送到webhook。 例如，如果您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
 
-透過使用事件訂閱篩選器，Fusion使用者可建立更適合其使用案例的事件訂閱。 例如，您可以在Workfront API中設定事件訂閱，以僅將特定專案中的問題傳送至webhook，確保[!UICONTROL Watch Events]模組僅會觸發該專案中的問題。 建立較窄觸發器的功能可減少不相關觸發器的數量，進而改善情境設計。
+透過使用事件訂閱篩選器，Fusion使用者可建立更適合其使用案例的事件訂閱。 例如，您可以在Workfront API中設定事件訂閱，以僅將特定專案中的問題傳送至webhook，確保[!UICONTROL 觀看事件]模組僅會觸發該專案中的問題。 建立較窄觸發器的功能可減少不相關觸發器的數量，進而改善情境設計。
 
 這與在Workfront Fusion情境中設定篩選器不同。 如果沒有事件訂閱篩選器，您的webhook會接收與您選取的物件型別相關的所有事件。 這些事件大多與情境無關，必須先篩選掉，情境才能繼續。
 
@@ -2074,7 +2074,7 @@ Workfront [!UICONTROL Watch Events]模組會根據Workfront API中建立事件�
 >
 >### 篩選案例中的事件（不建議）
 >
->若要篩選事件，以便只處理指派給Ana的問題，您可以在[!UICONTROL Watch Events]模組之後建立篩選器。
+>若要篩選事件，以便只處理指派給Ana的問題，您可以在[!UICONTROL 觀看事件]模組之後建立篩選器。
 >
 >![沒有事件篩選器](/help/workfront-fusion/references/apps-and-modules/assets/watch-events-non-event-filter-350x206.png)
 >

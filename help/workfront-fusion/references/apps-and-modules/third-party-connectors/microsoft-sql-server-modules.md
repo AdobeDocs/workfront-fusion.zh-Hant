@@ -4,16 +4,16 @@ description: 您可以使用 [!DNL Adobe Workfront Fusion] 連線至Microsoft SQ
 author: Becky
 feature: Workfront Fusion
 exl-id: 8f3293f7-8b45-4e42-8ad8-f9d4969b63fd
-source-git-commit: ef1a96d9ef4c2c82eaf376c84188e3ed6ea7b2cf
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft SQL Server]模組
 
-您可以使用[!DNL Adobe Workfront Fusion]連線到[!UICONTROL Microsoft SQL Server]。
+您可以使用[!DNL Adobe Workfront Fusion]連線至[!UICONTROL Microsoft SQL Server]。
 
 ## 存取需求
 
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 正在將[!DNL Microsoft SQL Server]服務連線到[!DNL Workfront Fusion]
 
-如需有關將您的[!DNL Microsoft SQL Server]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線 — 基本指示](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+如需有關將您的[!DNL Microsoft SQL Server]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md) — 基本指示
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ht-degree: 0%
 >
 >[!DNL Workfront Fusion]不支援多個記錄集。 系統只會處理第一個專案。
 
-## 疑難排解錯誤[!UICONTROL ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction]
+## 疑難排解錯誤[!UICONTROL ER_LOCK_WAIT_TIMEOUT：超過鎖定等待逾時；請嘗試重新啟動交易]
 
 使用多個模組修改相同資料時，會發生此錯誤。 這是由SQL交易所造成。
 
@@ -94,6 +94,6 @@ ht-degree: 0%
 
 開啟自動提交。 自動認可會在模組執行完成後立即完成（認可）每個交易。
 
-1. 按一下畫面底部的[!UICONTROL Scenario settings]圖示![情境設定圖示](/help/workfront-fusion/references/apps-and-modules/assets/scenario-settings-icon.png)。
-1. 按一下&#x200B;**[!UICONTROL Auto commit]**&#x200B;核取方塊。
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;儲存情境設定。
+1. 按一下畫面底部的[!UICONTROL 案例設定]圖示![案例設定圖示](/help/workfront-fusion/references/apps-and-modules/assets/scenario-settings-icon.png)。
+1. 按一下&#x200B;**[!UICONTROL 自動認可]**&#x200B;核取方塊。
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存情境設定。

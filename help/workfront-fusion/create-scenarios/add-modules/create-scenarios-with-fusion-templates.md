@@ -4,7 +4,7 @@ description: Adobe Workfront Fusion範本功能可讓您建立並使用現有範
 author: Becky
 feature: Workfront Fusion
 exl-id: 9bc5f195-c406-45e9-9a1e-5c8a2a0e0ded
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Adobe Workfront Fusion範本可讓您建立並使用現有範本，作為Workfro
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 

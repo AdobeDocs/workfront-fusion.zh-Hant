@@ -4,7 +4,7 @@ description: 有些服務不允許整合解決方案(例如Adobe Workfront Fusio
 author: Becky
 feature: Workfront Fusion
 exl-id: 4a8ac816-52de-41e8-96d7-1c8cde2ebe32
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -109,7 +109,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader"> 方法</td> 
-      <td> <p><code>POST</code> </p> <p>使用的方法取決於對應的端點。 推送訊息的Pushover端點會使用POST方法。</p> </td> 
+      <td> <p><code>POST</code> </p> <p>使用的方法取決於對應的端點。 用於推送訊息的Pushover端點使用POST方法。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p> 標頭</p> </td> 

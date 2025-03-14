@@ -4,9 +4,9 @@ description: 當在執行案例期間發生錯誤時，通常是因為服務因�
 author: Becky
 feature: Workfront Fusion
 exl-id: 82ddaf73-ecf9-4fd6-8f8e-909351023c77
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -77,10 +77,10 @@ ht-degree: 0%
 
 若要將錯誤處理常式新增至模組：
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增錯誤處理路由的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 用滑鼠右鍵按一下要在其後新增錯誤處理常式路由的模組，然後選取&#x200B;**[!UICONTROL Add error handler]**：
+1. 用滑鼠右鍵按一下要在其後新增錯誤處理常式路由的模組，然後選取&#x200B;**[!UICONTROL 新增錯誤處理常式]**：
 
    ![錯誤處理常式路由](assets/error-handler-route.png)
 
@@ -114,16 +114,16 @@ ht-degree: 0%
 
 下列指令可確保案例執行繼續進行：
 
-* **[!UICONTROL Resume]**：可讓您指定發生錯誤之模組的替代輸出。 案例執行狀態會標籤為成功。
-* **[!UICONTROL Ignore]**：忽略錯誤。 案例執行狀態會標籤為成功。
-* **[!UICONTROL Break]**：將輸入儲存到未完成執行的佇列。 案例執行狀態會標示為警告。
+* **[!UICONTROL 繼續]**：可讓您指定發生錯誤的模組替代輸出。 案例執行狀態會標籤為成功。
+* **[!UICONTROL 忽略]**：忽略錯誤。 案例執行狀態會標籤為成功。
+* **[!UICONTROL 中斷]**：將輸入儲存到未完成執行的佇列。 案例執行狀態會標示為警告。
 
   如需詳細資訊，請參閱[檢視並解決不完整的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)。
 
 如果發生錯誤時，案例執行應該停止，請使用以下指令之一：
 
-* **[!UICONTROL Rollback]**：立即停止案例執行並將其狀態標籤為錯誤。
-* **[!UICONTROL Commit]**：立即停止案例執行並將其狀態標籤為成功。
+* **[!UICONTROL 回覆]**：立即停止案例執行並標示其狀態為錯誤。
+* **[!UICONTROL 認可]**：立即停止案例執行並將其狀態標籤為成功。
 
 ## 資源
 

@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] [!UICONTROL JWT]應用程式提供�
 author: Becky
 feature: Workfront Fusion
 exl-id: 380f60db-b2ec-411a-86ee-0d5699f19b41
-source-git-commit: e1e15985db9683525250d1f9f9276224b2baf0e6
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>不需要Workfront Fusion授權。</p>
+   <p>無Workfront Fusion授權需求</p>
    </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ JWT聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Algorithm]</td> 
+   <td role="rowheader">[！UICONTROL演演算法]</td> 
    <td> <p>選取您要用來產生JWT的演演算法。</p> <ul>
    <li><b>HS256</b>：使用SHA-256雜湊演演算法的HMAC</li>
    <li><b>HS384</b>：使用SHA-384雜湊演演算法的HMAC</li>
@@ -99,11 +99,11 @@ JWT聯結器使用下列專案：
    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Payload] </td> 
+   <td role="rowheader">[！UICONTROL裝載] </td> 
    <td> <p>針對您要新增的每個裝載專案，按一下<b>新增專案</b>並輸入專案的索引鍵和值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Options] </td> 
+   <td role="rowheader">[！UICONTROL Options] </td> 
    <td> <p>針對您要新增的每個選項專案，按一下<b>新增專案</b>並輸入專案的索引鍵和值。</p> <p>下列鍵可供使用：
    <ul>
    <li><b>演演算法</b>： （預設： RS256）</li>

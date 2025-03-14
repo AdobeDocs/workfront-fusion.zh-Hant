@@ -4,9 +4,9 @@ description: 您可以在「連線」區域中檢視和管理您的專案團隊�
 author: Becky
 feature: Workfront Fusion
 exl-id: 7bedf002-061b-40fc-a0f8-c12d2930bcf9
-source-git-commit: 945fd574afef0cfdd8b36ba5a24f5262e772ed8b
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '224'
 ht-degree: 1%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 您可以在[!DNL Adobe Workfront Fusion]帳戶的下列區域中儲存和刪除情境元素：
 
-* [!UICONTROL Scenario]
-* [!UICONTROL Connections]
+* [!UICONTROL 案例]
+* [!UICONTROL 連線]
 * [!UICONTROL Webhooks]
-* [!UICONTROL Keys]
-* [!UICONTROL Devices]
-* [!UICONTROL Data stores]
-* [!UICONTROL User profiles]
+* [!UICONTROL 鍵]
+* [!UICONTROL 裝置]
+* [!UICONTROL 資料存放區]
+* [!UICONTROL 使用者設定檔]
 
 
 ## 存取需求
@@ -45,7 +45,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 按一下左側面板中的區域。
 
-   例如，如果您想要刪除情境，請按一下左側面板中的&#x200B;**[!UICONTROL Scenario]**。
+   例如，如果您想要刪除情境，請按一下左側面板中的&#x200B;**[!UICONTROL 情境]**。
 
-1. 按一下要刪除專案右側的向下箭頭，然後按一下&#x200B;**[!UICONTROL Delete]**。
-1. 按一下&#x200B;**[!UICONTROL Really]**&#x200B;確認。
+1. 按一下要刪除專案右側的向下箭頭，然後按一下&#x200B;**[!UICONTROL 刪除]**。
+1. 按一下「****」確認。

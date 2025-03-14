@@ -4,16 +4,16 @@ description: 您可以使用文字剖析器工具來剖析文字，以供其他 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 885d714e-fc09-41a2-89dc-ebe29a355e43
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Text parser]
+# [!UICONTROL 文字剖析器]
 
-您可以使用[!UICONTROL Text parser tool]來剖析文字，以供其他[!DNL Adobe Workfront Fusion]個案例模組使用。 [!UICONTROL Text parser]不需要連線。
+您可以使用[!UICONTROL 文字剖析器工具]來剖析文字，以供其他[!DNL Adobe Workfront Fusion]案例模組使用。 [!UICONTROL 文字剖析器]不需要連線。
 
 ## 存取需求
 
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>不需要Workfront Fusion授權。</p>
+   <p>無Workfront Fusion授權需求</p>
    </td> 
   </tr> 
   <tr> 
@@ -71,9 +71,9 @@ ht-degree: 0%
  </tbody> 
  </table>
 
-## [!UICONTROL Text parser]模組及其欄位
+## [!UICONTROL 文字剖析器]模組及其欄位
 
-當您設定[!UICONTROL Text parser]模組時，[!DNL Adobe Workfront Fusion]會顯示下列欄位。 模組中的粗體標題表示必填欄位。
+當您設定[!UICONTROL 文字剖析器]模組時，[!DNL Adobe Workfront Fusion]會顯示下列欄位。 模組中的粗體標題表示必填欄位。
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
@@ -81,13 +81,13 @@ ht-degree: 0%
 
 ### 轉換器
 
-* [[!UICONTROL Get Elements from HTML]](#get-elements-from-html)
-* [[!UICONTROL Get Elements from text]](#get-elements-from-text)
-* [[!UICONTROL HTML to Text]](#html-to-text)
-* [[!UICONTROL Match Pattern]](#match-pattern)
-* [[!UICONTROL Replace]](#replace)
+* [[!UICONTROL 從HTML取得元素]](#get-elements-from-html)
+* [[!UICONTROL 從文字取得元素]](#get-elements-from-text)
+* [[!UICONTROL HTML至文字]](#html-to-text)
+* [[!UICONTROL 符合模式]](#match-pattern)
+* [[!UICONTROL 取代]](#replace)
 
-#### [!UICONTROL Get Elements from HTML]
+#### [!UICONTROL 從HTML取得元素]
 
 從HTML程式碼中擷取所需的元素。
 
@@ -96,26 +96,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Continue the execution of the route even if the module finds no matches]</td> 
+   <td>[！UICONTROL即使模組找不到符合專案，仍繼續執行路由]</td> 
    <td> <p>啟用此選項以確保模組未傳回任何結果時不會停止案例。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Element type]</td> 
+   <td>[！UICONTROL元素型別]</td> 
    <td> <p> 選取您要從HTML程式碼擷取的元素型別。 </p> 
     <ul> 
-     <li>[!UICONTROL Image]</li> 
-     <li>[!UICONTROL Link]</li> 
-     <li>[!UICONTROL iFrame element(s)]</li> 
+     <li>[！UICONTROL Image]</li> 
+     <li>[！UICONTROL連結]</li> 
+     <li>[！UICONTROL iFrame元素]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL HTML] </td> 
-   <td> <p>輸入或對映您要從中擷取指定元素型別的HTML代碼。</p> </td> 
+   <td>[！UICONTROL HTML] </td> 
+   <td> <p>輸入或對應您要從中擷取指定元素型別的HTML程式碼。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Get Elements from text]
+#### [!UICONTROL 從文字取得元素]
 
 根據指定的模式剖析文字中的元素。
 
@@ -124,44 +124,44 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Input text]</td> 
+   <td>[！UICONTROL輸入文字]</td> 
    <td> <p>輸入或對應您要剖析的文字。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Pattern]</td> 
+   <td>[！UICONTROL模式]</td> 
    <td> <p>選取反映您要從文字中剖析之元素的圖樣。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ignore Duplicate Occurrences]</td> 
+   <td>[！UICONTROL忽略重複發生次數]</td> 
    <td> <p>核取此方塊以忽略重複出現的文字元素。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL HTML to Text]
+#### [!UICONTROL HTML至文字]
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL HTML] </td> 
-   <td> <p>輸入要轉換為純文字的HTML代碼。</p> </td> 
+   <td>[！UICONTROL HTML] </td> 
+   <td> <p>輸入要轉換為純文字的HTML程式碼。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Line break] </td> 
+   <td>[！UICONTROL分行符號] </td> 
    <td> <p>選取新行的型別（分行符號）。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Uppercase headings]</p> </td> 
+   <td> <p>[！UICONTROL大寫標題]</p> </td> 
    <td> <p>啟用此選項可將標題標籤內的文字（如&lt;h2&gt; &lt;/h2&gt;）轉換為大寫文字。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Match Pattern]
+#### [!UICONTROL 符合模式]
 
-[!UICONTROL Match pattern]模組可讓您從指定文字中尋找及擷取符合搜尋模式的字串元素。 此模組使用規則運算式（也稱為regex或regexp）。
+[!UICONTROL 符合模式]模組可讓您從指定文字中尋找和擷取符合搜尋模式的字串元素。 此模組使用規則運算式（也稱為regex或regexp）。
 
 規則運算式是一系列字元，其中每個字元都是具有特殊意義的中繼字元，或是具有常值含義的規則字元。 這些字元和中繼字元會識別可用來搜尋文字的模式。 例如，如果您想要搜尋名稱，可以設定規則運算式來搜尋由兩個以大寫字母開頭的連續字片語成的模式。 規則運算式是搜尋和處理文字的強大工具。
 
@@ -176,37 +176,37 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Pattern] </td> 
+   <td>[！UICONTROL模式] </td> 
    <td> <p>輸入規則運算式模式。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span> <code>[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?</code>會擷取所提供文字中的所有數字。</p> <p>注意：  <p>此模式應該包含至少一個括弧<code>()</code>中的擷取群組。 如果模式不包含任何擷取群組，則輸出組合為空白。</p> </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Global match]</td> 
+   <td>[！UICONTROL全域符合]</td> 
    <td> <p>啟用此選項以擷取文字中的所有相符專案。 每個相符專案都會以個別的套裝輸出。 如果停用此選項，模組只會擷取第一個專案。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Case sensitive]</td> 
+   <td>[！UICONTROL區分大小寫]</td> 
    <td> <p> 啟用此選項讓此模組將文字視為區分大小寫。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Multiline] </td> 
+   <td>[！UICONTROL Multiline] </td> 
    <td> <p>啟用此選項可確保開始和結束中繼字元（<code>^</code>和<code>$</code>）符合每行的開頭或結尾，而不只是整個輸入字串的開頭或結尾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Singleline]</td> 
+   <td>[！UICONTROL單行]</td> 
    <td>啟用此選項以確保句點(.)符合新行字元(<code>\n</code>)。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
+   <td>[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</td> 
    <td> <p>啟用此選項以確保模組未傳回任何結果時不會停止案例。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Text] </td> 
+   <td>[！UICONTROL Text] </td> 
    <td> <p>輸入或對應您要符合圖樣的文字。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Replace]
+#### [!UICONTROL 取代]
 
 搜尋指定值或規則運算式的輸入文字，並將結果取代為新值。
 
@@ -215,31 +215,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Pattern] </td> 
-   <td> <p>輸入搜尋字詞。 您也可以使用規則運算式。 如需規則運算式的詳細資訊，請參閱<a href="#match-pattern" class="MCXref xref">[!UICONTROL Match Pattern]</a>模組。</p> </td> 
+   <td>[！UICONTROL模式] </td> 
+   <td> <p>輸入搜尋字詞。 您也可以使用規則運算式。 如需規則運算式的詳細資訊，請參閱<a href="#match-pattern" class="MCXref xref">[！UICONTROL比對模式]</a>模組。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL New value]</td> 
+   <td>[！UICONTROL新值]</td> 
    <td> <p> 輸入您要取代搜尋字詞的值。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Global match]</td> 
+   <td>[！UICONTROL全域符合]</td> 
    <td> <p>啟用此選項以擷取文字中的所有相符專案。 每個相符專案都會以個別的套裝輸出。 如果停用此選項，模組只會擷取第一個專案。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Case sensitive]</td> 
+   <td>[！UICONTROL區分大小寫]</td> 
    <td> <p> 啟用此選項讓此模組將文字視為區分大小寫。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Multiline] </td> 
+   <td>[！UICONTROL Multiline] </td> 
    <td> <p>啟用此選項可確保開始和結束中繼字元（<code>^</code>和<code>$</code>）符合每行的開頭或結尾，而不只是整個輸入字串的開頭或結尾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Singleline]</td> 
+   <td>[！UICONTROL單行]</td> 
    <td>啟用此選項以確保句點(.)符合新行字元(<code>\n</code>)。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Text] </td> 
+   <td>[！UICONTROL Text] </td> 
    <td> <p>輸入要搜尋的文字。</p> </td> 
   </tr> 
  </tbody> 
@@ -259,7 +259,7 @@ ht-degree: 0%
 
 範例：
 
-模組應剖析檔案檔案「filename.docx」的檔案型別，且檔案名稱的副檔名從DOCX到PDF再到CSV都不同。
+模組應剖析檔案檔案「filename.docx」的檔案型別，且檔案名稱的副檔名從DOCX到PDF再到CSV。
 
 您可以在此情況下選擇使用的運算式是[!DNL \..+]
 

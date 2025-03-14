@@ -4,7 +4,7 @@ description: Adobe Workfront Fusion Encryptor模組可讓您加密任何文字�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b119efe-6762-445e-bbc7-c59437fd5060
-source-git-commit: 0689cfee7cf546a6c1f5f72c79a1e7be9df85a8c
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>不需要Workfront Fusion授權。</p>
+   <p>無Workfront Fusion授權需求</p>
    </td> 
   </tr> 
   <tr> 

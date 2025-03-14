@@ -4,7 +4,7 @@ description: Workfront Fusion中的AI助理
 author: Becky
 feature: Workfront Fusion
 exl-id: 22f24c0e-4eb3-4ef7-b012-374ee5e8a844
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -36,7 +36,7 @@ AI Assistant可以從Workfront檔案中尋找資訊，讓您無須造訪Adobe Ex
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -68,9 +68,9 @@ AI Assistant可以從Workfront檔案中尋找資訊，讓您無須造訪Adobe Ex
 
 ## 先決條件
 
-Adobe必須有已簽署的AdobeGen AI合約。
+Adobe必須有已簽署的Adobe Gen AI合約檔案。
 
-如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署AdobeGen AI合約](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
+如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署Adobe Gen AI合約](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
 
 ## 從AI助理取得資訊
 

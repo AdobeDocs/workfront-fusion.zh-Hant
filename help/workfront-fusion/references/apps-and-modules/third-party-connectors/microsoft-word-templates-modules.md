@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Micros
 author: Becky
 feature: Workfront Fusion
 exl-id: a5ba5634-226b-4886-a4f1-3a14948c1605
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## 正在將[!DNL Office]服務連線到[!DNL Workfront Fusion]
 
-如需有關將您的[!DNL Office]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線 — 基本指示](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+如需有關將您的[!DNL Office]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md) — 基本指示
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ### 簡單值標籤 {#simple-value-tag}
 
-簡單值標籤只會被對應的值取代。 標籤名稱與[!UICONTROL Key]欄位的值相對應，該值放在雙大括弧內；例如`{{name}}`。
+簡單值標籤只會被對應的值取代。 標籤名稱對應至[!UICONTROL Key]欄位的值，此值放在雙大括弧內，例如`{{name}}`。
 
 **範例：**&#x200B;若要建立顯示「嗨，Petr！」的檔案，您可以使用[!DNL Microsoft Word Template]模組來建立下列範本：
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 * [填寫檔案](#fill-out-a-document)
 * [以批次資料填入檔案](#fill-a-document-with-a-batch-of-data)
 
-### [!UICONTROL Fill out a document] {#fill-out-a-document}
+### [!UICONTROL 填寫檔案] {#fill-out-a-document}
 
 此轉換器模組可讓您使用您指定的資料填入檔案。 它可與簡單值標籤、條件標籤或回圈標籤搭配使用。
 
@@ -173,27 +173,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Start delimiter of the text being replaced]</td> 
+   <td role="rowheader">[！UICONTROL要取代之文字的開始分隔符號]</td> 
    <td> <p>輸入要標示取代文字開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#91;&#91;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL End delimiter of the text being replaced]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL要取代之文字的結尾分隔符號]</p> </td> 
    <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入要取代的<code>&#93;&#93;</code> <code>[[replace_me]]</code></p>。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p> 從先前的模組中選取來源檔案，或對應來源檔案的資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Name of filled out file]</td> 
+   <td role="rowheader">已填寫檔案的[！UICONTROL名稱]</td> 
    <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data source]</td> 
+   <td role="rowheader">[！UICONTROL資料來源]</td> 
    <td> <p>選取選項以指出您使用的資料來自表單還是原始資料集合（未處理的電腦資料）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Values]</td> 
+   <td role="rowheader">[！UICONTROL值]</td> 
    <td> <p>這必須是集合陣列，其中：</p> 
     <ul> 
      <li>每個集合都對應一個資料專案，並包含一個專案 <code>entry</code></li> 
@@ -203,7 +203,7 @@ ht-degree: 0%
     </ul> 
     <p>若要新增專案：</p>
     <ol> 
-     <li> 按一下<b>[!UICONTROL Add Item]</b>。 </li> 
+     <li> 按一下<b>[！UICONTROL新增專案]</b>。 </li> 
      <li>選取專案的值型別。</li> 
      <li>新增名稱和值。 如需詳細資訊，請參閱本文所選值型別的範例。 
       <ul> 
@@ -216,7 +216,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### [!UICONTROL Fill a document with a batch of data] {#fill-a-document-with-a-batch-of-data}
+### [!UICONTROL 以批次資料填入檔案] {#fill-a-document-with-a-batch-of-data}
 
 如果您的資料專案為個別的組合，此彙總模組相當實用。 使用此模組，您可以輕鬆設定值欄位所需的結構，並將專案對應至每個值專案。 相較於填寫檔案模組，使用資料模組批次填寫檔案中的值欄位僅允許包含變數的單一專案。
 
@@ -231,35 +231,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source Module]</td> 
+   <td role="rowheader">[！UICONTROL Source模組]</td> 
    <td>選取作為文字來源的模組。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Start delimiter of the text being replaced]</td> 
+   <td role="rowheader">[！UICONTROL要取代之文字的開始分隔符號]</td> 
    <td> <p>輸入要標示取代文字開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#91;&#91;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL End delimiter of the text being replaced]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL要取代之文字的結尾分隔符號]</p> </td> 
    <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#93;&#93;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Group by]</td> 
+   <td role="rowheader">[！UICONTROL Group by]</td> 
    <td> 定義包含一或多個對應專案的運算式。 彙總資料會以相同運算式的值分隔在「群組」底下。 每個群組都會輸出為個別的組合，其中包含含運算式和彙總文字的索引鍵。 如此一來，您便可將索引鍵用作後續模組中的篩選條件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Stop processing after an empty aggregation]</td> 
+   <td role="rowheader">[！UICONTROL在空白彙總後停止處理]</td> 
    <td>啟用此選項可在彙總不含任何組合時停止處理。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p> 從先前的模組中選取來源檔案，或對應來源檔案的資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Name of filled out file]</td> 
+   <td role="rowheader">已填寫檔案的[！UICONTROL名稱]</td> 
    <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Values]</td> 
+   <td role="rowheader">[！UICONTROL值]</td> 
    <td> <p>這必須是集合陣列，其中：</p> 
     <ul> 
      <li>每個集合都對應一個資料專案，並包含一個專案 <code>entry</code></li> 
@@ -269,7 +269,7 @@ ht-degree: 0%
     </ul> 
     <p>若要新增專案：</p>
     <ol> 
-     <li> 按一下<b>[!UICONTROL Add Item]</b>。 </li> 
+     <li> 按一下<b>[！UICONTROL新增專案]</b>。 </li> 
      <li>選取專案的值型別。</li> 
      <li>新增名稱和值。 如需詳細資訊，請參閱本文所選值型別的範例。 
       <ul> 

@@ -4,7 +4,7 @@ description: 連線必須符合其所連線之應用程式或Web服務的API所�
 author: Becky
 feature: Workfront Fusion
 exl-id: 281403a6-6f88-4976-8a10-1d0848ef9b35
-source-git-commit: 362952ec85b0df2306ba117ba530e95201330cca
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 若要連線至Adobe應用程式或服務，您可能需要來自Adobe Admin Console的資訊，例如您的組織ID或技術帳戶ID。
 
-您也可以使用Adobe Authenticator模組，透過單一連線來連線至任何AdobeAPI。 這可讓您更輕鬆地連線到尚未擁有專用Fusion聯結器的Adobe產品。
+您也可以使用Adobe Authenticator模組，透過單一連線來連線至任何Adobe API。 這可讓您更輕鬆地連線至尚未具備專用Fusion聯結器的Adobe產品。
 
 如需具體說明，請參閱聯結器的[文章](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#connectors-for-adobe-products)。
 

@@ -4,9 +4,9 @@ description: 當您建立或編輯案例時，可以設定設定來控制資料�
 author: Becky
 feature: Workfront Fusion
 exl-id: b3aed366-c399-44fa-8967-54ecb8647d96
-source-git-commit: 5a95b2c191d4e6d8750dc57a47923f416612b4a9
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>不需要Workfront Fusion授權。</p>
+   <p>無Workfront Fusion授權需求</p>
    </td> 
   </tr> 
   <tr> 
@@ -58,47 +58,47 @@ ht-degree: 0%
 
 ## 中繼器
 
-您可以使用[!UICONTROL Repeater]模組來重複指定次數的工作。 [!UICONTROL Repeater]模組會逐一產生組合。
+您可以使用[!UICONTROL 中繼器]模組來重複指定次數的工作。 [!UICONTROL 中繼器]模組會產生一個接一個的組合。
 
 
 <table>
     <tr>
-        <td>[!UICONTROL Initial value]</td>
+        <td>[！UICONTROL初始值]</td>
         <td>輸入或對映您希望模組在第一個反複專案中的值。 預設值為1。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL Repeats]</td>
+        <td>[！UICONTROL重複]</td>
         <td>輸入或對應您希望模組重複的次數。 此數字必須大於或等於0，且小於或等於10,000。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL Step]</td>
+        <td>[！UICONTROL步驟]</td>
         <td>這是模組增加值時所使用的數字。 預設值為1。</td>
     </tr>
 </table>
 
 >[!BEGINSHADEBOX]
 
-例如，您可以使用[!UICONTROL Repeater]模組，將&#x200B;**[!UICONTROL Email]>[!UICONTROL Send me an email]**&#x200B;模組連結至[!UICONTROL Repeater]模組，以傳送主題為「Hello 1」、「Hello 2」等的五封電子郵件。
+例如，您可以使用[!UICONTROL 中繼器]模組，傳送主題為「Hello 1」、「Hello 2」等的5封電子郵件，方法是將&#x200B;**[!UICONTROL 電子郵件] >[!UICONTROL 傳送電子郵件]**&#x200B;模組至[!UICONTROL 中繼器]模組。
 
-1. 按一下畫面底部的[!UICONTROL Flow Control]圖示![流量控制圖示](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif)，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL Repeater]**。
-1. 按一下[!UICONTROL Repeater]模組，然後在顯示的方塊中按一下&#x200B;**[!UICONTROL Connect automatically]**。
+1. 按一下畫面底部的[!UICONTROL 流量控制項]圖示![流量控制項圖示](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif)，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL 中繼器]**。
+1. 按一下[!UICONTROL 中繼器]模組，然後在顯示的方塊中按一下&#x200B;**[!UICONTROL 自動連線]**。
 
    中繼器模組隨即開啟。
 
-1. 在&#x200B;**[!UICONTROL Repeats]**&#x200B;欄位中，輸入您希望模組產生的重複（輸出組合）數量。
+1. 在&#x200B;**[!UICONTROL 重複]**&#x200B;欄位中，輸入您希望模組產生的重複（輸出組合）數目。
 
    在此範例中，您應輸入5。
 
    ![中繼器](/help/workfront-fusion/references/apps-and-modules/assets/repeater-2-350x207.png)
 
-   專案的值會隨著每次重複而增加這個在&#x200B;**[!UICONTROL Step]**&#x200B;欄位中指定的值，您可以選取&#x200B;**[!UICONTROL Show advanced settings]**&#x200B;來檢視該欄位。 此數字預設為1。
+   每次重複時，專案的值會以&#x200B;**[!UICONTROL 步驟]**&#x200B;欄位中指定的值增加，您可以選取&#x200B;**[!UICONTROL 顯示進階設定]**&#x200B;來檢視該欄位。 此數字預設為1。
 
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以關閉&#x200B;**[!UICONTROL Flow Control]**&#x200B;方塊。
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以關閉&#x200B;**[!UICONTROL 流量控制]**&#x200B;方塊。
 
-1. 按一下連線至[!UICONTROL Repeater]模組的App或Service模組。
+1. 按一下連線至[!UICONTROL 中繼器]模組的應用程式或服務模組。
 1. 在出現的方塊中，鍵入要重複的資訊。
 
-   在我們的電子郵件範例中，您會在[!UICONTROL Subject]方塊中輸入Hello，然後從中繼器模組對應`i`。
+   在我們的電子郵件範例中，您會在[!UICONTROL 主旨]方塊中輸入Hello，然後從中繼器模組對應`i`。
 
    ![中繼器](/help/workfront-fusion/references/apps-and-modules/assets/repeater-3-350x207.png)
 
@@ -106,21 +106,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->重複次數不是由`i`的值決定，因為它在程式設計中會處於回圈中。 模組將重複[!UICONTROL Repeats]欄位中指定的次數。 值`i`會隨著[!DNL repeater]模組的每個反複專案而變更，並可對應至之後的模組。 上述範例將`i`的值對應到Hello訊息中，導致訊息顯示「Hello 1」、「Hello 2」等。
+>重複次數不是由`i`的值決定，因為它在程式設計中會處於回圈中。 模組將重複[!UICONTROL 重複]欄位中指定的次數。 值`i`會隨著[!DNL repeater]模組的每個反複專案而變更，並可對應至之後的模組。 上述範例將`i`的值對應到Hello訊息中，導致訊息顯示「Hello 1」、「Hello 2」等。
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL Iterator]
+## [!UICONTROL 迭代器]
 
-[!UICONTROL Iterator]是一種特殊的模組，可將陣列轉換為一系列組合。 每個陣列專案在[!UICONTROL Iterator]模組輸出中將是一個單獨的組合。 如需詳細資訊，請參閱[疊代器模組](/help/workfront-fusion/references/modules/iterator-module.md)。
+[!UICONTROL 疊代器]是一種特殊的模組，可將陣列轉換為一系列組合。 在[!UICONTROL 疊代器]模組輸出中，每個陣列專案都是個別的組合。 如需詳細資訊，請參閱[疊代器模組](/help/workfront-fusion/references/modules/iterator-module.md)。
 
 ## 陣列彙總
 
 陣列彙總器是一種特殊型別的模組，可將數個套件合併為單一套件。 如需詳細資訊，請參閱[彙總器模組](/help/workfront-fusion/references/modules/aggregator-module.md)。
 
-## [!UICONTROL Router]
+## [!UICONTROL 路由器]
 
-[!UICONTROL Router]模組可讓您將流量分支為數個路由，並以不同方式處理每個路由中的資料。 一旦[!UICONTROL Router]模組收到套件組合後，它會按照路由附加至[!UICONTROL Router]模組的順序將其轉送至每個連線的路由。 如需詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)中的[路由器模組。
+[!UICONTROL 路由器]模組可讓您將流量分支為數個路由，並以不同方式處理每個路由中的資料。 一旦[!UICONTROL 路由器]模組收到套件組合，它會依照路由附加至[!UICONTROL 路由器]模組的順序將其轉送至每個連線的路由。 如需詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)中的[路由器模組。
 
 ## 指令
 

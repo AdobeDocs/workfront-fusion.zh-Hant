@@ -4,9 +4,9 @@ description: 工作自動化需要快速處理，因此 [!DNL Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 2af808aaf8136253c623ee65641d0e57d4f6cf10
+source-git-commit: 1253470a23a2a9124824d5ab1ff2b5013d773517
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 遞回發生在案例觸發自身的新執行、觸發新的執行，以及在無限回圈中發生等等。
 
-例如，建立任務時會觸發情境，而該情境會建立任務。 新建立的任務會再次觸發情境，進而建立另一個任務。 每次建立任務時，就會觸發案例，而每次案例執行時，都會建立任務。
+例如，建立任務時會觸發情境，而該情境會建立兩個任務。 新建立的任務都會再次觸發情境，這會建立四個新任務。 每次建立任務時，就會觸發情境，而每次情境執行時，任務數量就會增加一倍。 任務數量呈指數增長。
 
 遞回可能會對擁有遞回案例的組織和其他組織造成效能問題。
 

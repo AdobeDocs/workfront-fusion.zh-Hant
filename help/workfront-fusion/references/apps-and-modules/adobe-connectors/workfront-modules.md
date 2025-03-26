@@ -4,9 +4,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: dab5aacd091cec2644f3e8ddac2549dac7b927b8
 workflow-type: tm+mt
-source-wordcount: '6684'
+source-wordcount: '7075'
 ht-degree: 2%
 
 ---
@@ -849,6 +849,79 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 </table>
 
 檢視您可以在每個Workfront模組](#workfront-object-types-available-for-each-workfront-module)可用的[Workfront物件型別中使用此模組的Workfront物件型別清單。
+
++++
+
++++ **更新事件裝載版本**
+
+Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變更Workfront API，而是變更事件訂閱功能。 此動作模組會更新用於此情境的事件裝載版本。
+
+如需新事件訂閱版本的詳細資訊，請參閱Workfront檔案中的[事件訂閱版本設定](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL版本]</td> 
+   <td> 選取您要用於此裝載的事件訂閱版本。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
++++
+
++++ **更新記錄（附加自訂表格）**
+
+
+此動作模組會更新物件，例如專案、任務或問題。 模組可讓您選取可在模組中取得哪些物件欄位。
+
+您指定記錄的ID。
+
+模組會傳回物件ID及任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto">
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL ID]</td> 
+   <td> <p>輸入您希望模組更新的記錄的唯一Workfront ID。</p> <p>若要取得ID，請在瀏覽器中開啟Workfront物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!DNL Record Type]</td> 
+   <td> <p>選取您要模組更新的Workfront記錄型別。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!DNL Select fields to map]</td> 
+   <td>選取您想用於資料輸入的欄位。 這可讓您使用這些欄位，而無需捲動瀏覽您不需要的欄位。 您接著可以在這些欄位中輸入或對應資料。</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!DNL Attach Custom Form]</td> 
+   <td>選取您要附加到新記錄的自訂表單。 選取表單後，輸入表單上欄位的資料。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+檢視您可以在每個Workfront模組](#workfront-object-types-available-for-each-workfront-module)可用的[Workfront物件型別中使用此模組的Workfront物件型別清單。
+
+>[!NOTE]
+>
+> 輸入自訂欄位或[!UICONTROL Note]物件（註解或回覆）的文字時，您可以使用[!UICONTROL 註解文字]欄位中的HTML標籤來建立RTF文字，例如粗體或斜體文字。
+
 
 +++
 

@@ -4,9 +4,9 @@ description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: ad5701c5484da802dea8668c9c4aad58a6dba3eb
+source-git-commit: db1d6f5bf29063b069681395c6ff6d3554c67dc3
 workflow-type: tm+mt
-source-wordcount: '4352'
+source-wordcount: '4359'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,8 @@ ht-degree: 0%
 使用[!DNL Adobe Photoshop]聯結器之前，您必須確定符合下列先決條件：
 
 * 您必須擁有使用中的[!DNL Adobe Photoshop]帳戶。
-* 您必須擁有使用者端ID和使用者端密碼。 您可以從Adobe Developer Console取得這些內容。
+* 您必須擁有Firefly服務授權。
+* 您必須擁有使用者端ID和使用者端密碼。 您可以從Adobe Developer Console取得這些許可權。
 
 ## Adobe Photoshop API資訊
 

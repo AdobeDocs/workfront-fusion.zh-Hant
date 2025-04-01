@@ -4,9 +4,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: dab5aacd091cec2644f3e8ddac2549dac7b927b8
+source-git-commit: 76272b2e9f084f670075d9b975ffa26c0be07fe5
 workflow-type: tm+mt
-source-wordcount: '7075'
+source-wordcount: '7796'
 ht-degree: 2%
 
 ---
@@ -375,7 +375,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL 建立記錄（附加自訂表格）]**
++++ **[!UICONTROL 建立記錄]**
 
 此動作模組會建立物件，例如Workfront中的專案、任務或問題，並允許您新增自訂表單至新物件。 模組可讓您選取可在模組中取得哪些物件欄位。
 
@@ -422,7 +422,12 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 +++
 
-+++ **[!UICONTROL 建立記錄]**
++++ **[!UICONTROL 建立記錄（舊版）]**
+
+>[!IMPORTANT]
+>
+>此模組已由建立記錄模組取代。 我們建議在新案例中使用該模組。
+>使用此模組的現有情境將繼續如預期運作。 此模組將於2025年5月從模組選擇器中移除。
 
 此動作模組會建立物件，例如Workfront中的專案、任務或問題。 模組可讓您選取可在模組中取得哪些物件欄位。
 
@@ -820,8 +825,65 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
  <tbody> 
   <tr> 
     <td>[！UICONTROL Connection]</td>
+    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[！UICONTROL記錄型別]</td>
 
-<td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
+<td>選擇您希望模組讀取的Workfront物件型別。</td> 
+  </tr> 
+  <tr> 
+    <td>[！UICONTROL輸出]</td>
+
+<td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[！UICONTROL輸出自訂表單]</td>
+     <td> <p>選取要納入此模組輸出組合的自訂表單，然後從要納入輸出的自訂表單中選取特定欄位。</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[！UICONTROL參考]</td>
+   <td>選取您要納入輸出的任何參考欄位。</td> 
+  </tr> 
+  <tr> 
+    <td>[！UICONTROL集合]</td>
+   <td>選取您要納入輸出的任何參考欄位。</td> 
+  </tr> 
+  <tr> 
+    <td>[！UICONTROL ID]</td>
+   <td> <p>輸入您希望模組讀取之記錄的唯一Workfront ID。</p> <p>若要取得ID，請在瀏覽器中開啟Workfront物件，並在「ID=」後複製URL結尾的文字。 例如： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+檢視您可以在每個Workfront模組](#workfront-object-types-available-for-each-workfront-module)可用的[Workfront物件型別中使用此模組的Workfront物件型別清單。
+
++++
+
++++ **[!UICONTROL 讀取記錄（舊版）]**
+
+>[!IMPORTANT]
+>
+>此模組已由「讀取記錄」模組取代。 我們建議在新案例中使用該模組。
+>使用此模組的現有情境將繼續如預期運作。 此模組將於2025年5月從模組選擇器中移除。
+
+此動作模組會從單一記錄擷取資料。
+
+您指定記錄的ID。 您也可以指定要讓模組讀取哪些相關記錄。
+
+例如，如果模組正在讀取的記錄是專案，您可以指定您要讀取專案任務。
+
+模組會從您指定的輸出欄位傳回資料陣列。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td>[！UICONTROL Connection]</td>
+    <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
     <td>[！UICONTROL記錄型別]</td>
@@ -876,7 +938,12 @@ Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變�
 
 +++
 
-+++ **更新記錄（附加自訂表格）**
++++ **更新記錄**
+
+>[!IMPORTANT]
+>
+>此模組已更換為更新記錄模組。 我們建議在新案例中使用該模組。
+>使用此模組的現有情境將繼續如預期運作。 此模組將於2025年5月從模組選擇器中移除。
 
 
 此動作模組會更新物件，例如專案、任務或問題。 模組可讓您選取可在模組中取得哪些物件欄位。
@@ -925,7 +992,7 @@ Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變�
 
 +++
 
-+++ **[!UICONTROL 更新記錄]**
++++ **[!UICONTROL 更新記錄（舊版）]**
 
 此動作模組會更新物件，例如專案、任務或問題。 模組可讓您選取可在模組中取得哪些物件欄位。
 
@@ -1095,9 +1162,69 @@ Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變�
  </tbody> 
 </table>
 
++++ **[!UICONTROL 搜尋記錄]**
+
+此搜尋模組會在Workfront中尋找符合您指定之搜尋查詢的物件記錄。
+
+您可以在情境中的後續模組中對應此資訊。
+
+當您設定此模組時，會顯示下列欄位。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL記錄型別]</td> 
+   <td> <p>選取您要模組搜尋的Workfront記錄型別。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL自訂表單清單]</td> 
+   <td> <p>請至少選取一個自訂表格。 這些自訂表單中的欄位將可用於搜尋查詢。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL結果集]</td> 
+   <td>選取選項以指定您希望模組取得符合搜尋條件的第一個結果，還是所有符合該條件的結果。</td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL Maximal]</td> 
+   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL搜尋條件欄位]</td> 
+   <td> <p>選取您要用於搜尋條件的欄位。 這些欄位隨後將顯示在搜尋條件下拉式清單中。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[！UICONTROL搜尋條件]</td> 
+   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運運算元，以及要在欄位中搜尋的值。</p> <p>注意：請勿在您的搜尋條件中使用<code>username </code>。 若在Workfront的API查詢中加入<code>username </code>，使用者就會登入Workfront，搜尋將不會成功。</p> <p>注意： <code>In</code>和<code>NotIn</code>可搭配陣列使用。 輸入的格式應為陣列。</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL輸出]</td> 
+   <td> <p>選取您要包含在此模組輸出中的欄位。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL參考]</td> 
+   <td>選取您要納入搜尋的任何參考欄位。</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[！UICONTROL集合]</td> 
+   <td>選取您要新增至搜尋的任何集合。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 +++
 
-+++ **[!UICONTROL 搜尋]**
++++ **[!UICONTROL 搜尋（舊版）]**
+
+>[!IMPORTANT]
+>
+>此模組已由搜尋記錄模組取代。 我們建議在新案例中使用該模組。
+>使用此模組的現有情境將繼續如預期運作。 此模組將於2025年5月從模組選擇器中移除。
 
 此搜尋模組會在Workfront中尋找符合您指定之搜尋查詢的物件記錄。
 

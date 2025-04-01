@@ -4,7 +4,7 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 76272b2e9f084f670075d9b975ffa26c0be07fe5
+source-git-commit: 5ba6e0ba687eb290c7d8882c6a615de8b3692617
 workflow-type: tm+mt
 source-wordcount: '7796'
 ht-degree: 2%
@@ -940,11 +940,6 @@ Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變�
 
 +++ **更新記錄**
 
->[!IMPORTANT]
->
->此模組已更換為更新記錄模組。 我們建議在新案例中使用該模組。
->使用此模組的現有情境將繼續如預期運作。 此模組將於2025年5月從模組選擇器中移除。
-
 
 此動作模組會更新物件，例如專案、任務或問題。 模組可讓您選取可在模組中取得哪些物件欄位。
 
@@ -993,6 +988,11 @@ Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變�
 +++
 
 +++ **[!UICONTROL 更新記錄（舊版）]**
+
+>[!IMPORTANT]
+>
+>此模組已更換為更新記錄模組。 我們建議在新案例中使用該模組。
+>使用此模組的現有情境將繼續如預期運作。 此模組將於2025年5月從模組選擇器中移除。
 
 此動作模組會更新物件，例如專案、任務或問題。 模組可讓您選取可在模組中取得哪些物件欄位。
 

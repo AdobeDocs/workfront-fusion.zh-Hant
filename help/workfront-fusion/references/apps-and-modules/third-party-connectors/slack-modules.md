@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: c9c68a4c-f592-42d1-b15f-a525b9aa3944
-source-git-commit: e52af924094722b0d212098ae2af5eded12a5309
+source-git-commit: eb0518ba0d1a0c758cb547e362c722f4be3674c7
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -186,8 +186,6 @@ Slack聯結器會使用以下專案：
  </tbody> 
 </table>
 
-<!--Becky start here-->
-
 
 #### [!UICONTROL 刪除訊息]
 
@@ -207,7 +205,11 @@ Slack聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL訊息ID]</td> 
-   <td> <p> 輸入或對應您要刪除之訊息的時間戳記。</p> <p>注意：時間戳記可使用其他模組擷取，例如Watch Private Channel模組。</p> </td> 
+   <td> <p> 輸入或對應您要刪除之訊息的時間戳記。</p> <p>注意：時間戳記可使用其他模組擷取，例如Watch Private Channel訊息模組。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL作為使用者]</td> 
+   <td> <p> 啟用此選項以連線中所用認證的使用者身分刪除訊息。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -230,7 +232,7 @@ Slack聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL訊息ID （時間戳記）]</p> </td> 
-   <td> <p> 輸入或對應您要擷取相關資訊之訊息的訊息時間戳記。</p> <p>注意：時間戳記可使用其他模組擷取，例如[！UICONTROL Watch Public Channel]模組。</p> </td> 
+   <td> <p> 輸入或對應您要擷取相關資訊之訊息的訊息時間戳記。</p> <p>注意：時間戳記可使用其他模組擷取，例如[！UICONTROL Watch Private Channel Messages]模組。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -253,7 +255,7 @@ Slack聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL訊息ID （時間戳記）]</td> 
-   <td> <p> 輸入或對應您要擷取相關資訊之訊息的訊息時間戳記。</p> <p>注意：時間戳記可使用其他模組擷取，例如[！UICONTROL Watch Public Channel]模組。</p> </td> 
+   <td> <p> 輸入或對應您要擷取相關資訊之訊息的訊息時間戳記。</p> <p>注意：時間戳記可使用其他模組擷取，例如[！UICONTROL Watch Public Channel Messages]模組。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -270,21 +272,33 @@ Slack聯結器會使用以下專案：
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Slack]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[！UICONTROL輸入管道ID或名稱]</p> </td> 
-   <td> <p>選擇您希望如何選取所要的訊息。</p> 
+<!--  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Enter a channel ID or name]</p> </td> 
+   <td> <p>Choose how you want to select the message you want to .</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>在<strong>[！UICONTROL頻道ID或名稱]</strong>欄位中，輸入或對應包含訊息的頻道ID或頻道，然後輸入訊息的<strong>[！UICONTROL時間戳記（訊息ID）]</strong>。.</p> <p>注意：頻道ID可使用[！UICONTROL清單頻道]模組擷取。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取管道型別，然後選取管道，再選取訊息。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>In the <strong>[!UICONTROL Channel ID or name]</strong> field, enter or map the Channel ID or of the channel that contains the message, then enter the <strong>[!UICONTROL Time Stamp (Message ID)]</strong> of the message.</p> <p>Note: The Channel ID can be retrieved using the [!UICONTROL List Channels] module.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the type of channel, then select the channel, then select the message.</p> </li> 
     </ul> </td> 
+  </tr> -->
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL管道ID]</p> </td> 
+   <td> <p>輸入或對應包含您要更新之訊息的頻道ID。</p> <p>注意：頻道ID可使用[！UICONTROL清單頻道]模組擷取。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL訊息ID （時間戳記）]</p> </td> 
+   <td> <p> 輸入或對應您要擷取相關資訊之訊息的訊息時間戳記。</p> <p>注意：時間戳記可使用其他模組擷取，例如[！UICONTROL Watch Public Channel Messages]模組。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL Text]</p> </td> 
    <td> <p>輸入要更新的訊息的新文字內容。</p> <p>如需詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/docs/formatting">格式化應用程式介面的文字</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL區塊]</td> 
-   <td>區塊是可重複使用的元件，可用於自訂及組織您的訊息。 如需有關區塊的詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/block-kit">區塊套件</a>。</td> 
+   <td role="rowheader">[！UICONTROL作為使用者]</td> 
+   <td>啟用此選項以擁有此模組連線所使用之認證的使用者身分更新訊息。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL附件]</td> 
+   <td>針對您想要附加至郵件的每個專案，按一下<b>新增專案</b>並填入專案的詳細資料。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[！UICONTROL連結名稱]</p> </td> 
@@ -409,14 +423,14 @@ Slack聯結器會使用以下專案：
    <td role="rowheader">[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Slack]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL頻道型別]</td> 
-   <td>選取包含您要列出之成員清單的管道型別。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[！UICONTROL Public] / [！UICONTROL Private Channel]</td> 
-   <td>選取您要列出成員的管道。</td> 
-  </tr> 
+<tr> 
+   <td role="rowheader"> <p>[！UICONTROL輸入管道ID或名稱]</p> </td> 
+   <td> <p>選擇您希望如何選取所要的訊息。</p> 
+    <ul> 
+     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>在<strong>[！UICONTROL管道ID或名稱]</strong>欄位中，輸入或對應您要列出使用者之管道或管道的ID。</p> <p>注意：頻道ID可使用[！UICONTROL清單頻道]模組擷取。</p> </li> 
+     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取管道型別，然後選取管道。</p> </li> 
+    </ul> </td> 
+  </tr>
   <tr> 
    <td role="rowheader">[！UICONTROL限制] </td> 
    <td> <p>設定在一個執行週期內[!DNL Workfront Fusion]將傳回的成員數目上限。</p> </td> 
@@ -465,6 +479,10 @@ Slack聯結器會使用以下專案：
   <tr> 
    <td role="rowheader">[！UICONTROL基底URL]</td> 
    <td>選取您要用於API呼叫的基本URL。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL傳送存取權杖]</td> 
+   <td>選取您要以標頭或查詢引數的形式傳送存取權杖。</td> 
   </tr> 
  </tbody> 
 </table>

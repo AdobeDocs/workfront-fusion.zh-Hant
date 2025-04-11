@@ -5,9 +5,9 @@ description: 本文說明情境如何執行以及資料如何流經情境。 本
 author: Becky
 feature: Workfront Fusion
 exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 0ef6dde9566ca3b97c1c52d6055f0ce44f575cee
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # 案例執行流程
 
 本文說明案例如何執行、資料如何流經案例，以及如何檢視每個模組處理的資料。
+
+若要檢視資料在作用中情境中的流動方式，請參閱[檢視執行中情境的資料流量](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)。
 
 ## 案例執行流程
 
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 如果套件組合正確處理所有模組，情境會在情境詳細資訊頁面中標示為成功。
 
-### 範例： [!UICONTROL [!DNL Workfront Fusion] for Work Automation]
+### 範例：工作自動化]的[!UICONTROL [!DNL Workfront Fusion]
 
 >[!BEGINSHADEBOX]
 
@@ -40,7 +42,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-### 範例： [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]
+### 範例：工作自動化與整合的[!UICONTROL [!DNL Workfront Fusion]]
 
 >[!BEGINSHADEBOX]
 

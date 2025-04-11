@@ -1,13 +1,13 @@
 ---
-title: 檢視和解決未完成的執行
-description: '[!UICONTROL Incomplete executions]資料夾儲存因錯誤而未成功完成的案例執行。 每個儲存的不完整執行都可以手動或自動解析。'
+title: 檢視案例的執行歷史記錄
+description: 您可以顯示情境的事件或執行相關資訊，也可以搜尋情境的所有執行以尋找特定資料。
 author: Becky
 feature: Workfront Fusion
 exl-id: 974b32b4-d86a-48cd-a8d4-1ae2cf309b9b
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 0ef6dde9566ca3b97c1c52d6055f0ce44f575cee
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 0%
+source-wordcount: '880'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -52,7 +52,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
 ### 在「歷史記錄」標籤上檢視案例歷史記錄
 
-[!UICONTROL History]索引標籤顯示的詳細資料比[!UICONTROL Scenario detail]頁面上提供的還多。 您也可以在[!UICONTROL History]標籤上篩選及排序執行。
+[!UICONTROL 歷程記錄]索引標籤顯示的詳細資訊比[!UICONTROL 案例詳細資料]頁面上提供的還多。 您也可以在[!UICONTROL 歷程記錄]索引標籤上篩選及排序執行。
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenario]**&#x200B;標籤，然後按一下情境。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤，然後按一下案例。
 
    或
 
@@ -93,31 +93,31 @@ ht-degree: 0%
 
    以下是此情境每次執行的詳細資料：
 
-   * 執行日期為&#x200B;**[!UICONTROL Started]**
+   * 執行開始於&#x200B;**[!UICONTROL 的日期]**
    * 執行ID
-   * **[!UICONTROL Status]** （成功或失敗）
-   * 執行&#x200B;**[!UICONTROL Duration]**
-   * **[!UICONTROL Operations]**&#x200B;的數量
-   * **[!UICONTROL Data Transfer]**&#x200B;的大小
+   * **[!UICONTROL 狀態]** （成功或失敗）
+   * 執行&#x200B;**[!UICONTROL 持續時間]**
+   * **[!UICONTROL 作業數目]**
+   * **[!UICONTROL 資料傳輸]**&#x200B;的大小
 
    >[!NOTE]
    >
    >案例歷史記錄會在最近執行的案例旁邊顯示&#x200B;**處理**&#x200B;徽章，而執行詳細資訊會寫入儲存體。 處理會在案例執行後立即發生。 和不應超過幾分鐘。 處理執行時，可能無法看到案例執行的詳細資訊。
 
-1. 若要檢視特定案例執行的詳細資料，請按一下最右邊的&#x200B;**詳細資料**。 [!UICONTROL details]連結只有在執行有可用的詳細資料時才會顯示。
+1. 若要檢視特定案例執行的詳細資料，請按一下最右邊的&#x200B;**詳細資料**。 [!UICONTROL 詳細資料]連結只有在執行有可用的詳細資料時才可見。
 1. 若要檢視事件，請將&#x200B;**顯示事件**&#x200B;切換為開啟。
 
 
 ### 在「案例詳細資訊」頁面上檢視案例歷史記錄
 
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenario]**&#x200B;標籤，然後按一下情境。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤，然後按一下案例。
 
    或
 
    如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
 
-1. 按一下右側面板中的&#x200B;**[!UICONTROL History]**&#x200B;索引標籤。
+1. 按一下右側面板中的&#x200B;**[!UICONTROL 歷程記錄]**&#x200B;索引標籤。
 1. （選用）如需所選取案例執行的詳細資訊，請按一下右側面板中的執行。
 
    如需處理套裝的詳細資訊，請參閱[案例執行流程](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md)
@@ -132,10 +132,10 @@ ht-degree: 0%
 
 您可以篩選執行歷史記錄，以僅檢視具有指定值的執行。
 
-1. 開啟情境的全頁記錄，如本文中[在[!UICONTROL History]索引標籤](#view-scenario-history-on-the-history-tab)上檢視情境執行記錄中所述。
-1. 按一下要作為篩選依據之欄標題中的[!UICONTROL filter]圖示![情境篩選圖示](assets/fusion-scenario-filter-icon.png)。
-1. 在[!UICONTROL filter]對話方塊中，輸入您要用來篩選的值。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤](#view-scenario-history-on-the-history-tab)上的[檢視情境執行歷程記錄中所述。
+1. 按一下您要作為篩選依據之欄標題中的[!UICONTROL 篩選器]圖示![情境篩選器圖示](assets/fusion-scenario-filter-icon.png)。
+1. 在[!UICONTROL 篩選器]對話方塊中，輸入您要作為篩選依據的值。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 含有作用中篩選器的欄中的篩選圖示為橘色。
 
@@ -151,48 +151,48 @@ You can sort the scenario execution history.
 
 ## 搜尋情境的所有執行
 
-1. 開啟情境的全頁記錄，如本文中[在[!UICONTROL History]索引標籤](#view-scenario-history-on-the-history-tab)上檢視情境執行記錄中所述。
-1. 按一下執行清單頂端的&#x200B;**[!UICONTROL Fulltext search]**。
+1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤](#view-scenario-history-on-the-history-tab)上的[檢視情境執行歷程記錄中所述。
+1. 按一下執行清單頂端的&#x200B;**[!UICONTROL 全文檢索搜尋]**。
 
    或
 
    輸入&#x200B;**Ctrl+Shift+F** (Windows)或&#x200B;**Cmd+Shift+F** (Mac)
-[!UICONTROL Search in history]視窗隨即開啟。
+會開啟[!UICONTROL 搜尋歷史記錄]視窗。
 
-1. （選擇性）若要搜尋包含特定文字的執行，請在&#x200B;**[!UICONTROL Search in history]**&#x200B;視窗的搜尋列中輸入文字。
+1. （選擇性）若要搜尋包含特定文字的執行，請在&#x200B;**[!UICONTROL 在歷程記錄]**&#x200B;視窗中搜尋的搜尋列中輸入文字。
 
    若要搜尋精確文字，請以雙引號（「範例」）括住文字。
 
    >[!INFO]
    >
-   >**範例：**&#x200B;如果您要尋找建立特定專案的執行，請在[!UICONTROL Fulltext search]列中輸入專案識別碼。
+   >**範例：**&#x200B;如果您想要尋找建立特定專案的執行，請在[!UICONTROL 全文檢索搜尋]列中輸入專案識別碼。
    >
    >「625ef2ef0006036bd1794b6e52d737c5」
 
-1. （選擇性）若要依日期範圍限制搜尋，請在[!UICONTROL By date range]區域中選取所要搜尋的開始和結束日期。
+1. （選擇性）若要依日期範圍限制搜尋，請在[!UICONTROL 依日期範圍]區域選取所要搜尋的開始和結束日期。
 
    >[!NOTE]
    >
    >* 執行只適用於之前的30天。
    >
-   >* [!DNL Workfront Fusion]儲存webhook裝載30天。 在建立webhook裝載超過30天後存取該裝載會導致錯誤&quot;[!UICONTROL Failed to read file from storage.]&quot;
+   >* [!DNL Workfront Fusion]儲存webhook裝載30天。 存取webhook裝載時，若在裝載建立超過30天後進行，會導致&#39;&#39;[!UICONTROL 無法從儲存空間讀取檔案。]&#39;&#39;
 
 
-1. （選擇性）若要依狀態限制搜尋，請在&#x200B;**[!UICONTROL By status]**&#x200B;下拉式清單中選取所需的狀態。
+1. （選擇性）若要依狀態限制搜尋，請在&#x200B;**[!UICONTROL 依狀態]**&#x200B;下拉式清單中選取所需的狀態。
 
 
    可用的狀態包括：
 
-   * [!UICONTROL All]
+   * [!UICONTROL 全部]
 
-   * [!UICONTROL Error]
+   * [!UICONTROL 錯誤]
 
-   * [!UICONTROL Warning]
+   * [!UICONTROL 警告]
 
-   * [!UICONTROL Success]
+   * [!UICONTROL 成功]
 
-1. （選用）變更結果在&#x200B;**[!UICONTROL Sort by dates]**&#x200B;下拉式清單中的顯示順序。
+1. （選擇性）變更結果在&#x200B;**[!UICONTROL 依日期排序]**&#x200B;下拉式清單中的顯示順序。
 
-1. （選用）若要複製案例執行ID，請按一下&#x200B;**[!UICONTROL Copy execution ID]**&#x200B;圖示 所需執行列中的<img src="assets/copy-fusion-execution-id-icon.png">。
+1. （選擇性）若要複製案例執行ID，請按一下&#x200B;**[!UICONTROL 複製執行ID]**&#x200B;圖示 所需執行列中的<img src="assets/copy-fusion-execution-id-icon.png">。
 
-1. （選擇性）按一下[!UICONTROL Fulltext search]的結果，以檢查包含資訊的案例模組輸出組合。
+1. （選擇性）按一下[!UICONTROL 全文檢索搜尋]的結果，以檢查包含資訊的案例模組輸出組合。

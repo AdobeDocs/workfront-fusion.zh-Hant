@@ -4,16 +4,23 @@ description: Adobe Workfront Fusion對應面板中有以下一般函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6d4b8801-aa7e-47d4-80b3-aceac10c073f
-source-git-commit: 2c732659f3f3e81e13b7b12a5df5bde19c0e0928
+source-git-commit: 295004ab7536b85124bc366d6832c08365338d08
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
 # 一般函式
 
-## [!UICONTROL get (object or array; path)]
+## 變數
+
+有兩個一般變數可用來識別執行的詳細資訊：
+
+* `executionID`：此案例執行的識別碼
+* `triggerTimestamp`：觸發此執行的時間
+
+## [!UICONTROL get （物件或陣列；路徑）]
 
 傳回物件或陣列的值路徑。 若要存取巢狀物件，請使用點標籤法。 陣列中的第一個專案是索引1。
 
@@ -28,7 +35,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL if (expression; value1; value2)]
+## [!UICONTROL if （運算式；值1；值2）]
 
 如果運算式評估為true，則傳回`value1`；否則會傳回`value2`。
 
@@ -56,7 +63,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL ifempty (value1; value2)]
+## [!UICONTROL imfempty (value1； value2)]
 
 如果此值不是空的，則傳回`value1`；否則會傳回`value2`。
 
@@ -78,7 +85,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
+## [!UICONTROL switch （運算式； value1； result1； [value2； result2； ...]； [else]）]
 
 根據值清單評估一個值（稱為運算式）；傳回對應至第一個相符值的結果。 若要包含`else`值，請將其新增到最終運算式或值之後。
 
@@ -102,7 +109,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL omit(object; key1; [key2; ...])]
+## [!UICONTROL 省略（物件；key1； [key2； ...]）]
 
 省略物件的指定索引鍵並傳回其餘索引鍵。
 
@@ -116,7 +123,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL pick(object; key1; [key2; ...])]
+## [!UICONTROL pick（物件；key1； [key2； ...]）]
 
 僅從物件中挑選指定的索引鍵。
 

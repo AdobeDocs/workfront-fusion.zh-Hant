@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: 0115892ccd9569efbd5d5ed585847c763280ddca
+source-git-commit: a23517da30b4e51ef55bcc13241a03cd1d6153a0
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1737'
 ht-degree: 2%
 
 ---
@@ -159,9 +159,9 @@ ht-degree: 2%
          * [檢視或編輯使用者詳細資訊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-details.md)
          * [檢視或編輯使用者角色](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.md)
          * [在Adobe Admin Console中刪除使用者](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/delete-users-admin-console.md)
-   * 管理範本{#manage-templates-admin}
+   * 管理範本 {#manage-templates-admin}
       * [管理範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/manage-templates-toc.md)
-      * [核准或不核准範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/approve-templates.md)
+      * [批准或不批准範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/approve-templates.md)
       * [編輯範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/edit-templates.md)
 * 建立案例{#create-scenarios}
    * [建立案例](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)
@@ -218,10 +218,10 @@ ht-degree: 2%
    * [還原案例版本](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md)
    * [將模組更新至新版本](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md)
    * [管理鎖定的案例](/help/workfront-fusion/manage-scenarios/view-manage-locked-scenario.md)
-   * [檢視和解決未完成的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)
-   * [檢視案例的執行歷史記錄](/help/workfront-fusion/manage-scenarios/view-scenario-execution-history.md)
-   * [檢視執行中案例的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
-   * [檢視Webhook的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
+   * [檢視並解決未完成的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)
+   * [檢視方案的執行歷史記錄](/help/workfront-fusion/manage-scenarios/view-scenario-execution-history.md)
+   * [在正在運行的方案中檢視數據流](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
+   * [檢視网络鉤子的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
    * [Workfront Fusion中的AI助理](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
    * [執行案例評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
    * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
@@ -279,9 +279,9 @@ ht-degree: 2%
    * 錯誤{#errors}
       * [錯誤次數](/help/workfront-fusion/references/errors/errors-toc.md)
       * [錯誤處理的指示](/help/workfront-fusion/references/errors/directives-for-error-handling.md)
-      * [錯誤型別](/help/workfront-fusion/references/errors/error-processing.md)
-   * 連線{#connections}
-      * [連線參考：文章索引](/help/workfront-fusion/references/connections/connection-reference-toc.md)
+      * [錯誤類型](/help/workfront-fusion/references/errors/error-processing.md)
+   * 連接 {#connections}
+      * [連接參考：文章索引](/help/workfront-fusion/references/connections/connection-reference-toc.md)
       * [連線中繼資料](/help/workfront-fusion/references/connections/connection-metadata.md)
    * 應用程式及其模組{#apps-and-their-modules}
       * [應用程式及其模組](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)
@@ -305,7 +305,8 @@ ht-degree: 2%
          * [Adobe Experience Manager Assets模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
          * [Adobe Experience Manager Forms模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
          * [Adobe Firefly模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
-         * [Adobe Frame.io模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
+         * [Adobe Frame.io Beta (V4)模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md)
+         * [Adobe Frame.io舊版(V3)模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
          * [Adobe I/O Events模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
          * [Adobe Journey Optimizer模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
          * [Adobe Lightroom模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
@@ -337,10 +338,10 @@ ht-degree: 2%
          * [圖形模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/figma-modules.md)
          * [Github模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/github.md)
          * [gitlab模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gitlab-modules.md)
-         * [Gmail模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gmail-modules.md)
-         * [Google行事曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-calendar-modules.md)
-         * [Google Docs模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
-         * [Google磁碟機模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-drive-modules.md)
+         * [Gmail 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gmail-modules.md)
+         * [谷歌日曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-calendar-modules.md)
+         * [Google 文件模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
+         * [谷歌雲端硬碟模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-drive-modules.md)
          * [Google Forms模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-forms-modules.md)
          * [Google工作表模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-sheets-modules.md)
          * [Google幻燈片模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-slides-modules.md)

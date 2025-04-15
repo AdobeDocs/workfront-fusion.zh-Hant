@@ -4,16 +4,31 @@ description: ' [!DNL Adobe Workfront Fusion Frame].io modules enable you to moni
 author: Becky
 feature: Workfront Fusion
 exl-id: 121b145c-d04d-44b9-b673-ea2928e2346d
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 31487c8b5b6efad1e6d7817dfe7dda67eea88e43
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2586'
 ht-degree: 0%
 
 ---
 
-# [!DNL Frame.io]模組
+# [!DNL Frame.io]個舊模組
+
+>[!IMPORTANT]
+>
+>本文說明Frame.io聯結器的舊版。 此聯結器用於連線至Frame.io版本3。
+>
+>如需新（測試版）版Frame.io聯結器的說明，請參閱[Frame.io Beta聯結器](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md)。
 
 [!DNL Adobe Workfront Fusion] [!DNL Frame.io]模組可讓您監視、建立、更新、擷取或刪除您[!DNL Frame.io]帳戶中的資產和註解。
+
+Workfront提供兩個Frame.io聯結器，根據您連線的Frame.io版本而定。
+
+| 聯結器 | Frame.io版本 |
+|---|---|
+| Frame.io (Beta) | V4 |
+| Frame.io （舊版） | V3 |
+
+如需新（測試版）版Frame.io聯結器的說明，請參閱[Frame.io Beta聯結器](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md)。
 
 如需Frame.io聯結器的影片簡介，請參閱：
 
@@ -83,13 +98,13 @@ Frame.io聯結器使用下列專案：
    <td> v2 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.0.76</td> 
   </tr>
  </tbody> 
  </table>
 
-## 將[!DNL Frame.io]連線至[!UICONTROL Adobe Workfront Fusion]
+## [!UICONTROL 連接至 [!DNL Frame.io] Adobe Systems Workfront Fusion]
 
 您可以使用API權杖或使用OAuth 2.0連線至[!DNL Frame.io]。
 
@@ -309,7 +324,7 @@ Frame.io聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應擁有專案的團隊，專案中包含您想要從中擷取資產的資料夾。</p> </td> 
+   <td> <p>選擇或映射擁有包含要從中檢索資產的資料夾的專案的團隊。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID]</td> 
@@ -423,9 +438,9 @@ Frame.io聯結器使用下列專案：
 
 在為指定團隊建立新資產時，此觸發模組會啟動案例。
 
-因為這是立即觸發程式，您必須選取或建立webhook以供模組使用。
+由於這是即時觸發器，因此必須選擇或創建 Webhook 以供模組使用。
 
-如果新增webhook，請輸入以下資訊。
+如果添加 Webhook，請輸入以下資訊。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -433,10 +448,10 @@ Frame.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[！UICONTROL Webhook名稱]</td> 
-   <td> <p> 輸入webhook的名稱，例如「已建立的資產」。</p> </td> 
+   <td> <p> 輸入 Webhook 的名稱，例如「已創建資產」。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL 連接] </td> 
    <td>如需建立[!DNL Frame.io]連線的說明，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至[!DNL Adobe Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
@@ -564,16 +579,16 @@ Frame.io聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資產ID] </td> 
-   <td> <p>選取包含您要擷取之註解的資產。</p> </td> 
+   <td> <p>選擇包含要檢索的註釋的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL註解ID] </td> 
-   <td> <p>選取您要擷取有關詳細資訊的註解。</p> </td> 
+   <td role="rowheader">[!UICONTROL 註解 ID] </td> 
+   <td> <p>選擇要檢索詳細信息的評論。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 清單註解]
+#### [!UICONTROL 清單備註]
 
 此搜尋模組會擷取指定資產的所有註解。
 
@@ -599,10 +614,10 @@ Frame.io聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資產ID] </td> 
-   <td> <p>選取您要列出註解的資產。</p> </td> 
+   <td> <p>選擇要為其清單評論的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td role="rowheader">[!UICONTROL 限制] </td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大註解數。</p> </td> 
   </tr> 
  </tbody> 
@@ -626,7 +641,7 @@ Frame.io聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL專案ID] </td> 
-   <td> <p>選取包含您要更新註解之資產的專案\。</p> </td> 
+   <td> <p>選取包含您要更新註解的資產的專案。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL資料夾ID] </td> 
@@ -717,15 +732,15 @@ Frame.io聯結器使用下列專案：
  <tbody> 
   <tr> 
     <td role="rowheader">[！UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的說明，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至[!DNL Adobe Workfront Fusion]</a>。</td> 
+   <td>有關創建與的連接[!DNL Frame.io]的說明，請參閱<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">本文中的連接到[!DNL Frame.io][!DNL Adobe Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
-   <td> <p>選取或對應您要擷取專案的團隊。</p> </td> 
+   <td role="rowheader">[!UICONTROL 團隊 ID] </td> 
+   <td> <p>選取或對應要擷取專案的團隊。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制] </td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大專案數量。</p> </td> 
+   <td role="rowheader">[!UICONTROL 限制] </td> 
+   <td> <p>輸入或映射您希望模組在每個方案執行週期中返回的最大項目數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -753,8 +768,8 @@ Frame.io聯結器使用下列專案：
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標題]</td> 
+   <td> <p>以標準 JSON 物件的格式添加請求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL查詢字串] </td> 

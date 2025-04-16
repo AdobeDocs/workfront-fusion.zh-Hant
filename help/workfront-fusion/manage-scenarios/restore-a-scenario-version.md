@@ -4,14 +4,16 @@ description: 您可以還原案例的先前版本。 這可讓您變更情境，
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 18bbd77630eafac0cb293c3a6f658a74b622bdae
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '287'
+ht-degree: 1%
 
 ---
 
-# 還原案例版本
+# 檢視和管理案例版本
+
+您可以檢視、還原或重新命名案例的先前版本。
 
 ## 存取需求
 
@@ -29,7 +31,7 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -42,7 +44,7 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -65,16 +67,20 @@ ht-degree: 2%
 
 +++
 
-## 還原案例版本
+<!--procedure - open, optional add comment, optional restore version-->
 
-1. 開啟您的情境。
-1. 按一下畫面底部的[!UICONTROL More]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL Previous Versions]**。
+## 檢視及管理情境的版本記錄
 
-1. 按一下&#x200B;**[!UICONTROL Pick the version]**，然後按一下您要還原的版本。
-1. 按一下&#x200B;**[!UICONTROL OK]**。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]** ![案例圖示](assets/scenarios-icon.png)，然後按一下案例以開啟它。
+1. 按一下畫面底部的[!UICONTROL 更多]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 舊版]**。
 
-   選取的案例版本會還原。
+   先前版本的清單隨即顯示。
+1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。****
 
->[!NOTE]
->
->情境的還原版本不會自動儲存。 如果要儲存案例的還原版本，您必須手動儲存。
+   建議您提供名稱，說明針對此版本所做的變更。
+1. （選擇性）若要還原版本，請按一下該版本行上的[還原![更多功能表](assets/more-icon-vertical.png)]
+
+
+   >[!NOTE]
+   >
+   >情境的還原版本不會自動儲存。 如果要儲存案例的還原版本，您必須手動儲存。

@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: c8c5f2e3-5af1-4957-bb6f-6c19c35102c5
-source-git-commit: 7edfe4a7b19597ea6e56bb2ca3969d742dbaf999
+source-git-commit: 8a4e54a4c1783e4bc679778c6fcf21dcb4d3d537
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '920'
 ht-degree: 1%
 
 ---
@@ -108,24 +108,28 @@ Datadog聯結器會使用下列專案：
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL連線型別]</td> 
-      <td> <p> 選取[！UICONTROL [!DNL Datadog] Application]選項以取得[!DNL Datadog] API的完整存取權。</p> </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">[！UICONTROL連線名稱]</td> 
       <td> <p> 輸入連線的名稱。</p> </td> 
      </tr> 
+        <tr>
+        <td role="rowheader">[！UICONTROL環境]</td>
+        <td>選取此連線是用於生產或非生產環境。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[！UICONTROL型別]</td>
+        <td>選取您要連線到服務帳戶還是個人帳戶。</td>
+        </tr>
      <tr> 
       <td role="rowheader">[！UICONTROL網域] </td> 
       <td> <p>選取您要連線的網域（美國或歐盟）。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL API Key]</td> 
-      <td> <p> 輸入您的[!DNL Datadog] API金鑰。 </p> <p>如需擷取API金鑰的指示，請參閱本文中的<a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">擷取您的API金鑰和應用程式金鑰</a>。</p> </td> 
+      <td role="rowheader">[！UICONTROL API金鑰位置] </td> 
+      <td> <p>選取在標頭或查詢字串中包含API金鑰。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL應用程式鍵]</td> 
-      <td> <p> 輸入您的[!DNL Datadog]應用程式金鑰。 </p> <p>如需擷取應用程式金鑰的指示，請參閱本文中的<a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">擷取您的API金鑰和應用程式金鑰</a>。</p> </td> 
+      <td role="rowheader">[！UICONTROL API Key]</td> 
+      <td> <p> 輸入您的[!DNL Datadog] API金鑰。 </p> <p>如需擷取API金鑰的指示，請參閱本文中的<a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">擷取您的API金鑰和應用程式金鑰</a>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -217,18 +221,28 @@ URL： `/v1/dashboard`
   </tr> 
   <tr> 
    <td role="rowheader">[！UICONTROL型別]</td> 
-   <td> 選取您要使用的量度型別。 </td> 
+   <td> 選取您要使用的量度型別。 
+   <ul>
+   <li>量測計</li>
+   <li>費率</li>
+   <li>計數</li>
+   </ul>
+   </td> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL間隔]</td> 
+   <td> 如果度量的型別是「比率」或「計數」，請定義對應的間隔。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Series]</td> 
-   <td> <p>新增您要提交到[!DNL Datadog]的時間序列。</p> 
-    <ul> 
-     <li> <p><strong>[！UICONTROL量度]</strong> </p> <p>輸入時間序列的名稱。</p> </li> 
-     <li> <p><strong>[！UICONTROL型別]</strong> </p> <p>選取量度型別。</p> </li> 
-     <li> <p><strong>[！UICONTROL間隔]</strong> </p> <p> 如果度量的型別是「比率」或「計數」，請定義對應的間隔。</p> </li> 
-     <li> <p><strong>[！UICONTROL點]</strong> </p> <p>新增與量度相關的點。</p> <p>這是JSON點陣列。 每個點的格式如下： <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>注意：  <p>時間戳記必須以秒為單位。</p> <p>時間戳記必須是最新的。 「目前」的定義是未來不超過10分鐘，或過去不超過1小時。</p> <p> 數值格式應為浮點數值。</p> </p> <p>此欄位必須至少包含1個專案。</p> </li> 
-     <li> <p><strong>[！UICONTROL主機]</strong> </p> <p>輸入產生測量結果的主機名稱。</p> </li> 
-    </ul> </td> 
+   <td role="rowheader">[！UICONTROL點]</td> 
+   <td><p>新增與量度相關的點。</p> <p>這是JSON點陣列。 每個點的格式如下： <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>注意：  <p>時間戳記必須以秒為單位。</p> <p>時間戳記必須是最新的。 「目前」的定義是未來不超過10分鐘，或過去不超過1小時。</p> <p> 數值格式應為浮點數值。</p> </p> <p>此欄位必須至少包含1個專案。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL主機]</td> 
+   <td>輸入產生測量結果的主機名稱。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL標籤]</td> 
+   <td> 針對您想要新增至量度的每個標籤，按一下<b>新增專案</b>並輸入標籤的值。</td> 
   </tr> 
  </tbody> 
 </table>

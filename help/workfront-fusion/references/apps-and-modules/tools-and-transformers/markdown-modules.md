@@ -1,12 +1,12 @@
 ---
 title: Markdown模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以使用Markdown模組將Markdown轉換為HTML，並將HTML轉換為Markdown。
+description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以使用Markdown模組將Markdown轉換為HTML，並使用HTML轉換為Markdown。
 author: Becky
 feature: Workfront Fusion
 exl-id: f1134bbf-c244-4f52-8744-f97453b2ce8a
-source-git-commit: 1e95c93213c48aea9297a82669fb2012dbb27601
+source-git-commit: 7edfe4a7b19597ea6e56bb2ca3969d742dbaf999
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '273'
 ht-degree: 1%
 
 ---
@@ -21,44 +21,65 @@ ht-degree: 1%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td>
+   <p>無Workfront Fusion授權需求</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">產品</td> 
+   <td>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>或</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+
+如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
+
+## [!UICONTROL HTML到Markdown]
+
+此模組會將HTML程式碼轉換為Markdown。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[！UICONTROL Markdown]</td> 
+   <td> <p>輸入您要轉換成Markdown的HTML程式碼。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
-   <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
-   </td> 
+   <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
+   <td> <p>啟用此選項以將HTML轉換為[!DNL GitHub Flavored Markdown]。</p> <p>如需詳細資訊，請參閱[!DNL GitHub]檔案中的Markdown速查表。</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
-   <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
-   </td> 
-  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
-
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
-
-## [!UICONTROL Markdown to HTML]
+## [!UICONTROL Markdown至HTML]
 
 此模組會將Markdown轉換為HTML。
 
@@ -69,7 +90,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Markdown]</td> 
+   <td role="rowheader">[！UICONTROL Markdown]</td> 
    <td> <p>輸入Markdown格式的純文字。</p> </td> 
   </tr> 
   <tr> 
@@ -77,27 +98,8 @@ ht-degree: 1%
    <td> <p>啟用此選項以將GitHub Flavored Markdown轉換為HTML。</p> <p>如需詳細資訊，請參閱[!DNL GitHub]檔案中的Markdown速查表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Sanitize]</td> 
-   <td>選取選項以指出是否要從文字或逸出HTML中移除HTML標籤。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-## [!UICONTROL HTML to Markdown]
-
-此模組會將HTML程式碼轉換為Markdown。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Markdown]</td> 
-   <td> <p>輸入您要轉換為Markdown的HTML代碼。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>啟用此選項以將HTML轉換為[!DNL GitHub Flavored Markdown]。</p> <p>如需詳細資訊，請參閱[!DNL GitHub]檔案中的Markdown速查表。</p> </td> 
+   <td role="rowheader">[！UICONTROL Sanize]</td> 
+   <td>選取選項以指出是否要從文字中移除HTML標籤或逸出HTML。</td> 
   </tr> 
  </tbody> 
 </table>

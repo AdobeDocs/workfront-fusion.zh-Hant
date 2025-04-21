@@ -4,48 +4,48 @@ description: 下列陣列函式可在Adobe Workfront Fusion對應面板中使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 16c3915c-add1-4aab-a0e1-75fc590c42a6
-source-git-commit: 2c732659f3f3e81e13b7b12a5df5bde19c0e0928
+source-git-commit: d141738a7e013ed817cb657b883fc5e1061e2165
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
 
 # 陣列函式
 
-## [!UICONTROL join (array; separator)]
+## [!UICONTROL 聯結（陣列；分隔符號）]
 
 在每個專案之間使用指定的分隔符號，將陣列中的所有專案串連到字串中。
 
-## [!UICONTROL length (array)]
+## [!UICONTROL 長度（陣列）]
 
 傳回陣列中的專案數。
 
-## [!UICONTROL keys (object)]
+## [!UICONTROL 鍵（物件）]
 
 傳回給定物件或陣列屬性的陣列。
 
-## [!UICONTROL slice (array; start; [end])]
+## [!UICONTROL 磁碟片段（陣列；開始；[結束]）]
 
 傳回僅包含所選專案的新陣列。
 
-## [!UICONTROL merge (array1; array2; ...)]
+## [!UICONTROL 合併(array1； array2； ...)]
 
 將一個或多個陣列合併到一個陣列中。
 
-## [!UICONTROL contains (array; value)]
+## [!UICONTROL 包含（陣列；值）]
 
 驗證陣列是否包含值。
 
-## [!UICONTROL remove (array; value1; value2; ...)]
+## [!UICONTROL 移除（陣列；值1；值2； ...）]
 
 移除陣列引數中指定的值。 此函式僅對文字或數字的原始陣列有效。
 
-## [!UICONTROL add (array; value1; value2; ...)]
+## [!UICONTROL 新增（陣列；值1；值2； ...）]
 
 將引數中指定的值加入陣列並傳回該陣列。
 
-## [!UICONTROL map (complex array; key;[key for filtering];[possible values for filtering])]
+## [!UICONTROL 對應（複雜陣列；機碼；[用於篩選的機碼]；[用於篩選的可能值]）]
 
 傳回包含複雜陣列值的原始陣列。 此函式允許篩選值。 將原始變數名稱用於金鑰。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 隨機播放
 
-## [!UICONTROL sort (array; [order]; [key])]
+## [!UICONTROL 排序（陣列；[順序]；[索引鍵]）]
 
 排序陣列的值。 `order`引數的有效值為：
 
@@ -117,15 +117,15 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL reverse (array)]
+## [!UICONTROL 反向（陣列）]
 
 陣列中的第一個元素會成為最後一個元素，第二個元素會成為倒數第二個元素，依此類推。
 
-## [!UICONTROL flatten (array)]
+## [!UICONTROL 平面化（陣列）]
 
 建立一個新陣列，將所有子陣列元素以遞回方式串連到其中，直到指定的深度。
 
-## [!UICONTROL distinct (array; [key])]
+## [!UICONTROL distinct （陣列；[索引鍵]）]
 
 移除陣列內的重複專案。 使用&quot;[!UICONTROL key]&quot;引數來存取複雜物件內的屬性。 若要存取巢狀屬性，請使用點標籤法。 陣列中的第一個專案是索引1。
 
@@ -138,6 +138,39 @@ ht-degree: 0%
 >[!ENDSHADEBOX]
 
 ## toCollection
+
+* 此函式接受包含機碼值組的陣列，並將其轉換為集合。 函式有3個引數：
+
+* （陣列）包含鍵值組
+* （字串）要當作索引鍵使用的欄位名稱
+* （字串）要當作值使用的欄位名稱
+
+>[!BEGINSHADEBOX]
+
+範例：
+
+給定陣列：
+
+```
+[{"name":"Bob", "age":22}, {"name":"Tim", "age":23}]
+```
+
+和引數
+
+```
+{{toCollection(6.array; "name"; "age")}}
+```
+
+函式傳回
+
+```
+{
+    "Bob": 22,
+    "Tim": 23
+}
+```
+
+>[!ENDSHADEBOX]
 
 ## toArray
 
@@ -161,7 +194,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL arrayDifference [array1, array2, mode]]
+## [!UICONTROL arrayDifference [array1，array2，模式]]
 
 傳回兩個陣列之間的差異。
 

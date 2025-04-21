@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] HubSpot CRM模組可讓您監視 [!
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 0e4986d0d66b98213efabd487e6701f8385161e3
 workflow-type: tm+mt
-source-wordcount: '6203'
+source-wordcount: '7003'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,6 @@ HubSpot CRM聯結器使用下列專案：
 
 ### crm物件
 
-<!--* [Search for CRM objects](#search-for-crm-objects)
-* [Watch CRM objects](#watch-crm-objects)-->
-
 +++ **[!UICONTROL 搜尋CRM物件]**
 
 此搜尋模組會依自訂屬性或查詢來搜尋CRM物件。 若要搜尋產品或條列專案，請使用具有所需自訂範圍的特殊連線。
@@ -208,15 +205,6 @@ HubSpot CRM聯結器使用下列專案：
 +++
 
 ### 記錄（交易、聯絡人和公司）
-
-<!--* [Create a Record](#create-a-record)
-* [[!UICONTROL Create a Record (Legacy)]](#create-a-record-legacy)
-* [[!UICONTROL Delete a Record]](#delete-a-record)
-* [[!UICONTROL Get a Record]](#get-a-record)
-* [[!UICONTROL Get a Record Property]](#get-a-record-property)
-* [List Records](#list-records)
-* [[!UICONTROL Update a Record]](#update-a-record)
-* [[!UICONTROL Watch Records]](#watch-records)-->
 
 +++ **建立記錄**
 
@@ -464,17 +452,6 @@ HubSpot CRM聯結器使用下列專案：
 +++
 
 ### 連絡人
-
-<!--* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
-* [Create/Update a contact](#createupdate-a-contact)
-* [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
-* [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
-* [[!UICONTROL List Contacts]](#list-contacts)
-* [[!UICONTROL List Contacts of a Company]](#list-contacts-of-a-company)
-* [[!UICONTROL Merge contacts]](#merge-contacts)
-* [[!UICONTROL Remove a Contact from a List]](#remove-a-contact-from-a-list)
-* [[!UICONTROL Search for Contacts]](#search-for-contacts)
-* [Watch Contacts Added to a List](#watch-contacts-added-to-a-list)-->
 
 +++ **[!UICONTROL 新增連絡人至清單]**
 
@@ -744,9 +721,6 @@ HubSpot CRM聯結器使用下列專案：
 
 ### 交易
 
-<!--* [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
-* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)-->
-
 +++ **[!UICONTROL 取得交易的CRM管道]**
 
 傳回特定交易管道。
@@ -825,11 +799,6 @@ HubSpot CRM聯結器使用下列專案：
 +++
 
 ### 參與
-
-<!--* [Associate an Engagement with a CRM object](#associate-an-engagement-with-a-crm-object)
-* [Create an Engagement](#create-an-engagement)
-* [Delete an Engagement](#delete-an-engagement)
-* [Watch Engagements](#watch-engagements)-->
 
 +++ **將參與與CRM物件建立關聯**
 
@@ -1117,11 +1086,6 @@ HubSpot CRM聯結器使用下列專案：
 
 ### 事件與通知
 
-<!--* [Create / Update a Timeline Event](#create--update-a-timeline-event)
-* [List Timeline Event Types](#list-timeline-event-types)
-* [Watch Calendar Events](#watch-calendar-events)
-* [Watch Notifications](#watch-notifications)-->
-
 +++ **建立/更新時間表事件**
 
 此動作模組會建立或更新時間表事件。 此模組只能與包含使用者識別碼、HubSpot API金鑰、使用者端ID和使用者端密碼的開發人員連線一起使用。
@@ -1253,14 +1217,6 @@ HubSpot CRM聯結器使用下列專案：
 +++
 
 ### 檔案
-
-<!--* [[!UICONTROL Create a Folder]](#create-a-folder)
-* [Delete a File](#delete-a-file)
-* [[!UICONTROL Delete a Folder]](#delete-a-folder)
-* [List Files](#list-files)
-* [[!UICONTROL Move a File]](#move-a-file)
-* [Upload a file](#upload-a-file)
-* [Watch files](#watch-files)-->
 
 +++ **[!UICONTROL 建立資料夾]**
 
@@ -1451,10 +1407,6 @@ HubSpot CRM聯結器使用下列專案：
 
 ### 任務
 
-<!--* [Create a Calendar Task](#create-a-calendar-task)
-* [Delete a Calendar Task](#create-a-calendar-task)
-* [Watch Task Events](#watch-task-events)-->
-
 +++ **建立行事曆工作**
 
 此動作模組會為行事曆建立新任務。 此模組中使用的連線必須使用擁有付費行銷帳戶之使用者的認證。
@@ -1552,9 +1504,6 @@ HubSpot CRM聯結器使用下列專案：
 
 ### 使用者
 
-<!--* [Get an Owner](#get-an-owner)
-* [List Owners](#list-owners)-->
-
 +++ **取得擁有者**
 
 此動作模組會傳回擁有者的詳細資訊。
@@ -1595,13 +1544,6 @@ HubSpot CRM聯結器使用下列專案：
 
 ### 票證
 
-<!--* [Create a Ticket]-->
-<!--* [Delete a Ticket](#delete-a-ticket)-->
-<!--* [Create a Ticket]-->
-<!--* [Create a Ticket]-->
-<!--* [Create a Ticket]-->
-<!--* [Create a Ticket]-->
-
 <!-- Create a Ticket Need to find a working connection-->
 
 +++ **[!UICONTROL 刪除票證]**
@@ -1634,11 +1576,6 @@ HubSpot CRM聯結器使用下列專案：
 <!-- Watch Tickets Need to find a working connection-->
 
 ### 表格
-
-<!--* [Get a File Uploaded via Form](#get-a-file-uploaded-via-form)
-* [List Forms](#list-forms)-->
-<!--* [Submit Data to a Form]-->
-<!--* [Watch Submissions for a Form]-->
 
 +++ **透過表單上傳檔案**
 
@@ -1689,10 +1626,6 @@ HubSpot CRM聯結器使用下列專案：
 &lt;！—####觀看表單提交 — 需要尋找有效連線>—>
 
 ### 社群媒體（廣播）
-
-<!--* [Cancel a Broadcast Message](#cancel-a-broadcast-message)
-* [Create a Broadcast Message](#create-a-broadcast-message)
-* [Watch Broadcast Messages](#watch-broadcast-messages)-->
 
 +++ **取消廣播訊息**
 
@@ -1791,16 +1724,90 @@ HubSpot CRM聯結器使用下列專案：
 
 ### 部落格貼文
 
-<!--* [Create a Blog Post]-->
-<!--* [Delete a Blog Post](#delete-a-blog-post)-->
-<!--* [List Blog Posts]-->
-&lt;！—* [發佈/取消發佈部落格](#publish--unpublish-a-blog-post)—>
-<!--* [Watch Blog Posts]-->
++++ **建立部落格**
 
-<!--
-#### Create a Blog Post May need connection
--->
+此動作模組會建立新的部落格。
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">姓名</td> 
+   <td>輸入或對映文章標題（文章的內部名稱）。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">貼文內文</td> 
+   <td>以HTML格式輸入或對映貼文的主體。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">貼文摘要</td> 
+   <td>輸入或對映貼文的摘要。 此摘要會顯示在主要清單頁面上。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">部落格作者ID</td> 
+   <td>輸入或對映與貼文相關聯的作者ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">內容群組識別碼</td> 
+   <td>輸入或對應此文章所屬部落格的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">頁尾HTML</td> 
+   <td>輸入或對應內嵌程式碼或JavaScript的HTML ，這些程式碼或指令碼應放置在頁面的標籤之前。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">HTML負責人</td> 
+   <td>輸入或對應應該放在頂端的內嵌程式碼或JavaScript的HTML。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">行銷活動ID</td> 
+   <td>輸入或對應與此貼文相關聯之行銷活動的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">精選影像</td> 
+   <td>輸入或對應此貼文將用作精選影像的影像URL。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">關鍵字</td> 
+   <td>針對您想要新增至此文章的每個關鍵字，按一下<b>新增專案</b>並輸入關鍵字和關鍵字GUID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">中繼說明</td> 
+   <td>輸入或對應頁面上<code>meta</code>標籤的文字。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">發佈日期</td> 
+   <td>輸入或對應部落格發佈的日期。 <p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">在[!DNL Adobe Workfront Fusion]</a>中鍵入強制。</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">姓名</td> 
+   <td>啟用此選項可在建立部落格時立即發佈。 若設為「是」，此選項會忽略「發佈日期」欄位。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">概要</td> 
+   <td>輸入或對映貼文的概要。 此概要會附加至網域的結尾，以形成部落格的URL。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">主題ID</td> 
+   <td>針對您想要新增至文章的每個主題，按一下<b>新增專案</b>並輸入主題ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">使用精選影像</td> 
+   <td>啟用此選項以使用部落格的精選影像。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">小工具</td> 
+   <td>輸入或對應包含此部落格所有模組日期的資料結構。 這指的是部落格的模組，而非Fusion模組。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
 
 +++ **刪除部落格**
 
@@ -1823,9 +1830,70 @@ HubSpot CRM聯結器使用下列專案：
 
 +++
 
-<!--#### List Blog Posts May need connection
++++ **列出部落格**
 
-This search module retrieves posts from a HubSpot blog.-->
+此搜尋模組會從HubSpot部落格擷取文章。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">限制</td> 
+   <td>輸入或對應一個執行週期中要傳回的部落格數目上限。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">已封存</td> 
+   <td>啟用此選項以在您的結果中包含已封存的貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">部落格作者ID</td> 
+   <td>輸入或對映作者的ID以傳回與該作者相關聯的貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">行銷活動ID</td> 
+   <td>輸入或對應行銷活動的ID以傳回與該行銷活動相關聯的貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">內容群組識別碼</td> 
+   <td>輸入或對應部落格ID以傳回與該部落格相關聯的文章。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">姓名</td> 
+   <td>輸入貼文名稱，以僅傳回具有該名稱的貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">依已建立專案篩選</td> 
+   <td>選取篩選以依據建立的時間值傳回貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">依已更新內容篩選</td> 
+   <td>選取「篩選」以依據更新的時間值傳回貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">依已刪除專案篩選</td> 
+   <td>選取「篩選」以依據刪除的時間值傳回貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">概要</td> 
+   <td>輸入或對映概要，以傳回符合該概要的貼文。 此概要會附加至網域的結尾，以形成部落格的URL。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">狀態</td> 
+   <td>選取狀態(「草稿」(Draft)、「已發佈」(Published)或「已排程」(Scheduled))以僅包含處於該狀態的結果。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">依發佈日期排序</td> 
+   <td>選取要依發佈日期遞增或遞減排序結果。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
 
 +++ **發佈/取消發佈部落格**
 
@@ -1852,7 +1920,70 @@ This search module retrieves posts from a HubSpot blog.-->
 
 +++
 
-<!--#### Watch Blog PostsMay need connection-->
++++ **觀看部落格**
+
+建立、更新或刪除符合您設定之條件的部落格時，此觸發模組就會啟動案例。
+
+
+
+此搜尋模組會從HubSpot部落格擷取文章。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">限制</td> 
+   <td>輸入或對應一個執行週期中要傳回的部落格數目上限。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">已封存</td> 
+   <td>啟用此選項以在您的結果中包含已封存的貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">部落格作者ID</td> 
+   <td>輸入或對映作者的ID以傳回與該作者相關聯的貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">行銷活動ID</td> 
+   <td>輸入或對應行銷活動的ID以傳回與該行銷活動相關聯的貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">內容群組識別碼</td> 
+   <td>輸入或對應部落格ID以傳回與該部落格相關聯的文章。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">姓名</td> 
+   <td>輸入貼文名稱，以僅傳回具有該名稱的貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">依已建立專案篩選</td> 
+   <td>選取篩選以依據建立的時間值傳回貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">依已更新內容篩選</td> 
+   <td>選取「篩選」以依據更新的時間值傳回貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">依已刪除專案篩選</td> 
+   <td>選取「篩選」以依據刪除的時間值傳回貼文。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">概要</td> 
+   <td>輸入或對映概要，以傳回符合該概要的貼文。 此概要會附加至網域的結尾，以形成部落格的URL。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">狀態</td> 
+   <td>選取狀態(「草稿」(Draft)、「已發佈」(Published)或「已排程」(Scheduled))以僅包含處於該狀態的結果。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
 
 <!--+++**Workflows**>
 
@@ -1868,9 +1999,6 @@ This search module retrieves posts from a HubSpot blog.-->
 <!--+++-->
 
 ### 訂閱
-
-<!--* [Update Email Subscription](#update-email-subscription)
-* [Watch Subscriptions Timeline for a Portal](#watch-subscriptions-timeline-for-a-portal)-->
 
 +++ **更新電子郵件訂閱**
 

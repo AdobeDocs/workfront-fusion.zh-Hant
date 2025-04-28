@@ -4,9 +4,9 @@ description: 您可以還原案例的先前版本。 這可讓您變更情境，
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-source-git-commit: 18bbd77630eafac0cb293c3a6f658a74b622bdae
+source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,8 @@ ht-degree: 1%
 1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。****
 
    建議您提供名稱，說明針對此版本所做的變更。
-1. （選擇性）若要還原版本，請按一下該版本行上的[還原![更多功能表](assets/more-icon-vertical.png)]
+1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]****。
+1. （選擇性）若要還原版本，請按一下該版本行上的&#x200B;**還原**
 
 
    >[!NOTE]

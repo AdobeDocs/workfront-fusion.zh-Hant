@@ -4,9 +4,9 @@ description: 本文說明將模組新增至案例的基本程式。
 author: Becky
 feature: Workfront Fusion
 exl-id: f3757468-3e11-4862-a83e-ed447805545b
-source-git-commit: 55fe4bc46bc50ad9ccfd1b234e89028cf3cd12d5
+source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -46,7 +46,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 如需有關觸發模組的詳細資訊，請參閱文章模組概觀上的[觸發模組](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules)。
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 按一下畫面右上角的&#x200B;**建立新情境**，開始建立情境。
 
    情境編輯器隨即開啟，其中含有預留位置（問號）模組和可用聯結器的清單。
@@ -84,8 +84,7 @@ ht-degree: 0%
 
 ## 將另一個模組新增至情境
 
-1. 如果您不在您要新增模組的情境的情境編輯器中，請按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;標籤。
-1. 選取您要匯出Blueprint的情境。
+1. 如果您不在您要新增模組的情境的情境編輯器中，請按一下左側面板中的&#x200B;**[!UICONTROL 情境]**&#x200B;索引標籤。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 若要將模組新增至另一個模組，請將滑鼠游標停留在模組的右側控制代碼上，之後您要新增模組，然後在其出現時按一下[新增另一個模組] ****。
 
@@ -98,8 +97,7 @@ ht-degree: 0%
 
 ## 在情境中的現有模組之間插入模組
 
-1. 如果您不在您要新增模組的情境的情境編輯器中，請按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;標籤。
-1. 選取您要匯出Blueprint的情境。
+1. 如果您不在您要新增模組的情境的情境編輯器中，請按一下左側面板中的&#x200B;**[!UICONTROL 情境]**&#x200B;索引標籤。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 按一下您要插入模組的模組之間的虛線路徑。
 1. 在出現的功能表中，選取&#x200B;**新增模組**。

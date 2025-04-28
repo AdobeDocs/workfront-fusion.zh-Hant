@@ -4,9 +4,9 @@ description: 您可以在Adobe Workfront Fusion中複製模組、模組群組或
 author: Becky
 feature: Workfront Fusion
 exl-id: 5cece7d4-b2c7-4276-8a6f-f65bad799c7a
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -44,7 +44,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -77,18 +77,18 @@ ht-degree: 0%
 
 複製模組群組類似於複製單一模組。
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要複製模組的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 以滑鼠右鍵按一下要複製的模組。
 
    >[!NOTE]
    >
-   >您可以按住[!UICONTROL shift]並按一下您要複製的模組，以選取多個模組。 複製模組群組也會複製它們之間的任何連線線、篩選器或路由邏輯。
+   >按住[!UICONTROL Shift]並按一下您要複製的模組，即可選取多個模組。 複製模組群組也會複製它們之間的任何連線線、篩選器或路由邏輯。
 
-1. 選取&#x200B;**[!UICONTROL Copy module]**。
+1. 選取&#x200B;**[!UICONTROL 複製模組]**。
 1. 將游標移至您要複製情境的情境區域。
-1. 按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL Paste]**。
+1. 按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 貼上]**。
 1. 將貼上的模組拖曳至情境中的適當位置，以將模組連結至情境。
 
    您也可以使用鍵盤快速鍵來複製和貼上。
@@ -99,17 +99,17 @@ ht-degree: 0%
 
 1. 開啟案例詳細資訊頁面：
 
-   1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenario]**&#x200B;標籤，然後按一下您想要詳細資訊的案例。
+   1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤，然後按一下您想要瞭解詳細資訊的案例。
 
       或
 
       如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
 
-1. 以滑鼠右鍵按一下頁面右上角的&#x200B;**[!UICONTROL Options]**。
-1. 選取&#x200B;**[!UICONTROL Clone]**。
+1. 以滑鼠右鍵按一下頁面右上角的&#x200B;**[!UICONTROL 選項]**。
+1. 選取&#x200B;**[!UICONTROL 複製]**。
 1. （選擇性）輸入新情境的名稱。
-1. （選擇性）啟用&#x200B;**[!UICONTROL Keep the states of any new modules the same as those being duplicated]**&#x200B;以確保複製的案例也包含原始案例處理之最近記錄的相關資訊。
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;以建立情境。
+1. （選擇性）啟用&#x200B;**[!UICONTROL 保持任何新模組的狀態與要複製的模組的狀態相同]**，以確保複製的案例也包含原始案例所處理之最近記錄的資訊。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以建立情境。
 
 ## 使用藍圖複製案例
 
@@ -119,13 +119,17 @@ ht-degree: 0%
 
 ### 匯出情境藍圖
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要匯出Blueprint的情境。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 在案例中，按一下案例設定區域中的&#x200B;**[!UICONTROL More]**&#x200B;功能表。
-1. 按一下&#x200B;**[!UICONTROL Export Blueprint]**。
+1. 在案例中，按一下案例設定區域中的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。
+1. 按一下&#x200B;**[!UICONTROL 匯出Blueprint]**。
 
    會建立JSON檔案並下載至您的電腦。 您可以在[!DNL Downloads]資料夾中找到此檔案。
+
+>[!NOTE]
+>
+>若要匯出舊版案例的藍圖，請參閱[檢視和管理案例版本](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md)。
 
 ### 匯入Blueprint
 
@@ -134,13 +138,13 @@ ht-degree: 0%
 >如果您將藍圖匯入現有情境，情境藍圖會取代現有情境。 您無法將藍圖附加至現有情境。
 
 1. 開始建立新情境。
-1. 在案例中，按一下案例設定區域中的&#x200B;**[!UICONTROL More]**&#x200B;功能表。
-1. 按一下&#x200B;**[!UICONTROL Import Blueprint]**。
-1. 在出現的對話方塊中，按一下&#x200B;**[!UICONTROL Browse]**
-1. 導覽至您要匯入的Blueprint，然後按一下&#x200B;**[!UICONTROL Open]**。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 在案例中，按一下案例設定區域中的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。
+1. 按一下&#x200B;**[!UICONTROL 匯入Blueprint]**。
+1. 在出現的對話方塊中，按一下&#x200B;**[!UICONTROL 瀏覽]**
+1. 導覽至您要匯入的藍圖，然後按一下&#x200B;**[!UICONTROL 開啟]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
-   會建立JSON檔案並下載至您的電腦。 您可以在[!UICONTROL Downloads]資料夾中找到此檔案。
+   會建立JSON檔案並下載至您的電腦。 您可以在[!UICONTROL 下載]資料夾中找到此檔案。
 
 ## 使用範本複製和重複使用案例
 

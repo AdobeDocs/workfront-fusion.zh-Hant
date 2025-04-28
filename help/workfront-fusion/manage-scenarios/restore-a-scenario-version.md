@@ -1,19 +1,19 @@
 ---
-title: 還原案例版本
-description: 您可以還原案例的先前版本。 這可讓您變更情境，然後如果您偏好先前功能，輕鬆還原這些變更。
+title: 檢視和管理案例版本
+description: 您可以檢視、還原、重新命名或下載情境舊版的Blueprint。
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
+source-git-commit: 2270b386bbf62cfc3b82bd4f9c293b36d3b7a35a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '298'
 ht-degree: 1%
 
 ---
 
 # 檢視和管理案例版本
 
-您可以檢視、還原或重新命名案例的先前版本。
+您可以檢視、還原、重新命名或下載情境舊版的Blueprint。
 
 ## 存取需求
 

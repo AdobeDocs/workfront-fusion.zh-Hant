@@ -4,9 +4,9 @@ description: 您可以使用Adobe Workfront Fusion Adobe Workfront聯結器在Wo
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 7287e0460318cf5328e703af7ecc948b1ce62257
+source-git-commit: 6fa7ab493112351d9480b21b23b3b6b7b14f2230
 workflow-type: tm+mt
-source-wordcount: '7795'
+source-wordcount: '7823'
 ht-degree: 2%
 
 ---
@@ -973,7 +973,7 @@ Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變�
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!DNL Attach Custom Form]</td> 
-   <td>選取您要附加到新記錄的自訂表單。 選取表單後，輸入表單上欄位的資料。</td> 
+   <td>選取您要在新記錄上提供欄位值的自訂表單。 選取表單後，輸入表單上欄位的資料。<p> 若要為您要附加在此模組中的表單提供欄位值，請在要對應的欄位區段中加入自訂表單ID。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1438,7 +1438,7 @@ See a list of the Workfront object types for which you can use this module in [W
    <td> </td> 
   </tr> 
   <tr> 
-   <td>小時</td> 
+   <td>時數</td> 
    <td> </td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1773,7 +1773,7 @@ See a list of the Workfront object types for which you can use this module in [W
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>小時</td> 
+   <td>時數</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -2097,7 +2097,7 @@ See a list of the Workfront object types for which you can use this module in [W
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>小時</td> 
+   <td>時數</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 

@@ -4,10 +4,10 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 9e741dce-05a6-4e13-8d58-fbe3b4900d7e
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: f02c4df01c7fad6bb9cdf4911512eef97e71c82b
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 0%
+source-wordcount: '918'
+ht-degree: 1%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 ## 存取需求
 
++++ 展開以檢視本文中功能的存取需求。
+
 您必須具有下列存取權才能使用本文中的功能：
 
 <table style="table-layout:auto">
@@ -26,35 +28,37 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求</p>
    <p>或</p>
-   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion]工作自動化與整合] </p>
+   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -92,12 +96,15 @@ Box聯結器使用下列專案：
 
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-### 觸發器
+* [觸發程序](#triggers)
+* [動作](#actions)
 
-* [[!UICONTROL New event]](#new-event)
-* [[!UICONTROL Watch files]](#watch-files)
+### 觸發程序
 
-#### [!UICONTROL New event]
+* [[!UICONTROL 新事件]](#new-event)
+* [[!UICONTROL 觀看檔案]](#watch-files)
+
+#### [!UICONTROL 新事件]
 
 此即時觸發模組會在檔案新增、移動、複製、刪除、鎖定或解除鎖定時啟動案例。
 
@@ -106,17 +113,17 @@ Box聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td> <p>選取您要用來觀看外寄郵件的webhook。 若要新增webhook，請按一下<strong>[!UICONTROL Add]</strong>並輸入webhook的名稱和連線。</p> <p> 如需有關將您的[!UICONTROL Box]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">連線到服務 — 基本指示</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Webhook]</td> 
+   <td> <p>選取您要用來觀看外寄郵件的webhook。 若要新增webhook，請按一下<strong>[！UICONTROL新增]</strong>並輸入webhook的名稱和連線。</p> <p> 如需有關將您的[！UICONTROL Box]帳戶連線到[！UICONTROL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">連線到服務 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Maximum number of returned events]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL傳回事件數上限]</p> </td> 
    <td> <p>輸入您希望模組在每個案例執行週期中傳回的最大事件數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch files]
+#### [!UICONTROL 觀看檔案]
 
 此觸發模組會在新增新檔案或更新正在觀看的資料夾中的現有檔案時啟動案例。
 
@@ -125,7 +132,13 @@ Box聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">連接</td> 
    <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  <tr> 
+   <td role="rowheader">資料夾</td> 
+   <td> <p>選取要監視的資料夾。 一個案例可以觀看單一資料夾。</p> 
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">觀看</td> 
    <td> <p>選取您要觀看的檔案型別。</p> 
@@ -143,31 +156,97 @@ Box聯結器使用下列專案：
 
 ### 動作
 
-* [[!UICONTROL Upload]檔案](#upload-a-file)
-* [[!UICONTROL Update a file]](#update-a-file)
-* [[!UICONTROL Delete a file]](#delete-a-file)
-* [[!UICONTROL Get a file]](#get-a-file)
+* [[!UICONTROL 刪除檔案]](#delete-a-file)
+* [[!UICONTROL 取得檔案]](#get-a-file)
+* [[!UICONTROL 更新檔案]](#update-a-file)
+* [[!UICONTROL 上傳]檔案](#upload-a-file)
 
-#### [!UICONTROL Upload a file]
+#### [!UICONTROL 刪除檔案]
 
-此動作模組會上傳檔案。
-
-您指定檔案。 您也可以為檔案提供新的檔案名稱。
-
-模組會傳回檔案ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
-當您設定此模組時，會顯示下列欄位。
+此動作模組會刪除檔案。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td>輸入或對應您要模組刪除之檔案的唯一ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 取得檔案]
+
+此動作模組會下載檔案。
+
+您指定檔案的ID。
+
+>[!NOTE]
+>
+>此模組對於提供檔案給後續模組相當實用。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td>輸入或對應您要模組擷取之檔案的唯一ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 更新檔案]
+
+此動作模組會更新檔案。
+
+您指定檔案的ID。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td>輸入或對應您要模組更新的檔案唯一ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 上傳檔案]
+
+此動作模組會上傳檔案。
+
+您指定檔案。 您也可以為檔案提供新的檔案名稱。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
+   <td> <p>選取您要上傳檔案的資料夾。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -178,104 +257,4 @@ Box聯結器使用下列專案：
 >如果此模組不成功，請考慮下列事項：
 >
 >* 檔案大小可能超過您[!DNL Box]計畫的檔案大小上限，或者您已使用所有[!DNL Box]帳戶的儲存配額。 若要取得更多儲存空間，請從[!DNL Box]刪除現有檔案，或升級您的[!DNL Box]帳戶。
->* [!DNL Box]不會將多個同名檔案上傳至單一資料夾。 如果目的地資料夾包含與正在上傳的檔案同名的檔案，則案例執行會以錯誤終止。 若要避免此情況，請重新命名檔案。 若要更新檔案，請使用&#x200B;**[!UICONTROL Update a file]**&#x200B;模組。
-
-#### [!UICONTROL Update a file]
-
-此動作模組會更新檔案。
-
-您指定檔案的ID。
-
-模組會傳回檔案ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
-當您設定此模組時，會顯示下列欄位。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>輸入或對應您要模組更新的檔案唯一ID。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete a file]
-
-此動作模組會刪除檔案。
-
-您指定檔案的ID。
-
-模組會傳回檔案ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
-當您設定此模組時，會顯示下列欄位。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>輸入或對應您要模組更新的檔案唯一ID。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a file]
-
-此動作模組會下載檔案。
-
-您指定檔案的ID。
-
-模組會傳回檔案ID和任何關聯欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
-
->[!NOTE]
->
->此模組對於提供檔案給後續模組相當實用。
-
-當您設定此模組時，會顯示下列欄位。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>輸入或對應您要模組更新的檔案唯一ID。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-<!--
-<h2>Possible problems</h2>
-
-<p style="color: #ff1493;">This is drafted out because we don't have a download module for Box yet</p>
-
-
-<h3>Watch files trigger module doesn't download a file contained in the folder.</h3>
-
-<p>There are several situations when downloading a file fails:</p>
-
-
-
-  <li>The current file lock setting does not allow the file to be downloaded or the downloading of the file is disabled. In this case, the file is ignored.</li>
-
-
-
-  <li>When the scenario started, the file was being uploaded to the server and was not ready to be downloaded. The scenario run gets stopped and Workfront Fusion tries downloading the file again during the next execution of the scenario.</li>
-  
--->
+>* [!DNL Box]不會將多個同名檔案上傳至單一資料夾。 如果目的地資料夾包含與正在上傳的檔案同名的檔案，則案例執行會以錯誤終止。 若要避免此情況，請重新命名檔案。 若要更新檔案，請使用&#x200B;**[!UICONTROL 更新檔案]**&#x200B;模組。

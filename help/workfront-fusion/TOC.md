@@ -2,10 +2,10 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: a23517da30b4e51ef55bcc13241a03cd1d6153a0
+source-git-commit: 6ebfd07e24f77bd8c162d53554ddf1fcaefafeb8
 workflow-type: tm+mt
-source-wordcount: '1737'
-ht-degree: 2%
+source-wordcount: '1744'
+ht-degree: 3%
 
 ---
 
@@ -13,9 +13,10 @@ ht-degree: 2%
 # Adobe Workfront Fusion 文件 {#using}
 
 * [Adobe Workfront Fusion檔案](home.md)
-* Fusion發行活動{#fusion-release-activity}
+* Fusion發行活動 {#fusion-release-activity}
    * [Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion版本 — 2025 {#fusion-releases-2025}
+      * [Workfront Fusion發行活動： 2025年4月21日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-4-21.md)
       * [Workfront Fusion發行活動： 2025年4月14日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-4-14.md)
       * [Workfront Fusion發行活動： 2025年3月31日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-3-31.md)
       * [Workfront Fusion發行活動： 2025年3月10日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-3-10.md)
@@ -139,13 +140,13 @@ ht-degree: 2%
       * [變更設定檔設定](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/change-profile-settings.md)
 * 設定和管理Workfront Fusion {#set-up-and-manage-fusion}
    * [設定和管理Workfront Fusion](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-workfront-fusion-toc.md)
-   * 授權與作業概述{#licensing-and-operations-overviews}
+   * 授權與營運概述 {#licensing-and-operations-overviews}
       * [授權與營運概述](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/licensing-operations-overviews.md)
       * [Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
       * [營運](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md)
-   * 設定及管理組織和團隊{#set-up-and-manage-orgs-and-teams}
+   * 設定及管理組織和團隊 {#set-up-and-manage-orgs-and-teams}
       * [設定及管理組織和團隊：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-and-manage-orgs-and-teams.md)
-      * 設定組織和團隊{#set-up-orgs-teams-and-users}
+      * 設定組織和團隊 {#set-up-orgs-teams-and-users}
          * [設定組織、團隊和使用者：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-orgs-and-teams.md)
          * [組織和團隊概觀](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md)
          * [在組織的允許清單中設定Fusion的IP位址](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)
@@ -154,23 +155,23 @@ ht-degree: 2%
          * [新增使用者至團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-a-user-to-a-team.md)
          * [設定團隊通知選項](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.md)
          * [檢視組織的活動記錄](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.md)
-      * 管理使用者和團隊{#manage-users-and-teams}
+      * 管理使用者和團隊 {#manage-users-and-teams}
          * [管理使用者和團隊：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/manage-users-and-teams.md)
          * [檢視或編輯使用者詳細資訊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-details.md)
          * [檢視或編輯使用者角色](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.md)
          * [在Adobe Admin Console中刪除使用者](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/delete-users-admin-console.md)
    * 管理範本 {#manage-templates-admin}
       * [管理範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/manage-templates-toc.md)
-      * [批准或不批准範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/approve-templates.md)
+      * [核准或不核准範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/approve-templates.md)
       * [編輯範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/edit-templates.md)
-* 建立案例{#create-scenarios}
+* 建立案例 {#create-scenarios}
    * [建立案例](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)
-   * 計畫案例{#plan-a-scenario}
+   * 計畫情境 {#plan-a-scenario}
       * [計畫案例：文章索引](/help/workfront-fusion/create-scenarios/plan-a-scenario/plan-a-scenario-toc.md)
       * [情境規劃常見問題集](/help/workfront-fusion/create-scenarios/plan-a-scenario/faq.md)
       * [影片概述](/help/workfront-fusion/create-scenarios/plan-a-scenario/fusion-basics-videos.md)
       * [建立情境的工作流程](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md)
-   * 新增模組{#add-modules}
+   * 新增模組 {#add-modules}
       * [新增模組](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md)
       * [將模組新增至情境](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-basic.md)
       * [設定模組](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md)
@@ -182,14 +183,14 @@ ht-degree: 2%
       * [新增路由器模組並設定路由](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)
       * [將篩選器新增至案例](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md)
       * [選擇觸發程式模組的開始位置](/help/workfront-fusion/create-scenarios/add-modules/choose-where-trigger-module-starts.md)
-   * 對應資料{#map-data}
+   * 對應資料 {#map-data}
       * [對應資料](/help/workfront-fusion/create-scenarios/map-data/map-data-toc.md)
       * [將資訊從一個模組對應至另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)
       * [使用函式對應專案](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md)
       * [對應陣列和陣列元素](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md)
       * [在模組之間對應檔案](/help/workfront-fusion/create-scenarios/map-data/map-files.md)
       * [資料儲存區](/help/workfront-fusion/create-scenarios/map-data/data-stores.md)
-   * 連線到應用程式{#connect-to-applications}
+   * 連線至應用程式 {#connect-to-applications}
       * [連線至應用程式](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-apps-toc.md)
       * [建立連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connection-instruction-toc.md)
       * [建立連線 — 基本指示](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
@@ -198,19 +199,19 @@ ht-degree: 2%
       * [使用自訂OAuth使用者端連線Adobe Workfront Fusion至Google Services](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md)
       * [呼叫MS Graph REST API](/help/workfront-fusion/create-scenarios/connect-to-apps/call-the-ms-graph-rest-api.md)
       * [管理連線](/help/workfront-fusion/create-scenarios/connect-to-apps/manage-connections.md)
-   * 設定錯誤處理{#configure-error-handling}
+   * 設定錯誤處理 {#configure-error-handling}
       * [設定錯誤處理](/help/workfront-fusion/create-scenarios/config-error-handling/config-error-handling-toc.md)
       * [新增錯誤處理](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md)
       * [新增篩選和巢狀至錯誤處理路由](/help/workfront-fusion/create-scenarios/config-error-handling/advanced-error-handling.md)
       * [設定擲回錯誤因應措施](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md)
       * [設定重試錯誤處理方法](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
       * [解決Break指示詞處理的錯誤](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md)
-   * 設定案例設定{#configure-scenario-settings}
+   * 設定案例設定 {#configure-scenario-settings}
       * [設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/config-scenario-settings-toc.md)
       * [排程情境](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md)
       * [設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)
       * [將附註新增至情境](/help/workfront-fusion/create-scenarios/config-scenarios-settings/add-notes-to-scenario.md)
-* 管理案例{#manage-scenarios}
+* 管理案例 {#manage-scenarios}
    * [管理案例](/help/workfront-fusion/manage-scenarios/manage-scenarios-toc.md)
    * [管理連線](/help/workfront-fusion/manage-scenarios/manage-connections.md)
    * [啟用或停用案例](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md)
@@ -218,21 +219,21 @@ ht-degree: 2%
    * [還原案例版本](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md)
    * [將模組更新至新版本](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md)
    * [管理鎖定的案例](/help/workfront-fusion/manage-scenarios/view-manage-locked-scenario.md)
-   * [檢視並解決未完成的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)
-   * [檢視方案的執行歷史記錄](/help/workfront-fusion/manage-scenarios/view-scenario-execution-history.md)
-   * [在正在運行的方案中檢視數據流](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
-   * [檢視网络鉤子的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
+   * [檢視和解決未完成的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)
+   * [檢視案例的執行歷史記錄](/help/workfront-fusion/manage-scenarios/view-scenario-execution-history.md)
+   * [檢視執行中案例的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
+   * [檢視Webhook的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
    * [Workfront Fusion中的AI助理](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
    * [執行案例評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
    * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
-* 建置練習案例{#build-practice-scenarios}
+* 建立實務案例 {#build-practice-scenarios}
    * [建立實務案例](/help/workfront-fusion/build-practice-scenarios/build-practice-scenarios-toc.md)
    * [建立基本情境](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md)
    * [將觸發程式模組新增至基本情境](/help/workfront-fusion/build-practice-scenarios/add-trigger-to-basic-scenario.md)
    * [使用函式在基本情境中更新專案](/help/workfront-fusion/build-practice-scenarios/use-function-to-build-practice-scenario.md)
    * [將篩選器新增至基本情境](/help/workfront-fusion/build-practice-scenarios/add-filter-basic-scenario.md)
    * [將webhook新增至基本情境](/help/workfront-fusion/build-practice-scenarios/add-a-webhook-to-basic-scenario.md)
-* 建立和管理範本{#create-and-manage-templates}
+* 建立和管理範本 {#create-and-manage-templates}
    * [建立和管理範本](/help/workfront-fusion/create-and-manage-templates/create-manage-templates-toc.md)
    * [建立新範本](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md)
    * [使用範本建立案例](/help/workfront-fusion/create-and-manage-templates/create-scenarios-with-fusion-templates.md)
@@ -240,33 +241,33 @@ ht-degree: 2%
    * [發佈和共用範本](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md)
    * [目前可用的Adobe Workfront Fusion範本](/help/workfront-fusion/create-and-manage-templates/currently-available-fusion-templates.md)
    * [[!DNL Adobe Workfront Fusion]範本常見問答](/help/workfront-fusion/create-and-manage-templates/fusion-templates-faqs.md)
-* 參考{#references}
+* 參考 {#references}
    * [參考](/help/workfront-fusion/references/references-toc.md)
-   * 授權和角色{#licenses-and-roles}
+   * 授權和角色 {#licenses-and-roles}
       * [授權和角色參考：文章索引](/help/workfront-fusion/references/licenses-and-roles/licenses-and-roles-index.md)
       * [說明檔案中的存取需求](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)
       * [組織和團隊角色](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md)
-   * 案例{#scenarios}
+   * 情境 {#scenarios}
       * [情境](/help/workfront-fusion/references/scenarios/scenarios-toc.md)
       * [Fusion效能護欄](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md)
       * [案例執行流程](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md)
       * [案例執行、週期和階段](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md)
       * [使用大型檔案](/help/workfront-fusion/references/scenarios/fusion-large-files.md)
-   * 模組{#modules}
+   * 模組 {#modules}
       * [模組](/help/workfront-fusion/references/modules/modules-toc.md)
       * [Webhook （即時觸發器）](/help/workfront-fusion/references/modules/webhooks-reference.md)
       * [彙總模組](/help/workfront-fusion/references/modules/aggregator-module.md)
       * [疊代器模組](/help/workfront-fusion/references/modules/iterator-module.md)
       * [HTTP要求方法](/help/workfront-fusion/references/modules/http-request-methods.md)
       * [金鑰](/help/workfront-fusion/references/modules/keys.md)
-   * 對應面板{#mapping-panel}
+   * 對應面板 {#mapping-panel}
       * [對應面板](/help/workfront-fusion/references/mapping-panel/mapping-panel-toc.md)
-      * 資料型別{#data-types}
+      * 資料型別 {#data-types}
          * [資料型別](/help/workfront-fusion/references/mapping-panel/data-types/data-types-toc.md)
          * [專案資料型別](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md)
          * [輸入強制](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md)
          * [資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)
-      * 函式{#functions}
+      * 函數 {#functions}
          * [函數](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)
          * [一般函式](/help/workfront-fusion/references/mapping-panel/functions/general-functions.md)
          * [日期和時間函式](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md)
@@ -276,16 +277,16 @@ ht-degree: 2%
          * [數學函式](/help/workfront-fusion/references/mapping-panel/functions/math-functions.md)
          * [數學變數](/help/workfront-fusion/references/mapping-panel/functions/math-variables.md)
          * [陣列函式](/help/workfront-fusion/references/mapping-panel/functions/array-functions.md)
-   * 錯誤{#errors}
+   * 錯誤次數 {#errors}
       * [錯誤次數](/help/workfront-fusion/references/errors/errors-toc.md)
       * [錯誤處理的指示](/help/workfront-fusion/references/errors/directives-for-error-handling.md)
-      * [錯誤類型](/help/workfront-fusion/references/errors/error-processing.md)
-   * 連接 {#connections}
-      * [連接參考：文章索引](/help/workfront-fusion/references/connections/connection-reference-toc.md)
+      * [錯誤型別](/help/workfront-fusion/references/errors/error-processing.md)
+   * 連線 {#connections}
+      * [連線參考：文章索引](/help/workfront-fusion/references/connections/connection-reference-toc.md)
       * [連線中繼資料](/help/workfront-fusion/references/connections/connection-metadata.md)
-   * 應用程式及其模組{#apps-and-their-modules}
+   * 應用程式及其模組 {#apps-and-their-modules}
       * [應用程式及其模組](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)
-      * 通用聯結器{#universal-connectors}
+      * 通用聯結器 {#universal-connectors}
          * [HTTP > [!UICONTROL 提出要求]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-request.md)
          * [[!UICONTROL HTTP] > [!UICONTROL 發出基本授權要求]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-basic-auth-request.md)
          * [[!UICONTROL HTTP] > [!UICONTROL 發出OAuth 2.0請求]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-oauth-2-request.md)
@@ -297,7 +298,7 @@ ht-degree: 2%
          * [sftp模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/sftp.md)
          * [Webhook](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md)
          * [在 [!DNL Adobe Workfront Fusion]的HTTP模組中使用雙向TLS](/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md)
-      * Adobe聯結器{#adobe-connectors}
+      * Adobe聯結器 {#adobe-connectors}
          * [Adobe Acrobat Sign模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-sign-modules.md)
          * [Adobe Authenticator模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md)
          * [Adobe Campaign模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-campaign-classic-connector.md)
@@ -320,7 +321,7 @@ ht-degree: 2%
          * [Adobe Workfront規劃模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-planning-modules.md)
          * [Workfront主機板模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-boards-modules.md)
          * [Workfront Proof模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-proof-modules.md)
-      * 協力廠商應用程式{#third-party-app-connectors}的聯結器
+      * 協力廠商應用程式的聯結器 {#third-party-app-connectors}
          * [可投放模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/airtable-modules.md)
          * [配置模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/allocadia-modules.md)
          * [Anaplan模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/anaplan-modules.md)
@@ -338,10 +339,10 @@ ht-degree: 2%
          * [圖形模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/figma-modules.md)
          * [Github模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/github.md)
          * [gitlab模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gitlab-modules.md)
-         * [Gmail 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gmail-modules.md)
-         * [谷歌日曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-calendar-modules.md)
-         * [Google 文件模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
-         * [谷歌雲端硬碟模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-drive-modules.md)
+         * [Gmail模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gmail-modules.md)
+         * [Google行事曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-calendar-modules.md)
+         * [Google Docs模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
+         * [Google磁碟機模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-drive-modules.md)
          * [Google Forms模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-forms-modules.md)
          * [Google工作表模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-sheets-modules.md)
          * [Google幻燈片模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-slides-modules.md)
@@ -372,7 +373,7 @@ ht-degree: 2%
          * [格線模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/trello-modules.md)
          * [加寬模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/widen-modules.md)
          * [Workday模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/workday-modules.md)
-      * 工具與轉換器{#tools-and-transformers}
+      * 工具與轉換器 {#tools-and-transformers}
          * [封存模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/archive-modules.md)
          * [CSV模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/csv.md)
          * [資料存放區模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md)

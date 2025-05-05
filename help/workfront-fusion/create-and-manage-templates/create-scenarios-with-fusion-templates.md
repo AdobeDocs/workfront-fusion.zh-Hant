@@ -52,7 +52,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -76,6 +76,6 @@ ht-degree: 1%
 
 1. 當您已設定好範本所需的所有設定時，您會收到範本已準備就緒的通知，而標準案例選項會出現在畫面底部。 您現在可以繼續建立情境。
 
-   如需建立情境的相關資訊，請參閱建立情境](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md)的[工作流程。
+   如需建立情境的相關資訊，請參閱建立情境[&#128279;](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md)的工作流程。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;圖示![儲存圖示](assets/save-icon.png)以儲存您的情境。 此情境會儲存至Workfront Fusion的「情境」區域。

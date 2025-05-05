@@ -42,7 +42,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Source檔案]</td> 
+   <td>[!UICONTROL Source檔案]</td> 
    <td> <p>  <p>從先前的模組中選取來源檔案，或對映來源資料。</p></p>  </td> 
   </tr> 
  </tbody> 
@@ -69,31 +69,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Source模組]</td> 
+   <td>[!UICONTROL Source模組]</td> 
    <td> <p> 選取您要從中擷取檔案的模組。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL型別] </td> 
-   <td> <p>選取您要將檔案新增至[！UICONTROL ZIP]、GZIP或[！UICONTROL TAR]封存。</p> </td> 
+   <td>[!UICONTROL 型別] </td> 
+   <td> <p>選取您要將檔案新增至[!UICONTROL ZIP]、GZIP或[!UICONTROL TAR]封存。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL註解]</td> 
+   <td>[!UICONTROL 註解]</td> 
    <td>輸入要新增到封存的註解。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Group by]</td> 
+   <td>[!UICONTROL Group by]</td> 
    <td> <p>定義要將彙總輸出分組依據的運算式。 此運算式可包含一或多個對應專案。 接著，彙總的資料會使用此運算式的值分隔成群組。 每個群組會輸出一個單獨的組合，內含索引鍵（運算式）和值（彙總文字）。 您可以在後續模組中使用該索引鍵作為篩選條件。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL在空白彙總後停止處理]</td> 
+   <td>[!UICONTROL 在空白彙總後停止處理]</td> 
    <td>選取此選項可在沒有結果時停止情境。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL封存名稱]</td> 
+   <td>[!UICONTROL 封存名稱]</td> 
    <td> <p> 輸入已建立封存檔的名稱。 請勿新增副檔名。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Source檔案]</td> 
+   <td>[!UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -121,7 +121,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL資料] </td> 
+   <td>[!UICONTROL 資料] </td> 
    <td> <p>使用deflate函式輸入或對應您要壓縮的資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -136,7 +136,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL資料] </td> 
+   <td>[!UICONTROL 資料] </td> 
    <td> <p>使用膨脹函式，輸入或對應您要解壓縮的資料。</p> </td> 
   </tr> 
  </tbody> 

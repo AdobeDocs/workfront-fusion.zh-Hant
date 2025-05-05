@@ -50,7 +50,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -80,11 +80,11 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出格式]</td> 
+   <td role="rowheader">[!UICONTROL 輸出格式]</td> 
    <td>選取您希望模組將來源檔案轉換成的格式。 </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -114,36 +114,36 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL我要]</td> 
+   <td role="rowheader">[!UICONTROL 我要]</td> 
    <td>選取您要維持高寬比還是將尺寸變更為指定的高度和寬度。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL依據]</td> 
+   <td role="rowheader">[!UICONTROL 依據]</td> 
    <td> <p>選取您希望模組如何決定影像的新大小。 如果您在「我想」欄位中選取要維持高寬比例，此欄位就會顯示。 其他欄位會根據此欄位中的選取專案而顯示。</p> 
     <ul> 
-     <li> <p>[！UICONTROL最大寬度]</p> <p>將影像縮小至您指定的寬度。 高度會自動計算。</p> </li> 
-     <li> <p>[！UICONTROL最大高度]</p> <p>將影像縮小至您指定的高度。 會自動計算寬度。</p> </li> 
-     <li> <p>[！UICONTROL最大高度或寬度]</p> <p>以高度和寬度不超過指定值的方式縮小影像。 因為此選項會維持高寬比，所以其中一個尺寸可能小於指定的尺寸。 例如，如果高度和寬度都指定為40,400x300的影像將會減少為40X30。</p> </li> 
-     <li> <p>[！UICONTROL最小寬度]</p> <p>將影像放大至您指定的寬度。 高度會自動計算。</p> </li> 
-     <li> <p>[！UICONTROL最小高度]</p> <p>將影像放大至您指定的高度。 會自動計算寬度。</p> </li> 
-     <li> <p>[！UICONTROL最小高度或寬度]</p> <p>放大影像的方式使其高度和寬度不小於您指定的值。 因為此選項會維持高寬比，所以其中一個尺寸可能會大於指定的尺寸。 例如，如果高度和寬度都指定為300,40x30影像將會放大為400X300。</p> </li> 
-     <li> <p>[！UICONTROL百分比]</p> <p>根據您指定的值，以百分比變更影像大小。 </p> </li> 
+     <li> <p>[!UICONTROL 最大寬度]</p> <p>將影像縮小至您指定的寬度。 高度會自動計算。</p> </li> 
+     <li> <p>[!UICONTROL 最大高度]</p> <p>將影像縮小至您指定的高度。 會自動計算寬度。</p> </li> 
+     <li> <p>[!UICONTROL 最大高度或寬度]</p> <p>以高度和寬度不超過指定值的方式縮小影像。 因為此選項會維持高寬比，所以其中一個尺寸可能小於指定的尺寸。 例如，如果高度和寬度都指定為40,400x300的影像將會減少為40X30。</p> </li> 
+     <li> <p>[!UICONTROL 最小寬度]</p> <p>將影像放大至您指定的寬度。 高度會自動計算。</p> </li> 
+     <li> <p>[!UICONTROL 最小高度]</p> <p>將影像放大至您指定的高度。 會自動計算寬度。</p> </li> 
+     <li> <p>[!UICONTROL 最小高度或寬度]</p> <p>放大影像的方式使其高度和寬度不小於您指定的值。 因為此選項會維持高寬比，所以其中一個尺寸可能會大於指定的尺寸。 例如，如果高度和寬度都指定為300,40x30影像將會放大為400X300。</p> </li> 
+     <li> <p>[!UICONTROL 百分比]</p> <p>根據您指定的值，以百分比變更影像大小。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL寬度]</td> 
+   <td role="rowheader">[!UICONTROL 寬度]</td> 
    <td>輸入或對應調整大小影像的所需寬度（畫素）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Height]</td> 
+   <td role="rowheader">[!UICONTROL Height]</td> 
    <td>輸入或對應調整大小影像所需的高度（畫素）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL百分比變更]</td> 
+   <td role="rowheader">[!UICONTROL 百分比變更]</td> 
    <td>如果您已選擇以百分比變更影像，請輸入或對應您要以百分比變更影像。</td> 
   </tr> 
  </tbody> 

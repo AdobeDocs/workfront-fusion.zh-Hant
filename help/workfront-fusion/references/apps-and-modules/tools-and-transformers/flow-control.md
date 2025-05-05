@@ -50,7 +50,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -63,15 +63,15 @@ ht-degree: 0%
 
 <table>
     <tr>
-        <td>[！UICONTROL初始值]</td>
+        <td>[!UICONTROL 初始值]</td>
         <td>輸入或對映您希望模組在第一個反複專案中的值。 預設值為1。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL重複]</td>
+        <td>[!UICONTROL 重複]</td>
         <td>輸入或對應您希望模組重複的次數。 此數字必須大於或等於0，且小於或等於10,000。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL步驟]</td>
+        <td>[!UICONTROL 步驟]</td>
         <td>這是模組增加值時所使用的數字。 預設值為1。</td>
     </tr>
 </table>
@@ -120,11 +120,11 @@ ht-degree: 0%
 
 ## [!UICONTROL 路由器]
 
-[!UICONTROL 路由器]模組可讓您將流量分支為數個路由，並以不同方式處理每個路由中的資料。 一旦[!UICONTROL 路由器]模組收到套件組合，它會依照路由附加至[!UICONTROL 路由器]模組的順序將其轉送至每個連線的路由。 如需詳細資訊，請參閱 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)中的[路由器模組。
+[!UICONTROL 路由器]模組可讓您將流量分支為數個路由，並以不同方式處理每個路由中的資料。 一旦[!UICONTROL 路由器]模組收到套件組合，它會依照路由附加至[!UICONTROL 路由器]模組的順序將其轉送至每個連線的路由。 如需詳細資訊，請參閱 [!DNL Adobe Workfront Fusion][&#128279;](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)中的路由器模組。
 
 ## 指令
 
 錯誤處理指示可讓您控制案例對錯誤的反應方式。
 
-如需錯誤處理指示的資訊，請參閱錯誤處理](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的[指示。
+如需錯誤處理指示的資訊，請參閱錯誤處理[&#128279;](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的指示。
 

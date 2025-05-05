@@ -78,7 +78,7 @@ ht-degree: 0%
       <td> <p>輸入連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL GitLab] URL</td> 
+      <td role="rowheader">[!DNL GitLab] URL</td> 
       <td>輸入[!DNL GitLab]執行個體的URL。</td> 
      </tr> 
      <tr> 

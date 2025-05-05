@@ -28,7 +28,7 @@ ht-degree: 0%
 
 如果套件組合正確處理所有模組，情境會在情境詳細資訊頁面中標示為成功。
 
-### 範例：工作自動化]的[!UICONTROL [!DNL Workfront Fusion]
+### 範例：工作自動化的[!DNL Workfront Fusion]
 
 >[!BEGINSHADEBOX]
 

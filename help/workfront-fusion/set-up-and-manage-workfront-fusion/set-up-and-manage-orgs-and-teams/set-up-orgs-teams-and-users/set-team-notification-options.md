@@ -33,7 +33,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：[!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -46,7 +46,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
+   <p>新增：</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[!UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -63,7 +63,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -84,15 +84,15 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">'[！UICONTROL案例執行中的警告]'</td> 
+      <td role="rowheader">'[!UICONTROL 案例執行中的警告]'</td> 
       <td> <p>當案例執行中有警告時收到電子郵件</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">情景執行中的[！UICONTROL錯誤]</td> 
+      <td role="rowheader">情景執行中的[!UICONTROL 錯誤]</td> 
       <td>當案例執行中發生錯誤時收到電子郵件。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL案例停用]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 案例停用]</p> </td> 
       <td><p>當案例停用時收到電子郵件。</p><p>在某些情況下，案例可能會由[!DNL Workfront Fusion]工程團隊停用，因為案例會導致效能或其他問題。 在這些情況下，您不會在[!DNL Workfront Fusion]中收到通知。 </p></td>
 
 </tr>

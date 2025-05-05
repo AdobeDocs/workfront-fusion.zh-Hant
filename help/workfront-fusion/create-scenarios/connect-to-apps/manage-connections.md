@@ -59,7 +59,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -78,11 +78,11 @@ ht-degree: 1%
 1. 若要開啟[連線]區域，請按一下左側導覽中的&#x200B;**連線** ![連線圖示](assets/connections-icon.png)。
 1. 找到您要管理的連線，然後在該連線的行中執行以下一個或多個步驟。
 1. （選擇性）按一下&#x200B;**環境**&#x200B;和&#x200B;**型別**&#x200B;下拉式清單，並選取選項，以指派環境和連線型別。
-1. （選擇性）若要檢視授予Workfront Fusion的連線許可權，請按一下[檢視]圖示![[檢視該連線的連線許可權](assets/view-connection-permissions.png)。
+1. （選擇性）若要檢視授予Workfront Fusion的連線許可權，請按一下[檢視]圖示&lbrack;![檢視該連線的連線許可權](assets/view-connection-permissions.png)。
 1. （選擇性）若要重新命名連線，請反白連線名稱並輸入新名稱。
-1. （選擇性）若要重新授權連線，請按一下[重新授權]。****
+1. （選擇性）若要重新授權連線，請按一下[重新授權]。**&#x200B;**
 1. （選擇性）若要刪除連線，請按一下&#x200B;**刪除**，然後按一下&#x200B;**真的嗎？**。
-1. （選擇性）若要確認與服務的連線已順利建立，請按一下[驗證]。****
+1. （選擇性）若要確認與服務的連線已順利建立，請按一下[驗證]。**&#x200B;**
 
 ## 更新連線
 

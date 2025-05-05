@@ -115,8 +115,8 @@ Box 連接器使用以下方法：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td> <p>選取您要用來觀看外寄訊息的webhook，或新增webhook。 </p><p>若要新增webhook，請按一下<strong>[！UICONTROL新增]</strong>，然後輸入webhook的名稱和連線、您要觀看的檔案以及要觀看的觸發程式。</p> <p> 如需有關將您的[！UICONTROL Box]帳戶連線到[！UICONTROL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">連線到服務 — 基本指示</a>。</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>選取您要用來觀看外寄訊息的webhook，或新增webhook。 </p><p>若要新增webhook，請按一下<strong>[!UICONTROL 新增]</strong>，然後輸入webhook的名稱和連線、您要觀看的檔案以及要觀看的觸發程式。</p> <p> 如需有關將您的[!UICONTROL Box]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">連線到服務 — 基本指示</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,8 +130,8 @@ Box 連接器使用以下方法：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Webhook]</td> 
-   <td> <p>選取您要用來觀看外寄訊息的webhook，或新增webhook。 </p><p>若要新增webhook，請按一下<strong>[！UICONTROL新增]</strong>，然後輸入webhook的名稱和連線、您要監視的資料夾以及要監視的觸發器。</p> <p> 如需有關將您的[！UICONTROL Box]帳戶連線到[！UICONTROL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">連線到服務 — 基本指示</a>。</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>選取您要用來觀看外寄訊息的webhook，或新增webhook。 </p><p>若要新增webhook，請按一下<strong>[!UICONTROL 新增]</strong>，然後輸入webhook的名稱和連線、您要監視的資料夾以及要監視的觸發器。</p> <p> 如需有關將您的[!UICONTROL Box]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">連線到服務 — 基本指示</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,7 +302,7 @@ You specify the file. You can also provide a new filename for the file.
    <td> <p>設置此參數后，用戶可以通過電子郵件將檔發送到為此資料夾自動創建的電子郵件位址。 協作者選項僅允許協作者的註冊電子郵件。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Synchronization State]</td> 
+   <td role="rowheader">[!UICONTROL Synchronization State]</td> 
    <td> <p>指定資料夾是否應該同步至使用者的裝置。 Box Sync （已停用）會使用此功能，Box Drive則不會使用此功能。</p> </td> 
   </tr> 
  </tbody> 
@@ -317,7 +317,7 @@ You specify the file. You can also provide a new filename for the file.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ You specify the file. You can also provide a new filename for the file.
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -369,19 +369,19 @@ You specify the file. You can also provide a new filename for the file.
    <td>輸入相對於<code>https://api.box.com</code>的路徑。 <p>範例： <code>/2.0/users/me</code></p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -399,15 +399,15 @@ You specify the file. You can also provide a new filename for the file.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Box]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL範圍]</td> 
+   <td role="rowheader">[!UICONTROL 範圍]</td> 
    <td> <p>選取您要用於此中繼資料更新的範圍。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾]</td> 
+   <td role="rowheader">[!UICONTROL 資料夾]</td> 
    <td> <p>選取您要更新中繼資料的資料夾。</p> </td> 
   </tr> 
  </tbody> 
@@ -425,7 +425,7 @@ You specify the file. You can also provide a new filename for the file.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>有關將帳戶連接到 [!DNL Box] 的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立連接到 [!DNL Adobe Workfront Fusion] - 基本說明</a>。[!DNL Workfront Fusion]</p> </td> 
   </tr> 
   <tr> 
@@ -437,27 +437,27 @@ You specify the file. You can also provide a new filename for the file.
    <td> <p>選擇是搜索與用戶關聯的內容，其憑據用於此模組中使用的連接，還是搜索與整個企業關聯的內容。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UI控制項類型]</td> 
+   <td role="rowheader">[ !UI控制項類型]</td> 
    <td> <p>選擇是搜索檔、資料夾還是網頁連結。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL排序]</td> 
+   <td role="rowheader">[!UICONTROL 排序]</td> 
    <td> <p>選取您要依關聯性或修改日期排序。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL垃圾桶內容]</td> 
+   <td role="rowheader">[!UICONTROL 垃圾桶內容]</td> 
    <td> <p>選取您要搜尋已清除的內容或尚未清除的內容。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL父資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 父資料夾ID]</td> 
    <td> <p>若要在特定資料夾中搜尋，針對您要搜尋的每個資料夾，按一下[新增專案] <b> </b>並輸入資料夾的識別碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL建立自]</td> 
+   <td role="rowheader">[!UICONTROL 建立自]</td> 
    <td> <p>若要搜尋在特定日期範圍內建立的資產，請輸入範圍中最早的日期。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL建立至]</td> 
+   <td role="rowheader">[!UICONTROL 建立至]</td> 
    <td> <p>若要搜尋在特定日期範圍內建立的資產，請在範圍中輸入最新日期。</p> </td> 
   </tr> 
   <tr> 
@@ -481,15 +481,15 @@ You specify the file. You can also provide a new filename for the file.
    <td> <p>若要搜尋特定大小範圍內的資產，請輸入該範圍的小端（以位元組為單位）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL大小至]</td> 
+   <td role="rowheader">[!UICONTROL 大小至]</td> 
    <td> <p>若要搜尋特定大小範圍內的資產，請輸入範圍的大結尾（位元組）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL擁有者使用者ID]</td> 
+   <td role="rowheader">[!UICONTROL 擁有者使用者ID]</td> 
    <td> <p>若要搜尋特定使用者擁有的資產，請輸入擁有者ID的逗號分隔清單。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個執行週期中傳回的最大結果數量。</p> </td> 
   </tr> 
  </tbody> 

@@ -52,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Key]</td>
+        <td>[!UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
     <tr>
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Key]</td>
+        <td>[!UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
    <tr>
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Key]</td>
+        <td>[!UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
     <tr>
@@ -236,7 +236,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Key]</td>
+        <td>[!UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
    <tr>
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL私密金鑰]</td>
+        <td>[!UICONTROL 私密金鑰]</td>
         <td>選取要用於此簽章的私密金鑰。 若要新增私密金鑰，請按一下[新增] <b></b>，然後輸入金鑰的名稱、金鑰文字和複雜密碼。</td>
     </tr>
     <tr>
@@ -314,15 +314,15 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL私密金鑰]</td>
+        <td>[!UICONTROL 私密金鑰]</td>
         <td>選取要用於此郵件的收件者私密金鑰。 若要新增私密金鑰，請按一下[新增] <b></b>，然後輸入金鑰的名稱、金鑰文字和複雜密碼。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL公開金鑰]</td>
+        <td>[!UICONTROL 公開金鑰]</td>
         <td>輸入寄件者的公開金鑰。 這可以驗證寄件者的身分。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL訊息]</td>
+        <td>[!UICONTROL 訊息]</td>
         <td>對應您要解密的訊息。</td>
     </tr>
 </table>
@@ -333,15 +333,15 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL私密金鑰]</td>
+        <td>[!UICONTROL 私密金鑰]</td>
         <td>輸入寄件者的私密金鑰。 這可以驗證寄件者的身分。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL公開金鑰]</td>
+        <td>[!UICONTROL 公開金鑰]</td>
         <td>輸入收件者的公開金鑰。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL訊息]</td>
+        <td>[!UICONTROL 訊息]</td>
         <td>輸入您要加密的訊息。</td>
     </tr>
     </table>

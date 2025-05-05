@@ -31,7 +31,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：[!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -44,7 +44,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
+   <p>新增：</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[!UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -61,7 +61,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -75,10 +75,10 @@ ht-degree: 1%
 1. 按一下畫面底部的[!UICONTROL 更多]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 舊版]**。
 
    先前版本的清單隨即顯示。
-1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。****
+1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。**&#x200B;**
 
    建議您提供名稱，說明針對此版本所做的變更。
-1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]****。
+1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]&#x200B;**&#x200B;**。
 1. （選擇性）若要還原版本，請按一下該版本行上的&#x200B;**還原**
 
 

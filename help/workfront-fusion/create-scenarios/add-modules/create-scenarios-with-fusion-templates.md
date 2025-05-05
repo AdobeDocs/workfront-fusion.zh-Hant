@@ -52,7 +52,7 @@ Adobe Workfront Fusion範本可讓您建立並使用現有範本，作為Workfro
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -74,8 +74,8 @@ Adobe Workfront Fusion範本可讓您建立並使用現有範本，作為Workfro
    範本的檢視隨即開啟，顯示資訊和資料流程的動畫。
 
 1. 再次按一下情境以開始建立您的情境。
-1. （視條件而定）如果您是多個組織的成員，請選取您要建立情境的組織，然後按一下[繼續]****。
-1. （視條件而定）如果您是多個團隊的成員，請選取您要建立情境的團隊，然後按一下[繼續]。****
+1. （視條件而定）如果您是多個組織的成員，請選取您要建立情境的組織，然後按一下[繼續]&#x200B;**&#x200B;**。
+1. （視條件而定）如果您是多個團隊的成員，請選取您要建立情境的團隊，然後按一下[繼續]。**&#x200B;**
 1. （條件式）如果範本是使用精靈設定的，請依照提示設定情境。 在每次提示時按一下&#x200B;**繼續**&#x200B;以確認。
 
    >[!NOTE]

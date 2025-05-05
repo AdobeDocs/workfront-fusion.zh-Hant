@@ -60,7 +60,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -103,35 +103,35 @@ Marketo聯結器會使用以下專案：
     </col>
     <tbody>
       <tr>
-        <td role="rowheader">[！UICONTROL連線名稱]</td>
+        <td role="rowheader">[!UICONTROL 連線名稱]</td>
         <td>
           <p>輸入新連線的名稱。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL環境]</td>
+        <td role="rowheader">[!UICONTROL 環境]</td>
         <td>
           <p>選取要連線到生產或非生產環境。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL型別]</td>
+        <td role="rowheader">[!UICONTROL 型別]</td>
         <td>
           <p>選取您要連線到服務帳戶還是個人帳戶。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL帳戶/ Munchkin ID]</td>
+        <td role="rowheader">[!UICONTROL 帳戶/ Munchkin ID]</td>
         <td>
-          <p>輸入您的[!DNL Marketo]帳戶或[!DNL Marketo] [！UICONTROL Munchkin] ID。 這是指派給您帳戶的基本URL或端點的唯一部分，您用來透過其[！UICONTROL REST] API存取[!DNL Marketo]。 如需尋找此位置的指示，請參閱[!DNL Marketo]檔案中的[基底URL](https://developers.marketo.com/rest-api/base-url/)。</p>
+          <p>輸入您的[!DNL Marketo]帳戶或[!DNL Marketo] [!UICONTROL Munchkin] ID。 這是指派給您帳戶的基本URL或端點的唯一部分，您用來透過其[!UICONTROL REST] API存取[!DNL Marketo]。 如需尋找此位置的指示，請參閱[!DNL Marketo]檔案中的[基底URL](https://developers.marketo.com/rest-api/base-url/)。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL使用者端ID]</td>
+        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
         <td>輸入您的Marketo使用者端ID。 如需尋找此位置的指示，請參閱[!DNL Marketo]檔案中的[Authentication](https://developers.marketo.com/rest-api/authentication/)。</td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
         <td>輸入您的Marketo使用者端密碼。 如需尋找這些專案的說明，請參閱[!DNL Marketo]檔案中的[驗證](https://developers.marketo.com/rest-api/authentication/)。</td>
       </tr>
      </tbody>
@@ -165,11 +165,11 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Webhook]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
    <td> <p>輸入您希望模組使用的webhook。</p> <p>如需Webhooks的詳細資訊，請參閱<a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md" class="MCXref xref">Webhooks</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -184,24 +184,24 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要建立的記錄型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL活動]</strong> </p> <p>選取您要觀看的活動型別。 </p> <p>模組只會監視新活動。<br></p> </li> 
-     <li> <p><strong>[！UICONTROL銷售機會]</strong> </p> <p>在<b>事件型別</b>欄位中，選取是否要監視新記錄、更新記錄、新記錄和更新記錄，或特定欄位更新。 如果您選取觀看特定欄位更新，請選取您希望模組觀看的欄位。</p> </li> 
-     <li> <p><strong>[！UICONTROL程式]</strong> </p> <p>在<b>事件型別</b>欄位中，選取您要監視新記錄、更新的記錄，或同時監視新記錄和更新的記錄。</p> </li> 
+     <li> <p><strong>[!UICONTROL 活動]</strong> </p> <p>選取您要觀看的活動型別。 </p> <p>模組只會監視新活動。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL 銷售機會]</strong> </p> <p>在<b>事件型別</b>欄位中，選取是否要監視新記錄、更新記錄、新記錄和更新記錄，或特定欄位更新。 如果您選取觀看特定欄位更新，請選取您希望模組觀看的欄位。</p> </li> 
+     <li> <p><strong>[!UICONTROL 程式]</strong> </p> <p>在<b>事件型別</b>欄位中，選取您要監視新記錄、更新的記錄，或同時監視新記錄和更新的記錄。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td> <p>選取您要包含在此模組之輸出組合中的欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -229,16 +229,16 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL清單ID]</td> 
+   <td role="rowheader">[!UICONTROL 清單ID]</td> 
    <td>輸入或對應您要新增潛在客戶之清單的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL銷售機會ID]</td> 
-   <td> <p>針對您要新增至清單的每個銷售機會，按一下<b>[！UICONTROL新增]</b>，然後輸入或對應您要新增的銷售機會ID。 您可以新增最多300個銷售機會，以供模組新增至清單。</p> <p>按一下地圖切換來對應您想要新增到清單中的現有銷售機會集合。</p> </td> 
+   <td role="rowheader">[!UICONTROL 銷售機會ID]</td> 
+   <td> <p>針對您要新增至清單的每個銷售機會，按一下<b>[!UICONTROL 新增]</b>，然後輸入或對應您要新增的銷售機會ID。 您可以新增最多300個銷售機會，以供模組新增至清單。</p> <p>按一下地圖切換來對應您想要新增到清單中的現有銷售機會集合。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,19 +252,19 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL現有計畫ID]</td> 
+   <td role="rowheader">[!UICONTROL 現有計畫ID]</td> 
    <td>輸入或對應您要複製的程式ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL新計畫名稱]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 新計畫名稱]</p> </td> 
    <td> <p>輸入或對應新方案的名稱</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID]</td> 
    <td>輸入或對應您要將新程式放置到的資料夾的ID。</td> 
   </tr> 
  </tbody> 
@@ -279,49 +279,49 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要建立的記錄型別。</p> 
     <ul> 
-     <li> <p>[！UICONTROL公司]</p> </li> 
-     <li> <p>[！UICONTROL資料夾]</p> </li> 
-     <li> <p>[！UICONTROL銷售機會]</p> </li> 
-     <li> <p>[！UICONTROL Program]</p> </li> 
+     <li> <p>[!UICONTROL 公司]</p> </li> 
+     <li> <p>[!UICONTROL 資料夾]</p> </li> 
+     <li> <p>[!UICONTROL 銷售機會]</p> </li> 
+     <li> <p>[!UICONTROL Program]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇要對應的欄位]</td> 
+   <td role="rowheader">[!UICONTROL 選擇要對應的欄位]</td> 
    <td>如果您要建立「公司」或「銷售機會」，請在建立新記錄時選取要設定值的欄位，然後輸入這些欄位的值。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL程式型別]</td> 
+   <td role="rowheader">[!UICONTROL 程式型別]</td> 
    <td>如果您正在建立方案，請選取您要建立的方案型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL計畫頻道] </td> 
+   <td role="rowheader">[!UICONTROL 計畫頻道] </td> 
    <td>如果您正在建立方案，請選取您要建立方案的方案頻道。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾] / [！UICONTROL程式名稱]</td> 
+   <td role="rowheader">[!UICONTROL 資料夾] / [!UICONTROL 程式名稱]</td> 
    <td>如果您正在建立資料夾或程式，請輸入或對應新記錄的名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL說明]</td> 
+   <td role="rowheader">[!UICONTROL 說明]</td> 
    <td> <p>如果您要建立資料夾或程式，請輸入或對應新記錄的描述。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL父資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 父資料夾ID]</td> 
    <td>如果您正在建立資料夾或程式，請輸入或對應您要建立新記錄的父資料夾的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL成本]</td> 
+   <td role="rowheader">[!UICONTROL 成本]</td> 
    <td>如果您正在建立方案，請新增任何成本。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標籤]</td> 
+   <td role="rowheader">[!UICONTROL 標籤]</td> 
    <td>如果您正在建立方案，請新增任何標籤</td> 
   </tr> 
  </tbody> 
@@ -336,27 +336,27 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td>輸入相對於<code>https://{your-base-url}.mktorest.com/</code>的路徑。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[！UICONTROL Workfront Fusion]會為您新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion]會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL欄位]</td> 
+   <td role="rowheader">[!UICONTROL 欄位]</td> 
    <td> <p>針對您想要新增至API呼叫的每個欄位，按一下<b>新增專案</b>並輸入欄位的索引鍵和值。</td> 
   </tr> 
  </tbody> 
@@ -371,11 +371,11 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td role="rowheader">[!UICONTROL 檔案ID]</td> 
    <td>輸入或對應您要下載的檔案ID。</td> 
   </tr> 
  </tbody> 
@@ -390,26 +390,26 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要建立的記錄型別。</p> 
     <ul> 
-     <li> <p>[！UICONTROL行銷活動]</p> </li> 
-     <li> <p>[！UICONTROL公司]</p> </li> 
-     <li> <p>[！UICONTROL銷售機會]</p> </li> 
-     <li> <p>[！UICONTROL清單]</p> </li> 
-     <li> <p>[！UICONTROL Program]</p> </li> 
+     <li> <p>[!UICONTROL 行銷活動]</p> </li> 
+     <li> <p>[!UICONTROL 公司]</p> </li> 
+     <li> <p>[!UICONTROL 銷售機會]</p> </li> 
+     <li> <p>[!UICONTROL 清單]</p> </li> 
+     <li> <p>[!UICONTROL Program]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
-   <td>選取要包含在此模組輸出組合中的資訊。 根據您選取的[！UICONTROL記錄型別]，可以使用欄位。</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td>選取要包含在此模組輸出組合中的資訊。 根據您選取的[!UICONTROL 記錄型別]，可以使用欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL &lt;物件&gt; ID]</td> 
+   <td role="rowheader">[!UICONTROL &lt;物件&gt; ID]</td> 
    <td>輸入或對應您要擷取相關資訊之物件的ID。</td> 
   </tr> 
  </tbody> 
@@ -424,16 +424,16 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL清單ID]</td> 
+   <td role="rowheader">[!UICONTROL 清單ID]</td> 
    <td>輸入或對映您要移除潛在客戶的清單ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL銷售機會ID]</td> 
-   <td> <p>針對您要從清單中移除的每個銷售機會，按一下<b>[！UICONTROL新增專案]</b>，然後輸入或對應您要移除的銷售機會ID。 您最多可以新增300個銷售機會，以便模組從清單中移除。 </p> <p>按一下地圖切換來對應您要從清單中移除的現有銷售機會集合。</p> </td> 
+   <td role="rowheader">[!UICONTROL 銷售機會ID]</td> 
+   <td> <p>針對您要從清單中移除的每個銷售機會，按一下<b>[!UICONTROL 新增專案]</b>，然後輸入或對應您要移除的銷售機會ID。 您最多可以新增300個銷售機會，以便模組從清單中移除。 </p> <p>按一下地圖切換來對應您要從清單中移除的現有銷售機會集合。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -447,15 +447,15 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL促銷活動ID]</td> 
+   <td role="rowheader">[!UICONTROL 促銷活動ID]</td> 
    <td>輸入或對應您要排程之行銷活動的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL日期排程]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 日期排程]</p> </td> 
    <td>選取您要執行行銷活動的日期。 如果此欄位留空，則行銷活動會在情境開始後5分鐘執行。</td> 
   </tr> 
  </tbody> 
@@ -470,48 +470,48 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要建立的記錄型別。</p> 
     <ul> 
-     <li> <p>[！UICONTROL公司]</p> </li> 
-     <li> <p>[！UICONTROL銷售機會]</p> </li> 
-     <li> <p>[！UICONTROL Program]</p> </li> 
+     <li> <p>[!UICONTROL 公司]</p> </li> 
+     <li> <p>[!UICONTROL 銷售機會]</p> </li> 
+     <li> <p>[!UICONTROL Program]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Company] / [！UICONTROL Lead] / [！UICONTROL計畫ID]</td> 
+   <td role="rowheader">[!UICONTROL Company] / [!UICONTROL Lead] / [!UICONTROL 計畫ID]</td> 
    <td>輸入或對應您要更新的記錄ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇要對應的欄位]</td> 
+   <td role="rowheader">[!UICONTROL 選擇要對應的欄位]</td> 
    <td>如果您要更新「公司」或「銷售機會」，請選取要更新值的欄位，然後輸入這些欄位的值。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL程式名稱]</td> 
+   <td role="rowheader">[!UICONTROL 程式名稱]</td> 
    <td>如果您正在更新方案，請輸入或對應方案的新名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL說明]</td> 
+   <td role="rowheader">[!UICONTROL 說明]</td> 
    <td> <p>如果您要更新程式，請輸入或對應程式的新描述。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL開始日期]</td> 
+   <td role="rowheader">[!UICONTROL 開始日期]</td> 
    <td>如果您要更新程式，請輸入或對應程式的新開始日期。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL結束日期]</td> 
+   <td role="rowheader">[!UICONTROL 結束日期]</td> 
    <td>如果您要更新方案，請輸入或對應方案的新結束日期。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL成本]</td> 
+   <td role="rowheader">[!UICONTROL 成本]</td> 
    <td>如果您要更新程式，請新增任何成本。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標籤]</td> 
+   <td role="rowheader">[!UICONTROL 標籤]</td> 
    <td>如果您要更新程式，請新增任何標籤</td> 
   </tr> 
  </tbody> 
@@ -526,19 +526,19 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL Source檔案]</td> 
    <td>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID]</td> 
    <td>輸入或對應您要放置新檔案的資料夾識別碼。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL說明]</td> 
+   <td role="rowheader">[!UICONTROL 說明]</td> 
    <td>輸入已上傳檔案的說明。</td> 
   </tr> 
  </tbody> 
@@ -558,28 +558,28 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要列出的記錄型別。</p> 
     <ul> 
-     <li> <p>[！UICONTROL讀取所有行銷活動]</p> </li> 
-     <li> <p>[！UICONTROL讀取所有程式]</p> </li> 
-     <li> <p>[！UICONTROL讀取所有潛在客戶] </p> </li> 
+     <li> <p>[!UICONTROL 讀取所有行銷活動]</p> </li> 
+     <li> <p>[!UICONTROL 讀取所有程式]</p> </li> 
+     <li> <p>[!UICONTROL 讀取所有潛在客戶] </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL欄位]</td> 
+   <td role="rowheader">[!UICONTROL 欄位]</td> 
    <td>如果您已選取擷取銷售機會，請選取您要從清單還是從方案中擷取銷售機會。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
-   <td>選取要包含在此模組輸出組合中的資訊。 根據您選取的[！UICONTROL記錄型別]，可以使用欄位。</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td>選取要包含在此模組輸出組合中的資訊。 根據您選取的[!UICONTROL 記錄型別]，可以使用欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -594,32 +594,32 @@ Marketo聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Marketo]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將[!DNL Marketo]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要搜尋的記錄型別。</p> 
     <ul> 
-     <li> <p>[！UICONTROL行銷活動]</p> </li> 
-     <li> <p>[！UICONTROL銷售機會]</p> </li> 
-     <li> <p>[！UICONTROL程式]</p> </li> 
+     <li> <p>[!UICONTROL 行銷活動]</p> </li> 
+     <li> <p>[!UICONTROL 銷售機會]</p> </li> 
+     <li> <p>[!UICONTROL 程式]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL欄位]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 欄位]</p> </td> 
    <td> <p>選取您要搜尋的欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL值/值]</td> 
-   <td>輸入您要搜尋之欄位的值。 如果欄位可讓您搜尋多個值，請針對您要搜尋的每個值，按一下<b>[！UICONTROL新增專案]</b>並輸入值。</td> 
+   <td role="rowheader">[!UICONTROL 值/值]</td> 
+   <td>輸入您要搜尋之欄位的值。 如果欄位可讓您搜尋多個值，請針對您要搜尋的每個值，按一下<b>[!UICONTROL 新增專案]</b>並輸入值。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Output]</td> 
+   <td role="rowheader">[!UICONTROL Output]</td> 
    <td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 

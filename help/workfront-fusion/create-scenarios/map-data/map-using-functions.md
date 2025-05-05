@@ -64,7 +64,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
    如需函式及其引數的詳細資訊，請參閱[函式參考下的文章：文章索引](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)。
 
-1. 繼續設定模組，或按一下[確定]。****
+1. 繼續設定模組，或按一下[確定]。**&#x200B;**
 
 >[!TIP]
 >
@@ -133,7 +133,7 @@ ht-degree: 0%
 1. 在該函式中，按一下要巢狀函式移至何處。 在此範例中，巢狀函式會取代第一個引數。
 1. 在對映面板中，按一下巢狀函式。 在此範例中，這是`trim`函式。
 1. 繼續視需要設定函式。
-1. 繼續設定模組，或按一下[確定]。****
+1. 繼續設定模組，或按一下[確定]。**&#x200B;**
 
 ## 使用[!DNL Google Sheets]函式
 

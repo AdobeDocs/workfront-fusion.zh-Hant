@@ -35,24 +35,24 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
    <td>
    <p>目前授權需求：無[!DNL Workfront Fusion]授權需求。</p>
    <p>或</p>
-   <p>舊版授權需求： [！UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[！UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>舊版授權需求： [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]，[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Adobe Workfront]計畫，貴組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[！UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
+   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Adobe Workfront]計畫，貴組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。 [!DNL Workfront Fusion]包含在[!UICONTROL Ultimate] [!DNL Workfront]計畫中。</p>
    <p>或</p>
    <p>舊版產品需求：您的組織必須購買[!DNL Adobe Workfront Fusion]及[!DNL Adobe Workfront]，才能使用本文所述的功能。</p>
    </td> 
@@ -81,33 +81,33 @@ ht-degree: 2%
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[！UICONTROL連線名稱]</td>
+        <td role="rowheader">[!UICONTROL 連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL環境]</td>
+        <td role="rowheader">[!UICONTROL 環境]</td>
         <td>選取您要連線到生產或非生產環境。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL型別]</td>
+        <td role="rowheader">[!UICONTROL 型別]</td>
         <td>選取您要連線到服務帳戶還是個人帳戶。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL使用者端ID]</td>
-        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
+        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL 使用者端ID]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
-        <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL IMS組織識別碼]</td>
+        <td role="rowheader">[!UICONTROL IMS組織識別碼]</td>
         <td>輸入您的[!DNL Adobe] IMS認證。 適用於組織的唯一識別碼。 此字串格式為A495E53@AdobeOrg，其中@的前置詞為十六進位數字。 您可以在Admin Console或adobe.io主控台中，將此值視為組織URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL其他範圍]</td>
+        <td role="rowheader">[!UICONTROL 其他範圍]</td>
         <td>針對您想要新增的每個其他範圍，按一下<b>新增專案</b>並輸入範圍。</td>
         </tr>
       </tbody>

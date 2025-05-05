@@ -66,7 +66,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -96,15 +96,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL將所有狀態評估為錯誤（2xx和3xx除外）] </td> 
+   <td role="rowheader">[!UICONTROL 將所有狀態評估為錯誤（2xx和3xx除外）] </td> 
    <td> <p>使用此選項來設定錯誤處理。</p> <p>如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md" class="MCXref xref">錯誤處理。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL] </td> 
+   <td role="rowheader">[!UICONTROL URL] </td> 
    <td> <p>輸入或對應您要下載之檔案的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL與其他HTTP模組共用Cookie] </td> 
+   <td role="rowheader">[!UICONTROL 與其他HTTP模組共用Cookie] </td> 
    <td> <p>如果您希望此網站的Cookie對其他模組可用，請啟用此選項。 </p> </td> 
   </tr> 
  </tbody> 
@@ -119,12 +119,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL] </td> 
+   <td role="rowheader">[!UICONTROL URL] </td> 
    <td> <p>輸入或對應您要解析的URL，例如[!DNL bit.ly] URL。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法] </td> 
-   <td> <p>選取您要使用[！UICONTROL HEAD]方法或[！UICONTROL GET]方法。</p> </td> 
+   <td role="rowheader">[!UICONTROL 方法] </td> 
+   <td> <p>選取您要使用[!UICONTROL HEAD]方法或[!UICONTROL GET]方法。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source模組]</td> 
+   <td role="rowheader">[!UICONTROL Source模組]</td> 
    <td> <p> 選取您要從中擷取標題的模組。</p> </td> 
   </tr> 
  </tbody> 

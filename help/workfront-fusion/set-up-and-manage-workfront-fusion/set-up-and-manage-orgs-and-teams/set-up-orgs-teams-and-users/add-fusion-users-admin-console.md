@@ -19,7 +19,7 @@ ht-degree: 1%
 
 您可以將使用者新增至[!DNL Adobe Admin Console]並將他們指派至[!DNL Adobe Workfront Fusion]，或將[!DNL Adobe Admin Console]中的現有使用者指派至[!DNL Workfront Fusion]。
 
-如需[!DNL Adobe Admin Console]中說明[!DNL Workfront Fusion]的影片，包括如何新增使用者，請參閱Adobe IMS](https://video.tv.adobe.com/v/3412464/){target=_blank}上的[[!DNL Fusion] 。
+如需[!DNL Adobe Admin Console]中說明[!DNL Workfront Fusion]的影片，包括如何新增使用者，請參閱Adobe IMS[&#128279;](https://video.tv.adobe.com/v/3412464/){target=_blank}上的[!DNL Fusion] 。
 
 
 
@@ -112,7 +112,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -134,11 +134,11 @@ ht-degree: 1%
 
 1. 從[[!DNL Adobe Admin Console] 頁面](https://adminconsole.adobe.com/)，選取頂端導覽列中的&#x200B;**[!UICONTROL Products]**&#x200B;索引標籤，然後選取&#x200B;**[!DNL Workfront Fusion]**&#x200B;產品拼貼。
 
-   Admin Console](assets/fusion-product-admin-console.png)中的![Fusion
+   Admin Console![&#128279;](assets/fusion-product-admin-console.png)中的Fusion
 
 1. 在顯示的清單中，選取您要新增使用者的組織。
 
-   Admin Console](assets/fusion-instances-admin-console.png)中的![Fusion執行個體
+   Admin Console![&#128279;](assets/fusion-instances-admin-console.png)中的Fusion執行個體
 
 1. 在顯示的清單中，選取&#x200B;**[!UICONTROL Product Profiles]**&#x200B;索引標籤後，按一下[!DNL Workfront Fusion] [!UICONTROL Product Profile]連結的名稱。
 
@@ -154,7 +154,7 @@ ht-degree: 1%
 
    已在[!DNL Workfront Fusion]中建立使用者。
 
-1. （選擇性）繼續在 [!DNL Workfront Fusion]](#change-a-users-access-level-in-workfront-fusion)中[變更使用者的存取層級
+1. （選擇性）繼續在 [!DNL Workfront Fusion][&#128279;](#change-a-users-access-level-in-workfront-fusion)中變更使用者的存取層級
 
 ## 在Workfront Fusion中變更使用者的存取層級
 

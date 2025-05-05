@@ -57,7 +57,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -119,23 +119,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL事件型別]</td> 
+   <td role="rowheader">[!UICONTROL 事件型別]</td> 
    <td> <p>選取您要觀看新資產或更新資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL展開]</td> 
+   <td role="rowheader">[!UICONTROL 展開]</td> 
    <td> <p>選取除了資產欄位之外，您還要納入模組輸出的屬性。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td>選取您要納入模組輸出的欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應每個案例執行週期中您希望模組使用的最大資產數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -160,21 +160,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL集合ID]</td> 
-   <td>針對您想要新增資產的每個集合，按一下<strong>[集合ID]</strong>，然後輸入或對應[！UICONTROL集合ID]。</li> 
+   <td role="rowheader">[!UICONTROL 集合ID]</td> 
+   <td>針對您想要新增資產的每個集合，按一下<strong>[集合ID]</strong>，然後輸入或對應[!UICONTROL 集合ID]。</li> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Assets ID]</td> 
-   <td> 針對您想要新增至集合的每個資產，按一下<strong>[！UICONTROL Assets ID]</strong>，然後輸入或對應資產ID。</p> </li> 
+   <td role="rowheader">[!UICONTROL Assets ID]</td> 
+   <td> 針對您想要新增至集合的每個資產，按一下<strong>[!UICONTROL Assets ID]</strong>，然後輸入或對應資產ID。</p> </li> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應每個案例執行週期中您希望模組使用的最大資產數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -191,31 +191,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL API版本]</td> 
+   <td role="rowheader">[!UICONTROL API版本]</td> 
    <td>選取您要使用最新版的[!DNL Widen] API，還是1.0版</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td>輸入或對應您API呼叫的URL。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[！UICONTROL Workfront Fusion]會為您新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion]會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -233,11 +233,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
    <td> <p>輸入或對應您要下載的資產識別碼。</p> </td> 
   </tr> 
  </tbody> 
@@ -252,19 +252,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
    <td> <p>輸入或對應您要讀取資訊之資產的ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL展開]</td> 
+   <td role="rowheader">[!UICONTROL 展開]</td> 
    <td> <p>選取除了資產欄位之外，您還要納入模組輸出的屬性。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td>選取您要納入模組輸出的欄位。</td> 
   </tr> 
  </tbody> 
@@ -279,22 +279,22 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL集合ID]</td> 
-   <td>針對您要移除資產的每個集合，按一下<strong>[集合ID]</strong>，然後輸入或對應[！UICONTROL集合ID]。</li> 
+   <td role="rowheader">[!UICONTROL 集合ID]</td> 
+   <td>針對您要移除資產的每個集合，按一下<strong>[集合ID]</strong>，然後輸入或對應[!UICONTROL 集合ID]。</li> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Assets ID]</td> 
-   <td> 針對您要從集合中移除的每個資產，按一下<strong>[！UICONTROL Assets ID]</strong>，然後輸入或對應資產ID。</p> </li> 
+   <td role="rowheader">[!UICONTROL Assets ID]</td> 
+   <td> 針對您要從集合中移除的每個資產，按一下<strong>[!UICONTROL Assets ID]</strong>，然後輸入或對應資產ID。</p> </li> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應每個案例執行週期中您希望模組使用的最大資產數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -309,23 +309,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
    <td> <p>輸入或對應您要更新中繼資料的資產ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL中繼資料型別]</td> 
+   <td role="rowheader">[!UICONTROL 中繼資料型別]</td> 
    <td> <p>選取您要更新之中繼資料的中繼資料型別。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL中繼資料]</td> 
+   <td role="rowheader">[!UICONTROL 中繼資料]</td> 
    <td>選取您要更新的中繼資料欄位。 針對每個欄位，輸入欄位的新值。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應每個案例執行週期中您希望模組使用的最大資產數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -340,32 +340,32 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL上傳設定檔]</td> 
+   <td role="rowheader">[!UICONTROL 上傳設定檔]</td> 
    <td> <p>選取您要模組使用的上傳設定檔。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL上傳方法]</td> 
+   <td role="rowheader">[!UICONTROL 上傳方法]</td> 
    <td> <p>選取您要如何上傳檔案。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL From File]</strong> </p> <p>從上一個模組選取或對應來源檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL （依URL）]</strong> </p> <p>輸入或對應您要上傳之檔案的URL。</p> </li> 
+     <li> <p><strong>[!UICONTROL From File]</strong> </p> <p>從上一個模組選取或對應來源檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL （依URL）]</strong> </p> <p>輸入或對應您要上傳之檔案的URL。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案名稱]</td> 
+   <td role="rowheader">[!UICONTROL 檔案名稱]</td> 
    <td>輸入或對應已上傳檔案的名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL中繼資料型別]</td> 
+   <td role="rowheader">[!UICONTROL 中繼資料型別]</td> 
    <td>選取您要上傳之檔案的中繼資料型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL中繼資料]</td> 
-   <td>選取要包含在檔案上載中的中繼資料欄位。 對於每個欄位，輸入該欄位的[！UICONTROL值]。</td> 
+   <td role="rowheader">[!UICONTROL 中繼資料]</td> 
+   <td>選取要包含在檔案上載中的中繼資料欄位。 對於每個欄位，輸入該欄位的[!UICONTROL 值]。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -384,31 +384,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL集合ID]</td> 
+   <td role="rowheader">[!UICONTROL 集合ID]</td> 
    <td> <p>輸入或對應包含您要讀取之資產的集合ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL開始]</td> 
+   <td role="rowheader">[!UICONTROL 開始]</td> 
    <td>輸入或對映您要列出的第一個專案編號。 這是分頁記錄的方式。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Max]</td> 
+   <td role="rowheader">[!UICONTROL Max]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL排序依據]</td> 
+   <td role="rowheader">[!UICONTROL 排序依據]</td> 
    <td> <p>選取您要用來排序資產的屬性。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL順序]</td> 
+   <td role="rowheader">[!UICONTROL 順序]</td> 
    <td>選取您要以遞增或遞減方式排序資產。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td>選取您要納入模組輸出的欄位。</td> 
   </tr> 
  </tbody> 
@@ -423,51 +423,51 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到[!DNL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL搜尋查詢]</td> 
+   <td role="rowheader">[!UICONTROL 搜尋查詢]</td> 
    <td> <p>輸入您要搜尋資產的條件。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL排序依據]</td> 
+   <td role="rowheader">[!UICONTROL 排序依據]</td> 
    <td> <p>選取您要如何排序資產。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL順序]</td> 
+   <td role="rowheader">[!UICONTROL 順序]</td> 
    <td>選取您要以遞增或遞減方式排序資產。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL包含已刪除]</td> 
+   <td role="rowheader">[!UICONTROL 包含已刪除]</td> 
    <td>啟用此選項以在搜尋中包含已刪除的資產。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL包含已封存的]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 包含已封存的]</p> </td> 
    <td> <p>啟用此選項以在搜尋中包含已封存的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL搜尋檔案文字]</td> 
+   <td role="rowheader">[!UICONTROL 搜尋檔案文字]</td> 
    <td>啟用此選項以在搜尋中包含檔案文字，或設為false以僅包含標題符合搜尋條件的資產。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL位移]</td> 
+   <td role="rowheader">[!UICONTROL 位移]</td> 
    <td>輸入或對應您要擷取其詳細資訊的第一個專案編號。 這是分頁記錄的方式。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Scroll]</td> 
+   <td role="rowheader">[!UICONTROL Scroll]</td> 
    <td>啟用此選項以允許捲動。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL展開]</td> 
+   <td role="rowheader">[!UICONTROL 展開]</td> 
    <td> <p>選取除了資產欄位之外，您還要納入模組輸出的屬性。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td>選取您要納入模組輸出的欄位。</td> 
   </tr> 
  </tbody> 

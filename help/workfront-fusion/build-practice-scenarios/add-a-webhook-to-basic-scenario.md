@@ -59,7 +59,7 @@ Webhook （也稱為即時觸發器）是一種特定的觸發器模組，可以
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -85,7 +85,7 @@ Webhook （也稱為即時觸發器）是一種特定的觸發器模組，可以
 1. 在[記錄型別]欄位中，選取&#x200B;**問題**，模組就會觸發問題的變更。
 1. 在「狀態」欄位中，選取&#x200B;**新狀態**。 這是用於篩選的必填欄位，此範例未涵蓋此欄位。
 1. 在「記錄來源」欄位中，選取&#x200B;**僅新增記錄**。 這可讓情境在新增問題時觸發，而不是在更新或刪除問題時觸發。
-1. 按一下[儲存]儲存模組組態。****
+1. 按一下[儲存]儲存模組組態。**&#x200B;**
 
 ## 更新第二個模組
 

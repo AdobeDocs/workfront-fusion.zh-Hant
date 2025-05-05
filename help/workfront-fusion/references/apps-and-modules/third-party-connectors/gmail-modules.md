@@ -54,7 +54,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 * [使用 [!DNL Google Workspace]連線 [!DNL Gmail] 至 [!DNL Workfront Fusion] ](#connect-gmail-to-workfront-fusion-usinggoogle-workspace)
 * [使用 [!DNL gmail.com] 或 [!DNL googlemail].com連線 [!DNL Gmail] 至 [!DNL Workfront Fusion] ](#connect-gmail-to-workfront-fusion-using-gmailcom-or-googlemailcom)
 
-### 使用[!DNL  Google Workspace]連線[!DNL Gmail]至[!DNL Workfront Fusion]
+### 使用[!DNL &#x200B; Google Workspace]連線[!DNL Gmail]至[!DNL Workfront Fusion]
 
 如需有關將您的[!DNL Google Workspace]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立連線 — 基本指示](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)。
 
@@ -106,43 +106,43 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取要監視的電子郵件資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL篩選器型別] </td> 
+   <td>[!UICONTROL 篩選器型別] </td> 
    <td> <p>選取您要用來觀看電子郵件的篩選型別</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL簡單篩選器]</strong> </p> <p>填寫[！UICONTROL Criteria]、[！UICONTROL Sender Email Address]、[！UICONTROL Subject]和[！UICONTROL Search Phrase]欄位</p> </li> 
-     <li> <p> <strong>[！UICONTROL Gmail篩選器]</strong> </p> <p>在[！UICONTROL查詢]欄位中，輸入您要用來篩選電子郵件的查詢。</p> <p>如需[!DNL Gmail]篩選器的詳細資訊，請參閱[!DNL Gmail]檔案中的<a href="https://support.google.com/mail/answer/7190">進階搜尋</a>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 簡單篩選器]</strong> </p> <p>填寫[!UICONTROL Criteria]、[!UICONTROL Sender Email Address]、[!UICONTROL Subject]和[!UICONTROL Search Phrase]欄位</p> </li> 
+     <li> <p> <strong>[!UICONTROL Gmail篩選器]</strong> </p> <p>在[!UICONTROL 查詢]欄位中，輸入您要用來篩選電子郵件的查詢。</p> <p>如需[!DNL Gmail]篩選器的詳細資訊，請參閱[!DNL Gmail]檔案中的<a href="https://support.google.com/mail/answer/7190">進階搜尋</a>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL條件]</td> 
-   <td>選取您要觀看[！UICONTROL所有電子郵件]、[！UICONTROL僅讀取電子郵件]或[！UICONTROL僅讀取未讀取]電子郵件。</td> 
+   <td>[!UICONTROL 條件]</td> 
+   <td>選取您要觀看[!UICONTROL 所有電子郵件]、[!UICONTROL 僅讀取電子郵件]或[!UICONTROL 僅讀取未讀取]電子郵件。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL寄件者電子郵件地址]</td> 
+   <td>[!UICONTROL 寄件者電子郵件地址]</td> 
    <td> <p> 輸入電子郵件地址，以僅觀看從該地址傳送的電子郵件。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL主旨]</td> 
+   <td>[!UICONTROL 主旨]</td> 
    <td>輸入文字字串，只觀看主旨中含有該文字字串的電子郵件。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL搜尋字詞]</td> 
+   <td>[!UICONTROL 搜尋字詞]</td> 
    <td>輸入文字字串，以僅觀看在電子郵件中任何位置具有該文字字串的電子郵件。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL擷取時將電子郵件訊息標示為已讀取]</td> 
+   <td>[!UICONTROL 擷取時將電子郵件訊息標示為已讀取]</td> 
    <td> <p> 啟用此選項可將擷取的電子郵件標示為已讀取。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL結果數量上限]</td> 
+   <td>[!UICONTROL 結果數量上限]</td> 
    <td> <p> 設定[!DNL Workfront Fusion]在一個週期內可處理的最大結果數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -177,19 +177,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取包含您要複製之電子郵件的[!DNL Gmail]來源資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目的地資料夾]</td> 
+   <td>[!UICONTROL 目的地資料夾]</td> 
    <td> <p>選取您要複製電子郵件的[!DNL Gmail]目標資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL電子郵件ID (UID)]</td> 
+   <td>[!UICONTROL 電子郵件ID (UID)]</td> 
    <td> <p>輸入或對應您要複製之電子郵件的電子郵件ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -210,36 +210,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取您要在其中建立草稿的[!DNL Gmail]資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL至] </td> 
-   <td> <p>按一下<strong>[！UICONTROL新增]</strong>，然後輸入或對應每個收件者的電子郵件地址。</p> </td> 
+   <td>[!UICONTROL 至] </td> 
+   <td> <p>按一下<strong>[!UICONTROL 新增]</strong>，然後輸入或對應每個收件者的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL主旨] </td> 
+   <td>[!UICONTROL 主旨] </td> 
    <td> <p>輸入或對映電子郵件主旨。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL內容] </td> 
+   <td>[!UICONTROL 內容] </td> 
    <td> <p>輸入或對映電子郵件內容（訊息內文）。 允許使用HTML標籤。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL附件] </td> 
-   <td> <p>按一下<strong>[！UICONTROL新增]</strong>以新增附件。 您可以對應先前模組的檔案。</p> </td> 
+   <td>[!UICONTROL 附件] </td> 
+   <td> <p>按一下<strong>[!UICONTROL 新增]</strong>以新增附件。 您可以對應先前模組的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL複製收件者]</td> 
-   <td> <p> 按一下<strong>[！UICONTROL新增]</strong>，然後輸入或對應每個副本收件者的電子郵件地址。</p> </td> 
+   <td>[!UICONTROL 複製收件者]</td> 
+   <td> <p> 按一下<strong>[!UICONTROL 新增]</strong>，然後輸入或對應每個副本收件者的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Blind副本收件者]</td> 
-   <td> <p> 按一下<strong>[！UICONTROL新增]</strong>，然後輸入或對應每個密件副本收件者的電子郵件地址。</p> </td> 
+   <td>[!UICONTROL Blind副本收件者]</td> 
+   <td> <p> 按一下<strong>[!UICONTROL 新增]</strong>，然後輸入或對應每個密件副本收件者的電子郵件地址。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -257,15 +257,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL [!DNL Gmail]訊息識別碼]</p> </td> 
+   <td> <p>[!UICONTROL [!DNL Gmail]訊息識別碼]</p> </td> 
    <td> <p>輸入或對應您要刪除之電子郵件的電子郵件ID。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL永久] </td> 
+   <td>[!UICONTROL 永久] </td> 
    <td> <p>啟用此選項可允許模組永久刪除電子郵件，而非將其移至垃圾桶資料夾。</p> </td> 
   </tr> 
  </tbody> 
@@ -288,15 +288,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取包含電子郵件的[!DNL Gmail]資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL電子郵件ID (UID)]</td> 
+   <td>[!UICONTROL 電子郵件ID (UID)]</td> 
    <td> <p> 輸入或對應Email ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -315,15 +315,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取包含電子郵件的[!DNL Gmail]資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL電子郵件ID (UID)] </td> 
+   <td>[!UICONTROL 電子郵件ID (UID)] </td> 
    <td> <p>輸入或對應您要標示為未讀取之電子郵件的電子郵件ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -342,19 +342,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL [!DNL Gmail]訊息識別碼]</td> 
+   <td>[!UICONTROL [!DNL Gmail]訊息識別碼]</td> 
    <td> <p> 輸入或對應您要刪除之電子郵件的電子郵件ID。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>要新增的[！UICONTROL標籤]</p> </td> 
+   <td> <p>要新增的[!UICONTROL 標籤]</p> </td> 
    <td> <p>選取或對應您要新增至所選電子郵件訊息的標籤。</p> </td> 
   </tr> 
   <tr> 
-   <td>要移除的[！UICONTROL標籤]</td> 
+   <td>要移除的[!UICONTROL 標籤]</td> 
    <td> <p> 選取或對應您要從選取的電子郵件移除的標籤。</p> </td> 
   </tr> 
  </tbody> 
@@ -377,19 +377,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需將[!DNL Gmail]帳戶連線至[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取包含您要移動之電子郵件的[!DNL Gmail]來源資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目的地資料夾]</td> 
+   <td>[!UICONTROL 目的地資料夾]</td> 
    <td> <p> 選取您要移動電子郵件的[!DNL Gmail]目標資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL電子郵件ID (UID)]</td> 
+   <td>[!UICONTROL 電子郵件ID (UID)]</td> 
    <td> <p> 輸入或對應您要移動之電子郵件的電子郵件ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -410,36 +410,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Gmail]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">將[!DNL Gmail]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL From]</td> 
+   <td>[!UICONTROL From]</td> 
    <td> <p>輸入或對應寄件者電子郵件地址。</p> <p>注意：如果您輸入的電子郵件地址不正確，則在傳送訊息時可能會發生錯誤，因為您的帳戶可能沒有許可權，無法透過不同於您自己的地址傳送電子郵件。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL至] </td> 
-   <td> <p>按一下<strong>[！UICONTROL新增]</strong>，然後輸入或對應每個收件者的電子郵件地址。</p> </td> 
+   <td>[!UICONTROL 至] </td> 
+   <td> <p>按一下<strong>[!UICONTROL 新增]</strong>，然後輸入或對應每個收件者的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL主旨] </td> 
+   <td>[!UICONTROL 主旨] </td> 
    <td> <p>輸入或對映電子郵件主旨。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL內容] </td> 
+   <td>[!UICONTROL 內容] </td> 
    <td> <p>輸入或對映電子郵件內容（訊息內文）。 允許使用HTML標籤。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL附件] </td> 
-   <td> <p>按一下<strong>[！UICONTROL新增]</strong>以新增附件。 您可以對應先前模組的檔案。</p> </td> 
+   <td>[!UICONTROL 附件] </td> 
+   <td> <p>按一下<strong>[!UICONTROL 新增]</strong>以新增附件。 您可以對應先前模組的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL複製收件者]</td> 
-   <td> <p> 按一下<strong>[！UICONTROL新增]</strong>，然後輸入或對應每個副本收件者的電子郵件地址。</p> </td> 
+   <td>[!UICONTROL 複製收件者]</td> 
+   <td> <p> 按一下<strong>[!UICONTROL 新增]</strong>，然後輸入或對應每個副本收件者的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Blind副本收件者]</td> 
-   <td> <p> 按一下<strong>[！UICONTROL新增]</strong>，然後輸入或對應每個密件副本收件者的電子郵件地址。</p> </td> 
+   <td>[!UICONTROL Blind副本收件者]</td> 
+   <td> <p> 按一下<strong>[!UICONTROL 新增]</strong>，然後輸入或對應每個密件副本收件者的電子郵件地址。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -457,7 +457,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Source模組] </td> 
+   <td>[!UICONTROL Source模組] </td> 
    <td> <p>選取您想從其中反複輸入附件的模組。 </p> </td> 
   </tr> 
  </tbody> 

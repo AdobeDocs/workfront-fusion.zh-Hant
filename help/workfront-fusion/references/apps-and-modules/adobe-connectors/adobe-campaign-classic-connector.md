@@ -62,7 +62,7 @@ ht-degree: 1%
 
 您必須將Fusion IP位址新增到[!DNL Adobe Campaign]。
 
-* 如需將IP位址新增至您的Campaign允許清單的指示，請參閱Adobe Campaign檔案中的[將IP位址新增至允許清單](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list)。
+* 如需將IP位址新增至您的Campaign允許清單的指示，請參閱Adobe Campaign檔案中的[將IP位址新增至允許清單](https://experienceleague.adobe.com/zh-hant/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list)。
 * 如需新增至允許清單的IP位址清單，請參閱貴組織的允許清單[&#128279;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)中的設定Fusion的IP位址。
 
 ## Adobe Campaign API資訊
@@ -86,7 +86,7 @@ Adobe Campaign聯結器會使用以下專案：
 >
 >我們強烈建議您建立伺服器對伺服器連線。 Adobe Campaign已更新其API，僅接受伺服器對伺服器連線。 如果您要連線至Campaign 8或更新版本，則&#x200B;**必須**&#x200B;建立伺服器對伺服器連線。
 >
->如需有關Campaign新連線需求的詳細資訊，請參閱Campaign檔案中的[將Campaign技術運運算元移轉至Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html)。
+>如需有關Campaign新連線需求的詳細資訊，請參閱Campaign檔案中的[將Campaign技術運運算元移轉至Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html?lang=zh-Hant)。
 
 1. 在任何[!DNL Adobe Campaign]模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;**[!UICONTROL 新增]**。
 1. 填寫下列欄位：
@@ -283,7 +283,7 @@ This scheduled trigger module starts a scenario when a record changes.
 
 此動作模組會對[!DNL Adobe Campaign] API中的物件執行選取的動作。
 
-如需特定動作和欄位的詳細資訊，請參閱[[!DNL Adobe Campaign] - API檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)。
+如需特定動作和欄位的詳細資訊，請參閱[[!DNL Adobe Campaign] - API檔案](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=zh-Hant)。
 
 <table style="table-layout:auto"> 
  <col> 

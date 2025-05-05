@@ -70,7 +70,7 @@ ht-degree: 0%
 
 您可以從Workfront Fusion移除使用者，同時將其他Adobe產品許可權維持不變。
 
-如需指示，請參閱[管理Admin Console上的產品](https://helpx.adobe.com/enterprise/using/manage-products.html)一文中的「從產品移除使用者和使用者群組」。
+如需指示，請參閱[管理Admin Console上的產品](https://helpx.adobe.com/tw/enterprise/using/manage-products.html)一文中的「從產品移除使用者和使用者群組」。
 
 ## 在[!DNL Adobe Admin Console]的所有產品中停用使用者
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 * 使用者會從產品設定檔中移除，且不會指派給另一個產品設定檔。
 * 在包含Workfront Fusion的組織中，使用者會被刪除或停用。
 
-  如需指示，請參閱[個別管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)中的「移除使用者」一節。
+  如需指示，請參閱[個別管理使用者](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)中的「移除使用者」一節。
 
 在[!DNL Workfront Fusion]中，停用會以下列其中一種方式影響使用者：
 

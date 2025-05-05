@@ -20,7 +20,7 @@ ht-degree: 0%
 
 如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
 ## 篩選觸發「Workfront >關注事件」模組的事件
 

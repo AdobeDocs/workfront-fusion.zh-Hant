@@ -20,9 +20,9 @@ ht-degree: 0%
 
 如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
+如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
 
-此版本也包含一或多個維護更新。 如需Workfront Fusion 2.0維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
+此版本也包含一或多個維護更新。 如需Workfront Fusion 2.0維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
 
 ## 團隊現在共用電子郵件通知設定
 

@@ -4,9 +4,9 @@ description: 透過Adobe I/O Events模組，您可以根據Adobe應用程式中�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: b2229f3e-a2a7-4b07-8ead-a37d193c2ec7
-source-git-commit: 983ce043afbcc44ee8af2dfcd46738f170a2b257
+source-git-commit: ef55cc62a0e0de70662440bc38d3eabbfe5e3c13
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -183,16 +183,16 @@ Adobe I/O Events聯結器會使用以下專案：
      <col/>
      <tbody>
        <tr>
-         <td role="rowheader">[!UICONTROL Webhook名稱]</td>
+         <td role="rowheader">[！UICONTROL Webhook名稱]</td>
         <td>輸入此webhook的名稱。</td>
        </tr>
        <tr>
-         <td role="rowheader">[!UICONTROL Connection]</td>
+         <td role="rowheader">[！UICONTROL Connection]</td>
         <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Webhook說明]
+           [！UICONTROL Webhook說明]
          </td>
          <td>
            輸入此webhook的說明。
@@ -200,7 +200,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL 事件提供者]
+           [！UICONTROL事件提供者]
          </td>
          <td>
            選取您要建立事件的來源產品或帳戶。
@@ -208,7 +208,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL 事件型別]
+           [！UICONTROL事件型別]
          </td>
          <td>
            選取您希望webhook觀看的活動。 這些事件發生時會觸發此情境。
@@ -221,111 +221,8 @@ Adobe I/O Events聯結器會使用以下專案：
 
 ### 動作
 
-#### 從日誌取得所有事件
-
-此搜尋模組會從日誌中擷取註冊的所有事件。
-
-<table>
-     <col/>
-     <col/>
-     <tbody>
-       <tr>
-         <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL 註冊ID]
-         </td>
-         <td>
-           選取您要擷取事件的註冊。
-        </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL 傳回記錄的最大數量]
-         </td>
-         <td>
-              輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。 
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL 傳回發生於]之後的事件
-         </td>
-         <td>
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL Seek]
-         </td>
-         <td>
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL Latest]
-         </td>
-         <td>
-         啟用此選項以傳回最新事件。
-         </td>
-       </tr>
-     </tbody>
-   </table>
-
-#### 進行自訂API呼叫
-
-此動作模組會對[!DNL Adobe I/O Events] API發出自訂API呼叫
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-     <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL 路徑]</p>
-      </td>
-      <td>
-        <p>輸入相對於 <code>https://api.adobe.io/events</code></p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL 方法]</p>
-      </td>
-      <td>
-  <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p>  
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Headers]</td>
-      <td>
-        <p>以標準JSON物件的形式新增請求的標頭。</p>
-        <p>例如， <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion會自動新增授權標題和x-api-key標題。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL 查詢字串]  </td>
-      <td>
-        <p>輸入請求查詢字串。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td>     </tr>
-  </tbody>
-</table>
-
-### 搜尋
+* [取得提供者和事件ID](#get-provider-and-event-ids)
+* [進行自訂API呼叫](#make-a-custom-api-call)
 
 #### 取得提供者和事件ID
 
@@ -336,12 +233,12 @@ Adobe I/O Events聯結器會使用以下專案：
      <col/>
      <tbody>
        <tr>
-         <td role="rowheader">[!UICONTROL Connection]</td>
+         <td role="rowheader">[！UICONTROL Connection]</td>
         <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL 事件提供者]
+           [！UICONTROL事件提供者]
          </td>
          <td>
            選取您要擷取ID的提供者。
@@ -349,7 +246,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL 事件型別]
+           [！UICONTROL事件型別]
          </td>
          <td>
               選取您要提供ID的事件。 根據事件提供者，可使用事件。 
@@ -358,11 +255,117 @@ Adobe I/O Events聯結器會使用以下專案：
      </tbody>
    </table>
 
-<!--
 
-Watch Events
+#### 進行自訂API呼叫
 
-This trigger module starts a scenario when an event occurs in the chosen Adobe product or service.
+此動作模組會對[!DNL Adobe I/O Events] API發出自訂API呼叫
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[！UICONTROL Connection]</td>
+        <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL路徑]</p>
+      </td>
+      <td>
+        <p>輸入相對於 <code>https://api.adobe.io/events</code></p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[！UICONTROL方法]</p>
+      </td>
+      <td>
+  <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p>  
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL Headers]</td>
+      <td>
+        <p>以標準JSON物件的形式新增請求的標頭。</p>
+        <p>例如， <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion會自動新增授權標題和x-api-key標題。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL查詢字串]  </td>
+      <td>
+        <p>輸入請求查詢字串。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL Body]</td>
+   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td>     </tr>
+  </tbody>
+</table>
+
+### 搜尋
+
+#### 從日誌取得所有事件
+
+此搜尋模組會從日誌中擷取註冊的所有事件。
+
+<table>
+     <col/>
+     <col/>
+     <tbody>
+       <tr>
+         <td role="rowheader">[！UICONTROL Connection]</td>
+        <td>如需建立[!DNL Adobe I/O Events]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >建立與[!DNL Adobe I/O Events]</a>的連線。</td>
+       </tr>
+       <tr>
+         <td role="rowheader">
+           [！UICONTROL註冊ID]
+         </td>
+         <td>
+           選取您要擷取事件的註冊。
+        </td>
+       </tr>
+       <tr>
+         <td role="rowheader">
+           [！UICONTROL傳回事件數上限]
+         </td>
+         <td>
+              輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。 
+         </td>
+       </tr>
+       <tr>
+         <td role="rowheader">
+           [！UICONTROL傳回發生於]之後的事件
+         </td>
+         <td>輸入或對映日期。 模組會傳回此日期之後發生的事件。
+         </td>
+       </tr>
+<!--       <tr>
+         <td role="rowheader">
+           [!UICONTROL Seek]
+         </td>
+         <td>
+         </td>
+       </tr>-->
+       <tr>
+         <td role="rowheader">
+           [！UICONTROL Latest]
+         </td>
+         <td>
+         啟用此選項以傳回最新事件。
+         </td>
+       </tr>
+     </tbody>
+   </table>
+&lt;！—
+
+觀看活動
+
+此觸發模組會在所選Adobe產品或服務中發生事件時啟動案例。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -370,9 +373,9 @@ This trigger module starts a scenario when an event occurs in the chosen Adobe p
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The source of the events you want to watch</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下webhook欄位旁的<b>新增</b>。</li><li>輸入下列內容： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您要觀看之事件的來源</li></ul></li><li>按一下<b>儲存</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
 
--->
+—>

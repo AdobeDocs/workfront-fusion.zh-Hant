@@ -5,9 +5,9 @@ description: 您可以在「情境設定」面板中設定情境的特定設定�
 author: Becky
 feature: Workfront Fusion
 exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: a7411649c0d65956552f40a7710315536755dc65
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1288'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -45,7 +45,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -77,12 +77,12 @@ ht-degree: 0%
 
    ![案例設定](assets/scenario-settings-350x221.png)
 
-   在顯示的[!UICONTROL Scenario settings]面板中，您可以為該案例設定各種進階設定。
+   在顯示的[!UICONTROL 情境設定]面板中，您可以設定情境的各種進階設定。
 1. 視需要啟用或停用案例設定。 請參閱下方的[案例設定選項](#scenario-settings-options)。
 
 ## 案例設定選項
 
-### [!UICONTROL Sequential processing]
+### [!UICONTROL 循序處理]
 
 此選項會強制所有執行按順序進行，並且主要與Webhook和未完成執行相關。
 
@@ -111,13 +111,13 @@ ht-degree: 0%
 
 ### 資料是機密的
 
-執行案例後，您可以預設顯示案例中模組處理哪些資料的相關資訊。 如果您不想儲存此資訊，請啟用[!UICONTROL Data is confidential]選項。
+執行案例後，您可以預設顯示案例中模組處理哪些資料的相關資訊。 如果您不想儲存此資訊，請啟用[!UICONTROL 資料是機密的]選項。
 
 >[!IMPORTANT]
 >
 >如果啟用此選項，可能很難解決執行案例期間可能發生的錯誤。
 
-### [!UICONTROL Allow storing incomplete executions]
+### [!UICONTROL 允許儲存未完成的執行]
 
 此選項決定在執行案例期間發生錯誤時，[!DNL Adobe Workfront Fusion]如何進行。 啟用此選項後，情境會暫停並移至不完整的執行資料夾。 這可讓您修正問題，並從情景停止的地方繼續執行。 如果停用此選項，案例執行會停止並開始倒回階段。
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 此選項與啟用資料遺失有關，如果[!DNL Workfront Fusion]無法將套件儲存到未完成執行的佇列（例如，由於缺少可用空間）。 啟用此選項後，資料會遺失，以防止整體案例執行中斷。 當最高優先順序為連續執行，而傳入的錯誤資料並非很重要時，這個用法很有用。
 
-除此之外，在執行案例時，模組有時可能會遇到大於最大允許大小的檔案。 在此情況下，[!DNL Workfront Fusion]會根據[!UICONTROL Enable data loss]選項的設定繼續進行，並顯示警告訊息。
+除此之外，在執行案例時，模組有時可能會遇到大於最大允許大小的檔案。 在此情況下，[!DNL Workfront Fusion]會根據[!UICONTROL 啟用資料遺失]選項的設定進行，並顯示警告訊息。
 
 如需不完整執行的詳細資訊，請參閱[檢視並解決不完整的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)。
 
@@ -135,9 +135,9 @@ ht-degree: 0%
 
 如需有關警告的詳細資訊，請參閱[錯誤型別](/help/workfront-fusion/references/errors/error-processing.md)。
 
-### [!UICONTROL Auto commit]
+### [!UICONTROL 自動認可]
 
-[!UICONTROL Auto commit]設定會套用至交易，並定義處理案例的方式。 如果開啟自動認可選項，每個模組上的認可階段會在完成作業階段後立即開始。 停用「自動提交」選項時，在所有模組執行作業之前，不會發生任何提交（這是預設模式）。
+[!UICONTROL 自動認可]設定會套用至交易，並定義處理案例的方式。 如果開啟自動認可選項，每個模組上的認可階段會在完成作業階段後立即開始。 停用「自動提交」選項時，在所有模組執行作業之前，不會發生任何提交（這是預設模式）。
 
 ### 最大週期數
 
@@ -160,11 +160,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**範例：** [!DNL Workfront] > [!UICONTROL Watch record]監視傳入的新問題，而[!DNL Workfront] >[!UICONTROL Convert object]會將新要求轉換為專案並指派適當的範本。
+**範例：** [!DNL Workfront] > [!UICONTROL 觀看記錄]觀看新問題的出現，以及[!DNL Workfront] >[!UICONTROL 轉換物件]將新要求轉換為專案並指派適當的範本。
 
 ![案例設定](assets/scenario-settings-ex-1-350x157.png)
 
-[!UICONTROL more cycles]設定只會在您排程情境執行時套用。 當您使用[!UICONTROL Run once]按鈕時，會考慮循環設定。
+[!UICONTROL 更多週期]設定只會在您排程情境執行時套用。 當您使用[!UICONTROL 執行一次]按鈕時，會考慮循環設定。
 
 #### 最大循環數設為1 （預設）
 
@@ -177,7 +177,7 @@ Workfront >監看記錄模組中的最大週期數設為`10`。
 
 Workfront >監看記錄模組中的最大週期數設為`10`。
 
-如果將100個檔案新增到Dropbox資料夾中，且「最大循環數」選項設為10，則會在第一個循環中處理10個檔案、在第二個循環中處理下一個10個檔案、在第三個循環中處理下一個10個檔案，以此類推，直到處理完所有檔案為止。
+如果將100個檔案新增到Dropbox資料夾，且「最大循環數」選項設為10，則會在第一個週期內處理10個檔案、在第二個週期內處理下一個10個檔案、在第三個週期內處理下一個10個檔案，以此類推，直到處理完所有檔案為止。
 
 所有檔案會在1個案例執行內處理。
 
@@ -198,3 +198,14 @@ Workfront >監看記錄模組中的最大週期數設為`10`。
 >[!NOTE]
 >
 >如果案例以立即觸發器開始，則會忽略設定，並在發生第一個錯誤後立即停用案例。
+
+### 工作者集區
+
+>[!NOTE]
+>
+>只有在符合下列兩個條件時，才會顯示此設定：
+>
+>* 您是組織管理員或擁有者
+>* 有一個以上的工作者集區與您的組織相關聯。
+
+此設定會將案例指派給與您的組織相關聯的特定工作者集區，讓您將資源專用於高優先順序案例。

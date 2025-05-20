@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b2e48618-cc55-429e-9bed-c62ba60a6249
-source-git-commit: 0ef6dde9566ca3b97c1c52d6055f0ce44f575cee
+source-git-commit: bb7eb8d92b4ae62ccb9b8a8f1c4b800cc20dad18
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 * [管理鎖定的案例](/help/workfront-fusion/manage-scenarios/view-manage-locked-scenario.md)
 * [檢視和解決未完成的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)
 * [檢視案例的執行歷史記錄](/help/workfront-fusion/manage-scenarios/view-scenario-execution-history.md)
+* [檢視特定案例執行](/help/workfront-fusion/manage-scenarios/view-a-specific-scenario-execution.md)
 * [檢視webhook的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
 * [檢視執行中案例的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
 * [Workfront Fusion中的AI助理](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)

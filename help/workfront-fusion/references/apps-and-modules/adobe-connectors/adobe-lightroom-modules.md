@@ -4,9 +4,9 @@ description: 透過Adobe Lightroom模組，您可以根據Adobe Lightroom帳戶�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3f29ab35-7a90-4afb-a283-4faaacec5b15
-source-git-commit: 5d1424fe88efb56e565077bf36211795c9bc96ed
+source-git-commit: 4d31a447d0d8d91ef4f86d8fd0bc63663b0f5ad0
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -108,7 +108,7 @@ Adobe Lightroom聯結器會使用以下專案：
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL 範圍]</td>
+        <td role="rowheader">[！UICONTROL範圍]</td>
         <td>
           <ul>
             <li>AdobeID</li>
@@ -120,11 +120,11 @@ Adobe Lightroom聯結器會使用以下專案：
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 重新導向URI]</td>
+        <td role="rowheader">[！UICONTROL重新導向URI]</td>
         <td><code>https://app.workfrontfusion.com/oauth/cb/adobe-lightroom5</code></td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 重新導向URI模式]</td>
+        <td role="rowheader">[！UICONTROL重新導向URI模式]</td>
         <td><code>https://app\.workfrontfusion\.com/oauth/cb/adobe-lightroom5</code></td>
         </tr>
       </tbody>
@@ -145,26 +145,26 @@ Adobe Lightroom聯結器會使用以下專案：
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL 連線名稱]</td>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 環境]</td>
+        <td role="rowheader">[！UICONTROL環境]</td>
         <td>選取您要連線到生產或非生產環境。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 型別]</td>
+        <td role="rowheader">[！UICONTROL型別]</td>
         <td>選取您要連線到服務帳戶還是個人帳戶。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
-        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL 使用者端ID]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[！UICONTROL使用者端ID]</td>
+        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
-        <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
       </tbody>
     </table>
@@ -198,11 +198,11 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 認證]</td>
+      <td role="rowheader">[！UICONTROL認證]</td>
       <td>
         <p>如果您要提供特定認證，以確保特定伺服器正在執行，請按一下[新增專案] <b> </b>，然後輸入認證。</p><p>授權標頭會自動新增。</p>
       </td>
@@ -219,11 +219,11 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 認證]</td>
+      <td role="rowheader">[！UICONTROL認證]</td>
       <td>
         <p>如果您想提供特定認證，以確保可以存取正確的使用者帳戶，請按一下[新增專案]並輸入認證。</p><p>授權標頭會自動新增。</p>
       </td>
@@ -246,42 +246,40 @@ Adobe Lightroom聯結器會使用以下專案：
 
 此動作模組會為資產建立和上傳原始檔案。
 
-<!--BECKY START HERE-->
-
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應包含資產的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
         <p>輸入或對應您要建立及上傳檔案的資產ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 內容長度（位元組）]</td>
+      <td role="rowheader">[！UICONTROL內容長度（位元組）]</td>
       <td>
         <p>輸入或對應內容的長度（位元組）。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 位元組範圍]</td>
+      <td role="rowheader">[！UICONTROL位元組範圍]</td>
       <td>
         <p>輸入或對應要求的位元組範圍，包括第一個和最後一個位元組，以及如RFC 2616所定義的實體長度。 只有在資料太大而無法透過單一呼叫上傳時，才應包含此資訊。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 內容型別]</td>
+      <td role="rowheader">[！UICONTROL內容型別]</td>
       <td>
         <p>選取新檔案的內容型別。</p>
       </td>
@@ -293,47 +291,70 @@ Adobe Lightroom聯結器會使用以下專案：
 
 此動作模組會使用初始中繼資料和匯入資訊建立新資產。
 
-
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對映將建立資產的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
         <p>輸入或對映新資產的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產型別]</td>
+      <td role="rowheader">[！UICONTROL資產型別]</td>
       <td>
         <p>選取資產為影像或影片。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 日期時間使用者已建立]</td>
+      <td role="rowheader">[！UICONTROL日期時間使用者已建立]</td>
       <td>
         <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00</code>的日期。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 日期時間使用者已更新]</td>
+      <td role="rowheader">[！UICONTROL日期時間使用者已更新]</td>
       <td>
         <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00</code>的日期。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 擷取日期]</td>
+      <td role="rowheader">[！UICONTROL擷取日期]</td>
+      <td>
+        <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00</code>之資產的擷取日期。 如果擷取的日期設為<code>0000-00-00T00:00:00</code>，則伺服器會設定此專案。 </p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL檔案名稱]</td>
+      <td>
+        <p>輸入或對應您要匯入Lightroom之資產的檔案名稱。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL匯入的裝置名稱]</td>
+      <td>
+        <p>輸入或對映匯入資產的裝置名稱。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL匯入使用者帳戶ID]</td>
+      <td>
+        <p>輸入或對應匯入資產的使用者ID。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL匯入時間戳記]</td>
       <td>
         <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00</code>的日期。</p>
       </td>
@@ -343,42 +364,42 @@ Adobe Lightroom聯結器會使用以下專案：
 
 #### 建立資產外部XMP開發設定檔案
 
-此動作模組支援兩個工作流程。 第一個工作流程是上傳資產的外部XMP開發設定檔案。 第二個工作流程是複製其他資產的外部xmp開發設定檔案，以建立外部XMP開發設定檔案。
+此動作模組支援兩個工作流程：上傳資產的外部XMP開發設定檔案，或透過從其他資產的外部xmp開發設定檔案複製來建立外部XMP開發設定檔案。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 內容長度（位元組）]</td>
+      <td role="rowheader">[！UICONTROL內容長度（位元組）]</td>
       <td>
         <p>輸入或對應內容的長度（位元組）。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 上傳新的或複製XMP/develop檔案]</td>
+      <td role="rowheader">[！UICONTROL上傳新的或複製XMP/develop檔案]</td>
       <td>
         <p>選取您是上傳新檔案，還是從現有資產複製檔案。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
-        <p>輸入或對應包含資產的目錄ID。</p>
+        <p>輸入或對應您要建立資產的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
         <p>輸入或對應您要上傳或複製檔案的資產ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL XMP/develop file]連結</td>
+      <td role="rowheader">[！UICONTROL XMP/develop file]連結</td>
       <td>
         <p>輸入或對應連結至您要上傳或複製的檔案。</p><p>如果複製檔案，則此檔案必須為JSON；如果上傳檔案，則必須為XML。</p>
       </td>
@@ -395,29 +416,29 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 轉譯型別（以分號分隔）]</td>
+      <td role="rowheader">[！UICONTROL轉譯型別（以分號分隔）]</td>
       <td>
         <p>輸入您要建立之轉譯的轉譯型別。 如果輸入多個型別，請以分號(；)分隔。 <p>可能的型別：</p><ul><li><code>fullsize</code></li><li><code>2560</code></li></ul></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 內容長度（位元組）]</td>
+      <td role="rowheader">[！UICONTROL內容長度（位元組）]</td>
       <td>
         <p>輸入或對應內容的長度（位元組）。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
-        <p>輸入或對應包含資產的目錄ID。</p>
+        <p>輸入或對應您要產生轉譯之目錄的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
         <p>輸入或對應您要為其建立檔案轉譯的資產ID。</p>
       </td>
@@ -434,17 +455,17 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應包含資產的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
         <p>輸入或對應您要擷取資訊之資產的ID。</p>
       </td>
@@ -462,17 +483,17 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
-        <p>輸入或對應包含資產的目錄ID。</p>
+        <p>輸入或對映目錄ID，該目錄包含與XMP開發設定檔案相關聯的資產。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
         <p>輸入或對應與XMP開發設定檔案相關聯的資產ID。</p>
       </td>
@@ -489,23 +510,23 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
-        <p>輸入或對應包含資產的目錄ID。</p>
+        <p>輸入或對映目錄ID，該目錄包含您要擷取轉譯的資產。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
-        <p>輸入或對應與XMP開發設定檔案相關聯的資產ID。</p>
+        <p>輸入或對應您要擷取轉譯之資產的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 轉譯型別]</td>
+      <td role="rowheader">[！UICONTROL轉譯型別]</td>
       <td>
         <p>選取您要擷取的轉譯型別。</p>
       </td>
@@ -522,83 +543,91 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應包含資產的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 開始時間戳記]</td>
+      <td role="rowheader">[！UICONTROL開始時間戳記]</td>
       <td>
         <p>輸入或對應時間戳記。 模組會傳回在此時間戳記之後更新的記錄。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 傳回之前擷取的資產]</td>
+      <td role="rowheader">[！UICONTROL傳回指定時間前擷取的資產]</td>
       <td>
-        <p>輸入格式為<code>YYYY-MM-DDT00:00:00</code>的日期。 模組會傳回在此日期之前擷取的結果。</p><p> 此欄位無法與欄位<code>Return assets captured after</code>搭配使用。</p>
+        <p>輸入格式為<code>YYYY-MM-DDT00:00:00</code>的日期。 模組會傳回在此日期之前擷取的結果。</p><p> 此欄位無法與欄位<code>Return assets captured after given time</code>搭配使用。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 傳回資產的最大數量]</td>
+      <td role="rowheader">[！UICONTROL傳回指定時間後擷取的資產]</td>
+      <td>
+        <p>輸入格式為<code>YYYY-MM-DDT00:00:00</code>的日期。 模組會傳回在此日期之前擷取的結果。</p><p> 此欄位無法與欄位<code>Return assets captured before given time</code>搭配使用。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[！UICONTROL傳回資產的最大數量]</td>
       <td>
         <p>輸入您希望模組在每個案例執行週期中傳回的最大記錄數。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL SHA256原始檔案的雜湊值]</td>
+      <td role="rowheader">[！UICONTROL SHA256原始檔案的雜湊值]</td>
       <td>
-        <p></p>
+        <p>輸入或對映原始檔案的雜湊值。 會傳回具有相符雜湊的Assets。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 隱藏棧疊內的資產？」]</td>
+      <td role="rowheader">[！UICONTROL隱藏棧疊內的資產？」]</td>
       <td>
-        <p></p>
+        <p>選取「是」以隱藏棧疊內的資產（不會傳回棧疊內的資產）。 選取「否」可將資產包含在結果中的棧疊中。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Asset子型別值]</td>
+      <td role="rowheader">[！UICONTROL Asset子型別值]</td>
       <td>
-        <p></p>
+        <p>輸入要傳回的子型別值清單（以分號分隔），或對應。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
         <p>輸入或對應最多100個資產ID，以逗號分隔。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 要排除的資產型別]</td>
+      <td role="rowheader">[！UICONTROL要排除的資產型別]</td>
       <td>
         <p>選取是否要排除完整或不完整的資產。 若要包含所有資產，請將此欄位留空。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 群組值]</td>
+      <td role="rowheader">[！UICONTROL群組值]</td>
       <td>
-        <p></p>
+        <p>輸入或對應以分號分隔的群組值清單。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 名稱值]</td>
+      <td role="rowheader">[！UICONTROL名稱值]</td>
       <td>
-        <p></p>
+        <p>輸入或對應以分號分隔的名稱值清單。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 我的最愛狀態]</td>
+      <td role="rowheader">[！UICONTROL我的最愛狀態]</td>
       <td>
-        <p></p>
+        <p>輸入或對應您要傳回結果的我的最愛狀態。</p>
       </td>
     </tr>
     </tr>
   </tbody>
 </table>
+
+<!--BECKY START HERE-->
 
 ### 相簿
 
@@ -619,48 +648,48 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應目錄ID，該目錄包含您要新增資產的相簿。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 相簿ID]</td>
+      <td role="rowheader">[！UICONTROL相簿ID]</td>
       <td>
         <p>輸入或對應您要新增資產的相簿識別碼。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Assets]</td>
+      <td role="rowheader">[！UICONTROL Assets]</td>
       <td>
         <p>針對您想要新增至相簿的每個資產，按一下<b>新增專案</b>並輸入下列欄位。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 資產ID]</td>
+      <td role="rowheader">[！UICONTROL資產ID]</td>
       <td>
         <p>輸入或對應您要新增至相簿的資產ID</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 此資產是否為專輯封面？]</td>
+      <td role="rowheader">[！UICONTROL此資產是否為專輯封面？]</td>
       <td>
         <p>選取是否要將此資產顯示為代表相簿的影像。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 順序]</td>
+      <td role="rowheader">[！UICONTROL順序]</td>
       <td>
         <p></p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 中繼資料]</td>
+      <td role="rowheader">[！UICONTROL中繼資料]</td>
       <td>
         <p>輸入或對應您要納入資產的任何中繼資料。 這必須是單一文字字串，最大長度為1-24個字元。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 遠端ID]</td>
+      <td role="rowheader">[！UICONTROL遠端ID]</td>
       <td>
         <p>輸入資產的識別碼。</p>
       </td>
@@ -677,84 +706,84 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應您要建立相簿的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 相簿ID]</td>
+      <td role="rowheader">[！UICONTROL相簿ID]</td>
       <td>
         <p>輸入或對應新相簿的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Subtype]</td>
+      <td role="rowheader">[！UICONTROL Subtype]</td>
       <td>
         <p>選取相簿的子型別。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL API金鑰]</td>
+      <td role="rowheader">[！UICONTROL API金鑰]</td>
       <td>
         <p>輸入建立相簿之服務的API金鑰。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 日期時間使用者已建立]</td>
+      <td role="rowheader">[！UICONTROL日期時間使用者已建立]</td>
       <td>
         <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00Z</code>的日期。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 日期時間使用者已更新]</td>
+      <td role="rowheader">[！UICONTROL日期時間使用者已更新]</td>
       <td>
         <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00Z</code>的日期。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 專輯名稱]</td>
+      <td role="rowheader">[！UICONTROL專輯名稱]</td>
       <td>
         <p>輸入或對應新相簿的名稱。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 封面ID]</td>
+      <td role="rowheader">[！UICONTROL封面ID]</td>
       <td>
         <p>輸入或對應要當作此相簿封面的資產ID。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 遠端ID]</td>
+      <td role="rowheader">[！UICONTROL遠端ID]</td>
       <td>
         <p>輸入資產的識別碼。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 建立日期]</td>
+      <td role="rowheader">[！UICONTROL建立日期]</td>
       <td>
         <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00Z</code>的日期。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 更新日期]</td>
+      <td role="rowheader">[！UICONTROL更新日期]</td>
       <td>
         <p>輸入或對應格式為<code>YYYY-MM-DDT00:00:00-00:00Z</code>的日期。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 專輯已刪除嗎？]</td>
+      <td role="rowheader">[！UICONTROL專輯已刪除嗎？]</td>
       <td>
         <p>如果刪除了外部附屬內容，則啟用此選項。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL URL of location to edit ailiated content]</td>
+      <td role="rowheader">[！UICONTROL URL of location to edit ailiated content]</td>
       <td>
         <p>如果有使用者可以編輯此相簿內容的URL，請在此輸入URL。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL URL of location to view affiliated content]</td>
+      <td role="rowheader">[！UICONTROL URL of location to view affiliated content]</td>
       <td>
         <p>如果有使用者可以檢視此相簿內容的URL，請在此輸入URL。</p>
       </td>
@@ -773,23 +802,23 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應包含要刪除之相簿的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 相簿ID]</td>
+      <td role="rowheader">[！UICONTROL相簿ID]</td>
       <td>
         <p>輸入或對應您要刪除的相簿識別碼。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 刪除子專輯？]</td>
+      <td role="rowheader">[！UICONTROL刪除子專輯？]</td>
       <td>
         <p>選取是否要刪除已刪除相簿的子相簿。</p>
       </td>
@@ -806,17 +835,17 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應包含您要擷取之相簿的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 相簿ID]</td>
+      <td role="rowheader">[！UICONTROL相簿ID]</td>
       <td>
         <p>輸入或對應您要擷取的相簿ID。</p>
       </td>
@@ -839,29 +868,29 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應包含您要擷取之相簿的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 子型別]</td>
+      <td role="rowheader">[！UICONTROL子型別]</td>
       <td>
         <p>輸入或對應您要擷取的相簿ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目前結果前面的相簿名稱]</td>
+      <td role="rowheader">[！UICONTROL目前結果前面的相簿名稱]</td>
       <td>
         <p>如果您要分頁結果，請輸入或對應上一頁最後一張相簿的名稱。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 傳回專輯的最大數量]</td>
+      <td role="rowheader">[！UICONTROL傳回專輯的最大數量]</td>
       <td>
         <p>設定[!DNL Workfront Fusion]在一個執行週期內傳回的最大資產數量。 此欄位的預設值為100。如果限制邊界處的多個相簿具有相同的<code>name_after</code>值，則此模組可能會傳回比此限制更多的相簿。</p>
       </td>
@@ -880,17 +909,17 @@ Adobe Lightroom聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[！UICONTROL Connection]</td>
       <td>如需建立[!DNL Adobe Lightroom]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >建立與[!DNL Adobe Lightroom]</a>的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 目錄ID]</td>
+      <td role="rowheader">[！UICONTROL目錄ID]</td>
       <td>
         <p>輸入或對應包含要更新之相簿的目錄ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 相簿ID]</td>
+      <td role="rowheader">[！UICONTROL相簿ID]</td>
       <td>
         <p>輸入或對應您要更新的相簿識別碼。</p>
       </td>

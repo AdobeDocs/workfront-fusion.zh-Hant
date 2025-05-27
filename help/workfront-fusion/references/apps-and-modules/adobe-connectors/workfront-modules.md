@@ -206,7 +206,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 建立webhook後，您可以檢視事件傳送到的端點位址。
 
-如需詳細資訊，請參閱Workfront檔案中事件訂閱API一文中的[事件裝載範例](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-api#examples-of-event-payloads)小節。
+如需詳細資訊，請參閱Workfront檔案中事件訂閱API一文中的[事件裝載範例](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-api#examples-of-event-payloads)小節。
 
 檢視您可以在每個Workfront模組[&#128279;](#workfront-object-types-available-for-each-workfront-module)可用的Workfront物件型別中使用此模組的Workfront物件型別清單。
 
@@ -644,7 +644,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
       </ul> <p>針對所有其他記錄型別，選取<b>[!UICONTROL Other objects and endpoints]</b>，然後在依字母順序排序的頁面上尋找記錄型別。</p> </li> 
      <li value="2"> <p>在適當記錄型別的頁面上，搜尋動作（Ctrl-F或Cmd-F）。</p> </li> 
      <li value="3"> <p>檢視所選動作下可用欄位的說明。</p> </li> 
-    </ol> <p>注意：  <p>透過Workfront [!UICONTROL 雜湊動作]模組建立校訂時，最佳實務是建立不含任何進階選項的校訂，然後使用[!DNL Workfront Proof] SOAP API更新校訂。</p><p>如需使用Workfront API （此模組使用）建立校訂的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/tips-troubleshooting-apis/api-create-proof-options-json" class="MCXref xref">透過Adobe Workfront API建立校訂時新增進階校訂選項</a></p> </p> </td> 
+    </ol> <p>注意：  <p>透過Workfront [!UICONTROL 雜湊動作]模組建立校訂時，最佳實務是建立不含任何進階選項的校訂，然後使用[!DNL Workfront Proof] SOAP API更新校訂。</p><p>如需使用Workfront API （此模組使用）建立校訂的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/tips-troubleshooting-apis/api-create-proof-options-json" class="MCXref xref">透過Adobe Workfront API建立校訂時新增進階校訂選項</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
@@ -918,7 +918,7 @@ Workfront聯結器使用OAuth 2.0連線至Workfront。
 
 Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變更Workfront API，而是變更事件訂閱功能。 此動作模組會更新用於此情境的事件裝載版本。
 
-如需新事件訂閱版本的詳細資訊，請參閱Workfront檔案中的[事件訂閱版本設定](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
+如需新事件訂閱版本的詳細資訊，請參閱Workfront檔案中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 
 如需在事件訂閱升級期間保留Workfront Fusion案例的資源，包括網路研討會影片，請參閱[在事件訂閱V2升級期間保留Fusion案例](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
@@ -2238,7 +2238,7 @@ See a list of the Workfront object types for which you can use this module in [W
 >
 >* Workfront最近發佈了其事件訂閱服務的新版本。 新版本並非變更Workfront API，而是變更事件訂閱功能。 此動作模組會更新用於此情境的事件裝載版本。
 >
->   如需新事件訂閱版本的詳細資訊，請參閱Workfront檔案中的[事件訂閱版本設定](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
+>   如需新事件訂閱版本的詳細資訊，請參閱Workfront檔案中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 >
 >   如需在事件訂閱升級期間保留Workfront Fusion案例的資源（包括網路研討會影片），請參閱[在事件訂閱V2升級期間保留Fusion案例(https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)]。
 
@@ -2290,7 +2290,7 @@ Workfront [!UICONTROL 觀看活動]模組會根據在Workfront API中建立活�
 >
 >如果一天內建立100個問題，但只有兩個問題指派給Ana，則案例將執行100次。 98個執行會在篩選後停止，但觸發模組仍在所有執行中使用資料並執行操作。
 
-如需Workfront活動訂閱的詳細資訊，請參閱[常見問題集 — 活動訂閱](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-faq)。
+如需Workfront活動訂閱的詳細資訊，請參閱[常見問題集 — 活動訂閱](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-faq)。
 
 如需Webhook的詳細資訊，請參閱Adobe Workfront Fusion中的[即時觸發器(Webhook)](/help/workfront-fusion/references/modules/webhooks-reference.md)
 

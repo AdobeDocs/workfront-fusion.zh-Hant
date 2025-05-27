@@ -4,9 +4,9 @@ description: 路由器模組可讓您將流量分支至數個路由，並以不�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8344cde4-df3e-4b72-9d10-46ff4b186400
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: c1c11c6766678263b36488909c3799299a1c510a
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td> <p>新增：[！UICONTROL Standard]</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
@@ -47,7 +47,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增：</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[！UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
    </td> 
@@ -55,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -65,17 +65,17 @@ ht-degree: 0%
 
 您必須先新增路由器模組，才能設定路由。
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增路由器的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 在情境編輯器中，按一下要在其後新增路由器的模組右側控制代碼。
-1. 在顯示的模組清單中選取&#x200B;**[!UICONTROL Flow Control]** > **路由器**。
+1. 在顯示的模組清單中選取&#x200B;**[!UICONTROL 流量控制]** > **路由器**。
 
    ![連線路由](assets/connect-the-router-350x108.png)
 
    或
 
-   若要在兩個模組之間插入路由器模組，請按一下連線兩個模組的路由下方的扳手圖示，然後從功能表中選取&#x200B;**[!UICONTROL Add a router]**。
+   若要在兩個模組之間插入路由器模組，請按一下連線兩個模組的路由下方的扳手圖示，然後從功能表中選取&#x200B;**[!UICONTROL 新增路由器]**。
 
    ![插入路由器](assets/insert-router-350x191.png)
 1. 按一下路由器右邊的控點並新增模組（類似於新增任何模組），即可新增第一條路由至路由器。
@@ -87,7 +87,7 @@ ht-degree: 0%
 
    路由會依其執行順序排列。 最上層路由會先執行。
 
-1. （可選）若要變更路由順序，請在路由器的路徑上按一下滑鼠右鍵，並選取「取消連結」，然後依所需順序將其拖曳至路由器模組，以取消連結路由。 附加的第一個路由將是要執行的第一個路由（最上層路由）。
+1. （選擇性）若要變更路由順序，請在路由器模組上按一下滑鼠右鍵，然後選取&#x200B;**排序路由**&#x200B;以您希望路由執行的順序拖放路由。 路由會標示在路由器之後的第一個模組（路由的第一個模組）。
 
 1. 繼續[新增篩選器至路由](#add-a-filter-to-a-route)。
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 如果資料經過一個以上路由的篩選，資料會由兩個路由處理。 頂端路由會先處理資料。
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增篩選的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 在您要設定篩選的路徑上按一下扳手圖示![扳手](assets/wrench-icon.png)。 這是路由器模組與路由的第一個模組之間的路徑。
@@ -107,7 +107,7 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱[將篩選器新增至案例](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md)。
 
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以儲存篩選器設定。
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存篩選器設定。
 
 1. 繼續[設定遞補路由](#configure-a-fallback-route)。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 您可以在篩選面板中啟用遞補路由。
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增遞補路由的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 在您要設定篩選的路徑上按一下扳手圖示![扳手](assets/wrench-icon.png)。 這是路由器模組與路由的第一個模組之間的路徑。
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    ![遞補路由](assets/fallback-route-350x260.png)
 
-1. 按一下&#x200B;**[!UICONTROL OK]**&#x200B;以儲存篩選器設定。
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存篩選器設定。
 
 備援路由在路由器模組中標示為不同的箭頭：
 

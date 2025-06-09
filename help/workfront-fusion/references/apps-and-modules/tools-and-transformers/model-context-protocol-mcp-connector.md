@@ -55,7 +55,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的[存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -74,15 +74,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL大語言模型(LLM)鍵]</td> 
+   <td role="rowheader">[!UICONTROL 大語言模型(LLM)鍵]</td> 
    <td> <p>輸入或對應您要用於此提示的大型語言模型的API金鑰。 </p> <p>目前僅支援人類API金鑰。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL MCP伺服器]</td> 
+   <td role="rowheader">[!UICONTROL MCP伺服器]</td> 
    <td> <p>對於您想要讓此提示可用的每個MCP伺服器，按一下[新增專案] </b>，然後輸入伺服器的名稱和主機。<b> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入提示]</td> 
+   <td role="rowheader">[!UICONTROL 輸入提示]</td> 
    <td> <p>輸入或對應大型語言模型的提示。 </p> </td> 
   </tr> 
  </tbody> 

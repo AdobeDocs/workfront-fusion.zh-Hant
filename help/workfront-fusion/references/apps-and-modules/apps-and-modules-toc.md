@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: 830ac0085c1dce174b9ad167de7305d43143ed44
+source-git-commit: 9c0ecebddbd02d34e936bc06ddd1c27186d2433f
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,8 @@ Fusion為許多Adobe產品和服務提供聯結器。
 * [Adobe Creative Cloud程式庫模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/creative-cloud-libraries-modules.md)
 * [Adobe Experience Manager Assets模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
 * [Adobe Experience Manager Forms模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
-* [Adobe Systems 螢火蟲模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
-* [Adobe Systems Frame.io Beta （V4） 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
+* [Adobe Firefly模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
+* [Adobe Frame.io Beta (V4)模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
 * [Adobe Frame.io舊版(V3)模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
 * [Adobe I/O Events模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
 * [Adobe Journey Optimizer模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
@@ -57,13 +57,13 @@ Fusion為許多Adobe產品和服務提供聯結器。
 * [Adobe Target模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
 * [Adobe使用者管理模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-user-management-modules.md)
 * [Adobe Workfront模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md)
-* [Adobe Systems工作前台計劃模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-planning-modules.md)
-* [工作面板模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-boards-modules.md)
-* [工作面證明模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-proof-modules.md)
+* [Adobe Workfront規劃模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-planning-modules.md)
+* [Workfront主機板模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-boards-modules.md)
+* [Workfront Proof模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-proof-modules.md)
 
-## 用於協力廠商應用的連接器
+## 協力廠商應用程式的聯結器
 
-Fusion為許多協力廠商應用提供連接器。
+Fusion為許多第三方應用程式提供聯結器。
 
 * [可投放模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/airtable-modules.md)
 * [配置模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/allocadia-modules.md)
@@ -71,17 +71,17 @@ Fusion為許多協力廠商應用提供連接器。
 * [AWS S3模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/aws-s3-modules.md)
 * [Azure Active Directory模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/azure-ad-modules.md)
 * [Azure DevOps模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/azure-dev-ops.md)
-* [箱式模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/box-modules.md)
-* [賓德模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/bynder-modules.md)
+* [方塊模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/box-modules.md)
+* [旁觀器模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/bynder-modules.md)
 * [CloudConvert模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/cloud-convert-modules.md)
 * [事件模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/cvent-modules.md)
 * [Datadog模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/datadog-modules.md)
-* [文件簽名模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/docusign-modules.md)
+* [docussign模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/docusign-modules.md)
 * [Dropbox模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/dropbox-modules.md)
 * [電子郵件模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/email-modules.md)
-* [圖格瑪模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/figma-modules.md)
-* [Github 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/github.md)
-* [GitLab 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gitlab-modules.md)
+* [圖形模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/figma-modules.md)
+* [Github模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/github.md)
+* [gitlab模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gitlab-modules.md)
 * [Gmail模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/gmail-modules.md)
 * [Google行事曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-calendar-modules.md)
 * [Google Docs模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-docs-modules.md)
@@ -106,16 +106,16 @@ Fusion為許多協力廠商應用提供連接器。
 * [netsuite模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/netsuite.md)
 * [OpenAI （ChatGPT與DALL-E）模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/openai-chatgpt-modules.md)
 * [PowerBI模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/powerbi-modules.md)
-* [Qualtrics 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/qualtrics-modules.md)
-* [快速基礎模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/quickbase-modules.md)
-* [Salesforce 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/salesforce-modules.md)
+* [Qualtrics模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/qualtrics-modules.md)
+* [Quickbase模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/quickbase-modules.md)
+* [Salesforce模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/salesforce-modules.md)
 * [SDL管理翻譯模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/sdl-managed-translation-modules.md)
 * [ServiceNow模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/servicenow-modules.md)
 * [Slack模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md)
 * [Split.io模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/split-io-modules.md)
 * [格線模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/trello-modules.md)
 * [加寬模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/widen-modules.md)
-* [工作日模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/workday-modules.md)
+* [Workday模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/workday-modules.md)
 
 
 ## 工具與轉換器
@@ -124,7 +124,7 @@ Fusion為許多協力廠商應用提供連接器。
 
 * [封存模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/archive-modules.md)
 * [CSV模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/csv.md)
-* [數據商店模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md)
+* [資料存放區模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md)
 * [Draft.js模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/draft-js-modules.md)
 * [加密程式模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/encryptor-modules.md)
 * [流量控制模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/flow-control.md)
@@ -135,6 +135,7 @@ Fusion為許多協力廠商應用提供連接器。
 * [Markdown模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/markdown-modules.md)
 * [數學模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/math-module.md)
 * [mime模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md)
-* [文本解析器模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md)
+* [模型內容通訊協定(MCP)模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/model-context-protocol-mcp-connector.md)
+* [文字剖析器模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md)
 * [工具模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/tools-modules.md)
 * [xml模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/xml-modules.md)

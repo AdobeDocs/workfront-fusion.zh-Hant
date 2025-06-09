@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: ad00d7c404701ad526befae9b61c3480f4fb82b6
+source-git-commit: d03c4a68a69ea5302f6898418c3da9edaa404bad
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1791'
 ht-degree: 3%
 
 ---
@@ -393,6 +393,7 @@ ht-degree: 3%
          * [Markdown模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/markdown-modules.md)
          * [數學模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/math-module.md)
          * [mime模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md)
+         * [模型內容通訊協定(MCP)模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/model-context-protocol-mcp-connector.md)
          * [文字剖析器模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md)
          * [工具模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/tools-modules.md)
          * [xml模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/xml-modules.md)

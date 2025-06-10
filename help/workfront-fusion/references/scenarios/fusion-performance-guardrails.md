@@ -4,9 +4,9 @@ description: 工作自動化需要快速處理，因此 [!DNL Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 1253470a23a2a9124824d5ab1ff2b5013d773517
+source-git-commit: 391675882c9f8c4e8f66e3b63da3e878c413d031
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 ## 情境
 
 * 預設案例執行逾時為&#x200B;**40分鐘**。 當執行達到此逾時時，[!DNL Workfront Fusion]會在下一個週期或作業之後中斷案例執行，視案例而定。 這會在達到40分鐘限制後不久強制停止情境
+
+  鏈結案例不會計入案例執行逾時。 等待子案例執行時，父案例不會累積時間。
 * 情境藍圖的大小上限為&#x200B;**5 MB**，但建議將情境大小維持在&#x200B;**3 MB**&#x200B;以下。
 
   使用大量欄位建立或更新資料的應用程式模組可能會產生非常大的藍圖。

@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: e0058a54039f100ba82bc8a3ed8f5d3d4445ffeb
+source-git-commit: 12315eca71d8febf7f3e5bb055d94cd5ccb9361e
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,6 @@ Fusion為許多第三方應用程式提供聯結器。
 * [Markdown模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/markdown-modules.md)
 * [數學模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/math-module.md)
 * [mime模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md)
-* [模型內容通訊協定(MCP)模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/model-context-protocol-mcp-connector.md)
 * [文字剖析器模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md)
 * [工具模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/tools-modules.md)
 * [xml模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/xml-modules.md)

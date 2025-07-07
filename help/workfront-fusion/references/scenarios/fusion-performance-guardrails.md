@@ -4,9 +4,9 @@ description: 工作自動化需要快速處理，因此 [!DNL Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: bebb30132a2cce66037f243563d61939625ea59d
+source-git-commit: 784516c1282f318a46b32c803064d869cc116790
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
@@ -95,4 +95,9 @@ ht-degree: 0%
 ## TLS
 
 * Fusion目前預設支援TLS 1.2版。
+* 如果目的地服務已啟用TLS 1.3，Fusion便可對傳出HTTPS要求使用TLS 1.3。
 * 組織可以要求為其Fusion執行個體啟用TLS 1.3版。
+
+>[!NOTE]
+>
+> 如果您要連線到Workfront，請注意，對格式為`https://<domain>.my.workfront.com`之網域的呼叫已在Workfront中啟用此TLS功能。

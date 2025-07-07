@@ -4,9 +4,9 @@ description: 工作自動化需要快速處理，因此 [!DNL Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 391675882c9f8c4e8f66e3b63da3e878c413d031
+source-git-commit: bebb30132a2cce66037f243563d61939625ea59d
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -92,3 +92,7 @@ ht-degree: 0%
 * **當案例導致遞回時，Fusion工程團隊會停用它以防止進一步的效能問題。**
 * 由於遞回是案例設計的結果，因此您必須以確保案例不包含觸發案例的動作的方式來設計案例。
 
+## TLS
+
+* Fusion目前預設支援TLS 1.2版。
+* 組織可以要求為其Fusion執行個體啟用TLS 1.3版。

@@ -127,35 +127,35 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>輸入或對應模組在一個執行週期內傳回的最大專案數。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">要搜尋的[！UICONTROL物件型別]</td> 
+   <td role="rowheader">要搜尋的[!UICONTROL 物件型別]</td> 
    <td>選取您要搜尋的Hubspot CRM物件型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出屬性]</td> 
+   <td role="rowheader">[!UICONTROL 輸出屬性]</td> 
    <td>選取您要顯示在模組輸出中的屬性。 可用的欄位取決於您選取的物件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL篩選依據] </td> 
+   <td role="rowheader">[!UICONTROL 篩選依據] </td> 
    <td> <p>選取您要如何篩選搜尋</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL查詢]</strong> </p> <p>輸入或對映查詢</p> </li> 
-     <li> <p><strong>[！UICONTROL屬性]</strong> </p> <p>輸入搜尋的群組或篩選器。</p> </li> 
+     <li> <p><strong>[!UICONTROL 查詢]</strong> </p> <p>輸入或對映查詢</p> </li> 
+     <li> <p><strong>[!UICONTROL 屬性]</strong> </p> <p>輸入搜尋的群組或篩選器。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL排序依據]</td> 
+   <td role="rowheader">[!UICONTROL 排序依據]</td> 
    <td> <p>如果要排序結果，請按一下。 如果您選擇排序結果，則會顯示下列欄位。 </p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL屬性名稱]</strong> </p> <p>選取您要用來排序結果的屬性</p> </li> 
-     <li> <p><strong>[！UICONTROL方向]</strong> </p> <p>選擇您要以遞增或遞減方向排序結果。</p> </li> 
+     <li> <p><strong>[!UICONTROL 屬性名稱]</strong> </p> <p>選取您要用來排序結果的屬性</p> </li> 
+     <li> <p><strong>[!UICONTROL 方向]</strong> </p> <p>選擇您要以遞增或遞減方向排序結果。</p> </li> 
     </ul> </td> 
   </tr> 
    <tr> 
@@ -176,27 +176,27 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>輸入或對應模組在一個執行週期內傳回的最大專案數。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">要搜尋的[！UICONTROL物件型別]</td> 
+   <td role="rowheader">要搜尋的[!UICONTROL 物件型別]</td> 
    <td> <p>選取您要搜尋的物件型別。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出屬性]</td> 
+   <td role="rowheader">[!UICONTROL 輸出屬性]</td> 
    <td>選取您要包含在此模組輸出中的屬性。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL已建立/已更新]</td> 
+   <td role="rowheader">[!UICONTROL 已建立/已更新]</td> 
    <td>選取您要觀看建立的（新）物件或更新的（已修改）物件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL篩選依據]</td> 
+   <td role="rowheader">[!UICONTROL 篩選依據]</td> 
    <td>您可以新增篩選器，以確保案例只會在符合某些條件時開始。<ul><li><b>查詢</b><p>輸入您要依據的查詢。</li><li><b>屬性</b><p>針對您想要用來篩選結果的每個屬性，按一下<b>新增專案</b>並輸入屬性名稱、運運算元及屬性值。</td> 
   </tr> 
  </tbody> 
@@ -215,15 +215,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要建立的記錄型別。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL屬性群組]</td> 
+   <td role="rowheader">[!UICONTROL 屬性群組]</td> 
    <td>對於建立記錄時想要新增的每個屬性，選取屬性所在的群組。 屬性群組將會開啟，然後您可以填入屬性的值。 可用的屬性群組和屬性取決於您要建立的記錄型別。</td> 
   </tr> 
  </tbody> 
@@ -240,15 +240,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要建立的記錄型別。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL屬性]</td> 
+   <td role="rowheader">[!UICONTROL 屬性]</td> 
    <td>填寫您要為記錄設定的任何屬性。 可用欄位取決於您要建立的記錄型別。</td> 
   </tr> 
  </tbody> 
@@ -265,15 +265,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td>選取您要刪除的記錄型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入您要刪除的連絡人、公司或交易的識別碼。 </td> 
   </tr> 
  </tbody> 
@@ -290,28 +290,28 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取記錄型別。</p> 
     <ul> 
-     <li>[！UICONTROL連絡人]</li> 
-     <li>[！UICONTROL公司] </li> 
-     <li>[！UICONTROL交易]</li> 
+     <li>[!UICONTROL 連絡人]</li> 
+     <li>[!UICONTROL 公司] </li> 
+     <li>[!UICONTROL 交易]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL搜尋型別]</td> 
+   <td role="rowheader">[!UICONTROL 搜尋型別]</td> 
    <td>如果您有連絡人，請選取您要以ID或電子郵件地址來識別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入您要擷取之聯絡人、公司或交易的識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL電子郵件]</td> 
+   <td role="rowheader">[!UICONTROL 電子郵件]</td> 
    <td>輸入您要擷取其詳細資訊之連絡人的電子郵件地址。 </td> 
   </tr> 
  </tbody> 
@@ -328,19 +328,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td>選取具有您要擷取中繼資料之屬性的記錄型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL屬性名稱]</td> 
+   <td role="rowheader">[!UICONTROL 屬性名稱]</td> 
    <td>選取您要擷取中繼資料的屬性。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選項ID]</td> 
+   <td role="rowheader">[!UICONTROL 選項ID]</td> 
    <td> <p> 有些屬性具有一組可用選項，使用者可選取這些選項作為屬性值。 輸入代表您要擷取之屬性值的選項ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -357,19 +357,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL型別]</td> 
+   <td role="rowheader">[!UICONTROL 型別]</td> 
    <td> <p>選取您要傳回的記錄型別。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出屬性]</td> 
+   <td role="rowheader">[!UICONTROL 輸出屬性]</td> 
    <td>選取您要包含在此模組輸出中的屬性。</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -386,31 +386,31 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td>選取您要更新的記錄型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL搜尋型別]</td> 
+   <td role="rowheader">[!UICONTROL 搜尋型別]</td> 
    <td> <p>如果您要取得連絡人，請選取您要如何識別記錄：</p> 
     <ul> 
-     <li> <p>[！UICONTROL ID]</p> </li> 
-     <li> <p>[！UICONTROL電子郵件]</p> </li> 
+     <li> <p>[!UICONTROL ID]</p> </li> 
+     <li> <p>[!UICONTROL 電子郵件]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入您要更新的聯絡人、公司或交易的識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL電子郵件]</td> 
+   <td role="rowheader">[!UICONTROL 電子郵件]</td> 
    <td>輸入您要更新其詳細資訊之連絡人的電子郵件地址。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL屬性]</td> 
+   <td role="rowheader">[!UICONTROL 屬性]</td> 
    <td>填寫您要為記錄設定的任何屬性。 可用欄位取決於您要建立的記錄型別。</td> 
   </tr> 
  </tbody> 
@@ -427,23 +427,23 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td>選取具有您要觀看之屬性的記錄型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL搜尋]</td> 
+   <td role="rowheader">[!UICONTROL 搜尋]</td> 
    <td>選取您要觀看最近修改或最近建立的記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出屬性]</td> 
+   <td role="rowheader">[!UICONTROL 輸出屬性]</td> 
    <td>選取要包含在模組輸出中的屬性。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -462,19 +462,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL清單ID] </td> 
+   <td role="rowheader">[!UICONTROL 清單ID] </td> 
    <td>選取您要新增連絡人的清單識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID/電子郵件] </td> 
+   <td role="rowheader">[!UICONTROL ID/電子郵件] </td> 
    <td> <p>選取要如何識別要新增至清單的連絡人：</p> 
     <ul> 
-     <li> <p>[！UICONTROL IDs]</p> <p>新增您要新增至清單的連絡人ID。</p> </li> 
-     <li> <p>[！UICONTROL電子郵件]</p> <p>新增您要新增至清單的連絡人電子郵件地址。</p> </li> 
+     <li> <p>[!UICONTROL IDs]</p> <p>新增您要新增至清單的連絡人ID。</p> </li> 
+     <li> <p>[!UICONTROL 電子郵件]</p> <p>新增您要新增至清單的連絡人電子郵件地址。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -491,11 +491,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL屬性群組]</td> 
+   <td role="rowheader">[!UICONTROL 屬性群組]</td> 
    <td>對於建立連絡人時要新增的每個屬性，請選取屬性所在的群組。 屬性群組將會開啟，然後您可以填入屬性的值。</td> 
   </tr> 
  </tbody> 
@@ -512,11 +512,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL屬性]</td> 
+   <td role="rowheader">[!UICONTROL 屬性]</td> 
    <td>填寫您要設定或更新連絡人的任何屬性。 </td> 
   </tr> 
  </tbody> 
@@ -533,19 +533,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL要建立/更新的連絡人批次] </td> 
-   <td> <p>新增批次連絡人。</p> <p>按一下<strong>[！UICONTROL新增專案]</strong>以新增連絡人。 在出現的視窗中，輸入或對應下列資訊：</p> 
+   <td role="rowheader">[!UICONTROL 要建立/更新的連絡人批次] </td> 
+   <td> <p>新增批次連絡人。</p> <p>按一下<strong>[!UICONTROL 新增專案]</strong>以新增連絡人。 在出現的視窗中，輸入或對應下列資訊：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL搜尋型別]</strong> </p> <p>選取您要如何識別連絡人：</p> 
+     <li> <p><strong>[!UICONTROL 搜尋型別]</strong> </p> <p>選取您要如何識別連絡人：</p> 
       <ul> 
-       <li> <p>[！UICONTROL ID]</p> <p>輸入要建立或更新之連絡人的識別碼。 </p> </li> 
-       <li> <p>[！UICONTROL電子郵件]</p> <p>輸入您要建立或更新之連絡人的電子郵件地址。 </p> </li> 
+       <li> <p>[!UICONTROL ID]</p> <p>輸入要建立或更新之連絡人的識別碼。 </p> </li> 
+       <li> <p>[!UICONTROL 電子郵件]</p> <p>輸入您要建立或更新之連絡人的電子郵件地址。 </p> </li> 
       </ul> </li> 
-     <li> <p><strong>[！UICONTROL屬性]</strong> </p> <p>填寫您要設定或更新連絡人的任何屬性。</p> </li> 
+     <li> <p><strong>[!UICONTROL 屬性]</strong> </p> <p>填寫您要設定或更新連絡人的任何屬性。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -562,15 +562,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>一個案例執行週期內應傳回的聯絡人數目上限[!DNL Workfront Fusion]。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出屬性]</td> 
+   <td role="rowheader">[!UICONTROL 輸出屬性]</td> 
    <td>選取您要顯示在模組輸出中的屬性。 </td> 
   </tr> 
    <tr> 
@@ -591,15 +591,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入要列出其聯絡人的公司ID。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>一個案例執行週期內應傳回的聯絡人數目上限[!DNL Workfront Fusion]。 </td> 
   </tr> 
    <tr> 
@@ -620,15 +620,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID 1] </td> 
+   <td role="rowheader">[!UICONTROL ID 1] </td> 
    <td>輸入您要合併之連絡人的識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID 2] </td> 
+   <td role="rowheader">[!UICONTROL ID 2] </td> 
    <td>輸入您要合併的其他連絡人的ID。</td> 
   </tr> 
  </tbody> 
@@ -649,15 +649,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL清單ID] </td> 
+   <td role="rowheader">[!UICONTROL 清單ID] </td> 
    <td>選取您要移除連絡人的清單識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL聯絡人ID] </td> 
+   <td role="rowheader">[!UICONTROL 聯絡人ID] </td> 
    <td>輸入您要從清單中移除之連絡人的ID。 </td> 
   </tr> 
  </tbody> 
@@ -674,15 +674,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Query]</td> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
    <td>輸入搜尋查詢。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td role="rowheader">[!UICONTROL 限制] </td> 
    <td>輸入或對應在一個案例執行週期內應傳回的聯絡人數目上限[!DNL Workfront Fusion]。 </td> 
   </tr> 
  </tbody> 
@@ -699,19 +699,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL清單ID]</td> 
+   <td role="rowheader">[!UICONTROL 清單ID]</td> 
    <td>輸入或對應包含您要觀看之連絡人的清單ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出屬性]</td> 
+   <td role="rowheader">[!UICONTROL 輸出屬性]</td> 
    <td>選取要包含在模組輸出中的屬性。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -730,15 +730,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL管道ID] </td> 
+   <td role="rowheader">[!UICONTROL 管道ID] </td> 
    <td>輸入或對應您要擷取詳細資訊的管道ID。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL階段ID] </td> 
+   <td role="rowheader">[!UICONTROL 階段ID] </td> 
    <td>輸入或對應您要擷取詳細資訊的階段ID。 </td> 
   </tr> 
  </tbody> 
@@ -755,11 +755,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL物件型別] </td> 
+   <td role="rowheader">[!UICONTROL 物件型別] </td> 
    <td>選取您要列出交易或票證。</td> 
   </tr> 
  </tbody> 
@@ -778,19 +778,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL網域] </td> 
+   <td role="rowheader">[!UICONTROL 網域] </td> 
    <td>輸入您要搜尋的公司網域，例如<code>[!DNL hubspot].com</code>。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>在一個案例執行週期內應傳回的公司數目上限[!DNL Workfront Fusion]。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出屬性]</td> 
+   <td role="rowheader">[!UICONTROL 輸出屬性]</td> 
    <td>選取您要顯示在模組輸出中的屬性。 </td> 
   </tr> 
  </tbody> 
@@ -809,19 +809,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL型別]</td> 
+   <td role="rowheader">[!UICONTROL 型別]</td> 
    <td>選取您要與參與建立關聯的CRM記錄型別。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL參與ID]</td> 
+   <td role="rowheader">[!UICONTROL 參與ID]</td> 
   <td>輸入或對應您要與物件關聯的參與ID。</td> 
    </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄ID]</td> 
+   <td role="rowheader">[!UICONTROL 記錄ID]</td> 
   <td>輸入或對應您要與參與產生關聯的記錄ID。</td> 
    </tr> 
  </tbody> 
@@ -838,15 +838,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL是否啟用？]</td> 
+   <td role="rowheader">[!UICONTROL 是否啟用？]</td> 
    <td>如果新參與在建立時處於活動狀態，則啟用此選項。 參與必須為作用中狀態，才能顯示在時間軸中。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL型別]</td> 
+   <td role="rowheader">[!UICONTROL 型別]</td> 
   <td>選取您要建立的參與型別。
   <ul>
   <li><b>電子郵件</b><p></p>繼續<a href="#email-metadata" class="MCXref xref" >電子郵件中繼資料</a>。</p></li>
@@ -903,15 +903,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[！UICONTROL From &gt; Email]</p> </td> 
+   <td> <p>[!UICONTROL From &gt; Email]</p> </td> 
    <td> <p>輸入或對應寄出電子郵件的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL名字]</td> 
+   <td role="rowheader">[!UICONTROL 名字]</td> 
    <td>輸入或對應電子郵件寄件者的名字。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL姓氏]</td> 
+   <td role="rowheader">[!UICONTROL 姓氏]</td> 
   <td>輸入或對應電子郵件寄件者的姓氏。
   </td> 
    </tr> 
@@ -949,15 +949,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[！UICONTROL至Number]</p> </td> 
+   <td> <p>[!UICONTROL 至Number]</p> </td> 
    <td> <p>輸入或對應來電的目標電話號碼。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL From Number]</td> 
+   <td role="rowheader">[!UICONTROL From Number]</td> 
    <td>輸入或對應撥打該電話的電話號碼。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL狀態]</td> 
+   <td role="rowheader">[!UICONTROL 狀態]</td> 
   <td>選取通話狀態。
   </td> 
    </tr> 
@@ -991,15 +991,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[！UICONTROL標題]</p> </td> 
+   <td> <p>[!UICONTROL 標題]</p> </td> 
    <td> <p>輸入或對映會議的標題或主旨。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td>輸入或對應會議說明或詳細資訊的文字。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL開始時間]</td> 
+   <td role="rowheader">[!UICONTROL 開始時間]</td> 
   <td>輸入或對應會議開始時間作為UNIX時間戳記。
   </td> 
    </tr> 
@@ -1017,11 +1017,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[！UICONTROL主旨]</p> </td> 
+   <td> <p>[!UICONTROL 主旨]</p> </td> 
    <td> <p>輸入或對映工作的標題或主旨。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td>輸入或對應工作說明或詳細資訊的文字。</td> 
   </tr> 
   <tr> 
@@ -1029,7 +1029,7 @@ HubSpot CRM聯結器使用下列專案：
    <td>選取工作的狀態。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL For Object Type]</td> 
+   <td role="rowheader">[!UICONTROL For Object Type]</td> 
   <td>輸入<code>CONTACT</code>或<code>COMPANY</code>。
   </td> 
    </tr> 
@@ -1047,11 +1047,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td role="rowheader">[!UICONTROL 檔案ID]</td> 
    <td>輸入或對應您要刪除的參與ID。</td> 
   </tr> 
  </tbody> 
@@ -1068,15 +1068,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>在一個案例執行週期內應傳回的公司數目上限[!DNL Workfront Fusion]。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL始自]</td> 
+   <td role="rowheader">[!UICONTROL 始自]</td> 
    <td>輸入或對應您要觀看事件的最早日期。 使用格式<code>MM/DD/YYYY h:mm</code>。</td> 
   </tr> 
  </tbody> 
@@ -1095,35 +1095,35 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL應用程式ID]</td> 
+   <td role="rowheader">[!UICONTROL 應用程式ID]</td> 
    <td>輸入或對應此事件所屬之應用程式的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL事件ID]</td> 
+   <td role="rowheader">[!UICONTROL 事件ID]</td> 
    <td>輸入或對應此事件的ID。 系統不會產生事件ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL事件型別ID]</td> 
+   <td role="rowheader">[!UICONTROL 事件型別ID]</td> 
    <td>輸入或對應此事件事件事件型別的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL電子郵件]</td> 
+   <td role="rowheader">[!UICONTROL 電子郵件]</td> 
    <td>輸入或對應您要建立事件的連絡人電子郵件地址。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL物件ID]</td> 
+   <td role="rowheader">[!UICONTROL 物件ID]</td> 
    <td>輸入或對應您要建立事件的連絡人ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL時間戳記]</td> 
+   <td role="rowheader">[!UICONTROL 時間戳記]</td> 
    <td>輸入或對應此事件的時間戳記。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL自訂資料]</td> 
+   <td role="rowheader">[!UICONTROL 自訂資料]</td> 
    <td>針對您想要新增至此事件的每個自訂資料專案，按一下<b>新增專案</b>並輸入專案的名稱和值。</td> 
   </tr> 
  </tbody> 
@@ -1140,11 +1140,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL應用程式ID]</td> 
+   <td role="rowheader">[!UICONTROL 應用程式ID]</td> 
    <td>輸入或對應此事件所屬之應用程式的ID。 </td> 
   </tr> 
  </tbody> 
@@ -1161,23 +1161,23 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL事件型別]</td> 
+   <td role="rowheader">[!UICONTROL 事件型別]</td> 
    <td>選取您要觀看社交活動、內容活動或所有活動。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大檔案數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL開始日期]</td> 
+   <td role="rowheader">[!UICONTROL 開始日期]</td> 
    <td>輸入或對映開始日期。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL結束日期]</td> 
+   <td role="rowheader">[!UICONTROL 結束日期]</td> 
    <td>輸入或對映結束日期。</td> 
   </tr> 
  </tbody> 
@@ -1196,19 +1196,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL應用程式ID]</td> 
+   <td role="rowheader">[!UICONTROL 應用程式ID]</td> 
    <td>輸入您要用於此webhook的應用程式ID。 您可以在您的HubSpot開發人員入口網站中找到該ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL訂閱]</td> 
+   <td role="rowheader">[!UICONTROL 訂閱]</td> 
    <td> <p>針對您要觀看的每種通知型別，按一下<b>新增專案</b>並選取訂閱型別。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL強制移除舊訂閱]</td> 
+   <td role="rowheader">[!UICONTROL 強制移除舊訂閱]</td> 
    <td>啟用此選項以分離或刪除附加到此webhook的舊訂閱。</td> 
   </tr> 
  </tbody> 
@@ -1227,15 +1227,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾名稱] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾名稱] </td> 
    <td>輸入或對應新資料夾的名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL父資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 父資料夾ID] </td> 
    <td>選取您要建立之資料夾的父資料夾ID。 </td> 
   </tr> 
  </tbody> 
@@ -1252,11 +1252,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td role="rowheader">[!UICONTROL 檔案ID]</td> 
    <td>輸入或對應您要刪除之檔案的ID。</td> 
   </tr> 
  </tbody> 
@@ -1273,11 +1273,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入或對應您要刪除的資料夾識別碼。</td> 
   </tr> 
  </tbody> 
@@ -1294,19 +1294,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大檔案數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID]</td> 
    <td>輸入或對應包含您要列出之檔案的資料夾識別碼。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL篩選器]</td> 
+   <td role="rowheader">[!UICONTROL 篩選器]</td> 
    <td>若只要在檔案名稱中包含包含特定字元的檔案，請輸入或對應您要檔案名稱包含的字元。</td> 
   </tr> 
  </tbody> 
@@ -1323,19 +1323,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案ID] </td> 
+   <td role="rowheader">[!UICONTROL 檔案ID] </td> 
    <td>輸入或對應您要移動之檔案的ID。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td>選取您要移動檔案的資料夾識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL名稱]</td> 
+   <td role="rowheader">[!UICONTROL 名稱]</td> 
    <td>輸入已移動檔案的名稱。</td> 
   </tr> 
  </tbody> 
@@ -1352,23 +1352,23 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Source檔案]</td> 
+   <td>[!UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL存取型別] </td> 
+   <td role="rowheader">[!UICONTROL 存取型別] </td> 
    <td>選取您要讓檔案為私人、公用，但不可索引，或是公用，且可索引。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td>選取您要上傳檔案的資料夾識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL覆寫]</td> 
+   <td role="rowheader">[!UICONTROL 覆寫]</td> 
    <td>啟用此選項以覆寫資料夾中已存在的檔案。</td> 
   </tr> 
  </tbody> 
@@ -1385,19 +1385,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大檔案數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID]</td> 
    <td>輸入或對應包含要監視之檔案的資料夾識別碼。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL篩選器]</td> 
+   <td role="rowheader">[!UICONTROL 篩選器]</td> 
    <td>若只要在檔案名稱中包含包含特定字元的檔案，請輸入或對應您要檔案名稱包含的字元。</td> 
   </tr> 
  </tbody> 
@@ -1416,35 +1416,35 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL名稱]</td> 
+   <td role="rowheader">[!UICONTROL 名稱]</td> 
    <td>輸入或對應新行事曆工作的名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL說明]</td> 
+   <td role="rowheader">[!UICONTROL 說明]</td> 
    <td>輸入或對應新行事曆工作的描述。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL擁有者ID]</td> 
+   <td role="rowheader">[!UICONTROL 擁有者ID]</td> 
    <td>輸入或對應指派給此任務之使用者的擁有者ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL事件日期]</td> 
+   <td role="rowheader">[!UICONTROL 事件日期]</td> 
    <td>輸入或對應此工作的日期。<p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL類別]</td> 
+   <td role="rowheader">[!UICONTROL 類別]</td> 
    <td>選取事件型別。<ul><li><b>部落格貼文</b><p>輸入內容群組識別碼。 這是部落格頁面的ID。</p></li><li><b>電子郵件</b><p>輸入或對應您要使用之電子郵件範本的路徑。</li><li><b>登陸頁面</b><p>輸入路徑或對映至您要使用的登入頁面範本。</li><li><b>自訂</b></li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL狀態]</td> 
+   <td role="rowheader">[!UICONTROL 狀態]</td> 
    <td>輸入事件是否處於「待辦事項」或「完成」狀態。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL促銷活動GUID]</td> 
+   <td role="rowheader">[!UICONTROL 促銷活動GUID]</td> 
    <td>輸入或對應此事件所屬促銷活動的內部HubSpot ID。</td> 
   </tr> 
  </tbody> 
@@ -1461,11 +1461,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入或對應您要刪除之工作的ID。</td> 
   </tr> 
  </tbody> 
@@ -1482,19 +1482,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大檔案數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL開始日期]</td> 
+   <td role="rowheader">[!UICONTROL 開始日期]</td> 
    <td>輸入或對應您要觀看事件的最早日期。 使用格式<code>MM/DD/YYYY h:mm</code>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL結束日期]</td> 
+   <td role="rowheader">[!UICONTROL 結束日期]</td> 
    <td>輸入或對應您要觀看活動的最新日期。 使用格式<code>MM/DD/YYYY h:mm</code>。</td> 
   </tr> 
  </tbody> 
@@ -1513,11 +1513,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL擁有者ID]</td> 
+   <td role="rowheader">[!UICONTROL 擁有者ID]</td> 
    <td> <p>輸入或對應您要傳回詳細資訊之擁有者的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -1534,7 +1534,7 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -1555,11 +1555,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入您要刪除的票證ID。 </td> 
   </tr> 
  </tbody> 
@@ -1586,11 +1586,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案URL]</td> 
+   <td role="rowheader">[!UICONTROL 檔案URL]</td> 
    <td>輸入或對應您要擷取的檔案URL。 這可在表單中繼資料中找到。</td> 
   </tr> 
  </tbody> 
@@ -1607,11 +1607,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>輸入或對應模組在一個執行週期內傳回的最大表單數量。</td> 
   </tr> 
  </tbody> 
@@ -1636,11 +1636,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL廣播ID]</td> 
+   <td role="rowheader">[!UICONTROL 廣播ID]</td> 
    <td>輸入或對應您要取消的廣播ID。</td> 
   </tr> 
  </tbody> 
@@ -1657,31 +1657,31 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL管道ID]</td> 
+   <td role="rowheader">[!UICONTROL 管道ID]</td> 
    <td>輸入或對應您要用於此廣播的頻道ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標題]</td> 
+   <td role="rowheader">[!UICONTROL 標題]</td> 
    <td>輸入或對應此廣播的標題。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td>輸入或對映廣播的文字。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL像片URL]</td> 
+   <td role="rowheader">[!UICONTROL 像片URL]</td> 
    <td>輸入或對應您要納入廣播之像片的URL。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL縮圖URL]</td> 
+   <td role="rowheader">[!UICONTROL 縮圖URL]</td> 
    <td>輸入或對應您要用於此廣播的縮圖URL。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL觸發於]</td> 
+   <td role="rowheader">[!UICONTROL 觸發於]</td> 
    <td>輸入或對應您要傳送廣播的日期和時間。 如果將此項保留為空白，則會立即傳送廣播。<p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p></td> 
   </tr> 
  </tbody> 
@@ -1698,23 +1698,23 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>輸入或對應模組在一個執行週期內傳回的最大專案數。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL按狀態篩選]</td> 
+   <td role="rowheader">[!UICONTROL 按狀態篩選]</td> 
    <td>若要只在訊息處於特定狀態時啟動案例，請選取狀態。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL依據管道的篩選器]</td> 
+   <td role="rowheader">[!UICONTROL 依據管道的篩選器]</td> 
    <td>若要只在訊息位於特定頻道時啟動案例，請選取頻道。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL廣播ID]</td> 
+   <td role="rowheader">[!UICONTROL 廣播ID]</td> 
    <td>若要只在訊息位於特定日期當天或之後才開始此案例，請以<code>MM/DD/YYYY</code>格式輸入或對應日期。</td> 
   </tr> 
  </tbody> 
@@ -1733,7 +1733,7 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1818,11 +1818,11 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入或對應您要刪除之部落格的識別碼。</td> 
   </tr> 
  </tbody> 
@@ -1839,7 +1839,7 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1904,15 +1904,15 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入或對應您要排程或取消之部落格的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL動作]</td> 
+   <td role="rowheader">[!UICONTROL 動作]</td> 
    <td>選取是否要排程部落格，或取消先前排程的部落格。</td> 
   </tr> 
  </tbody> 
@@ -1933,7 +1933,7 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -2009,23 +2009,23 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL電子郵件]</td> 
+   <td role="rowheader">[!UICONTROL 電子郵件]</td> 
    <td>輸入或對應您要更新之訂閱的電子郵件地址。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL狀態]</td> 
+   <td role="rowheader">[!UICONTROL 狀態]</td> 
    <td>針對您想要更新訂閱的每個狀態，按一下<b>新增專案</b>，然後輸入狀態識別碼，以及電子郵件地址是否會訂閱該狀態。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL入口網站訂閱法律狀態]</td> 
+   <td role="rowheader">[!UICONTROL 入口網站訂閱法律狀態]</td> 
    <td>若要記錄此訂閱的GDPR法律依據，請選取此訂閱的法律狀態。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL入口網站訂閱法律基礎說明]</td> 
+   <td role="rowheader">[!UICONTROL 入口網站訂閱法律基礎說明]</td> 
    <td>若要新增此訂閱之GDPR法律基礎的相關備註，請輸入或對應備註文字。</td> 
   </tr> 
  </tbody> 
@@ -2042,19 +2042,19 @@ HubSpot CRM聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>輸入或對應模組在一個執行週期內傳回的最大專案數。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL開始時間戳記]</td> 
+   <td role="rowheader">[!UICONTROL 開始時間戳記]</td> 
    <td>若要傳回特定日期當天或之後的結果，請以格式輸入日期 <code>MM/DD/YYYY.</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL結束時間戳記]</td> 
+   <td role="rowheader">[!UICONTROL 結束時間戳記]</td> 
    <td>若要傳回特定日期當天或之前的結果，請以格式輸入日期 <code>MM/DD/YYYY.</code></td> 
   </tr> 
  </tbody> 
@@ -2110,27 +2110,27 @@ This action module associates two CRM objects.-->
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL HubSpot CRM]帳戶連線到[!DNL Workfront Fusion]的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL Adobe Workfront Fusion]的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
    <td> <p>輸入相對於https://api.hubapi.com/的路徑。 例如， /contacts/v1/lists/all/contacts/all</p> <p>如需可用端點的清單，請參閱<a href="https://legacydocs.hubspot.com/docs/overview">[!DNL HubSpot] API檔案</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL方法]</p> </td> 
-   <td> <p>選取您要使用的HTTP方法：</p> <p>[！UICONTROL GET]</p> <p>以擷取專案的資訊。</p> <p>[！UICONTROL POST]</p> <p>以建立新專案。</p> <p>[！UICONTROL PUT]</p> <p>更新/取代現有專案。</p> <p>[！UICONTROL PATCH]</p> <p>進行部份專案更新。</p> <p>[！UICONTROL DELETE]</p> <p>刪除專案。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
+   <td> <p>選取您要使用的HTTP方法：</p> <p>[!UICONTROL GET]</p> <p>以擷取專案的資訊。</p> <p>[!UICONTROL POST]</p> <p>以建立新專案。</p> <p>[!UICONTROL PUT]</p> <p>更新/取代現有專案。</p> <p>[!UICONTROL PATCH]</p> <p>進行部份專案更新。</p> <p>[!UICONTROL DELETE]</p> <p>刪除專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p> 輸入所需的請求標頭。 您不需要新增授權標頭；我們已為您完成此操作。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p> 輸入請求查詢字串。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。<img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 

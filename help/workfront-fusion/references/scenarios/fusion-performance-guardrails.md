@@ -4,9 +4,9 @@ description: 工作自動化需要快速處理，因此 [!DNL Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: cf9e7def3ce406b693d22ff31f82571dd5eddd31
+source-git-commit: a5a98d2e0b246d46389d4574e29f91c74f053472
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 0%
 
 * Fusion的檔案總處理容量為&#x200B;**1 GB**。 此限制是以總記憶體成本為基礎。 每項作業都會產生該成本。 如果下載並上傳400 MB的單一檔案，則檔案容量的總成本為800 MB。
 * Workfront Ultimate計畫組織可存取超過1 GB的增加檔案處理能力。 Fusion平台最多可支援單一動作（例如上傳檔案）15GB的個別檔案，但還有其他會影響資料傳輸的因素。 單一動作的檔案大小限制取決於Fusion所連線的Web服務。 資料傳輸是指單一執行的總處理作業。 這表示單一執行中的多個動作會對總資料傳輸有貢獻。 Fusion將處理檔案，直到達到40分鐘的執行限製為止。
+* 如果使用支援大型檔案的模組下載檔案，然後傳遞至不支援大型檔案的模組，該模組不會成功處理檔案。 在整個工作流程中，大型檔案必須以支援的模組專門處理。
+* 不支援大型檔案的模組最多可處理大小為&#x200B;**200 MB**&#x200B;的檔案。
 
 如需詳細資訊，請參閱[使用大型檔案](/help/workfront-fusion/references/scenarios/fusion-large-files.md)。
 

@@ -4,9 +4,9 @@ description: Workfront和HTTP聯結器目前提供大型檔案支援。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: 0e69dfa23fc12cb20c3fed772d72ef348536ea24
+source-git-commit: a5a98d2e0b246d46389d4574e29f91c74f053472
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1050'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,11 @@ Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理�
 ## 支援大型檔案的聯結器
 
 目前，下列聯結器支援大型檔案。
+
+>[!NOTE]
+>
+>* 如果使用支援大型檔案的模組下載檔案，然後傳遞至不支援大型檔案的模組，該模組不會成功處理檔案。 在整個工作流程中，大型檔案必須以支援的模組專門處理。
+>* 不支援大型檔案的模組可處理大小最大為200 MB的檔案。
 
 * Workfront
    * 上傳檔案

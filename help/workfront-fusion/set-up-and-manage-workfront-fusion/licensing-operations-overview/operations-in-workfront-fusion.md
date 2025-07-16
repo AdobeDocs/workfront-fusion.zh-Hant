@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion中的作業是由模組執行的任務。 �
 author: Becky
 feature: Workfront Fusion
 exl-id: c14e2bb2-1cce-48ff-8bea-acc9829d3cf2
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3470f7a9658ac4e6214c27f94f5b41821f2f8665
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目
 * 一般而言，任何成功的動作步驟執行都會被視為作業。
 * 案例中的第一個模組只會執行一次，而且一律會計為一項作業，即使未傳回套件組合亦然。
 * 其餘模組執行的次數取決於它們必須處理的組合數量。  一個套件組合的一個模組執行為一項作業。 彙總模組則為例外，其計算為每一組處理中的套件組合進行一次作業。
-* 作業在案例執行的[!UICONTROL Finalization]階段計算。
+* 作業在案例執行的[!UICONTROL 最終處理]階段計算。
 * 下列&#x200B;**不是**&#x200B;計入為作業：
    * 任何篩選步驟。
    * 任何發生錯誤或中斷的動作。
@@ -32,6 +32,13 @@ Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目
 貴組織可能有每月營運限制。 這是根據貴組織購買的[!DNL Workfront]計畫。 [!UICONTROL Ultimate] [!DNL Workfront]計畫提供無限制的作業。
 
 如果您的組織設有每月上限，當您的組織接近上限時，您會收到通知。 如果貴組織超過限制，[!DNL Workfront]將會連絡貴組織，以確保您的計畫符合您的需求。
+
+當您的組織達到組織每月限制的以下百分比時，Workfront Fusion會傳送通知：
+
+* 50%
+* 75%
+* 90%
+* 100%
 
 ## 檢視過去30天內執行的作業數目
 

@@ -5,9 +5,10 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 454e06527fe1a624f36be3b7f3682ff49a61d42d
+exl-id: 21429f94-fe4c-4ccc-a8c0-d7573657fecc
+source-git-commit: efab436edce8a5253b147c77b87a005f6efc63d0
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '628'
 ht-degree: 1%
 
 ---
@@ -56,7 +57,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -105,6 +106,7 @@ ht-degree: 1%
    在子情境的觸發程式模組中設定的欄位會顯示在「呼叫子情境模組」中。
 
 1. 輸入要傳遞給子案例的資訊或對應到「呼叫子案例」模組中。
+1. （條件式）如果您希望父案例繼續執行而不等待子案例的回應，請啟用&#x200B;**引發並忘記**&#x200B;選項。
 1. 按一下&#x200B;**確定**&#x200B;以儲存模組。
 
 >[!NOTE]
@@ -128,4 +130,3 @@ ht-degree: 1%
    如需建立資料結構的說明，請參閱[資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)。
 
 1. 按一下&#x200B;**確定**&#x200B;以儲存模組。
-

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: 14960edd32497a06620a9a039632a58ebd246c2b
+source-git-commit: 679a4f5c91625dfecf32e10904700bf75ea7a7cf
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1837'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 3%
 * Fusion發行活動 {#fusion-release-activity}
    * [Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion版本 — 2025 {#fusion-releases-2025}
+      * [Workfront Fusion發行活動： 2025年8月18日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-8-18.md)
+      * [Workfront Fusion發行活動： 2025年7月31日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-7-31.md)
       * [Workfront Fusion發行活動： 2025年7月7日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-7-7.md)
       * [Workfront Fusion發行活動： 2025年6月6日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-6-9.md)
       * [Workfront Fusion發行活動： 2025年6月23日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-6-23.md)
@@ -257,8 +259,8 @@ ht-degree: 3%
       * [授權和角色參考：文章索引](/help/workfront-fusion/references/licenses-and-roles/licenses-and-roles-index.md)
       * [說明檔案中的存取需求](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)
       * [組織和團隊角色](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md)
-   * 情境 {#scenarios}
-      * [情境](/help/workfront-fusion/references/scenarios/scenarios-toc.md)
+   * 方案 {#scenarios}
+      * [方案](/help/workfront-fusion/references/scenarios/scenarios-toc.md)
       * [Fusion效能護欄](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md)
       * [案例執行流程](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md)
       * [案例執行、週期和階段](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md)
@@ -272,8 +274,8 @@ ht-degree: 3%
       * [金鑰](/help/workfront-fusion/references/modules/keys.md)
    * 對應面板 {#mapping-panel}
       * [對應面板](/help/workfront-fusion/references/mapping-panel/mapping-panel-toc.md)
-      * 資料型別 {#data-types}
-         * [資料型別](/help/workfront-fusion/references/mapping-panel/data-types/data-types-toc.md)
+      * 資料類型 {#data-types}
+         * [資料類型](/help/workfront-fusion/references/mapping-panel/data-types/data-types-toc.md)
          * [專案資料型別](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md)
          * [輸入強制](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md)
          * [資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)

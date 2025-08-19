@@ -3,9 +3,10 @@ title: 檢視特定案例執行
 description: 您可以檢視特定案例執行的詳細資訊，包括篩選和搜尋案例事件。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 5915476de34a883560d207d101a14e5b24abf3da
+exl-id: 34dd9836-9a1b-4ce2-b24e-ae769888a52a
+source-git-commit: 62b09469c1d85fd2bd1f154cde339cc4a10fc34a
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
@@ -41,7 +42,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -49,7 +50,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
 如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -85,3 +86,17 @@ ht-degree: 1%
 1. 若要檢視通過篩選的組合，請按一下篩選。 篩選器附近的數字代表透過篩選器的組合數量。
 1. 若要在執行面板中搜尋特定模組或事件，請在&#x200B;**搜尋執行事件**&#x200B;方塊中輸入搜尋字詞。 當您鍵入時，結果會顯示出來。
 1. 若要依「成功」或「警告」等狀態限制執行面板搜尋結果，請按一下&#x200B;**狀態篩選**&#x200B;下拉式清單，然後選取狀態。
+
+
+
+
+>[!NOTE]
+>
+>若要建立特定模組的連結，請在檢視下列頁面時將`?moduleId=<module-id>`新增至URL：
+>
+>* 案例編輯頁面（URL結尾為`/edit`）
+>* 特定情境執行（URL結尾為`/logs/<log-id>`）
+>
+>`<module-id>`在檢視案例時參照模組標籤旁的數字。
+>
+>這在偵錯案例或複製模組設定時可能很有用。

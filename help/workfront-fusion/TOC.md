@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: 679a4f5c91625dfecf32e10904700bf75ea7a7cf
+source-git-commit: f28dd04df0a527a35a9ef82fa92fc07a363a7144
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1840'
 ht-degree: 3%
 
 ---
@@ -360,7 +360,8 @@ ht-degree: 3%
          * [Google幻燈片模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-slides-modules.md)
          * [Google團隊磁碟機模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-team-drive-modules.md)
          * [Hubspot CRM模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/hubspot-crm-modules.md)
-         * [Jira軟體模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-software-modules.md)
+         * [Jira模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md)
+         * [Jira軟體模組（舊版）](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-software-modules.md)
          * [MariaDB模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/mariadb-modules.md)
          * [Microsoft 365行事曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-365-calendar-modules.md)
          * [Microsoft 356電子郵件模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-365-email-modules.md)

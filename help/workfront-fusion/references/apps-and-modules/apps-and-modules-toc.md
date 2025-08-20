@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: 7f5339de5164a6eb43dae311335cacbc5c10ff96
+source-git-commit: f169b9d918d42bbecd885aeec1505bd41088907b
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,8 @@ Fusion為許多第三方應用程式提供聯結器。
 * [Google幻燈片模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-slides-modules.md)
 * [Google團隊磁碟機模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/google-team-drive-modules.md)
 * [Hubspot CRM模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/hubspot-crm-modules.md)
-* [Jira軟體模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-software-modules.md)
+* [Jira模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md)
+* [Jira軟體模組（舊版）](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-software-modules.md)
 * [MariaDB模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/mariadb-modules.md)
 * [Microsoft 365行事曆模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-365-calendar-modules.md)
 * [Microsoft 356電子郵件模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-365-email-modules.md)

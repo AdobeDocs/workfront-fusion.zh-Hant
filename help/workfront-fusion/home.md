@@ -16,7 +16,7 @@ ht-degree: 2%
 ## 新增功能
 
 * [發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
-* [已知問題](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/fusion/workfrontfusion)
+* [已知問題](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/issues/fusion/workfrontfusion)
 
 ## 探索檔案
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 ### 探索學習與訓練區段
 
 * **由講師授課的即時訓練課程** Adobe為Fusion提供三天的即時訓練課程。 如需詳細資訊和可用的工作階段，請參閱[在Adobe Workfront Fusion中管理連線和工作流程](https://learning.adobe.com/courses/adobe_workfront/cours000000000098121.html)。
-* **訓練教材**：導覽至[簡介與技術策略](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy) Workfront Fusion訓練頁面，開始一系列課程與練習，協助您更清楚瞭解如何以最佳方式使用Fusion。
+* **訓練教材**：導覽至[簡介與技術策略](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy) Workfront Fusion訓練頁面，開始一系列課程與練習，協助您更清楚瞭解如何以最佳方式使用Fusion。
 
 ### 在社群論壇中尋找答案
 

@@ -31,7 +31,7 @@ Workfront Fusion也提供支援情境的功能，例如情境建立範本、執�
 
 開始使用Workfront Fusion時，您可能會發現下列資源相當實用：
 
-* 如需Workfront Fusion訓練資源，請參閱[Workfront Fusion訓練概述](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy)。
+* 如需Workfront Fusion訓練資源，請參閱[Workfront Fusion訓練概述](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy)。
 
 
 * 如需案例的詳細資訊，請參閱[案例概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md)。

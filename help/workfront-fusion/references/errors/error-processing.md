@@ -37,7 +37,7 @@ Adobe Workfront Fusion會區分幾種基本錯誤型別。 錯誤的型別會決
    <td> 新增：標準<p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]授權</td> 
    <td>
    <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
@@ -47,7 +47,7 @@ Adobe Workfront Fusion會區分幾種基本錯誤型別。 錯誤的型別會決
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -165,7 +165,7 @@ Adobe Workfront Fusion會區分幾種基本錯誤型別。 錯誤的型別會決
 >[!NOTE]
 >
 >如果案例以立即觸發程式開始並遇到此錯誤，則會忽略[!UICONTROL 最大連續錯誤數]的設定，並立即停用案例。
->>如需詳細資訊，請參閱文章模組概觀中的[即時觸發器](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#instant-triggers)。
+>&#x200B;>如需詳細資訊，請參閱文章模組概觀中的[即時觸發器](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#instant-triggers)。
 
 ## 不一致性錯誤
 

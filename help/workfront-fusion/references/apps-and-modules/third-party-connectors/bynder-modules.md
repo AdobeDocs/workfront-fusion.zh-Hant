@@ -155,16 +155,16 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標籤ID]</td> 
+   <td role="rowheader">[!UICONTROL 標籤ID]</td> 
    <td> <p>輸入或對應您要新增至資產的標籤ID。</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
-   <td> <p>針對您要標籤的每個資產，按一下<strong>[！UICONTROL新增專案]</strong>，然後輸入或對應資產ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
+   <td> <p>針對您要標籤的每個資產，按一下<strong>[!UICONTROL 新增專案]</strong>，然後輸入或對應資產ID。</p> </td> 
   </tr> 
  </tbody> 
  </table>
@@ -178,16 +178,16 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL集合ID]</td> 
+   <td role="rowheader">[!UICONTROL 集合ID]</td> 
    <td> <p>輸入或對應您要新增資產的集合ID。</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
-   <td> <p>針對您想要新增至集合的每個資產，按一下<strong>[！UICONTROL新增專案]</strong>，然後輸入或對應資產ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
+   <td> <p>針對您想要新增至集合的每個資產，按一下<strong>[!UICONTROL 新增專案]</strong>，然後輸入或對應資產ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -205,7 +205,7 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -213,19 +213,19 @@ Bynder聯結器會使用以下專案：
    <td>輸入相對於<code>https://{your-bynder-domain}/api/{api-version}/</code>的路徑。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -243,15 +243,15 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
    <td>輸入或對應您要下載的資產識別碼。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產版本]</td> 
+   <td role="rowheader">[!UICONTROL 資產版本]</td> 
    <td> <p>輸入或對映您要下載的資產版本。 若要下載最新版本的資產，請將此欄位留空。</p> </td> 
   </tr> 
  </tbody> 
@@ -266,15 +266,15 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
    <td>輸入或對應您要擷取中繼資料的資產ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td> <p>選取要包含在此模組輸出組合中的資訊。</p> </td> 
   </tr> 
  </tbody> 
@@ -289,16 +289,16 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標籤ID]</td> 
+   <td role="rowheader">[!UICONTROL 標籤ID]</td> 
    <td> <p>輸入或對應您要從資產移除之標籤的ID。</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
-   <td> <p>針對您要移除標籤的每個資產，按一下<strong>[！UICONTROL新增專案]</strong>，然後輸入或對應資產ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
+   <td> <p>針對您要移除標籤的每個資產，按一下<strong>[!UICONTROL 新增專案]</strong>，然後輸入或對應資產ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -312,16 +312,16 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL集合ID]</td> 
+   <td role="rowheader">[!UICONTROL 集合ID]</td> 
    <td> <p>輸入或對映您要移除資產之集合的ID。</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
-   <td> <p>針對您要從集合中移除的每個資產，按一下<strong>[！UICONTROL新增專案]</strong>，然後輸入或對應資產ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
+   <td> <p>針對您要從集合中移除的每個資產，按一下<strong>[!UICONTROL 新增專案]</strong>，然後輸入或對應資產ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -335,19 +335,19 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產ID]</td> 
    <td>輸入或對應您要更新中繼資料的資產ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL欄位]</td> 
+   <td role="rowheader">[!UICONTROL 欄位]</td> 
    <td> <p>選取您要輸入資訊的欄位，然後輸入或對應您要使用更新中繼資料的資訊，到這些欄位中。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Metaproperties]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Metaproperties]</p> </td> 
    <td>選取您要更新的選項，然後輸入資訊或將資訊對應至這些屬性。 中繼屬性是不代表資產中特定欄位的資產相關資訊。</td> 
   </tr> 
  </tbody> 
@@ -362,23 +362,23 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL另存新檔]</td> 
+   <td role="rowheader">[!UICONTROL 另存新檔]</td> 
    <td> <p>選取要如何儲存上傳的檔案。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL新資產]</strong> </p> <p>選取您要輸入資訊的欄位和中繼屬性，然後在這些欄位中輸入資訊。</p> <p>輸入或對應您要用於上傳資產的品牌ID。</p> </li> 
-     <li> <p><strong>[！UICONTROL新資產版本]</strong> </p> <p>輸入您要上傳新版本之資產的識別碼。</p> </li> 
+     <li> <p><strong>[!UICONTROL 新資產]</strong> </p> <p>選取您要輸入資訊的欄位和中繼屬性，然後在這些欄位中輸入資訊。</p> <p>輸入或對應您要用於上傳資產的品牌ID。</p> </li> 
+     <li> <p><strong>[!UICONTROL 新資產版本]</strong> </p> <p>輸入您要上傳新版本之資產的識別碼。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL Source檔案]</td> 
    <td>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL非同步檔案上傳]</td> 
+   <td role="rowheader">[!UICONTROL 非同步檔案上傳]</td> 
    <td>上傳大型檔案時啟用此選項。 這可防止大型檔案封鎖案例執行。</td> 
   </tr> 
  </tbody> 
@@ -398,24 +398,24 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
    <td> <p>選取您要列出的記錄型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL讀取所有集合]</strong> </p> </li> 
-     <li> <p><strong>[！UICONTROL讀取所有標籤的相關資訊]</strong> </p> </li> 
-     <li> <p><strong>[！UICONTROL讀取集合的所有資產]</strong> </p> <p>輸入或對應您要列出其資產的集合ID。</p> </li> 
+     <li> <p><strong>[!UICONTROL 讀取所有集合]</strong> </p> </li> 
+     <li> <p><strong>[!UICONTROL 讀取所有標籤的相關資訊]</strong> </p> </li> 
+     <li> <p><strong>[!UICONTROL 讀取集合的所有資產]</strong> </p> <p>輸入或對應您要列出其資產的集合ID。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td> <p>選取您要納入模組輸出的欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的資產最大數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -430,36 +430,36 @@ Bynder聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL搜尋條件]</td> 
+   <td role="rowheader">[!UICONTROL 搜尋條件]</td> 
    <td> <p>輸入搜尋條件。 </p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL欄位]</strong> </p> <p>選取您要在搜尋中使用的欄位</p> </li> 
-     <li> <p><strong>[！UICONTROL邏輯運運算元]</strong> </p> <p>選取要在搜尋中使用的運運算元。</p> </li> 
-     <li> <p><strong>[！UICONTROL值]</strong> </p> <p>在選取的欄位中輸入或對應要尋找的值。 值型別應與所選欄位的資料型別相同。 </p> <p>如需資料型別的詳細資訊，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md" class="MCXref xref">專案資料型別</a>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 欄位]</strong> </p> <p>選取您要在搜尋中使用的欄位</p> </li> 
+     <li> <p><strong>[!UICONTROL 邏輯運運算元]</strong> </p> <p>選取要在搜尋中使用的運運算元。</p> </li> 
+     <li> <p><strong>[!UICONTROL 值]</strong> </p> <p>在選取的欄位中輸入或對應要尋找的值。 值型別應與所選欄位的資料型別相同。 </p> <p>如需資料型別的詳細資訊，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md" class="MCXref xref">專案資料型別</a>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL結果集]</td> 
+   <td role="rowheader">[!UICONTROL 結果集]</td> 
    <td>選取您要傳回第一個相符的資產，還是所有相符的資產。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL排序依據]</td> 
+   <td role="rowheader">[!UICONTROL 排序依據]</td> 
    <td> <p>選取您要排序的欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL排序方向]</td> 
+   <td role="rowheader">[!UICONTROL 排序方向]</td> 
    <td> <p>選取您要遞增排序還是遞減排序。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td> <p>選取您要納入模組輸出的欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的資產最大數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -476,7 +476,7 @@ Bynder聯結器會使用以下專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-    <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Bynder聯結器會使用以下專案：
     <td>選取您是否要在建立新資產或更新現有資產時啟動案例。</td>
   </tr> 
   <tr>
-     <td role="rowheader">[！UICONTROL集合]</td>
+     <td role="rowheader">[!UICONTROL 集合]</td>
    <td> <p>選取您要觀看新資產的集合。 若要觀看所有集合，請將此欄位留空。</p> </td> 
   </tr> 
   <tr> 
@@ -492,7 +492,7 @@ Bynder聯結器會使用以下專案：
     <td>選取要包含在輸出中的欄位。</td>
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL限制]</td>
+    <td role="rowheader">[!UICONTROL 限制]</td>
 
 <td> <p>輸入您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 

@@ -23,7 +23,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本會自動化Workfront流程和工作流程。
 
-### [!BADGE 新增！ ]{type=Informative} Workfront — 當任務提早完成時，自動調整專案時間表
+### [!BADGE 新增！ &#x200B;]{type=Informative} Workfront — 當任務提早完成時，自動調整專案時間表
 
 <!--New June 10, 2025-->
 
@@ -33,13 +33,13 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 此Fusion範本可自動化該程式。 當任務提早完成時，所有相依（後續）任務都會自動重新排程，以更早開始，協助您的團隊更快行動並保持敏捷。
 
-### [!BADGE 新增！ ]{type=Informative} HTTP>CSV>WF — 依網域和層級建立事件子清單並匯出至CSV
+### [!BADGE 新增！ &#x200B;]{type=Informative} HTTP>CSV>WF — 依網域和層級建立事件子清單並匯出至CSV
 
 下載事件訂閱資訊、建立CSV檔案，並將檔案上傳至Workfront。
 
 <!--New August 8, 2025-->
 
-### [!BADGE 新增！ ]{type=Informative}個Workfront面板 — 從指定欄刪除已封存的卡片（隨選）
+### [!BADGE 新增！ &#x200B;]{type=Informative}個Workfront面板 — 從指定欄刪除已封存的卡片（隨選）
 
 <!--New March 12, 2025-->
 
@@ -117,7 +117,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本可自動化結合Workfront與Workfront Proof的工作流程。
 
-### [!BADGE 新增！ ]{type=Informative} Workfront > Workfront Proof — 將校訂使用者角色變更為唯讀並在專案關閉時鎖定校訂
+### [!BADGE 新增！ &#x200B;]{type=Informative} Workfront > Workfront Proof — 將校訂使用者角色變更為唯讀並在專案關閉時鎖定校訂
 
 <!--New March 12, 2025-->
 

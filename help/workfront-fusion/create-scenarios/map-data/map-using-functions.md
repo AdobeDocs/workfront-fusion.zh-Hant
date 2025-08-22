@@ -34,7 +34,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -47,7 +47,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
    如需函式及其引數的詳細資訊，請參閱[函式參考下的文章：文章索引](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)。
 
-1. 繼續設定模組，或按一下[確定]。****
+1. 繼續設定模組，或按一下[確定]。**&#x200B;**
 
 >[!TIP]
 >
@@ -133,7 +133,7 @@ ht-degree: 1%
 1. 在該函式中，按一下要巢狀函式移至何處。 在此範例中，巢狀函式會取代第一個引數。
 1. 在對映面板中，按一下巢狀函式。 在此範例中，這是`trim`函式。
 1. 繼續視需要設定函式。
-1. 繼續設定模組，或按一下[確定]。****
+1. 繼續設定模組，或按一下[確定]。**&#x200B;**
 
 ## 使用[!DNL Google Sheets]函式
 

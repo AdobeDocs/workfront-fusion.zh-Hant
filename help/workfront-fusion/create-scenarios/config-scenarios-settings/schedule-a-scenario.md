@@ -33,7 +33,7 @@ ht-degree: 2%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -46,7 +46,7 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -86,27 +86,27 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL執行案例]</td> 
+      <td role="rowheader">[!UICONTROL 執行案例]</td> 
       <td> <p>選取您要執行情境的頻率，然後選取間隔。</p> 
        <ul> 
-        <li> <p><strong>[！UICONTROL為固定間隔]</strong> </p> <p>輸入執行之間的分鐘數。 預設值為15分鐘。</p> </li> 
-        <li> <p><strong>[！UICONTROL一次]</strong> </p> <p>輸入您希望案例執行的日期和時間。 使用格式<code>MM/DD/YYYY h:mm A</code>。 範例：<code>06/25/2019 11:00 PM</code>。</p> </li> 
-        <li> <p><strong>[！UICONTROL每天]</strong> </p> <p>輸入您希望案例執行的時間。 使用格式<code>h:mm A</code>。 範例：<code>11:00 PM</code>。</p> </li> 
-        <li> <p><strong>[！UICONTROL一週天數]</strong> </p> <p>天數：選取您希望案例在一週中執行的天數。 您可以選取一或多天。</p> <p>時間：輸入您希望案例在所選日期執行的時間。 使用格式<code>h:mm A</code>。 範例： <code>11:00 PM</code></p> </li> 
-        <li> <p><strong>[！UICONTROL當月天數]</strong> </p> <p>天數：選取您希望案例執行的月份天數。 您可以選取一或多天。</p> <p>時間：輸入您希望案例在所選日期執行的時間。 使用格式<code>h:mm A</code>。 範例： <code>11:00 PM</code></p> </li> 
-        <li> <p><strong>[！UICONTROL指定的日期]</strong> </p> <p>月份：選取您要執行案例的月份。 您可以選取一或多個月份。</p> <p>天數：選取您希望案例執行的月份天數。 您可以選取一或多天。</p> <p>時間：輸入您希望案例在所選日期執行的時間。 使用格式<code>h:mm A</code>。 範例： <code>11:00 PM</code></p> </li> 
+        <li> <p><strong>[!UICONTROL 為固定間隔]</strong> </p> <p>輸入執行之間的分鐘數。 預設值為15分鐘。</p> </li> 
+        <li> <p><strong>[!UICONTROL 一次]</strong> </p> <p>輸入您希望案例執行的日期和時間。 使用格式<code>MM/DD/YYYY h:mm A</code>。 範例：<code>06/25/2019 11:00 PM</code>。</p> </li> 
+        <li> <p><strong>[!UICONTROL 每天]</strong> </p> <p>輸入您希望案例執行的時間。 使用格式<code>h:mm A</code>。 範例：<code>11:00 PM</code>。</p> </li> 
+        <li> <p><strong>[!UICONTROL 一週天數]</strong> </p> <p>天數：選取您希望案例在一週中執行的天數。 您可以選取一或多天。</p> <p>時間：輸入您希望案例在所選日期執行的時間。 使用格式<code>h:mm A</code>。 範例： <code>11:00 PM</code></p> </li> 
+        <li> <p><strong>[!UICONTROL 當月天數]</strong> </p> <p>天數：選取您希望案例執行的月份天數。 您可以選取一或多天。</p> <p>時間：輸入您希望案例在所選日期執行的時間。 使用格式<code>h:mm A</code>。 範例： <code>11:00 PM</code></p> </li> 
+        <li> <p><strong>[!UICONTROL 指定的日期]</strong> </p> <p>月份：選取您要執行案例的月份。 您可以選取一或多個月份。</p> <p>天數：選取您希望案例執行的月份天數。 您可以選取一或多天。</p> <p>時間：輸入您希望案例在所選日期執行的時間。 使用格式<code>h:mm A</code>。 範例： <code>11:00 PM</code></p> </li> 
        </ul> <p>備註：案例必須有日期才能在該日期執行。 例如，僅排定在該月第31天的情境將不會在2月、4月、6月、9月或11月執行，因為這些月份沒有第31天。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL進階排程]</td> 
-      <td>您可以定義執行情境的特定時間間隔。 您可以指定一天中的時間間隔、工作日或月。 對於每個間隔，按一下<strong>[！UICONTROL新增]</strong>，並按照[！UICONTROL執行案例]欄位中的說明填寫欄位。</td> 
+      <td role="rowheader">[!UICONTROL 進階排程]</td> 
+      <td>您可以定義執行情境的特定時間間隔。 您可以指定一天中的時間間隔、工作日或月。 對於每個間隔，按一下<strong>[!UICONTROL 新增]</strong>，並按照[!UICONTROL 執行案例]欄位中的說明填寫欄位。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL開始]</td> 
+      <td role="rowheader">[!UICONTROL 開始]</td> 
       <td>輸入您希望案例執行的日期和時間。 使用格式<code>MM/DD/YYYY h:mm A</code>。 範例：<code>06/25/2019 11:00 PM</code>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL結尾]</td> 
+      <td role="rowheader">[!UICONTROL 結尾]</td> 
       <td>輸入您希望案例執行的日期和時間。 使用格式<code>MM/DD/YYYY h:mm A</code>。 範例：<code>06/25/2019 11:00 PM</code>。</td> 
      </tr> 
     </tbody> 

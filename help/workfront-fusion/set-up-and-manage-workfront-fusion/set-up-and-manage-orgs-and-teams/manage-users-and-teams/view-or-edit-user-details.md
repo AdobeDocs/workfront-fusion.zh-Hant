@@ -35,7 +35,7 @@ Adobe Workfront Fusion管理員可以在Workfront Fusion中管理使用者詳細
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -48,7 +48,7 @@ Adobe Workfront Fusion管理員可以在Workfront Fusion中管理使用者詳細
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -78,4 +78,4 @@ Adobe Workfront Fusion管理員可以檢視和更新使用者詳細資訊。
 1. 以Workfront Fusion管理員身分登入時，在左側導覽中選取&#x200B;**[!UICONTROL 所有使用者]**。
 1. 在您要檢視的使用者列中，按一下&#x200B;**[!UICONTROL 詳細資料]**。
 1. （選擇性）若要更新使用者的詳細資料，請按一下畫面右上角的&#x200B;**[!UICONTROL 選項]**，然後選取&#x200B;**[!UICONTROL 變更詳細資料]**。
-1. 編輯詳細資料，然後按一下[儲存]。****
+1. 編輯詳細資料，然後按一下[儲存]。**&#x200B;**

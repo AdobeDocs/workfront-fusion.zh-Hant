@@ -74,7 +74,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Key]</td>
+        <td>[!UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
     <tr>
@@ -142,7 +142,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Key]</td>
+        <td>[!UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
    <tr>
@@ -179,7 +179,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Key]</td>
+        <td>[!UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
     <tr>
@@ -236,7 +236,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Key]</td>
+        <td>[!UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
    <tr>
@@ -276,7 +276,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL私密金鑰]</td>
+        <td>[!UICONTROL 私密金鑰]</td>
         <td>選取要用於此簽章的私密金鑰。 若要新增私密金鑰，請按一下[新增] <b></b>，然後輸入金鑰的名稱、金鑰文字和複雜密碼。</td>
     </tr>
     <tr>
@@ -314,15 +314,15 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL私密金鑰]</td>
+        <td>[!UICONTROL 私密金鑰]</td>
         <td>選取要用於此郵件的收件者私密金鑰。 若要新增私密金鑰，請按一下[新增] <b></b>，然後輸入金鑰的名稱、金鑰文字和複雜密碼。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL公開金鑰]</td>
+        <td>[!UICONTROL 公開金鑰]</td>
         <td>輸入寄件者的公開金鑰。 這可以驗證寄件者的身分。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL訊息]</td>
+        <td>[!UICONTROL 訊息]</td>
         <td>對應您要解密的訊息。</td>
     </tr>
 </table>
@@ -333,15 +333,15 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL私密金鑰]</td>
+        <td>[!UICONTROL 私密金鑰]</td>
         <td>輸入寄件者的私密金鑰。 這可以驗證寄件者的身分。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL公開金鑰]</td>
+        <td>[!UICONTROL 公開金鑰]</td>
         <td>輸入收件者的公開金鑰。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL訊息]</td>
+        <td>[!UICONTROL 訊息]</td>
         <td>輸入您要加密的訊息。</td>
     </tr>
     </table>

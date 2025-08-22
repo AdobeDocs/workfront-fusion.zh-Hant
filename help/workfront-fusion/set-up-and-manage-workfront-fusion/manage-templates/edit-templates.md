@@ -35,7 +35,7 @@ Adobe Workfront Fusion範本是預先建立的情境，旨在自動化和簡化�
     </tr>
     <tr data-mc-conditions="">
       <td role="rowheader">Adobe Workfront授權</td>
-      <td><p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p></td>
+      <td><p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p></td>
     </tr>
     <tr>
       <td role="rowheader">Adobe Workfront Fusion授權**</td>
@@ -50,8 +50,8 @@ Adobe Workfront Fusion範本是預先建立的情境，旨在自動化和簡化�
       <td>
         <p>新增:</p>
         <ul>
-          <li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li>
-          <li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li>
+          <li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li>
+          <li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li>
         </ul>
         <p>或</p>
         <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
@@ -73,7 +73,7 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
 1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 所有範本]**。
 1. 按一下您要編輯的範本右邊的&#x200B;**[!UICONTROL 詳細資料]**。
 1. （選擇性）按一下右上角的&#x200B;**選項**&#x200B;並選取&#x200B;**重新命名**，以重新命名範本。
-1. （選擇性）若要變更範本的語言，請按一下[建立新範本] **** [案例設定]圖示![，然後從[語言]下拉式清單中選取語言。](assets/fusion-scenario-settings-icon.png)
+1. （選擇性）若要變更範本的語言，請按一下[建立新範本] **&#x200B;**&#x200B;[案例設定]圖示![，然後從[語言]下拉式清單中選取語言。](assets/fusion-scenario-settings-icon.png)
 
    >[!IMPORTANT]
    >

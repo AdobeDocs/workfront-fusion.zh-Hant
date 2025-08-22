@@ -117,36 +117,36 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Spreadsheet]</td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
    <td> <p>選取試算表，其中包含您要監視新回應的表單回應。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL工作表]</td> 
+   <td role="rowheader">[!UICONTROL 工作表]</td> 
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL含標題列]</td> 
+   <td role="rowheader">[!UICONTROL 含標題列]</td> 
    <td>指定表格的標頭列。 預設列為<code>A1:Z1</code>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL值演算選項]</td> 
+   <td role="rowheader">[!UICONTROL 值演算選項]</td> 
    <td> <p>指定要在輸出中呈現值的方式。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL格式化值]</strong> </p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>$1. 23</code>。</p> </li> 
-     <li> <p><strong>[！UICONTROL未格式化的值]</strong> </p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>1. 23</code> 。</p> </li> 
-     <li> <p><strong>[！UICONTROL公式]</strong> </p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>=A1</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 格式化值]</strong> </p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>$1. 23</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 未格式化的值]</strong> </p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>1. 23</code> 。</p> </li> 
+     <li> <p><strong>[!UICONTROL 公式]</strong> </p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>=A1</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL日期和時間轉譯選項]</td> 
-   <td>選取要在輸出中呈現的日期、時間和持續時間。 如果[！UICONTROL Value Render Option]設定為[！UICONTROL格式值]，則會忽略此欄位。</td> 
+   <td role="rowheader">[!UICONTROL 日期和時間轉譯選項]</td> 
+   <td>選取要在輸出中呈現的日期、時間和持續時間。 如果[!UICONTROL Value Render Option]設定為[!UICONTROL 格式值]，則會忽略此欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> <p> 設定Workfront Fusion在一個週期內處理的最大回應數。</p> </td> 
   </tr> 
  </tbody> 
@@ -169,35 +169,35 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Spreadsheet]</td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
    <td> <p>選取包含您要新增回應之工作表的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL工作表]</td> 
+   <td role="rowheader">[!UICONTROL 工作表]</td> 
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[！UICONTROL值]</p> </td> 
-   <td> <p>在工作表欄中輸入所需的值。 根據工作表可使用欄。</p> <p>對於[！UICONTROL Timestamp]欄，請使用下列值：</p><pre>formatDate（現在；DD/MM/YYYY HH：mm；UTC）</pre> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 值]</p> </td> 
+   <td> <p>在工作表欄中輸入所需的值。 根據工作表可使用欄。</p> <p>對於[!UICONTROL Timestamp]欄，請使用下列值：</p><pre>formatDate（現在；DD/MM/YYYY HH：mm；UTC）</pre> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[！UICONTROL值輸入選項]</td> 
+   <td role="rowheader">[!UICONTROL 值輸入選項]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[！UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
-     <li> <p><strong>[！UICONTROL使用者已進入]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 使用者已進入]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[！UICONTROL插入資料選項]</td> 
+   <td role="rowheader">[!UICONTROL 插入資料選項]</td> 
    <td> <p>指定輸入新資料時如何變更現有資料。 </p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL覆寫]</strong> </p> <p>新資料會覆寫其寫入區域中的現有資料。 將資料加入工作表結尾會插入新的列或欄，以便寫入資料。</p> </li> 
-     <li> <p><strong>[！UICONTROL插入列]</strong></p> <p>會為新資料插入列。</p> </li> 
+     <li> <p><strong>[!UICONTROL 覆寫]</strong> </p> <p>新資料會覆寫其寫入區域中的現有資料。 將資料加入工作表結尾會插入新的列或欄，以便寫入資料。</p> </li> 
+     <li> <p><strong>[!UICONTROL 插入列]</strong></p> <p>會為新資料插入列。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -212,19 +212,19 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Spreadsheet]</td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
    <td> <p>選取包含您要刪除回應之工作表的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL工作表]</td> 
+   <td role="rowheader">[!UICONTROL 工作表]</td> 
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL列號]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 列號]</p> </td> 
    <td> <p>輸入或對應您要刪除的列編號。</p> </td> 
   </tr> 
  </tbody> 
@@ -241,31 +241,31 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Spreadsheet]</td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
    <td> <p>選取包含您要更新回應的工作表試算表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL工作表]</td> 
+   <td role="rowheader">[!UICONTROL 工作表]</td> 
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL列號]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 列號]</p> </td> 
    <td> <p>輸入或對應您要更新的資料列編號。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL值]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 值]</p> </td> 
    <td> <p>輸入所需欄的新值。 根據工作表可使用欄。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[！UICONTROL值輸入選項]</td> 
+   <td role="rowheader">[!UICONTROL 值輸入選項]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[！UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
-     <li> <p><strong>[！UICONTROL使用者已進入]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 使用者已進入]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -288,44 +288,44 @@ Google Forms聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>[！UICONTROL Spreadsheet]</td>
+    <td>[!UICONTROL Spreadsheet]</td>
    <td> <p>選取您要搜尋的表單。</p> </td> 
   </tr> 
   <tr data-mc-conditions="">
-    <td>[！UICONTROL工作表] </td>
+    <td>[!UICONTROL 工作表] </td>
    <td> <p>選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>[！UICONTROL欄範圍]</td>
+    <td>[!UICONTROL 欄範圍]</td>
    <td> <p> 選取您要搜尋的欄範圍。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[！UICONTROL篩選器]</td> 
+   <td role="rowheader">[!UICONTROL 篩選器]</td> 
    <td> <p>定義您要搜尋回應依據的篩選器。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>[！UICONTROL排序順序] </td>
+    <td>[!UICONTROL 排序順序] </td>
    <td> <p>選取要以遞增或遞減順序來排序傳回的回應。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>[！UICONTROL Order By]</td>
+    <td>[!UICONTROL Order By]</td>
    <td> <p> 選取要排序傳回回回回應的資料行。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[！UICONTROL值演算選項]</td> 
+   <td role="rowheader">[!UICONTROL 值演算選項]</td> 
    <td> <p>指定要在輸出中呈現值的方式。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL格式值]</strong></p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>$1. 23</code>。</p> </li> 
-     <li> <p><strong>[！UICONTROL未格式化的值]</strong> </p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>1. 23</code> 。</p> </li> 
-     <li> <p><strong>[！UICONTROL公式]</strong> </p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>=A1</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 格式值]</strong></p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>$1. 23</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 未格式化的值]</strong> </p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>1. 23</code> 。</p> </li> 
+     <li> <p><strong>[!UICONTROL 公式]</strong> </p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>=A1</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions="">
-    <td>[！UICONTROL日期和時間轉譯選項]</td>
-    <td>選取要在輸出中呈現的日期、時間和持續時間。 如果[！UICONTROL Value Render]選項設為「格式化值」，則會忽略此欄位。 </td>
+    <td>[!UICONTROL 日期和時間轉譯選項]</td>
+    <td>選取要在輸出中呈現的日期、時間和持續時間。 如果[!UICONTROL Value Render]選項設為「格式化值」，則會忽略此欄位。 </td>
   </tr> 
   <tr>
-    <td role="rowheader">[！UICONTROL傳回回回回應的最大數目]</td>
+    <td role="rowheader">[!UICONTROL 傳回回回回應的最大數目]</td>
    <td> <p> 設定Workfront Fusion在一個週期內傳回的最大回應數。</p> </td> 
   </tr> 
  </tbody> 
@@ -340,23 +340,23 @@ Google Forms聯結器會使用以下專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-    <td>[！UICONTROL Connection]</td>
+    <td>[!UICONTROL Connection]</td>
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr>
-    <td>[！UICONTROL Spreadsheet]</td>
+    <td>[!UICONTROL Spreadsheet]</td>
    <td> <p>選取包含您要搜尋之工作表的試算表。</p> </td> 
   </tr> 
   <tr>
-    <td>[！UICONTROL工作表]</td>
+    <td>[!UICONTROL 工作表]</td>
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Query]</td> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
    <td> <p>使用<a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts Query Language]</a>定義搜尋查詢。</p> <p>範例： <code>select * where C = "John"</code>會擷取C欄為"John"的資料列的所有值。</p> </td> 
   </tr> 
   <tr>
-    <td>[！UICONTROL傳回資料列數目上限]</td>
+    <td>[!UICONTROL 傳回資料列數目上限]</td>
    <td> <p> 設定Workfront Fusion在一個週期內傳回的最大回應數。</p> </td> 
   </tr> 
  </tbody> 

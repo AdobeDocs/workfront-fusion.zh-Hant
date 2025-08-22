@@ -29,24 +29,24 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td>
-  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權*</td>
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
    <p>目前授權需求：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權要求：[！UICONTROL Workfront Fusion for Work Automation and Integration] </p>
+   <p>舊版授權要求：[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[！UICONTROL Ultimate] Workfront計畫中。</p>
+   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[!UICONTROL Ultimate] Workfront計畫中。</p>
    <p>或</p>
    <p>舊版產品需求：您的組織必須購買Adobe Workfront Fusion和Adobe Workfront，才能使用本文所述的功能。</p>
    </td> 
@@ -97,15 +97,15 @@ Qualtrics聯結器使用下列專案：
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL連線名稱]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 連線名稱]</p> </td> 
       <td> <p>輸入新連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL資料中心ID] </td> 
+      <td role="rowheader">[!UICONTROL 資料中心ID] </td> 
       <td>使用格式<code>&lt;Data Center ID>.qualtrics.com</code>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL API Key]</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
       <td>若要尋找您的API金鑰，請參閱[!DNL Qualtrics]檔案。</td> 
      </tr> 
     </tbody> 

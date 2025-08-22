@@ -114,49 +114,49 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
     </col>
     <tbody>
       <tr>
-        <td role="rowheader">[！UICONTROL連線型別]</td>
+        <td role="rowheader">[!UICONTROL 連線型別]</td>
         <td>
           <p>選取您要建立OAuth伺服器對伺服器連線，還是要建立服務帳戶(JWT)連線。 我們強烈建議您建立OAuth連線。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL連線名稱]</td>
+        <td role="rowheader">[!UICONTROL 連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL使用者端ID]</td>
-        <td>輸入您的[!DNL Adobe]使用者端識別碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
+        <td>輸入您的[!DNL Adobe]使用者端識別碼。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
-        <td>輸入您的[!DNL Adobe]使用者端密碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe]使用者端密碼。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL範圍]</td>
+        <td role="rowheader">[!UICONTROL 範圍]</td>
         <td>如果您已選取OAuth連線，請輸入此連線所需的範圍。</td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
-        <td>如果您已選取JWT連線，請輸入您的[!DNL Adobe]技術帳戶ID。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        <td role="rowheader">[!UICONTROL 技術帳戶ID]</td>
+        <td>如果您已選取JWT連線，請輸入您的[!DNL Adobe]技術帳戶ID。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL組織ID]</td>
-        <td>如果您已選取JWT連線，請輸入您的[!DNL Adobe]組織識別碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        <td role="rowheader">[!UICONTROL 組織ID]</td>
+        <td>如果您已選取JWT連線，請輸入您的[!DNL Adobe]組織識別碼。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL中繼範圍]</td>
+        <td role="rowheader">[!UICONTROL 中繼範圍]</td>
         <td>如果您已選取JWT連線，請輸入此連線所需的中繼範圍。 </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL私密金鑰]</td>
+        <td role="rowheader">[!UICONTROL 私密金鑰]</td>
         <td>
           <p>如果您已選取JWT連線，請輸入在[!DNL Adobe Developer Console]中建立認證時產生的私密金鑰。 </p>
           <p>若要擷取您的私密金鑰或憑證：</p>
           <ol>
             <li value="1">
-              <p>按一下<b>[！UICONTROL Extract]</b>。</p>
+              <p>按一下<b>[!UICONTROL Extract]</b>。</p>
             </li>
             <li value="2">
               <p>選取要解壓縮的檔案型別。</p>
@@ -168,17 +168,17 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
               <p>輸入檔案的密碼。</p>
             </li>
             <li value="5">
-              <p>按一下<b>[！UICONTROL儲存]</b>以擷取檔案並返回連線設定。</p>
+              <p>按一下<b>[!UICONTROL 儲存]</b>以擷取檔案並返回連線設定。</p>
             </li>
           </ol>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL基底URL]</td>
+        <td role="rowheader">[!UICONTROL 基底URL]</td>
         <td>您必須新增要此驗證器允許的基本URL。 稍後在情境中使用進行自訂API呼叫模組時，您將新增相對路徑至所選的URL。 在這裡輸入URL，您可以控制進行自訂API呼叫模組可以連線的專案，進而提高安全性。<p>針對您想要新增至驗證器的每個基底URL，按一下<b>新增專案</b>並輸入基底URL。</td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL驗證URL]</td>
+        <td role="rowheader">[!UICONTROL 驗證URL]</td>
         <td>請將此專案留空，以使用<code>https://ims-na1.adobelogin.com</code>的標準Adobe IMS驗證URL。 如果您沒有使用Adobe IMS進行驗證，請輸入用於驗證的URL。</td>
       </tr>
     </tbody>
@@ -202,19 +202,19 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL Connection]</td>
+     <td role="rowheader">[!UICONTROL Connection]</td>
      <td>如需建立與Adobe Authenticator模組的連線的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref" >建立連線</a>。</td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL基底URL]</p>
+        <p>[!UICONTROL 基底URL]</p>
       </td>
       <td>
         <p>輸入您要連線之API點的基底URL。</p>
       </td>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL URL]</p>
+        <p>[!UICONTROL URL]</p>
       </td>
       <td>
         <p>輸入相對於基底URL的路徑。</p>
@@ -222,12 +222,12 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL方法]</p>
+        <p>[!UICONTROL 方法]</p>
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Headers]</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>以標準JSON物件的形式新增請求的標頭。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
@@ -235,13 +235,13 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL查詢字串]  </td>
+      <td role="rowheader">[!UICONTROL 查詢字串]  </td>
       <td>
         <p>輸入請求查詢字串。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL主體型別]</td>
+      <td role="rowheader">[!UICONTROL 主體型別]</td>
    <td> 選取此API請求的內文型別：
    <ul>
    <li>原始</li>
@@ -251,7 +251,7 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
       </td>
       </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸出型別]  </td>
+      <td role="rowheader">[!UICONTROL 輸出型別]  </td>
       <td>
         <p>選取您要模組輸出的資料型別。 如果您未選取型別，模組會自動選取型別。</p>
       </td>
@@ -268,19 +268,19 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[！UICONTROL Connection]</td>
+     <td role="rowheader">[!UICONTROL Connection]</td>
      <td>如需建立與Adobe Authenticator模組的連線的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref" >建立連線</a>。</td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL基底URL]</p>
+        <p>[!UICONTROL 基底URL]</p>
       </td>
       <td>
         <p>輸入您要連線之API點的基底URL。</p>
       </td>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL URL]</p>
+        <p>[!UICONTROL URL]</p>
       </td>
       <td>
         <p>輸入相對於基底URL的路徑。</p>
@@ -288,12 +288,12 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL方法]</p>
+        <p>[!UICONTROL 方法]</p>
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Headers]</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>以標準JSON物件的形式新增請求的標頭。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
@@ -301,13 +301,13 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL查詢字串]  </td>
+      <td role="rowheader">[!UICONTROL 查詢字串]  </td>
       <td>
         <p>輸入請求查詢字串。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Body]</td>
+      <td role="rowheader">[!UICONTROL Body]</td>
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> 

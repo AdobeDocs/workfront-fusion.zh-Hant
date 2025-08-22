@@ -31,7 +31,7 @@ Adobe Workfront Fusion [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -44,7 +44,7 @@ Adobe Workfront Fusion [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -69,15 +69,15 @@ Adobe Workfront Fusion [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL運算式]</td> 
+   <td role="rowheader">[!UICONTROL 運算式]</td> 
    <td>輸入您要用來評估JSON物件的運算式。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料] </td> 
+   <td role="rowheader">[!UICONTROL 資料] </td> 
    <td> 輸入要評估的JSON物件。  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL字串輸出] </td> 
+   <td role="rowheader">[!UICONTROL 字串輸出] </td> 
    <td> 啟用此選項可將輸出轉換為字串。  </td> 
   </tr> 
   </tbody>
@@ -120,15 +120,15 @@ Adobe Workfront Fusion [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>選取您用來連線到要用於此模組的大型語言模型(LLM)的連線。</p> <p>目前僅支援人類API金鑰。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入結構描述]</td> 
+   <td role="rowheader">[!UICONTROL 輸入結構描述]</td> 
    <td> <p>輸入或對應要用於此運算式的輸入結構描述。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出結構描述]</td> 
+   <td role="rowheader">[!UICONTROL 輸出結構描述]</td> 
    <td> <p>輸入或對應要用於此運算式的輸出結構描述。</p> </td> 
   </tr> 
  </tbody> 

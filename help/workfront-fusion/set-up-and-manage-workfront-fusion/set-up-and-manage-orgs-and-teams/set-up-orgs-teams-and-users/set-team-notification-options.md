@@ -33,7 +33,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -46,7 +46,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -84,15 +84,15 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">'[！UICONTROL案例執行中的警告]'</td> 
+      <td role="rowheader">'[!UICONTROL 案例執行中的警告]'</td> 
       <td> <p>當案例執行中有警告時收到電子郵件</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">情景執行中的[！UICONTROL錯誤]</td> 
+      <td role="rowheader">情景執行中的[!UICONTROL 錯誤]</td> 
       <td>當案例執行中發生錯誤時收到電子郵件。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL案例停用]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 案例停用]</p> </td> 
       <td><p>當案例停用時收到電子郵件。</p><p>在某些情況下，案例可能會被Workfront Fusion工程團隊停用，因為案例會導致效能或其他問題。 在這些情況下，您不會在Workfront Fusion中收到通知。 </p></td>
 
 </tr>

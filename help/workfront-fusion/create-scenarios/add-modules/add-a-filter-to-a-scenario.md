@@ -38,7 +38,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -51,7 +51,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -112,7 +112,7 @@ ht-degree: 1%
 
 1. 按一下左側列中的&#x200B;**[!UICONTROL 工具]**&#x200B;圖示![DevTool工具](assets/devtools-tools-icon.png)。
 
-1. 按一下「複製篩選器」****，然後在右側面板中設定「複製篩選器」****&#x200B;工具：
+1. 按一下「複製篩選器」**&#x200B;**，然後在右側面板中設定「複製篩選器」**&#x200B;**&#x200B;工具：
 
    1. 將&#x200B;**[!UICONTROL Source模組]**&#x200B;直接設定為您要複製的篩選器之後的模組。
    1. 將&#x200B;**[!UICONTROL Target模組]**&#x200B;設定為您要直接放置篩選器的模組。

@@ -27,24 +27,24 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td>
-  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權*</td>
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
    <p>目前授權需求：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權要求：[！UICONTROL Workfront Fusion for Work Automation and Integration] </p>
+   <p>舊版授權要求：[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[！UICONTROL Ultimate] Workfront計畫中。</p>
+   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[!UICONTROL Ultimate] Workfront計畫中。</p>
    <p>或</p>
    <p>舊版產品需求：您的組織必須購買Adobe Workfront Fusion和Adobe Workfront，才能使用本文所述的功能。</p>
    </td> 
@@ -90,63 +90,63 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
     </col>
     <tbody>
       <tr>
-        <td role="rowheader">[！UICONTROL連線名稱]</td>
+        <td role="rowheader">[!UICONTROL 連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL環境]</td>
+        <td role="rowheader">[!UICONTROL 環境]</td>
         <td>
           <p>選取此連線是連線至生產或非生產環境。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL型別]</td>
+        <td role="rowheader">[!UICONTROL 型別]</td>
         <td>
           <p>選取此帳戶是服務帳戶還是個人帳戶。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL執行個體URL，不含尾隨斜線]</td>
+        <td role="rowheader">[!UICONTROL 執行個體URL，不含尾隨斜線]</td>
         <td>
           <p>輸入您用來存取帳戶的URL，不含最後一個斜線。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL IMS端點]</td>
+        <td role="rowheader">[!UICONTROL IMS端點]</td>
         <td>
           <p><code>https://ims-na1.adobelogin.com</code></p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL使用者端ID]</td>
-        <td>輸入您的[!DNL Adobe]使用者端識別碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
+        <td>輸入您的[!DNL Adobe]使用者端識別碼。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
-        <td>輸入您的[!DNL Adobe]使用者端密碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe]使用者端密碼。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL組織ID]</td>
-        <td>輸入您的[!DNL Adobe]組織識別碼。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        <td role="rowheader">[!UICONTROL 組織ID]</td>
+        <td>輸入您的[!DNL Adobe]組織識別碼。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
-        <td>輸入您的[!DNL Adobe]技術帳戶ID。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+        <td role="rowheader">[!UICONTROL 技術帳戶ID]</td>
+        <td>輸入您的[!DNL Adobe]技術帳戶ID。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL中繼範圍]</td>
+        <td role="rowheader">[!UICONTROL 中繼範圍]</td>
         <td>輸入任何適當的中繼範圍       </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL私密金鑰]</td>
+        <td role="rowheader">[!UICONTROL 私密金鑰]</td>
         <td>
           <p>輸入在[!DNL Adobe Developer Console]中建立認證時產生的私密金鑰。 </p>
           <p>若要擷取您的私密金鑰或憑證：</p>
           <ol>
             <li value="1">
-              <p>按一下<b>[！UICONTROL Extract]</b>。</p>
+              <p>按一下<b>[!UICONTROL Extract]</b>。</p>
             </li>
             <li value="2">
               <p>選取要解壓縮的檔案型別。</p>
@@ -158,7 +158,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
               <p>輸入檔案的密碼。</p>
             </li>
             <li value="5">
-              <p>按一下<b>[！UICONTROL儲存]</b>以擷取檔案並返回連線設定。</p>
+              <p>按一下<b>[!UICONTROL 儲存]</b>以擷取檔案並返回連線設定。</p>
             </li>
           </ol>
         </td>
@@ -187,11 +187,11 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Webhook名稱]</td> 
+   <td role="rowheader">[!UICONTROL Webhook名稱]</td> 
    <td> <p>輸入webhook的名稱</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需將您的[!DNL Adobe Experience Manager]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref">建立與[!DNL Adobe Experience Manager Forms]</a>的連線</p> </td> 
   </tr>
 

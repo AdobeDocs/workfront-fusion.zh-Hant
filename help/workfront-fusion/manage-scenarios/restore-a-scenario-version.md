@@ -31,7 +31,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -44,7 +44,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -75,10 +75,10 @@ ht-degree: 1%
 1. 按一下畫面底部的[!UICONTROL 更多]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 舊版]**。
 
    先前版本的清單隨即顯示。
-1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。****
+1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。**&#x200B;**
 
    建議您提供名稱，說明針對此版本所做的變更。
-1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]****。
+1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]&#x200B;**&#x200B;**。
 1. （選擇性）若要還原版本，請按一下該版本行上的&#x200B;**還原**
 
 

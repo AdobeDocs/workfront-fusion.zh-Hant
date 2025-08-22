@@ -29,24 +29,24 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront計畫*</td>
-  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
+  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權*</td>
-   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
+   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
    <p>目前授權需求：無Workfront Fusion授權需求。</p>
    <p>或</p>
-   <p>舊版授權要求：[！UICONTROL Workfront Fusion for Work Automation and Integration] </p>
+   <p>舊版授權要求：[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[！UICONTROL Select]或[！UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[！UICONTROL Ultimate] Workfront計畫中。</p>
+   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[!UICONTROL Ultimate] Workfront計畫中。</p>
    <p>或</p>
    <p>舊版產品需求：您的組織必須購買Adobe Workfront Fusion和Adobe Workfront，才能使用本文所述的功能。</p>
    </td> 
@@ -114,12 +114,12 @@ Allocadia聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   td role="rowheader"&gt; <p>[！UICONTROL Connection]</p> </td> 
-   <td> <p>如需有關將Allocadia帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect Allocadia]到Workfront Fusion</a>。</p> </td> 
+   td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>如需有關將Allocadia帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia]到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">篩選器</td> 
-   <td> <p>選取您希望情境只觀看「新記錄」、「[！UICONTROL僅更新記錄」，還是「新記錄和更新記錄」。</p> </td> 
+   <td> <p>選取您希望情境只觀看「新記錄」、「&lbrack;！UICONTROL僅更新記錄」，還是「新記錄和更新記錄」。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">實體型別</td> 
@@ -157,27 +157,27 @@ Allocadia聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td>輸入相對於<code>https://api-na.allocadia.com/{version}</code>或<code>https://api-eu.allocadia.com/{version}</code>的路徑。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -201,19 +201,19 @@ Allocadia聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   td role="rowheader"&gt; <p>[！UICONTROL Connection]</p> </td> 
+   td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL實體型別]</td> 
+   <td role="rowheader">[!UICONTROL 實體型別]</td> 
    <td>選取您希望模組讀取的[!DNL Allocadia]記錄型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
-   <td> <p>選取您要納入模組輸出的欄位。 可用欄位取決於您選取的[！UICONTROL實體型別]。</p> </td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td> <p>選取您要納入模組輸出的欄位。 可用欄位取決於您選取的[!UICONTROL 實體型別]。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL ID]</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>輸入或對應您要模組讀取之記錄的唯一[!DNL Allocadia]識別碼。</td> 
   </tr> 
  </tbody> 
@@ -232,15 +232,15 @@ Allocadia聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   td role="rowheader"&gt; <p>[！UICONTROL Connection]</p> </td> 
+   td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL實體型別]</td> 
+   <td role="rowheader">[!UICONTROL 實體型別]</td> 
    <td>選取您要建立以線上專案或欄選擇為基礎的新記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL預算]</td> 
+   <td role="rowheader">[!UICONTROL 預算]</td> 
    <td> <p>選取您要建立記錄的預算。</p> </td> 
   </tr> 
   <tr> 
@@ -269,16 +269,16 @@ Allocadia聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   td role="rowheader"&gt; <p>[！UICONTROL Connection]</p> </td> 
+   td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL實體型別]</td> 
+   <td role="rowheader">[!UICONTROL 實體型別]</td> 
    <td> <p>選取要刪除的實體型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL條列專案]</strong> </p> <p>輸入明細專案識別碼</p> </li> 
-     <li> <p><strong>[！UICONTROL資料行選擇]</strong> </p> <p>選取您要刪除記錄的預算，然後輸入「欄位識別碼」與「選擇識別碼」。</p> </li> 
-     <li> <p><strong>[！UICONTROL預測標籤]</strong> </p> <p>選取您要刪除記錄的預算，然後輸入盤點單識別碼。</p> </li> 
+     <li> <p><strong>[!UICONTROL 條列專案]</strong> </p> <p>輸入明細專案識別碼</p> </li> 
+     <li> <p><strong>[!UICONTROL 資料行選擇]</strong> </p> <p>選取您要刪除記錄的預算，然後輸入「欄位識別碼」與「選擇識別碼」。</p> </li> 
+     <li> <p><strong>[!UICONTROL 預測標籤]</strong> </p> <p>選取您要刪除記錄的預算，然後輸入盤點單識別碼。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -299,15 +299,15 @@ Allocadia聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
-   <td> <p>如需有關將您的[！UICONTROL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>如需有關將您的[!UICONTROL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL實體型別]</td> 
+   <td role="rowheader">[!UICONTROL 實體型別]</td> 
    <td>選取您希望模組更新的[!DNL Allocadia]記錄型別。 其他欄位會根據您選取的實體型別而顯示。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL預算]</td> 
+   <td role="rowheader">[!UICONTROL 預算]</td> 
    <td> <p>選取您要更新記錄的預算。 </p> </td> 
   </tr> 
  </tbody> 
@@ -330,31 +330,31 @@ Allocadia聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   td role="rowheader"&gt; <p>[！UICONTROL Connection]</p> </td> 
+   td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL實體型別]</td> 
+   <td role="rowheader">[!UICONTROL 實體型別]</td> 
    <td>選取您要模組搜尋的[!DNL Allocadia]記錄型別。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL預算]</td> 
+   <td role="rowheader">[!UICONTROL 預算]</td> 
    <td> <p>選取您要搜尋的預算。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL結果集]</td> 
+   <td role="rowheader">[!UICONTROL 結果集]</td> 
    <td>選取您希望模組傳回「所有比對記錄」，還是隻傳回「第一個比對記錄」。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL最大記錄數]</td> 
+   <td role="rowheader">[!UICONTROL 最大記錄數]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL搜尋條件]</td> 
+   <td role="rowheader">[!UICONTROL 搜尋條件]</td> 
    <td>選取您要搜尋的欄位、選取作業，然後輸入或對應您要搜尋的值。 您可以新增[!DNL AND]或[!DNL OR]規則以進一步篩選您的搜尋。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td> <p>選取您要納入模組輸出的欄位。 可用欄位取決於您選取的實體型別。</p> </td> 
   </tr> 
  </tbody> 

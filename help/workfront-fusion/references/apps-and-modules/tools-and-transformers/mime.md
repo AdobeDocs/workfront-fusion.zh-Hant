@@ -70,7 +70,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL MIME型別]</td> 
+   <td role="rowheader">[!UICONTROL MIME型別]</td> 
    <td> <p>輸入或對應您要決定副檔名的MIME型別。 </p> </td> 
   </tr> 
  </tbody> 
@@ -85,12 +85,12 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案]</td> 
+   <td role="rowheader">[!UICONTROL 檔案]</td> 
    <td> <p>輸入或對應您要決定其MIME型別的檔案。 </p> <p>您可以使用以下方式輸入檔案：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL檔案路徑]</strong> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>/file/image.jpeg</p> </li> 
-     <li><strong>[！UICONTROL檔案名稱]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>image.jpeg</p> </li> 
-     <li><strong>[！UICONTROL副檔名]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>jpeg</p> </li> 
+     <li> <p><strong>[!UICONTROL 檔案路徑]</strong> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>/file/image.jpeg</p> </li> 
+     <li><strong>[!UICONTROL 檔案名稱]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>image.jpeg</p> </li> 
+     <li><strong>[!UICONTROL 副檔名]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>jpeg</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -36,7 +36,7 @@ Workfront Fusion範本功能可讓您建立並使用現有範本，作為Workfro
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -49,7 +49,7 @@ Workfront Fusion範本功能可讓您建立並使用現有範本，作為Workfro
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -81,11 +81,11 @@ Workfront Fusion範本功能可讓您建立並使用現有範本，作為Workfro
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL公用範本]</td> 
+      <td role="rowheader">[!UICONTROL 公用範本]</td> 
       <td> <p> 所有已發佈且隨後由管理員核准的範本。 在範本圖磚上，您可以看到範本的名稱、其預覽和通訊端圖示，其數字表示目前為止已使用範本的次數。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL團隊範本]</td> 
+      <td role="rowheader">[!UICONTROL 團隊範本]</td> 
       <td> <p>您的團隊成員建立的所有範本，包括管理員已公開的範本。 在範本圖磚上，您可以看到範本的名稱、本檔案的「發佈和共用範本」一節中詳述的狀態圖示以及「刪除」按鈕。</p> <b>注意：</b>如果您在「專案團隊範本」標籤下沒有看到預期的範本，請檢查左側導覽或標題，以確定您目前檢視的專案團隊是否正確。</td> 
      </tr> 
     </tbody> 

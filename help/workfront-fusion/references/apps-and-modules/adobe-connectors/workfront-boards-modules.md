@@ -104,33 +104,33 @@ Adobe Workfront面板聯結器會使用以下專案：
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[！UICONTROL連線名稱]</td>
+          <td role="rowheader">[!UICONTROL 連線名稱]</td>
           <td>
             <p>輸入此連線的名稱。</p>
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL環境]</td>
+          <td role="rowheader">[!UICONTROL 環境]</td>
           <td>選取您要連線到生產或非生產環境。</td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL型別]</td>
+          <td role="rowheader">[!UICONTROL 型別]</td>
           <td>選取您是要連線到服務帳戶還是個人帳戶。</td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL使用者端ID]<p>(選填)</p></td>
-          <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。</td>
+          <td role="rowheader">[!UICONTROL 使用者端ID]<p>(選填)</p></td>
+          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。</td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL使用者端密碼]<p>(選填)</p></td>
-          <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。
+          <td role="rowheader">[!UICONTROL 使用者端密碼]<p>(選填)</p></td>
+          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL驗證URL]<p>(選填)</p></td>
+          <td role="rowheader">[!UICONTROL 驗證URL]<p>(選填)</p></td>
           <td>輸入您的Workfront執行個體將用來驗證此連線的URL。 <p>預設值為 <code>https://oauth.my.workfront.com/integrations/oauth2</code>。</p>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL主機前置詞]</td>
+          <td role="rowheader">[!UICONTROL 主機前置詞]</td>
           <td>輸入您的主機前置詞。<p>預設值為 <code>origin-</code>。</p>
         </tr>
       </tbody>
@@ -170,15 +170,15 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL卡片ID]</td> 
+   <td>[!UICONTROL 卡片ID]</td> 
    <td>輸入或對應您要新增檢查清單專案的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檢查清單專案]</td> 
+   <td>[!UICONTROL 檢查清單專案]</td> 
    <td>針對您要新增的每個檢查清單專案，按一下「新增專案」，輸入檢查清單專案的名稱，然後選取該專案是否已完成。</p></td> 
   </tr> 
  </tbody> 
@@ -193,19 +193,19 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL父卡片ID]</td> 
+   <td>[!UICONTROL 父卡片ID]</td> 
    <td>輸入或對應您要新增子任務的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應包含您要新增子任務之卡片之展示板的ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL名稱]</td> 
+   <td>[!UICONTROL 名稱]</td> 
    <td>輸入或對應新子工作的名稱。</p></td> 
   </tr> 
  </tbody> 
@@ -220,19 +220,19 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應您要新增卡片之主機板的ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料行ID]</td> 
+   <td>[!UICONTROL 資料行ID]</td> 
    <td>輸入或對應您要新增子工作的資料行ID。<p>您可以從讀取展示板模組傳回的資訊中找到欄ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL名稱]</td> 
+   <td>[!UICONTROL 名稱]</td> 
    <td>輸入或對應新卡片的名稱。</p></td> 
   </tr> 
  </tbody> 
@@ -247,23 +247,23 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL卡片ID]</td> 
+   <td>[!UICONTROL 卡片ID]</td> 
    <td>輸入或對應您要移動之卡片的ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應包含您要移動之卡片的主機板ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目的地資料行ID]</td> 
+   <td>[!UICONTROL 目的地資料行ID]</td> 
    <td>輸入或對應您要移動卡片的目標欄ID。<p>您可以從讀取展示板模組傳回的資訊中找到欄ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL至索引]</td> 
+   <td>[!UICONTROL 至索引]</td> 
    <td>輸入或對應您要卡片在新欄中的位置。<p>索引0中資料行的頂端位置。</p></td> 
   </tr> 
  </tbody> 
@@ -278,15 +278,15 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL卡片ID]</td> 
+   <td>[!UICONTROL 卡片ID]</td> 
    <td>輸入或對應您要讀取的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL卡片ID]</td> 
+   <td>[!UICONTROL 卡片ID]</td> 
    <td>輸入或對應包含您要讀取之卡片之主機板的ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
  </tbody> 
@@ -301,37 +301,37 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL卡片ID]</td> 
+   <td>[!UICONTROL 卡片ID]</td> 
    <td>輸入或對應您要更新的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應包含要更新卡片之展示板的ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL名稱]</td> 
+   <td>[!UICONTROL 名稱]</td> 
    <td>輸入或對映卡片的新名稱。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL說明]</td> 
+   <td>[!UICONTROL 說明]</td> 
    <td>輸入或對映卡片的新說明。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL估算]</td> 
+   <td>[!UICONTROL 估算]</td> 
    <td>輸入或對應完成這張卡片所需時間的預估。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL到期日期]</td> 
+   <td>[!UICONTROL 到期日期]</td> 
    <td>輸入或對應此卡片的到期日。</p>
    <p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p>
    </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL狀態]</td> 
+   <td>[!UICONTROL 狀態]</td> 
    <td>為卡片選取新狀態。</p></td> 
   </tr> 
  </tbody> 
@@ -351,15 +351,15 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板名稱]</td> 
+   <td>[!UICONTROL 展示板名稱]</td> 
    <td>輸入或對映新展示板的名稱。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL範本]</td> 
+   <td>[!UICONTROL 範本]</td> 
    <td>為要建立的電路板型別選取範本。</td> 
   </tr> 
  </tbody> 
@@ -374,11 +374,11 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應您要擷取資訊之展示板的ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
  </tbody> 
@@ -399,19 +399,19 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應您要新增欄的展示板ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料行ID]</td> 
+   <td>[!UICONTROL 資料行ID]</td> 
    <td>輸入或對應您要更新之欄的ID。<p>您可以從讀取展示板模組傳回的資訊中找到欄ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL欄名稱]</td> 
+   <td>[!UICONTROL 欄名稱]</td> 
    <td>輸入或對映欄的新名稱。</td> 
   </tr> 
  </tbody> 
@@ -426,15 +426,15 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應包含您要擷取之欄的展示板ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL欄名稱]</td> 
+   <td>[!UICONTROL 欄名稱]</td> 
    <td>輸入或對應您要擷取的資料行名稱。</td> 
   </tr> 
  </tbody> 
@@ -449,19 +449,19 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應包含您要擷取之欄的展示板ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL欄名稱]</td> 
+   <td>[!UICONTROL 欄名稱]</td> 
    <td>輸入或對應您要擷取的資料行名稱。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL WIP限制]</td> 
+   <td>[!UICONTROL WIP限制]</td> 
    <td>輸入或對應欄位的新在製品限制。</td> 
   </tr> 
  </tbody> 
@@ -481,19 +481,19 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL卡片ID]</td> 
+   <td>[!UICONTROL 卡片ID]</td> 
    <td>輸入或對應您要新增標籤的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應包含您要新增標籤之卡片的主機板ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL標籤ID]</td> 
+   <td>[!UICONTROL 標籤ID]</td> 
    <td>輸入或對應您要新增之標籤的ID。<p>您可以從讀取展示板模組傳回的資訊中找到標籤ID。</p></td> 
   </tr> 
  </tbody> 
@@ -508,19 +508,19 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL展示板ID]</td> 
+   <td>[!UICONTROL 展示板ID]</td> 
    <td>輸入或對應您要建立標籤之展示板的ID。<p>在Workfront中檢視展示板時，您可以在URL中找到展示板ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL標籤名稱]</td> 
+   <td>[!UICONTROL 標籤名稱]</td> 
    <td>輸入或對映新標籤的名稱。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL標籤顏色]</td> 
+   <td>[!UICONTROL 標籤顏色]</td> 
    <td>選取此標籤的顏色。</td> 
   </tr> 
  </tbody> 
@@ -540,15 +540,15 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL卡片ID]</td> 
+   <td>[!UICONTROL 卡片ID]</td> 
    <td>輸入或對應您要新增註解的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL註解]</td> 
+   <td>[!UICONTROL 註解]</td> 
    <td>輸入或對應您要新增的註解文字。</p></td> 
   </tr> 
  </tbody> 
@@ -563,15 +563,15 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection]</td> 
+   <td>[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL卡片ID]</td> 
+   <td>[!UICONTROL 卡片ID]</td> 
    <td>輸入或對應您要擷取註解的卡片ID。<p>在Workfront中檢視卡片時，您可以在URL中找到卡片ID。</p></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL限制]</td> 
+   <td>[!UICONTROL 限制]</td> 
    <td>輸入您希望模組在一個執行週期內傳回的最大註解數。</p></td> 
   </tr> 
  </tbody> 
@@ -588,7 +588,7 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -596,19 +596,19 @@ Adobe Workfront面板聯結器會使用以下專案：
    <td> <p>輸入相對於<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>的路徑。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p><p>對於大多數展示板呼叫，方法是POST。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。 這會決定請求的內容型別。</p> <p>例如，<code> { "Content-type":"application/json-stringify()"}</code></p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>若為Workfront面板，此區段通常會保留空白。</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以JSON內嵌Graphql的形式，新增API呼叫的內文內容 </p> <p>範例：</p><p>此範例會更新欄名稱。 您可以將<code>boardId</code>和<code>columnId</code>加入為GUID，以硬式編碼或對映自先前的模組。<p><pre>{<br> "query"： "mutation { updateColumn(boardId： \"\"， columnId： \"\"， updateColumnInput： { name： \"\" }) { id name }}"<br>}</pre><p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -627,31 +627,31 @@ Adobe Workfront面板聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
       <td> <p>您可以使用現有的Workfront連線來連線至Workfront面板，或使用特定的Workfront面板連線。 </p><p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-workfront-boards" class="MCXref xref">建立與Workfront展示板的連線</a>。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取這個呼叫的方法。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Query]</td> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL操作名稱]</td> 
+   <td role="rowheader">[!UICONTROL 操作名稱]</td> 
    <td> <p>輸入此作業的名稱。 如此可讓追蹤及偵錯呼叫變得更加容易。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL變數資料來源]</td> 
+   <td role="rowheader">[!UICONTROL 變數資料來源]</td> 
    <td> <p>選取變數來自表單或集合。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL變數]</td> 
+   <td role="rowheader">[!UICONTROL 變數]</td> 
    <td> <p>針對您要新增的每個變數，按一下<b>新增專案</b>並輸入變數的索引鍵和值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td> 
    </tr> 
  </tbody> 

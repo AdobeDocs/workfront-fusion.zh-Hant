@@ -34,7 +34,7 @@ ht-degree: 1%
    <td> 新增：標準<p>或</p><p>目前：工作或以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront Fusion]授權</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]授權</td> 
    <td>
    <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
@@ -44,7 +44,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -115,7 +115,7 @@ ht-degree: 1%
 >若要防止整個案例執行，您可以：
 >
 >* 在[!UICONTROL JSON] > [!UICONTROL 剖析JSON]模組之後取消連結模組，以防止流程繼續進行。
->  >   或
+>  &#x200B;>   或
 >* 以滑鼠右鍵按一下[!UICONTROL JSON] > [!UICONTROL 剖析JSON]模組，然後從內容功能表中選擇&#x200B;**[!UICONTROL 僅執行此模組]**，以僅執行[!UICONTROL JSON] > [!UICONTROL 剖析JSON]模組。
 
 執行[!UICONTROL JSON] > [!UICONTROL 剖析JSON]之後，它就可以將其輸出的相關資訊提供給所有後續模組，包括疊代器模組。 接著迭代器設定中的對應面板會顯示專案：

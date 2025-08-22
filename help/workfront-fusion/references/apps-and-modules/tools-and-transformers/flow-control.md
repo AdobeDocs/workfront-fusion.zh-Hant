@@ -63,15 +63,15 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td>[！UICONTROL初始值]</td>
+        <td>[!UICONTROL 初始值]</td>
         <td>輸入或對映您希望模組在第一個反複專案中的值。 預設值為 1。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL重複]</td>
+        <td>[!UICONTROL 重複]</td>
         <td>輸入或對應您希望模組重複的次數。 此數字必須大於或等於0，且小於或等於10,000。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL步驟]</td>
+        <td>[!UICONTROL 步驟]</td>
         <td>這是模組增加值時所使用的數字。 預設值為 1。</td>
     </tr>
 </table>

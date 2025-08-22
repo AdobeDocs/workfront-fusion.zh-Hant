@@ -47,7 +47,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -60,7 +60,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -124,15 +124,15 @@ Select或Prime封裝上的Fusion執行個體會接收:-->
     <col> 
     <tbody> 
      <tr> 
-      <td>[！UICONTROL資料存放區名稱] </td> 
+      <td>[!UICONTROL 資料存放區名稱] </td> 
       <td> <p>輸入資料存放區的名稱。 </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>[！UICONTROL資料結構]</p> </td> 
+      <td> <p>[!UICONTROL 資料結構]</p> </td> 
       <td> <p>資料結構是表格的欄清單。 此清單指示欄名稱和資料型別。</p> <p>執行下列其中一項：</p> 
        <ul> 
         <li><b>選取已建立的資料結構</b></li> 
-        <li><b>新增資料結構</b> <p>按一下<strong>[！UICONTROL新增]</strong>以建立新的資料結構。</p> <p>如需詳細資訊，請參閱本文中的<a href="#set-up-the-data-structure" class="MCXref xref">設定資料結構</a>一節。</p> </li> 
+        <li><b>新增資料結構</b> <p>按一下<strong>[!UICONTROL 新增]</strong>以建立新的資料結構。</p> <p>如需詳細資訊，請參閱本文中的<a href="#set-up-the-data-structure" class="MCXref xref">設定資料結構</a>一節。</p> </li> 
         <li style="font-weight: bold;"> <p>將此欄位留空</p> <p style="font-weight: normal;">如果您未選取或新增資料結構，資料庫將僅包含主索引鍵。 如果您只想儲存金鑰，而且只想知道資料庫中是否存在特定金鑰，這種資料庫型別就相當實用。</p> </li> 
        </ul> </td> 
      </tr> 
@@ -145,7 +145,7 @@ Select或Prime封裝上的Fusion執行個體會接收:-->
 
 ### 設定資料結構
 
-1. 建立或編輯資料存放區時，請按一下[新增]。****
+1. 建立或編輯資料存放區時，請按一下[新增]。**&#x200B;**
 1. 在顯示的&#x200B;**[!UICONTROL 新增資料結構]**&#x200B;方塊中，設定下列欄位：
 
    <table style="table-layout:auto">
@@ -153,15 +153,15 @@ Select或Prime封裝上的Fusion執行個體會接收:-->
     <col> 
     <tbody> 
      <tr> 
-      <td>[！UICONTROL資料結構名稱]</td> 
+      <td>[!UICONTROL 資料結構名稱]</td> 
       <td> <p> 輸入新資料結構的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p>[！UICONTROL規格]</p> </td> 
+      <td> <p>[!UICONTROL 規格]</p> </td> 
       <td> <p>執行下列任一項作業來設定資料存放區的欄。</p> 
        <ul> 
-        <li> <p>按一下<strong>[！UICONTROL新增專案]</strong>以手動指定一欄的屬性。</p> <p>輸入資料儲存欄位的<strong>[！UICONTROL名稱]</strong>和<strong>[！UICONTROL型別]</strong>，並定義對應的屬性。</p> </li> 
-        <li> <p>按一下<strong>[！UICONTROL Generator]</strong>，從您提供的範例資料中決定資料行。</p> 
+        <li> <p>按一下<strong>[!UICONTROL 新增專案]</strong>以手動指定一欄的屬性。</p> <p>輸入資料儲存欄位的<strong>[!UICONTROL 名稱]</strong>和<strong>[!UICONTROL 型別]</strong>，並定義對應的屬性。</p> </li> 
+        <li> <p>按一下<strong>[!UICONTROL Generator]</strong>，從您提供的範例資料中決定資料行。</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
           <span class="autonumber"><span><b>範例： </b></span></span> 
           <p>例如，以下JSON範例資料會建立三欄：名稱、年齡和電話號碼。 電話號碼是行動電話和有線電話的集合。</p> 
@@ -180,7 +180,7 @@ Select或Prime封裝上的Fusion執行個體會接收:-->
        </ul> </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL嚴格] </td> 
+      <td>[!UICONTROL 嚴格] </td> 
       <td> <p>啟用此選項以確保承載符合資料結構。 包含資料結構中未指定之額外專案的裝載會被拒絕。</p> </td> 
      </tr> 
     </tbody> 

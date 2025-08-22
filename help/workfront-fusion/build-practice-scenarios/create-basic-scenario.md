@@ -36,7 +36,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -49,7 +49,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -130,7 +130,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 
 ## 新增並設定第二個模組
 
-1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]****。
+1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]&#x200B;**&#x200B;**。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 轉換物件]**。
 1. 在「[!UICONTROL 連線]」欄位中，選取您在上一個模組中使用的相同Workfront連線。
 1. 在&#x200B;**[!UICONTROL 記錄型別]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL 問題]**，因為模組將會轉換問題。

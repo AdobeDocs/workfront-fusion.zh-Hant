@@ -38,7 +38,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -51,7 +51,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -74,7 +74,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 ### 將更新記錄模組新增至您的情境
 
 1. 在案例編輯器中開啟案例。
-1. 將滑鼠停留在第二個模組右邊的部分圓圈上，然後按一下[新增其他模組] ****。
+1. 將滑鼠停留在第二個模組右邊的部分圓圈上，然後按一下[新增其他模組] **&#x200B;**。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 更新記錄]**。
 1. 在ID欄位中，選取「轉換物件模組」下的ID區塊。 這是該模組輸出的專案ID。
 

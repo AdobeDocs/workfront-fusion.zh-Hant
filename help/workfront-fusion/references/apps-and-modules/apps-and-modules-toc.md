@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: f169b9d918d42bbecd885aeec1505bd41088907b
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 * [SOAP 模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/soap-module.md)
 * [FTP模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/ftp-modules.md)
 * [sftp模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/sftp.md)
-* [在 [!DNL Adobe Workfront Fusion]的HTTP模組中使用雙向TLS](/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md)
+* [在Adobe Workfront Fusion的HTTP模組中使用雙向TLS](/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md)
 
 ## Adobe產品聯結器
 

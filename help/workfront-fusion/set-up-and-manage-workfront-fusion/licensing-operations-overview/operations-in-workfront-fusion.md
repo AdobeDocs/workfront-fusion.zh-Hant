@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion中的作業是由模組執行的任務。 �
 author: Becky
 feature: Workfront Fusion
 exl-id: c14e2bb2-1cce-48ff-8bea-acc9829d3cf2
-source-git-commit: 3470f7a9658ac4e6214c27f94f5b41821f2f8665
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 0%
+source-wordcount: '355'
+ht-degree: 1%
 
 ---
 
@@ -29,9 +29,9 @@ Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目
 
 ## 作業限制
 
-貴組織可能有每月營運限制。 這是根據貴組織購買的[!DNL Workfront]計畫。 [!UICONTROL Ultimate] [!DNL Workfront]計畫提供無限制的作業。
+貴組織可能有每月營運限制。 這是根據貴組織購買的Workfront計畫。 [!UICONTROL Ultimate] Workfront計畫提供無限制的作業。
 
-如果您的組織設有每月上限，當您的組織接近上限時，您會收到通知。 如果貴組織超過限制，[!DNL Workfront]將會連絡貴組織，以確保您的計畫符合您的需求。
+如果您的組織設有每月上限，當您的組織接近上限時，您會收到通知。 如果貴組織超過限制，Workfront會聯絡貴組織，確保您的計畫符合需求。
 
 當您的組織達到組織每月限制的以下百分比時，Workfront Fusion會傳送通知：
 

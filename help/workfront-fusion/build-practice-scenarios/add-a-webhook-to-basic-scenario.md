@@ -7,10 +7,10 @@ description: Webhook （也稱為即時觸發器）是一種特定的觸發器�
 author: Becky
 feature: Workfront Fusion
 exl-id: 28ecca1f-a9c3-4b3d-95f5-73cb9a5dc4b9
-source-git-commit: 3ba5d67806e0d495bd4a91589d06cfb9adb25c0c
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 0%
 
 ---
 
@@ -26,42 +26,32 @@ Webhook （也稱為即時觸發器）是一種特定的觸發器模組，可以
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何包含Workfront自動化和整合的套件</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無[!DNL Workfront Fusion]授權需求。</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
+   <p>不需要Workfront Fusion授權。</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
+   <p>您必須擁有帳戶才能使用Workfront Fusion連線至任何應用程式或服務。</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -85,7 +75,7 @@ Webhook （也稱為即時觸發器）是一種特定的觸發器模組，可以
 1. 在[記錄型別]欄位中，選取&#x200B;**問題**，模組就會觸發問題的變更。
 1. 在「狀態」欄位中，選取&#x200B;**新狀態**。 這是用於篩選的必填欄位，此範例未涵蓋此欄位。
 1. 在「記錄來源」欄位中，選取&#x200B;**僅新增記錄**。 這可讓情境在新增問題時觸發，而不是在更新或刪除問題時觸發。
-1. 按一下[儲存]儲存模組組態。**&#x200B;**
+1. 按一下[儲存]儲存模組組態。****
 
 ## 更新第二個模組
 
@@ -93,13 +83,13 @@ Webhook （也稱為即時觸發器）是一種特定的觸發器模組，可以
 1. 按一下&#x200B;**轉換物件**&#x200B;模組以開啟。
 1. 在「問題ID」欄位中，刪除黑色ID區塊。 區塊為黑色，因為其對應來源模組已無法使用。
 1. 在第一個模組（觀看事件）下方選取ID區塊，將其對應至第二個模組。
-1. 按一下&#x200B;**確定**。
+1. 按一下&#x200B;**「確定」**。
 
 
 
 ### 測試並啟動
 
-1. 按一下案例編輯器左下角的&#x200B;**[!UICONTROL Run once]**。
+1. 按一下案例編輯器左下角的&#x200B;**[!UICONTROL 執行一次]**。
 
    案例必須執行中，才能監視新請求。
 1. 前往Fusion所連線的Workfront環境並新增問題。
@@ -109,4 +99,4 @@ Webhook （也稱為即時觸發器）是一種特定的觸發器模組，可以
 1. 當您滿意情境如預期般運作時，請按一下畫面左下角的&#x200B;**排程**&#x200B;切換開關至&#x200B;**開啟**。
 
    這會啟用情境。
-1. 在[!DNL Workfront Fusion]中，按一下左下角附近的&#x200B;**[!UICONTROL Save]**，以儲存您的情境進度。
+1. 在Workfront Fusion中，按一下左下角附近的&#x200B;**[!UICONTROL 儲存]**，以儲存情境的進度。

@@ -4,9 +4,9 @@ description: 依照此一般工作流程建立情境
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-source-git-commit: 394f80a2d7c124bbd00e1a5b51ad3dc6e73a996b
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -34,18 +34,18 @@ ht-degree: 0%
 
 ## 建立情境並為其命名
 
-1. 登入您的[!DNL Workfront Fusion]帳戶。
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]** ![案例圖示](assets/scenarios-icon.png)。
+1. 登入您的Workfront Fusion帳戶。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]** ![案例圖示](assets/scenarios-icon.png)。
 
    >[!NOTE]
    >
    >如果您沒有看到左側導覽面板或其圖示，請按一下功能表![功能表](assets/main-menu-icon-left-nav.png)圖示。
 
-1. （選擇性）在&#x200B;[!UICONTROL **資料夾**]&#x200B;面板中，按一下&#x200B;**[!UICONTROL Add folder]**&#x200B;圖示![新增資料夾圖示](assets/add-folder-icon.png)，然後為您的第一個資料夾輸入類似於「實務案例」的名稱。
+1. （選擇性）在&#x200B;[!UICONTROL **資料夾**]&#x200B;面板中，按一下&#x200B;**[!UICONTROL 新增資料夾]**&#x200B;圖示![新增資料夾圖示](assets/add-folder-icon.png)，然後為您的第一個資料夾輸入類似「實務案例」的名稱。
 
-1. （選擇性）開啟資料夾，然後按一下頁面右上角的&#x200B;**[!UICONTROL Create a new scenario]**。
+1. （選擇性）開啟資料夾，然後按一下頁面右上角的&#x200B;**[!UICONTROL 建立新案例]**。
 
-1. 選取左上角的&#x200B;**[!UICONTROL New scenario]**&#x200B;預留位置名稱，然後輸入名稱，例如「Practice scenario 1」。
+1. 選取左上角的&#x200B;**[!UICONTROL 新案例]**&#x200B;預留位置名稱，然後輸入名稱，例如「實務案例1」。
 
    ![為案例命名](assets/name-the-scenario.png)
 
@@ -101,13 +101,13 @@ ht-degree: 0%
 
 測試情境可讓您判斷情境是否如預期般運作。 然後，您可以根據結果修訂情境，然後重新測試。
 
-1. 按一下案例編輯器左下角的&#x200B;**[!UICONTROL Run once]**。
+1. 按一下案例編輯器左下角的&#x200B;**[!UICONTROL 執行一次]**。
 1. 在案例執行完畢後，按一下每個模組上方的執行檢測器泡泡，以檢視資訊的輸入和該模組的輸出。
 
    * 如需讀取案例執行資訊的一般資訊，請參閱[案例執行流程](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md)。
-   * 如需已處理組合的相關資訊，請參閱[案例執行、週期以及 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md)中的階段。
+   * 如需已處理組合的相關資訊，請參閱[Adobe Workfront Fusion中的案例執行、週期和階段](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md)。
 
-1. 在[!DNL Workfront Fusion]中，按一下左下角附近的&#x200B;**[!UICONTROL Save]** ![儲存圖示](assets/save-icon.png)，以儲存您的情境進度。
+1. 在Workfront Fusion中，按一下左下角附近的&#x200B;**[!UICONTROL 儲存]** ![儲存圖示](assets/save-icon.png)以儲存情境的進度。
 
    >[!IMPORTANT]
    >
@@ -138,32 +138,32 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Save] </td> 
+   <td role="rowheader">[！UICONTROL儲存] </td> 
    <td>Ctrl+Shift+S</td> 
    <td>Cmd+Shift+S</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Run Once]</td> 
+   <td role="rowheader">[！UICONTROL執行一次]</td> 
    <td>Ctrl+Shift+Enter</td> 
    <td>Cmd+Shift+Enter</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Open the DevTool]</td> 
+   <td role="rowheader">[！UICONTROL開啟開發工具]</td> 
    <td>F12</td> 
    <td>Ctrl+Fn+F12</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select multiple modules]</td> 
+   <td role="rowheader">[！UICONTROL選取多個模組]</td> 
    <td>Shift+拖曳</td> 
    <td>Shift+拖曳</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Copy]</td> 
+   <td role="rowheader">[！UICONTROL副本]</td> 
    <td>Ctrl+C</td> 
    <td>Cmd+C</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Paste]</td> 
+   <td role="rowheader">[！UICONTROL貼上]</td> 
    <td>Ctrl+V</td> 
    <td>Cmd+V</span> </td> 
   </tr> 

@@ -4,9 +4,9 @@ description: 對應是將模組的輸出（結構化為專案）指派給其他�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e3f7729-f48e-451e-a90b-d680c9e3bcbc
-source-git-commit: 55fe4bc46bc50ad9ccfd1b234e89028cf3cd12d5
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -48,17 +48,17 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 若要將輸出專案指派給模組的輸入欄位：
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要對應資料的情境。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 按一下應處理先前一個或多個模組輸出的模組。
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 #### 即時觸發
 
-1. 以滑鼠右鍵按一下模組，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL Run this module only]**。
+1. 在模組上按一下滑鼠右鍵，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL 僅執行此模組]**。
 
    因為這是立即的觸發程式，所以會開始監視事件。
 
@@ -114,8 +114,8 @@ ht-degree: 0%
 
 #### 輪詢觸發程式
 
-1. 以滑鼠右鍵按一下模組，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL Run this module only]**。
-1. 如果沒有輸出，請按一下&#x200B;**[!UICONTROL Choose where to start]**&#x200B;並調整設定。
+1. 在模組上按一下滑鼠右鍵，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL 僅執行此模組]**。
+1. 如果沒有輸出，請按一下&#x200B;**[!UICONTROL 選擇開始位置]**&#x200B;並調整設定。
 1. （視條件而定）如果沒有要處理的事件，請建立模組要監視的事件，並重複步驟2。
 
    例如，如果模組是監視任務指派的Workfront >觀看記錄模組，請登入Workfront （以不是Fusion連線使用的使用者身分）並指派任務，然後再次執行模組。
@@ -133,8 +133,8 @@ ht-degree: 0%
 
 若要執行單一模組：
 
-1. 以滑鼠右鍵按一下模組，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL Run this module only]**。
-1. 提供輸入專案的範例值，然後按一下&#x200B;**[!UICONTROL OK]** 。
+1. 在模組上按一下滑鼠右鍵，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL [僅執行此模組]]**。
+1. 提供輸入專案的範例值，然後按一下&#x200B;**[!UICONTROL 確定]** 。
 1. 當模組完成執行時，按一下模組上方的泡泡圖示，以探索其完整輸出。
 
    後續模組的對應面板現在包含模組輸出中的所有專案。

@@ -4,20 +4,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe儲存模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以在Adobe Admin Console中建立和管理專案。
+description: 在Adobe Workfront Fusion情境中，您可以在Adobe Admin Console中建立和管理專案。
 author: Becky
 feature: Workfront Fusion
 exl-id: 78ee905f-4713-44a4-bffb-c64cdb3665c2
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 2%
+source-wordcount: '1400'
+ht-degree: 3%
 
 ---
 
 # Adobe儲存模組
 
-在[!DNL Adobe Workfront Fusion]案例中，您可以在Adobe Admin Console中建立和管理專案。
+在Adobe Workfront Fusion情境中，您可以在Adobe Admin Console中建立和管理專案。
 
 如果您需要建立案例的指示，請參閱[建立案例：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
@@ -52,7 +52,7 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -60,9 +60,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -77,9 +77,9 @@ ht-degree: 2%
 1. 在Adobe Developer Console中開啟您的專案。
 1. 按一下&#x200B;**新增至專案**，然後選取&#x200B;**API**。
 1. 從可用API清單中，選取&#x200B;**Adobe Cloud Platform和Collaboration API**。
-1. 在[選取驗證型別]畫面上，選取&#x200B;**OAuth伺服器對伺服器**，然後按一下[下一步]&#x200B;**&#x200B;**。
+1. 在[選取驗證型別]畫面上，選取&#x200B;**OAuth伺服器對伺服器**，然後按一下[下一步]****。
 1. 新增憑證的名稱。
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存設定的API]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存設定的API]****。
 1. 記下提供的憑證，這些憑證將在Workfront Fusion中設定連線時使用。
 1. 繼續[將您的技術帳戶設為Adobe Admin Console的管理員](#make-your-technical-account-an-admin-in-the-adobe-admin-console)。
 
@@ -96,7 +96,7 @@ ht-degree: 2%
 
 1. 選取使用者清單上方的&#x200B;**管理員**&#x200B;索引標籤。
 1. 選取&#x200B;**新增管理員**。
-1. 在[新增產品設定檔管理員]方塊中，輸入技術帳戶的電子郵件地址，然後選取[儲存]。**&#x200B;**
+1. 在[新增產品設定檔管理員]方塊中，輸入技術帳戶的電子郵件地址，然後選取[儲存]。****
 
    技術帳戶會成為管理員。
 
@@ -117,24 +117,24 @@ ht-degree: 2%
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL 連線型別]</td>
-        <td>選取<code>Server to server</code>。</td>
+        <td role="rowheader">[！UICONTROL連線型別]</td>
+        <td>選擇「<code>Server to server</code>」。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 連線名稱]</td>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
-        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
-        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL 使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL 認證詳細資料]區段中找到此專案。</td>
+        <td role="rowheader">[！UICONTROL使用者端ID]</td>
+        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
-        <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL 認證詳細資料]區段中找到此專案。</td>
+        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL IMS組織識別碼]</td>
+        <td role="rowheader">[！UICONTROL IMS組織識別碼]</td>
         <td>輸入或對應您的Adobe IMS組織ID。 這是格式為<code> 123abc@AdobeOrg</code>的字串，其中@之前的區段是十六進位數字。 您可以在Adobe Admin Console中，或在Adobe.IO主控台中，將此值視為您組織的URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
       </tbody>
@@ -256,7 +256,7 @@ ht-degree: 2%
    <td>輸入或對應您要邀請加入商店之使用者的電子郵件地址。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">資產ID</td> 
+   <td role="rowheader">資產 ID</td> 
    <td>輸入或對應您要邀請使用者加入的資產ID。</td> 
   </tr> 
   <tr> 
@@ -343,7 +343,7 @@ ht-degree: 2%
       <td>
         <p>以標準JSON物件的形式新增請求的標頭。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] 自動新增授權標頭和x-api-key標頭。</p>
+        <p>Workfront Fusion會自動新增授權標題和x-api-key標題。</p>
       </td>
     </tr>
     <tr>

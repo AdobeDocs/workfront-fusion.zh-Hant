@@ -5,9 +5,9 @@ description: 您可以在「情境設定」面板中設定情境的特定設定�
 author: Becky
 feature: Workfront Fusion
 exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
-source-git-commit: 273a07a28563a0eb3a3446937964e8dcef8a68d3
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1326'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,17 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td> 
+   <td role="rowheader">Adobe Workfront計畫</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -45,16 +45,16 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[!UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
+   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
    <td> 
-     <p>您必須是組織的[!DNL Workfront Fusion]管理員。</p>
-     <p>您必須是團隊的[!DNL Workfront Fusion]管理員。</p>
+     <p>您必須是組織的Workfront Fusion管理員。</p>
+     <p>您必須是團隊的Workfront Fusion管理員。</p>
    </td> 
   </tr> 
    </td> 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -119,15 +119,15 @@ ht-degree: 0%
 
 ### [!UICONTROL 允許儲存未完成的執行]
 
-此選項決定在執行案例期間發生錯誤時，[!DNL Adobe Workfront Fusion]如何進行。 啟用此選項後，情境會暫停並移至不完整的執行資料夾。 這可讓您修正問題，並從情景停止的地方繼續執行。 如果停用此選項，案例執行會停止並開始倒回階段。
+此選項可決定Adobe Workfront Fusion在執行案例期間發生錯誤時的執行方式。 啟用此選項後，情境會暫停並移至不完整的執行資料夾。 這可讓您修正問題，並從情景停止的地方繼續執行。 如果停用此選項，案例執行會停止並開始倒回階段。
 
 如需不完整執行的詳細資訊，請參閱[檢視並解決不完整的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)。
 
 ### 啟用資料遺失
 
-此選項與啟用資料遺失有關，如果[!DNL Workfront Fusion]無法將套件儲存到未完成執行的佇列（例如，由於缺少可用空間）。 啟用此選項後，資料會遺失，以防止整體案例執行中斷。 當最高優先順序為連續執行，而傳入的錯誤資料並非很重要時，這個用法很有用。
+此選項與在Workfront Fusion無法將套件儲存至未完成執行佇列（例如，由於缺少可用空間）時啟用資料遺失有關。 啟用此選項後，資料會遺失，以防止整體案例執行中斷。 當最高優先順序為連續執行，而傳入的錯誤資料並非很重要時，這個用法很有用。
 
-除此之外，在執行案例時，模組有時可能會遇到大於最大允許大小的檔案。 在此情況下，[!DNL Workfront Fusion]會根據[!UICONTROL 啟用資料遺失]選項的設定進行，並顯示警告訊息。
+除此之外，在執行案例時，模組有時可能會遇到大於最大允許大小的檔案。 在此情況下，Workfront Fusion會根據[!UICONTROL 啟用資料遺失]選項的設定進行，並顯示警告訊息。
 
 如需不完整執行的詳細資訊，請參閱[檢視並解決不完整的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)。
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**範例：** [!DNL Workfront] > [!UICONTROL 觀看記錄]觀看新問題的出現，以及[!DNL Workfront] >[!UICONTROL 轉換物件]將新要求轉換為專案並指派適當的範本。
+**範例：** Workfront > [!UICONTROL 觀看記錄]觀看新問題，而Workfront >[!UICONTROL 轉換物件]會將新要求轉換為專案，並指派適當的範本。
 
 ![案例設定](assets/scenario-settings-ex-1-350x157.png)
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 ![最大週期數](assets/max-number-cycles-1-350x201.png)
 
 Workfront >監看記錄模組中的最大週期數設為`10`。
-如果向[!DNL Workfront]提交100個請求，且「最大循環數」欄位設為10，則在執行一個案例後仍有90個檔案未處理。 接下來10個檔案會在下一個排程案例執行中處理。
+如果向Workfront提交100個請求，且「最大週期數」欄位設為10，則在執行一個案例後會有90個檔案未處理。 接下來10個檔案會在下一個排程案例執行中處理。
 
 #### 最大循環數設為10
 

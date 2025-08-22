@@ -1,19 +1,19 @@
 ---
 title: 建立連線
-description: 連線必須符合其所連線之應用程式或Web服務的API所設定的需求。 因此，設定連線的指示會因應用程式或Web服務而異。 本文可協助您識別並找出連線 [!DNL Adobe Workfront Fusion] 至您所選應用程式或Web服務的指示。
+description: 連線必須符合其所連線之應用程式或Web服務的API所設定的需求。 因此，設定連線的指示會因應用程式或Web服務而異。 本文可協助您識別並找出將Adobe Workfront Fusion連線至您所選應用程式或Web服務的指示。
 author: Becky
 feature: Workfront Fusion
 exl-id: 281403a6-6f88-4976-8a10-1d0848ef9b35
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
 # 建立連線
 
-連線必須符合其所連線之應用程式或Web服務的API所設定的需求。 因此，設定連線的指示會因應用程式或Web服務而異。 本文可協助您識別並找出將[!DNL Adobe Workfront Fusion]連線至您所選應用程式或Web服務的指示。
+連線必須符合其所連線之應用程式或Web服務的API所設定的需求。 因此，設定連線的指示會因應用程式或Web服務而異。 本文可協助您識別並找出將Adobe Workfront Fusion連線至您所選應用程式或Web服務的指示。
 
 ## 存取需求
 
@@ -44,7 +44,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -52,7 +52,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
 如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 連線到不需要設定的應用程式或Web服務
 
-在大多數情況下，您可以使用模組來建立連線，幾乎沒有或完全沒有額外資訊。 [!DNL Workfront Fusion]會自動處理驗證。
+在大多數情況下，您可以使用模組來建立連線，幾乎沒有或完全沒有額外資訊。 Workfront Fusion會自動處理驗證。
 
 如需建立連線的說明，不需特別考量，請參閱[建立連線 — 基本說明](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)。
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 連線至[!DNL Microsoft]應用程式或Web服務
 
-[!DNL Workfront Fusion]中的大部分[!DNL Microsoft]應用程式可讓您建立連線，而不需要額外的資訊。
+Workfront Fusion中的大部分[!DNL Microsoft]應用程式都可讓您建立連線，而不需要額外的資訊。
 
 下列情況需要建立連線的額外步驟：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## 連線至[!DNL Google]應用程式或Web服務
 
-連線至[!DNL Google]應用程式的程式可能會因您使用的[!DNL Google]帳戶型別而有所不同。 此外，當您連線到[!DNL Workfront Fusion]時，[!DNL Google]安全性措施可能需要額外的設定。
+連線至[!DNL Google]應用程式的程式可能會因您使用的[!DNL Google]帳戶型別而有所不同。 此外，當您連線到Workfront Fusion時，[!DNL Google]安全性措施可能需要額外的設定。
 
 如需詳細資訊，請參閱：
 
@@ -97,6 +97,6 @@ ht-degree: 0%
 
 ## 需要其他設定的其他應用程式
 
-有些App和服務未遵循[!DNL Workfront Fusion]連線的基本設定。 您可以在文章中找到針對該應用程式連線這些應用程式的指示。
+部分應用程式和服務未遵循Workfront Fusion連線的基本設定。 您可以在文章中找到針對該應用程式連線這些應用程式的指示。
 
 如需具體說明，請參閱聯結器的[文章](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#connectors-for-third-party-applications)。

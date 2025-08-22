@@ -1,37 +1,37 @@
 ---
 title: Fusion效能護欄
-description: 工作自動化需要快速處理，因此 [!DNL Adobe Workfront Fusion] 是專為高效能所設計。 因為長期執行情境會減慢工作速度，我們設計了 [!DNL Workfront Fusion] 保護效能的護欄，可限制執行時間、資料大小和其他情境引數。 [!DNL Workfront Fusion] 設計人員應該注意這些護欄，並將它們納入其設計實務中。
+description: 工作自動化需要快速的處理，因此Adobe Workfront Fusion的設計目標是提供高效能。 由於長期執行情境可能會拖慢您工作的速度，因此我們設計了Workfront Fusion，搭配可保留效能的護欄，以限制執行時間、資料大小和其他情境引數。 Workfront Fusion設計人員應該注意這些護欄，並將它們納入其設計實務中。
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: e036784fbf241c6d528f2020b7c368249e4f2133
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
 
 # Fusion效能護欄
 
-工作自動化需要快速處理，因此[!DNL Adobe Workfront Fusion]是專為高效能所設計。 由於長期執行情境可能會減慢您工作的速度，因此我們已設計[!DNL Workfront Fusion]搭配保留效能的護欄，以限制執行時間、資料大小和其他情境引數。 [!DNL Workfront Fusion]設計人員應該注意這些護欄，並將它們納入其設計實務中。
+工作自動化需要快速的處理，因此Adobe Workfront Fusion的設計目標是提供高效能。 由於長期執行情境可能會拖慢您工作的速度，因此我們設計了Workfront Fusion，搭配可保留效能的護欄，以限制執行時間、資料大小和其他情境引數。 Workfront Fusion設計人員應該注意這些護欄，並將它們納入其設計實務中。
 
 ## 瀏覽器
 
 * Workfront Fusion僅支援Chrome瀏覽器。
 
-## 情境
+## 方案
 
-* 預設案例執行逾時為&#x200B;**40分鐘**。 當執行達到此逾時時，[!DNL Workfront Fusion]會在下一個週期或作業之後中斷案例執行，視案例而定。 這會在達到40分鐘限制後不久強制停止情境
+* 預設案例執行逾時為&#x200B;**40分鐘**。 當執行達到此逾時時，Workfront Fusion會在下一個週期或作業之後中斷案例執行，視案例而定。 這會在達到40分鐘限制後不久強制停止情境
 
   鏈結案例不會計入案例執行逾時。 等待子案例執行時，父案例不會累積時間。
 * 情境藍圖的大小上限為&#x200B;**5 MB**，但建議將情境大小維持在&#x200B;**3 MB**&#x200B;以下。
 
   使用大量欄位建立或更新資料的應用程式模組可能會產生非常大的藍圖。
 
-   * 使用[!DNL Workfront]應用程式時，請確定僅選取建立或更新使用案例所需的欄位。
+   * 使用Workfront應用程式時，請務必僅選取建立或更新使用案例所需的欄位。
    * 使用其他應用程式時，請使用自訂API模組與任何具有大量欄位的記錄型別互動。
 
-* 雖然案例中的模組數量沒有上限，但超過150個模組的案例會對您的[!DNL Workfront Fusion]系統效能產生負面影響。 因此，我們不建議建立超過150個模組的情境。
+* 雖然案例中的模組數量沒有上限，但超過150個模組的案例會對您的Workfront Fusion系統效能產生負面影響。 因此，我們不建議建立超過150個模組的情境。
 
 ## 營運
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 * 承載的預設大小上限為&#x200B;**5 MB**。
 * Webhook限製為每秒&#x200B;**100個要求**。 達到此限制時，Workfront Fusion會傳送429 （[!UICONTROL 太多請求]）狀態。
-* [!DNL Workfront Fusion]儲存webhook裝載30天。 在收到webhook裝載超過30天後存取該裝載會導致錯誤&quot;[!UICONTROL 無法從儲存體讀取檔案。]&quot;
+* Workfront Fusion會儲存webhook裝載30天。 在收到webhook裝載超過30天後存取該裝載會導致錯誤&quot;[!UICONTROL 無法從儲存體讀取檔案。]&quot;
 * 如果符合下列任一條件，Webhook就會自動停用：
 
    * webhook已超過5天未連線至任何案例

@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion目前提供下列公用範本。
 author: Becky
 feature: Workfront Fusion
 exl-id: b14bed4d-3503-42cf-a8c3-618d3b2448b4
-source-git-commit: d504b5ebd649953395f804d7349f3c5a281eef68
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本會自動化Workfront流程和工作流程。
 
-### [!BADGE 新增！ &#x200B;]{type=Informative} Workfront — 當任務提早完成時，自動調整專案時間表
+### [!BADGE 新增！ ]{type=Informative} Workfront — 當任務提早完成時，自動調整專案時間表
 
 <!--New June 10, 2025-->
 
@@ -33,13 +33,13 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 此Fusion範本可自動化該程式。 當任務提早完成時，所有相依（後續）任務都會自動重新排程，以更早開始，協助您的團隊更快行動並保持敏捷。
 
-### [!BADGE 新增！ &#x200B;]{type=Informative} HTTP>CSV>WF — 依網域和層級建立事件子清單並匯出至CSV
+### [!BADGE 新增！ ]{type=Informative} HTTP>CSV>WF — 依網域和層級建立事件子清單並匯出至CSV
 
 下載事件訂閱資訊、建立CSV檔案，並將檔案上傳至Workfront。
 
 <!--New August 8, 2025-->
 
-### [!BADGE 新增！ &#x200B;]{type=Informative}個Workfront面板 — 從指定欄刪除已封存的卡片（隨選）
+### [!BADGE 新增！ ]{type=Informative}個Workfront面板 — 從指定欄刪除已封存的卡片（隨選）
 
 <!--New March 12, 2025-->
 
@@ -117,7 +117,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本可自動化結合Workfront與Workfront Proof的工作流程。
 
-### [!BADGE 新增！ &#x200B;]{type=Informative} Workfront > Workfront Proof — 將校訂使用者角色變更為唯讀並在專案關閉時鎖定校訂
+### [!BADGE 新增！ ]{type=Informative} Workfront > Workfront Proof — 將校訂使用者角色變更為唯讀並在專案關閉時鎖定校訂
 
 <!--New March 12, 2025-->
 
@@ -184,7 +184,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本支援Workfront-Anaplan整合，並且預期Workfront中的Anaplan會有特定設定。 如需這些範本及其所需設定的詳細資訊，請參閱各範本的相關文章。
 
-如需Workfront-Anaplan整合的詳細資訊，請參閱Workfront檔案中的[Adobe Workfront與Anaplan](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration)。
+如需Workfront-Anaplan整合的詳細資訊，請參閱Workfront檔案中的[Adobe Workfront與Anaplan](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration)。
 
 >[!NOTE]
 >
@@ -192,19 +192,19 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 ### 支出最佳化工作流程
 
-* [傳送 [!DNL Adobe Workfront] 專案更新至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
-* [傳送 [!DNL Adobe Workfront] 費用給 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
-* [傳送 [!DNL Adobe Workfront] 實際時數更新至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
+* [傳送Adobe Workfront專案更新至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
+* [將Adobe Workfront費用傳送至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
+* [將Adobe Workfront實際時數更新傳送至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
 
 ### 連結預算請求的工作流程
 
-* [從 [!DNL Anaplan] 預算請求 [!DNL Adobe Workfront] 建立](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)清單專案
-* [套用 [!DNL Anaplan] 預算配置至 [!DNL Adobe Workfront] 專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects)
+* [從Adobe Workfront預算請求建立 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
+* [套用 [!DNL Anaplan] 預算配置至Adobe Workfront專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects)
 
 ### 連結行銷活動請求的工作流程
 
-* [從 [!DNL Anaplan] 行銷活動要求 [!DNL Adobe Workfront] 建立](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)清單專案
-* [將 [!DNL Anaplan] 預算配置套用至 [!DNL Adobe Workfront] 行銷活動請求或行銷活動專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
+* [從Adobe Workfront行銷活動請求建立 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
+* [套用 [!DNL Anaplan] 預算配置至Adobe Workfront行銷活動請求或行銷活動專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
 
 
 <!--[!BADGE New!]{type=Informative} -->

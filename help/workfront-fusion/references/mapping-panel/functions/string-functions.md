@@ -4,16 +4,16 @@ description: Adobe Workfront Fusion對應面板中有以下字串函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: d3e49fce-85bc-4ee6-9a94-497a306e0c74
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 0%
+source-wordcount: '619'
+ht-degree: 4%
 
 ---
 
 # 字串函式
 
-## [!UICONTROL length (text or buffer)]
+## [!UICONTROL 長度（文字或緩衝區）]
 
 傳回文字字串長度（字元數）或二進位緩衝區（緩衝區大小，以位元組為單位）。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL lower (text)]
+## [!UICONTROL 小寫（文字）]
 
 將文字字串中的所有字母字元轉換為小寫。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL capitalize (text)]
+## [!UICONTROL 大寫（文字）]
 
 將文字字串中的第一個字元轉換為大寫。
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 `capitalize( workfront )`
 
-傳回： [!DNL Workfront]
+傳回： Workfront
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL startcase (text)]
+## [!UICONTROL startcase （文字）]
 
 每個字的第一個字母使用大寫，其他字母則使用小寫。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL ascii (text; [remove diacritics])]
+## [!UICONTROL ascii （文字；[移除變音符號]）]
 
 移除文字字串中的所有非ascii字元。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 * `ascii(` `Wěošrčkřfžrýoáníté` `)`
 
-傳回： [!DNL Workfront]
+傳回： Workfront
 
 * `ascii(` `ěščřž` `;` `true` `)`
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL replace (text;search string; replacement string)]
+## [!UICONTROL 取代（文字；搜尋字串；取代字串）]
 
 以新字串取代搜尋字串。
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 **範例：**
 
-![取代](assets/replace---1-350x31.png)
+![Replace](assets/replace---1-350x31.png)
 
 所有這些數字X X X X X都會以X取代
 
@@ -138,11 +138,11 @@ ht-degree: 0%
 
 如需規則運算式的詳細資訊，請參閱[文字剖析器](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md)。
 
-## [!UICONTROL trim (text)]
+## [!UICONTROL 修剪（文字）]
 
 移除文字開頭或結尾的空格字元。
 
-## [!UICONTROL upper (text)]
+## [!UICONTROL upper （文字）]
 
 將文字字串中的所有字母字元轉換為大寫。
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL substring (text; start;end)]
+## [!UICONTROL 子字串（文字；開始；結束）]
 
 傳回「開始」位置和「結束」位置之間的文字字串部分。
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL toBinary (value)]
+## [!UICONTROL toBinary （值）]
 
 將任何值轉換為二進位資料。
 
@@ -216,15 +216,15 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL toString (value)]
+## [!UICONTROL toString （值）]
 
 將任何值轉換為字串。
 
-## [!UICONTROL encodeURL (text)]
+## [!UICONTROL encodeURL （文字）]
 
 將部分文字中的特殊字元編碼為有效的URL位址。
 
-## [!UICONTROL decodeURL (text)]
+## [!UICONTROL decodeURL （文字）]
 
 將URL中的特殊字元解碼為文字。
 
@@ -233,11 +233,11 @@ ht-degree: 0%
 **範例：**
 `decodeURL( Automate%20your%20workflow )`
 
-傳回： [!UICONTROL Automate your workflow]
+傳回： [!UICONTROL 自動化您的工作流程]
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL escapeHTML (text)]
+## [!UICONTROL escapeHTML （文字）]
 
 逸出文字中的所有HTML標籤。
 
@@ -247,11 +247,11 @@ ht-degree: 0%
 
 `escapeHTML( <b>Hello</b> )`
 
-傳回： `&lt;b&gt;Hello&lt;/b&gt;`
+傳回：`&lt;b&gt;Hello&lt;/b&gt;`
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL escapeMarkdown(text)]
+## [!UICONTROL escapeMarkdown（文字）]
 
 逸出文字中的所有Markdown標籤。
 
@@ -261,11 +261,11 @@ ht-degree: 0%
 
 `escapeMarkdown( # Header )`
 
-傳回： `&#35; Header`
+傳回：`&#35; Header`
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL stripHTML (text)]
+## [!UICONTROL stripHTML （文字）]
 
 從文字中移除所有HTML標籤。
 
@@ -297,7 +297,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL split (text; separator)]
+## [!UICONTROL 分割（文字；分隔符號）]
 
 將字串分割為子字串，將字串分割為字串陣列。
 
@@ -309,7 +309,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL md5 (text)]
+## [!UICONTROL md5 （文字）]
 
 計算字串的md5雜湊。
 
@@ -319,11 +319,11 @@ ht-degree: 0%
 
 `md5( Workfront )`
 
-傳回： `1448bbbeaa7a9b8091d426999f1f666b`
+傳回：`1448bbbeaa7a9b8091d426999f1f666b`
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL sha1 (text; [encoding]; [key])]
+## [!UICONTROL sha1 （文字；[編碼]；[金鑰]）]
 
 計算字串的sha1雜湊。 如果指定機碼引數，則會傳回sha1 HMAC雜湊。 支援的編碼：「十六進位」（預設）、「base64」或「latin1」。
 
@@ -337,7 +337,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL sha256 (text; [encoding]; [key])]
+## [!UICONTROL sha256 （文字；[編碼]；[金鑰]）]
 
 計算字串的sha256雜湊。 如果指定機碼引數，則會傳回sha256 HMAC雜湊。 支援的編碼：「十六進位」（預設）、「base64」或「latin1」。>
 
@@ -351,23 +351,23 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL sha512 (text; [output encoding]; [key]; [key encoding])]
+## [!UICONTROL sha512 （文字；[輸出編碼]；[金鑰]；[金鑰編碼]）]
 
 計算字串的sha512雜湊。 如果指定機碼引數，則會傳回sha512 HMAC雜湊。
 
 支援的編碼：
 
-* &quot;[!UICONTROL hex]&quot; （預設）
-* &quot;[!UICONTROL base64]&quot;
-* &quot;[!UICONTROL latin1]&quot;
+* &quot;[!UICONTROL 十六進位]&quot; （預設）
+* [!UICONTROL base64]
+* [!UICONTROL latin1]
 
 支援的關鍵編碼：
 
-* &quot;[!UICONTROL text]&quot; （預設）
-* &quot;[!UICONTROL hex]&quot;
-* &quot;[!UICONTROL base64]&quot;或&quot;[!UICONTROL binary]&quot;
+* &quot;[!UICONTROL 文字]&quot; （預設）
+* [!UICONTROL 十六進位]
+* [!UICONTROL base64]」或[!UICONTROL 二進位]
 
-使用&quot;[!UICONTROL binary]&quot;金鑰編碼時，金鑰必須是緩衝區，而非字串。
+使用&quot;[!UICONTROL 二進位]&quot;金鑰編碼時，金鑰必須是緩衝區，而非字串。
 
 >[!BEGINSHADEBOX]
 
@@ -379,7 +379,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## [!UICONTROL base64 (text)]
+## [!UICONTROL base64 （文字）]
 
 將文字轉換為base64。
 

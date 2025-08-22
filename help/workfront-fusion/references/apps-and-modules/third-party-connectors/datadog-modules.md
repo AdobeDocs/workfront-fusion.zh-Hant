@@ -1,19 +1,19 @@
 ---
 title: Datadog模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行使用Datadog的工作流程，並將其連線到多個協力廠商應用程式和服務。
+description: 在Adobe Workfront Fusion案例中，您可以自動化使用Datadog的工作流程，並將其連結到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: c8c5f2e3-5af1-4957-bb6f-6c19c35102c5
-source-git-commit: 8a4e54a4c1783e4bc679778c6fcf21dcb4d3d537
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
 
 # [!DNL Datadog]模組
 
-在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Datadog]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Datadog]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
 如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -56,9 +56,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -81,11 +81,11 @@ Datadog聯結器會使用下列專案：
  </tbody> 
  </table>
 
-## 將[!DNL Datadog]連線至[!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
+## 將[!DNL Datadog]連線至Workfront Fusion {#connect-datadog-to-workfront-fusion}
 
 ### 擷取您的API金鑰和應用程式金鑰 {#retrieve-your-api-key-and-application-key}
 
-若要將您的[!DNL Datadog]帳戶連線至[!DNL Workfront Fusion]，您必須從您的[!DNL Datadog]帳戶擷取API金鑰和應用程式金鑰。
+若要將您的[!DNL Datadog]帳戶連線至Workfront Fusion，您必須從您的[!DNL Datadog]帳戶擷取API金鑰和應用程式金鑰。
 
 1. 登入您的[!DNL Datadog]帳戶。
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 整合]**，然後按一下&#x200B;**[!UICONTROL API]**。
@@ -96,11 +96,11 @@ Datadog聯結器會使用下列專案：
 1. 將滑鼠指標暫留在紫色列上，即可顯示應用程式索引鍵。
 1. 將應用程式金鑰複製到安全位置。
 
-### 在[!DNL Workfront Fusion]中建立與[!DNL Datadog]的連線
+### 在Workfront Fusion中建立與[!DNL Datadog]的連線
 
-您可以直接從[!UICONTROL Datadog]模組內建立與您的[!DNL Datadog]帳戶的連線。
+您可以直接從[!DNL Datadog]Datadog[!UICONTROL 模組內建立與您的]帳戶的連線。
 
-1. 在任何[!UICONTROL Datadog]模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;**[!UICONTROL 新增]**。
+1. 在任何[!UICONTROL Datadog]模組中，按一下&#x200B;**[!UICONTROL 連線]**&#x200B;欄位旁的[!UICONTROL 新增]。
 1. 依照以下方式填寫模組的欄位：
 
    <table style="table-layout:auto">
@@ -108,27 +108,27 @@ Datadog聯結器會使用下列專案：
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 連線名稱]</td> 
+      <td role="rowheader">[！UICONTROL連線名稱]</td> 
       <td> <p> 輸入連線的名稱。</p> </td> 
      </tr> 
         <tr>
-        <td role="rowheader">[!UICONTROL 環境]</td>
+        <td role="rowheader">[！UICONTROL環境]</td>
         <td>選取此連線是用於生產或非生產環境。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 型別]</td>
+        <td role="rowheader">[！UICONTROL型別]</td>
         <td>選取您要連線到服務帳戶還是個人帳戶。</td>
         </tr>
      <tr> 
-      <td role="rowheader">[!UICONTROL 網域] </td> 
+      <td role="rowheader">[！UICONTROL網域] </td> 
       <td> <p>選取您要連線的網域（美國或歐盟）。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL API金鑰位置] </td> 
+      <td role="rowheader">[！UICONTROL API金鑰位置] </td> 
       <td> <p>選取在標頭或查詢字串中包含API金鑰。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL API Key]</td> 
+      <td role="rowheader">[！UICONTROL API Key]</td> 
       <td> <p> 輸入您的[!DNL Datadog] API金鑰。 </p> <p>如需擷取API金鑰的指示，請參閱本文中的<a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">擷取您的API金鑰和應用程式金鑰</a>。</p> </td> 
      </tr> 
     </tbody> 
@@ -138,7 +138,7 @@ Datadog聯結器會使用下列專案：
 
 ## [!DNL Datadog]模組及其欄位
 
-當您設定[!DNL Datadog]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Datadog]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定[!DNL Datadog]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Datadog]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
@@ -158,31 +158,31 @@ Datadog聯結器會使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Datadog]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">將[!DNL Datadog]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Datadog]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">將[!DNL Datadog]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 使用專用網域]</td> 
+   <td role="rowheader">[！UICONTROL使用專用網域]</td> 
    <td>有些Datadog API端點預期會有大量傳入流量，但在其專用網域中執行。 核取此方塊以使用您API呼叫的專用網域。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td>輸入相對於<code>https://api.datadoghq.com/api/</code>的路徑。 範例： <code> /v1/org</code>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -216,11 +216,11 @@ URL： `/v1/dashboard`
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL Datadog]帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">將[!DNL Datadog]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將您的[!DNL Datadog]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">將[!DNL Datadog]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 型別]</td> 
+   <td role="rowheader">[！UICONTROL型別]</td> 
    <td> 選取您要使用的量度型別。 
    <ul>
    <li>量測計</li>
@@ -229,19 +229,19 @@ URL： `/v1/dashboard`
    </ul>
    </td> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 間隔]</td> 
+   <td role="rowheader">[！UICONTROL間隔]</td> 
    <td> 如果度量的型別是「比率」或「計數」，請定義對應的間隔。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 點]</td> 
+   <td role="rowheader">[！UICONTROL點]</td> 
    <td><p>新增與量度相關的點。</p> <p>這是JSON點陣列。 每個點的格式如下： <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>注意：  <p>時間戳記必須以秒為單位。</p> <p>時間戳記必須是最新的。 「目前」的定義是未來不超過10分鐘，或過去不超過1小時。</p> <p> 數值格式應為浮點數值。</p> </p> <p>此欄位必須至少包含1個專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 主機]</td> 
+   <td role="rowheader">[！UICONTROL主機]</td> 
    <td>輸入產生測量結果的主機名稱。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 標籤]</td> 
+   <td role="rowheader">[！UICONTROL標籤]</td> 
    <td> 針對您想要新增至量度的每個標籤，按一下<b>新增專案</b>並輸入標籤的值。</td> 
   </tr> 
  </tbody> 

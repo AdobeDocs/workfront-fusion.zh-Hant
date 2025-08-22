@@ -1,19 +1,19 @@
 ---
 title: Microsoft Dynamics 365財務與營運模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行使用Microsoft Dynamics 365 Finance and Operations的工作流程，以及將其連線到多個協力廠商應用程式和服務。
+description: 在Adobe Workfront Fusion案例中，您可以自動化使用Microsoft Dynamics 365 Finance and Operations的工作流程，並將其連結至多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 96f8d4f1-f97b-4da8-8d82-83cccb54ec68
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Dynamics 365 Finance and Operations modules]
 
-在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL Microsoft Dynamics 365]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Microsoft Dynamics 365]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 若要建立Microsoft Dynamics 365 Finance and Operations模組的連線：
 
-1. 在任何Microsoft Dynamics 365 Finance and Operations模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL Add]**。
+1. 在任何Microsoft Dynamics 365 Finance and Operations模組中，按一下[連線]方塊旁的[新增]。****
 
 1. 填寫下列欄位：
 
@@ -42,27 +42,27 @@ ht-degree: 0%
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td role="rowheader">[！UICONTROL連線型別]</td>
         <td>
           <p>選取您要建立標準的Dynamics Finance and Operations連線，或使用授權碼建立連線。</p>
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td role="rowheader">[！UICONTROL連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>輸入您的Dynamics Finance與作業[!UICONTROL Client ID]。</td>
+        <td role="rowheader">[！UICONTROL使用者端ID]</td>
+        <td>輸入您的Dynamics Finance and Operations [！UICONTROL使用者端ID]。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>輸入您的Dynamics Finance與作業[!UICONTROL Client Secret]。 </td>
+        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+        <td>輸入您的Dynamics Finance and Operations [！UICONTROL使用者端密碼]。 </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Tenant ID]</td>
+        <td role="rowheader">[！UICONTROL租使用者ID]</td>
         <td>輸入您的Dynamics Finance and Operations租使用者ID。</td>
         </tr>
         <tr>
@@ -72,7 +72,7 @@ ht-degree: 0%
       </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL Continue]**&#x200B;以儲存連線並返回模組。
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
 
 
 
@@ -97,15 +97,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
-    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
+    <td>[！UICONTROL Connection]</td>
+    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Entity]</td>
+    <td>[！UICONTROL實體]</td>
      <td>輸入或對應您要建立的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Body]</td>
+    <td>[！UICONTROL Body]</td>
      <td> <p>輸入或對應包含您要納入新實體專案之資料的JSON內文。</p> </td> 
   </tr> 
  </tbody> 
@@ -122,15 +122,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
-    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
+    <td>[！UICONTROL Connection]</td>
+    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Entity]</td>
+    <td>[！UICONTROL實體]</td>
      <td>輸入或對應您要刪除的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Primary key fields]</td>
+    <td>[！UICONTROL主鍵欄位]</td>
      <td> 主索引鍵欄位可識別專案。 針對您想要提供的每個主索引鍵欄位，按一下<b>新增專案</b>，然後輸入或對應識別該專案的唯一索引鍵和值。 </td> 
   </tr> 
  </tbody> 
@@ -145,27 +145,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
    <td> <p>輸入相對於Dynamics Finance and Operations URL的路徑。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。 這會決定請求的內容型別。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤且難以判斷其來源，請考慮根據[!DNL Workfront]檔案修改標題。 如果您的自訂API呼叫傳回422 HTTP請求錯誤，請嘗試使用<code>"Content-Type":"text/plain"</code>標頭。</p> </td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。 這會決定請求的內容型別。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤且難以判斷其來源，請考慮根據Workfront檔案修改標題。 如果您的自訂API呼叫傳回422 HTTP請求錯誤，請嘗試使用<code>"Content-Type":"text/plain"</code>標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query string]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> <p>提示：建議您透過JSON內文傳送資訊，而非查詢引數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -185,15 +185,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
-    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
+    <td>[！UICONTROL Connection]</td>
+    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Entity]</td>
+    <td>[！UICONTROL實體]</td>
      <td>輸入或對應您要讀取的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Primary key fields]</td>
+    <td>[！UICONTROL主鍵欄位]</td>
      <td> 主索引鍵欄位可識別專案。 針對您想要提供的每個主索引鍵欄位，按一下<b>新增專案</b>，然後輸入或對應識別該專案的唯一索引鍵和值。 </td> 
   </tr> 
  </tbody> 
@@ -206,19 +206,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
-    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
+    <td>[！UICONTROL Connection]</td>
+    <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Entity]</td>
+    <td>[！UICONTROL實體]</td>
      <td>輸入或對應您要更新的Dynamics Finance and Operations實體型別。</td> 
   </tr>  
   <tr> 
-    <td>[!UICONTROL Primary key fields]</td>
+    <td>[！UICONTROL主鍵欄位]</td>
      <td> 主索引鍵欄位可識別專案。 針對您想要提供的每個主索引鍵欄位，按一下<b>新增專案</b>，然後輸入或對應識別該專案的唯一索引鍵和值。 </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Body]</td>
+    <td>[！UICONTROL Body]</td>
      <td> <p>輸入或對應包含您要納入新實體專案之資料的JSON內文。</p> </td> 
   </tr> 
  </tbody> 
@@ -233,23 +233,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將[!DNL Workfront]應用程式連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將[!DNL Workfront]連線到[!DNL Workfront Fusion]</a>。</p> </td> 
+   <td>[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Entity]</td> 
+   <td>[！UICONTROL實體]</td> 
    <td>輸入或對應您要搜尋的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Search criteria]</td> 
+   <td>[！UICONTROL搜尋條件]</td> 
    <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運運算元，以及要在欄位中搜尋的值。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Limit]</td> 
+   <td>[！UICONTROL限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Sort by]</td> 
+   <td>[！UICONTROL排序依據]</td> 
    <td> <p>輸入或對應您要排序結果的欄位。</p> </td> 
   </tr> 
  </tbody> 
@@ -268,7 +268,7 @@ This module lists all records for a given entity.  The item is identified by its
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
+    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to Workfront Fusion, see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Record Type]</td>
@@ -291,15 +291,15 @@ This trigger module starts a scenario when a record of the given type is created
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
+    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to Workfront Fusion, see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Select the type of [!DNL Workfront] record that you want the module to watch.</p> </td> 
+   <td> <p>Select the type of Workfront record that you want the module to watch.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
-   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to [!DNL Workfront] logs the user into Workfront, and the search will not be successful.</p> <p>Note: <code>In</code> and <code>NotIn</code>work with arrays. The inputs should be in array format.</p></td> 
+   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to Workfront logs the user into Workfront, and the search will not be successful.</p> <p>Note: <code>In</code> and <code>NotIn</code>work with arrays. The inputs should be in array format.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 

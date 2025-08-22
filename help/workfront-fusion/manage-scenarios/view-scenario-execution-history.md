@@ -4,9 +4,9 @@ description: 您可以顯示情境的事件或執行相關資訊，也可以搜�
 author: Becky
 feature: Workfront Fusion
 exl-id: 974b32b4-d86a-48cd-a8d4-1ae2cf309b9b
-source-git-commit: cc7c05614390e20d4051635c605e12dfa65493a1
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -34,17 +34,17 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -52,16 +52,16 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>已包含[!UICONTROL Ultimate] [!DNL Workfront]計畫： [!DNL Workfront Fusion]。</li></ul>
+   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定*</td> 
    <td> 
-     <p>您必須是組織的[!DNL Workfront Fusion]管理員。</p>
-     <p>您必須是團隊的[!DNL Workfront Fusion]管理員。</p>
+     <p>您必須是組織的Workfront Fusion管理員。</p>
+     <p>您必須是團隊的Workfront Fusion管理員。</p>
    </td> 
   </tr> 
    </td> 
@@ -69,9 +69,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -134,7 +134,7 @@ ht-degree: 1%
 
 您可以篩選執行歷史記錄，以僅檢視具有指定值的執行。
 
-1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤[&#128279;](#view-scenario-history-on-the-history-tab)上的檢視情境執行歷程記錄中所述。
+1. 開啟情境的全頁記錄，如本文中[歷程記錄[!UICONTROL 索引標籤]上的](#view-scenario-history-on-the-history-tab)檢視情境執行歷程記錄中所述。
 1. 按一下您要作為篩選依據之欄標題中的[!UICONTROL 篩選器]圖示![情境篩選器圖示](assets/fusion-scenario-filter-icon.png)。
 1. 在[!UICONTROL 篩選器]對話方塊中，輸入您要作為篩選依據的值。
 1. 按一下「**[!UICONTROL 儲存]**」。
@@ -153,7 +153,7 @@ You can sort the scenario execution history.
 
 ## 搜尋情境的所有執行
 
-1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤[&#128279;](#view-scenario-history-on-the-history-tab)上的檢視情境執行歷程記錄中所述。
+1. 開啟情境的全頁記錄，如本文中[歷程記錄[!UICONTROL 索引標籤]上的](#view-scenario-history-on-the-history-tab)檢視情境執行歷程記錄中所述。
 1. 按一下執行清單頂端的&#x200B;**[!UICONTROL 全文檢索搜尋]**。
 
    或
@@ -177,7 +177,7 @@ You can sort the scenario execution history.
    >
    >* 執行只適用於之前的30天。
    >
-   >* [!DNL Workfront Fusion]儲存webhook裝載30天。 存取webhook裝載時，若在裝載建立超過30天後進行，會導致&#39;&#39;[!UICONTROL 無法從儲存空間讀取檔案。]&#39;&#39;
+   >* Workfront Fusion會儲存webhook裝載30天。 存取webhook裝載時，若在裝載建立超過30天後進行，會導致&#39;&#39;[!UICONTROL 無法從儲存空間讀取檔案。]&#39;&#39;
 
 
 1. （選擇性）若要依狀態限制搜尋，請在&#x200B;**[!UICONTROL 依狀態]**&#x200B;下拉式清單中選取所需的狀態。
@@ -189,7 +189,7 @@ You can sort the scenario execution history.
 
    * [!UICONTROL 錯誤]
 
-   * [!UICONTROL 警告]
+   * [!UICONTROL Warning]
 
    * [!UICONTROL 成功]
 

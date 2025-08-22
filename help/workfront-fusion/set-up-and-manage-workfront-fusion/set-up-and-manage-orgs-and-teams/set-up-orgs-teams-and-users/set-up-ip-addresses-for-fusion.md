@@ -4,9 +4,9 @@ description: Fusion使用特定的IP位址和網域進行Web通訊。 必須先�
 author: Becky
 feature: Workfront Fusion
 exl-id: 406dd45c-0863-4270-a80e-c1c115e0b367
-source-git-commit: 59d739093c88238af7a7e97499fd0c7d7cf6053a
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 這是透過允許清單來完成，其實質為「允許」透過防火牆傳送或接收資料的網站「清單」。 您可以使用下列兩種方式之一來識別網站：
 
 * **IP位址**：一系列數字，例如52.31.132.175
-* **網域**： URL的一部分，例如`www.thisdomain.com`中的`thisdomain`
+* **網域**： URL的一部分，例如`thisdomain`中的`www.thisdomain.com`
 
 Fusion使用特定的IP位址和網域進行Web通訊。 必須先將這些專案新增到貴組織的允許清單中，您才能在組織中使用Workfront。
 
@@ -82,7 +82,7 @@ IP位址會依您儲存資料的位置而有所不同。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 歐盟資料中心</td> 
+   <td role="rowheader">Adobe Workfront EU資料中心</td> 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
@@ -91,7 +91,7 @@ IP位址會依您儲存資料的位置而有所不同。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] 美國資料中心</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront美國資料中心</p> </td> 
    <td> 
     <ul> 
      <li>54.244.142.219</li> 
@@ -103,7 +103,7 @@ IP位址會依您儲存資料的位置而有所不同。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 在Microsoft Azure叢集上</td> 
+   <td role="rowheader">Microsoft Azure叢集上的Adobe Workfront Fusion</td> 
    <td> 
     <ul> 
      <li>20.36.133.48/28</li> 
@@ -121,15 +121,15 @@ IP位址會依您儲存資料的位置而有所不同。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 歐盟資料中心</td> 
+   <td role="rowheader">Adobe Workfront EU資料中心</td> 
    <td> <p> hook.app-eu.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] 美國資料中心</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront美國資料中心</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] 在Microsoft Azure叢集上</p> </td> 
+   <td role="rowheader"> <p>Microsoft Azure叢集上的Adobe Workfront Fusion</p> </td> 
    <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 

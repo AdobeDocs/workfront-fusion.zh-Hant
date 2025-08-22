@@ -4,9 +4,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 3b445b50-5812-4ded-9788-f467991e0b52
-source-git-commit: 7404dafc0b368a8f1785be7b6a65fe45c0f12172
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1890'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 # 可投放模組
 
 
-使用[!DNL Adobe Workfront Fusion]的[!DNL Airtable]聯結器，您可以根據[!DNL Airtable]帳戶中的事件啟動案例、建立、上傳和更新記錄、搜尋記錄，以及對Airtable API進行自訂API呼叫。
+使用Adobe Workfront Fusion的[!DNL Airtable]聯結器，您可以根據[!DNL Airtable]帳戶中的事件啟動案例、建立、上傳和更新記錄、搜尋記錄，以及對Airtable API進行自訂API呼叫。
 
 ## 存取需求
 
@@ -25,27 +25,27 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計畫*</td>
-  <td> <p>[!UICONTROL Pro] 或更高</p> </td>
+   <td role="rowheader">Adobe Workfront計畫*</td>
+  <td> <p>[！UICONTROL Pro]或更高版本</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權*</td>
-   <td> <p>[!UICONTROL Plan]， [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權*</td>
+   <td> <p>[！UICONTROL計畫]，[！UICONTROL工作]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] 適用於工作自動化與整合] </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td> <p>[！UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
-   <td>您的組織必須購買[!DNL Adobe Workfront Fusion]和[!DNL Adobe Workfront]，才能使用本文所述的功能。</td> 
+   <td>您的組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。</td> 
   </tr> 
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的[!DNL Workfront]管理員。
+若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 ## 先決條件
 
@@ -64,7 +64,7 @@ Airtable聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">基礎URL</td> 
+   <td role="rowheader">基礎 URL</td> 
    <td>https://api.airtable.com/v0</td> 
   </tr>
   <tr> 
@@ -482,7 +482,7 @@ webhook URL需要在Workfront Fusion中產生，然後新增到Airtable中的表
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>輸入相對於<code>https://api.airtable.com/</code>的路徑。 範例： <code>v0/{base}/{table}</code> </td> 
+   <td>輸入相對於<code>https://api.airtable.com/</code>的路徑。 範例：<code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">方法</td> 
@@ -490,7 +490,7 @@ webhook URL需要在Workfront Fusion中產生，然後新增到Airtable中的表
   </tr> 
   <tr> 
    <td role="rowheader">標頭</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 為您新增授權標頭。</p> </td> 
+   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">查詢字串</td> 

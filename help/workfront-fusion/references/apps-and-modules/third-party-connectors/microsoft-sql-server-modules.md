@@ -1,19 +1,19 @@
 ---
 title: Microsoft SQL Server模組
-description: 您可以使用 [!DNL Adobe Workfront Fusion] 連線至Microsoft SQL Server。
+description: 您可以使用Adobe Workfront Fusion連線至Microsoft SQL Server。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8f3293f7-8b45-4e42-8ad8-f9d4969b63fd
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft SQL Server]模組
 
-您可以使用[!DNL Adobe Workfront Fusion]連線至[!UICONTROL Microsoft SQL Server]。
+您可以使用Adobe Workfront Fusion連線至[!UICONTROL Microsoft SQL Server]。
 
 ## 存取需求
 
@@ -44,7 +44,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -52,13 +52,13 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
-## 正在將[!DNL Microsoft SQL Server]服務連線到[!DNL Workfront Fusion]
+## 正在將[!DNL Microsoft SQL Server]服務連線到Workfront Fusion
 
 如需有關將您的[!DNL Microsoft SQL Server]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md) — 基本指示
 
@@ -70,17 +70,17 @@ ht-degree: 0%
 
 ## 使用[!DNL Microsoft SQL Server]模組
 
-您可以透過預存程式，直接在資料庫伺服器上執行自訂邏輯。 [!DNL Adobe Workfront Fusion]會動態載入輸入/輸出引數及記錄集的介面，以便每個引數或值都可以個別對應。 開始設定案例之前，請確定您用來連線至資料庫的帳戶具有`INFORMATION_SCHEMA.ROUTINES`和`INFORMATION_SCHEMA.PARAMETERS`檢視的讀取存取權。
+您可以透過預存程式，直接在資料庫伺服器上執行自訂邏輯。 Adobe Workfront Fusion會動態載入輸入/輸出引數和記錄集的介面，以便每個引數或值都可以個別對應。 開始設定案例之前，請確定您用來連線至資料庫的帳戶具有`INFORMATION_SCHEMA.ROUTINES`和`INFORMATION_SCHEMA.PARAMETERS`檢視的讀取存取權。
 
 當[!DNL Fusion]建立與[!DNL SQL server]目的地的連線時，[!DNL Fusion]使用者會識別主機（裝載伺服器的網域名稱或IP位址）和連線埠。 [!DNL Fusion]可以連線到任何可用的主機和連線埠。
 
-如需[!DNL Workfront Fusion]使用的特定IP位址的詳細資訊，請參閱[用於存取的IP位址 [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)
+如需Workfront Fusion所使用之特定IP位址的詳細資訊，請參閱[用於存取Adobe Workfront Fusion的IP位址](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)
 
 若要深入瞭解如何建立預存程式，請參閱[!DNL Microsoft SQL Server]檔案。
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion]不支援多個記錄集。 系統只會處理第一個專案。
+>Workfront Fusion不支援多個記錄集。 系統只會處理第一個專案。
 
 ## 疑難排解錯誤[!UICONTROL ER_LOCK_WAIT_TIMEOUT：超過鎖定等待逾時；請嘗試重新啟動交易]
 

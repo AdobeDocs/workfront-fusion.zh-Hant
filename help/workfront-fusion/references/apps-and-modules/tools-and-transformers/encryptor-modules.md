@@ -4,16 +4,16 @@ description: Adobe Workfront Fusion Encryptor模組可讓您加密任何文字�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b119efe-6762-445e-bbc7-c59437fd5060
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 0%
+source-wordcount: '876'
+ht-degree: 1%
 
 ---
 
 # 加密程式
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL 加密程式]模組可讓您加密任何文字資料。 它們目前支援透過AES256和PGP ([!UICONTROL OpenPGP])進行訊息加密。
+Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文字資料。 它們目前支援透過AES256和PGP ([!UICONTROL OpenPGP])進行訊息加密。
 
 這些模組需要熟悉加密流程。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -52,9 +52,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Key]</td>
+        <td>[！UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
     <tr>
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Key]</td>
+        <td>[！UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
    <tr>
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Key]</td>
+        <td>[！UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
     <tr>
@@ -236,7 +236,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Key]</td>
+        <td>[！UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
    <tr>
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL 私密金鑰]</td>
+        <td>[！UICONTROL私密金鑰]</td>
         <td>選取要用於此簽章的私密金鑰。 若要新增私密金鑰，請按一下[新增] <b></b>，然後輸入金鑰的名稱、金鑰文字和複雜密碼。</td>
     </tr>
     <tr>
@@ -314,15 +314,15 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL 私密金鑰]</td>
+        <td>[！UICONTROL私密金鑰]</td>
         <td>選取要用於此郵件的收件者私密金鑰。 若要新增私密金鑰，請按一下[新增] <b></b>，然後輸入金鑰的名稱、金鑰文字和複雜密碼。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 公開金鑰]</td>
+        <td>[！UICONTROL公開金鑰]</td>
         <td>輸入寄件者的公開金鑰。 這可以驗證寄件者的身分。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 訊息]</td>
+        <td>[！UICONTROL訊息]</td>
         <td>對應您要解密的訊息。</td>
     </tr>
 </table>
@@ -333,15 +333,15 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL 私密金鑰]</td>
+        <td>[！UICONTROL私密金鑰]</td>
         <td>輸入寄件者的私密金鑰。 這可以驗證寄件者的身分。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 公開金鑰]</td>
+        <td>[！UICONTROL公開金鑰]</td>
         <td>輸入收件者的公開金鑰。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 訊息]</td>
+        <td>[！UICONTROL訊息]</td>
         <td>輸入您要加密的訊息。</td>
     </tr>
     </table>

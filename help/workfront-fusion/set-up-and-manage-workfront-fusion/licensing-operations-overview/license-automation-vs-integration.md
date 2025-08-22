@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion提供兩種不同的授權，決定您可以
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e2df1a0-c1f9-4833-b1c2-65efb3be9657
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -40,9 +40,9 @@ Workfront Fusion有兩種授權模型，一種新的以操作為基礎的模型�
 
 #### 適用於工作自動化的Workfront Fusion的優點
 
-Workfront Fusion for Work Automation授權可讓您自動化[!DNL Workfront]工作流程。 使用Workfront Fusion for Work Automation，您可以建立案例來自動化您組織獨特的工作流程。
+適用於工作自動化的Workfront Fusion授權可讓您自動化Workfront工作流程。 使用Workfront Fusion for Work Automation，您可以建立案例來自動化您組織獨特的工作流程。
 
-自動化[!DNL Workfront]流程的優點包括：
+Workfront流程自動化的優點包括：
 
 * 自動化速度更快，不易發生錯誤。
 * 不需要任何決定的工作流程或具有決定的工作流程是根據簡單邏輯，例如if/then，是自動化的良好候選者。
@@ -105,8 +105,8 @@ Workfront Fusion for Work Automation and Integration授權的優點包括：
 下列範例顯示的工作流程如下：
 
 1. 監視新使用者的試算表
-1. 檢查該使用者是否存在於[!DNL Workfront]中
-1. 若使用者不存在，請在[!DNL Workfront]中建立使用者
-1. 將[!DNL Workfront]使用者ID上傳回試算表。
+1. 檢查使用者是否存在於Workfront中
+1. 若使用者不存在，則在Workfront中建立使用者
+1. 將Workfront使用者ID上傳回試算表。
 
 ![自動化案例範例](assets/fusion-integration-example.png)

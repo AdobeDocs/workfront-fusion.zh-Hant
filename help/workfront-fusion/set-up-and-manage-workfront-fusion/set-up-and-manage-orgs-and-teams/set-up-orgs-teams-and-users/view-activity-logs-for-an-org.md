@@ -4,9 +4,9 @@ description: 您可以檢視組織的活動記錄，例如情境建立或啟動�
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cf851e3-50a1-4baa-8318-a24e1f467134
-source-git-commit: edeed099b26dae635889fd35de61d66a1ea1ffc1
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -26,17 +26,17 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計劃</td>
+   <td role="rowheader">Adobe Workfront計畫</td>
    <td> <p>新增： Ultimate</p> <p>或</p> <p>目前：無法使用</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前：無法使用</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前：無法使用</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -48,7 +48,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>此功能僅適用於擁有Ultimate Workfront計畫（包含[!DNL Workfront Fusion]）的組織。 無需額外購買產品。</p>
+   <p>此功能僅適用於擁有Ultimate Workfront計畫(包括Workfront Fusion)的組織。 無需額外購買產品。</p>
    </td> 
   </tr>
  </tbody> 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. 在左側導覽面板中，按一下&#x200B;**組織概觀** ![組織概觀圖示](assets/org-overview-icon.png)。
 1. 如果您目前不在您要檢視活動記錄的組織中，請按一下畫面右上角的組織名稱，然後從下拉式清單中選取組織。
-1. 按一下熒幕頂端附近的&#x200B;**[!UICONTROL Activity Logs]**&#x200B;索引標籤。
+1. 按一下熒幕頂端附近的&#x200B;**[!UICONTROL 活動記錄]**&#x200B;標籤。
 
    「活動記錄」頁面隨即開啟。
 1. （選用）篩選活動記錄，以依據您指定的條件限制結果。
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 1. 在左側導覽面板中，按一下&#x200B;**組織概觀** ![組織概觀圖示](assets/org-overview-icon.png)。
 1. 如果您目前不在您要檢視活動記錄的組織中，請按一下畫面右上角的組織名稱，然後從下拉式清單中選取組織。
-1. 按一下熒幕頂端附近的&#x200B;**[!UICONTROL Activity Logs]**&#x200B;索引標籤。
+1. 按一下熒幕頂端附近的&#x200B;**[!UICONTROL 活動記錄]**&#x200B;標籤。
 
    「活動記錄」頁面隨即開啟。
 1. 按一下&#x200B;**篩選器** ![篩選器圖示](assets/filter-activity-log.png)。
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 1. 在左側導覽面板中，按一下&#x200B;**組織概觀** ![組織概觀圖示](assets/org-overview-icon.png)。
 1. 如果您目前不在您要檢視活動記錄的組織中，請按一下畫面右上角的組織名稱，然後從下拉式清單中選取組織。
-1. 按一下熒幕頂端附近的&#x200B;**[!UICONTROL Activity Logs]**&#x200B;索引標籤。
+1. 按一下熒幕頂端附近的&#x200B;**[!UICONTROL 活動記錄]**&#x200B;標籤。
 
    「活動記錄」頁面隨即開啟。
 1. 從行事曆選取日期範圍，然後（選擇性）輸入時間。

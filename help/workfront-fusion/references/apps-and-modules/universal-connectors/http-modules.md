@@ -1,19 +1,19 @@
 ---
 title: HTTP >其他模組
-description: ' [!DNL Adobe Workfront Fusion] HTTP應用程式提供各種模組，用於以超文字傳輸通訊協定(HTTP)通訊協定為基礎的通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。'
+description: Adobe Workfront Fusion HTTP應用程式提供各種模組，用於根據超文字傳輸通訊協定(HTTP)通訊協定進行通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
 author: Becky
 feature: Workfront Fusion
 exl-id: 7db97e6e-262d-4be2-823b-423f56a7d886
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
 # HTTP >其他模組
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL HTTP]應用程式提供各種模組，以根據超文字傳輸通訊協定(HTTP)通訊協定進行通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
+Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供根據超文字傳輸通訊協定(HTTP)通訊協定進行通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
 
 模組的正確選擇取決於您要存取的資源所使用的驗證/授權機制。 以下是模組的範例
 
@@ -58,7 +58,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -66,9 +66,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -96,15 +96,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 將所有狀態評估為錯誤（2xx和3xx除外）] </td> 
-   <td> <p>使用此選項來設定錯誤處理。</p> <p>如需詳細資訊，請參閱[!DNL Adobe Workfront Fusion]</a>中的<a href="/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md" class="MCXref xref">錯誤處理。</p> </td> 
+   <td role="rowheader">[！UICONTROL將所有狀態評估為錯誤（2xx和3xx除外）] </td> 
+   <td> <p>使用此選項來設定錯誤處理。</p> <p>如需詳細資訊，請參閱Adobe Workfront Fusion中的<a href="/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md" class="MCXref xref">錯誤處理</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL] </td> 
+   <td role="rowheader">[！UICONTROL URL] </td> 
    <td> <p>輸入或對應您要下載之檔案的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 與其他HTTP模組共用Cookie] </td> 
+   <td role="rowheader">[！UICONTROL與其他HTTP模組共用Cookie] </td> 
    <td> <p>如果您希望此網站的Cookie對其他模組可用，請啟用此選項。 </p> </td> 
   </tr> 
  </tbody> 
@@ -119,12 +119,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL] </td> 
+   <td role="rowheader">[！UICONTROL URL] </td> 
    <td> <p>輸入或對應您要解析的URL，例如[!DNL bit.ly] URL。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法] </td> 
-   <td> <p>選取您要使用[!UICONTROL HEAD]方法或[!UICONTROL GET]方法。</p> </td> 
+   <td role="rowheader">[！UICONTROL方法] </td> 
+   <td> <p>選取您要使用[！UICONTROL HEAD]方法或[！UICONTROL GET]方法。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source模組]</td> 
+   <td role="rowheader">[！UICONTROL Source模組]</td> 
    <td> <p> 選取您要從中擷取標題的模組。</p> </td> 
   </tr> 
  </tbody> 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 您可使用內建函式產生JWT權杖：
 
-頁首：
+標頭:
 
 ![JWT標頭](/help/workfront-fusion/references/apps-and-modules/assets/jwt-header-350x19.png)
 

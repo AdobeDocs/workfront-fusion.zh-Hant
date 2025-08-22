@@ -1,12 +1,12 @@
 ---
-title: ' [!DNL Adobe Workfront Fusion]中的資料存放區'
+title: Adobe Workfront Fusion中的資料存放區
 description: 資料存放區（類似於資料庫或簡單表格）可以儲存情境中的資料，以便在個別情境或情境執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8bfa3201-45db-49d7-985d-9c324acd56b6
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 資料存放區（類似於資料庫或簡單表格）可以儲存情境中的資料，以便在個別情境或情境執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
 
-資料存放區模組可讓您對[!DNL Adobe Workfront Fusion]資料存放區中的記錄執行下列動作：
+資料存放區模組可讓您對Adobe Workfront Fusion資料存放區中的記錄執行以下操作：
 
 * 新增
 * 取代
@@ -25,7 +25,7 @@ ht-degree: 1%
 * 搜尋
 * 計數
 
-如需使用資料存放區模組的詳細資訊，請參閱[[!UICONTROL Data store]模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md)。
+如需有關使用資料存放區模組的資訊，請參閱[[!UICONTROL 資料存放區]模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md)。
 
 如需有關Workfront Fusion中資料存放區的影片簡介，請參閱：
 
@@ -42,17 +42,17 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -60,17 +60,17 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -87,7 +87,7 @@ Ultimate套件上的Fusion執行個體會收到：
 
 ### 選取和Prime計畫
 
-Select或Prime套件上的Fusion執行個體會收到：—>
+Select或Prime封裝上的Fusion執行個體會接收:-->
 
 * 第一個500K作業為100 MB。
 
@@ -97,42 +97,42 @@ Select或Prime套件上的Fusion執行個體會收到：—>
 
 您的組織最多可以擁有50個資料存放區。 這些資料存放區的合併大小不得超過您組織的資料存放區總大小。
 
-## 在[!DNL Workfront Fusion]中建立資料存放區
+## 在Workfront Fusion中建立資料存放區
 
 * [設定資料存放區](#set-up-the-data-store)
 * [設定資料結構](#set-up-the-data-structure)
 
 ### 設定資料存放區
 
-您必須先在[!DNL Workfront Fusion]中建立資料存放區，才能在模組中使用資料存放區。
+您必須先在Workfront Fusion中建立資料存放區，才能在模組中使用資料存放區。
 
 >[!NOTE]
 >
->您的組織可用的資料存放區數量有限。 如果您嘗試建立的資料存放區多於可用的資料存放區，[!DNL Workfront]會傳回[!UICONTROL Maximum stores reached]錯誤。
+>您的組織可用的資料存放區數量有限。 如果您嘗試建立的資料存放區多於可用的資料存放區，Workfront會傳回[!UICONTROL 已達最大存放區數]錯誤。
 >
 >如需詳細資訊，請參閱本文中的[最大存放區數量已達錯誤](#maximum-stores-reached-error)。
 
-1. 登入您的[!DNL Workfront Fusion]帳戶。
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Data stores]**。
-1. 按一下畫面右上角的&#x200B;**[!UICONTROL Add data store]**。
+1. 登入您的Workfront Fusion帳戶。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 資料存放區]**。
+1. 按一下熒幕右上角的&#x200B;**[!UICONTROL 新增資料存放區]**。
 1. 輸入新資料存放區的設定。
 
-   [!DNL Workfront Fusion]模組中欄位上的粗體標題表示必要設定。
+   Workfront Fusion模組中欄位上的粗體標題表示必填設定。
 
    <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Data store name] </td> 
+      <td>[！UICONTROL資料存放區名稱] </td> 
       <td> <p>輸入資料存放區的名稱。 </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>[!UICONTROL Data Structure]</p> </td> 
+      <td> <p>[！UICONTROL資料結構]</p> </td> 
       <td> <p>資料結構是表格的欄清單。 此清單指示欄名稱和資料型別。</p> <p>執行下列其中一項：</p> 
        <ul> 
         <li><b>選取已建立的資料結構</b></li> 
-        <li><b>新增資料結構</b> <p>按一下「<strong>[!UICONTROL Add]</strong>」以建立新的資料結構。</p> <p>如需詳細資訊，請參閱本文中的<a href="#set-up-the-data-structure" class="MCXref xref">設定資料結構</a>一節。</p> </li> 
+        <li><b>新增資料結構</b> <p>按一下<strong>[！UICONTROL新增]</strong>以建立新的資料結構。</p> <p>如需詳細資訊，請參閱本文中的<a href="#set-up-the-data-structure" class="MCXref xref">設定資料結構</a>一節。</p> </li> 
         <li style="font-weight: bold;"> <p>將此欄位留空</p> <p style="font-weight: normal;">如果您未選取或新增資料結構，資料庫將僅包含主索引鍵。 如果您只想儲存金鑰，而且只想知道資料庫中是否存在特定金鑰，這種資料庫型別就相當實用。</p> </li> 
        </ul> </td> 
      </tr> 
@@ -145,23 +145,23 @@ Select或Prime套件上的Fusion執行個體會收到：—>
 
 ### 設定資料結構
 
-1. 建立或編輯資料存放區時，請按一下&#x200B;**[!UICONTROL Add]**。
-1. 在顯示的&#x200B;**[!UICONTROL Add data structure]**&#x200B;方塊中，設定下列欄位：
+1. 建立或編輯資料存放區時，請按一下[新增]。****
+1. 在顯示的&#x200B;**[!UICONTROL 新增資料結構]**&#x200B;方塊中，設定下列欄位：
 
    <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Data structure name]</td> 
+      <td>[！UICONTROL資料結構名稱]</td> 
       <td> <p> 輸入新資料結構的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td> <p>[!UICONTROL Specification]</p> </td> 
+      <td> <p>[！UICONTROL規格]</p> </td> 
       <td> <p>執行下列任一項作業來設定資料存放區的欄。</p> 
        <ul> 
-        <li> <p>按一下<strong>[!UICONTROL Add item]</strong>以手動指定一欄的內容。</p> <p>輸入資料儲存欄的<strong>[!UICONTROL Name]</strong>和<strong>[!UICONTROL Type]</strong>，並定義對應的屬性。</p> </li> 
-        <li> <p>按一下<strong>[!UICONTROL Generator]</strong>以從您提供的範例資料中決定資料行。</p> 
+        <li> <p>按一下<strong>[！UICONTROL新增專案]</strong>以手動指定一欄的屬性。</p> <p>輸入資料儲存欄位的<strong>[！UICONTROL名稱]</strong>和<strong>[！UICONTROL型別]</strong>，並定義對應的屬性。</p> </li> 
+        <li> <p>按一下<strong>[！UICONTROL Generator]</strong>，從您提供的範例資料中決定資料行。</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
           <span class="autonumber"><span><b>範例： </b></span></span> 
           <p>例如，以下JSON範例資料會建立三欄：名稱、年齡和電話號碼。 電話號碼是行動電話和有線電話的集合。</p> 
@@ -175,12 +175,12 @@ Select或Prime套件上的Fusion執行個體會收到：—>
           <p><code>&rbrace;</code> </p> 
           <p>資料存放區檢視中的空白欄：</p> 
           <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
-          <p>您可以手動或使用[!DNL Workfront Fusion]資料存放區模組，將值新增至資料存放區。</p> 
+          <p>您可以手動或使用Workfront Fusion資料存放區模組，將值新增至資料存放區。</p> 
          </div> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Strict] </td> 
+      <td>[！UICONTROL嚴格] </td> 
       <td> <p>啟用此選項以確保承載符合資料結構。 包含資料結構中未指定之額外專案的裝載會被拒絕。</p> </td> 
      </tr> 
     </tbody> 
@@ -188,7 +188,7 @@ Select或Prime套件上的Fusion執行個體會收到：—>
 
 ## 編輯現有的資料存放區
 
-您可以在[!DNL Workfront Fusion]的[!UICONTROL Data stores]區域中編輯現有資料存放區的屬性和內容。
+您可以在Workfront Fusion [!UICONTROL 資料存放區]區域中編輯現有資料存放區的屬性和內容。
 
 * [編輯資料存放區的屬性](#edit-the-properties-of-a-data-store)
 * [編輯資料存放區的內容](#edit-the-contents-of-a-data-store)
@@ -197,25 +197,25 @@ Select或Prime套件上的Fusion執行個體會收到：—>
 
 資料存放區的屬性包含資料存放區使用的資料結構，以及資料存放區的大小。
 
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Data stores]** ![資料存放區圖示](assets/data-store-icon.png)以開啟[!UICONTROL Data stores]區域。
-1. 按一下您要編輯的資料存放區旁的&#x200B;**[!UICONTROL Edit]** ![編輯資料存放區](assets/data-store-edit.png)。
-1. （選擇性）如果要將此資料存放區使用的資料結構變更為其他現有的資料結構，請從&#x200B;**[!UICONTROL Data structure]**&#x200B;下拉式清單中選取它。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 資料存放區]** ![資料存放區圖示](assets/data-store-icon.png)，以開啟[!UICONTROL 資料存放區]區域。
+1. 按一下您要編輯的資料存放區旁的&#x200B;**[!UICONTROL 編輯]** ![編輯資料存放區](assets/data-store-edit.png)。
+1. （選擇性）如果要將此資料存放區使用的資料結構變更為其他現有的資料結構，請從&#x200B;**[!UICONTROL 資料結構]**&#x200B;下拉式清單中選取它。
 
    或
 
    （選擇性）如果您想要將此資料存放區使用的資料結構變更為全新的資料結構，請參閱本文中的[設定資料結構](#set-up-the-data-structure)。
 
-1. （選擇性）在&#x200B;**[!UICONTROL Data storage size in MB]**&#x200B;欄位中輸入新大小，以變更資料存放區的大小。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. （選擇性）在&#x200B;**[!UICONTROL 資料儲存大小（以MB]**&#x200B;為單位）欄位中輸入新大小，以變更資料儲存的大小。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 ### 編輯資料存放區的內容
 
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Data Store]**&#x200B;圖示![資料存放區圖示](assets/data-store-icon.png)以開啟[!UICONTROL Data Store]區域。
-1. 按一下您要編輯的資料存放區旁的&#x200B;**[!UICONTROL Browse]**。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 資料存放區]**&#x200B;圖示![資料存放區圖示](assets/data-store-icon.png)，以開啟[!UICONTROL 資料存放區]區域。
+1. 按一下您要編輯的資料存放區旁的&#x200B;**[!UICONTROL 瀏覽]**。
 1. （選用）將欄拖曳至所需位置以重新排序。
-1. （選擇性）按一下單一儲存格中的&#x200B;**[!UICONTROL Edit]**&#x200B;圖示，然後輸入所要的值，以將[!UICONTROL Edit]儲存格。
-1. （選擇性）按一下&#x200B;**[!UICONTROL Add]**，然後輸入新專案的資訊，以新增專案至資料存放區。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. （選擇性）按一下單一儲存格中的[!UICONTROL 編輯]圖示，然後輸入所要的值，以編輯&#x200B;**[!UICONTROL 該儲存格。]**
+1. （選擇性）按一下&#x200B;**[!UICONTROL 新增]**，然後輸入新專案的資訊，以新增專案至資料存放區。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
 ## 疑難排解
 
@@ -238,9 +238,9 @@ Select或Prime套件上的Fusion執行個體會收到：—>
 
    如需有關將資料插入資料存放區的資訊，請參閱本文中的[編輯資料存放區的內容](#edit-the-contents-of-a-data-store)。
 
-### [!UICONTROL Out of space]個錯誤
+### [!UICONTROL 空間不足]錯誤
 
-發生[!UICONTROL Out of Space]錯誤，因為您先前建立的資料存放區已經指派給您配置的資料存放區存放區。
+發生[!UICONTROL 空間不足]錯誤，因為先前建立的資料存放區已指派給您配置的資料存放區存放區。
 
 #### 因應措施
 
@@ -252,9 +252,9 @@ Select或Prime套件上的Fusion執行個體會收到：—>
 >
 >建議您不要將所有空間指派給單一資料存放區，除非您確定不需要更多資料存放區。
 
-### [!UICONTROL Maximum stores reached]個錯誤
+### [!UICONTROL 最大存放區數達到]個錯誤
 
-發生[!UICONTROL Maximum stores reached]錯誤，因為您的組織已使用其所有可用的資料存放區。
+發生[!UICONTROL 最大存放區數量達到]個錯誤，因為您的組織已使用其所有可用的資料存放區。
 
 #### 因應措施
 

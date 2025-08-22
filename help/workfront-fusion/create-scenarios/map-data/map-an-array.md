@@ -4,9 +4,9 @@ description: 您可以將陣列或個別陣列元素對應到Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: 0534ad8a-af80-46d2-857d-de882a235edb
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **範例：**
 
-* **複雜陣列**： [!UICONTROL Watch emails]模組會傳回每個電子郵件的附件陣列。 每個附件代表一個集合，其中可能包含名稱、內容、大小等。
+* **複雜陣列**： [!UICONTROL 觀看電子郵件]模組傳回每個電子郵件的附件陣列。 每個附件代表一個集合，其中可能包含名稱、內容、大小等。
 
 >[!ENDSHADEBOX]
 
@@ -37,17 +37,17 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 封裝</td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增： [!UICONTROL Standard]</p><p>或</p><p>目前： [!UICONTROL Work]或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] 授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
    <td>
-   <p>目前：無[!DNL Workfront Fusion]授權需求。</p>
+   <p>目前：無Workfront Fusion授權需求。</p>
    <p>或</p>
    <p>舊版：任何 </p>
    </td> 
@@ -55,34 +55,34 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>[!UICONTROL Select] 或[!UICONTROL Prime] [!DNL Workfront]計畫：您的組織必須購買[!DNL Adobe Workfront Fusion]。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] 計畫： [!DNL Workfront Fusion]已包括在內。</li></ul>
+   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
-   <p>目前：您的組織必須購買[!DNL Adobe Workfront Fusion]。</p>
+   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## 對應整個陣列
 
-1. 按一下左側面板中的&#x200B;**[!UICONTROL Scenarios]**&#x200B;索引標籤。
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要對應陣列的情境。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 在您要對應陣列的模組中，按一下您要對應陣列的欄位。 這是陣列對應的欄位。
 
 1. 在顯示的方塊中，對應專案。
 
-   面板可讓您以與其他任何型別專案相同的方式對應欄位。 如果您不想分別填入每個專案，但想將另一個陣列對應到目標欄位，請使用[!UICONTROL Map]按鈕。 在此情況下，請確定兩個陣列（來源陣列和目標陣列）具有相同的結構。
+   面板可讓您以與其他任何型別專案相同的方式對應欄位。 如果您不想分別填入每個專案，但想將另一個陣列對應到目標欄位，請使用[!UICONTROL 對應]按鈕。 在此情況下，請確定兩個陣列（來源陣列和目標陣列）具有相同的結構。
 
    您可以新增任意數量的專案至陣列。
 
-您可以使用疊代器將陣列分割成個別的組合。 如需詳細資訊，請參閱 [!DNL Adobe Workfront Fusion][&#128279;](/help/workfront-fusion/references/modules/iterator-module.md)中的[!UICONTROL Iterator]模組。
+您可以使用疊代器將陣列分割成個別的組合。 如需詳細資訊，請參閱Adobe Workfront Fusion[[!UICONTROL 中的]迭代器](/help/workfront-fusion/references/modules/iterator-module.md)模組。
 
 ## 將專案對應至新陣列
 
@@ -151,7 +151,7 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 * `map`
 
    1. `map()`函式的第一個引數是整個陣列專案。
-   1. 第二個引數是值專案的原始名稱。 若要取得原始名稱，請將游標停留在[!UICONTROL mapping]面板中的專案上：
+   1. 第二個引數是值專案的原始名稱。 若要取得原始名稱，請將游標停留在[!UICONTROL 對應]面板中的專案上：
 
       ![取得原始名稱](assets/obtain-raw-name-350x124.png)
 
@@ -185,6 +185,6 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 
 ## 將陣列元素轉換為一系列組合
 
-可以使用[!UICONTROL Iterator]模組將陣列轉換為一系列組合。 如需詳細資訊，請參閱[[!UICONTROL Iterator]模組](/help/workfront-fusion/references/modules/iterator-module.md)。
+可以使用[!UICONTROL 疊代器]模組將陣列轉換為一系列組合。 如需詳細資訊，請參閱[[!UICONTROL 迭代器]模組](/help/workfront-fusion/references/modules/iterator-module.md)。
 
 ![系列組合](assets/series-of-bundles.png)

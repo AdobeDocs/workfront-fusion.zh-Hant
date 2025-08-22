@@ -1,19 +1,19 @@
 ---
 title: ServiceNow模組
-description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動化使用 [!DNL ServiceNow]的工作流程，並將其連線到多個協力廠商應用程式和服務。
+description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL ServiceNow]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 7b236869-bd83-4db5-a363-d6570f6e4aff
-source-git-commit: 40470e5d2183f690ad65f5e1170f78c37dee8603
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1622'
 ht-degree: 1%
 
 ---
 
 # [!DNL ServiceNow]模組
 
-在[!DNL Adobe Workfront Fusion]案例中，您可以自動化使用[!DNL ServiceNow]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL ServiceNow]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
 如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -56,9 +56,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需[!DNL Adobe Workfront Fusion]授權的相關資訊，請參閱[[!DNL Adobe Workfront Fusion] 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -75,7 +75,7 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">基礎URL</td> 
+   <td role="rowheader">基礎 URL</td> 
    <td>https://{{connection.instance}}/api</td> 
   </tr>
   <tr> 
@@ -85,40 +85,40 @@ ServiceNow聯結器使用下列專案：
  </tbody> 
  </table>
 
-## 將[!DNL ServiceNow]連線至[!DNL Workfront Fusion]
+## 將[!DNL ServiceNow]連線至Workfront Fusion
 
 若要為您的[!DNL ServiceNow]模組建立連線：
 
-1. 當您開始設定第一個[!DNL ServiceNow]模組時，請按一下[!UICONTROL 連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
-1. 輸入下列內容：
+1. 當您開始設定第一個&#x200B;**[!UICONTROL 模組時，請按一下]**&#x200B;連線[!UICONTROL 方塊旁的]新增[!DNL ServiceNow]。
+1. 輸入下列：
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 連線名稱]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL連線名稱]</p> </td> 
       <td>輸入新[!DNL ServiceNow]連線的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 環境]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL環境]</p> </td> 
       <td>選取您要連線到生產或非生產環境。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 密碼]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL密碼]</p> </td> 
       <td>選取您要連線到服務帳戶還是個人帳戶。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 使用者名稱]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL使用者名稱]</p> </td> 
       <td>輸入您的[!DNL ServiceNow]使用者名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 密碼]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL密碼]</p> </td> 
       <td>輸入您的ServiceNow密碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 執行個體]</p> </td> 
-      <td> <p>輸入沒有<code>https://</code>的[!DNL ServiceNow]帳戶位址（通常是<code>&lt;company>.service-now.com</code>）。</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL執行個體]</p> </td> 
+      <td> <p>輸入沒有[!DNL ServiceNow]的<code>https://</code>帳戶位址（通常是<code>&lt;company>.service-now.com</code>）。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,7 +129,7 @@ ServiceNow聯結器使用下列專案：
 
 ## [!UICONTROL ServiceNow]模組及其欄位
 
-當您設定[!DNL ServiceNow]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL ServiceNow]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定[!DNL ServiceNow]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL ServiceNow]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
 
 如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
@@ -152,31 +152,31 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料表型別]</td> 
+   <td role="rowheader">[！UICONTROL資料表型別]</td> 
    <td>選取您要觀察的表格是自訂表格還是標準表格。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td>選取您要觀看的記錄型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 顯示]</td> 
+   <td role="rowheader">[！UICONTROL顯示]</td> 
    <td>選取您要顯示的值型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
    <td>選取您要模組輸出的欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 篩選器]</td> 
+   <td role="rowheader">[！UICONTROL篩選器]</td> 
    <td>選取您要監視新記錄或更新的記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 限制]</td> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -204,15 +204,15 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料表型別]</td> 
+   <td role="rowheader">[！UICONTROL資料表型別]</td> 
    <td>選取您要在自訂表格或標準表格中建立記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td>選取您要模組建立的[!DNL ServiceNow]記錄型別。 然後，您可以填寫此記錄型別的可用欄位。</td> 
   </tr> 
  </tbody> 
@@ -229,27 +229,27 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 相對URL]</td> 
+   <td role="rowheader">[！UICONTROL相對URL]</td> 
    <td> 輸入相對於<code>https://&ltinstance_url&gt/api/</code>的路徑。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -267,11 +267,11 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 使用者系統識別碼]</td> 
+   <td role="rowheader">[！UICONTROL使用者系統識別碼]</td> 
    <td> 輸入或對應您要停用模組之使用者的唯一[!DNL ServiceNow]識別碼。</td> 
   </tr> 
  </tbody> 
@@ -288,15 +288,15 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td>選取您要刪除事件或使用者。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 系統ID]</td> 
+   <td role="rowheader">[！UICONTROL系統ID]</td> 
    <td>輸入或對應您要模組刪除之記錄的唯一[!DNL ServiceNow]識別碼。</td> 
   </tr> 
  </tbody> 
@@ -311,11 +311,11 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 附件系統ID]</td> 
+   <td role="rowheader">[！UICONTROL附件系統ID]</td> 
    <td> 輸入或對應您要模組下載之附件的唯一[!DNL ServiceNow]識別碼。</td> 
   </tr> 
  </tbody> 
@@ -334,27 +334,27 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄系統ID]</td> 
+   <td role="rowheader">[！UICONTROL記錄系統ID]</td> 
    <td>輸入或對應您要模組讀取之記錄的唯一[!DNL ServiceNow]識別碼。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料表型別]</td> 
+   <td role="rowheader">[！UICONTROL資料表型別]</td> 
    <td>選取您要讀取的記錄是在自訂表格中還是在標準表格中。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td>選取您希望模組讀取的[!DNL ServiceNow]記錄型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 顯示]</td> 
+   <td role="rowheader">[！UICONTROL顯示]</td> 
    <td>選取您要顯示的值型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
    <td>選取您要模組輸出的欄位。</td> 
   </tr> 
  </tbody> 
@@ -371,19 +371,19 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄系統ID]</td> 
+   <td role="rowheader">[！UICONTROL記錄系統ID]</td> 
    <td>輸入或對應您要模組更新的記錄的唯一[!DNL ServiceNow]識別碼。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料表型別]</td> 
+   <td role="rowheader">[！UICONTROL資料表型別]</td> 
    <td>選取要更新的記錄是在自訂表格中還是在標準表格中。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td>選取您希望模組更新的[!DNL ServiceNow]記錄型別。 然後，您可以填寫此記錄型別的可用欄位。</td> 
   </tr> 
  </tbody> 
@@ -398,19 +398,19 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料表名稱]</td> 
+   <td role="rowheader">[！UICONTROL資料表名稱]</td> 
    <td>輸入或對應您要上傳附件的表格名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 系統ID]</td> 
+   <td role="rowheader">[！UICONTROL系統ID]</td> 
    <td>輸入或對應您要上傳附件之專案的唯一[!DNL ServiceNow]識別碼。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -429,46 +429,46 @@ ServiceNow聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將ServiceNow帳戶連線到[!DNL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td> <p>如需有關將ServiceNow帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">將[!DNL ServiceNow]連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料表型別]</td> 
+   <td role="rowheader">[！UICONTROL資料表型別]</td> 
    <td>選取您要搜尋的表格是自訂表格還是標準表格。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td>選取您要搜尋的記錄型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 結果集]</td> 
+   <td role="rowheader">[！UICONTROL結果集]</td> 
    <td>選取您希望模組傳回符合條件的所有記錄，還是隻傳回符合條件的第一筆記錄。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 最大記錄數]</td> 
+   <td role="rowheader">[！UICONTROL最大記錄數]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 搜尋型別]</td> 
+   <td role="rowheader">[！UICONTROL搜尋型別]</td> 
    <td> <p>選取您希望模組執行的搜尋型別</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 進階查詢]</strong> </p> 
+     <li> <p><strong>[！UICONTROL進階查詢]</strong> </p> 
       <ul> 
-       <li> <p>[!UICONTROL 搜尋查詢]</p> <p>輸入自訂搜尋查詢。 如需[!DNL ServiceNow]自訂搜尋查詢的相關資訊，請參閱<a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow查詢檔案</a>。</p> </li> 
+       <li> <p>[！UICONTROL搜尋查詢]</p> <p>輸入自訂搜尋查詢。 如需[!DNL ServiceNow]自訂搜尋查詢的相關資訊，請參閱<a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow查詢檔案</a>。</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL Simple]</strong> </p> 
+     <li> <p><strong>[！UICONTROL Simple]</strong> </p> 
       <ul> 
-       <li> <p>[!UICONTROL 搜尋條件]</p> <p>輸入您希望模組搜尋的條件。 </li> 
-       <li> <p>[!UICONTROL 排序依據]</p> <p>指出您希望模組排序結果的欄位，以及應依遞增或遞減排序。</p> </li> 
+       <li> <p>[！UICONTROL搜尋條件]</p> <p>輸入您希望模組搜尋的條件。 </li> 
+       <li> <p>[！UICONTROL排序依據]</p> <p>指出您希望模組排序結果的欄位，以及應依遞增或遞減排序。</p> </li> 
       </ul> </li> 
     </ul> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 顯示]</td> 
+   <td role="rowheader">[！UICONTROL顯示]</td> 
    <td>選取您要顯示的值型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
    <td>選取您要模組輸出的欄位。</td> 
   </tr> 
  </tbody> 

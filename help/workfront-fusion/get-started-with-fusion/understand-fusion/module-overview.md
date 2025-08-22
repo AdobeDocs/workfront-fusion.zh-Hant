@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion區分五種模組：動作模組、搜尋模
 author: Becky
 feature: Workfront Fusion
 exl-id: 4c8fe028-8425-426d-a006-f0c66871b3cd
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 0%
+source-wordcount: '917'
+ht-degree: 1%
 
 ---
 
@@ -35,8 +35,8 @@ Adobe Workfront Fusion會區分五種模組：
 
 **範例：**
 
-* **[!DNL Workfront]>[!UICONTROL Upload a file]**&#x200B;會將檔案傳送至[!DNL Workfront]並傳回其識別碼。
-* **[!UICONTROL Image]>[!UICONTROL Resize]**&#x200B;會接收影像、將影像大小調整為指定的尺寸，並將調整大小的影像傳遞到下一個動作。
+* **Workfront > [!UICONTROL 上傳檔案]**&#x200B;會將檔案傳送至Workfront並傳回其識別碼。
+* **[!UICONTROL 影像] > [!UICONTROL 調整大小]**&#x200B;會收到影像，將其調整為指定的尺寸，然後將調整大小的影像傳遞到下一個動作。
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ Adobe Workfront Fusion會區分五種模組：
 
 **範例：**
 
-**[!DNL Workfront]>[!UICONTROL Read Related Records]**&#x200B;會讀取符合您指定之搜尋查詢（在特定父物件中）的記錄。
+**Workfront > [!UICONTROL 讀取相關記錄]**&#x200B;會讀取符合您指定之搜尋查詢（在特定父物件中）的記錄。
 
 >[!ENDSHADEBOX]
 
@@ -94,7 +94,7 @@ Adobe Workfront Fusion會區分五種模組：
 
 每個案例只能包含一個觸發器。
 
-[!DNL Workfront Fusion]使用兩種型別的觸發器：輪詢觸發器和即時觸發器。
+Workfront Fusion使用兩種型別的觸發器：輪詢觸發器和即時觸發器。
 
 ### 輪詢觸發程式
 
@@ -110,15 +110,15 @@ Adobe Workfront Fusion會區分五種模組：
 
 **範例：**
 
-* **[!DNL Workfront]>[!UICONTROL Watch records]**&#x200B;傳回上次執行案例後新增的記錄。
+* **Workfront > [!UICONTROL 觀看記錄]**&#x200B;會傳回上次執行情境後新增的記錄。
 
-* **[!DNL Google Sheets]>[!UICONTROL Watch Rows]**&#x200B;傳回上次執行案例後新增的新資料列。
+* **[!DNL Google Sheets]> [!UICONTROL 觀看列]**&#x200B;傳回上次執行案例後新增的新列。
 
 >[!ENDSHADEBOX]
 
 ### 即時觸發程式
 
-即時觸發程式可讓服務在變更發生後立即通知[!DNL Workfront Fusion]變更。 我們建議您排程包含立即觸發器的情境，以便立即執行。
+即時觸發器讓服務能夠在變更發生後立即通知Workfront Fusion。 我們建議您排程包含立即觸發器的情境，以便立即執行。
 
 如需指示，請參閱[排程情境](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md)。
 
@@ -128,8 +128,8 @@ Adobe Workfront Fusion會區分五種模組：
 
 **範例：**
 
-* 當Workfront中發生特定型別的事件（例如建立任務）時，**[!DNL Workfront]>[!UICONTROL Watch Events]**&#x200B;會傳回資訊。
-* 更新儲存格時，**[!DNL Google Sheets]>[!UICONTROL Watch Changes]**&#x200B;會傳回資訊。
+* **Workfront > [!UICONTROL 觀看活動]**&#x200B;會在Workfront中發生特定型別的活動時（例如建立工作），傳回資訊。
+* **[!DNL Google Sheets]> [!UICONTROL 每次更新儲存格時，觀看變更]**&#x200B;都會傳回資訊。
 
 >[!ENDSHADEBOX]
 
@@ -147,9 +147,9 @@ Adobe Workfront Fusion會區分五種模組：
 
 **範例：**
 
-* **[!UICONTROL Archive]>[!UICONTROL Create an archive]**&#x200B;會將多個檔案壓縮成zip封存。
-* **[!UICONTROL CSV]>[!UICONTROL Aggregate to CSV]**&#x200B;會將CSV檔案中的多個字串合併為單一列。
-* **[!UICONTROL Tools]>[!UICONTROL Text aggregator]**&#x200B;將數個字串合併為單一字串。
+* **[!UICONTROL 封存] > [!UICONTROL 建立封存]**&#x200B;會將多個檔案壓縮成zip封存。
+* **[!UICONTROL CSV] > [!UICONTROL 彙總至CSV]**&#x200B;會將CSV檔案中的多個字串合併為一列。
+* **[!UICONTROL 工具] > [!UICONTROL 文字彙總]**&#x200B;將數個字串合併為單一字串。
 
 >[!ENDSHADEBOX]
 
@@ -169,7 +169,7 @@ Adobe Workfront Fusion會區分五種模組：
 
 **範例：**
 
-**[!UICONTROL Email]>[!UICONTROL Retrieve attachments]**&#x200B;將附件陣列分成個別的組合。
+**[!UICONTROL 電子郵件] > [!UICONTROL 擷取附件]**&#x200B;將附件陣列分成不同的組合。
 
 >[!ENDSHADEBOX]
 

@@ -5,9 +5,9 @@ description: 本文說明情境如何執行以及資料如何流經情境。 本
 author: Becky
 feature: Workfront Fusion
 exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
-source-git-commit: 0ef6dde9566ca3b97c1c52d6055f0ce44f575cee
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 如果套件組合正確處理所有模組，情境會在情境詳細資訊頁面中標示為成功。
 
-### 範例：工作自動化的[!DNL Workfront Fusion]
+### 範例： [!UICONTROL 工作自動化的Workfront Fusion]
 
 >[!BEGINSHADEBOX]
 
-**範例：**&#x200B;在此案例中，在[!DNL Workfront]中監視傳入的請求，然後將其轉換為[!DNL Workfront]專案，資料將依照以下方式流動：
+**範例：**&#x200B;在此案例中，若要在Workfront中監視傳入的請求，然後將其轉換到Workfront專案，資料將會如下所示：
 
 此情境的第一個步驟由第一個模組執行，是觀察請求。 找到的每個請求都視為一個組合。 如果模組執行時未發現任何組合，則案例會在第一個模組後結束。
 
@@ -42,11 +42,11 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-### 範例：工作自動化與整合的[!UICONTROL [!DNL Workfront Fusion]]
+### 範例： [!UICONTROL 用於工作自動化與整合的Workfront Fusion]
 
 >[!BEGINSHADEBOX]
 
-**範例：**&#x200B;在此案例中，從[!DNL Adobe Workfront]下載檔案並將它們傳送到[!DNL Dropbox]中的資料夾，資料將依照以下方式流動：
+**範例：**&#x200B;在此案例中，從Adobe Workfront下載檔案並將它們傳送到[!DNL Dropbox]中的資料夾，資料將以下列方式流動：
 
 此情境的第一個步驟由第一個模組執行，就是在Workfront中監視檔案。 找到的每個檔案都會視為一個組合。 如果模組執行時未發現任何組合，則案例會在第一個模組後結束。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 對於每個模組，此套件組合會先進行4步驟的流程，然後再繼續進行下一個模組或到達其最終目的地。
 
 * 初始化
-* 營運
+* 作業
 * 認可/回覆
 * 最終處理
 

@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 92cac080-d8f6-4770-a6a6-8934538c978b
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 1e2a9fcfdfb15f1b254e7b4b32fc618b49de56e5
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2460'
 ht-degree: 1%
 
 ---
@@ -223,15 +223,15 @@ Jira聯結器使用下列專案：
     <col data-mc-conditions=""> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 消費者金鑰]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL消費者金鑰]</p> </td> 
       <td> 將您複製的消費者金鑰貼入安全位置。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 消費者名稱]</td> 
+      <td role="rowheader">[！UICONTROL消費者名稱]</td> 
       <td>輸入您選擇的名稱。 此名稱僅供您參考。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 公開金鑰]</td> 
+      <td role="rowheader">[！UICONTROL公開金鑰]</td> 
       <td>從您的<code>[!DNL jira_publickey.pem]</code>檔案貼入公開金鑰。</td> 
      </tr> 
     </tbody> 
@@ -254,19 +254,19 @@ Jira聯結器使用下列專案：
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 連線名稱]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL連線名稱]</p> </td> 
       <td> <p>輸入連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 環境]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL環境]</p> </td> 
       <td> <p>選取您使用生產或非生產環境。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 型別]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL型別]</p> </td> 
       <td> <p>選取您是使用服務帳戶還是個人帳戶。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 消費者金鑰]</td> 
+      <td role="rowheader">[！UICONTROL消費者金鑰]</td> 
       <td>貼入您複製到<a href="#configure-the-client-app-as-a-consumer-in-jira" class="MCXref xref">中安全位置的消費者金鑰在[!DNL Jira]</a>中將使用者端應用程式設定為消費者</td> 
      </tr> 
      <tr> 
@@ -305,18 +305,18 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td role="rowheader">[！UICONTROL Webhook]</td> 
    <td> <p>選取您要用來監視記錄的webhook。 </p> <p>若要新增webhook：</p> 
     <ol> 
-     <li value="1">按一下<strong>[!UICONTROL 新增]</strong></li> 
+     <li value="1">按一下<strong>[！UICONTROL新增]</strong></li> 
      <li value="2">輸入webhook的名稱。</li> 
      <li value="3"> <p>選取您要用於webhook的連線。 </p> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </li> 
      <li value="4"> <p>選取您要軟體監視的記錄型別：</p> 
       <ul> 
-       <li>[!UICONTROL 註解] </li> 
-       <li>[!UICONTROL 問題]</li> 
-       <li>[!UICONTROL 專案] </li> 
-       <li>[!UICONTROL Sprint]</li> 
+       <li>[！UICONTROL註解] </li> 
+       <li>[！UICONTROL問題]</li> 
+       <li>[！UICONTROL專案] </li> 
+       <li>[！UICONTROL Sprint]</li> 
       </ul> </li> 
     </ol> </td> 
   </tr> 
@@ -344,16 +344,16 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Sprint ID]</td> 
+   <td role="rowheader">[！UICONTROL Sprint ID]</td> 
    <td>輸入或對應您想要新增問題的衝刺(Sprint)的Sprint ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 問題ID或金鑰]</td> 
-   <td>對於您想要檢視體驗的每個問題或金鑰，請按一下<b>[!UICONTROL 新增專案]</b>並輸入問題ID或金鑰。 在一個模組中最多可輸入50個。</td> 
+   <td role="rowheader">[！UICONTROL問題ID或金鑰]</td> 
+   <td>對於您想要檢視體驗的每個問題或金鑰，請按一下<b>[！UICONTROL新增專案]</b>並輸入問題ID或金鑰。 在一個模組中最多可輸入50個。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -371,19 +371,19 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td> <p>選取您要模組建立的記錄型別，然後填寫專屬於該記錄型別的其他欄位，顯示在模組中。</p> 
     <ul> 
-     <li>[!UICONTROL 附件]</li> 
-     <li>[!UICONTROL 註解]</li> 
-     <li>[!UICONTROL 問題]</li> 
-     <li>[!UICONTROL 專案]</li> 
-     <li>[!UICONTROL Sprint] </li> 
-     <li>[!UICONTROL Worklog]</li> 
+     <li>[！UICONTROL附件]</li> 
+     <li>[！UICONTROL註解]</li> 
+     <li>[！UICONTROL問題]</li> 
+     <li>[！UICONTROL專案]</li> 
+     <li>[！UICONTROL Sprint] </li> 
+     <li>[！UICONTROL Worklog]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -400,27 +400,27 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td>輸入相對於<code>&lt;Instance URL>/rest/api/2/ </code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    td&gt; <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
@@ -442,22 +442,22 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td> <p>選取您要模組刪除的記錄型別。 </p> 
     <ul> 
-     <li>[!UICONTROL 附件]</li> 
-     <li>[!UICONTROL 註解]</li> 
-     <li>[!UICONTROL 問題]</li> 
-     <li>[!UICONTROL 專案]</li> 
-     <li>[!UICONTROL Sprint] </li> 
+     <li>[！UICONTROL附件]</li> 
+     <li>[！UICONTROL註解]</li> 
+     <li>[！UICONTROL問題]</li> 
+     <li>[！UICONTROL專案]</li> 
+     <li>[！UICONTROL Sprint] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID或金鑰]</td> 
+   <td role="rowheader">[！UICONTROL ID或金鑰]</td> 
    <td>輸入或對應您要刪除之記錄的ID或金鑰。</td> 
   </tr> 
  </tbody> 
@@ -474,11 +474,11 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td role="rowheader">[！UICONTROL ID]</td> 
    <td>輸入或對應您要下載之附件的ID。</td> 
   </tr> 
  </tbody> 
@@ -499,26 +499,26 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td> <p>選取您希望模組讀取的[!DNL Jira]記錄型別。</p> 
     <ul> 
-     <li>[!UICONTROL 附件]</li> 
-     <li>[!UICONTROL 問題]</li> 
-     <li>[!UICONTROL 專案]</li> 
-     <li>[!UICONTROL Sprint] </li> 
-     <li>[!UICONTROL 使用者]</li> 
+     <li>[！UICONTROL附件]</li> 
+     <li>[！UICONTROL問題]</li> 
+     <li>[！UICONTROL專案]</li> 
+     <li>[！UICONTROL Sprint] </li> 
+     <li>[！UICONTROL使用者]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出]</td> 
-   <td>選取您要接收的輸出。 根據「[!UICONTROL 記錄型別]」欄位中選取的記錄型別，可使用輸出選項。</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
+   <td>選取您要接收的輸出。 根據「[！UICONTROL記錄型別]」欄位中選取的記錄型別，可使用輸出選項。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td role="rowheader">[！UICONTROL ID]</td> 
    <td> <p>輸入或對應您要模組讀取之記錄的唯一[!DNL Jira Software]識別碼。</p> </td> 
   </tr> 
  </tbody> 
@@ -539,22 +539,22 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td> <p>選取您要模組更新的記錄型別。 當您選取記錄型別時，該記錄型別專屬的其他欄位會出現在模組中。</p> 
     <ul> 
-     <li>[!UICONTROL 註解]</li> 
-     <li>[!UICONTROL 問題]</li> 
-     <li>[!UICONTROL 專案]</li> 
-     <li>[!UICONTROL Sprint] </li> 
-     <li>[!UICONTROL 轉換問題]</li> 
+     <li>[！UICONTROL註解]</li> 
+     <li>[！UICONTROL問題]</li> 
+     <li>[！UICONTROL專案]</li> 
+     <li>[！UICONTROL Sprint] </li> 
+     <li>[！UICONTROL轉換問題]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID或金鑰]</td> 
+   <td role="rowheader">[！UICONTROL ID或金鑰]</td> 
    <td>輸入或對應您要更新之記錄的ID或金鑰，然後填寫專屬於該記錄型別的其他欄位，即會顯示在模組中。</td> 
   </tr> 
  </tbody> 
@@ -564,6 +564,24 @@ Jira聯結器使用下列專案：
 
 * [[!UICONTROL 清單記錄]](#list-records)
 * [[!UICONTROL 搜尋記錄]](#search-for-records)
+
+>[!IMPORTANT]
+>
+>舊版Jira聯結器使用的搜尋模組可能會導致以下錯誤：
+>
+>`[410] The requested API has been removed. Please migrate to the /rest/api/3/search/jql API. A full migration guideline is available at https://developer.atlassian.com/changelog/#CHANGE-2046`
+>
+>這是因為Jira端已棄用。
+>
+>如果您遇到此錯誤，您可以使用新聯結器的搜尋模組來取代舊版Jira聯結器的搜尋模組。 請注意，新的聯結器可讓您選取使用的API版本。 建立連線時，請務必選取V3。
+>
+> 新Jira聯結器中的![API版本選項](/help/workfront-fusion/references/apps-and-modules/assets/jira-version-option.png)
+>
+>請注意：
+>
+>* 只有搜尋模組會受到影響。 目前，Fusion聯結器使用的其他Jira API端點不會受到此淘汰的影響。
+>
+>* 地理轉出可能會導致不一致。 Atlassian正在地區範圍內推出這項變更，這表示有些Jira Cloud執行個體可能仍會暫時支援較舊的端點。 這可能會導致環境間的行為不一致。
 
 #### [!UICONTROL 清單記錄]
 
@@ -578,22 +596,22 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td> <p>選取您要模組列出的記錄型別。 當您選取記錄型別時，該記錄型別專屬的其他欄位會出現在模組中。</p> 
     <ul> 
-     <li>[!UICONTROL 註解]</li> 
-     <li>[!UICONTROL 問題]</li> 
-     <li>[!UICONTROL 專案]</li> 
-     <li>[!UICONTROL Sprint問題]</li> 
-     <li>[!UICONTROL Worklog]</li> 
+     <li>[！UICONTROL註解]</li> 
+     <li>[！UICONTROL問題]</li> 
+     <li>[！UICONTROL專案]</li> 
+     <li>[！UICONTROL Sprint問題]</li> 
+     <li>[！UICONTROL Worklog]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 最大結果]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL最大結果]</p> </td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中擷取的記錄數上限。</p> </td> 
   </tr> <!--
    <tr> 
@@ -617,18 +635,18 @@ Jira聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Jira Software]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將[!DNL Jira Software]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
    <td> <p>選取您要模組搜尋的記錄型別。 當您選取記錄型別時，該記錄型別專屬的其他欄位會出現在模組中。</p> 
     <ul> 
-     <li>[!UICONTROL 問題]</li> 
-     <li> <p>[!UICONTROL Issues by JQL （Jira查詢語言）] </p> <p>如需有關JQL的詳細資訊，請參閱Atlassian說明網站上的<a href="https://www.atlassian.com/blog/jira-software/jql-the-most-flexible-way-to-search-jira-14#:~:text=JQLstandsforJiraQuery,projectmanagers%2Candbusinessusers.">JQL</a>。 </p> </li> 
-     <li>[!UICONTROL 專案]</li> 
-     <li>&lbrack;！UICONTROL專案（按問題）</li> 
-     <li>[!UICONTROL 使用者]</li> 
+     <li>[！UICONTROL問題]</li> 
+     <li> <p>[！UICONTROL Issues by JQL （Jira查詢語言）] </p> <p>如需有關JQL的詳細資訊，請參閱Atlassian說明網站上的<a href="https://www.atlassian.com/blog/jira-software/jql-the-most-flexible-way-to-search-jira-14#:~:text=JQLstandsforJiraQuery,projectmanagers%2Candbusinessusers.">JQL</a>。 </p> </li> 
+     <li>[！UICONTROL專案]</li> 
+     <li>[！UICONTROL專案（按問題）</li> 
+     <li>[！UICONTROL使用者]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

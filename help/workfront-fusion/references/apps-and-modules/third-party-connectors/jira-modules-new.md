@@ -4,10 +4,10 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Jira�
 author: Becky
 feature: Workfront Fusion
 exl-id: b74a3618-c4a1-4965-a88d-1643bfab12db
-source-git-commit: 9865101fe57c2668ecb5ad743b3d6963833feb4a
+source-git-commit: 1e2a9fcfdfb15f1b254e7b4b32fc618b49de56e5
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 6%
+source-wordcount: '1744'
+ht-degree: 5%
 
 ---
 
@@ -450,6 +450,24 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
 </table>
 
 ### 搜尋
+
+>[!IMPORTANT]
+>
+>舊版Jira聯結器使用的搜尋模組可能會導致以下錯誤：
+>
+>`[410] The requested API has been removed. Please migrate to the /rest/api/3/search/jql API. A full migration guideline is available at https://developer.atlassian.com/changelog/#CHANGE-2046`
+>
+>這是因為Jira端已棄用。
+>
+>如果您遇到此錯誤，您可以使用新聯結器的搜尋模組來取代舊版Jira聯結器的搜尋模組。 請注意，新的聯結器可讓您選取使用的API版本。 建立連線時，請務必選取V3。
+>
+> 新Jira聯結器中的![API版本選項](/help/workfront-fusion/references/apps-and-modules/assets/jira-version-option.png)
+>
+>請注意：
+>
+>* 只有搜尋模組會受到影響。 目前，Fusion聯結器使用的其他Jira API端點不會受到此淘汰的影響。
+>
+>* 地理轉出可能會導致不一致。 Atlassian正在地區範圍內推出這項變更，這表示有些Jira Cloud執行個體可能仍會暫時支援較舊的端點。 這可能會導致環境間的行為不一致。
 
 #### 搜尋記錄
 

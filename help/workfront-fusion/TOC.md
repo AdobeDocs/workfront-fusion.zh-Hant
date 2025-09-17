@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 71bd96915f21922d637433010acea9321ed476d5
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1862'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 3%
 * Fusion發行活動 {#fusion-release-activity}
    * [Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion版本 — 2025 {#fusion-releases-2025}
+      * [Workfront Fusion發行活動： 2025年9月15日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-9-15.md)
       * [Workfront Fusion發行活動： 2025年8月18日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-8-18.md)
       * [Workfront Fusion發行活動： 2025年7月31日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-7-31.md)
       * [Workfront Fusion發行活動： 2025年7月7日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-7-7.md)
@@ -281,8 +282,8 @@ ht-degree: 3%
          * [專案資料型別](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md)
          * [輸入強制](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md)
          * [資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)
-      * 函數 {#functions}
-         * [函數](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)
+      * 函式 {#functions}
+         * [函式](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)
          * [一般函式](/help/workfront-fusion/references/mapping-panel/functions/general-functions.md)
          * [日期和時間函式](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md)
          * [日期和時間格式的Token](/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md)

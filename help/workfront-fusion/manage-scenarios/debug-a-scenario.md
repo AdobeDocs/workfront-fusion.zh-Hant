@@ -40,7 +40,7 @@ Adobe Workfront Fusion Devtool可協助您瞭解情境並進行疑難排解。 �
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -53,7 +53,7 @@ Adobe Workfront Fusion Devtool可協助您瞭解情境並進行疑難排解。 �
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -142,8 +142,8 @@ Workfront Fusion Devtool分為3個主要區段。 您可以在Devtool視窗的�
       <td role="rowheader"> <p>以原始JSON格式或cURL擷取請求</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>原始JSON</strong> </p> <p>按一下Devtool右窗格右上角的<strong>[！UICONTROL Copy RAW]</strong>。</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>按一下Devtool右窗格右上角的<strong>[！UICONTROL Copy cURL]</strong>。</p> </li> 
+        <li> <p><strong>原始JSON</strong> </p> <p>按一下Devtool右窗格右上角的<strong>[!UICONTROL Copy RAW]</strong>。</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>按一下Devtool右窗格右上角的<strong>[!UICONTROL Copy cURL]</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -192,7 +192,7 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL模組ID]</td>
+        <td>[!UICONTROL 模組ID]</td>
         <td>輸入模組的ID以開啟其設定。</td>
     </tr>
 </table>
@@ -206,11 +206,11 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Keyword]</td> 
+   <td role="rowheader">[!UICONTROL Keyword]</td> 
    <td> <p> 輸入您要搜尋的字詞。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL僅使用值]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 僅使用值]</p> </td> 
    <td> <p>啟用此選項以僅搜尋模組欄位的值。</p> <p>停用此選項亦可搜尋模組欄位的名稱。</p> <p>搜尋會透過名稱和標籤引數來執行。</p> </td> 
   </tr> 
  </tbody> 
@@ -222,7 +222,7 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Source模組]</td>
+        <td>[!UICONTROL Source模組]</td>
         <td>選取您要擷取中繼資料的模組。</td>
     </tr>
 </table>
@@ -240,11 +240,11 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source模組]</td> 
+   <td role="rowheader">[!UICONTROL Source模組]</td> 
    <td> <p> 選取模組或輸入您要從中複製欄位值的模組ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL目標模組]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 目標模組]</p> </td> 
    <td> <p>選取模組或輸入您要插入來源模組值的模組ID。</p> <p>重要：目標模組中的值將被覆寫。</p> </td> 
   </tr> 
  </tbody> 
@@ -263,15 +263,15 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source模組]</td> 
+   <td role="rowheader">[!UICONTROL Source模組]</td> 
    <td> <p> 選取模組或輸入您要從中複製篩選值的模組ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL目標模組]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 目標模組]</p> </td> 
    <td> <p>選取模組或輸入要從來源模組插入篩選值之模組的ID。</p> <p>重要：目標模組中的值將被覆寫。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Preserve Fallback Route setting]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Preserve Fallback Route setting]</p> </td> 
    <td> <p>來源篩選器已設定為遞補路由。 啟用此選項也可以將目標篩選器設定為遞補路由。</p> </td> 
   </tr> 
  </tbody> 
@@ -287,7 +287,7 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL模組] </td> 
+   <td role="rowheader">[!UICONTROL 模組] </td> 
    <td> <p>選取您要複製名稱的模組。</p> </td> 
   </tr> 
  </tbody> 
@@ -299,7 +299,7 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
 
 <table style="table-layout:auto">
     <tr>
-        <td>[！UICONTROL Source模組]</td>
+        <td>[!UICONTROL Source模組]</td>
         <td>選取模組或輸入您要複製連線的模組ID。</td>
     </tr>
 </table>
@@ -313,15 +313,15 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL要尋找的變數]</td> 
-   <td> <p> 從情境中的變數模組中找出您要取代的變數藥丸，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例：<code>&#123;&#123;5.value&#125;&#125;</code>。</p> </td> 
+   <td role="rowheader">[!UICONTROL 要尋找的變數]</td> 
+   <td> <p> 從情境中的變數模組中找出您要取代的變數藥丸，並將其複製到此（[!UICONTROL 要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例：<code>&#123;&#123;5.value&#125;&#125;</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL取代為]</p> </td> 
-   <td> <p>從情境中的變數模組，找出您要取代變數的變數藥丸，並將其複製到此（[！UICONTROL要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例：<code>&#123;&#123;5.value&#125;&#125;</code>。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 取代為]</p> </td> 
+   <td> <p>從情境中的變數模組，找出您要取代變數的變數藥丸，並將其複製到此（[!UICONTROL 要尋找的變數]）欄位。 在欄位中，它會顯示為雙大括弧。 範例：<code>&#123;&#123;5.value&#125;&#125;</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL模組]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 模組]</p> </td> 
    <td> <p>選取您要取代變數的變數模組。 如果未選取任何模組，則變數會在整個案例中被取代。</p> </td> 
   </tr> 
  </tbody> 
@@ -336,12 +336,12 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL操作] </td> 
-   <td> <p>選取您要將資料從[！UICONTROL Raw Data]欄位編碼為Base64，還是要將Base64解碼為Raw Data。</p> </td> 
+   <td role="rowheader">[!UICONTROL 操作] </td> 
+   <td> <p>選取您要將資料從[!UICONTROL Raw Data]欄位編碼為Base64，還是要將Base64解碼為Raw Data。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL原始資料]</p> </td> 
-   <td> <p> 根據上面[！UICONTROL Operation]欄位中選取的選項，輸入您要編碼為Base64的資料，或如果您要解碼為原始資料，則輸入Base64。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 原始資料]</p> </td> 
+   <td> <p> 根據上面[!UICONTROL Operation]欄位中選取的選項，輸入您要編碼為Base64的資料，或如果您要解碼為原始資料，則輸入Base64。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -357,15 +357,15 @@ Workfront Fusion Devtool提供的工具可讓您更輕鬆設定情境。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source模組] </td> 
+   <td role="rowheader">[!UICONTROL Source模組] </td> 
    <td> <p> 選取您要取代的模組，作為情境中其他模組的對應來源。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL目標模組]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 目標模組]</p> </td> 
    <td> <p>選取要作為新對應來源的模組。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL要編輯的模組]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 要編輯的模組]</p> </td> 
    <td> <p>如果您不想要變更整個案例中的對應，請選取您要變更其對應的模組。 </p> </td> 
   </tr> 
  </tbody> 

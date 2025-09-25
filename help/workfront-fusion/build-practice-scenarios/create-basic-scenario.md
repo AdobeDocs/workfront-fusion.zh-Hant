@@ -7,9 +7,9 @@ description: 瞭解如何使用Adobe Workfront Fusion建立簡單的自動化案
 author: Becky
 feature: Workfront Fusion
 exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 7f4709920e52f6b8660370af83de1f11eecbf092
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1426'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -49,7 +49,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -130,7 +130,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 
 ## 新增並設定第二個模組
 
-1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]&#x200B;**&#x200B;**。
+1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]****。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 轉換物件]**。
 1. 在「[!UICONTROL 連線]」欄位中，選取您在上一個模組中使用的相同Workfront連線。
 1. 在&#x200B;**[!UICONTROL 記錄型別]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL 問題]**，因為模組將會轉換問題。
@@ -191,9 +191,9 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 >
 >1. 關閉&#x200B;**[!UICONTROL 附註]**&#x200B;區域。
 >
->     將附註新增至情境後，情境編輯器底部的&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附註圖示上會顯示橘色點](assets/notes-icon-w-dot.png)。
+>     將附註新增至情境後，情境編輯器底部的&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附註圖示上會顯示一個點](assets/notes-icon-w-dot.png)。
 >
->1. 按一下&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附點](assets/notes-icon-w-dot.png)的附註圖示以檢視您的附註。
+>1. 按一下&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附點](assets/notes-icon-w-dot.png)的附註圖示以檢視您的附註。 當註記開啟時，註記圖示周圍會出現一個圓圈。
 >
 
 ## 啟動情境

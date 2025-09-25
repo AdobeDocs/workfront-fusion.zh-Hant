@@ -5,9 +5,9 @@ description: 我們建議您選擇加入每個模組相關附註的作法，但�
 author: Becky
 feature: Workfront Fusion
 exl-id: 754601fa-b572-42c2-96a3-3c36a8ed2c56
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 7f4709920e52f6b8660370af83de1f11eecbf092
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,7 @@ ht-degree: 0%
    將附註新增至情境後，情境編輯器底部的&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附註圖示上會顯示一個藍點](assets/notes-icon-w-dot.png)。
 
 1. 若要檢視或隱藏所有附註，請按一下&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附有點](assets/notes-icon-w-dot.png)的附註圖示。
+
+   當註記開啟時，註記圖示周圍會出現一個圓圈。
+
+   ![附有圓圈的附註圖示](assets/notes-icon-with-circle.png)

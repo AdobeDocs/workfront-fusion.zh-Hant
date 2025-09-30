@@ -4,9 +4,9 @@ description: 本文包含有關 [!DNL Adobe] Workfront Fusion中角色存取權�
 author: Becky
 feature: Workfront Fusion
 exl-id: 92f3bb09-0b66-45cd-84ef-88b2aa246be1
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4cd97fe2924150b9e7be140a25215f135b2788da
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '416'
 ht-degree: 2%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p>[!UICONTROL 擁有者]</p> </th> 
-   <th> <p>[!UICONTROL 管理員]</p> </th> 
-   <th> <p>[!UICONTROL 成員]</p> </th> 
-   <th> <p>[!UICONTROL 會計師]</p> </th> 
+   <th> <p>[！UICONTROL擁有者]</p> </th> 
+   <th> <p>[！UICONTROL管理員]</p> </th> 
+   <th> <p>[！UICONTROL成員]</p> </th> 
+   <th> <p>[！UICONTROL會計師]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -54,7 +54,7 @@ ht-degree: 2%
   <tr> 
    <td> <p>管理組織使用者</p> </td> 
    <td>✓ </td> 
-   <td>✓</td> 
+   <td>✓<p>如果組織使用Adobe IMS，則可以在Adobe Admin Console上管理使用者。 只能邀請使用者加入其他組織。</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -89,10 +89,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 管理員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 成員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -208,10 +208,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 管理員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 成員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -257,10 +257,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 管理員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 成員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -306,10 +306,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 管理員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 成員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -362,10 +362,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 管理員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 成員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -411,10 +411,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 管理員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 成員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -460,10 +460,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 管理員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 成員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -516,10 +516,10 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 管理員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 成員]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL管理員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL成員]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL監視]</p> </th> 
+   <th> <p style="text-align: left;">[！UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 

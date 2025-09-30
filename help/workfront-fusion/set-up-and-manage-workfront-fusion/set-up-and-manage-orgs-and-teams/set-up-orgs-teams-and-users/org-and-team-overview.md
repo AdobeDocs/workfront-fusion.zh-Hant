@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion的「組織」和「團隊」功能可讓企
 author: Becky
 feature: Workfront Fusion
 exl-id: 44e6de2a-b2d3-410d-abc3-10facd258495
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4cd97fe2924150b9e7be140a25215f135b2788da
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Workfront Fusion使用者屬於組織。
 使用者在組織中擁有下列其中一種角色：
 
 * **[!UICONTROL 所有者]**：所有者擁有組織中可用的所有許可權。
-* **[!UICONTROL 管理員]**：管理員可以建立和管理組織的團隊和使用者，也可以核准範本。
+* **[!UICONTROL 管理員]**：如果組織已啟用Adobe Admin Console Identity Management System (IMS)，管理員可以在Adobe上管理使用者，也可以邀請新使用者加入未使用IMS的組織。 他們也可以核准範本。
 * **[!UICONTROL 成員]**：成員可以使用Workfront Fusion，但無法進行組織變更。
 * **[!UICONTROL 會計]**：會計可以在組織儀表板上看到授權資訊，但無法執行任何動作。
 * **[!UICONTROL 應用程式開發人員]**：此角色的功能目前無法使用，而且將在不久的將來提供。 我們目前不建議將使用者指派給此角色。

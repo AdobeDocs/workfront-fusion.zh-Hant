@@ -4,9 +4,9 @@ description: 您可以顯示情境的事件或執行相關資訊，也可以搜�
 author: Becky
 feature: Workfront Fusion
 exl-id: 974b32b4-d86a-48cd-a8d4-1ae2cf309b9b
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: c0a4e563657871f856b7d449432d563c6caa27a1
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->情境歷史記錄會顯示情境過去30天的所有事件和執行。
+>情境歷史記錄會顯示情境過去30天的所有執行。
 
 ## 存取需求
 
@@ -39,7 +39,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -52,7 +52,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 

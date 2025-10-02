@@ -4,9 +4,9 @@ description: Fusion使用中繼資料來識別連線的重要屬性。
 author: Becky
 feature: Workfront Fusion
 exl-id: b41fbe8c-30fa-49d0-8a24-3535642b97ae
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: d13312031955a697e10ddfcdc2e64dfe198b3dac
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,11 @@ Fusion使用中繼資料來識別連線的重要屬性。
 
 ![連線中繼資料](assets/connection-metadata-setup.png)
 
-Fusion使用者可以從「連線」區域檢視及編輯連線。
+Fusion使用者可以從「連線」區域檢視及編輯連線。 您可以按一下左側導覽中的「連線」來存取「連線」區域。
 
-![連線區域中的連線中繼資料](assets/connections-area-metadata.png)
+左側導覽中的![連線區域](assets/connections-in-left-nav.png)
+
+<!--![Connection metadata in Connections area](assets/connections-area-metadata.png)-->
 
 ## 環境型別
 

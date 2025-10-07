@@ -3,9 +3,9 @@ title: API總覽
 description: 應用程式設計介面(API)是應用程式和服務彼此通訊的一種方式。 Fusion會使用API與您連線的應用程式通訊。 每個應用程式都有個別的API。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 1ee32ad1faa8c105142f85e83f1b522548fc7f93
+source-git-commit: f5dcb5207581fb68d0f3048d23214d08a28f2f22
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,8 @@ API擁有者從可用性移除部分或全部API時，中斷變更的常見原�
 由於您的Fusion案例是使用特定資料設定的，因此您可能需要更新案例。
 
 * 如果變更與驗證或授權有關，您可能需要更新該應用程式的連線。
-* 如果變更與API中的特定動作（端點）相關，您可能需要將與該動作相關的模組更新為模組的新版本。
-* 如果不建議使用Fusion使用的整個API版本，您可能需要將該聯結器的所有模組更新為新版本的聯結器。
+* 如果變更與API中的特定動作（端點）相關，您可能需要將與該動作相關的任何模組更新為模組的新版本。
+* 如果淘汰Fusion使用的整個API版本，您可能需要將該聯結器的所有模組更新到聯結器的新版本。
 
 在許多情況下，您可以升級至模組的新版本，而不需要重新設定該模組。
 

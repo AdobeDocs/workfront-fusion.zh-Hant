@@ -4,7 +4,7 @@ description: 使用適用於Adobe Workfront Fusion的Adobe Experience Manager As
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 361e6c9c-1497-4f47-85bb-503619744968
-source-git-commit: d62a8bd4675c034581f6cf5f3a1e61c177de5ebc
+source-git-commit: 190c35629f1fc1e07eef4110f3f4f771af1065fb
 workflow-type: tm+mt
 source-wordcount: '3727'
 ht-degree: 2%
@@ -48,7 +48,7 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -67,10 +67,10 @@ ht-degree: 2%
 * 您必須擁有Adobe Experience Manager Assets帳戶才能使用這些模組。
 * 您必須在Adobe Developer主控台中設定伺服器對伺服器流程。
 
-  如需在Adobe Developer主控台中設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
+  如需在Adobe Developer主控台中設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
 * 您的Adobe Experience Manager技術帳戶必須擁有寫入許可權。
 
-  如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
+  如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
 
 ## Adobe Experience Manager Assets API資訊
 
@@ -118,11 +118,11 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
 >
 >* 這些欄位的資訊是在Adobe Developer Console上設定伺服器對伺服器流程時產生的。 您可以在設定過程中產生的服務認證JSON檔案中找到這些值。
 >
->   如需在Adobe Developer Console上設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
+>   如需在Adobe Developer Console上設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
 >
 >* 您的Adobe Experience Manager技術帳戶必須擁有寫入許可權。
 >
->   如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
+>   如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
 
 
 <table style="table-layout:auto"> 
@@ -164,8 +164,8 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
                   <td class="">如果以手動方式輸入明細，請輸入貴組織的識別碼。 這是使用者端認證JSON檔案中的「org」欄位。</td>
               </tr>
               <tr>
-                  <td role="rowheader">中繼範圍</td>
-                  <td>輸入在伺服器對伺服器設定中產生的中繼範圍。</td>
+                  <td role="rowheader">Meta範圍</td>
+                  <td>輸入在伺服器對伺服器設定中產生的Meta範圍。</td>
               </tr>
               <tr>
                   <td role="rowheader">私密金鑰</td>
@@ -303,7 +303,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">目的地</td> 
+   <td role="rowheader">目標</td> 
    <td> <p>選取您要上傳檔案的資料夾。</p> </td> 
   </tr> 
   <tr> 
@@ -331,7 +331,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">目的地</td> 
+   <td role="rowheader">目標</td> 
    <td> <p>選取您要上傳資產的檔案夾。</p> </td> 
   </tr> 
   <tr> 
@@ -591,7 +591,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">資產ID</td> 
+   <td role="rowheader">資產 ID</td> 
    <td> <p>輸入或對應您要刪除之資產的ID。</p> </td> 
   </tr> 
   <tr> 
@@ -669,7 +669,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">資產ID</td> 
+   <td role="rowheader">資產 ID</td> 
    <td> <p>輸入或對應您要取得中繼資料之資產的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -688,7 +688,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">資產ID</td> 
+   <td role="rowheader">資產 ID</td> 
    <td> <p>輸入或對應您要更新中繼資料的資產ID。</p> </td> 
   </tr> 
   <tr> 
@@ -773,7 +773,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">到期日</td> 
-   <td> <p>輸入或對應資產的實驗日期。</p><p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </td> 
+   <td> <p>輸入或對應資產的到期日。</p><p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">自訂中繼資料</td> 
@@ -814,7 +814,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">資產ID</td> 
+   <td role="rowheader">資產 ID</td> 
    <td> <p>輸入或對應您要將其他資產與之建立關聯的ID資產。</p> </td> 
   </tr> 
   <tr> 
@@ -837,7 +837,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">資產ID</td> 
+   <td role="rowheader">資產 ID</td> 
    <td> <p>輸入或對應您要從中刪除關係的ID資產。</p> </td> 
   </tr> 
   <tr> 
@@ -869,7 +869,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">資產ID</td> 
+   <td role="rowheader">資產 ID</td> 
    <td> <p>輸入或對應您要列出其關係型別的ID資產。</p> </td> 
   </tr> 
  </tbody> 
@@ -888,7 +888,7 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
    <td> <p>如需有關將Adobe Experience Manager Assets帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">將Adobe Experience Manager Assets連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">資產ID</td> 
+   <td role="rowheader">資產 ID</td> 
    <td> <p>輸入或對應您要列出關係的ID資產。</p> </td> 
   </tr> 
   <tr> 

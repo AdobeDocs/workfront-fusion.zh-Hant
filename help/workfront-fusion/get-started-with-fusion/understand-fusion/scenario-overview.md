@@ -4,9 +4,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: de81ad4c-27e5-4b6c-acf0-f01a8c85922e
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 34dad92019ca855f40698d3f3795788698c1cece
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Workfront Fusion可連線至其他應用程式和Web服務。 您可以存取、
 
 >[!IMPORTANT]
 >
->Adobe Workfront Fusion可以連線到幾乎任何網路服務。 如果您要使用的應用程式沒有專用的Workfront Fusion聯結器，您可使用通用聯結器連線至應用程式或服務。
+>Adobe Workfront Fusion可以連線到幾乎任何網路服務。 如果您要使用的應用程式沒有專用的Workfront Fusion聯結器，您可以使用通用聯結器來連線至應用程式或服務。
 >
 >如需通用聯結器的清單，請參閱[通用聯結器](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)
 

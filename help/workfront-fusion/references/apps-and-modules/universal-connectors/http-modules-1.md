@@ -1,21 +1,17 @@
 ---
 title: HTTP 模組
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+description: HTTP聯結器提供各種模組，用於根據超文字傳輸通訊協定(HTTP)通訊協定進行通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 34dad92019ca855f40698d3f3795788698c1cece
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 2%
+source-wordcount: '201'
+ht-degree: 1%
 
 ---
 
 # HTTP 模組
-
->[!NOTE]
->
->除了[!DNL Adobe Workfront license]之外，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
 
 HTTP應用程式提供各種模組，用於根據超文字傳輸通訊協定(HTTP)通訊協定進行通訊。 HTTP是全球資訊網資料通訊的基礎。 您可以使用模組下載網頁和檔案、呼叫Webhook和API端點等。
 

@@ -3,7 +3,7 @@ title: API總覽
 description: 應用程式設計介面(API)是應用程式和服務彼此通訊的一種方式。 Fusion會使用API與您連線的應用程式通訊。 每個應用程式都有個別的API。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: f5dcb5207581fb68d0f3048d23214d08a28f2f22
+source-git-commit: b30aac8040cc0b6bcad92914b1c0997a8ddebdd5
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -24,7 +24,7 @@ API是由其擁有者而非Fusion定義的事實，導致了一些重要的考�
 
 * **您可以使用Fusion連線到任何具有公用API的應用程式或服務**，無論Fusion是否提供該應用程式或服務的專用聯結器。 您可以使用Fusion的通用聯結器，將這些應用程式或服務帶入您的情境中。
 
-  如需通用聯結器的清單，請參閱[通用聯結器](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)
+  如需通用聯結器的清單，請參閱[通用聯結器](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)。
 
 * **擁有者對應用程式API所做的變更可能會影響Fusion功能。**&#x200B;如果變更足夠嚴重，Fusion可能需要更新模組或連線型別，或在極端情況下可能會為應用程式建立新的聯結器。
 

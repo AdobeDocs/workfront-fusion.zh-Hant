@@ -31,7 +31,7 @@ ht-degree: 1%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -44,7 +44,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
+   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
    <p>或</p>
    <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
    </td> 
@@ -67,7 +67,7 @@ ht-degree: 1%
 1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 範本]**&#x200B;圖示![範本圖示](assets/templates-icon.png)。
 1. 按一下包含您要使用之範本（公用範本或專案團隊範本）的標籤。
 1. 按一下您要用來開始建立情境的範本。 您可以使用右上角的搜尋方塊，依範本名稱或範本中包含的應用程式名稱來尋找範本。
-1. （視條件而定）如果您是多個組織或團隊的成員，請選取您要建立情境的組織或團隊，然後按一下[繼續]。****
+1. （視條件而定）如果您是多個組織或團隊的成員，請選取您要建立情境的組織或團隊，然後按一下[繼續]。**&#x200B;**
 1. （視條件而定）如果範本是以[!UICONTROL 精靈]設定，請依照提示設定情境。 在每次提示時按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以確認。
 
    >[!NOTE]

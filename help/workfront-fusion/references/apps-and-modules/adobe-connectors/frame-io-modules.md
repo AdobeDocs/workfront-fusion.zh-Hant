@@ -108,9 +108,9 @@ Frame.io聯結器使用下列專案：
 
 您可以使用API權杖或使用OAuth 2.0連線至[!DNL Frame.io]。
 
-[使用API權杖連線至 [!DNL Frame.io] ](#connect-to-frameio-using-an-api-token)
+[使用API權杖連線至 [!DNL Frame.io] &#x200B;](#connect-to-frameio-using-an-api-token)
 
-[使用OAuth 2.0 PKCE連線至 [!DNL Frame.io] ](#connect-to-frameio-using-oauth-20-pkce)
+[使用OAuth 2.0 PKCE連線至 [!DNL Frame.io] &#x200B;](#connect-to-frameio-using-oauth-20-pkce)
 
 ### 使用API權杖連線到[!DNL Frame.io]
 
@@ -130,8 +130,8 @@ Frame.io聯結器使用下列專案：
 
 您可以使用OAuth 2.0 PKCE搭配選用的使用者端ID來建立與[!DNL Frame.io]的連線。 如果您想要在連線中包含使用者端ID，您必須在您的[!DNL Frame.io]帳戶中建立OAuth 2.0應用程式。
 
-* [使用OAuth 2.0 PKCE （不含使用者端ID）連線至 [!DNL Frame.io] ](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
-* [使用OAuth 2.0 PKCE （含使用者端ID）連線至 [!DNL Frame.io] ](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
+* [使用OAuth 2.0 PKCE （不含使用者端ID）連線至 [!DNL Frame.io] &#x200B;](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
+* [使用OAuth 2.0 PKCE （含使用者端ID）連線至 [!DNL Frame.io] &#x200B;](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
 
 #### 使用OAuth 2.0 PKCE （不含使用者端ID）連線至[!DNL Frame.io]
 

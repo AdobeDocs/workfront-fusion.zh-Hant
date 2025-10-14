@@ -17,6 +17,6 @@ ht-degree: 4%
 
 * [新增錯誤處理](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md)
 * [新增篩選和巢狀至錯誤處理路由](/help/workfront-fusion/create-scenarios/config-error-handling/advanced-error-handling.md)
-* [設定 ](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md)
-* [設定 ](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
+* [設定 &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md)
+* [設定 &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
 * [解決Break指示詞處理的錯誤](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md)

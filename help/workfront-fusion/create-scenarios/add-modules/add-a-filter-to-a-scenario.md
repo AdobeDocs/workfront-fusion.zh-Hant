@@ -106,7 +106,7 @@ ht-degree: 1%
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增篩選的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 按一下熒幕底部附近的DevTool圖示![ DevTool圖示](assets/debugger-icon.png)，開啟Fusion DevTool。
+1. 按一下熒幕底部附近的DevTool圖示![&#x200B; DevTool圖示](assets/debugger-icon.png)，開啟Fusion DevTool。
 
    如果您沒有看到DevTool圖示，請參閱[偵錯案例](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md)以取得開啟DevTool的說明。
 

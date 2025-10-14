@@ -93,7 +93,7 @@ Google磁碟機聯結器使用下列專案：
 
 如果您使用[!DNL @gmail.com]或[!DNL @googlemail.com]使用者，您必須在[!DNL Google Cloud Platform]上建立OAuth使用者端以取得您的[!UICONTROL 使用者端識別碼]和[!UICONTROL 使用者端密碼]。
 
-如需如何建立OAuth使用者端（以及取得[!UICONTROL 使用者端識別碼]和[!UICONTROL 使用者端密碼]）的逐步指示，請參閱[使用自訂OAuth使用者端將Adobe Workfront Fusion連線至 [!DNL Google Services] ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md)。
+如需如何建立OAuth使用者端（以及取得[!UICONTROL 使用者端識別碼]和[!UICONTROL 使用者端密碼]）的逐步指示，請參閱[使用自訂OAuth使用者端將Adobe Workfront Fusion連線至 [!DNL Google Services] &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md)。
 
 如需有關將您的[!DNL Google Drive]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md) — 基本指示
 

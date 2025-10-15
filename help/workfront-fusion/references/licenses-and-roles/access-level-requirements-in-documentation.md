@@ -34,7 +34,7 @@ Adobe Workfront Fusion檔案操作說明文章包含一個表格，其中說明�
    <td role="rowheader">Adobe Workfront套件 
    <td> Adobe Workfront套件是指您的組織已購買的一組功能。 大部分的Fusion功能都可在所有計畫中使用，但有一些例外情況僅適用於具有Ultimate Workfront套件的組織。 
    <ul><li>若要瞭解您的組織使用哪個Adobe Workfront套件，包括您的組織使用新的或目前的封裝模式，請聯絡您的Workfront管理員。</li>
-   <li>如需Workfront管理員如何找到您組織的Workfront套件的指示，請參閱Workfront檔案中的<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan">檢視您組織的叢集和Workfront計畫</a>。</li><li>如需有關新Workfront套件的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul> </td> 
+   <li>如需Workfront管理員如何找到您組織的Workfront套件的指示，請參閱Workfront檔案中的<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan">檢視您組織的叢集和Workfront計畫</a>。</li><li>如需有關新Workfront套件的詳細資訊，請參閱<a href="https://business.adobe.com/tw/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 

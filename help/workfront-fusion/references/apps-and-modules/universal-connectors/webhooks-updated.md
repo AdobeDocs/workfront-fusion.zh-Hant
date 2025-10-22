@@ -4,7 +4,7 @@ description: webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來
 author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 3a05e5df36bf9b1aacd0611fdad0240c8c52368d
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -98,23 +98,23 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><p>[!UICONTROL URL] </p></td> 
-      <td>輸入webhook的URL。 您可以在用來設定webhook的[!UICONTROL Webhooks]模組中找到此URL。</td> 
+      <td role="rowheader"><p>[！UICONTROL URL] </p></td> 
+      <td>輸入webhook的URL。 您可以在用來設定webhook的[！UICONTROL Webhooks]模組中找到此URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 方法] </td> 
-      <td><p>[!UICONTROL POST]</p></td> 
+      <td role="rowheader">[！UICONTROL方法] </td> 
+      <td><p>[！UICONTROL POST]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 主體型別]</td> 
-      <td><p> [!UICONTROL Raw]</p></td> 
+      <td role="rowheader">[！UICONTROL主體型別]</td> 
+      <td><p> [！UICONTROL Raw]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 內容型別]</td> 
+      <td role="rowheader">[！UICONTROL內容型別]</td> 
       <td><p> JSON (application/json)</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 要求內容]</td> 
+      <td role="rowheader">[！UICONTROL要求內容]</td> 
       <td><p>webhook中需要原始JSON</p></td> 
      </tr> 
     </tbody> 
@@ -278,7 +278,7 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
   >
   >我們建議將`Content-Type`標頭設定為對應的MIME型別： `text/plain` （純文字）、`text/html` (HTML)、`application/json` (JSON)、`application/xml` (XML)等等。 如需MIME型別的詳細資訊，請參閱[MIME模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md)。
 
-傳送回應的逾時為40秒。 如果在該期間內沒有回應，Workfront Fusion會傳回「200已接受」狀態。
+傳送回應的逾時為5分鐘。 如果在該期間內沒有回應，Workfront Fusion會傳回「200已接受」狀態。
 
 ### HTML回應範例
 
@@ -289,27 +289,27 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >設定[!UICONTROL Webhook回應]模組，如下所示：
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL 狀態] </td> 
->&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL Body] </td> 
->&gt;   <td> <p>HTML程式碼</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>[!UICONTROL 自訂標頭]</p> </td> 
->&gt;   <td> 
->&gt;    <ul> 
->&gt;     <li><strong>索引鍵</strong>： Content-type</li> 
->&gt;     <li><strong>值</strong>： text/html</li> 
->&gt;    </ul> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[！UICONTROL狀態] </td> 
+&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[！UICONTROL Body] </td> 
+&gt;   <td> <p>HTML程式碼</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>[！UICONTROL自訂標頭]</p> </td> 
+&gt;   <td> 
+&gt;    <ul> 
+&gt;     <li><strong>索引鍵</strong>： Content-type</li> 
+&gt;     <li><strong>值</strong>： text/html</li> 
+&gt;    </ul> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
 >
 >![自訂標頭](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
@@ -324,23 +324,23 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >**範例：**&#x200B;設定[!UICONTROL Webhook回應]模組，如下所示：
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL 狀態] </td> 
->&gt;   <td> <p>3xx重新導向HTTP狀態代碼，例如303</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>[!UICONTROL 自訂標頭]</p> </td> 
->&gt;   <td> 
->&gt;    <ul> 
->&gt;     <li><strong>[!UICONTROL 索引鍵]</strong>：位置</li> 
->&gt;     <li><strong>[!UICONTROL 值]</strong>：您要重新導向的URL。</li> 
->&gt;    </ul> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[！UICONTROL狀態] </td> 
+&gt;   <td> <p>3xx重新導向HTTP狀態代碼，例如303</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>[！UICONTROL自訂標頭]</p> </td> 
+&gt;   <td> 
+&gt;    <ul> 
+&gt;     <li><strong>[！UICONTROL索引鍵]</strong>：位置</li> 
+&gt;     <li><strong>[！UICONTROL值]</strong>：您要重新導向的URL。</li> 
+&gt;    </ul> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
 >
 >![Webhook回應](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 

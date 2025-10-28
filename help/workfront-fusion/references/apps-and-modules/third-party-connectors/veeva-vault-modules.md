@@ -3,9 +3,9 @@ title: Veeva儲存庫模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Veeva Vault的工作流程，並將其連線到多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 6e7125bee77526caa93edc17f05b75bdfd7d7ac4
+source-git-commit: 4f5a4cf8691e5bb47eec6f6b2842369c5c6fbad8
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1516'
 ht-degree: 3%
 
 ---
@@ -318,7 +318,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
-   <td> <p>選取您要建立檔案、繫結器或範本。</p> </td> 
+   <td> <p>選取您要建立檔案、檔案版本、繫結器或範本。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>ID/名稱</p> </td> 

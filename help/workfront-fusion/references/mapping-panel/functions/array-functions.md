@@ -4,9 +4,9 @@ description: 下列陣列函式可在Adobe Workfront Fusion對應面板中使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 16c3915c-add1-4aab-a0e1-75fc590c42a6
-source-git-commit: d141738a7e013ed817cb657b883fc5e1061e2165
+source-git-commit: 9b61a3b18df1f755cc7ccc28889564e4bcb6cda0
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 0%
 
   傳回包含電子郵件的基本陣列
 
-* `map(Emails[];email;label;work;home)`
+* `map(Emails[];email;label;work)`
 
-  傳回原始陣列，其中包含標籤等於工作或住家位置的電子郵件
+  傳回帶有標籤等於運作之電子郵件的基本陣列
 
 >[!ENDSHADEBOX]
 
@@ -200,11 +200,11 @@ ht-degree: 0%
 
 為`mode`引數輸入下列其中一個值。
 
-* `classic`：傳回新陣列，其中包含`array2`中不存在的`array1`的所有元素。
+* `classic`：傳回新陣列，其中包含`array1`中不存在的`array2`的所有元素。
 
 * `symmetric`：傳回兩個陣列不共用的元素陣列。
 
-  換言之，此函式傳回的陣列包含`array2`中不存在的`array1`的所有元素，以及`array1`中不存在的`array2`的所有元素。
+  換言之，此函式傳回的陣列包含`array1`中不存在的`array2`的所有元素，以及`array2`中不存在的`array1`的所有元素。
 
 >[!BEGINSHADEBOX]
 

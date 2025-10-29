@@ -3,9 +3,9 @@ title: Veeva儲存庫模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Veeva Vault的工作流程，並將其連線到多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4f5a4cf8691e5bb47eec6f6b2842369c5c6fbad8
+source-git-commit: 37cb18a2e13a494c4174514539c0c7e43cdee011
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1661'
 ht-degree: 3%
 
 ---
@@ -59,6 +59,56 @@ ht-degree: 3%
 ## 先決條件
 
 若要使用Veeva Vault模組，您必須擁有Veeva Vault帳戶。
+
+## 將Veeva Vault連線至Workfront Fusion
+
+您可以直接從Veeva Vault模組內建立與Veeva Vault帳戶的連線。
+
+1. 在任何Veeva儲存庫模組中，按一下[連線]欄位旁的&#x200B;**新增**。
+1. 填寫下列欄位。
+
+   <table style="table-layout:auto"> 
+     <col> 
+     <col> 
+     <tbody> 
+      <tr> 
+       <td role="rowheader">連線名稱</td> 
+       <td> <p>輸入連線的名稱。</p> </td> 
+      </tr> 
+      <tr>
+        <td role="rowheader">環境</td>
+        <td>
+          <p>選取要連線到生產或非生產環境。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">類型</td>
+        <td>
+          <p>選取您要連線到服務帳戶還是個人帳戶。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">使用者名稱</td>
+        <td>
+          <p>輸入Veeva Vault帳戶的使用者名稱。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">密碼</td>
+        <td>
+          <p>輸入Veeva Vault帳戶的密碼。</p>
+        </td>
+      </tr>
+      <tr> 
+       <td role="rowheader">儲存庫DNS</td> 
+       <td>輸入您的Veeva Vault DNS （網域名稱）。</p><p>若要找到Veeva Vault DNS，請檢查您用來存取Veeva Vault的URL。</p>例如，在URL <code>https://my-dns.veevavault.com</code>中，DNS是<code>my-dns</code>。 您不需要輸入整個URL。</td> 
+      </tr> 
+     </tbody> 
+    </table>
+
+1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以建立連線並返回模組。
+
+
 
 ## Veeva Vault模組及其欄位
 

@@ -56,9 +56,9 @@ ht-degree: 2%
    ![更新圖示](assets/update-indicator-workfront.png)
 1. 選擇下列其中一項：
 
-   * 若要選取新的模組來取代此模組（而非升級模組），請按一下[選擇新的] **，然後按照[將非Workfront模組升級為新版本]**&#x200B;中的說明繼續進行。[](#upgrade-a-non-workfront-module-to-a-new-version)
-   * 若要僅升級此模組，保留模組組態，請按一下[升級]。****
-   * 若要升級案例中的所有Workfront模組，請按一下[全部升級]。****
+   * 若要選取新的模組來取代此模組（而非升級模組），請按一下[選擇新的] **，然後按照[將非Workfront模組升級為新版本]**&#x200B;中的說明繼續進行。[&#128279;](#upgrade-a-non-workfront-module-to-a-new-version)
+   * 若要僅升級此模組，保留模組組態，請按一下[升級]。**&#x200B;**
+   * 若要升級案例中的所有Workfront模組，請按一下[全部升級]。**&#x200B;**
 
 1. 儲存情境。
 

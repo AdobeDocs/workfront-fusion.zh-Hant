@@ -68,19 +68,19 @@ ht-degree: 0%
     <col> 
     <tbody>
     <tr>
-    <td>[！UICONTROL從現在起] （預設）</td>
+    <td>[!UICONTROL 從現在起] （預設）</td>
     <td>擷取選取此選項後新增或更新的所有組合（視設定而定）</td>
     </tr>
      <tr>
-    <td>[！UICONTROL從特定日期起]</td>
+    <td>[!UICONTROL 從特定日期起]</td>
     <td>擷取在指定日期和時間之後新增或更新的所有組合（視設定而定）</td>
       </tr>
       <tr>
-    <td>[！UICONTROL All]</td>
+    <td>[!UICONTROL All]</td>
     <td>擷取所有可用的組合</td>
      </tr>
       <tr>
-    <td>[！UICONTROL手動選擇]</td>
+    <td>[!UICONTROL 手動選擇]</td>
     <td>可讓您選取要開始擷取束的第一個束</td>
      </tr>
      </tbody>

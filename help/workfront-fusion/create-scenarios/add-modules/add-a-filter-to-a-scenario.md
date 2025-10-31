@@ -90,13 +90,13 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增篩選的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 按一下熒幕底部附近的DevTool圖示![ DevTool圖示](assets/debugger-icon.png)，開啟Fusion DevTool。
+1. 按一下熒幕底部附近的DevTool圖示![&#x200B; DevTool圖示](assets/debugger-icon.png)，開啟Fusion DevTool。
 
    如果您沒有看到DevTool圖示，請參閱[偵錯案例](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md)以取得開啟DevTool的說明。
 
 1. 按一下左側列中的&#x200B;**[!UICONTROL 工具]**&#x200B;圖示![DevTool工具](assets/devtools-tools-icon.png)。
 
-1. 按一下「複製篩選器」****，然後在右側面板中設定「複製篩選器」****&#x200B;工具：
+1. 按一下「複製篩選器」**&#x200B;**，然後在右側面板中設定「複製篩選器」**&#x200B;**&#x200B;工具：
 
    1. 將&#x200B;**[!UICONTROL Source模組]**&#x200B;直接設定為您要複製的篩選器之後的模組。
    1. 將&#x200B;**[!UICONTROL Target模組]**&#x200B;設定為您要直接放置篩選器的模組。

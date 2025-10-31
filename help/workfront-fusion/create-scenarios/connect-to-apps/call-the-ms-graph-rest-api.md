@@ -4,10 +4,10 @@ description: 透過Adobe Workfront Fusion HTTP呼叫MS Graph REST API &>提出OA
 author: Becky
 feature: Workfront Fusion
 exl-id: f411c807-955d-44fe-98b1-3ebba3fe0861
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 2%
+source-wordcount: '691'
+ht-degree: 3%
 
 ---
 
@@ -19,40 +19,35 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront計畫：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
 如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -101,7 +96,7 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">您的應用程式需要哪種型別的許可權？</td> 
-      <td>選取<code>Delegated permissions</code>。</td> 
+      <td>選擇「<code>Delegated permissions</code>」。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">選取許可權</td> 
@@ -143,7 +138,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">流量型別</p> </td> 
-      <td>選取<code>Authorization Code</code>。 </td> 
+      <td>選擇「<code>Authorization Code</code>」。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">授權URI</td> 
@@ -155,15 +150,15 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">範圍</td> 
-      <td> <p>如<a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">在Workfront應用程式註冊入口網站中註冊Microsoft Fusion</a>中所述，輸入您在註冊時選取的許可權。</p> <p>針對每個範圍，按一下<b>新增</b>並輸入許可權。</p> <p>範例： <code>offline_access</code>。</p> </td> 
+      <td> <p>如<a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">在Workfront應用程式註冊入口網站中註冊Microsoft Fusion</a>中所述，輸入您在註冊時選取的許可權。</p> <p>針對每個範圍，按一下<b>新增</b>並輸入許可權。</p> <p>範例：<code>offline_access</code>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">範圍分隔符號</td> 
-      <td>選取<code>SPACE</code>。 </td> 
+      <td>選擇「<code>SPACE</code>」。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">用戶端 ID</td> 
-      <td>在Microsoft應用程式註冊入口網站</a>的<a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">註冊Workfront Fusion中，輸入步驟2中的應用程式ID。</td> 
+      <td>在Microsoft應用程式註冊入口網站<a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">的</a>註冊Workfront Fusion中，輸入步驟2中的應用程式ID。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">用戶端密碼</td> 

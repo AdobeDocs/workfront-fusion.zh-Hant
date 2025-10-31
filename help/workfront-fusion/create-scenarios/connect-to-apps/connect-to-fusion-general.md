@@ -4,10 +4,10 @@ description: 許多Adobe Workfront Fusion聯結器在建立連線時不需要自
 author: Becky
 feature: Workfront Fusion
 exl-id: e47ab4d9-6612-4d9a-a024-da508a8bbfb2
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 1%
+source-wordcount: '571'
+ht-degree: 0%
 
 ---
 
@@ -27,34 +27,29 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>聯結器型（舊版）：若要連線至Workfront產品系列以外的應用程式，您必須使用Workfront Fusion進行工作自動化和整合 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront計畫：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -78,7 +73,7 @@ ht-degree: 1%
 1. 在「型別」欄位中，選取這是服務或個人帳戶。
 1. （條件式）如果應用程式需要進階連線設定（例如ID、金鑰或[!UICONTROL 密碼]），請輸入該資訊。
 
-   您可能需要按一下「顯示進階設定」**&#x200B;**&#x200B;來顯示可輸入這類資訊的欄位。
+   您可能需要按一下「顯示進階設定」****&#x200B;來顯示可輸入這類資訊的欄位。
 
 1. 按一下&#x200B;**[!UICONTROL 繼續]**。
 1. 在顯示的登入視窗中，輸入您的認證以登入應用程式（如果尚未這麼做）。

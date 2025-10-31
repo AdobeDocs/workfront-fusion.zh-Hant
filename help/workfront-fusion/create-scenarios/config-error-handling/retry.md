@@ -4,9 +4,9 @@ description: 有時候，如果故障原因可能很快解決，則重新執行�
 author: Becky
 feature: Workfront Fusion
 exl-id: 08e19a1a-7ca9-4c79-a165-f200048a5cda
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,28 @@ Adobe Workfront Fusion目前不提供`retry`錯誤處理指示詞，但有兩個
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
-   </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront計畫：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)中的存取需求。
-
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
 +++
 
@@ -64,7 +50,7 @@ Adobe Workfront Fusion目前不提供`retry`錯誤處理指示詞，但有兩個
 
 Workfront Fusion目前不提供`retry`錯誤處理指示詞。 使用下列其中一種變通辦法來模擬重試功能。
 
-如需指示，請參閱錯誤處理[&#128279;](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的指示。
+如需指示，請參閱錯誤處理[的](/help/workfront-fusion/references/errors/directives-for-error-handling.md)指示。
 
 * [使用Break指令](#use-the-break-directive)
 * [使用中繼器模組](#use-the-repeater-module)
@@ -103,18 +89,18 @@ Workfront Fusion目前不提供`retry`錯誤處理指示詞。 使用下列其�
    如需指示，請參閱[新增錯誤處理](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md)。
 1. 將&#x200B;**[!UICONTROL 工具] > [!UICONTROL 睡眠]**&#x200B;模組新增至錯誤處理常式路由，並將其&#x200B;**[!UICONTROL 延遲]**&#x200B;欄位設定為重試之間的秒數。
 
-1. 在&#x200B;**[!UICONTROL 工具] > [!UICONTROL 睡眠]**&#x200B;模組之後新增&#x200B;**[!UICONTROL Ignore]**&#x200B;指示詞。
+1. 在&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 睡眠]模組之後新增[!UICONTROL Ignore]**&#x200B;指示詞。
 1. 繼續[設定預設路由](#configure-the-default-route)。
 
 #### 設定預設路由
 
 1. 在可能失敗的模組之後，在單獨的（非錯誤處理常式）路由中新增&#x200B;**[!UICONTROL Tools] > [!UICONTROL 設定變數]**&#x200B;模組，並將它設定為將模組的結果儲存在名為的變數中，例如`Result`。
 
-1. 在&#x200B;**[!UICONTROL 工具] > [!UICONTROL 設定變數]**&#x200B;之後新增&#x200B;**[!UICONTROL 陣列彙總]**&#x200B;模組，並在其Source模組欄位中選取&#x200B;**[!DNL Repeater]**&#x200B;模組。
+1. 在&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 設定變數]之後新增[!UICONTROL 陣列彙總]**&#x200B;模組，並在其Source模組欄位中選取&#x200B;**[!DNL Repeater]**&#x200B;模組。
 
-1. 在&#x200B;**[!UICONTROL 陣列彙總]**&#x200B;模組之後新增&#x200B;**[!UICONTROL 工具] > [!UICONTROL 取得變數]**&#x200B;模組，並將`Result`變數的值對應至該模組。
+1. 在&#x200B;**[!UICONTROL 陣列彙總]模組之後新增[!UICONTROL 工具]** > **[!UICONTROL 取得變數]**&#x200B;模組，並將`Result`變數的值對應至該模組。
 
-1. 在&#x200B;**[!UICONTROL 中繼器]**&#x200B;模組與可能失敗的模組之間插入&#x200B;**[!UICONTROL 工具] > [!UICONTROL 取得變數]**&#x200B;模組，並將`Result`變數的值對應至該模組。
+1. 在&#x200B;**[!UICONTROL 中繼器]模組與可能失敗的模組之間插入[!UICONTROL 工具]** > **[!UICONTROL 取得變數]**&#x200B;模組，並將`Result`變數的值對應至該模組。
 
 1. 在此&#x200B;**[!UICONTROL 工具] > [!UICONTROL 取得變數]**&#x200B;模組與可能失敗的模組之間插入篩選器，只有在`Result`變數不存在時才能繼續。
 

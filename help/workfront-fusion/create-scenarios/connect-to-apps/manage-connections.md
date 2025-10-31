@@ -7,9 +7,9 @@ description: 對於大部分應用程式而言，必須建立連線，讓Adobe W
 author: Becky
 feature: Workfront Fusion
 exl-id: 26d7caad-8e12-4f04-ac7c-f71686c90ee6
-source-git-commit: bc1b025af534addf032519142148f6285f481784
+source-git-commit: 93d06cb917680f9cabc1bad6be0f9cd843449d07
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -26,34 +26,29 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>聯結器型（舊版）：若要連線至Workfront產品系列以外的應用程式，您必須使用Workfront Fusion進行工作自動化和整合 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -78,7 +73,7 @@ ht-degree: 1%
 1. 若要開啟[連線]區域，請按一下左側導覽中的&#x200B;**連線** ![連線圖示](assets/connections-icon.png)。
 1. 找到您要管理的連線，然後在該連線的行中執行以下一個或多個步驟。
 1. （選擇性）按一下&#x200B;**環境**&#x200B;和&#x200B;**型別**&#x200B;下拉式清單，並選取選項，以指派環境和連線型別。
-1. （選擇性）若要檢視授予Workfront Fusion的連線許可權，請按一下[檢視]圖示&lbrack;![檢視該連線的連線許可權](assets/view-connection-permissions.png)。
+1. （選擇性）若要檢視授予Workfront Fusion的連線許可權，請按一下[檢視]圖示![[檢視該連線的連線許可權](assets/view-connection-permissions.png)。
 1. （選擇性）若要重新命名連線，請反白連線名稱並輸入新名稱。
 1. （選擇性）若要重新授權連線，請核取連線旁的核取方塊，然後按一下畫面底部附近的&#x200B;**重新授權**。
 1. （選擇性）若要刪除連線，請核取連線旁的核取方塊，按一下畫面底部附近的&#x200B;**[刪除]**，然後按一下&#x200B;**[確定？**]。

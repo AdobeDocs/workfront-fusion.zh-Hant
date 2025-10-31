@@ -4,9 +4,9 @@ description: 您可以檢視組織的活動記錄，例如情境建立或啟動�
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cf851e3-50a1-4baa-8318-a24e1f467134
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: f7c1d5b1de74cc0c59e3a00938bed14b489500db
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -19,48 +19,31 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫</td>
-   <td> <p>新增： Ultimate</p> <p>或</p> <p>目前：無法使用</p></td> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>Adobe Workfront工作流程Ultimate和Adobe Workfront自動化與整合Ultimate</p><p>Workfront Ultimate</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：無法使用</p> </td> 
+   <td> <p>標準</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
-   </td> 
-  </tr> 
-   <tr> 
+  <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Fusion管理員才能使用活動記錄。</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td>
-   <p>此功能僅適用於擁有Ultimate Workfront計畫(包括Workfront Fusion)的組織。 無需額外購買產品。</p>
+   <td> 
+     <p>您必須是組織的Workfront Fusion管理員。</p>
+     <p>您必須是團隊的Workfront Fusion管理員。</p>
    </td> 
-  </tr>
+  </tr> 
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)。
-
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
 +++
-
-
 
 ## 檢視活動記錄
 

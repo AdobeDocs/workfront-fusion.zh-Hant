@@ -4,9 +4,9 @@ description: '[!UICONTROL 未完成的執行]資料夾會儲存由於錯誤而�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8891b4d7-a39a-4f14-8521-8c2ca186ca6e
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 42be02d6a59a5d7b8faccdcfe40e8b967153c6eb
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '580'
 ht-degree: 5%
 
 ---
@@ -21,59 +21,9 @@ ht-degree: 5%
 >
 >如需案例設定的詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)。
 
-## 存取需求
+## 全文文章的醒目提示預覽 {#highlighted-preview-article-level}
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能使用本文中的功能：
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">產品</td> 
-   <td>
-   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
-   </td> 
-  </tr>
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> 
-     <p>您必須是組織的Workfront Fusion管理員。</p>
-     <p>您必須是團隊的Workfront Fusion管理員。</p>
-   </td> 
-  </tr> 
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
-
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
-
-+++
-
-## 檢視未完成的執行
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽Sandbox環境中可用。</span>##檢視未完成的執行
 
 如果模組在操作期間遇到錯誤，則會將新的未完成執行新增到未完成執行資料夾。 每個未完成的執行都包含情境的藍圖，以及可對應到失敗模組的所有組合。 按一下案例詳細資訊頁面上的[!UICONTROL 未完成執行]索引標籤，即可開啟未完成執行清單。
 

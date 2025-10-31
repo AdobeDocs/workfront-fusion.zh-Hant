@@ -7,9 +7,9 @@ description: Webhook （也稱為即時觸發器）是一種特定的觸發器�
 author: Becky
 feature: Workfront Fusion
 exl-id: 28ecca1f-a9c3-4b3d-95f5-73cb9a5dc4b9
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 3a977d805c10fda7209b0634c6e32e818a980691
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,26 +32,22 @@ Webhook （也稱為即時觸發器）是一種特定的觸發器模組，可以
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何包含Workfront自動化和整合的套件</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
-   <td>
-   <p>不需要Workfront Fusion授權。</p>
-   </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>您必須擁有帳戶才能使用Workfront Fusion連線至任何應用程式或服務。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
 如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
-
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -75,7 +71,7 @@ Webhook （也稱為即時觸發器）是一種特定的觸發器模組，可以
 1. 在[記錄型別]欄位中，選取&#x200B;**問題**，模組就會觸發問題的變更。
 1. 在「狀態」欄位中，選取&#x200B;**新狀態**。 這是用於篩選的必填欄位，此範例未涵蓋此欄位。
 1. 在「記錄來源」欄位中，選取&#x200B;**僅新增記錄**。 這可讓情境在新增問題時觸發，而不是在更新或刪除問題時觸發。
-1. 按一下[儲存]儲存模組組態。**&#x200B;**
+1. 按一下[儲存]儲存模組組態。****
 
 ## 更新第二個模組
 

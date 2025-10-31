@@ -7,9 +7,9 @@ description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 3a977d805c10fda7209b0634c6e32e818a980691
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -24,42 +24,28 @@ Workfront Fusion範本功能可讓您建立並使用現有範本，作為Workfro
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
-   </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
 如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
-
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -81,11 +67,11 @@ Workfront Fusion範本功能可讓您建立並使用現有範本，作為Workfro
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 公用範本]</td> 
+      <td role="rowheader">[！UICONTROL公用範本]</td> 
       <td> <p> 所有已發佈且隨後由管理員核准的範本。 在範本圖磚上，您可以看到範本的名稱、其預覽和通訊端圖示，其數字表示目前為止已使用範本的次數。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 團隊範本]</td> 
+      <td role="rowheader">[！UICONTROL團隊範本]</td> 
       <td> <p>您的團隊成員建立的所有範本，包括管理員已公開的範本。 在範本圖磚上，您可以看到範本的名稱、本檔案的「發佈和共用範本」一節中詳述的狀態圖示以及「刪除」按鈕。</p> <b>注意：</b>如果您在「專案團隊範本」標籤下沒有看到預期的範本，請檢查左側導覽或標題，以確定您目前檢視的專案團隊是否正確。</td> 
      </tr> 
     </tbody> 

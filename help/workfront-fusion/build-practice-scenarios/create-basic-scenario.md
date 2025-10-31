@@ -7,10 +7,10 @@ description: 瞭解如何使用Adobe Workfront Fusion建立簡單的自動化案
 author: Becky
 feature: Workfront Fusion
 exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
-source-git-commit: 7f4709920e52f6b8660370af83de1f11eecbf092
+source-git-commit: 93d06cb917680f9cabc1bad6be0f9cd843449d07
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 1%
+source-wordcount: '1403'
+ht-degree: 0%
 
 ---
 
@@ -24,34 +24,22 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>目前：無Workfront Fusion授權需求。</p>
-   <p>或</p>
-   <p>舊版：任何 </p>
-   </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -59,11 +47,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 
 如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
-
 +++
-
-
 
 ## 建立實務情境
 
@@ -130,7 +114,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 
 ## 新增並設定第二個模組
 
-1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]&#x200B;**&#x200B;**。
+1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]****。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 轉換物件]**。
 1. 在「[!UICONTROL 連線]」欄位中，選取您在上一個模組中使用的相同Workfront連線。
 1. 在&#x200B;**[!UICONTROL 記錄型別]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL 問題]**，因為模組將會轉換問題。

@@ -4,9 +4,9 @@ description: 許多服務都會提供Webhook，以便在服務發生特定變更
 author: Becky
 feature: Workfront Fusion
 exl-id: 5bfda2b2-dc1c-4ff6-9236-b480bfda2e58
-source-git-commit: e0cfe4e6af0c6d1fe8f44fd72e13f9e9d5e6a73f
+source-git-commit: 3746ba1cd213a19a042da1a30b0d57bd1140907c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 0%
 1. 若要停用或啟用webhook，請停用或啟用該webhook列中「狀態」欄的切換。
 1. 若要檢視webhooks佇列是否已滿，請核取完整佇列欄。 此資料欄中的數字是目前在佇列中的專案數。
 1. 若要檢視webhook所處理的作業，請按一下該webhook的[完整佇列]資料欄中的&#x200B;**作業**。
+1. 若要檢視webhook是否已過期，請檢查「過期」欄。 過期的Webhook未附加至任何案例，或是在120小時內未收到任何事件。
 1. 若要檢視使用webhook的情境，請按一下該webhook「情境」欄中的&#x200B;**情境**&#x200B;按鈕。
 1. 若要檢視用於此webhook的連線，請按一下該webhook的[連線]欄中的&#x200B;**連線**&#x200B;按鈕。
 1. 若要隱藏欄或顯示先前隱藏的欄，請按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/glist-column.png)並核取或取消核取欄名稱。

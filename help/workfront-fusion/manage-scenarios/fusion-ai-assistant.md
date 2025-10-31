@@ -48,7 +48,7 @@ AI Assistant可以從Workfront檔案中尋找資訊，讓您無須造訪Adobe Ex
 
 Adobe必須有已簽署的Adobe Gen AI合約檔案。
 
-如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署Adobe Gen AI合約](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
+如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署Adobe Gen AI合約](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
 
 ## 從AI助理取得資訊
 

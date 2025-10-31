@@ -59,7 +59,7 @@ ht-degree: 1%
 * 貴組織必須已參與Workfront AI Assistant Beta計畫。
 * Adobe必須為貴組織的檔案提供已簽署的Adobe Gen AI合約。
 
-  如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署Adobe Gen AI合約](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
+  如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署Adobe Gen AI合約](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
 
 ## 目前支援的AI模組應用程式
 

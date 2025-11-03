@@ -62,10 +62,10 @@ ht-degree: 2%
 * 您必須擁有Adobe Experience Manager Assets帳戶才能使用這些模組。
 * 您必須在Adobe Developer主控台中設定伺服器對伺服器流程。
 
-  如需在Adobe Developer主控台中設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
+  如需在Adobe Developer主控台中設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
 * 您的Adobe Experience Manager技術帳戶必須擁有寫入許可權。
 
-  如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
+  如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
 
 ## Adobe Experience Manager Assets API資訊
 
@@ -113,11 +113,11 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
 >
 >* 這些欄位的資訊是在Adobe Developer Console上設定伺服器對伺服器流程時產生的。 您可以在設定過程中產生的服務認證JSON檔案中找到這些值。
 >
->   如需在Adobe Developer Console上設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
+>   如需在Adobe Developer Console上設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
 >
 >* 您的Adobe Experience Manager技術帳戶必須擁有寫入許可權。
 >
->   如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
+>   如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
 
 
 <table style="table-layout:auto"> 

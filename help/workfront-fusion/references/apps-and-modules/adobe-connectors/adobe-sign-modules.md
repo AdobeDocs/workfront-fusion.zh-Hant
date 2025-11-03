@@ -123,7 +123,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 尋找文字]</td> 
-   <td> <p>輸入您要搜尋的字詞。 模組會傳回包含這些字詞作為欄位值的記錄。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">Adobe Sign搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
+   <td> <p>輸入您要搜尋的字詞。 模組會傳回包含這些字詞作為欄位值的記錄。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">Adobe Sign搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 傳回協定的最大數目]</td> 
@@ -972,7 +972,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
     <ul> 
      <li> <p><b>[!UICONTROL 尋找文字]</b> </p> <p>輸入要在合約中繼資料中尋找的文字。 每個字都會被視為個別的文字專案。 </p> </li> 
      <li> <p><b>[!UICONTROL 在]</b>中尋找文字 </p> <p>選取您要尋找文字的中繼資料欄位。 如果您未選取任何專案，模組會搜尋所有中繼資料。</p> </li> 
-    </ul> <p>模組會傳回任何包含任何選定欄位中輸入文字的協定。 範例：輸入"spring campaign"並選取Title和Note選項會傳回在Title或Note中包含"Spring"或"Campaign"字詞的任何合約。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign]搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
+    </ul> <p>模組會傳回任何包含任何選定欄位中輸入文字的協定。 範例：輸入"spring campaign"並選取Title和Note選項會傳回在Title或Note中包含"Spring"或"Campaign"字詞的任何合約。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign]搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 建立日期]</td> 

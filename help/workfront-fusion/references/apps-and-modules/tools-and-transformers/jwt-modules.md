@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提�
 author: Becky
 feature: Workfront Fusion
 exl-id: 380f60db-b2ec-411a-86ee-0d5699f19b41
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -19,32 +19,22 @@ Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提供的演演�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>無Workfront Fusion授權需求</p>
-   </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -52,9 +42,9 @@ Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提供的演演�
 
 如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
-
 +++
+
+
 
 ## JWT API資訊
 
@@ -82,7 +72,7 @@ JWT聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 演演算法]</td> 
+   <td role="rowheader">[！UICONTROL演演算法]</td> 
    <td> <p>選取您要用來產生JWT的演演算法。</p> <ul>
    <li><b>HS256</b>：使用SHA-256雜湊演演算法的HMAC</li>
    <li><b>HS384</b>：使用SHA-384雜湊演演算法的HMAC</li>
@@ -99,11 +89,11 @@ JWT聯結器使用下列專案：
    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 裝載] </td> 
+   <td role="rowheader">[！UICONTROL裝載] </td> 
    <td> <p>針對您要新增的每個裝載專案，按一下<b>新增專案</b>並輸入專案的索引鍵和值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Options] </td> 
+   <td role="rowheader">[！UICONTROL Options] </td> 
    <td> <p>針對您要新增的每個選項專案，按一下<b>新增專案</b>並輸入專案的索引鍵和值。</p> <p>下列鍵可供使用：
    <ul>
    <li><b>演演算法</b>： （預設： RS256）</li>

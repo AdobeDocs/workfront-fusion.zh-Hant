@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion CSV模組可讓您建立CSV檔案，以及�
 author: Becky
 feature: Workfront Fusion
 exl-id: bc6d5ddc-93c3-437b-8537-5bece1351c1d
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,22 @@ Adobe Workfront Fusion [!UICONTROL CSV]模組可讓您建立CSV檔案，並從�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>無Workfront Fusion授權需求</p>
-   </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -54,9 +44,9 @@ Adobe Workfront Fusion [!UICONTROL CSV]模組可讓您建立CSV檔案，並從�
 
 如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
-
 +++
+
+
 
 ## [!UICONTROL 建立CSV]
 
@@ -66,23 +56,23 @@ Adobe Workfront Fusion [!UICONTROL CSV]模組可讓您建立CSV檔案，並從�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Source模組]</td>
+        <td>[！UICONTROL Source模組]</td>
         <td>選取輸出您要用來建立CSV之欄位的模組。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 彙總欄位]</td>
+        <td>[！UICONTROL彙總欄位]</td>
         <td>從可用欄位清單中選取您要彙總的欄位。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL Include headers in the first row]</td>
+        <td>[！UICONTROL Include headers in the first row]</td>
         <td>選取此選項以在結果中包含標題。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL Group by]</td>
+        <td>[！UICONTROL Group by]</td>
         <td>輸入篩選條件以將結果分組。 例如，輸入日期。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 在空白彙總後停止處理]</td>
+        <td>[！UICONTROL在空白彙總後停止處理]</td>
         <td>選取此選項可在沒有結果時停止情境。</td>
     </tr>
 </table>
@@ -98,23 +88,23 @@ Adobe Workfront Fusion [!UICONTROL CSV]模組可讓您建立CSV檔案，並從�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source模組]</td> 
+   <td role="rowheader">[！UICONTROL Source模組]</td> 
         <td>選取輸出您要用來建立CSV之欄位的模組。</td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料結構]</td> 
+   <td role="rowheader">[！UICONTROL資料結構]</td> 
    <td> <p>選取資料結構，以您想要的方式彙總欄位。 定義資料結構後，您可以將專案對應至對應的欄位。</p> <p>如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md" class="MCXref xref">資料結構</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Include headers in the first row] </td> 
+   <td role="rowheader">[！UICONTROL Include headers in the first row] </td> 
    <td>選取此選項以在結果中包含標題。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Group by] </td> 
+   <td role="rowheader">[！UICONTROL Group by] </td> 
    <td>輸入篩選條件以將結果分組。 例如，輸入日期。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 在空白彙總後停止處理] </td> 
+   <td role="rowheader">[！UICONTROL在空白彙總後停止處理] </td> 
    <td>選取此選項可在沒有結果時停止情境。 </td> 
   </tr> 
  </tbody> 
@@ -176,29 +166,29 @@ Adobe Workfront Fusion [!UICONTROL CSV]模組可讓您建立CSV檔案，並從�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 欄數]</td> 
+   <td role="rowheader">[！UICONTROL欄數]</td> 
    <td>指定CSV檔案中的欄數。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL CSV包含標題]</td> 
+   <td role="rowheader">[！UICONTROL CSV包含標題]</td> 
    <td> <p>如果CSV文字的第一列包含標題，請選取此選項。</p> <p>注意：模組不會使用這些標頭來標示輸出中的欄。 相反，此欄位可確保輸出資料中不包含標題。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL delimiterType]</td> 
+   <td role="rowheader">[！UICONTROL delimiterType]</td> 
    <td> <p>選取CSV檔案的分隔符號。 分隔字元是指示個別值或欄位之間界限的文字字元。</p> 
     <ul> 
-     <li>[!UICONTROL 逗號]</li> 
-     <li>[!UICONTROL 索引標籤]</li> 
-     <li> <p>[!UICONTROL 其他]</p> <p>如果您選取[!UICONTROL 其他]，請輸入CSV檔案用來分隔值的分隔字元。 您只能輸入一個字元。<br></p> </li> 
+     <li>[！UICONTROL逗號]</li> 
+     <li>[！UICONTROL索引標籤]</li> 
+     <li> <p>[！UICONTROL其他]</p> <p>如果您選取[！UICONTROL其他]，請輸入CSV檔案用來分隔值的分隔字元。 您只能輸入一個字元。<br></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 保留無引號欄位內的引號]</td> 
+   <td role="rowheader">[！UICONTROL保留無引號欄位內的引號]</td> 
    <td>啟用此選項以保留引號。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL CSV]</td> 
-   <td>輸入或對應您要剖析的CSV檔案。<p>注意： <p>如果您的資料為二進位格式（通常來自檔案），您必須使用'toString()'函式將二進位資料轉換為[!UICONTROL String]：</p><p><img src="/help/workfront-fusion/references/apps-and-modules/assets/parse-csv-350x123.png"></p></p></td> 
+   <td role="rowheader">[！UICONTROL CSV]</td> 
+   <td>輸入或對應您要剖析的CSV檔案。<p>注意： <p>如果您的資料為二進位格式（通常來自檔案），您必須使用'toString()'函式將二進位資料轉換為[！UICONTROL String]：</p><p><img src="/help/workfront-fusion/references/apps-and-modules/assets/parse-csv-350x123.png"></p></p></td> 
   </tr> 
  </tbody> 
 </table>

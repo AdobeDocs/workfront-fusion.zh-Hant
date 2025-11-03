@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion SFTP] 模組可讓您監視選取的
 author: Becky
 feature: Workfront Fusion
 exl-id: bde3cbda-8a19-4d9f-b970-f56d73a1f8dd
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 54c368d335b30f55cab19595a5b4740dde6013a7
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -19,34 +19,29 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -71,45 +66,45 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 連線名稱]</td> 
+   <td role="rowheader">[！UICONTROL連線名稱]</td> 
    <td> <p> 輸入SFTP連線的名稱。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 環境]</td>
+    <td role="rowheader">[！UICONTROL環境]</td>
     <td>選取您要連線到生產或非生產環境。</td>
   </tr>
   <tr>
-    <td role="rowheader">[!UICONTROL 型別]</td>
+    <td role="rowheader">[！UICONTROL型別]</td>
     <td>選取您是要連線到服務帳戶還是個人帳戶。</td>
   </tr>
   <tr>
-   <td role="rowheader"> <p>[!UICONTROL 主機]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL主機]</p> </td> 
    <td> <p>輸入您要連線之SFTP伺服器的主機名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 連線埠] </td> 
+   <td role="rowheader">[！UICONTROL連線埠] </td> 
    <td> <p>輸入SFTP伺服器連線埠。 例如， 22。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 驗證型別]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL驗證型別]</p> </td> 
    <td> <p>選取您要用來連線至SFTP伺服器的授權方法。</p> 
     <ul> 
-     <li><strong>[!UICONTROL 使用者名稱和密碼]</strong>：輸入您的認證。</li> 
-     <li> <p><strong>[!UICONTROL 使用者名稱和金鑰]</strong>：輸入您的使用者名稱和私密金鑰/憑證</p> <p>如果您想要使用自我簽署憑證的TLS，請上傳私密金鑰以使用使用者端授權，或上傳您的憑證（P12或PFX檔案）。 如果您使用使用者端憑證授權，可以在這裡輸入您的CA憑證。</p> <p>Workfront Fusion不會保留或儲存您在這裡提供的任何資料（檔案、密碼）。 檔案和密碼僅用於擷取私密金鑰/憑證。</p> </li> 
+     <li><strong>[！UICONTROL使用者名稱和密碼]</strong>：輸入您的認證。</li> 
+     <li> <p><strong>[！UICONTROL使用者名稱和金鑰]</strong>：輸入您的使用者名稱和私密金鑰/憑證</p> <p>如果您想要使用自我簽署憑證的TLS，請上傳私密金鑰以使用使用者端授權，或上傳您的憑證（P12或PFX檔案）。 如果您使用使用者端憑證授權，可以在這裡輸入您的CA憑證。</p> <p>Workfront Fusion不會保留或儲存您在這裡提供的任何資料（檔案、密碼）。 檔案和密碼僅用於擷取私密金鑰/憑證。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 金鑰交換演演算法] </td> 
+   <td role="rowheader">[！UICONTROL金鑰交換演演算法] </td> 
    <td> <p>您可以輸入一組金鑰交換的演演算法。 模組會根據演演算法的加入順序排列其優先順序。 針對您要新增的每個演演算法，按一下<b>新增專案</b>並選取演演算法。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 加密] </td> 
+   <td role="rowheader">[！UICONTROL加密] </td> 
    <td> <p>您可以輸入一組用於金鑰交換的加密。 模組會根據新增的順序來排定加密的優先順序。 針對您想要新增的每個密碼，按一下<b>新增專案</b>並選取密碼。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-輸入連線資訊後，按一下[繼續]&#x200B;**[!UICONTROL 以建立連線。]**
+輸入連線資訊後，按一下[繼續]**[!UICONTROL 以建立連線。]**
 
 ### 支援的連線選項
 
@@ -175,11 +170,11 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>輸入您要觀看的資料夾。 您可以指定絕對路徑，例如<code>/home/user/</code>，或指定指向登入使用者之特定資料夾的相對路徑，例如 <code>./.</code></p> </td> 
   </tr> 
   <tr> 
@@ -187,7 +182,7 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
    <td> <p> 輸入緩衝區大小（位元組）。 值會定義從伺服器傳輸之區塊的大小。 值太高時，有些伺服器可能會造成問題或檔案損毀。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 傳回檔案的最大數量]</td> 
+   <td>[！UICONTROL傳回檔案的最大數量]</td> 
    <td> <p> 輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -202,15 +197,15 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>輸入或對應您要觀看的資料夾。 您可以指定絕對路徑，例如<code>/home/user/</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如 <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 傳回檔案的最大數量]</td> 
+   <td>[！UICONTROL傳回檔案的最大數量]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -242,19 +237,19 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>指定現有資料夾作為新資料夾的儲存位置。 您可以指定絕對路徑，例如<code>/home/user/file.txt</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如<code>./</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾名稱]</td> 
+   <td>[！UICONTROL資料夾名稱]</td> 
    <td> <p> 輸入資料夾名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Permissions]</p> </td> 
+   <td> <p>[！UICONTROL Permissions]</p> </td> 
    <td> <p>設定所需的檔案夾許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -267,11 +262,11 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 檔案路徑]</td> 
+   <td>[！UICONTROL檔案路徑]</td> 
    <td> <p> 輸入您要刪除的檔案路徑。 您可以指定絕對路徑，例如<code>/home/user/file.txt</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如<code>./file.txt</code>。</p> </td> 
   </tr> 
  </tbody> 
@@ -284,7 +279,7 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -303,15 +298,15 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 緩衝區大小[B]]</td> 
+   <td>[！UICONTROL緩衝區大小[B]]</td> 
    <td> <p> 輸入緩衝區大小（位元組）。 值會定義從伺服器傳輸之區塊的大小。 值太高時，有些伺服器可能會造成問題或檔案損毀。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 檔案路徑] </td> 
+   <td>[！UICONTROL檔案路徑] </td> 
    <td> <p>輸入檔案的路徑。 您可以指定絕對路徑，例如<code>/home/user/file.txt</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如<code>./file.txt</code>。</p> </td> 
   </tr> 
  </tbody> 
@@ -326,35 +321,35 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 緩衝區大小[B]]</td> 
+   <td>[！UICONTROL緩衝區大小[B]]</td> 
    <td> <p> 輸入緩衝區大小（位元組）。 值會定義從伺服器傳輸之區塊的大小。 值太高時，有些伺服器可能會造成問題或檔案損毀。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>輸入或對應包含您要列出之檔案或資料夾的資料夾。 您可以指定絕對路徑，例如<code>/home/user/</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如 <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 搜尋] </td> 
+   <td>[！UICONTROL搜尋] </td> 
    <td> <p>輸入或對映搜尋字詞。 例如，如果您要搜尋副檔名為.txt的檔案，請輸入<code>.txt</code>。您也可以輸入或對應您要搜尋的檔案名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 排序依據]</td> 
+   <td>[！UICONTROL排序依據]</td> 
    <td> <p> 選取是否要依檔案名稱、大小、上次存取日期或上次修改日期來排序結果。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 排序順序]</td> 
+   <td>[！UICONTROL排序順序]</td> 
    <td> <p> 選取結果應依遞增或遞減順序傳回。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 即使模組未傳回任何結果，仍繼續執行路由]</p> </td> 
+   <td> <p>[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</p> </td> 
    <td>啟用此選項以確保此模組不會在未傳回任何結果時停止案例。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 傳回結果的最大數目]</td> 
+   <td>[！UICONTROL傳回結果的最大數目]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -367,35 +362,35 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Show] </td> 
+   <td>[！UICONTROL Show] </td> 
    <td> <p>選取您要擷取檔案、資料夾或兩者。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>輸入或對應包含您要列出之檔案或資料夾的資料夾。 您可以指定絕對路徑，例如<code>/home/user/</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如 <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 搜尋] </td> 
+   <td>[！UICONTROL搜尋] </td> 
    <td> <p>輸入或對映搜尋字詞。 例如，如果您要搜尋副檔名為.txt的檔案，請輸入<code>.txt</code>。您也可以輸入或對應您要搜尋的檔案名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 排序依據]</td> 
+   <td>[！UICONTROL排序依據]</td> 
    <td> <p> 選取是否要依檔案名稱、大小、上次存取日期或上次修改日期來排序結果。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 排序順序] </td> 
+   <td>[！UICONTROL排序順序] </td> 
    <td> <p>選取結果應依遞增或遞減順序傳回。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 即使模組未傳回任何結果，仍繼續執行路由]</p> </td> 
+   <td> <p>[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</p> </td> 
    <td>啟用此選項以確保此模組不會在未傳回任何結果時停止案例。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 傳回結果的最大數目]</td> 
+   <td>[！UICONTROL傳回結果的最大數目]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -408,15 +403,15 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 檔案路徑]</td> 
+   <td>[！UICONTROL檔案路徑]</td> 
    <td> <p> 輸入要移動的檔案路徑。 您可以指定絕對路徑，例如<code>/home/user/file.txt</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如<code>./file.txt</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 新資料夾]</td> 
+   <td>[！UICONTROL新資料夾]</td> 
    <td> <p> 輸入檔案新位置的路徑。 您可以指定絕對路徑，例如<code>/home/user/</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如 <code>./.</code></p> </td> 
   </tr> 
  </tbody> 
@@ -431,15 +426,15 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 檔案路徑]</td> 
+   <td>[！UICONTROL檔案路徑]</td> 
    <td> <p> 輸入要重新命名的檔案路徑。 您可以指定絕對路徑，例如<code>/home/user/file.txt</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如<code>./file.txt</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 新檔案名稱]</td> 
+   <td>[！UICONTROL新檔案名稱]</td> 
    <td> <p> 輸入檔案的新名稱，包括副檔名。</p> </td> 
   </tr> 
  </tbody> 
@@ -454,15 +449,15 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 檔案路徑]</td> 
+   <td>[！UICONTROL檔案路徑]</td> 
    <td> <p> 輸入要移動的檔案路徑。 您可以指定絕對路徑，例如<code>/home/user/file.txt</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如<code>./file.txt</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Permissions]</p> </td> 
+   <td> <p>[！UICONTROL Permissions]</p> </td> 
    <td> <p>設定所需的檔案許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -477,23 +472,23 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[！UICONTROL Connection] </td>
    <td> <p>如需有關將SFTP帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">將SFTP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>指定現有的資料夾作為檔案的儲存位置。 您可以指定絕對路徑，例如<code>/home/user/</code>。 或者，您可以指定指向登入使用者之特定資料夾的相對路徑，例如 <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Source檔案]</td> 
+   <td>[！UICONTROL Source檔案]</td> 
    <td> <p> 從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Permissions]</p> </td> 
+   <td> <p>[！UICONTROL Permissions]</p> </td> 
    <td> <p>為檔案或資料夾設定所需的許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 緩衝區大小(B)]</p> </td> 
+   <td> <p>[！UICONTROL緩衝區大小(B)]</p> </td> 
    <td> <p>設定上傳檔案時每個區塊的大小（位元組）。 這在大型檔案或伺服器記憶體限制需要較小的上傳時很有用。 如果未設定此值，則檔案會以單一操作寫入。</p> </td> 
   </tr> 
  </tbody> 

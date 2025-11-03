@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 657bea46-064e-4333-8e86-81678bb1c3bd
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -23,34 +23,29 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -101,23 +96,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 磁碟機ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL磁碟機ID]</p> </td> 
    <td> <p>選取您要觀看的磁碟機。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料夾]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
    <td> <p> 選取要監視的資料夾。 在案例中，您只能監視一個資料夾。</p> <p>提示：若要監視多個資料夾，請為每個資料夾建立獨立的情境。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 我要觀看]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL我要觀看]</p> </td> 
    <td> <p>選取您是要監視新檔案與所有變更，還是隻監視新檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 傳回資料列數目上限]</td> 
+   <td role="rowheader">[！UICONTROL傳回資料列數目上限]</td> 
    <td> <p> 設定在一個週期內要模組傳回的結果數目上限。</p> </td> 
   </tr> 
  </tbody> 
@@ -132,23 +127,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 磁碟機ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL磁碟機ID]</p> </td> 
    <td> <p>選取您要觀看的磁碟機。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料夾]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
    <td> <p> 選取要監視的資料夾。 在案例中，您只能監視一個資料夾。</p> <p>提示：若要追蹤多個資料夾，請為每個資料夾建立獨立案例。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 我要觀看]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL我要觀看]</p> </td> 
    <td> <p>選取您要監視新資料夾和所有變更，還是隻監視新資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 傳回資料列數目上限]</td> 
+   <td role="rowheader">[！UICONTROL傳回資料列數目上限]</td> 
    <td> <p> 設定在一個週期內要模組傳回的結果數目上限。</p> </td> 
   </tr> 
  </tbody> 
@@ -173,19 +168,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>[!UICONTROL 連線]</strong> </td> 
+   <td><strong>[！UICONTROL連線]</strong> </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL 磁碟機識別碼]</strong> </td> 
+   <td><strong>[！UICONTROL磁碟機識別碼]</strong> </td> 
    <td> <p>選取您要建立新資料夾的磁碟機。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL 資料夾]</strong> </td> 
+   <td><strong>[！UICONTROL資料夾]</strong> </td> 
    <td> <p>選取您要建立新資料夾的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL 資料夾名稱]</strong> </td> 
+   <td><strong>[！UICONTROL資料夾名稱]</strong> </td> 
    <td>輸入或對應新資料夾的名稱。</td> 
   </tr> 
  </tbody> 
@@ -201,15 +196,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 磁碟機ID]</td> 
+   <td>[！UICONTROL磁碟機ID]</td> 
    <td> <p>選取您要刪除檔案的磁碟機。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 檔案ID]</td> 
+   <td>[！UICONTROL檔案ID]</td> 
    <td> <p>輸入您要刪除之檔案的ID。 </p> </td> 
   </tr> 
  </tbody> 
@@ -223,15 +218,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 磁碟機ID]</td> 
+   <td>[！UICONTROL磁碟機ID]</td> 
    <td> <p>選取您要刪除檔案的磁碟機。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾ID]</td> 
+   <td>[！UICONTROL資料夾ID]</td> 
    <td> <p>輸入或對應您要刪除的資料夾識別碼。 </p> </td> 
   </tr> 
  </tbody> 
@@ -247,15 +242,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 磁碟機ID]</td> 
+   <td>[！UICONTROL磁碟機ID]</td> 
    <td> <p>選取您要擷取檔案的磁碟機。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 檔案ID]</td> 
+   <td>[！UICONTROL檔案ID]</td> 
    <td> <p>輸入您要擷取的檔案ID。 </p> </td> 
   </tr> 
  </tbody> 
@@ -271,23 +266,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 磁碟機ID]</td> 
+   <td>[！UICONTROL磁碟機ID]</td> 
    <td> <p>選取您要上傳檔案的磁碟機。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Enter]</td> 
+   <td>[！UICONTROL Enter]</td> 
    <td> <p>選取您要使用「檔案ID」或「檔案」路徑來選擇檔案。 在出現的欄位中輸入檔案ID或路徑。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 許可權型別]</p> </td> 
+   <td> <p>[！UICONTROL許可權型別]</p> </td> 
    <td> <p>選取您希望收到連結的人員具有讀取/寫入許可權還是唯讀。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 範圍]</td> 
+   <td>[！UICONTROL範圍]</td> 
    <td> <p> 選取您是否希望檔案僅供擁有連結的任何人存取或僅供組織成員存取。</p> </td> 
   </tr> 
  </tbody> 
@@ -303,28 +298,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[！UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Office 365]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 磁碟機ID]</td> 
+   <td>[！UICONTROL磁碟機ID]</td> 
    <td> <p>選取您要上傳檔案的磁碟機。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 資料夾] </td> 
+   <td>[！UICONTROL資料夾] </td> 
    <td> <p>選取磁碟機中的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Source檔案]</p> </td> 
+   <td> <p>[！UICONTROL Source檔案]</p> </td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 如果存在相同名稱的檔案]</td> 
+   <td>[！UICONTROL如果存在相同名稱的檔案]</td> 
    <td> <p> 選取當您嘗試上傳的檔案已存在時，您要執行的動作。</p> 
     <ul> 
-     <li>[!UICONTROL 取代現有的檔案]</li> 
-     <li>[!UICONTROL 重新命名新檔案]</li> 
-     <li>[!UICONTROL 結尾有錯誤]</li> 
+     <li>[！UICONTROL取代現有的檔案]</li> 
+     <li>[！UICONTROL重新命名新檔案]</li> 
+     <li>[！UICONTROL結尾有錯誤]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

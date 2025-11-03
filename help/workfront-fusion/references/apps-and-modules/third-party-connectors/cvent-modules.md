@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Cvent�
 author: Becky
 feature: Workfront Fusion
 exl-id: b7e16180-1db8-4aff-bb7b-69ca98194b00
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -21,42 +21,41 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能使用本文中的功能：
++++ 展開以檢視本文中功能的存取需求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td>
-  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權*</td>
-   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前授權需求：無Workfront Fusion授權需求。</p>
-   <p>或</p>
-   <p>舊版授權要求：[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[!UICONTROL Ultimate] Workfront計畫中。</p>
-   <p>或</p>
-   <p>舊版產品需求：您的組織必須購買Adobe Workfront Fusion和Adobe Workfront，才能使用本文所述的功能。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
 如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -138,7 +137,7 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -161,19 +160,19 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 記錄型別]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL記錄型別]</p> </td> 
    <td>選取您要讀取之記錄的專案型態。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 聯絡人] / [!UICONTROL 事件] / [!UICONTROL 邀請者ID]</td> 
+   <td role="rowheader">[！UICONTROL聯絡人] / [！UICONTROL事件] / [！UICONTROL邀請者ID]</td> 
    <td> <p>輸入或對應您要讀取的專案識別碼。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
    <td> <p>選取您要納入模組輸出的欄位。 根據您選取的專案型別，可使用欄位。</p> </td> 
   </tr> 
  </tbody> 
@@ -188,7 +187,7 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -211,15 +210,15 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 聯絡人ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL聯絡人ID]</p> </td> 
    <td> <p>輸入或對應您要新增至事件的連絡人ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 事件ID]</td> 
+   <td role="rowheader">[！UICONTROL事件ID]</td> 
    <td> <p>輸入或對應您要新增連絡人的事件ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -234,11 +233,11 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 聯絡人ID]</td> 
+   <td role="rowheader">[！UICONTROL聯絡人ID]</td> 
    <td> <p>輸入或對應您要刪除之連絡人的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -253,19 +252,19 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 聯絡人ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL聯絡人ID]</p> </td> 
    <td> <p>輸入或對應您要更新的連絡人ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 欄位]</td> 
+   <td role="rowheader">[！UICONTROL欄位]</td> 
    <td> <p>選取您要輸入資訊的欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 自訂欄位]</td> 
+   <td role="rowheader">[！UICONTROL自訂欄位]</td> 
    <td> <p>選取您要輸入資訊的欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
  </tbody> 
@@ -280,23 +279,23 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 表單ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL表單ID]</p> </td> 
    <td> <p>輸入或對應您要用來建立新會議要求的表單ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 會議要求欄位]</td> 
+   <td role="rowheader">[！UICONTROL會議要求欄位]</td> 
    <td> <p>選取您要輸入資訊的會議邀請欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 事件請求欄位]</td> 
+   <td role="rowheader">[！UICONTROL事件請求欄位]</td> 
    <td> <p>選取您要輸入資訊的事件請求欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL RFP要求欄位]</td> 
+   <td role="rowheader">[！UICONTROL RFP要求欄位]</td> 
    <td> <p>選取您要輸入資訊的提案請求欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
  </tbody> 
@@ -313,11 +312,11 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Connection]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 記錄型別]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL記錄型別]</p> </td> 
    <td> <p>選取您要列出的記錄型別。</p> 
     <ul> 
      <li> <p>來自您[!DNL Cvent]帳戶的所有事件</p> </li> 
@@ -326,7 +325,7 @@ Cvent聯結器使用下列專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 事件ID]</td> 
+   <td role="rowheader">[！UICONTROL事件ID]</td> 
    <td> <p>如果您要列出被邀請者或工作階段，請輸入或對應與被邀請者或工作階段相關聯之事件的ID。</p> </td> 
   </tr> 
  </tbody> 

@@ -3,9 +3,10 @@ title: Microsoft Teams模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Teams的工作流程，並將其連結到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: f5b49cca308fad01167aed27e4716a3d630cb026
+exl-id: d3a37c06-8f92-4065-bc00-c35f84b03f82
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3648'
 ht-degree: 2%
 
 ---
@@ -24,34 +25,29 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增：</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -86,7 +82,7 @@ ht-degree: 2%
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [團隊](#team)
-* [頻道](#channel)
+* [Channel](#channel)
 * [訊息](#message)
 * [成員](#member)
 * [線上會議](#online-meeting)
@@ -364,7 +360,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-### 頻道
+### Channel
 
 * [建立管道](#create-a-channel)
 * [刪除頻道](#delete-a-channel)
@@ -527,7 +523,7 @@ ht-degree: 2%
    <td>輸入或對應您要回覆的郵件ID。</td> 
   </tr> 
   <tr> 
-   <td>內容型別</td> 
+   <td>內容類型</td> 
    <td>選取您要以純文字或HTML格式傳送訊息。</td> 
   </tr> 
   <tr> 
@@ -565,14 +561,14 @@ ht-degree: 2%
    <td>建立新聊天</td> 
    <td>如果您要傳送聊天訊息，請選取是否要建立新聊天。
    <ul><li><b>是</b><p>選取您想要一對一聊天或群組聊天，然後選取要包含在聊天中的成員。 您必須選取與此模組使用之連線相關聯的使用者，一對一聊天必須僅包含該使用者和另一個使用者。</p><p>如果您正在建立群組聊天，可以在「主題」欄位中設定主題。</p>
-   <li><b>否</b><p>輸入或對應擁有您要向其傳送訊息之頻道的團隊識別碼，然後輸入或對應頻道識別碼。</td> 
+   <li><b>無</b><p>輸入或對應擁有您要向其傳送訊息之頻道的團隊識別碼，然後輸入或對應頻道識別碼。</td> 
   </tr> 
   <tr> 
    <td>訊息</td> 
    <td>輸入或對應您要傳送的訊息本文。</td> 
   </tr> 
   <tr> 
-   <td>內容型別</td> 
+   <td>內容類型</td> 
    <td>選取您要以純文字或HTML格式傳送訊息。</td> 
   </tr> 
  </tbody> 
@@ -942,27 +938,27 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td>如需有關將Microsoft Teams帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td>輸入相對於<code>https://graph.microsoft.com</code>的路徑。 範例：<code> /v1.0/groups</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -993,6 +989,3 @@ ht-degree: 2%
   </tr> 
  </tbody> 
 </table>
-
-
-

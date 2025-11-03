@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion Encryptor模組可讓您加密任何文字�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b119efe-6762-445e-bbc7-c59437fd5060
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 0%
 
 ---
 
@@ -21,32 +21,22 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>無Workfront Fusion授權需求</p>
-   </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -54,9 +44,9 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
-
 +++
+
+
 
 ## 使用PGP的訊息加密與解密
 
@@ -74,7 +64,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Key]</td>
+        <td>[！UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
     <tr>
@@ -142,7 +132,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Key]</td>
+        <td>[！UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
    <tr>
@@ -179,7 +169,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Key]</td>
+        <td>[！UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
     <tr>
@@ -236,7 +226,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Key]</td>
+        <td>[！UICONTROL Key]</td>
         <td>選取您希望模組使用的金鑰。 若要建立金鑰，請按一下<b>新增</b>，然後輸入金鑰的名稱、金鑰和編碼型別。</td>
     </tr>
    <tr>
@@ -276,7 +266,7 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL 私密金鑰]</td>
+        <td>[！UICONTROL私密金鑰]</td>
         <td>選取要用於此簽章的私密金鑰。 若要新增私密金鑰，請按一下[新增] <b></b>，然後輸入金鑰的名稱、金鑰文字和複雜密碼。</td>
     </tr>
     <tr>
@@ -314,15 +304,15 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL 私密金鑰]</td>
+        <td>[！UICONTROL私密金鑰]</td>
         <td>選取要用於此郵件的收件者私密金鑰。 若要新增私密金鑰，請按一下[新增] <b></b>，然後輸入金鑰的名稱、金鑰文字和複雜密碼。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 公開金鑰]</td>
+        <td>[！UICONTROL公開金鑰]</td>
         <td>輸入寄件者的公開金鑰。 這可以驗證寄件者的身分。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 訊息]</td>
+        <td>[！UICONTROL訊息]</td>
         <td>對應您要解密的訊息。</td>
     </tr>
 </table>
@@ -333,15 +323,15 @@ Adobe Workfront Fusion [!UICONTROL 加密程式]模組可讓您加密任何文�
 
 <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL 私密金鑰]</td>
+        <td>[！UICONTROL私密金鑰]</td>
         <td>輸入寄件者的私密金鑰。 這可以驗證寄件者的身分。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 公開金鑰]</td>
+        <td>[！UICONTROL公開金鑰]</td>
         <td>輸入收件者的公開金鑰。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 訊息]</td>
+        <td>[！UICONTROL訊息]</td>
         <td>輸入您要加密的訊息。</td>
     </tr>
     </table>

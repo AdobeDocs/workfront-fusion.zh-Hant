@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 96455ae4-ef68-46b5-a172-429cf9f982fb
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -23,34 +23,29 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -110,15 +105,15 @@ Azure Active Directory聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Azure Active Directory]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 型別]</td> 
+   <td role="rowheader">[！UICONTROL型別]</td> 
    <td>選取您要監視使用者記錄還是群組記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄數上限]</td> 
+   <td role="rowheader">[！UICONTROL記錄數上限]</td> 
    <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td> 
   </tr> 
  </tbody> 
@@ -147,19 +142,19 @@ Azure Active Directory聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Azure Active Directory]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
-   <td>選取您要讀取[!UICONTROL User]記錄還是[!UICONTROL Group]記錄。</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td>選取您要讀取[！UICONTROL User]記錄還是[！UICONTROL Group]記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
    <td>選取要包含在此模組輸出組合中的資訊。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td role="rowheader">[！UICONTROL ID]</td> 
    <td>輸入或對應您要模組讀取之記錄的唯一[!DNL Azure Active Directory]識別碼。</td> 
   </tr> 
  </tbody> 
@@ -180,15 +175,15 @@ Azure Active Directory聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Azure Active Directory]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
-   <td>選取您要讀取[!UICONTROL User]記錄還是[!UICONTROL Group]記錄。</td> 
+   <td role="rowheader">[！UICONTROL記錄型別]</td> 
+   <td>選取您要讀取[！UICONTROL User]記錄還是[！UICONTROL Group]記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 其他欄位]</td> 
+   <td role="rowheader">[！UICONTROL其他欄位]</td> 
    <td>填寫這些欄位以設定新記錄的值。</td> 
   </tr> 
  </tbody> 
@@ -205,27 +200,27 @@ Azure Active Directory聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Azure Active Directory]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td>輸入或對應相對路徑 <code>https://graph.microsoft.com/{version}/{resource}?{query-parameters}</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="../assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -250,19 +245,19 @@ Azure Active Directory聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Azure Active Directory]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 搜尋條件]</td> 
-   <td> <p>輸入要在搜尋中使用的條件。</p> <p>如需使用之引數的相關資訊，例如「[!UICONTROL $filter]」，請參閱<a href="https://docs.microsoft.com/en-us/graph/query-parameters"> API檔案中的</a>使用查詢引數來自訂回應[!DNL Microsoft]。</p> </td> 
+   <td role="rowheader">[！UICONTROL搜尋條件]</td> 
+   <td> <p>輸入要在搜尋中使用的條件。</p> <p>如需使用之引數的相關資訊，例如「[！UICONTROL $filter]」，請參閱<a href="https://docs.microsoft.com/en-us/graph/query-parameters"> API檔案中的</a>使用查詢引數來自訂回應[!DNL Microsoft]。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 輸出]</td> 
+   <td role="rowheader">[！UICONTROL輸出]</td> 
    <td>選取要包含在此模組輸出組合中的資訊。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 最大記錄數]</td> 
+   <td role="rowheader">[！UICONTROL最大記錄數]</td> 
    <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td> 
   </tr> 
  </tbody> 
@@ -277,11 +272,11 @@ Azure Active Directory聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Azure Active Directory]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 限制]</td> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
    <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td> 
   </tr> 
  </tbody> 

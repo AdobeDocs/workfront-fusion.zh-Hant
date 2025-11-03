@@ -4,10 +4,10 @@ description: 當您建立或編輯案例時，可以設定設定來控制資料�
 author: Becky
 feature: Workfront Fusion
 exl-id: b3aed366-c399-44fa-8967-54ecb8647d96
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 2%
+source-wordcount: '634'
+ht-degree: 1%
 
 ---
 
@@ -19,32 +19,22 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
-   <td>
-   <p>無Workfront Fusion授權需求</p>
-   </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -52,9 +42,9 @@ ht-degree: 2%
 
 如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
-
 +++
+
+
 
 ## 中繼器
 
@@ -63,15 +53,15 @@ ht-degree: 2%
 
 <table>
     <tr>
-        <td>[!UICONTROL 初始值]</td>
+        <td>[！UICONTROL初始值]</td>
         <td>輸入或對映您希望模組在第一個反複專案中的值。 預設值為 1。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 重複]</td>
+        <td>[！UICONTROL重複]</td>
         <td>輸入或對應您希望模組重複的次數。 此數字必須大於或等於0，且小於或等於10,000。</td>
     </tr>
     <tr>
-        <td>[!UICONTROL 步驟]</td>
+        <td>[！UICONTROL步驟]</td>
         <td>這是模組增加值時所使用的數字。 預設值為 1。</td>
     </tr>
 </table>

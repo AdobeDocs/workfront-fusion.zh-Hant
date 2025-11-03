@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以將封存（例如壓
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b5ff3d5-601c-4119-ad70-3612ad5ba1ab
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,37 @@ ht-degree: 0%
 在Adobe Workfront Fusion情境中，您可以在情境中使用封存（例如壓縮檔案），讓您將其用於自動化或整合。
 
 如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。 如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">產品</td> 
+   <td>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+
++++
+
+
 
 ## [!UICONTROL 封存]模組及其欄位
 
@@ -42,7 +73,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Source檔案]</td> 
+   <td>[！UICONTROL Source檔案]</td> 
    <td> <p>  <p>從先前的模組中選取來源檔案，或對映來源資料。</p></p>  </td> 
   </tr> 
  </tbody> 
@@ -69,31 +100,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Source模組]</td> 
+   <td>[！UICONTROL Source模組]</td> 
    <td> <p> 選取您要從中擷取檔案的模組。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 型別] </td> 
-   <td> <p>選取您要將檔案新增至[!UICONTROL ZIP]、GZIP或[!UICONTROL TAR]封存。</p> </td> 
+   <td>[！UICONTROL型別] </td> 
+   <td> <p>選取您要將檔案新增至[！UICONTROL ZIP]、GZIP或[！UICONTROL TAR]封存。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 註解]</td> 
+   <td>[！UICONTROL註解]</td> 
    <td>輸入要新增到封存的註解。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Group by]</td> 
+   <td>[！UICONTROL Group by]</td> 
    <td> <p>定義要將彙總輸出分組依據的運算式。 此運算式可包含一或多個對應專案。 接著，彙總的資料會使用此運算式的值分隔成群組。 每個群組會輸出一個單獨的組合，內含索引鍵（運算式）和值（彙總文字）。 您可以在後續模組中使用該索引鍵作為篩選條件。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 在空白彙總後停止處理]</td> 
+   <td>[！UICONTROL在空白彙總後停止處理]</td> 
    <td>選取此選項可在沒有結果時停止情境。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 封存名稱]</td> 
+   <td>[！UICONTROL封存名稱]</td> 
    <td> <p> 輸入已建立封存檔的名稱。 請勿新增副檔名。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Source檔案]</td> 
+   <td>[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -121,7 +152,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料] </td> 
+   <td>[！UICONTROL資料] </td> 
    <td> <p>使用deflate函式輸入或對應您要壓縮的資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -136,7 +167,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料] </td> 
+   <td>[！UICONTROL資料] </td> 
    <td> <p>使用膨脹函式，輸入或對應您要解壓縮的資料。</p> </td> 
   </tr> 
  </tbody> 

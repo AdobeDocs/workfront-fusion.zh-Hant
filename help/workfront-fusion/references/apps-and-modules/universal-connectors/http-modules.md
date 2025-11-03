@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion HTTP應用程式提供各種模組，用於�
 author: Becky
 feature: Workfront Fusion
 exl-id: 7db97e6e-262d-4be2-823b-423f56a7d886
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 54c368d335b30f55cab19595a5b4740dde6013a7
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -33,34 +33,29 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -96,15 +91,15 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 將所有狀態評估為錯誤（2xx和3xx除外）] </td> 
+   <td role="rowheader">[！UICONTROL將所有狀態評估為錯誤（2xx和3xx除外）] </td> 
    <td> <p>使用此選項來設定錯誤處理。</p> <p>如需詳細資訊，請參閱Adobe Workfront Fusion中的<a href="/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md" class="MCXref xref">錯誤處理</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL] </td> 
+   <td role="rowheader">[！UICONTROL URL] </td> 
    <td> <p>輸入或對應您要下載之檔案的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 與其他HTTP模組共用Cookie] </td> 
+   <td role="rowheader">[！UICONTROL與其他HTTP模組共用Cookie] </td> 
    <td> <p>如果您希望此網站的Cookie對其他模組可用，請啟用此選項。 </p> </td> 
   </tr> 
  </tbody> 
@@ -119,12 +114,12 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL] </td> 
+   <td role="rowheader">[！UICONTROL URL] </td> 
    <td> <p>輸入或對應您要解析的URL，例如[!DNL bit.ly] URL。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法] </td> 
-   <td> <p>選取您要使用[!UICONTROL HEAD]方法或[!UICONTROL GET]方法。</p> </td> 
+   <td role="rowheader">[！UICONTROL方法] </td> 
+   <td> <p>選取您要使用[！UICONTROL HEAD]方法或[！UICONTROL GET]方法。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +135,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source模組]</td> 
+   <td role="rowheader">[！UICONTROL Source模組]</td> 
    <td> <p> 選取您要從中擷取標題的模組。</p> </td> 
   </tr> 
  </tbody> 

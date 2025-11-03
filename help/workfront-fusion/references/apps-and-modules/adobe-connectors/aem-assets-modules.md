@@ -4,9 +4,9 @@ description: 使用適用於Adobe Workfront Fusion的Adobe Experience Manager As
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 361e6c9c-1497-4f47-85bb-503619744968
-source-git-commit: 190c35629f1fc1e07eef4110f3f4f771af1065fb
+source-git-commit: d4bdc4005a3b7b22d64adc8ca1d20bcf534ddfd1
 workflow-type: tm+mt
-source-wordcount: '3727'
+source-wordcount: '3734'
 ht-degree: 2%
 
 ---
@@ -23,34 +23,29 @@ ht-degree: 2%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：自動化和整合的Workfront Fusion </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -67,10 +62,10 @@ ht-degree: 2%
 * 您必須擁有Adobe Experience Manager Assets帳戶才能使用這些模組。
 * 您必須在Adobe Developer主控台中設定伺服器對伺服器流程。
 
-  如需在Adobe Developer主控台中設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
+  如需在Adobe Developer主控台中設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
 * 您的Adobe Experience Manager技術帳戶必須擁有寫入許可權。
 
-  如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
+  如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
 
 ## Adobe Experience Manager Assets API資訊
 
@@ -118,11 +113,11 @@ Adobe Experience Manager Assets聯結器會使用以下專案：
 >
 >* 這些欄位的資訊是在Adobe Developer Console上設定伺服器對伺服器流程時產生的。 您可以在設定過程中產生的服務認證JSON檔案中找到這些值。
 >
->   如需在Adobe Developer Console上設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
+>   如需在Adobe Developer Console上設定伺服器對伺服器流量的指示，請參閱[產生伺服器端API的存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
 >
 >* 您的Adobe Experience Manager技術帳戶必須擁有寫入許可權。
 >
->   如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
+>   如需新增寫入許可權至您Adobe Experience Manager技術帳戶的指示，請參閱Adobe Experience Manager檔案中的[服務認證](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
 
 
 <table style="table-layout:auto"> 

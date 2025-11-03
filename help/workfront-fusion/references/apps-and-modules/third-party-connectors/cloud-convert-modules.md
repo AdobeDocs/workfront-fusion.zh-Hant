@@ -4,9 +4,9 @@ description: CloudConvert模組
 author: Becky
 feature: Workfront Fusion
 exl-id: 52c4d18a-8bee-44d6-9a2c-cc9e157e1dde
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '3146'
+source-wordcount: '3161'
 ht-degree: 0%
 
 ---
@@ -15,36 +15,43 @@ ht-degree: 0%
 
 在Adobe Workfront Fusion案例中，您可以自動化使用CloudConvert的工作流程，並將其連結至多個協力廠商應用程式和服務。 [!DNL CloudConvert]模組可讓您監視和管理[!DNL CloudConvert]帳戶中的工作、工作，以及匯入和匯出檔案。
 
+## 存取需求
+
++++ 展開以檢視本文中功能的存取需求。
+
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td>
-  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權*</td>
-   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前授權需求：無Workfront Fusion授權需求。</p>
-   <p>或</p>
-   <p>舊版授權要求：[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[!UICONTROL Ultimate] Workfront計畫中。</p>
-   <p>或</p>
-   <p>舊版產品需求：您的組織必須購買Adobe Workfront Fusion和Adobe Workfront，才能使用本文所述的功能。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
+
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+
+如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## CloudConvert API資訊
 
@@ -76,7 +83,7 @@ CloudConvert聯結器會使用以下專案：
 1. 登入您的[!DNL CloudConvert]帳戶並開啟您的[!UICONTROL 儀表板]。
 1. 開啟&#x200B;**[!UICONTROL 授權] > [!UICONTROL API金鑰]**&#x200B;區段。
 1. 按一下&#x200B;**[!UICONTROL 建立新的API金鑰]**。
-1. 輸入API金鑰的名稱，啟用您要使用的範圍，然後按一下[建立]。**&#x200B;**
+1. 輸入API金鑰的名稱，啟用您要使用的範圍，然後按一下[建立]。****
 1. 複製提供的Token並將其儲存在安全的地方。
 1. 在Workfront Fusion中，開始建立情境並開啟[!DNL CloudConvert]模組的&#x200B;**[!UICONTROL 建立連線]**&#x200B;對話方塊。
 
@@ -118,31 +125,31 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td>輸入您要擷取的網站URL。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出格式] </td> 
+   <td role="rowheader">[！UICONTROL輸出格式] </td> 
    <td>選取您要以PNG、JPG或PDF格式儲存擷取的網站。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案名稱] </td> 
+   <td role="rowheader">[！UICONTROL檔案名稱] </td> 
    <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers] </td> 
+   <td role="rowheader">[！UICONTROL Headers] </td> 
    <td> <p>（選用）定義請求標頭。 </p> <p>這在指定的URL需要授權時很有用。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 轉換與引擎特定選項] </p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL轉換與引擎特定選項] </p> </td> 
    <td>指定轉換和引擎特定選項。 若要檢視可用的選項，請參閱<a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]和</a>的<code>input_format</code> API<code>output_format</code>檔案。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 下載檔案] </td> 
+   <td role="rowheader">[！UICONTROL下載檔案] </td> 
    <td> <p>如果您也想在模組的輸出中包含檔案資料，請啟用此選項。</p> </td> 
   </tr> 
  </tbody> 
@@ -157,27 +164,27 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入檔案]</td> 
+   <td role="rowheader">[！UICONTROL輸入檔案]</td> 
    <td>選取您要使用Workfront Fusion上傳檔案，或提供要從中上傳檔案的URL。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 上傳檔案]</td> 
+   <td role="rowheader">[！UICONTROL上傳檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 從URL匯入檔案]</td> 
+   <td role="rowheader">[！UICONTROL從URL匯入檔案]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL URL]</strong> </p> <p>輸入要轉換的檔案URL。</p> </li> 
-     <li> <p><strong>[!UICONTROL Headers]</strong></p> <p>定義請求標頭（選用）。 這在指定的URL需要授權時很有用。</p> </li> 
+     <li> <p><strong>[！UICONTROL URL]</strong> </p> <p>輸入要轉換的檔案URL。</p> </li> 
+     <li> <p><strong>[！UICONTROL Headers]</strong></p> <p>定義請求標頭（選用）。 這在指定的URL需要授權時很有用。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 格式]</td> 
+   <td role="rowheader">[！UICONTROL格式]</td> 
    <td>選取是否要指定要轉換之檔案的輸入格式。 如果未指定，則會使用輸入檔案的副檔名作為輸入格式。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -185,19 +192,19 @@ CloudConvert聯結器會使用以下專案：
    <td>選取檔案的目前格式。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 輸出格式]</td> 
+   <td role="rowheader">[！UICONTROL輸出格式]</td> 
    <td>選取您要轉換檔案的目標檔案格式。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 檔案名稱]</td> 
+   <td role="rowheader">[！UICONTROL檔案名稱]</td> 
    <td>選擇目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL 轉換與引擎特定選項] </p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL轉換與引擎特定選項] </p> </td> 
    <td>指定轉換和引擎特定選項。 若要檢視可用的選項，請參閱<a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]和</a>的<code>input_format</code> API<code>output_format</code>檔案。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 下載檔案] </td> 
+   <td role="rowheader">[！UICONTROL下載檔案] </td> 
    <td> <p>如果您也想在模組的輸出中包含檔案資料，請啟用此選項。</p> </td> 
   </tr> 
  </tbody> 
@@ -212,35 +219,35 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 輸入檔案]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL輸入檔案]</p> </td> 
    <td> <p>指定您要新增至封存的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 上傳檔案]</td> 
+   <td role="rowheader">[！UICONTROL上傳檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 從URL匯入檔案]</p> </td> 
-   <td> <p><strong>[!UICONTROL URL]</strong> </p> <p>輸入要封存的檔案URL。</p> <p><strong>[!UICONTROL 標頭]</strong> </p> <p>定義請求標頭（選用）。 這在指定的URL需要授權時很有用。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL從URL匯入檔案]</p> </td> 
+   <td> <p><strong>[！UICONTROL URL]</strong> </p> <p>輸入要封存的檔案URL。</p> <p><strong>[！UICONTROL標頭]</strong> </p> <p>定義請求標頭（選用）。 這在指定的URL需要授權時很有用。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出格式]</td> 
+   <td role="rowheader">[！UICONTROL輸出格式]</td> 
    <td> <p> 選取已封存檔案的目標格式。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案名稱]</td> 
+   <td role="rowheader">[！UICONTROL檔案名稱]</td> 
    <td> <p> 輸入目標輸出檔案的檔案名稱（包括副檔名）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 轉換與引擎特定選項] </td> 
+   <td role="rowheader">[！UICONTROL轉換與引擎特定選項] </td> 
    <td> <p>指定轉換和引擎特定選項。 若要檢視可用的選項，請參閱<a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]和</a>的<code>input_format</code> API<code>output_format</code>檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 下載檔案]</td> 
+   <td role="rowheader">[！UICONTROL下載檔案]</td> 
    <td> <p>如果您也想在模組的輸出中包含檔案資料，請啟用此選項。</p> </td> 
   </tr> 
  </tbody> 
@@ -255,35 +262,35 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 輸入檔案]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL輸入檔案]</p> </td> 
    <td> <p>指定您要合併的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 上傳檔案]</td> 
+   <td role="rowheader">[！UICONTROL上傳檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 從URL匯入檔案]</p> </td> 
-   <td> <p><strong>[!UICONTROL URL]</strong> </p> <p>輸入要封存的檔案URL。</p> <p><strong>[!UICONTROL 標頭]</strong> </p> <p>定義請求標頭（選用）。 這在指定的URL需要授權時很有用。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL從URL匯入檔案]</p> </td> 
+   <td> <p><strong>[！UICONTROL URL]</strong> </p> <p>輸入要封存的檔案URL。</p> <p><strong>[！UICONTROL標頭]</strong> </p> <p>定義請求標頭（選用）。 這在指定的URL需要授權時很有用。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出格式]</td> 
+   <td role="rowheader">[！UICONTROL輸出格式]</td> 
    <td> <p> 選取合併檔案的目標格式。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案名稱]</td> 
+   <td role="rowheader">[！UICONTROL檔案名稱]</td> 
    <td> <p> 輸入目標輸出檔案的檔案名稱（包括副檔名）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 轉換與引擎特定選項] </td> 
+   <td role="rowheader">[！UICONTROL轉換與引擎特定選項] </td> 
    <td> <p>指定轉換和引擎特定選項。 若要檢視可用的選項，請參閱<a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]和</a>的<code>input_format</code> API<code>output_format</code>檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 下載檔案]</td> 
+   <td role="rowheader">[！UICONTROL下載檔案]</td> 
    <td> <p>如果您也想在模組的輸出中包含檔案資料，請啟用此選項。</p> </td> 
   </tr> 
  </tbody> 
@@ -304,30 +311,30 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入檔案]</td> 
+   <td role="rowheader">[！UICONTROL輸入檔案]</td> 
    <td>選取您要使用Workfront Fusion上傳檔案，或提供要從中上傳檔案的URL。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 上傳檔案]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL上傳檔案]</p> </td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 從URL匯入檔案] </td> 
+   <td role="rowheader">[！UICONTROL從URL匯入檔案] </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL URL]</strong>：輸入要轉換的檔案URL。</li> 
-     <li><strong>[!UICONTROL Headers]</strong>： （選用）定義要求標題。 這在指定的URL需要授權時很有用。</li> 
+     <li><strong>[！UICONTROL URL]</strong>：輸入要轉換的檔案URL。</li> 
+     <li><strong>[！UICONTROL Headers]</strong>： （選用）定義要求標題。 這在指定的URL需要授權時很有用。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Optimization for] </td> 
+   <td role="rowheader">[！UICONTROL Optimization for] </td> 
    <td> <p>針對特定目標需求選取最佳化設定檔。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 網頁]</strong>：網頁的最佳化（預設）</p> 
+     <li> <p><strong>[！UICONTROL網頁]</strong>：網頁的最佳化（預設）</p> 
       <ul> 
        <li>移除Web多餘和不必要的資料</li> 
        <li>縮減取樣、剪下並聰明地壓縮影像</li> 
@@ -336,25 +343,25 @@ CloudConvert聯結器會使用以下專案：
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Print]</strong>：最佳化列印</p> 
+     <li> <p><strong>[！UICONTROL Print]</strong>：最佳化列印</p> 
       <ul> 
        <li> <p>移除列印時多餘和不必要的資料</p> </li> 
        <li> <p>縮減取樣、剪下並聰明地壓縮影像</p> </li> 
        <li> <p>合併字型和子集字型</p> </li> 
        <li> <p>將顏色轉換為CMYK</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL 封存]</strong>：針對封存用途最佳化</p> 
+     <li> <p><strong>[！UICONTROL封存]</strong>：針對封存用途最佳化</p> 
       <ul> 
        <li> <p>移除多餘和不必要的資料以進行封存</p> </li> 
        <li> <p>智慧型壓縮影像</p> </li> 
        <li> <p>合併字型和子集字型</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL 掃描的影像]</strong>：最佳化掃描的影像</p> 
+     <li> <p><strong>[！UICONTROL掃描的影像]</strong>：最佳化掃描的影像</p> 
       <ul> 
        <li> <p>主要包含點陣化影像的PDF最佳化設定檔</p> </li> 
        <li> <p>壓縮影像，而不大幅降低視覺品質</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL 最大尺寸縮減]</strong>：最佳化最大尺寸縮減</p> 
+     <li> <p><strong>[！UICONTROL最大尺寸縮減]</strong>：最佳化最大尺寸縮減</p> 
       <ul> 
        <li> <p>使用最大可能的壓縮</p> </li> 
        <li> <p>可能會降低視覺品質</p> </li> 
@@ -362,19 +369,19 @@ CloudConvert聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入格式] </td> 
+   <td role="rowheader">[！UICONTROL輸入格式] </td> 
    <td>選取要最佳化的輸入檔案格式。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案名稱]</td> 
+   <td role="rowheader">[！UICONTROL檔案名稱]</td> 
    <td> <p>輸入目標輸出檔案的檔案名稱（包括副檔名）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 轉換與引擎特定選項]</td> 
+   <td role="rowheader">[！UICONTROL轉換與引擎特定選項]</td> 
    <td> <p>指定轉換和引擎特定選項。 若要檢視可用的選項，請參閱<a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert]和</a>的<code>input_format</code> API<code>output_format</code>檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 下載檔案]</td> 
+   <td role="rowheader">[！UICONTROL下載檔案]</td> 
    <td> <p>如果您也想在模組的輸出中包含檔案資料，請啟用此選項。</p> </td> 
   </tr> 
  </tbody> 
@@ -397,42 +404,42 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入檔案]</td> 
+   <td role="rowheader">[！UICONTROL輸入檔案]</td> 
    <td> <p>選取您要使用Workfront Fusion上傳檔案，或提供要從中上傳檔案的URL。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 上傳檔案]</td> 
+   <td role="rowheader">[！UICONTROL上傳檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 從URL匯入檔案]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL從URL匯入檔案]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL URL]</strong>：輸入您要處理的檔案URL。</li> 
-     <li><strong>[!UICONTROL Headers]</strong>： （選用）定義要求標題。 這在指定的URL需要授權時很有用。</li> 
+     <li><strong>[！UICONTROL URL]</strong>：輸入您要處理的檔案URL。</li> 
+     <li><strong>[！UICONTROL Headers]</strong>： （選用）定義要求標題。 這在指定的URL需要授權時很有用。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 工作]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL工作]</p> </td> 
    <td> <p>新增將在工作內執行的任務。</p> <p>請在對應區段中尋找作業欄位的說明。</p> 
     <ul> 
-     <li><a href="#convert-a-file" class="MCXref xref">[!UICONTROL 轉換檔案]</a> </li> 
-     <li><a href="#capture-a-website" class="MCXref xref">[!UICONTROL 擷取網站]e</a> </li> 
-     <li><a href="#optimize-a-file" class="MCXref xref">[!UICONTROL 最佳化檔案]</a> </li> 
-     <li><a href="#create-an-archive" class="MCXref xref">[!UICONTROL 建立封存]</a> </li> 
-     <li><a href="#merge-files" class="MCXref xref">[!UICONTROL 合併檔案]</a> </li> 
+     <li><a href="#convert-a-file" class="MCXref xref">[！UICONTROL轉換檔案]</a> </li> 
+     <li><a href="#capture-a-website" class="MCXref xref">[！UICONTROL擷取網站]e</a> </li> 
+     <li><a href="#optimize-a-file" class="MCXref xref">[！UICONTROL最佳化檔案]</a> </li> 
+     <li><a href="#create-an-archive" class="MCXref xref">[！UICONTROL建立封存]</a> </li> 
+     <li><a href="#merge-files" class="MCXref xref">[！UICONTROL合併檔案]</a> </li> 
     </ul> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 執行命令]</strong> </p> <p>如需有關執行命令的詳細資訊，請參閱<a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert] API檔案</a>。</p> </li> 
-     <li> <p><strong>[!UICONTROL 將檔案匯出至暫存URL]</strong> </p> <p> 指定工作名稱和輸入工作名稱（例如轉換）。</p> </li> 
+     <li> <p><strong>[！UICONTROL執行命令]</strong> </p> <p>如需有關執行命令的詳細資訊，請參閱<a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert] API檔案</a>。</p> </li> 
+     <li> <p><strong>[！UICONTROL將檔案匯出至暫存URL]</strong> </p> <p> 指定工作名稱和輸入工作名稱（例如轉換）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 標籤] </td> 
+   <td role="rowheader">[！UICONTROL標籤] </td> 
    <td> <p>輸入標籤。 標籤是用來識別工作的任意字串。 註解沒有任何效果，可用來將工作與ID建立關聯。</p> </td> 
   </tr> 
  </tbody> 
@@ -451,11 +458,11 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 工作ID]</td> 
+   <td role="rowheader">[！UICONTROL工作ID]</td> 
    <td> <p>輸入或對應您要刪除之工作的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -470,11 +477,11 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 工作ID]</td> 
+   <td role="rowheader">[！UICONTROL工作ID]</td> 
    <td> <p>輸入或對應您要擷取其詳細資訊之作業的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -489,15 +496,15 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 狀態] </td> 
+   <td role="rowheader">[！UICONTROL狀態] </td> 
    <td> <p>選取工作狀態，以篩選傳回的工作。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 限制] </td> 
+   <td role="rowheader">[！UICONTROL限制] </td> 
    <td> <p>設定Workfront Fusion 2.0在一個執行週期中傳回的工作數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -518,19 +525,19 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook名稱]</td> 
+   <td role="rowheader">[！UICONTROL Webhook名稱]</td> 
    <td>輸入webhook名稱。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出格式] </td> 
+   <td role="rowheader">[！UICONTROL輸出格式] </td> 
    <td>選取您要以PNG、JPG或PDF格式儲存擷取的網站。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 事件]</td> 
+   <td role="rowheader">[！UICONTROL事件]</td> 
    <td>選取在建立、完成或失敗工作或任務時是否觸發模組。</td> 
   </tr> 
  </tbody> 
@@ -561,11 +568,11 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 任務ID]</td> 
+   <td role="rowheader">[！UICONTROL任務ID]</td> 
    <td> <p> 輸入或對應您要取消之工作的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -584,11 +591,11 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 任務ID]</td> 
+   <td role="rowheader">[！UICONTROL任務ID]</td> 
    <td> <p> 輸入（對應）您要刪除之任務的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -603,11 +610,11 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 任務ID]</td> 
+   <td role="rowheader">[！UICONTROL任務ID]</td> 
    <td> <p> 輸入或對應您要從其中下載檔案的工作的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -622,11 +629,11 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 任務ID]</td> 
+   <td role="rowheader">[！UICONTROL任務ID]</td> 
    <td> <p>輸入或對應您要擷取其詳細資訊之任務的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -641,23 +648,23 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 狀態] </td> 
+   <td role="rowheader">[！UICONTROL狀態] </td> 
    <td> <p>選取任務狀態，以篩選傳回的任務。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 工作ID] </td> 
+   <td role="rowheader">[！UICONTROL工作ID] </td> 
    <td> <p>輸入或對應工作ID以僅傳回指定工作內的工作。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 操作] </td> 
-   <td> <p>輸入作業型別，以僅傳回具有指定作業的任務。 </p> <p>注意：請使用[!UICONTROL List Possible Operations]模組來擷取作業。</p> </td> 
+   <td role="rowheader">[！UICONTROL操作] </td> 
+   <td> <p>輸入作業型別，以僅傳回具有指定作業的任務。 </p> <p>注意：請使用[！UICONTROL List Possible Operations]模組來擷取作業。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 限制] </td> 
+   <td role="rowheader">[！UICONTROL限制] </td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 
@@ -672,11 +679,11 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 任務ID]</td> 
+   <td role="rowheader">[！UICONTROL任務ID]</td> 
    <td> <p> 輸入或對應您要建立新任務的任務ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -696,7 +703,7 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL CloudConvert]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">將[!DNL CloudConvert]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -711,27 +718,27 @@ CloudConvert聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將CloudConvert帳戶連線到Workfront Fusion的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本指示</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td> <p>輸入相對於<code>https://api.cloudconvert.com/</code>的路徑。 例如： <code>/v2/tasks</code></p> <p>如需可用端點的清單，請參閱<a href="https://cloudconvert.com/api/v2">[!DNL CloudConvert] API v2檔案</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    td&gt; <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 2.0會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。<img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
@@ -768,23 +775,23 @@ URL： `/v2/tasks`
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL 輸出檔案大小超過案例所允許的限制。]</span> </p> </td> 
+   <td role="rowheader"> <p><span style="font-weight: normal;">[！UICONTROL輸出檔案大小超過案例所允許的限制。]</span> </p> </td> 
    <td> <p>請參閱檔案大小限制。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL 您已超過轉換時間上限。]</span> </p> </td> 
+   <td role="rowheader"> <p><span style="font-weight: normal;">[！UICONTROL您已超過轉換時間上限。]</span> </p> </td> 
    <td> <p>免費的[!DNL CloudConvert]計畫每天提供25分鐘的轉換時間。 如果您的使用量超過免費方案的限制，則可切換為（預付）套件或訂閱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL 無法讀取框架大小：無法搜尋至1508。 /output/JLIADSA00137P0.mp3�：無效的引數。]</span> </p> </td> 
+   <td role="rowheader"> <p><span style="font-weight: normal;">[！UICONTROL無法讀取框架大小：無法搜尋至1508。 /output/JLIADSA00137P0.mp3�：無效的引數。]</span> </p> </td> 
    <td> <p>例如，將檔案從MP3轉換為WAV時會擲回此錯誤。 請確定您選取了正確的區域，因為它會找到檔案的參照，而不只是正確的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL RuntimeError：] </p> <p><span style="font-weight: normal;">[!UICONTROL 已超過重複專案的最大數目。]</span> </p> </td> 
-   <td> <p>在您的[!DNL CloudConvert]儀表板工作清單中找到對應的[!DNL CloudConvert]工作，並檢查工作的持續時間：</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>[!DNL CloudConvert] &gt; [!UICONTROL Convert a File]模組的逾時設為3分鐘。 如果工作的持續時間超過3分鐘（可能是因為[!DNL CloudConvert]服務暫時超載），模組會擲回上述錯誤。</p> <p>在此案例中，請考量下列其中一個選項：</p> 
+   <td role="rowheader"> <p>[！UICONTROL RuntimeError：] </p> <p><span style="font-weight: normal;">[！UICONTROL已超過重複專案的最大數目。]</span> </p> </td> 
+   <td> <p>在您的[!DNL CloudConvert]儀表板工作清單中找到對應的[!DNL CloudConvert]工作，並檢查工作的持續時間：</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>[!DNL CloudConvert] &gt; [！UICONTROL Convert a File]模組的逾時設為3分鐘。 如果工作的持續時間超過3分鐘（可能是因為[!DNL CloudConvert]服務暫時超載），模組會擲回上述錯誤。</p> <p>在此案例中，請考量下列其中一個選項：</p> 
     <ul> 
-     <li>在情境設定中啟用<strong>[!UICONTROL 允許儲存未完成的執行]</strong>選項，以儲存未完成的執行，以供稍後手動解析。 您可以選擇使用[!UICONTROL Break]指示詞將錯誤處理路由附加至[!DNL CloudConvert]模組，以自動解決未完成的執行。</li> 
-     <li>停用<strong> &gt; [!UICONTROL 轉換檔案]模組中的</strong>[!UICONTROL 下載檔案]選項[!DNL CloudConvert]。 在此情況下，模組不會等待轉換結果。 若要取得轉換結果，請建立新案例並使用[!DNL CloudConvert] &gt; [!UICONTROL 新增工作事件]觸發器。</li> 
+     <li>在情境設定中啟用<strong>[！UICONTROL允許儲存未完成的執行]</strong>選項，以儲存未完成的執行，以供稍後手動解析。 您可以選擇使用[！UICONTROL Break]指示詞將錯誤處理路由附加至[!DNL CloudConvert]模組，以自動解決未完成的執行。</li> 
+     <li>停用<strong> &gt; [！UICONTROL轉換檔案]模組中的</strong>[！UICONTROL下載檔案]選項[!DNL CloudConvert]。 在此情況下，模組不會等待轉換結果。 若要取得轉換結果，請建立新案例並使用[!DNL CloudConvert] &gt; [！UICONTROL新增工作事件]觸發器。</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

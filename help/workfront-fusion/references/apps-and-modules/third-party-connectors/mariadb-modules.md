@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 41179cfe-c0f9-4d18-ab7e-374670ac688b
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 1%
+source-wordcount: '651'
+ht-degree: 0%
 
 ---
 
@@ -24,34 +24,29 @@ ht-degree: 1%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -79,35 +74,35 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 連線名稱]</p> </td> 
+      <td role="rowheader"> <p>[！UICONTROL連線名稱]</p> </td> 
       <td> <p>輸入新連線的名稱。</p> </td> 
      </tr> 
         <tr>
-        <td role="rowheader">[!UICONTROL 環境]</td>
+        <td role="rowheader">[！UICONTROL環境]</td>
         <td>選取此連線是用於生產或非生產環境。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 型別]</td>
+        <td role="rowheader">[！UICONTROL型別]</td>
         <td>選取您要連線到服務帳戶還是個人帳戶。</td>
         </tr>
      <tr> 
-      <td role="rowheader">[!UICONTROL 主機]</td> 
+      <td role="rowheader">[！UICONTROL主機]</td> 
       <td> <p>輸入資料庫執行處理的IP位址或主機名稱。 此主機必須可從您的網路外部存取。</p> <p>範例： <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 連線埠]</td> 
+      <td role="rowheader">[！UICONTROL連線埠]</td> 
       <td>預設連線埠為3306。 如果您使用非標準連線埠，請將此號碼設定為您的連線埠。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 資料庫]</td> 
+      <td role="rowheader">[！UICONTROL資料庫]</td> 
       <td>輸入您要與其互動的資料庫名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者]</td> 
+      <td role="rowheader">[！UICONTROL使用者]</td> 
       <td>輸入您的使用者名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 密碼]</td> 
+      <td role="rowheader">[！UICONTROL密碼]</td> 
       <td>輸入您的密碼。</td> 
      </tr> 
     </tbody> 
@@ -132,11 +127,11 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td>如需有關將您的[!DNL MariaDB]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">將[!DNL MariaDB]連線到Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query]</td> 
+   <td role="rowheader">[！UICONTROL Query]</td> 
    <td> <p>輸入您希望模組用來擷取資料的SQL查詢。</p> <p>重要：查詢中使用的變數不會經過淨化。 請務必正確清理變數，以防止SQL插入。</p> </td> 
   </tr> 
  </tbody> 
@@ -151,15 +146,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td>如需有關將您的[!DNL MariaDB]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">將[!DNL MariaDB]連線到Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 表格]</td> 
+   <td role="rowheader">[！UICONTROL表格]</td> 
    <td> <p>選取包含要讀取之記錄的表格。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 篩選器]</td> 
+   <td role="rowheader">[！UICONTROL篩選器]</td> 
    <td> <p>設定您要用來選取列的篩選器</p> 
     <ul> 
      <li> <p>選取您要搜尋的欄位</p> </li> 
@@ -168,11 +163,11 @@ ht-degree: 1%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 排序] </td> 
-   <td> <p>針對您想要排序結果的每個層級，按一下<strong>[!UICONTROL 新增專案]</strong>，然後選取您想要排序結果的欄位，以及您想要以升序或降序排序</p> </td> 
+   <td role="rowheader">[！UICONTROL排序] </td> 
+   <td> <p>針對您想要排序結果的每個層級，按一下<strong>[！UICONTROL新增專案]</strong>，然後選取您想要排序結果的欄位，以及您想要以升序或降序排序</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 限制]</td> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
   </tr> 
  </tbody> 

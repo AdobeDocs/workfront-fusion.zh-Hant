@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 9bf67fc4-d93b-4868-ad1a-021c98637905
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -21,42 +21,41 @@ ht-degree: 1%
 
 ## 存取需求
 
-您必須具有下列存取權才能使用本文中的功能：
++++ 展開以檢視本文中功能的存取需求。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td>
-  <td> <p>[!UICONTROL Pro]或更高版本</p> </td>
+   <td role="rowheader">Adobe Workfront套件</td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權*</td>
-   <td> <p>[!UICONTROL 計畫]，[!UICONTROL 工作]</p> </td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前授權需求：無Workfront Fusion授權需求。</p>
-   <p>或</p>
-   <p>舊版授權要求：[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>目前產品需求：如果您有[!UICONTROL Select]或[!UICONTROL Prime] Adobe Workfront計畫，貴組織必須購買Adobe Workfront Fusion以及Adobe Workfront，才能使用本文所述的功能。 Workfront Fusion包含在[!UICONTROL Ultimate] Workfront計畫中。</p>
-   <p>或</p>
-   <p>舊版產品需求：您的組織必須購買Adobe Workfront Fusion和Adobe Workfront，才能使用本文所述的功能。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-若要瞭解您擁有的計畫、授權型別或存取權，請聯絡您的Workfront管理員。
+如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
 
 如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+
++++
 
 ## 先決條件
 
@@ -96,25 +95,25 @@ NetSuite聯結器使用下列專案：
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[!UICONTROL 連線名稱]</td>
+          <td role="rowheader">[！UICONTROL連線名稱]</td>
           <td>
             <p>輸入此連線的名稱。</p>
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 型別] </td>
+          <td role="rowheader">[！UICONTROL型別] </td>
           <td>選取您要連線到服務帳戶還是個人帳戶。</p>
         </tr>
        <tr>
-          <td role="rowheader">[!UICONTROL 帳戶ID] </td>
+          <td role="rowheader">[！UICONTROL帳戶ID] </td>
           <td>輸入NetSuite帳戶的ID。</p>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端ID]</td>
+          <td role="rowheader">[！UICONTROL使用者端ID]</td>
           <td>輸入您NetSuite帳戶的使用者端ID。 您可以在您的NetSuite使用者端認證中找到此專案。</p></td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
+          <td role="rowheader">[！UICONTROL使用者端密碼]</td>
           <td>輸入您NetSuite帳戶的使用者端密碼。</p>
         </tr>
         </tbody>
@@ -143,27 +142,27 @@ NetSuite聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL NetSuite]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-netsuite" class="MCXref xref">建立與[!DNL NetSuite]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td> <p>使用下列URL格式：</p> <p><code>https://{accountID}.suitetalk.api.netsuite.com/services/rest/record/{version}/{resource}?{query-parameters}</code> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td role="rowheader">[！UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

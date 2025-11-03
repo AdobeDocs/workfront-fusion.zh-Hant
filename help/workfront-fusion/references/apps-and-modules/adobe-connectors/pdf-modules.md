@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e6fbbc20-4315-4668-9e11-af7cfa82ae66
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
 workflow-type: tm+mt
-source-wordcount: '4145'
+source-wordcount: '4151'
 ht-degree: 0%
 
 ---
@@ -33,34 +33,29 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -112,47 +107,47 @@ Adobe PDF服務聯結器會使用以下專案：
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[!UICONTROL 連線型別]</td>
+          <td role="rowheader">[！UICONTROL連線型別]</td>
           <td>
             <p>選取您要建立伺服器對伺服器連線還是JWT連線。</p>
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 連線名稱]</td>
+          <td role="rowheader">[！UICONTROL連線名稱]</td>
           <td>
             <p>輸入此連線的名稱。</p>
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端ID]</td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。<p>如需尋找認證的說明，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p></td>
+          <td role="rowheader">[！UICONTROL使用者端ID]</td>
+          <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。<p>如需尋找認證的說明，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p></td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。<p>如需尋找認證的說明，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
+          <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+          <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。<p>如需尋找認證的說明，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 技術帳戶ID] （僅限JWT）</td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 技術帳戶ID]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。<p>如需尋找認證的說明，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
+          <td role="rowheader">[！UICONTROL技術帳戶ID] （僅限JWT）</td>
+          <td>輸入您的[!DNL Adobe] [！UICONTROL技術帳戶ID]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。<p>如需尋找認證的說明，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 組織ID] （僅限JWT）</td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 組織識別碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。<p>如需尋找認證的說明，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
+          <td role="rowheader">[！UICONTROL組織ID] （僅限JWT）</td>
+          <td>輸入您的[!DNL Adobe] [！UICONTROL組織識別碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL認證詳細資料]區段中找到。<p>如需尋找認證的說明，請參閱Adobe開發人員檔案中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 中繼範圍] （僅限JWT）</td>
+          <td role="rowheader">[！UICONTROL Meta範圍] （僅限JWT）</td>
           <td>
             輸入連線所需的任何中繼範圍。
           </td>
         </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 私密金鑰]</td>
+        <td role="rowheader">[！UICONTROL私密金鑰]</td>
         <td>
           <p>如果您已選取JWT連線，請輸入在[!DNL Adobe Developer Console]中建立認證時產生的私密金鑰。 </p>
           <p>若要擷取您的私密金鑰或憑證：</p>
           <ol>
             <li value="1">
-              <p>按一下<b>[!UICONTROL Extract]</b>。</p>
+              <p>按一下<b>[！UICONTROL Extract]</b>。</p>
             </li>
             <li value="2">
               <p>選取要解壓縮的檔案型別。</p>
@@ -164,7 +159,7 @@ Adobe PDF服務聯結器會使用以下專案：
               <p>輸入檔案的密碼。</p>
             </li>
             <li value="5">
-              <p>按一下<b>[!UICONTROL 儲存]</b>以擷取檔案並返回連線設定。</p>
+              <p>按一下<b>[！UICONTROL儲存]</b>以擷取檔案並返回連線設定。</p>
             </li>
           </ol>
         </td>
@@ -210,17 +205,17 @@ Adobe PDF服務聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案]</td> 
-   <td> <p>您可以使用彙總模組來收集檔案，以便將其合併到PDF中，也可以手動新增檔案。 </p> <p>我們建議使用[!UICONTROL 陣列彙總]模組，以彙總來自先前模組的輸出。 使用彙總器時，您不需要知道要合併的檔案名稱、位置或數目。 因此，使用彙總比手動輸入要合併的檔案要靈活得多，也更具可擴充性。</p> <p>若要將[!UICONTROL Combine PDF]檔案模組與彙總器搭配使用，您必須在[!UICONTROL Documents]欄位上啟用對應。 </p> <p>在此範例中，[!UICONTROL 讀取相關記錄]模組會識別與專案相關的檔案，而[!UICONTROL 下載檔案]模組會下載每個檔案。 所有PDF都會彙總成陣列，然後傳遞至[!UICONTROL Combine PDF]檔案模組。</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>您也可以手動輸入檔案。</p> <p>對於要包含在合併PDF中的每個檔案：</p> 
+   <td role="rowheader">[！UICONTROL檔案]</td> 
+   <td> <p>您可以使用彙總模組來收集檔案，以便將其合併到PDF中，也可以手動新增檔案。 </p> <p>我們建議使用[！UICONTROL陣列彙總]模組，以彙總來自先前模組的輸出。 使用彙總器時，您不需要知道要合併的檔案名稱、位置或數目。 因此，使用彙總比手動輸入要合併的檔案要靈活得多，也更具可擴充性。</p> <p>若要將[！UICONTROL Combine PDF]檔案模組與彙總器搭配使用，您必須在[！UICONTROL Documents]欄位上啟用對應。 </p> <p>在此範例中，[！UICONTROL讀取相關記錄]模組會識別與專案相關的檔案，而[！UICONTROL下載檔案]模組會下載每個檔案。 所有PDF都會彙總成陣列，然後傳遞至[！UICONTROL Combine PDF]檔案模組。</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>您也可以手動輸入檔案。</p> <p>對於要包含在合併PDF中的每個檔案：</p> 
     <ol> 
-     <li value="1"> <p>按一下[!UICONTROL 新增檔案]</p> </li> 
-     <li value="2"> <p>在[!UICONTROL Source file]欄位中，選取輸出您要包含之檔案的模組，或對應來源檔案的名稱和資料。 </p> </li> 
-     <li value="3"> <p>（選擇性）如果您只想包含來源檔案中的某些頁面，請針對您要新增的每個頁面範圍，按一下[!UICONTROL Pages]欄位中的<strong>[!UICONTROL Add item]</strong>，然後輸入要包含的頁面範圍的第一個和最後一個頁面，然後按一下<strong>[!UICONTROL Add]</strong>。 您可以從單一檔案中包含多個頁面範圍。</p> </li> 
-     <li value="4"> <p>按一下<strong>[!UICONTROL 新增]</strong>。 </p> </li> 
+     <li value="1"> <p>按一下[！UICONTROL新增檔案]</p> </li> 
+     <li value="2"> <p>在[！UICONTROL Source file]欄位中，選取輸出您要包含之檔案的模組，或對應來源檔案的名稱和資料。 </p> </li> 
+     <li value="3"> <p>（選擇性）如果您只想包含來源檔案中的某些頁面，請針對您要新增的每個頁面範圍，按一下[！UICONTROL Pages]欄位中的<strong>[！UICONTROL Add item]</strong>，然後輸入要包含的頁面範圍的第一個和最後一個頁面，然後按一下<strong>[！UICONTROL Add]</strong>。 您可以從單一檔案中包含多個頁面範圍。</p> </li> 
+     <li value="4"> <p>按一下<strong>[！UICONTROL新增]</strong>。 </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -237,15 +232,15 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>來源檔案必須是PDF格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 壓縮等級]</td> 
+   <td role="rowheader">[！UICONTROL壓縮等級]</td> 
    <td>選取您要使用的壓縮等級。</td> 
   </tr> 
  </tbody> 
@@ -268,11 +263,11 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>來源檔案必須是下列格式之一：</p> 
     <ul> 
      <li> <p>DOC</p> </li> 
@@ -283,7 +278,7 @@ Adobe PDF服務聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Language]</td> 
+   <td role="rowheader">[！UICONTROL Language]</td> 
    <td> <p>選取來原始檔的預設語言。 這可讓模組選取適當的字型（如果來源檔案中未包含的話）。</p> <p>從下列語言中選取：</p> 
     <ul> 
      <li> <p>en-US （預設）：英文（美國）</p> </li> 
@@ -337,23 +332,23 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>重要： Source檔案必須為HTML或ZIP格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL JSON]</td> 
-   <td> <p>如果您的HTML參照JavaScript變數，您可以在此處包含這些變數。 </p> <p>對於每個變數，按一下<strong>[!UICONTROL 新增專案]</strong>並包含變數的索引鍵和值。</p> <p>注意：   
+   <td role="rowheader">[！UICONTROL JSON]</td> 
+   <td> <p>如果您的HTML參照JavaScript變數，您可以在此處包含這些變數。 </p> <p>對於每個變數，按一下<strong>[！UICONTROL新增專案]</strong>並包含變數的索引鍵和值。</p> <p>注意：   
      <ul> 
       <li> <p>從ZIP檔案建立PDF時，來源附屬資料必須包含指令碼元素，例如： <code> &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt;</code> </p> </li> 
       <li> <p>從URL建立PDF時，此JSON物件的內容會在轉譯頁面之前插入瀏覽器VM。 </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Include頁首和頁尾]</td> 
+   <td role="rowheader">[！UICONTROL Include頁首和頁尾]</td> 
    <td> <p>啟用此選項以建立PDF檔案的頁首和頁尾。</p> 
     <ul> 
      <li> <p>標題包含日期和檔案標題。</p> </li> 
@@ -361,11 +356,11 @@ Adobe PDF服務聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 頁面寬度]</td> 
+   <td role="rowheader">[！UICONTROL頁面寬度]</td> 
    <td>輸入紙張的寬度，以英吋為單位。 此模組會使用此資訊，將所建立PDF檔案中的頁面格式化。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 頁面高度]</td> 
+   <td role="rowheader">[！UICONTROL頁面高度]</td> 
    <td>輸入紙張的高度，以英吋為單位。 此模組會使用此資訊，將所建立PDF檔案中的頁面格式化。</td> 
   </tr> 
  </tbody> 
@@ -382,11 +377,11 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和影像檔案。</p> </td> 
   </tr> 
  </tbody> 
@@ -409,15 +404,15 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>來源檔案必須是PDF格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出檔案格式]</td> 
+   <td role="rowheader">[！UICONTROL輸出檔案格式]</td> 
    <td> <p>選取您要檔案輸出為的格式：</p> 
     <ul> 
      <li> <p>DOC</p> </li> 
@@ -428,7 +423,7 @@ Adobe PDF服務聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Language]</td> 
+   <td role="rowheader">[！UICONTROL Language]</td> 
    <td> <p>選取來原始檔的預設語言。 這可讓模組選取適當的字型（如果來源檔案中未包含的話）。</p> <p>從下列語言中選取：</p> 
     <ul> 
      <li> <p>en-US （預設）：英文（美國）</p> </li> 
@@ -486,15 +481,15 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>來源檔案必須是PDF格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出檔案格式]</td> 
+   <td role="rowheader">[！UICONTROL輸出檔案格式]</td> 
    <td> <p>選取您要檔案輸出為的格式：</p> 
     <ul> 
      <li>PNG</li> 
@@ -502,7 +497,7 @@ Adobe PDF服務聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出型別]</td> 
+   <td role="rowheader">[！UICONTROL輸出型別]</td> 
    <td> <p>選取您要將檔案輸出為檔案清單還是ZIP檔案。</td> 
   </tr> 
   <tr> 
@@ -518,27 +513,27 @@ Adobe PDF服務聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">應該擷取為JSON的[!UICONTROL 元素]</td> 
+   <td role="rowheader">應該擷取為JSON的[！UICONTROL元素]</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Text]</p> </li> 
-     <li> <p>[!UICONTROL 表格]</p> </li> 
+     <li> <p>[！UICONTROL Text]</p> </li> 
+     <li> <p>[！UICONTROL表格]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Extract Bounding boxes？]</td> 
+   <td role="rowheader">[！UICONTROL Extract Bounding boxes？]</td> 
    <td>啟用此選項以擷取有關文字邊界方框的資料。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 是否包含輸出的樣式資訊？]</td> 
+   <td role="rowheader">[！UICONTROL是否包含輸出的樣式資訊？]</td> 
    <td>啟用此選項以將樣式資訊新增到輸出JSON。</td> 
   </tr> 
  </tbody> 
@@ -572,15 +567,15 @@ Adobe PDF服務聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
-   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>此來源檔案是模組用來產生新PDF的[!DNL Microsoft Word]範本。</p> <p>建議您針對在Workfront Fusion中使用的[!DNL Microsoft Word]範本，在Workfront中建立專案。 接著，您可以使用「Workfront &gt; [!UICONTROL 下載檔案]」模組，將適當的範本提取至情境中。</p> </td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>此來源檔案是模組用來產生新PDF的[!DNL Microsoft Word]範本。</p> <p>建議您針對在Workfront Fusion中使用的[!DNL Microsoft Word]範本，在Workfront中建立專案。 接著，您可以使用「Workfront &gt; [！UICONTROL下載檔案]」模組，將適當的範本提取至情境中。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出格式]</td> 
+   <td role="rowheader">[！UICONTROL輸出格式]</td> 
    <td> <p>選取產生檔案的格式。</p> 
     <ul> 
      <li> <p>PDF</p> </li> 
@@ -588,12 +583,12 @@ Adobe PDF服務聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">用於合併的[!UICONTROL 資料]</td> 
+   <td role="rowheader">用於合併的[！UICONTROL資料]</td> 
    <td> <p>對於範本中要以文字取代的每個值標籤，請填入下列內容：</p> 
     <ul> 
-     <li> <p>[!UICONTROL Key]</p> <p>輸入金鑰。 在範本中，索引鍵是值標籤中顯示的文字。 例如，如果您想要將文字置入值標籤<code>&#123;&#123;name&#125;&#125;</code>中，請在索引鍵欄位中輸入<code>name </code>。</p> </li> 
+     <li> <p>[！UICONTROL Key]</p> <p>輸入金鑰。 在範本中，索引鍵是值標籤中顯示的文字。 例如，如果您想要將文字置入值標籤<code>&#123;&#123;name&#125;&#125;</code>中，請在索引鍵欄位中輸入<code>name </code>。</p> </li> 
      <li> <p>值型別</p> <p>選取值欄位中的資料是值、物件或物件陣列。</p> </li> 
-     <li> <p>[!UICONTROL 值]</p> <p>輸入或對應您要出現在產生檔案中的文字，以取代值標籤。</p> </li> 
+     <li> <p>[！UICONTROL值]</p> <p>輸入或對應您要出現在產生檔案中的文字，以取代值標籤。</p> </li> 
     </ul> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
   </tr> 
  </tbody> 
@@ -608,15 +603,15 @@ Adobe PDF服務聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出格式]</td> 
+   <td role="rowheader">[！UICONTROL輸出格式]</td> 
    <td> <p>選取產生檔案的格式。</p> 
     <ul> 
      <li> <p>PDF</p> </li> 
@@ -624,7 +619,7 @@ Adobe PDF服務聯結器會使用以下專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">用於合併的[!UICONTROL 資料]</td> 
+   <td role="rowheader">用於合併的[！UICONTROL資料]</td> 
    <td> <p>若要在此模組中使用JSON，您必須在此欄位上啟用對應。</p> <p>輸入或對應JSON以從中產生檔案。 </p> <p>您可以直接在此欄位中輸入JSON，或從JSON模組對應JSON輸出。</p> </td> 
   </tr> 
  </tbody> 
@@ -641,11 +636,11 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -660,27 +655,27 @@ Adobe PDF服務聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td role="rowheader">[！UICONTROL URL]</td> 
    <td> 輸入相對路徑或URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 方法]</td> 
+   <td role="rowheader">[！UICONTROL方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td role="rowheader">[！UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
+   <td role="rowheader">[！UICONTROL查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 欄位]</td> 
+   <td role="rowheader">[！UICONTROL欄位]</td> 
    <td> <p>針對您想要新增至API呼叫的每個欄位，按一下<b>新增專案</b>，然後輸入欄位的索引鍵和選擇性值。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -701,23 +696,23 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Language]</td> 
+   <td role="rowheader">[！UICONTROL Language]</td> 
    <td>選取此檔案的語言。<p>如需語言選項，請參閱本文中的<a href="#convert-document-to-pdf-file" class="MCXref xref" >將檔案轉換成PDF檔案</a>。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL OCR型別]</td> 
+   <td role="rowheader">[！UICONTROL OCR型別]</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Modified original image]型別可確保文字可搜尋且可供選取，但在清除程式期間（例如，扭曲原影像），將不可見的文字圖層放在原影像上之前，會修改原影像。 此型別會移除不想要的成品，在某些情況下，可能會導致檔案更易讀取。 </p> </li> 
-     <li> <p>[!UICONTROL Unchanged original image]型別也會將可搜尋的文字圖層覆蓋在原始影像上，但在此情況下，原始影像不會變更。 此型別會產生原始影像的最大逼真度。</p> </li> 
+     <li> <p>[！UICONTROL Modified original image]型別可確保文字可搜尋且可供選取，但在清除程式期間（例如，扭曲原影像），將不可見的文字圖層放在原影像上之前，會修改原影像。 此型別會移除不想要的成品，在某些情況下，可能會導致檔案更易讀取。 </p> </li> 
+     <li> <p>[！UICONTROL Unchanged original image]型別也會將可搜尋的文字圖層覆蓋在原始影像上，但在此情況下，原始影像不會變更。 此型別會產生原始影像的最大逼真度。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -734,34 +729,34 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 動作]</td> 
+   <td role="rowheader">[！UICONTROL動作]</td> 
    <td> <p>選取您要對檔案執行的動作。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 刪除]</b> </p> <p>選取此選項以從檔案刪除頁面。</p><p>針對您要刪除的每個頁面範圍，按一下<strong>[!UICONTROL 新增]</strong>，然後輸入頁面範圍的第一個和最後一個頁面。 </p> <p>注意：   
+     <li> <p><b>[！UICONTROL刪除]</b> </p> <p>選取此選項以從檔案刪除頁面。</p><p>針對您要刪除的每個頁面範圍，按一下<strong>[！UICONTROL新增]</strong>，然後輸入頁面範圍的第一個和最後一個頁面。 </p> <p>注意：   
      <ul> 
       <li> <p>您可以使用負數從檔案結尾往回計數。 檔案的最後一頁為–1，最後一頁的第二頁為–2，依此類推。</p> </li> 
       <li> <p>若要刪除單一頁面，請將相同的頁碼設定為範圍的開始和結束。</p></ul> </li> 
-     <li> <p><b>[!UICONTROL 旋轉]</b> </p> <p>選取此選項可旋轉頁面，然後輸入想要相對於檔案頁面的起始方向旋轉檔案頁面的角度（以順時針角度為單位）。</p> <p>若要從直向旋轉或橫向旋轉，請將頁面旋轉90度或270度。</p> <p>如果頁面上下顛倒，請將其旋轉180度。</p> </li> 
+     <li> <p><b>[！UICONTROL旋轉]</b> </p> <p>選取此選項可旋轉頁面，然後輸入想要相對於檔案頁面的起始方向旋轉檔案頁面的角度（以順時針角度為單位）。</p> <p>若要從直向旋轉或橫向旋轉，請將頁面旋轉90度或270度。</p> <p>如果頁面上下顛倒，請將其旋轉180度。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Pages]</td> 
-   <td> <p>針對您要刪除的每個頁面範圍，按一下<strong>[!UICONTROL 新增]</strong>，然後輸入頁面範圍的第一個和最後一個頁面。 </p> <p>注意：   
+   <td role="rowheader">[！UICONTROL Pages]</td> 
+   <td> <p>針對您要刪除的每個頁面範圍，按一下<strong>[！UICONTROL新增]</strong>，然後輸入頁面範圍的第一個和最後一個頁面。 </p> <p>注意：   
      <ul> 
       <li> <p>您可以使用負數從檔案結尾往回計數。 檔案的最後一頁為–1，最後一頁的第二頁為–2，依此類推。</p> </li> 
       <li> <p>若要刪除單一頁面，請將相同的頁碼設定為範圍的開始和結束。</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 限制]</td> 
+   <td role="rowheader">[！UICONTROL限制]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中處理的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -778,19 +773,19 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Shift標題]</td> 
+   <td role="rowheader">[！UICONTROL Shift標題]</td> 
    <td> <p>啟用此選項以移動檔案上的標題。</p> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 產生報表]</td> 
+   <td role="rowheader">[！UICONTROL產生報表]</td> 
    <td> <p>啟用此選項即可產生報告，列出PDF中的協助工具問題及其位置，並提供如何修正這些問題的建議。</p> </td> 
   </tr> 
  </tbody> 
@@ -813,11 +808,11 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -834,41 +829,41 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>來源檔案必須是PDF格式。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 密碼保護型別]</td> 
+   <td role="rowheader">[！UICONTROL密碼保護型別]</td> 
    <td> <p>啟用此選項以使用密碼來加密輸入PDF檔案。 如果啟用此選項，則必須指定並輸入下列其中一或兩個的值： </p> 
     <ul> 
-     <li> <p>[!UICONTROL 使用者密碼]</p> </li> 
-     <li> <p>[!UICONTROL 擁有者密碼] </p> </li> 
+     <li> <p>[！UICONTROL使用者密碼]</p> </li> 
+     <li> <p>[！UICONTROL擁有者密碼] </p> </li> 
     </ul> <p>每個密碼的長度最多可達128個字元。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 加密演演算法]</td> 
+   <td role="rowheader">[！UICONTROL加密演演算法]</td> 
    <td> <p>選取加密演演算法。 </p> 
     <ul> 
-     <li> <p>[!UICONTROL AES-128加密]</p> <p>密碼僅支援LATIN-I字元。 </p> </li> 
-     <li> <p>[!UICONTROL AES-256加密]</p> <p>密碼支援Unicode字元集</p> </li> 
+     <li> <p>[！UICONTROL AES-128加密]</p> <p>密碼僅支援LATIN-I字元。 </p> </li> 
+     <li> <p>[！UICONTROL AES-256加密]</p> <p>密碼支援Unicode字元集</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 要加密的內容]</td> 
+   <td role="rowheader">[！UICONTROL要加密的內容]</td> 
    <td> <p>選取要加密的內容型別。</p> 
     <ul> 
-     <li> <p>[!UICONTROL 所有內容]</p> </li> 
-     <li> <p>[!UICONTROL 中繼資料以外的所有內容]</p> </li> 
-     <li> <p>[!UICONTROL 僅限內嵌資料] </p> </li> 
-    </ul> <p>選取「[!UICONTROL Only embedded data]」會使任何提供的存取許可權失效。</p> </td> 
+     <li> <p>[！UICONTROL所有內容]</p> </li> 
+     <li> <p>[！UICONTROL中繼資料以外的所有內容]</p> </li> 
+     <li> <p>[！UICONTROL僅限內嵌資料] </p> </li> 
+    </ul> <p>選取「[！UICONTROL Only embedded data]」會使任何提供的存取許可權失效。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Permissions]</td> 
-   <td> <p>選取您要包含的任何許可權，以允許列印、編輯或內容複製。</p> <p>只有在[!UICONTROL Password Protection Type]欄位中設定[!UICONTROL Owner Password]時，才會使用許可權設定。</p> </td> 
+   <td role="rowheader">[！UICONTROL Permissions]</td> 
+   <td> <p>選取您要包含的任何許可權，以允許列印、編輯或內容複製。</p> <p>只有在[！UICONTROL Password Protection Type]欄位中設定[！UICONTROL Owner Password]時，才會使用許可權設定。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,15 +879,15 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>來源檔案必須是PDF格式。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 密碼]</td> 
+   <td role="rowheader">[！UICONTROL密碼]</td> 
    <td>輸入目前保護檔案的密碼。</td> 
   </tr> 
  </tbody> 
@@ -909,15 +904,15 @@ Adobe PDF服務聯結器會使用以下專案：
  </col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[！UICONTROL Connection]</td> 
    <td> <p>選取要用於此模組的連線。</p> 如需建立[!DNL Adobe PDF Services]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與[!DNL Adobe PDF Services]</a>的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>來源檔案必須是PDF格式。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 分割選項]</td> 
+   <td role="rowheader">[！UICONTROL分割選項]</td> 
    <td>選取您要如何分割檔案。 
    <ul>
    <li><p><b>頁面範圍</b></p><p>針對您想要分割成個別檔案的每個頁面範圍，按一下<b>新增</b>，然後輸入您要開始的頁面和您要結束的頁面。</p></li>

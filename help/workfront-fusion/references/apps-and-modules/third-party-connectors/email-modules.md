@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以將電子郵件帳戶
 author: Becky
 feature: Workfront Fusion
 exl-id: 28a04bad-d3ef-4f3a-be93-8b04761a75e4
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '2485'
+source-wordcount: '2491'
 ht-degree: 0%
 
 ---
@@ -19,34 +19,29 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -127,40 +122,40 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的電子郵件帳戶連線到[!UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的電子郵件帳戶連線到[！UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料夾] </td> 
+   <td role="rowheader">[！UICONTROL資料夾] </td> 
    <td> <p>選取包含您要觀看之電子郵件的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 條件]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL條件]</p> </td> 
    <td> <p>選取您想用來觀看電子郵件的條件：</p> 
     <ul> 
-     <li>[!UICONTROL 所有電子郵件]</li> 
-     <li>[!UICONTROL 僅讀取電子郵件]</li> 
-     <li>[!UICONTROL Only未讀取電子郵件]</li> 
+     <li>[！UICONTROL所有電子郵件]</li> 
+     <li>[！UICONTROL僅讀取電子郵件]</li> 
+     <li>[！UICONTROL Only未讀取電子郵件]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 寄件者電子郵件地址] </td> 
+   <td role="rowheader">[！UICONTROL寄件者電子郵件地址] </td> 
    <td> <p>輸入要監視其電子郵件的寄件者電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 主旨] </td> 
+   <td role="rowheader">[！UICONTROL主旨] </td> 
    <td> <p>輸入您要觀看之電子郵件的主旨。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 片語] </td> 
+   <td role="rowheader">[！UICONTROL片語] </td> 
    <td> <p>輸入任何關鍵字，以僅觀看包含關鍵字的電子郵件。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 擷取時將訊息標示為已讀取]</td> 
+   <td role="rowheader">[！UICONTROL擷取時將訊息標示為已讀取]</td> 
    <td> <p>啟用此選項，在擷取詳細資料後將未讀取的電子郵件標示為已讀取。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 結果數量上限]</td> 
+   <td role="rowheader">[！UICONTROL結果數量上限]</td> 
    <td> <p> 輸入或對映Workfront Fusion在一個案例執行週期內應傳回的最大電子郵件數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -186,20 +181,20 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的電子郵件帳戶連線到[!UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[!UICONTROL Workfront Fusion]</a>。</p> </td>
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的電子郵件帳戶連線到[！UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[！UICONTROL Workfront Fusion]</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source資料夾]</td> 
+   <td role="rowheader">[！UICONTROL Source資料夾]</td> 
    <td>選取您要複製電子郵件的資料夾。 範例： Primary。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 目的地資料夾]</td> 
+   <td role="rowheader">[！UICONTROL目的地資料夾]</td> 
    <td> <p> 選取您要複製電子郵件的資料夾。 範例：工作。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 電子郵件ID (UID)]</p> </td> 
-   <td> <p>輸入您要複製到目的地資料夾之電子郵件的電子郵件UID 。</p> <p>您可以使用[!UICONTROL Email] &gt; [!UICONTROL Watch Email]模組或[!UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要複製到目的地資料夾之電子郵件的電子郵件UID 。</p> <p>您可以使用[！UICONTROL Email] &gt; [！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組來取得電子郵件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -213,40 +208,40 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的電子郵件帳戶連線到[!UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[!UICONTROL Workfront Fusion]</a>。</p> </td>
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的電子郵件帳戶連線到[！UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[！UICONTROL Workfront Fusion]</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料夾]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
    <td>選取您要建立草稿電子郵件的資料夾。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 至] </td> 
+   <td role="rowheader">[！UICONTROL至] </td> 
    <td> <p>輸入或對應您要傳送電子郵件的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 主旨] </td> 
+   <td role="rowheader">[！UICONTROL主旨] </td> 
    <td> <p>輸入或對映電子郵件的主旨列。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 內容] </td> 
+   <td role="rowheader">[！UICONTROL內容] </td> 
    <td> <p>使用HTML標籤或純文字，以HTML格式輸入或對應電子郵件內容。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 附件]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL附件]</p> </td> 
    <td> <p>針對您要新增的每個附件，按一下[新增專案] <b> </b>並輸入下列內容：</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 檔案名稱]</strong> </p> <p>輸入檔案名稱，包括副檔名。 </p> </li> 
-     <li> <p><strong>[!UICONTROL 資料]</strong> </p> <p>輸入要上傳附件的資料夾路徑。</p> </li> 
-     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>輸入內容ID以在內容中插入附件（影像）。</p> </li> 
+     <li> <p><strong>[！UICONTROL檔案名稱]</strong> </p> <p>輸入檔案名稱，包括副檔名。 </p> </li> 
+     <li> <p><strong>[！UICONTROL資料]</strong> </p> <p>輸入要上傳附件的資料夾路徑。</p> </li> 
+     <li> <p><strong>[！UICONTROL Content-ID]</strong> </p> <p>輸入內容ID以在內容中插入附件（影像）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 副本收件者] </td> 
+   <td role="rowheader">[！UICONTROL副本收件者] </td> 
    <td> <p>對於您要傳送此電子郵件復本的每個電子郵件地址，按一下[新增專案] <b>並輸入電子郵件地址。</b> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 密件副本收件者]</td> 
+   <td role="rowheader">[！UICONTROL密件副本收件者]</td> 
    <td> <p> 對於您想要傳送此電子郵件復本而不讓電子郵件地址出現在電子郵件中的每個電子郵件地址，請按一下[新增專案] <b>並輸入電子郵件地址。</b></p> </td> 
   </tr> 
   <!--<tr data-mc-conditions=""> 
@@ -298,20 +293,20 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的電子郵件帳戶連線到[!UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[!UICONTROL Workfront Fusion]</a>。</p> </td>
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的電子郵件帳戶連線到[！UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[！UICONTROL Workfront Fusion]</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料夾]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
    <td>選取包含您要刪除之電子郵件的資料夾。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 電子郵件ID (UID)]</p> </td> 
-   <td> <p>輸入您要刪除之電子郵件的電子郵件UID 。</p> <p>您可以使用電子郵件&gt;觀看電子郵件模組或[!UICONTROL 搜尋電子郵件]模組，取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要刪除之電子郵件的電子郵件UID 。</p> <p>您可以使用電子郵件&gt;觀看電子郵件模組或[！UICONTROL搜尋電子郵件]模組，取得電子郵件的UID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 分段]</td> 
-   <td> <p>啟用此選項可永久移除目前開啟之信箱中標示為[!UICONTROL 已刪除]的所有郵件。</p> <p>注意：在[!DNL Gmail]中，此行為是由[!UICONTROL 設定] &gt;[!UICONTROL 轉送POP/IMAP in IMAP access]區段中的設定所驅動。</p> </td> 
+   <td role="rowheader">[！UICONTROL分段]</td> 
+   <td> <p>啟用此選項可永久移除目前開啟之信箱中標示為[！UICONTROL已刪除]的所有郵件。</p> <p>注意：在[!DNL Gmail]中，此行為是由[！UICONTROL設定] &gt;[！UICONTROL轉送POP/IMAP in IMAP access]區段中的設定所驅動。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -325,60 +320,60 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的電子郵件帳戶連線到[!UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[!UICONTROL Workfront Fusion]</a>。</p> </td>
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的電子郵件帳戶連線到[！UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[！UICONTROL Workfront Fusion]</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料夾] </td> 
+   <td role="rowheader">[！UICONTROL資料夾] </td> 
    <td> <p>選取包含您要擷取之電子郵件的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 擷取時將訊息標示為已讀取] </td> 
+   <td role="rowheader">[！UICONTROL擷取時將訊息標示為已讀取] </td> 
    <td> <p>如果您要在擷取詳細資料後將未讀取的電子郵件標示為已讀取，請啟用此選項。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 條件]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL條件]</p> </td> 
    <td> <p>選取您要擷取之電子郵件的條件：</p> 
     <ul> 
-     <li>[!UICONTROL 所有電子郵件]</li> 
-     <li>[!UICONTROL 僅讀取電子郵件]</li> 
-     <li>[!UICONTROL Only未讀取電子郵件]</li> 
+     <li>[！UICONTROL所有電子郵件]</li> 
+     <li>[！UICONTROL僅讀取電子郵件]</li> 
+     <li>[！UICONTROL Only未讀取電子郵件]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 寄件者電子郵件地址] </td> 
+   <td role="rowheader">[！UICONTROL寄件者電子郵件地址] </td> 
    <td> <p>輸入或對應您要擷取其電子郵件的寄件者電子郵件地址。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 收件者電子郵件]</td> 
+   <td role="rowheader">[！UICONTROL收件者電子郵件]</td> 
    <td> <p> 輸入或對應您要擷取其電子郵件的收件者的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 起始日期] </td> 
+   <td role="rowheader">[！UICONTROL起始日期] </td> 
    <td> <p>輸入或對應日期，以擷取在指定日期當天或之後處理的電子郵件。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 日期之前]</td> 
+   <td role="rowheader">[！UICONTROL日期之前]</td> 
    <td> <p> 輸入或對應日期，以擷取指定日期當天或之前處理的電子郵件。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 主旨] </td> 
+   <td role="rowheader">[！UICONTROL主旨] </td> 
    <td> <p>輸入或對應您要擷取之電子郵件的主旨。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 片語] </td> 
+   <td role="rowheader">[！UICONTROL片語] </td> 
    <td> <p>輸入或對應任何關鍵字，以僅擷取包含這些關鍵字的電子郵件。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 電子郵件ID (UID)]</td> 
-   <td> <p> 輸入您要擷取其詳細資訊之電子郵件的電子郵件ID (UID)。</p> <p>您可以使用Workfront Fusion的[!UICONTROL Watch Email]模組或[!UICONTROL Search Email]模組，取得電子郵件的UID。</p> </td> 
+   <td role="rowheader">[！UICONTROL電子郵件ID (UID)]</td> 
+   <td> <p> 輸入您要擷取其詳細資訊之電子郵件的電子郵件ID (UID)。</p> <p>您可以使用Workfront Fusion的[！UICONTROL Watch Email]模組或[！UICONTROL Search Email]模組，取得電子郵件的UID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 結果數量上限]</td> 
+   <td role="rowheader">[！UICONTROL結果數量上限]</td> 
    <td> <p> Workfront Fusion應在一個情境執行週期內傳回的最大電子郵件數量。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 即使模組未傳回任何結果，仍繼續執行路由]</td> 
+   <td role="rowheader">[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</td> 
    <td> <p> 選取是否要在沒有傳回結果的情況下繼續執行模組。</p> </td> 
   </tr> 
  </tbody> 
@@ -393,16 +388,16 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的電子郵件帳戶連線到[!UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[!UICONTROL Workfront Fusion]</a>。</p> </td>
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的電子郵件帳戶連線到[！UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[！UICONTROL Workfront Fusion]</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料夾]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
    <td>選取包含您要標籤為已讀之電子郵件的資料夾。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 電子郵件ID (UID)]</p> </td> 
-   <td> <p>輸入您要標示為已讀取之電子郵件的電子郵件UID 。</p> <p>您可以使用電子郵件&gt;觀看電子郵件模組或[!UICONTROL 搜尋電子郵件]模組，取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要標示為已讀取之電子郵件的電子郵件UID 。</p> <p>您可以使用電子郵件&gt;觀看電子郵件模組或[！UICONTROL搜尋電子郵件]模組，取得電子郵件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -416,16 +411,16 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的電子郵件帳戶連線到[!UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[!UICONTROL Workfront Fusion]</a>。</p> </td>
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的電子郵件帳戶連線到[！UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[！UICONTROL Workfront Fusion]</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料夾]</td> 
+   <td role="rowheader">[！UICONTROL資料夾]</td> 
    <td>選取包含您要標籤為未讀取之電子郵件的資料夾。 範例： Primary。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 電子郵件ID (UID)]</p> </td> 
-   <td> <p>輸入您要標示為未讀取之電子郵件的電子郵件UID 。</p> <p>您可以使用電子郵件&gt;觀看電子郵件模組或[!UICONTROL 搜尋電子郵件]模組，取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要標示為未讀取之電子郵件的電子郵件UID 。</p> <p>您可以使用電子郵件&gt;觀看電子郵件模組或[！UICONTROL搜尋電子郵件]模組，取得電子郵件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -439,20 +434,20 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的電子郵件帳戶連線到[!UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[!UICONTROL Workfront Fusion]</a>。</p> </td>
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的電子郵件帳戶連線到[！UICONTROL Workfront Fusion]的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將您的電子郵件連線到[！UICONTROL Workfront Fusion]</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source資料夾]</td> 
+   <td role="rowheader">[！UICONTROL Source資料夾]</td> 
    <td>選取包含您要移動之電子郵件的資料夾。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 目的地資料夾]</td> 
+   <td role="rowheader">[！UICONTROL目的地資料夾]</td> 
    <td> <p> 選取您要新增電子郵件的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 電子郵件ID (UID)]</p> </td> 
-   <td> <p>輸入您要移至目的地資料夾之電子郵件的電子郵件UID 。</p> <p>您可以使用電子郵件&gt;觀看電子郵件模組或[!UICONTROL 搜尋電子郵件]模組，取得電子郵件的UID。</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL電子郵件ID (UID)]</p> </td> 
+   <td> <p>輸入您要移至目的地資料夾之電子郵件的電子郵件UID 。</p> <p>您可以使用電子郵件&gt;觀看電子郵件模組或[！UICONTROL搜尋電子郵件]模組，取得電子郵件的UID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -466,86 +461,86 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>如需將電子郵件帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將電子郵件連線至[!UICONTROL Workfront Fusion]</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td> <p>如需將電子郵件帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">將電子郵件連線至[！UICONTROL Workfront Fusion]</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 傳送後儲存訊息]</td> 
-   <td>電子郵件傳送後，會儲存在您的信箱中。 若要將使用Workfront Fusion傳送的電子郵件儲存至<i>[!UICONTROL 已傳送郵件]</i>資料夾或您信箱中的其他資料夾，請啟用此選項。 有些電子郵件服務（例如[!DNL Gmail]）會自動儲存已傳送的郵件。</td> 
+   <td role="rowheader">[！UICONTROL傳送後儲存訊息]</td> 
+   <td>電子郵件傳送後，會儲存在您的信箱中。 若要將使用Workfront Fusion傳送的電子郵件儲存至<i>[！UICONTROL已傳送郵件]</i>資料夾或您信箱中的其他資料夾，請啟用此選項。 有些電子郵件服務（例如[!DNL Gmail]）會自動儲存已傳送的郵件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 至] </td> 
+   <td role="rowheader">[！UICONTROL至] </td> 
    <td> <p>新增您要傳送電子郵件的收件者電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 主旨] </td> 
+   <td role="rowheader">[！UICONTROL主旨] </td> 
    <td> <p>輸入或對映電子郵件的主旨列。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 內容型別]</p> </td> 
-   <td> <p>選取電子郵件的[!UICONTROL 內容]型別：</p> 
+   <td role="rowheader"> <p>[！UICONTROL內容型別]</p> </td> 
+   <td> <p>選取電子郵件的[！UICONTROL內容]型別：</p> 
     <ul> 
      <li>HTML</li> 
-     <li>[!UICONTROL 純文字]</li> 
+     <li>[！UICONTROL純文字]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 內容] </td> 
-   <td> <p>使用HTML標籤以HTML格式或純文字輸入或對應電子郵件內容，視您在[!UICONTROL 內容型別]欄位中選擇的內容而定。</p> </td> 
+   <td role="rowheader">[！UICONTROL內容] </td> 
+   <td> <p>使用HTML標籤以HTML格式或純文字輸入或對應電子郵件內容，視您在[！UICONTROL內容型別]欄位中選擇的內容而定。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 附件]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL附件]</p> </td> 
    <td> <p>針對您要新增的每個附件，按一下[新增專案] <b> </b>並輸入下列內容：</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 檔案名稱]</strong> </p> <p>輸入檔案名稱，包括副檔名。 </p> </li> 
-     <li> <p><strong>[!UICONTROL 資料]</strong> </p> <p>輸入要上傳附件的資料夾路徑。</p> </li> 
-     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>輸入內容ID以在內容中插入附件（影像）。</p> </li> 
+     <li> <p><strong>[！UICONTROL檔案名稱]</strong> </p> <p>輸入檔案名稱，包括副檔名。 </p> </li> 
+     <li> <p><strong>[！UICONTROL資料]</strong> </p> <p>輸入要上傳附件的資料夾路徑。</p> </li> 
+     <li> <p><strong>[！UICONTROL Content-ID]</strong> </p> <p>輸入內容ID以在內容中插入附件（影像）。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 副本收件者] </td> 
+   <td role="rowheader">[！UICONTROL副本收件者] </td> 
    <td> <p>對於您要傳送此電子郵件復本的每個電子郵件地址，按一下[新增專案] <b>並輸入電子郵件地址。</b> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 密件副本收件者]</td> 
+   <td role="rowheader">[！UICONTROL密件副本收件者]</td> 
    <td> <p> 對於您想要傳送此電子郵件復本而不讓電子郵件地址出現在電子郵件中的每個電子郵件地址，請按一下[新增專案] <b>並輸入電子郵件地址。</b></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 寄件者]</p> </td> 
-   <td> <p>輸入或對應出現在電子郵件之[!UICONTROL Sender]欄位中的電子郵件地址。</p> <p>提示：如果您不確定要使用此欄位還是從欄位，我們建議您選擇從欄位。</p> <p>重要：使用正確的語法： <code>name@email.com</code>或 <code>"Name" name@email.com</code></p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL寄件者]</p> </td> 
+   <td> <p>輸入或對應出現在電子郵件之[！UICONTROL Sender]欄位中的電子郵件地址。</p> <p>提示：如果您不確定要使用此欄位還是從欄位，我們建議您選擇從欄位。</p> <p>重要：使用正確的語法： <code>name@email.com</code>或 <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 回覆]</td> 
+   <td role="rowheader">[！UICONTROL回覆]</td> 
    <td> <p> 如果您要將此電子郵件的回覆傳送至「寄件者」地址以外的其他地址，請輸入您要傳送此電子郵件回覆的電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL In-Reply-To]</td> 
+   <td role="rowheader">[！UICONTROL In-Reply-To]</td> 
    <td> <p> 如果您要回覆特定電子郵件，請輸入或對應您要回覆之電子郵件的ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 參考] </td> 
+   <td role="rowheader">[！UICONTROL參考] </td> 
    <td> <p>輸入對話串中所有回覆的訊息ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 優先順序]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL優先順序]</p> </td> 
    <td> <p>選取電子郵件的優先順序：</p> 
     <ul> 
-     <li>[!UICONTROL 高]</li> 
-     <li>[!UICONTROL Normal]</li> 
-     <li>[!UICONTROL 低]</li> 
+     <li>[！UICONTROL高]</li> 
+     <li>[！UICONTROL Normal]</li> 
+     <li>[！UICONTROL低]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Headers]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Headers]</p> </td> 
    <td> <p>新增標題：</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 索引鍵]</strong> </p> <p>新增金鑰。 例如[!UICONTROL Sender]、[!UICONTROL Date]、[!UICONTROL To]等。</p> </li> 
-     <li> <p><strong>[!UICONTROL 值]</strong> </p> <p>輸入索引鍵的值。</p> </li> 
+     <li> <p><strong>[！UICONTROL索引鍵]</strong> </p> <p>新增金鑰。 例如[！UICONTROL Sender]、[！UICONTROL Date]、[！UICONTROL To]等。</p> </li> 
+     <li> <p><strong>[！UICONTROL值]</strong> </p> <p>輸入索引鍵的值。</p> </li> 
     </ul> </td> 
   </tr> 
 <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL From] </td> 
-   <td> <p>輸入或對應電子郵件中[!UICONTROL 寄件者]欄位中所顯示的電子郵件地址（和名稱，如有需要）。 </p> <p>重要：使用正確的語法： <code>name@email.com</code>或<code>"Name" name@email.com</code>。</p> <p>注意：通常，Workfront Fusion會使用您在建立連線時輸入的電子郵件地址作為寄件者地址。 如果您輸入任何其他電子郵件地址，傳送郵件時可能會發生錯誤，因為您的帳戶可能沒有許可權，無法從您自己的其他地址傳送電子郵件。 例如<code>test@mail.com</code>或''<code>John Bush" test@email.com</code>'。</p> </td> 
+   <td role="rowheader">[！UICONTROL From] </td> 
+   <td> <p>輸入或對應電子郵件中[！UICONTROL寄件者]欄位中所顯示的電子郵件地址（和名稱，如有需要）。 </p> <p>重要：使用正確的語法： <code>name@email.com</code>或<code>"Name" name@email.com</code>。</p> <p>注意：通常，Workfront Fusion會使用您在建立連線時輸入的電子郵件地址作為寄件者地址。 如果您輸入任何其他電子郵件地址，傳送郵件時可能會發生錯誤，因為您的帳戶可能沒有許可權，無法從您自己的其他地址傳送電子郵件。 例如<code>test@mail.com</code>或''<code>John Bush" test@email.com</code>'。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -563,7 +558,7 @@ IMAP連線可讓您從遠端存取信箱，並讀取或操作信箱中的郵件�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source模組]</td> 
+   <td role="rowheader">[！UICONTROL Source模組]</td> 
    <td> <p>選取輸出附有您要反複處理之附件的電子郵件的模組。</p> </td> 
   </tr> 
  </tbody> 

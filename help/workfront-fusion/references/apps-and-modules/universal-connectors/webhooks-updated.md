@@ -4,9 +4,9 @@ description: webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來
 author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
-source-git-commit: f4d3c64b1cf7f34ca71f8882a8f65c11afe674f5
+source-git-commit: d4bdc4005a3b7b22d64adc8ca1d20bcf534ddfd1
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -23,34 +23,29 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -103,23 +98,23 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><p>[!UICONTROL URL] </p></td> 
-      <td>輸入webhook的URL。 您可以在用來設定webhook的[!UICONTROL Webhooks]模組中找到此URL。</td> 
+      <td role="rowheader"><p>[！UICONTROL URL] </p></td> 
+      <td>輸入webhook的URL。 您可以在用來設定webhook的[！UICONTROL Webhooks]模組中找到此URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 方法] </td> 
-      <td><p>[!UICONTROL POST]</p></td> 
+      <td role="rowheader">[！UICONTROL方法] </td> 
+      <td><p>[！UICONTROL POST]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 主體型別]</td> 
-      <td><p> [!UICONTROL Raw]</p></td> 
+      <td role="rowheader">[！UICONTROL主體型別]</td> 
+      <td><p> [！UICONTROL Raw]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 內容型別]</td> 
+      <td role="rowheader">[！UICONTROL內容型別]</td> 
       <td><p> JSON (application/json)</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 要求內容]</td> 
+      <td role="rowheader">[！UICONTROL要求內容]</td> 
       <td><p>webhook中需要原始JSON</p></td> 
      </tr> 
     </tbody> 
@@ -294,27 +289,27 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >設定[!UICONTROL Webhook回應]模組，如下所示：
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL 狀態] </td> 
->&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL Body] </td> 
->&gt;   <td> <p>HTML程式碼</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>[!UICONTROL 自訂標頭]</p> </td> 
->&gt;   <td> 
->&gt;    <ul> 
->&gt;     <li><strong>索引鍵</strong>： Content-type</li> 
->&gt;     <li><strong>值</strong>： text/html</li> 
->&gt;    </ul> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[！UICONTROL狀態] </td> 
+&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[！UICONTROL Body] </td> 
+&gt;   <td> <p>HTML程式碼</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>[！UICONTROL自訂標頭]</p> </td> 
+&gt;   <td> 
+&gt;    <ul> 
+&gt;     <li><strong>索引鍵</strong>： Content-type</li> 
+&gt;     <li><strong>值</strong>： text/html</li> 
+&gt;    </ul> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
 >
 >![自訂標頭](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
@@ -329,23 +324,23 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >**範例：**&#x200B;設定[!UICONTROL Webhook回應]模組，如下所示：
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL 狀態] </td> 
->&gt;   <td> <p>3xx重新導向HTTP狀態代碼，例如303</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>[!UICONTROL 自訂標頭]</p> </td> 
->&gt;   <td> 
->&gt;    <ul> 
->&gt;     <li><strong>[!UICONTROL 索引鍵]</strong>：位置</li> 
->&gt;     <li><strong>[!UICONTROL 值]</strong>：您要重新導向的URL。</li> 
->&gt;    </ul> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[！UICONTROL狀態] </td> 
+&gt;   <td> <p>3xx重新導向HTTP狀態代碼，例如303</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>[！UICONTROL自訂標頭]</p> </td> 
+&gt;   <td> 
+&gt;    <ul> 
+&gt;     <li><strong>[！UICONTROL索引鍵]</strong>：位置</li> 
+&gt;     <li><strong>[！UICONTROL值]</strong>：您要重新導向的URL。</li> 
+&gt;    </ul> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
 >
 >![Webhook回應](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 

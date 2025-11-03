@@ -4,9 +4,9 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Micros
 author: Becky
 feature: Workfront Fusion
 exl-id: a5ba5634-226b-4886-a4f1-3a14948c1605
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -23,34 +23,29 @@ ht-degree: 0%
 
 +++ 展開以檢視本文中功能的存取需求。
 
-您必須具有下列存取權才能使用本文中的功能：
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前：工作或以上</p> </td> 
+   <td> <p>標準</p><p>工作或更高</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權**</td> 
+   <td role="rowheader">Adobe Workfront Fusion授權</td> 
    <td>
-   <p>目前：無Workfront Fusion授權需求</p>
-   <p>或</p>
-   <p>舊版：Workfront Fusion for Work Automation and Integration </p>
+   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>選取或Prime Workfront套件：您的組織必須購買Adobe Workfront Fusion。</li><li>Ultimate Workfront套件：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
@@ -173,27 +168,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 要取代之文字的開始分隔符號]</td> 
+   <td role="rowheader">[！UICONTROL要取代之文字的開始分隔符號]</td> 
    <td> <p>輸入要標示取代文字開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#91;&#91;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 要取代之文字的結尾分隔符號]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL要取代之文字的結尾分隔符號]</p> </td> 
    <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入要取代的<code>&#93;&#93;</code> <code>[[replace_me]]</code></p>。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p> 從先前的模組中選取來源檔案，或對應來源檔案的資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">已填寫檔案的[!UICONTROL 名稱]</td> 
+   <td role="rowheader">已填寫檔案的[！UICONTROL名稱]</td> 
    <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料來源]</td> 
+   <td role="rowheader">[！UICONTROL資料來源]</td> 
    <td> <p>選取選項以指出您使用的資料來自表單還是原始資料集合（未處理的電腦資料）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 值]</td> 
+   <td role="rowheader">[！UICONTROL值]</td> 
    <td> <p>這必須是集合陣列，其中：</p> 
     <ul> 
      <li>每個集合都對應一個資料專案，並包含一個專案 <code>entry</code></li> 
@@ -203,7 +198,7 @@ ht-degree: 0%
     </ul> 
     <p>若要新增專案：</p>
     <ol> 
-     <li> 按一下<b>[!UICONTROL 新增專案]</b>。 </li> 
+     <li> 按一下<b>[！UICONTROL新增專案]</b>。 </li> 
      <li>選取專案的值型別。</li> 
      <li>新增名稱和值。 如需詳細資訊，請參閱本文所選值型別的範例。 
       <ul> 
@@ -231,35 +226,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source模組]</td> 
+   <td role="rowheader">[！UICONTROL Source模組]</td> 
    <td>選取作為文字來源的模組。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 要取代之文字的開始分隔符號]</td> 
+   <td role="rowheader">[！UICONTROL要取代之文字的開始分隔符號]</td> 
    <td> <p>輸入要標示取代文字開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#91;&#91;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 要取代之文字的結尾分隔符號]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL要取代之文字的結尾分隔符號]</p> </td> 
    <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#93;&#93;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Group by]</td> 
+   <td role="rowheader">[！UICONTROL Group by]</td> 
    <td> 定義包含一或多個對應專案的運算式。 彙總資料會以相同運算式的值分隔在「群組」底下。 每個群組都會輸出為個別的組合，其中包含含運算式和彙總文字的索引鍵。 如此一來，您便可將索引鍵用作後續模組中的篩選條件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 在空白彙總後停止處理]</td> 
+   <td role="rowheader">[！UICONTROL在空白彙總後停止處理]</td> 
    <td>啟用此選項可在彙總不含任何組合時停止處理。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[！UICONTROL Source檔案]</td> 
    <td> <p> 從先前的模組中選取來源檔案，或對應來源檔案的資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">已填寫檔案的[!UICONTROL 名稱]</td> 
+   <td role="rowheader">已填寫檔案的[！UICONTROL名稱]</td> 
    <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 值]</td> 
+   <td role="rowheader">[！UICONTROL值]</td> 
    <td> <p>這必須是集合陣列，其中：</p> 
     <ul> 
      <li>每個集合都對應一個資料專案，並包含一個專案 <code>entry</code></li> 
@@ -269,7 +264,7 @@ ht-degree: 0%
     </ul> 
     <p>若要新增專案：</p>
     <ol> 
-     <li> 按一下<b>[!UICONTROL 新增專案]</b>。 </li> 
+     <li> 按一下<b>[！UICONTROL新增專案]</b>。 </li> 
      <li>選取專案的值型別。</li> 
      <li>新增名稱和值。 如需詳細資訊，請參閱本文所選值型別的範例。 
       <ul> 

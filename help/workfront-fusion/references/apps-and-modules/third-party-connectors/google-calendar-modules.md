@@ -113,27 +113,27 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Google Calendar]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL行事曆] </td> 
+   <td>[!UICONTROL 行事曆] </td> 
    <td> <p>選取您希望模組使用的行事曆。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL手錶]</td> 
+   <td>[!UICONTROL 手錶]</td> 
    <td> <p>選擇您是隻想觀看新活動，還是想觀看新活動和所有變更。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL顯示已刪除的事件]</td> 
+   <td>[!UICONTROL 顯示已刪除的事件]</td> 
    <td> <p>啟用此選項以包含已刪除的事件。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Query] </td> 
+   <td>[!UICONTROL Query] </td> 
    <td> <p>輸入要傳回結果的文字。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL最大事件數]</td> 
+   <td>[!UICONTROL 最大事件數]</td> 
    <td> <p> 設定Workfront Fusion在一個週期內處理的最大事件數（每個案例執行的重複數量）。 如果該值設定得太高，則在指定的第三方服務端可能會中斷連線（逾時）。 Workfront Fusion對此沒有影響。 我們建議您設定較低的值，並為最大週期數定義較高的值，或是更頻繁地執行情境。</p> </td> 
   </tr> 
  </tbody> 
@@ -148,11 +148,11 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Mailhook] </td> 
+   <td>[!UICONTROL Mailhook] </td> 
    <td> <p>選取您要用於此模組的mailhook。 若要建立新的mailhook，請按一下[新增] <b></b>，然後輸入您要用於mailhook的連線。</p><p>如需有關將您的[!DNL Google Calendar]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL最大事件數]</td> 
+   <td>[!UICONTROL 最大事件數]</td> 
    <td> <p> 設定Workfront Fusion在一個週期內處理的最大事件數（每個案例執行的重複數量）。 如果該值設定得太高，則在指定的第三方服務端可能會中斷連線（逾時）。 Workfront Fusion對此沒有影響。 我們建議您設定較低的值，並為最大週期數定義較高的值，或是更頻繁地執行情境。</p> </td> 
   </tr> 
  </tbody> 
@@ -175,15 +175,15 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Google Calendar]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL色彩] </td> 
+   <td>[!UICONTROL 色彩] </td> 
    <td> <p>選取與行事曆關聯的顏色。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL行事曆名稱] </td> 
+   <td>[!UICONTROL 行事曆名稱] </td> 
    <td> <p>輸入或對應新行事曆的名稱。</p> </td> 
   </tr> 
  </tbody> 
@@ -204,77 +204,77 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td>如需有關將您的[!DNL Google Calendar]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL行事曆]</td> 
+   <td>[!UICONTROL 行事曆]</td> 
    <td> <p>選取您要顯示事件的行事曆。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL色彩]</td> 
+   <td>[!UICONTROL 色彩]</td> 
    <td>選取事件在行事曆上顯示的顏色。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL事件名稱]</td> 
-   <td> <p> 輸入或對應事件的名稱。 </p> <p>注意：如果您在[！UICONTROL建立事件]欄位中選取[！UICONTROL快速新增]，您可以包含事件的日期和時間，而Workfront Fusion會針對該日期和時間建立事件。 範例： <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>。 如果您選取[！UICONTROL快速新增]，但未在事件名稱中加入日期和時間，則事件將從目前時間建立並持續一小時。</p> </td> 
+   <td>[!UICONTROL 事件名稱]</td> 
+   <td> <p> 輸入或對應事件的名稱。 </p> <p>注意：如果您在[!UICONTROL 建立事件]欄位中選取[!UICONTROL 快速新增]，您可以包含事件的日期和時間，而Workfront Fusion會針對該日期和時間建立事件。 範例： <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>。 如果您選取[!UICONTROL 快速新增]，但未在事件名稱中加入日期和時間，則事件將從目前時間建立並持續一小時。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL全天事件]</td> 
+   <td>[!UICONTROL 全天事件]</td> 
    <td>如果事件是全天事件（不需要開始和結束時間），則啟用此選項。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL開始日期]</td> 
+   <td>[!UICONTROL 開始日期]</td> 
    <td> <p>輸入或對應事件的開始日期和時間。 </p> <p>如需支援的日期格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制轉換</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL結束日期]</td> 
+   <td>[!UICONTROL 結束日期]</td> 
    <td> <p> 輸入或對應事件的結束日期和時間。 </p> <p>如需支援的日期格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制轉換</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL說明]</td> 
+   <td>[!UICONTROL 說明]</td> 
    <td>輸入或對應事件的說明。 此欄位支援HTML。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL位置]</td> 
+   <td>[!UICONTROL 位置]</td> 
    <td>以文字形式輸入事件的位置。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL使用此事件的預設提醒設定]</td> 
-   <td>啟用此選項以使用預設提醒設定。 如果您在[！UICONTROL Reminder]欄位中設定自訂提醒，此值會設為「否」。</td> 
+   <td>[!UICONTROL 使用此事件的預設提醒設定]</td> 
+   <td>啟用此選項以使用預設提醒設定。 如果您在[!UICONTROL Reminder]欄位中設定自訂提醒，此值會設為「否」。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL提醒] </td> 
+   <td>[!UICONTROL 提醒] </td> 
    <td> <p>新增事件提醒。 對於每個要新增的提醒，按一下<b>新增專案</b>，然後選取要提醒的方法，並定義要提醒的事件之前的時間長度（分鐘）。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL出席者]</td> 
+   <td>[!UICONTROL 出席者]</td> 
    <td>將出席者新增至活動。 為每位出席者按一下<b>新增出席者</b>，然後輸入或對應其名稱與電子郵件地址。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL顯示為]</td> 
+   <td>[!UICONTROL 顯示為]</td> 
    <td>選取您希望檢視您行事曆的人員在此活動期間將您視為「忙碌」或「可用」。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL可見性] </td> 
+   <td>[!UICONTROL 可見性] </td> 
    <td> <p>選取此事件的可見性。 </p> 
     <ul> 
-     <li> <p><b>[！UICONTROL預設值]</b></p> <p>事件具有您在行事曆設定中設定的可見度。</p> </li> 
-     <li> <p><b>[！UICONTROL Public]</b></p> <p>與該行事曆共用之任何人都可以看見此事件。</p> </li> 
-     <li> <p><b>[！UICONTROL Private]</b></p> <p>只有與會者可看見此活動。</p> </li> 
+     <li> <p><b>[!UICONTROL 預設值]</b></p> <p>事件具有您在行事曆設定中設定的可見度。</p> </li> 
+     <li> <p><b>[!UICONTROL Public]</b></p> <p>與該行事曆共用之任何人都可以看見此事件。</p> </li> 
+     <li> <p><b>[!UICONTROL Private]</b></p> <p>只有與會者可看見此活動。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳送有關事件建立的通知]</td> 
-   <td> <p>選取是否將建立新事件的通知傳送給所有來賓、非[!DNL Google Calendar]來賓，或不要傳送給任何人。</p> <p>提示：我們建議僅在移轉使用案例中使用[！UICONTROL無]選項。</p> </td> 
+   <td>[!UICONTROL 傳送有關事件建立的通知]</td> 
+   <td> <p>選取是否將建立新事件的通知傳送給所有來賓、非[!DNL Google Calendar]來賓，或不要傳送給任何人。</p> <p>提示：我們建議僅在移轉使用案例中使用[!UICONTROL 無]選項。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL來賓可以修改事件]</td> 
+   <td>[!UICONTROL 來賓可以修改事件]</td> 
    <td> <p>如果您希望來賓能夠修改此事件，請啟用此選項。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL遞回]</td> 
-   <td>新增您要套用至此事件的任何遞回規則。 每個規則都需要有[！UICONTROL RRULE]、[！UICONTROL EXRULE]、[！UICONTROL RDATE]和[！UICONTROL EXDATE]行的清單，才能處理週期性事件。 請注意，此欄位中不允許有[！UICONTROL DTSTART]和[！UICONTROL DTEND]行；事件的開始和結束時間是在開始和結束欄位中指定。 單一事件或週期性事件的例項會省略此欄位。 如需詳細資訊，請參閱<a href="https://tools.ietf.org/html/rfc5545#section-3.8.5">RFC5545</a>。</td> 
+   <td>[!UICONTROL 遞回]</td> 
+   <td>新增您要套用至此事件的任何遞回規則。 每個規則都需要有[!UICONTROL RRULE]、[!UICONTROL EXRULE]、[!UICONTROL RDATE]和[!UICONTROL EXDATE]行的清單，才能處理週期性事件。 請注意，此欄位中不允許有[!UICONTROL DTSTART]和[!UICONTROL DTEND]行；事件的開始和結束時間是在開始和結束欄位中指定。 單一事件或週期性事件的例項會省略此欄位。 如需詳細資訊，請參閱<a href="https://tools.ietf.org/html/rfc5545#section-3.8.5">RFC5545</a>。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,15 +294,15 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Google Calendar]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL行事曆]</td> 
+   <td>[!UICONTROL 行事曆]</td> 
    <td> <p>選取包含您要刪除之事件的行事曆。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL事件ID]</td> 
+   <td>[!UICONTROL 事件ID]</td> 
    <td> <p> 輸入先前建立的[!DNL Google Calendar]要刪除之事件的事件ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -323,39 +323,39 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td>如需有關將您的[!DNL Google Calendar]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL行事曆]</td> 
+   <td>[!UICONTROL 行事曆]</td> 
    <td> <p>選取您要擷取事件的行事曆。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL開始日期]</td> 
+   <td>[!UICONTROL 開始日期]</td> 
    <td> <p> 輸入或對應事件開始的日期。 此模組也會擷取在此日期之前開始的、在輸入開始日期仍然發生的事件。 </p> <p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL結束日期]</td> 
+   <td>[!UICONTROL 結束日期]</td> 
    <td> <p> 輸入或對應事件結束的日期。 </p> <p> 如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL單一事件]</td> 
+   <td>[!UICONTROL 單一事件]</td> 
    <td> <p> 啟用此選項可將週期性事件視為單一例項。 例如，如果您有每週會議且已啟用此選項，模組會以個別事件的形式傳回每週的會議。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Query]</td> 
+   <td>[!UICONTROL Query]</td> 
    <td> <p>輸入或對應您要搜尋的搜尋字詞。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Order by]</td> 
+   <td>[!UICONTROL Order by]</td> 
    <td> <p>選取結果中傳回事件的順序。</p> 
     <ul> 
-     <li><strong>[！UICONTROL開始時間]</strong>：依開始日期和時間（升序）排序。 這僅在查詢單一事件時可用。</li> 
-     <li><strong>[！UICONTROL更新時間]</strong>：依上次修改時間排序（升序）。</li> 
+     <li><strong>[!UICONTROL 開始時間]</strong>：依開始日期和時間（升序）排序。 這僅在查詢單一事件時可用。</li> 
+     <li><strong>[!UICONTROL 更新時間]</strong>：依上次修改時間排序（升序）。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳回事件數上限]</td> 
+   <td>[!UICONTROL 傳回事件數上限]</td> 
    <td> <p>設定Workfront Fusion在一個執行週期內傳回的最大事件數。</p> </td> 
   </tr> 
  </tbody> 
@@ -376,76 +376,76 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL Google Calendar]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL行事曆] </td> 
+   <td>[!UICONTROL 行事曆] </td> 
    <td> <p>選取您要使用的行事曆。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL事件ID] </td> 
+   <td>[!UICONTROL 事件ID] </td> 
    <td> <p>輸入先前建立的[!DNL Google Calendar]事件中要更新的事件ID。</p> </td> 
   </tr>   <tr> 
-   <td>[！UICONTROL事件名稱]</td> 
-   <td> <p> 輸入或對應事件的名稱。 </p> <p>注意：如果您在[！UICONTROL建立事件]欄位中選取[！UICONTROL快速新增]，您可以包含事件的日期和時間，而Workfront Fusion會針對該日期和時間建立事件。 範例： <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>。 如果您選取[！UICONTROL快速新增]，但未在事件名稱中加入日期和時間，則事件將從目前時間建立並持續一小時。</p> </td> 
+   <td>[!UICONTROL 事件名稱]</td> 
+   <td> <p> 輸入或對應事件的名稱。 </p> <p>注意：如果您在[!UICONTROL 建立事件]欄位中選取[!UICONTROL 快速新增]，您可以包含事件的日期和時間，而Workfront Fusion會針對該日期和時間建立事件。 範例： <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>。 如果您選取[!UICONTROL 快速新增]，但未在事件名稱中加入日期和時間，則事件將從目前時間建立並持續一小時。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL全天事件]</td> 
+   <td>[!UICONTROL 全天事件]</td> 
    <td>如果事件是全天事件（不需要開始和結束時間），則啟用此選項。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL開始日期]</td> 
+   <td>[!UICONTROL 開始日期]</td> 
    <td> <p>輸入或對應事件的開始日期和時間。 </p> <p>如需支援的日期格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制轉換</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL結束日期]</td> 
+   <td>[!UICONTROL 結束日期]</td> 
    <td> <p> 輸入或對應事件的結束日期和時間。 </p> <p>如需支援的日期格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制轉換</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL說明]</td> 
+   <td>[!UICONTROL 說明]</td> 
    <td>輸入或對應事件的說明。 此欄位支援HTML。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL位置]</td> 
+   <td>[!UICONTROL 位置]</td> 
    <td>以文字形式輸入事件的位置。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL使用此事件的預設提醒設定]</td> 
-   <td>啟用此選項以使用預設提醒設定。 如果您在[！UICONTROL Reminder]欄位中設定自訂提醒，此值會設為「否」。</td> 
+   <td>[!UICONTROL 使用此事件的預設提醒設定]</td> 
+   <td>啟用此選項以使用預設提醒設定。 如果您在[!UICONTROL Reminder]欄位中設定自訂提醒，此值會設為「否」。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL提醒] </td> 
+   <td>[!UICONTROL 提醒] </td> 
    <td> <p>新增事件提醒。 對於每個要新增的提醒，按一下<b>新增專案</b>，然後選取要提醒的方法，並定義要提醒的事件之前的時間長度（分鐘）。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL出席者]</td> 
+   <td>[!UICONTROL 出席者]</td> 
    <td>將出席者新增至活動。 為每位出席者按一下<b>新增出席者</b>，然後輸入或對應其名稱與電子郵件地址。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL顯示為]</td> 
+   <td>[!UICONTROL 顯示為]</td> 
    <td>選取您希望檢視您行事曆的人員在此活動期間將您視為「忙碌」或「可用」。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL可見性] </td> 
+   <td>[!UICONTROL 可見性] </td> 
    <td> <p>選取此事件的可見性。 </p> 
     <ul> 
-     <li> <p><b>[！UICONTROL預設值]</b></p> <p>事件具有您在行事曆設定中設定的可見度。</p> </li> 
-     <li> <p><b>[！UICONTROL Public]</b></p> <p>與該行事曆共用之任何人都可以看見此事件。</p> </li> 
-     <li> <p><b>[！UICONTROL Private]</b></p> <p>只有與會者可看見此活動。</p> </li> 
+     <li> <p><b>[!UICONTROL 預設值]</b></p> <p>事件具有您在行事曆設定中設定的可見度。</p> </li> 
+     <li> <p><b>[!UICONTROL Public]</b></p> <p>與該行事曆共用之任何人都可以看見此事件。</p> </li> 
+     <li> <p><b>[!UICONTROL Private]</b></p> <p>只有與會者可看見此活動。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳送有關事件建立的通知]</td> 
-   <td> <p>選取是否將建立新事件的通知傳送給所有來賓、非[!DNL Google Calendar]來賓，或不要傳送給任何人。</p> <p>提示：我們建議僅在移轉使用案例中使用[！UICONTROL無]選項。</p> </td> 
+   <td>[!UICONTROL 傳送有關事件建立的通知]</td> 
+   <td> <p>選取是否將建立新事件的通知傳送給所有來賓、非[!DNL Google Calendar]來賓，或不要傳送給任何人。</p> <p>提示：我們建議僅在移轉使用案例中使用[!UICONTROL 無]選項。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL來賓可以修改事件]</td> 
+   <td>[!UICONTROL 來賓可以修改事件]</td> 
    <td> <p>如果您希望來賓能夠修改此事件，請啟用此選項。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL遞回]</td> 
-   <td>新增您要套用至此事件的任何遞回規則。 每個規則都需要有[！UICONTROL RRULE]、[！UICONTROL EXRULE]、[！UICONTROL RDATE]和[！UICONTROL EXDATE]行的清單，才能處理週期性事件。 請注意，此欄位中不允許有[！UICONTROL DTSTART]和[！UICONTROL DTEND]行；事件的開始和結束時間是在開始和結束欄位中指定。 單一事件或週期性事件的例項會省略此欄位。 如需詳細資訊，請參閱<a href="https://tools.ietf.org/html/rfc5545#section-3.8.5">RFC5545</a>。</td> 
+   <td>[!UICONTROL 遞回]</td> 
+   <td>新增您要套用至此事件的任何遞回規則。 每個規則都需要有[!UICONTROL RRULE]、[!UICONTROL EXRULE]、[!UICONTROL RDATE]和[!UICONTROL EXDATE]行的清單，才能處理週期性事件。 請注意，此欄位中不允許有[!UICONTROL DTSTART]和[!UICONTROL DTEND]行；事件的開始和結束時間是在開始和結束欄位中指定。 單一事件或週期性事件的例項會省略此欄位。 如需詳細資訊，請參閱<a href="https://tools.ietf.org/html/rfc5545#section-3.8.5">RFC5545</a>。</td> 
   </tr>
 
 </tbody> 
@@ -462,7 +462,7 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Source模組] </td> 
+   <td>[!UICONTROL Source模組] </td> 
    <td> 在此案例中選取模組，該模組會輸出包含您要疊代之附件的事件。 </td> 
   </tr> 
  </tbody> 
@@ -477,7 +477,7 @@ Google Calendar聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Source模組] </td> 
+   <td>[!UICONTROL Source模組] </td> 
    <td> 在此情境中選取模組，該模組會輸出包含您要疊代之出席者的事件。 </td> 
   </tr> 
  </tbody> 
@@ -529,4 +529,4 @@ Google Calendar聯結器使用下列專案：
 
    *模式*： `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
 
-   *文字*：從`HTML content`Webhook[!UICONTROL  >]自訂mailhook[!UICONTROL 模組輸出的]專案。
+   *文字*：從`HTML content`Webhook[!UICONTROL &#x200B; >]自訂mailhook[!UICONTROL 模組輸出的]專案。

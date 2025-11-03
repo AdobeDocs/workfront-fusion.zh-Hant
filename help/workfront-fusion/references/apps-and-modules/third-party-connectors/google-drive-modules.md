@@ -88,7 +88,7 @@ Google磁碟機聯結器使用下列專案：
 
 如果您使用[!DNL @gmail.com]或[!DNL @googlemail.com]使用者，您必須在[!DNL Google Cloud Platform]上建立OAuth使用者端以取得您的[!UICONTROL 使用者端識別碼]和[!UICONTROL 使用者端密碼]。
 
-如需如何建立OAuth使用者端（以及取得[!UICONTROL 使用者端識別碼]和[!UICONTROL 使用者端密碼]）的逐步指示，請參閱[使用自訂OAuth使用者端將Adobe Workfront Fusion連線至 [!DNL Google Services] ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md)。
+如需如何建立OAuth使用者端（以及取得[!UICONTROL 使用者端識別碼]和[!UICONTROL 使用者端密碼]）的逐步指示，請參閱[使用自訂OAuth使用者端將Adobe Workfront Fusion連線至 [!DNL Google Services] &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md)。
 
 如需有關將您的[!DNL Google Drive]帳戶連線到[!UICONTROL Workfront Fusion]的指示，請參閱[建立與[!UICONTROL Adobe Workfront Fusion]的連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md) — 基本指示
 
@@ -121,14 +121,14 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL要觀看的檔案]</td> 
+   <td>[!UICONTROL 要觀看的檔案]</td> 
    <td> <p>選取您要觀看的檔案型別。</p> 
     <ul> 
-     <li>[！UICONTROL All]</li> 
+     <li>[!UICONTROL All]</li> 
      <li>[!DNL Google Documents]</li> 
      <li>[!DNL Google Spreadsheets]</li> 
      <li>[!DNL Google Slides]</li> 
@@ -136,27 +136,27 @@ Google磁碟機聯結器使用下列專案：
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[！UICONTROL將[!DNL Google Documents]個檔案轉換為格式]</td>
+    <td >[!UICONTROL 將[!DNL Google Documents]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Documents]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Spreadsheets]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Spreadsheets]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Spreadsheets]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Slides]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Slides]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Slides]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Drawings]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Drawings]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Drawings]轉換成的檔案格式。</td>
   </tr>  
   <tr> 
-   <td>[！UICONTROL手錶]</td> 
+   <td>[!UICONTROL 手錶]</td> 
    <td>選取您要監視新檔案與所有變更，還是隻監視新檔案。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL下載檔案數上限]</td> 
+   <td>[!UICONTROL 下載檔案數上限]</td> 
    <td>設定Workfront Fusion在一個週期內下載的結果數量上限（每個案例執行的重複次數）。</td> 
   </tr> 
  </tbody> 
@@ -171,19 +171,19 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案]</td> 
+   <td>[!UICONTROL 檔案]</td> 
    <td>選取您要觀看註解的檔案。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL手錶]</td> 
+   <td>[!UICONTROL 手錶]</td> 
    <td>選取您是要監視所有變更，還是隻監視新註解</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳回評論的最大數量]</td> 
+   <td>[!UICONTROL 傳回評論的最大數量]</td> 
    <td>設定Workfront Fusion在一個週期內傳回的最大評論數量（每個案例執行的重複數量）。</td> 
   </tr> 
  </tbody> 
@@ -198,18 +198,18 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td>[！UICONTROL Connection] </td>
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+    <td>[!UICONTROL Connection] </td>
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr>
-    <td>[！UICONTROL選取要監看的資料夾]</td>
+    <td>[!UICONTROL 選取要監看的資料夾]</td>
     <td >選取您要在磁碟機上觀看檔案的資料夾。</td>
   </tr> 
   <tr> 
-    <td>[！UICONTROL要觀看的檔案]</td>
+    <td>[!UICONTROL 要觀看的檔案]</td>
    <td> <p>選取您要觀看的檔案型別。</p> 
     <ul> 
-     <li>[！UICONTROL All]</li> 
+     <li>[!UICONTROL All]</li> 
      <li>[!DNL Google Documents]</li> 
      <li>[!DNL Google Spreadsheets]</li> 
      <li>[!DNL Google Slides]</li> 
@@ -217,27 +217,27 @@ Google磁碟機聯結器使用下列專案：
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[！UICONTROL將[!DNL Google Documents]個檔案轉換為格式]</td>
+    <td >[!UICONTROL 將[!DNL Google Documents]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Documents]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Spreadsheets]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Spreadsheets]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Spreadsheets]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Slides]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Slides]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Slides]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Drawings]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Drawings]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Drawings]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL手錶]</td>
+    <td>[!UICONTROL 手錶]</td>
     <td>選取您要監視新檔案與所有變更，還是隻監視新檔案。</td>
   </tr> 
   <tr> 
-    <td>[！UICONTROL下載檔案數上限]</td>
+    <td>[!UICONTROL 下載檔案數上限]</td>
     <td>設定Workfront Fusion在一個週期內下載的結果數量上限（每個案例執行的重複次數）。</td>
   </tr> 
  </tbody> 
@@ -252,18 +252,18 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL選取要監看的資料夾]</td> 
+   <td>[!UICONTROL 選取要監看的資料夾]</td> 
    <td>選取您想要監看檔案的共用資料夾。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL要觀看的檔案]</td> 
+   <td>[!UICONTROL 要觀看的檔案]</td> 
    <td> <p>選取您要觀看的檔案型別。</p> 
     <ul> 
-     <li>[！UICONTROL All]</li> 
+     <li>[!UICONTROL All]</li> 
      <li>[!DNL Google Documents]</li> 
      <li>[!DNL Google Spreadsheets]</li> 
      <li>[!DNL Google Slides]</li> 
@@ -271,27 +271,27 @@ Google磁碟機聯結器使用下列專案：
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[！UICONTROL將[!DNL Google Documents]個檔案轉換為格式]</td>
+    <td >[!UICONTROL 將[!DNL Google Documents]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Documents]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Spreadsheets]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Spreadsheets]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Spreadsheets]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Slides]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Slides]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Slides]轉換成的檔案格式。</td>
   </tr> 
   <tr>
-    <td>[！UICONTROL將[!DNL Google Drawings]個檔案轉換為格式]</td>
+    <td>[!UICONTROL 將[!DNL Google Drawings]個檔案轉換為格式]</td>
     <td>選取您要將[!DNL Google Drawings]轉換成的檔案格式。</td>
   </tr> 
   <tr> 
-   <td>[！UICONTROL手錶]</td> 
+   <td>[!UICONTROL 手錶]</td> 
    <td>選取您要監視新檔案與所有變更，還是隻監視新檔案。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL下載檔案數上限]</td> 
+   <td>[!UICONTROL 下載檔案數上限]</td> 
    <td>設定Workfront Fusion在一個週期內下載的結果數量上限（每個案例執行的重複次數）。</td> 
   </tr> 
  </tbody> 
@@ -318,27 +318,27 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目的地]</td> 
+   <td>[!UICONTROL 目的地]</td> 
    <td> <p>選取您要複製檔案的目的地。</p> 
     <ul> 
-     <li>[！UICONTROL我的磁碟機]</li> 
-     <li>[！UICONTROL與我共用]</li> 
+     <li>[!UICONTROL 我的磁碟機]</li> 
+     <li>[!UICONTROL 與我共用]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目標資料夾]</td> 
+   <td>[!UICONTROL 目標資料夾]</td> 
    <td>選取包含要複製之檔案的資料夾。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案ID]</td> 
+   <td>[!UICONTROL 檔案ID]</td> 
    <td>對應您要複製的檔案ID。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL副本的名稱]</td> 
+   <td>[!UICONTROL 副本的名稱]</td> 
    <td>輸入新檔案的標題。 如果您不想變更原始檔案名稱，請將此欄位保留空白。</td> 
   </tr> 
  </tbody> 
@@ -353,28 +353,28 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目的地]</td> 
+   <td>[!UICONTROL 目的地]</td> 
    <td> <p>選取您要建立資料夾的目的地。</p> 
     <ul> 
-     <li>[！UICONTROL我的磁碟機]</li> 
-     <li>[！UICONTROL與我共用]</li> 
+     <li>[!UICONTROL 我的磁碟機]</li> 
+     <li>[!UICONTROL 與我共用]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL新資料夾位置]</td> 
+   <td>[!UICONTROL 新資料夾位置]</td> 
    <td>導覽至您要建立新資料夾的位置。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL新資料夾的名稱]</td> 
+   <td>[!UICONTROL 新資料夾的名稱]</td> 
    <td>輸入您正在建立的資料夾名稱。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL共用資料夾]</td> 
-   <td>如果您想要與任何具有[！UICONTROL共用]連結的人共用資料夾，請選取此選項。 否則，共用連結僅供擁有者使用。</td> 
+   <td>[!UICONTROL 共用資料夾]</td> 
+   <td>如果您想要與任何具有[!UICONTROL 共用]連結的人共用資料夾，請選取此選項。 否則，共用連結僅供擁有者使用。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -388,11 +388,11 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案ID]</td> 
+   <td>[!UICONTROL 檔案ID]</td> 
    <td>對應您要刪除的檔案ID。</td> 
   </tr> 
  </tbody> 
@@ -407,27 +407,27 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL將[!DNL Google Documents]個檔案轉換為格式]</td> 
+   <td>[!UICONTROL 將[!DNL Google Documents]個檔案轉換為格式]</td> 
    <td>選取您要將[!DNL Google Documents]轉換成的檔案格式。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL將[!DNL Google Spreadsheets]個檔案轉換為格式]</td> 
+   <td>[!UICONTROL 將[!DNL Google Spreadsheets]個檔案轉換為格式]</td> 
    <td>選取您要將[!DNL Google Spreadsheets]轉換成的檔案格式。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL將[!DNL Google Slides]個檔案轉換為格式]</td> 
+   <td>[!UICONTROL 將[!DNL Google Slides]個檔案轉換為格式]</td> 
    <td>選取您要將[!DNL Google Slides]轉換成的檔案格式。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL將[!DNL Google Drawings]個檔案轉換為格式]</td> 
+   <td>[!UICONTROL 將[!DNL Google Drawings]個檔案轉換為格式]</td> 
    <td>選取您要將[!DNL Google Drawings]轉換成的檔案格式。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案ID]</td> 
+   <td>[!UICONTROL 檔案ID]</td> 
    <td>對應您要擷取的檔案ID。</td> 
   </tr> 
  </tbody> 
@@ -442,11 +442,11 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案ID]</td> 
+   <td>[!UICONTROL 檔案ID]</td> 
    <td>對應您要取得共用連結的檔案ID。</td> 
   </tr> 
  </tbody> 
@@ -461,11 +461,11 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案ID]</td> 
+   <td>[!UICONTROL 檔案ID]</td> 
    <td>對應您要移至垃圾桶的檔案ID。</td> 
   </tr> 
  </tbody> 
@@ -480,51 +480,51 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目的地]</td> 
+   <td>[!UICONTROL 目的地]</td> 
    <td> <p>選取您要搜尋的目的地磁碟機。</p> 
     <ul> 
-     <li>[！UICONTROL我的磁碟機]</li> 
-     <li>[！UICONTROL與我共用]</li> 
+     <li>[!UICONTROL 我的磁碟機]</li> 
+     <li>[!UICONTROL 與我共用]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL列出資料夾]</td> 
+   <td>[!UICONTROL 列出資料夾]</td> 
    <td>瀏覽至您要搜尋檔案或資料夾的資料夾。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Retrieve]</td> 
+   <td>[!UICONTROL Retrieve]</td> 
    <td> <p> 選取您要搜尋檔案、資料夾或兩者。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL搜尋]</p> </td> 
+   <td> <p>[!UICONTROL 搜尋]</p> </td> 
    <td> <p>選取您要執行的搜尋型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL在檔案/資料夾名稱內搜尋]</strong> </p> 
+     <li> <p><strong>[!UICONTROL 在檔案/資料夾名稱內搜尋]</strong> </p> 
       <ul> 
-       <li> <p><strong>[！UICONTROL查詢]</strong> </p> <p>輸入要搜尋的部分檔案名稱或完整檔案名稱（包括尾碼）。</p> </li> 
-       <li> <p><strong>[！UICONTROL搜尋選項]</strong> </p> <p>選取您要搜尋完全相同的字詞，或是要搜尋包含搜尋字詞的名稱。</p> </li> 
+       <li> <p><strong>[!UICONTROL 查詢]</strong> </p> <p>輸入要搜尋的部分檔案名稱或完整檔案名稱（包括尾碼）。</p> </li> 
+       <li> <p><strong>[!UICONTROL 搜尋選項]</strong> </p> <p>選取您要搜尋完全相同的字詞，或是要搜尋包含搜尋字詞的名稱。</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[！UICONTROL Fulltext]搜尋</strong> </p> 
+     <li> <p><strong>[!UICONTROL Fulltext]搜尋</strong> </p> 
       <ul> 
-       <li> <p><strong>[！UICONTROL查詢]</strong> </p> <p>在[!DNL Google Drive]中輸入您要搜尋的任何搜尋字詞。</p> </li> 
+       <li> <p><strong>[!UICONTROL 查詢]</strong> </p> <p>在[!DNL Google Drive]中輸入您要搜尋的任何搜尋字詞。</p> </li> 
       </ul> </li> 
      <li> <p><strong>輸入自訂搜尋查詢</strong> </p> 
       <ul> 
-       <li> <p><strong>[！UICONTROL查詢]</strong> </p> <p>輸入自訂搜尋查詢。 如需更多詳細資料，請參閱本文的[！UICONTROL搜尋檔案]一節。</p> </li> 
+       <li> <p><strong>[!UICONTROL 查詢]</strong> </p> <p>輸入自訂搜尋查詢。 如需更多詳細資料，請參閱本文的[!UICONTROL 搜尋檔案]一節。</p> </li> 
        <li> <p><strong>將上面選取的資料夾新增到查詢</strong> </p> <p>搜尋父項集合中的資料夾。 這會尋找直接位於上方所選資料夾中的所有檔案和資料夾。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳回結果的最大數目]</td> 
+   <td>[!UICONTROL 傳回結果的最大數目]</td> 
    <td>設定Workfront Fusion在一個執行週期中傳回的檔案或資料夾數量上限。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</td> 
+   <td>[!UICONTROL 即使模組未傳回任何結果，仍繼續執行路由]</td> 
    <td>啟用此選項可確保在模組未傳回任何結果時不會停止此案例。</td> 
   </tr> 
  </tbody> 
@@ -539,39 +539,39 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目的地]</td> 
+   <td>[!UICONTROL 目的地]</td> 
    <td> <p>選取包含您要更新檔案的目的地。</p> 
     <ul> 
-     <li>[！UICONTROL我的磁碟機]</li> 
-     <li>[！UICONTROL與我共用]</li> 
+     <li>[!UICONTROL 我的磁碟機]</li> 
+     <li>[!UICONTROL 與我共用]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL移至資料夾]</td> 
+   <td>[!UICONTROL 移至資料夾]</td> 
    <td>如果要將檔案移動到特定資料夾，請選取要將檔案移動到其中的資料夾。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案ID]</td> 
+   <td>[!UICONTROL 檔案ID]</td> 
    <td>對應您要更新的檔案ID。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL標題]</td> 
+   <td>[!UICONTROL 標題]</td> 
    <td>輸入更新檔案的標題。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL變更檔案內容]</td> 
+   <td>[!UICONTROL 變更檔案內容]</td> 
    <td>選取是否要取代檔案的內容。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Source檔案]</td> 
+   <td>[!UICONTROL Source檔案]</td> 
    <td>如果您要取代內容，請從先前的模組中選取來源檔案，或對映來源檔案的名稱和資料。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL轉換檔案]</td> 
+   <td>[!UICONTROL 轉換檔案]</td> 
    <td>啟用此選項以將檔案轉換為對應的Google檔案格式。</td> 
   </tr> 
  </tbody> 
@@ -586,8 +586,8 @@ Google磁碟機聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[！UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需有關將您的[!DNL Google Drive]帳戶連線到Workfront Fusion的說明，請參閱<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">將[!DNL Google Drive]連線到[!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Destination]</td> 
@@ -598,19 +598,19 @@ Google磁碟機聯結器使用下列專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL目標資料夾]</td> 
+   <td>[!UICONTROL 目標資料夾]</td> 
    <td>選取您要上傳檔案的資料夾。 </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Source檔案]</td> 
+   <td>[!UICONTROL Source檔案]</td> 
    <td>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL標題]</td> 
+   <td>[!UICONTROL 標題]</td> 
    <td>輸入新檔案的標題。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL轉換檔案]</td> 
+   <td>[!UICONTROL 轉換檔案]</td> 
    <td>啟用此選項可讓模組將檔案轉換為對應的[!DNL Google]格式。</td> 
   </tr> 
  </tbody> 

@@ -87,11 +87,11 @@ AWS S3聯結器使用下列專案：
 1. 輸入新使用者的名稱，並在&#x200B;**[!UICONTROL 存取型別]**&#x200B;區段中選取[!UICONTROL 程式化存取]選項。
 1. 按一下&#x200B;**[!UICONTROL 直接附加現有原則]**，然後在搜尋列中搜尋&#x200B;**[!UICONTROL AmazonS3FullAccess]**。 當它出現時，按一下它，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
-1. 繼續其他對話方塊畫面，然後按一下[建立使用者]。****
+1. 繼續其他對話方塊畫面，然後按一下[建立使用者]。**&#x200B;**
 1. 複製提供的&#x200B;**[!UICONTROL 存取金鑰識別碼]**&#x200B;和&#x200B;**[!UICONTROL 秘密存取金鑰]**。
 
 1. 前往Workfront Fusion並開啟[!DNL AWS S3]模組的&#x200B;**[!UICONTROL 建立連線]**&#x200B;對話方塊。
-1. 在步驟7的個別欄位中輸入[!UICONTROL 存取金鑰識別碼]和[!UICONTROL 秘密存取金鑰]，然後按一下[繼續]**[!UICONTROL 以建立連線]**。
+1. 在步驟7的個別欄位中輸入[!UICONTROL 存取金鑰識別碼]和[!UICONTROL 秘密存取金鑰]，然後按一下[繼續]&#x200B;**[!UICONTROL 以建立連線]**。
 
 已建立連線。 您可以繼續設定模組。
 
@@ -122,15 +122,15 @@ AWS S3聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL AWS]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">將[!DNL AWS]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL名稱] </td> 
+   <td role="rowheader">[!UICONTROL 名稱] </td> 
    <td> <p>輸入新儲存貯體的名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL區域] </td> 
+   <td role="rowheader">[!UICONTROL 區域] </td> 
    <td> <p>選取您的區域端點。 如需詳細資訊，請參閱AWS檔案中的<a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints">區域端點</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -145,19 +145,19 @@ AWS S3聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL AWS]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">將[!DNL AWS]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL區域] </td> 
+   <td role="rowheader">[!UICONTROL 區域] </td> 
    <td> <p>選取您的區域端點。 如需詳細資訊，請參閱<a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints">檔案中的</a>區域端點[!DNL AWS]。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Bucket] </td> 
+   <td role="rowheader">[!UICONTROL Bucket] </td> 
    <td> <p>選取要從中下載檔案的貯體。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL路徑]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 路徑]</p> </td> 
    <td> <p>輸入檔案的路徑。 範例：<code>/photos/2019/February/image023.jpg</code>。</p> </td> 
   </tr> 
  </tbody> 
@@ -174,23 +174,23 @@ AWS S3聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL AWS]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">將[!DNL AWS]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL區域] </td> 
+   <td>[!UICONTROL 區域] </td> 
    <td> <p>選取您的區域端點。 如需詳細資訊，請參閱<a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints">檔案中的</a>區域端點[!DNL AWS]。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL URL]</td> 
+   <td>[!UICONTROL URL]</td> 
    <td> <p>輸入主機URL。 路徑必須相對於<code> https://s3.&lt;selected-region>.amazonaws.com/</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL方法]</td> 
-   <td> <p>選取設定API呼叫所需的[！UICONTROL HTTP]要求方法。 如需詳細資訊，請參閱Adobe Workfront Fusion<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">中的</a>[！UICONTROL HTTP]要求方法。</p> </td> 
+   <td>[!UICONTROL 方法]</td> 
+   <td> <p>選取設定API呼叫所需的[!UICONTROL HTTP]要求方法。 如需詳細資訊，請參閱Adobe Workfront Fusion<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">中的</a>[!UICONTROL HTTP]要求方法。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Headers]</td> 
+   <td>[!UICONTROL Headers]</td> 
    <td> <p>新增請求標頭。 對於每個要新增的標頭，按一下<b>新增專案</b>並輸入標頭。 您可以使用以下常見的請求標頭。 如需更多要求標頭，請參閱<a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">[!DNL AWS S3] API檔案</a>。</p> <p>Workfront Fusion會自動新增授權標頭。</p> 
     <table style="table-layout:auto">
      <col> 
@@ -203,39 +203,39 @@ AWS S3聯結器使用下列專案：
      </thead> 
      <tbody> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL Content-Length]</p> </td> 
-       <td> <p>根據RFC 2616的訊息長度（沒有標頭）。 載入XML的[！UICONTROL PUT]和作業（例如記錄和ACL）需要此標頭。</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL Content-Length]</p> </td> 
+       <td> <p>根據RFC 2616的訊息長度（沒有標頭）。 載入XML的[!UICONTROL PUT]和作業（例如記錄和ACL）需要此標頭。</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL Content-Type]</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL Content-Type]</p> </td> 
        <td> <p>資源的內容型別（若請求內容位於內文中）。 範例：<code>text/plain</code>。</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL Content-MD5]</p> </td> 
-       <td> <p>根據RFC 1864，訊息的base64已編碼128位元MD5摘要（沒有標頭）。 此標頭可用作訊息完整性檢查，以確認資料與原來傳送的資料相同。 雖然這是選擇性的，但建議您使用[！UICONTROL Content-MD5]機製作為端對端的完整性檢查。 如需[！UICONTROL REST]要求驗證的詳細資訊，請參閱AWS檔案中的<a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html?r=1821">簽署及驗證REST要求</a>。</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL Content-MD5]</p> </td> 
+       <td> <p>根據RFC 1864，訊息的base64已編碼128位元MD5摘要（沒有標頭）。 此標頭可用作訊息完整性檢查，以確認資料與原來傳送的資料相同。 雖然這是選擇性的，但建議您使用[!UICONTROL Content-MD5]機製作為端對端的完整性檢查。 如需[!UICONTROL REST]要求驗證的詳細資訊，請參閱AWS檔案中的<a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html?r=1821">簽署及驗證REST要求</a>。</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL日期]</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL 日期]</p> </td> 
        <td> <p>根據請求者的目前日期和時間。 範例： <code>Wed, 01 Mar 2006 12:00:00 GMT</code>。 當您指定<code>Authorization </code>標頭時，必須指定<code>x-amz-date</code>或<code>Date </code>標頭。</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL Expect]</p> </td> 
-       <td> <p>當您的應用程式使用[！UICONTROL 100-continue]時，它會在收到確認後才傳送要求內文。 如果郵件根據標題遭到拒絕，則不會傳送郵件內文。 此標頭只有在傳送內文時才能使用。</p> <p>有效值： [！UICONTROL 100-continue]</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL Expect]</p> </td> 
+       <td> <p>當您的應用程式使用[!UICONTROL 100-continue]時，它會在收到確認後才傳送要求內文。 如果郵件根據標題遭到拒絕，則不會傳送郵件內文。 此標頭只有在傳送內文時才能使用。</p> <p>有效值： [!UICONTROL 100-continue]</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL主機]</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL 主機]</p> </td> 
        <td> <p>對於路徑樣式要求，值為<code>s3.amazonaws.com</code>。 對於虛擬樣式要求，值為<code>BucketName.s3.amazonaws.com</code>。 如需詳細資訊，請參閱AWS檔案中的<a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html">虛擬託管</a>。</p> <p>HTTP 1.1需要此標頭（大部分的Toolkit會自動新增此標頭）；HTTP/1.0要求則選填。</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL x-amz-content-sha256]</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL x-amz-content-sha256]</p> </td> 
        <td> <p>使用簽名版本4驗證請求時，此標頭會提供請求承載的雜湊。 以區塊上傳物件時，請將值設為<code>STREAMING-AWS4-HMAC-SHA256-PAYLOAD</code>，表示簽章僅涵蓋標題且沒有裝載。 如需詳細資訊，請參閱AWS檔案中的<a href="https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-streaming.html">授權標頭的簽章計算</a>。</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL x-amz-date]</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL x-amz-date]</p> </td> 
        <td> <p>根據請求者的目前日期和時間。 範例： <code>Wed, 01 Mar 2006 12:00:00 GMT</code>。 當您指定<code>Authorization </code>標頭時，必須指定<code>x-amz-date</code>或<code>Date </code>標頭。 如果您同時指定兩者，則以<code>x-amz-date</code>標頭指定的值優先。</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[！UICONTROL x-amz-security-token]</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL x-amz-security-token]</p> </td> 
        <td> <p>此標題可用於下列情況：</p> 
         <ul> 
          <li>提供[!DNL Amazon DevPay]作業的安全性權杖。 每個使用[!DNL Amazon DevPay]的請求都需要兩個<code>x-amz-security-token</code>標頭：一個用於產品權杖，另一個用於使用者權杖。 當[!DNL Amazon S3]收到驗證要求時，會將計算的簽章與提供的簽章做比較。 用來計算簽章的多值標頭格式不正確，可能會導致驗證問題。</li> 
@@ -246,11 +246,11 @@ AWS S3聯結器使用下列專案：
     </table> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL查詢字串]</td> 
+   <td>[!UICONTROL 查詢字串]</td> 
    <td> <p>新增所需的查詢字串，例如引數或表單欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Body]</td> 
+   <td>[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：   <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -268,23 +268,23 @@ AWS S3聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL AWS]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">將[!DNL AWS]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL區域] </td> 
+   <td role="rowheader">[!UICONTROL 區域] </td> 
    <td> <p>選取您的區域端點。 如需詳細資訊，請參閱<a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints">檔案中的</a>區域端點[!DNL AWS]。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL資料夾] </p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 資料夾] </p> </td> 
    <td> <p>指定您要上傳檔案的目標資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Headers] （選擇性）</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Headers] （選擇性）</p> </td> 
    <td> <p> 針對您要新增的每個標頭，按一下<b>新增專案</b>並輸入標頭的鍵和值。</p><p> 如需可用的標頭，請參閱AWS檔案中的<a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObject.html">PutObject</a>。</p> </td> 
   </tr> 
  </tbody> 
@@ -304,19 +304,19 @@ AWS S3聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL AWS]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">將[!DNL AWS]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL區域] </td> 
+   <td role="rowheader">[!UICONTROL 區域] </td> 
    <td> <p>選取您的區域端點。 如需詳細資訊，請參閱<a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints">檔案中的</a>區域端點[!DNL AWS]。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Bucket] </td> 
+   <td role="rowheader">[!UICONTROL Bucket] </td> 
    <td> <p>選取您要搜尋檔案的[!DNL Amazon S3]儲存貯體。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL前置詞]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 前置詞]</p> </td> 
    <td> <p> 輸入要在其中查閱檔案之資料夾的路徑，例如 <code>workfrontfusion/work.</code></p> </td> 
   </tr> 
  </tbody> 
@@ -331,19 +331,19 @@ AWS S3聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>如需有關將您的[!DNL AWS]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">將[!DNL AWS]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL區域] </td> 
+   <td role="rowheader">[!UICONTROL 區域] </td> 
    <td> <p>選取您的區域端點。 如需詳細資訊，請參閱<a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints">檔案中的</a>區域端點[!DNL AWS]。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Bucket] </td> 
+   <td role="rowheader">[!UICONTROL Bucket] </td> 
    <td> <p>選取您要搜尋資料夾的[!DNL Amazon S3]貯體。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL前置詞] （選擇性）</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 前置詞] （選擇性）</p> </td> 
    <td> <p> 要在其中查閱資料夾的資料夾路徑，例如 <code>workfrontfusion/work.</code></p> </td> 
   </tr> 
  </tbody> 

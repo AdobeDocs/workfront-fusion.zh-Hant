@@ -67,50 +67,50 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
     <col> 
     <tbody> 
      <tr> 
-      <td>[！UICONTROL連線名稱]</td> 
+      <td>[!UICONTROL 連線名稱]</td> 
       <td> <p> 輸入FTP連線的名稱。</p> </td> 
      </tr> 
      <tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL環境]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 環境]</p> </td> 
       <td> <p>選取您使用生產或非生產環境。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL型別]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 型別]</p> </td> 
       <td> <p>選取您是使用服務帳戶還是個人帳戶。</p> </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL主機] </td> 
+      <td>[!UICONTROL 主機] </td> 
       <td> <p>輸入FTP伺服器主機名稱。 範例： <code>myftp123.server.com</code></p> </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL連線埠] </td> 
+      <td>[!UICONTROL 連線埠] </td> 
       <td> <p>輸入FTP伺服器連線埠號碼。 範例： <code>21</code></p> </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL使用者名稱] </td> 
+      <td>[!UICONTROL 使用者名稱] </td> 
       <td> <p>輸入您的FTP帳戶使用者名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL密碼] </td> 
+      <td>[!UICONTROL 密碼] </td> 
       <td> <p>輸入您的FTP帳戶密碼。</p> </td> 
      </tr> 
      <tr> 
       <td> <p>使用安全連線(TLS)</p> </td> 
-      <td> <p>選取是否要使用安全連線。</p> <ul><li><p><b>[！UICONTROL否]</b></p> <p>連線不安全。</p></li><li> <p><b>明確加密</b>或<b>隱含加密</b></p> <p>使用SSL來保護連線。</p> </td> 
+      <td> <p>選取是否要使用安全連線。</p> <ul><li><p><b>[!UICONTROL 否]</b></p> <p>連線不安全。</p></li><li> <p><b>明確加密</b>或<b>隱含加密</b></p> <p>使用SSL來保護連線。</p> </td> 
      </tr> 
     <tr> 
-   <td> <p>[！UICONTROL拒絕未授權的憑證]</p> </td> 
+   <td> <p>[!UICONTROL 拒絕未授權的憑證]</p> </td> 
    <td> <p>啟用此選項以驗證FTP伺服器憑證。 如果驗證失敗，將不會建立連線。 若要通過驗證，憑證必須符合下列其中一個條件：</p> 
     <ul> 
      <li>由根憑證授權單位簽署</a></li> 
      <li>由中繼憑證授權單位簽署。 在此情況下，所有中繼憑證都應安裝在FTP伺服器上。</li> 
-     <li>是[！UICONTROL Self-signed certificate]欄位中提供的自我簽署憑證（請參閱下文）</li> </ul>
+     <li>是[!UICONTROL Self-signed certificate]欄位中提供的自我簽署憑證（請參閱下文）</li> </ul>
      <p>如果停用此選項，則不會驗證FTP伺服器憑證。 我們強烈建議不要停用此選項，因為它會導致連線不安全，並帶來嚴重的安全風險。</p></td>
     </tr> 
     <tr> 
-     <td> <p>[！UICONTROL自我簽署憑證]</p> </td> 
-     <td> <p>按一下<b>[！UICONTROL Extract]</b>按鈕，開啟上傳對話方塊。</p> <p>上傳憑證以將TLS與您的自我簽署憑證搭配使用。 Workfront Fusion不會保留或儲存您提供的任何資料，例如檔案和密碼。 檔案和密碼僅用於擷取憑證。</p> </td> 
+     <td> <p>[!UICONTROL 自我簽署憑證]</p> </td> 
+     <td> <p>按一下<b>[!UICONTROL Extract]</b>按鈕，開啟上傳對話方塊。</p> <p>上傳憑證以將TLS與您的自我簽署憑證搭配使用。 Workfront Fusion不會保留或儲存您提供的任何資料，例如檔案和密碼。 檔案和密碼僅用於擷取憑證。</p> </td> 
     </tr> 
    </tbody> 
    </table>
@@ -133,15 +133,15 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-   <td> <p>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#create-a-connection" class="MCXref xref">中的</a>[！UICONTROL建立連線]。</p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#create-a-connection" class="MCXref xref">中的</a>[!UICONTROL 建立連線]。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL資料夾]</p> </td> 
+   <td> <p>[!UICONTROL 資料夾]</p> </td> 
    <td> <p>選取要監視的資料夾。</p> <p><b>注意：</b>每個情境只允許一個資料夾。 子資料夾會被忽略。</p> <p><b>提示：</b>若要觀看多個資料夾，請為每個資料夾建立個別的情境。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳回檔案的最大數量] </td> 
+   <td>[!UICONTROL 傳回檔案的最大數量] </td> 
    <td> <p>設定在一個週期內要模組使用的最大結果數量。 如果值設定得太高，FTP伺服器端的連線可能會中斷。 Workfront Fusion對此沒有影響。 我們建議您設定較低的值，並為最大週期數定義較高的值，或是更頻繁地執行情境。</p> </td> 
   </tr> 
  </tbody> 
@@ -167,21 +167,21 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <col>
    <tbody>
          <tr>
-            <td>[！UICONTROL Connection]</td>
-            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[！UICONTROL建立連線]。</td>
+            <td>[!UICONTROL Connection]</td>
+            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[!UICONTROL 建立連線]。</td>
          </tr>
          <tr>
-            <td>[！UICONTROL變更許可權設定]</td>
+            <td>[!UICONTROL 變更許可權設定]</td>
             <td>
                <p>選取是否要變更檔案或資料夾的設定。</p>
             </td>
          </tr>
          <tr>
-            <td>[！UICONTROL檔案路徑]</td>
+            <td>[!UICONTROL 檔案路徑]</td>
             <td>輸入檔案路徑，或將檔案路徑對應至資料夾或檔案。</td>
          </tr>
          <tr>
-            <td>[！UICONTROL Permissions]</td>
+            <td>[!UICONTROL Permissions]</td>
             <td>
                <p>設定所需的檔案或資料夾許可權。 使用chmod引數。 例如： <code>777 </code>或<code>-rwxrwxrwx</code>。</p>
                <p>許可權必須符合模式<code> /(.?([r-][w-][x-]){3})|[0-7]{3,4}/</code>。</p>
@@ -199,15 +199,15 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <col>
    <tbody>
          <tr>
-            <td>[！UICONTROL Connection]</td>
-            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[！UICONTROL建立連線]。</td>
+            <td>[!UICONTROL Connection]</td>
+            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[!UICONTROL 建立連線]。</td>
          </tr>
          <tr>
-            <td>[！UICONTROL資料夾路徑]</td>
+            <td>[!UICONTROL 資料夾路徑]</td>
             <td>輸入檔案路徑，或將檔案路徑對應到新資料夾。</td>
          </tr>
          <tr>
-            <td>[！UICONTROL新資料夾名稱]</td>
+            <td>[!UICONTROL 新資料夾名稱]</td>
             <td>
                <p>輸入或對應新資料夾的名稱。</p>
             </td>
@@ -224,15 +224,15 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
-            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[！UICONTROL建立連線]。</td>
+   <td>[!UICONTROL Connection] </td> 
+            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[!UICONTROL 建立連線]。</td>
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取要刪除檔案的FTP資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案名稱]</td> 
+   <td>[!UICONTROL 檔案名稱]</td> 
    <td> <p> 輸入檔案名稱，包括副檔名。 範例： <code>[!DNL image].png</code></p> </td> 
   </tr> 
  </tbody> 
@@ -247,11 +247,11 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <col>
    <tbody>
          <tr>
-            <td>[！UICONTROL Connection]</td>
-            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[！UICONTROL建立連線]。</td>
+            <td>[!UICONTROL Connection]</td>
+            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[!UICONTROL 建立連線]。</td>
          </tr>
          <tr>
-            <td>[！UICONTROL資料夾]</td>
+            <td>[!UICONTROL 資料夾]</td>
             <td>
                <p>選取要刪除檔案的FTP資料夾。</p>
             </td>
@@ -268,11 +268,11 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>如需建立與FTP帳戶連線的說明，請參閱本文中的<a href="#creating-the-ftp-connection" class="MCXref xref">建立FTP連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL檔案路徑]</td> 
+   <td>[!UICONTROL 檔案路徑]</td> 
    <td> <p> 輸入您要取得的檔案路徑。</p> </td> 
   </tr> 
  </tbody> 
@@ -287,23 +287,23 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td> <p>如需建立與FTP帳戶連線的說明，請參閱本文中的<a href="#creating-the-ftp-connection" class="MCXref xref">建立FTP連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取您要搜尋的FTP資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Show] </td> 
+   <td>[!UICONTROL Show] </td> 
    <td> <p>選取您要擷取有關檔案或資料夾的資訊，或兩者。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL搜尋] </td> 
+   <td>[!UICONTROL 搜尋] </td> 
    <td> <p>輸入搜尋字詞。 如果未輸入搜尋字詞，則會擷取指定資料夾中的所有檔案或資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL傳回檔案的最大數量]</td> 
+   <td>[!UICONTROL 傳回檔案的最大數量]</td> 
    <td> <p>輸入或對應您希望模組在一個週期內使用的最大結果數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -318,17 +318,17 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
    <col>
    <tbody>
          <tr>
-            <td>[！UICONTROL Connection]</td>
-            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[！UICONTROL建立連線]。</td>
+            <td>[!UICONTROL Connection]</td>
+            <td>如需建立與FTP帳戶連線的指示，請參閱本文的FTP模組<a href="#Create" class="MCXref xref" >中的</a>[!UICONTROL 建立連線]。</td>
          </tr>
          <tr>
-            <td>[！UICONTROL舊檔案路徑]</td>
+            <td>[!UICONTROL 舊檔案路徑]</td>
             <td>
                <p>輸入您要移動檔案的路徑。 範例：<code>/folder1/document.txt</code>。</p>
             </td>
          </tr>
          <tr>
-            <td>[！UICONTROL新檔案路徑]</td>
+            <td>[!UICONTROL 新檔案路徑]</td>
             <td>
                <p>輸入您要移動檔案的路徑。 範例：<code>/folder2/document.txt</code>。</p>
             </td>
@@ -346,23 +346,23 @@ FTP模組可讓您監視所選資料夾中的檔案變更、將新檔案上傳�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL Connection] </td> 
+   <td>[!UICONTROL Connection] </td> 
    <td>如需建立與FTP帳戶連線的說明，請參閱本文中的<a href="#creating-the-ftp-connection" class="MCXref xref">建立FTP連線</a>。</td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL資料夾] </td> 
+   <td>[!UICONTROL 資料夾] </td> 
    <td> <p>選取您要上傳檔案的FTP資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL Source檔案] </td> 
+   <td>[!UICONTROL Source檔案] </td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL附加至現有的檔案]</td> 
+   <td>[!UICONTROL 附加至現有的檔案]</td> 
    <td> <p>如果已啟用此選項，且FTP伺服器上已存在檔案，則檔案的內容會附加至現有檔案。 如果未啟用此選項，則會覆寫檔案的內容。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL建立資料夾（如果不存在的話）] </td> 
+   <td>[!UICONTROL 建立資料夾（如果不存在的話）] </td> 
    <td> <p>如果啟用此選項，而FTP伺服器上不存在您輸入到「資料夾」欄位的資料夾，則模組會建立該資料夾</p> </td> 
   </tr> 
  </tbody> 

@@ -92,15 +92,15 @@ OpenAI (ChatGPT &amp; DALL-E)聯結器使用下列專案：
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL連線名稱]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 連線名稱]</p> </td> 
       <td> <p>輸入新連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL API Key]</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
       <td>您可以在OpenAI使用者設定中找到API金鑰。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL組織ID] </td> 
+      <td role="rowheader">[!UICONTROL 組織ID] </td> 
       <td>您可以在OpenAI的「組織設定」頁面上找到您的組織ID。</td> 
      </tr> 
     </tbody> 
@@ -161,15 +161,15 @@ This action module creates a completion for the provided prompt or chat.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入]</td> 
+   <td role="rowheader">[!UICONTROL 輸入]</td> 
    <td> 針對每一個要包含的文字範例，按一下<b>新增專案</b>，然後輸入或對應文字。 包含整個文字範例。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL模型]</td> 
+   <td role="rowheader">[!UICONTROL 模型]</td> 
    <td> 輸入或對映要使用的模型ID。 您可以使用「取得模型」模組來檢視所有可用的模型。 </td> 
   </tr> 
  </tbody> 
@@ -184,23 +184,23 @@ This action module creates a completion for the provided prompt or chat.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL模型]</td> 
+   <td role="rowheader">[!UICONTROL 模型]</td> 
    <td> 輸入或對映要使用的模型ID。 您可以使用「取得模型」模組來檢視所有可用的模型。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入]</td> 
+   <td role="rowheader">[!UICONTROL 輸入]</td> 
    <td> 輸入或對應您要編輯的文字。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL指令]</td> 
+   <td role="rowheader">[!UICONTROL 指令]</td> 
    <td> 輸入或對映編輯的指示。 範例：「修正拼字錯誤」。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL進階設定]</td> 
+   <td role="rowheader">[!UICONTROL 進階設定]</td> 
    <td> <p>如需此模組中選擇性進階設定的相關資訊，請參閱<a href="https://platform.openai.com/docs/api-reference/edits/create" class="MCXref xref">OpenAI API檔案</a>中有關建立編輯的資訊。</p> </td> 
   </tr> 
  </tbody> 
@@ -215,23 +215,23 @@ This action module creates a completion for the provided prompt or chat.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL模型]</td> 
+   <td role="rowheader">[!UICONTROL 模型]</td> 
    <td> 輸入或對映要使用的模型ID。 您可以使用「取得模型」模組來檢視所有可用的模型。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL要嵌入的輸入文字]</td> 
+   <td role="rowheader">[!UICONTROL 要嵌入的輸入文字]</td> 
    <td> 輸入或對應您要內嵌的文字。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL使用者ID]</td> 
+   <td role="rowheader">[!UICONTROL 使用者ID]</td> 
    <td> 輸入或對應代表一般使用者的唯一識別碼，可協助OpenAI監控及偵測不當行為 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制]</td> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
    <td> 輸入或對應每個案例執行週期中您希望模組使用的最大編輯次數。</td> 
   </tr> 
  </tbody> 
@@ -246,15 +246,15 @@ This action module creates a completion for the provided prompt or chat.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL模型]</td> 
+   <td role="rowheader">[!UICONTROL 模型]</td> 
    <td> 輸入或對映要使用的模型ID。 您可以使用「取得模型」模組來檢視所有可用的模型。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL訊息]</td> 
+   <td role="rowheader">[!UICONTROL 訊息]</td> 
    <td>訊息說明目前為止的交談。 針對您想要新增的每封郵件，按一下<b>新增專案</b>並填入下列內容：
    <ul>
    <li> <b>角色</b>：選取此訊息作者的角色。</li>
@@ -264,7 +264,7 @@ This action module creates a completion for the provided prompt or chat.
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL進階設定]</td> 
+   <td role="rowheader">[!UICONTROL 進階設定]</td> 
    <td> <p>如需此模組中選擇性進階設定的相關資訊，請參閱<a href="https://platform.openai.com/docs/api-reference/chat/create" class="MCXref xref">OpenAI API檔案</a>中有關建立聊天完成的資訊。</p> </td> 
   </tr> 
  </tbody> 
@@ -316,16 +316,16 @@ This action module makes edits or creates variations of existing images.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL所要影像的文字說明]</td> 
+   <td role="rowheader">[!UICONTROL 所要影像的文字說明]</td> 
    <td> 輸入或對應所需影像的說明。 說明長度上限為1000個字元。 
  </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL進階設定]</td> 
+   <td role="rowheader">[!UICONTROL 進階設定]</td> 
    <td> <p>如需此模組中選擇性進階設定的相關資訊，請參閱<a href="https://platform.openai.com/docs/api-reference/images/create" class="MCXref xref">OpenAI API檔案</a>中有關建立影像的資訊。</p> </td> 
   </tr> 
  </tbody> 
@@ -340,11 +340,11 @@ This action module makes edits or creates variations of existing images.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL動作]</td> 
+   <td role="rowheader">[!UICONTROL 動作]</td> 
    <td> 選取您要取得所有模型的清單或擷取特定模型。
     <ul>
     <li><p><b>清單模型 </b></p><p>此動作會列出目前可用的模型，並提供每個模型的基本資訊，例如擁有者和可用性。</p></li>
@@ -364,27 +364,27 @@ This action module makes edits or creates variations of existing images.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td> <p>輸入相對於<code>https://api.openai.com/v1/</code>的路徑 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -438,15 +438,15 @@ This action modules converts audio to text.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL動作]</td> 
+   <td role="rowheader">[!UICONTROL 動作]</td> 
    <td> 選取您要執行的動作。 
   </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td role="rowheader">[!UICONTROL 檔案ID]</td> 
    <td> 如果您要刪除檔案，或擷取檔案或檔案內容，請輸入或對應檔案的ID。 
   </tr> 
 </tbody>
@@ -461,11 +461,11 @@ This action modules converts audio to text.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL OpenAI (ChatGPT & DALL-E)]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">將[!DNL OpenAI (ChatGPT & DALL-E)]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選取操作]</td> 
+   <td role="rowheader">[!UICONTROL 選取操作]</td> 
    <td> 選取您要執行的動作。
    <ul>
    <li><p>從資料集微調模型</p><p>輸入或對應所需影像的說明。</p>
@@ -477,7 +477,7 @@ This action modules converts audio to text.
  </ul> 
   </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL檔案ID]</td> 
+   <td role="rowheader">[!UICONTROL 檔案ID]</td> 
    <td> 如果您要刪除檔案，或擷取檔案或檔案內容，請輸入或對應檔案的ID。 
   </tr> 
 </tbody>

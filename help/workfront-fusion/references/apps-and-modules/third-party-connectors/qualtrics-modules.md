@@ -96,15 +96,15 @@ Qualtrics聯結器使用下列專案：
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL連線名稱]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 連線名稱]</p> </td> 
       <td> <p>輸入新連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL資料中心ID] </td> 
+      <td role="rowheader">[!UICONTROL 資料中心ID] </td> 
       <td>使用格式<code>&lt;Data Center ID>.qualtrics.com</code>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL API Key]</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
       <td>若要尋找您的API金鑰，請參閱[!DNL Qualtrics]檔案。</td> 
      </tr> 
     </tbody> 

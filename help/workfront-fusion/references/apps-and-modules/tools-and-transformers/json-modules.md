@@ -131,23 +131,23 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source模組] </td> 
+   <td role="rowheader">[!UICONTROL Source模組] </td> 
    <td> <p>選取輸出您要彙總至JSON之資料的模組。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料結構]</td> 
+   <td role="rowheader">[!UICONTROL 資料結構]</td> 
    <td> <p>選取您要用來建立JSON的資料結構。 資料結構會決定此模組中有哪些其他欄位可用。 如需詳細資訊，請參閱本文中的<a href="#data-structure" class="MCXref xref">資料結構</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL縮排]</td> 
+   <td role="rowheader">[!UICONTROL 縮排]</td> 
    <td> <p> 選取您要使用定位字元、兩個空格或四個空格縮排JSON。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Group by]</td> 
+   <td role="rowheader">[!UICONTROL Group by]</td> 
    <td>定義要將彙總輸出分組依據的運算式。 此運算式可包含一或多個對應專案。 接著，會使用此運算式的值，將彙總資料分隔成群組。 每個群組會輸出一個單獨的組合，內含索引鍵（運算式）和值（彙總文字）。 您可以在後續模組中使用該索引鍵作為篩選條件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL在空白彙總後停止處理]</td> 
+   <td role="rowheader">[!UICONTROL 在空白彙總後停止處理]</td> 
    <td>啟用此選項可在沒有結果時停止情境。</td> 
   </tr> 
  </tbody> 
@@ -169,7 +169,7 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL JSON string] </td> 
+   <td role="rowheader">[!UICONTROL JSON string] </td> 
    <td> <p>輸入或對應您要轉換成XML的JSON。</p> </td> 
   </tr> 
  </tbody> 
@@ -203,11 +203,11 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料結構]</td> 
+   <td role="rowheader">[!UICONTROL 資料結構]</td> 
    <td> <p>選取您要用來建立JSON的資料結構。 如需詳細資訊，請參閱本文中的<a href="#data-structure" class="MCXref xref">資料結構</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL JSON string] </td> 
+   <td role="rowheader">[!UICONTROL JSON string] </td> 
    <td> <p>輸入或對應您要剖析的JSON。</p> </td> 
   </tr> 
  </tbody> 
@@ -226,7 +226,7 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
    <td> <p>選取您要用於此JSON的縮排。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL物件]</td> 
+   <td role="rowheader">[!UICONTROL 物件]</td> 
    <td> <p>輸入或對應您要轉換為JSON的物件。</p> </td> 
   </tr> 
  </tbody> 
@@ -259,7 +259,7 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
    ```
 
 1. 按一下「**[!UICONTROL 儲存]**」。資料結構中的[!UICONTROL 規格]欄位現在包含產生的結構。
-1. 將您的資料結構名稱變更為更具體的名稱，然後按一下[儲存]。**** 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
+1. 將您的資料結構名稱變更為更具體的名稱，然後按一下[儲存]。**&#x200B;** 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
 
 1. 按一下欄位旁的&#x200B;**[!UICONTROL 對應]**&#x200B;按鈕，並將Array彙總器輸出中的`Array[]`專案對應至該欄位。
 

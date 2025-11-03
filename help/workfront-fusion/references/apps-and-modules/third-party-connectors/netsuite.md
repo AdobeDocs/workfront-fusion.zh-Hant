@@ -95,25 +95,25 @@ NetSuite聯結器使用下列專案：
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[！UICONTROL連線名稱]</td>
+          <td role="rowheader">[!UICONTROL 連線名稱]</td>
           <td>
             <p>輸入此連線的名稱。</p>
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL型別] </td>
+          <td role="rowheader">[!UICONTROL 型別] </td>
           <td>選取您要連線到服務帳戶還是個人帳戶。</p>
         </tr>
        <tr>
-          <td role="rowheader">[！UICONTROL帳戶ID] </td>
+          <td role="rowheader">[!UICONTROL 帳戶ID] </td>
           <td>輸入NetSuite帳戶的ID。</p>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL使用者端ID]</td>
+          <td role="rowheader">[!UICONTROL 使用者端ID]</td>
           <td>輸入您NetSuite帳戶的使用者端ID。 您可以在您的NetSuite使用者端認證中找到此專案。</p></td>
         </tr>
         <tr>
-          <td role="rowheader">[！UICONTROL使用者端密碼]</td>
+          <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
           <td>輸入您NetSuite帳戶的使用者端密碼。</p>
         </tr>
         </tbody>
@@ -142,27 +142,27 @@ NetSuite聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL NetSuite]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-netsuite" class="MCXref xref">建立與[!DNL NetSuite]</a>的連線。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td> <p>使用下列URL格式：</p> <p><code>https://{accountID}.suitetalk.api.netsuite.com/services/rest/record/{version}/{resource}?{query-parameters}</code> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

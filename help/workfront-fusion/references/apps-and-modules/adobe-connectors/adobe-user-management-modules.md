@@ -76,33 +76,33 @@ ht-degree: 2%
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[！UICONTROL連線名稱]</td>
+        <td role="rowheader">[!UICONTROL 連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL環境]</td>
+        <td role="rowheader">[!UICONTROL 環境]</td>
         <td>選取您要連線到生產或非生產環境。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL型別]</td>
+        <td role="rowheader">[!UICONTROL 型別]</td>
         <td>選取您要連線到服務帳戶還是個人帳戶。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL使用者端ID]</td>
-        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
+        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL 使用者端ID]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
-        <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL IMS組織識別碼]</td>
+        <td role="rowheader">[!UICONTROL IMS組織識別碼]</td>
         <td>輸入您的[!DNL Adobe] IMS認證。 適用於組織的唯一識別碼。 此字串格式為A495E53@AdobeOrg，其中@的前置詞為十六進位數字。 您可以在Admin Console或adobe.io主控台中，將此值視為組織URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL其他範圍]</td>
+        <td role="rowheader">[!UICONTROL 其他範圍]</td>
         <td>針對您想要新增的每個其他範圍，按一下<b>新增專案</b>並輸入範圍。</td>
         </tr>
       </tbody>

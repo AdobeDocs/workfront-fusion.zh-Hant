@@ -72,9 +72,9 @@ ht-degree: 3%
 1. 在Adobe Developer Console中開啟您的專案。
 1. 按一下&#x200B;**新增至專案**，然後選取&#x200B;**API**。
 1. 從可用API清單中，選取&#x200B;**Adobe Cloud Platform和Collaboration API**。
-1. 在[選取驗證型別]畫面上，選取&#x200B;**OAuth伺服器對伺服器**，然後按一下[下一步]****。
+1. 在[選取驗證型別]畫面上，選取&#x200B;**OAuth伺服器對伺服器**，然後按一下[下一步]&#x200B;**&#x200B;**。
 1. 新增憑證的名稱。
-1. 按一下[下一步]****，然後按一下[儲存設定的API]****。
+1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存設定的API]&#x200B;**&#x200B;**。
 1. 記下提供的憑證，這些憑證將在Workfront Fusion中設定連線時使用。
 1. 繼續[將您的技術帳戶設為Adobe Admin Console的管理員](#make-your-technical-account-an-admin-in-the-adobe-admin-console)。
 
@@ -91,7 +91,7 @@ ht-degree: 3%
 
 1. 選取使用者清單上方的&#x200B;**管理員**&#x200B;索引標籤。
 1. 選取&#x200B;**新增管理員**。
-1. 在[新增產品設定檔管理員]方塊中，輸入技術帳戶的電子郵件地址，然後選取[儲存]。****
+1. 在[新增產品設定檔管理員]方塊中，輸入技術帳戶的電子郵件地址，然後選取[儲存]。**&#x200B;**
 
    技術帳戶會成為管理員。
 
@@ -112,24 +112,24 @@ ht-degree: 3%
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[！UICONTROL連線型別]</td>
+        <td role="rowheader">[!UICONTROL 連線型別]</td>
         <td>選擇「<code>Server to server</code>」。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL連線名稱]</td>
+        <td role="rowheader">[!UICONTROL 連線名稱]</td>
         <td>
           <p>輸入此連線的名稱。</p>
         </td>
         </tr>
-        <td role="rowheader">[！UICONTROL使用者端ID]</td>
-        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
+        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
+        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL 使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL 認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL使用者端密碼]</td>
-        <td>輸入您的[!DNL Adobe] [！UICONTROL使用者端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
+        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
+        <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL 認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL IMS組織識別碼]</td>
+        <td role="rowheader">[!UICONTROL IMS組織識別碼]</td>
         <td>輸入或對應您的Adobe IMS組織ID。 這是格式為<code> 123abc@AdobeOrg</code>的字串，其中@之前的區段是十六進位數字。 您可以在Adobe Admin Console中，或在Adobe.IO主控台中，將此值視為您組織的URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
       </tbody>

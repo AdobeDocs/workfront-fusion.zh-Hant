@@ -98,7 +98,7 @@ ht-degree: 0%
 >若要防止整個案例執行，您可以：
 >
 >* 在[!UICONTROL JSON] > [!UICONTROL 剖析JSON]模組之後取消連結模組，以防止流程繼續進行。
->  >   或
+>  &#x200B;>   或
 >* 以滑鼠右鍵按一下[!UICONTROL JSON] > [!UICONTROL 剖析JSON]模組，然後從內容功能表中選擇&#x200B;**[!UICONTROL 僅執行此模組]**，以僅執行[!UICONTROL JSON] > [!UICONTROL 剖析JSON]模組。
 
 執行[!UICONTROL JSON] > [!UICONTROL 剖析JSON]之後，它就可以將其輸出的相關資訊提供給所有後續模組，包括疊代器模組。 接著迭代器設定中的對應面板會顯示專案：

@@ -103,27 +103,27 @@ Datadog聯結器會使用下列專案：
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL連線名稱]</td> 
+      <td role="rowheader">[!UICONTROL 連線名稱]</td> 
       <td> <p> 輸入連線的名稱。</p> </td> 
      </tr> 
         <tr>
-        <td role="rowheader">[！UICONTROL環境]</td>
+        <td role="rowheader">[!UICONTROL 環境]</td>
         <td>選取此連線是用於生產或非生產環境。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL型別]</td>
+        <td role="rowheader">[!UICONTROL 型別]</td>
         <td>選取您要連線到服務帳戶還是個人帳戶。</td>
         </tr>
      <tr> 
-      <td role="rowheader">[！UICONTROL網域] </td> 
+      <td role="rowheader">[!UICONTROL 網域] </td> 
       <td> <p>選取您要連線的網域（美國或歐盟）。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL API金鑰位置] </td> 
+      <td role="rowheader">[!UICONTROL API金鑰位置] </td> 
       <td> <p>選取在標頭或查詢字串中包含API金鑰。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL API Key]</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
       <td> <p> 輸入您的[!DNL Datadog] API金鑰。 </p> <p>如需擷取API金鑰的指示，請參閱本文中的<a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">擷取您的API金鑰和應用程式金鑰</a>。</p> </td> 
      </tr> 
     </tbody> 
@@ -153,31 +153,31 @@ Datadog聯結器會使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Datadog]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">將[!DNL Datadog]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL使用專用網域]</td> 
+   <td role="rowheader">[!UICONTROL 使用專用網域]</td> 
    <td>有些Datadog API端點預期會有大量傳入流量，但在其專用網域中執行。 核取此方塊以使用您API呼叫的專用網域。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL URL]</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td>輸入相對於<code>https://api.datadoghq.com/api/</code>的路徑。 範例： <code> /v1/org</code>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL方法]</td> 
+   <td role="rowheader">[!UICONTROL 方法]</td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串]</td> 
+   <td role="rowheader">[!UICONTROL 查詢字串]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -211,11 +211,11 @@ URL： `/v1/dashboard`
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>如需有關將您的[!DNL Datadog]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">將[!DNL Datadog]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL型別]</td> 
+   <td role="rowheader">[!UICONTROL 型別]</td> 
    <td> 選取您要使用的量度型別。 
    <ul>
    <li>量測計</li>
@@ -224,19 +224,19 @@ URL： `/v1/dashboard`
    </ul>
    </td> 
   <tr> 
-   <td role="rowheader">[！UICONTROL間隔]</td> 
+   <td role="rowheader">[!UICONTROL 間隔]</td> 
    <td> 如果度量的型別是「比率」或「計數」，請定義對應的間隔。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL點]</td> 
+   <td role="rowheader">[!UICONTROL 點]</td> 
    <td><p>新增與量度相關的點。</p> <p>這是JSON點陣列。 每個點的格式如下： <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>注意：  <p>時間戳記必須以秒為單位。</p> <p>時間戳記必須是最新的。 「目前」的定義是未來不超過10分鐘，或過去不超過1小時。</p> <p> 數值格式應為浮點數值。</p> </p> <p>此欄位必須至少包含1個專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主機]</td> 
+   <td role="rowheader">[!UICONTROL 主機]</td> 
    <td>輸入產生測量結果的主機名稱。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標籤]</td> 
+   <td role="rowheader">[!UICONTROL 標籤]</td> 
    <td> 針對您想要新增至量度的每個標籤，按一下<b>新增專案</b>並輸入標籤的值。</td> 
   </tr> 
  </tbody> 

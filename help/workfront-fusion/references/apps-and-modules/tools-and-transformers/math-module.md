@@ -55,7 +55,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL運算式]</td> 
+   <td role="rowheader">[!UICONTROL 運算式]</td> 
    <td> <p>輸入您希望模組評估的運算式。 </p> <p> </p> <p>如需如何撰寫數學運算式的資訊，請參閱mathjs.org上的<a href="https://mathjs.org/docs/expressions/syntax.html">運算式語法</a>。</p> </td> 
   </tr> 
  </tbody> 

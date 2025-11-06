@@ -103,9 +103,9 @@ Frame.io聯結器使用下列專案：
 
 您可以使用API權杖或使用OAuth 2.0連線至[!DNL Frame.io]。
 
-[使用API權杖連線至 [!DNL Frame.io] ](#connect-to-frameio-using-an-api-token)
+[使用API權杖連線至 [!DNL Frame.io] &#x200B;](#connect-to-frameio-using-an-api-token)
 
-[使用OAuth 2.0 PKCE連線至 [!DNL Frame.io] ](#connect-to-frameio-using-oauth-20-pkce)
+[使用OAuth 2.0 PKCE連線至 [!DNL Frame.io] &#x200B;](#connect-to-frameio-using-oauth-20-pkce)
 
 ### 使用API權杖連線到[!DNL Frame.io]
 
@@ -114,7 +114,7 @@ Frame.io聯結器使用下列專案：
 1. 登入您的[!DNL Frame.io]帳戶。
 1. 前往&#x200B;**[!UICONTROL 開發人員的]** Token[!DNL Frame.io]頁面。
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
-1. 輸入權杖的名稱，選取您要使用的範圍，然後按一下[建立]。****
+1. 輸入權杖的名稱，選取您要使用的範圍，然後按一下[建立]。**&#x200B;**
 1. 複製提供的Token。
 1. 前往Workfront Fusion並開啟[!DNL Frame.io]模組的&#x200B;**[!UICONTROL 建立連線]**&#x200B;對話方塊。
 1. 在&#x200B;**[!UICONTROL 連線型別]**&#x200B;欄位中，選取&#x200B;**[!DNL Frame.io]**。
@@ -125,8 +125,8 @@ Frame.io聯結器使用下列專案：
 
 您可以使用OAuth 2.0 PKCE搭配選用的使用者端ID來建立與[!DNL Frame.io]的連線。 如果您想要在連線中包含使用者端ID，您必須在您的[!DNL Frame.io]帳戶中建立OAuth 2.0應用程式。
 
-* [使用OAuth 2.0 PKCE （不含使用者端ID）連線至 [!DNL Frame.io] ](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
-* [使用OAuth 2.0 PKCE （含使用者端ID）連線至 [!DNL Frame.io] ](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
+* [使用OAuth 2.0 PKCE （不含使用者端ID）連線至 [!DNL Frame.io] &#x200B;](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
+* [使用OAuth 2.0 PKCE （含使用者端ID）連線至 [!DNL Frame.io] &#x200B;](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
 
 #### 使用OAuth 2.0 PKCE （不含使用者端ID）連線至[!DNL Frame.io]
 
@@ -193,27 +193,27 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應擁有您要建立資產的專案團隊。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID] </td> 
+   <td role="rowheader">[!UICONTROL 專案ID] </td> 
    <td> <p>選取專案或對應您要建立資產的專案ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取資料夾或對應您要建立資產的資料夾之ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL型別] </td> 
+   <td role="rowheader">[!UICONTROL 型別] </td> 
    <td> <p>選擇是否要建立資料夾或檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL名稱] </td> 
+   <td role="rowheader">[!UICONTROL 名稱] </td> 
    <td> <p>輸入新檔案或資料夾的名稱。</p> </td> 
   </tr> <!--
    <tr> 
@@ -227,15 +227,15 @@ Frame.io聯結器使用下列專案：
    </tr>
   --> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source URL] </td> 
+   <td role="rowheader">[!UICONTROL Source URL] </td> 
    <td> <p>如果建立檔案，請輸入您要上傳之檔案的URL。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL說明] </td> 
+   <td role="rowheader">[!UICONTROL 說明] </td> 
    <td> <p>如果建立檔案，請輸入資產的簡短說明。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標籤] </td> 
+   <td role="rowheader">[!UICONTROL 標籤] </td> 
    <td> <p>如果建立檔案，請選取檔案是否正在進行中、需要稽核或已核准。</p> </td> 
   </tr> 
  </tbody> 
@@ -250,23 +250,23 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應擁有專案的團隊，專案中包含您要刪除的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID]</td> 
+   <td role="rowheader">[!UICONTROL 專案ID]</td> 
    <td> <p> 選取包含您要刪除之資產的專案或。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取包含您要刪除之資產的檔案夾</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產ID] </td> 
    <td> <p>選取或對應您要刪除的資產。</p> </td> 
   </tr> 
  </tbody> 
@@ -281,23 +281,23 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對映擁有專案的團隊，專案中包含您要擷取詳細資訊的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID]</td> 
+   <td role="rowheader">[!UICONTROL 專案ID]</td> 
    <td> <p> 選取包含您要擷取詳細資訊之資產的專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取包含您要擷取詳細資訊之資產的檔案夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產ID] </td> 
    <td> <p>選取資產或對應您要擷取詳細資訊之資產的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -314,23 +314,23 @@ Frame.io聯結器使用下列專案：
  </col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應擁有專案的團隊，專案中包含您想要從中擷取資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID]</td> 
+   <td role="rowheader">[!UICONTROL 專案ID]</td> 
    <td> <p> 選取包含您要擷取資產的資料夾的專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取您要列出資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td role="rowheader">[!UICONTROL 限制] </td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的資產最大數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -345,31 +345,31 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應擁有您要更新資產的專案團隊。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID] </td> 
+   <td role="rowheader">[!UICONTROL 專案ID] </td> 
    <td> <p>選取專案或對應您要更新資產的專案ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取資料夾或對應您要更新資產的資料夾之ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產ID] </td> 
    <td> <p>輸入或對應您要更新之資產的ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL名稱] </td> 
+   <td role="rowheader">[!UICONTROL 名稱] </td> 
    <td> <p>輸入更新檔案的名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL說明] </td> 
+   <td role="rowheader">[!UICONTROL 說明] </td> 
    <td> <p>輸入已更新資產的簡短說明。</p> </td> 
   </tr> 
  </tbody> 
@@ -388,15 +388,15 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Webhook名稱]</td> 
+   <td role="rowheader">[!UICONTROL Webhook名稱]</td> 
    <td> <p> 輸入webhook的名稱，例如「已刪除資產」。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取建立此webhook的團隊。</p> </td> 
   </tr> 
  </tbody> 
@@ -415,15 +415,15 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Webhook名稱]</td> 
+   <td role="rowheader">[!UICONTROL Webhook名稱]</td> 
    <td> <p> 輸入webhook的名稱，例如「資產狀態已更新」。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取建立此webhook的團隊。</p> </td> 
   </tr> 
  </tbody> 
@@ -442,15 +442,15 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Webhook名稱]</td> 
+   <td role="rowheader">[!UICONTROL Webhook名稱]</td> 
    <td> <p> 輸入webhook的名稱，例如「已建立的資產」。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取建立此webhook的團隊。</p> </td> 
   </tr> 
  </tbody> 
@@ -475,39 +475,39 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL型別] </td> 
+   <td role="rowheader">[!UICONTROL 型別] </td> 
    <td> <p>選取您要建立註解還是回覆註解。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應擁有專案的團隊，專案中包含您想要新增註解的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID] </td> 
+   <td role="rowheader">[!UICONTROL 專案ID] </td> 
    <td> <p>選取專案或對應專案ID，專案包含您要新增註解的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取資料夾或對應包含您要新增註解之資產的資料夾的ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產ID] </td> 
    <td> <p>選取或對應您要新增註解的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL註解ID] </td> 
+   <td role="rowheader">[!UICONTROL 註解ID] </td> 
    <td> <p>選取或對應您要新增回覆的註解。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Text]</td> 
+   <td role="rowheader">[!UICONTROL Text]</td> 
    <td> <p> 輸入評論或回覆的文字內容。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL時間戳記] </td> 
+   <td role="rowheader">[!UICONTROL 時間戳記] </td> 
    <td> <p>在影片中輸入評論應連結的影格編號。</p> </td> 
   </tr> 
  </tbody> 
@@ -522,27 +522,27 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID]</td> 
+   <td role="rowheader">[!UICONTROL 團隊ID]</td> 
    <td> <p> 選取或對映擁有專案的團隊，專案中包含您要從中刪除註解的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID]</td> 
+   <td role="rowheader">[!UICONTROL 專案ID]</td> 
    <td> <p> 選取專案或對應包含您要從中刪除註解之資產的專案ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID]</td> 
    <td> <p> 選取包含您要從中刪除註解的資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產ID] </td> 
    <td> <p>輸入或對應包含您要刪除之註解的資產ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL註解ID] </td> 
+   <td role="rowheader">[!UICONTROL 註解ID] </td> 
    <td> <p>輸入或對應您要刪除之註解的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -557,27 +557,27 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應擁有專案的團隊，該專案包含您要從中擷取資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID] </td> 
+   <td role="rowheader">[!UICONTROL 專案ID] </td> 
    <td> <p>選取包含您要擷取資產的資料夾的專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取您要列出資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產ID] </td> 
    <td> <p>選取包含您要擷取之註解的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL註解ID] </td> 
+   <td role="rowheader">[!UICONTROL 註解ID] </td> 
    <td> <p>選取您要擷取有關詳細資訊的註解。</p> </td> 
   </tr> 
  </tbody> 
@@ -592,27 +592,27 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應擁有專案的團隊，該專案包含您要從中擷取註解的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID] </td> 
+   <td role="rowheader">[!UICONTROL 專案ID] </td> 
    <td> <p>選取包含您要從中擷取註解的資料夾的專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取包含您要列出註解之資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產ID] </td> 
    <td> <p>選取您要列出註解的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td role="rowheader">[!UICONTROL 限制] </td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大註解數。</p> </td> 
   </tr> 
  </tbody> 
@@ -627,35 +627,35 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應擁有專案的團隊，專案中包含您要更新註解的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案ID] </td> 
+   <td role="rowheader">[!UICONTROL 專案ID] </td> 
    <td> <p>選取包含您要更新註解的資產的專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾ID] </td> 
+   <td role="rowheader">[!UICONTROL 資料夾ID] </td> 
    <td> <p>選取包含您要更新評論之資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產ID] </td> 
    <td> <p>選取您要更新註解的資產。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL註解ID] </td> 
+   <td role="rowheader">[!UICONTROL 註解ID] </td> 
    <td> <p>選取要更新的註解。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Text]</td> 
+   <td role="rowheader">[!UICONTROL Text]</td> 
    <td> <p> 輸入註解的文字內容。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL時間戳記] </td> 
+   <td role="rowheader">[!UICONTROL 時間戳記] </td> 
    <td> <p>在評論連結的視訊中輸入影格編號。</p> </td> 
   </tr> 
  </tbody> 
@@ -674,15 +674,15 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Webhook名稱] </td> 
+   <td role="rowheader">[!UICONTROL Webhook名稱] </td> 
    <td> <p>輸入webhook的名稱，例如「編輯的註解」。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取建立此webhook的團隊。</p> </td> 
   </tr> 
  </tbody> 
@@ -701,15 +701,15 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Webhook名稱] </td> 
+   <td role="rowheader">[!UICONTROL Webhook名稱] </td> 
    <td> <p>輸入webhook的名稱，例如新增註解。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取建立此webhook的團隊。</p> </td> 
   </tr> 
  </tbody> 
@@ -726,15 +726,15 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL團隊ID] </td> 
+   <td role="rowheader">[!UICONTROL 團隊ID] </td> 
    <td> <p>選取或對應您要擷取專案的團隊。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL限制] </td> 
+   <td role="rowheader">[!UICONTROL 限制] </td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大專案數量。</p> </td> 
   </tr> 
  </tbody> 
@@ -751,27 +751,27 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[！UICONTROL Connection] </td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL URL]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
    <td> <p>輸入相對於<code>https://api.frame.io</code>的路徑。 範例： <code> /v2/teams</code></p> <p>注意：如需可用端點的清單，請參閱[!DNL Frame.io] API參考。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL方法]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
    <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Headers]</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL查詢字串] </td> 
-   <td> <p>輸入請求查詢字串。 針對您要包含在查詢字串中的每個引數，按一下<b>[！UICONTROL新增專案]</b>，然後輸入欄位名稱及所要的值。</p> </td> 
+   <td role="rowheader">[!UICONTROL 查詢字串] </td> 
+   <td> <p>輸入請求查詢字串。 針對您要包含在查詢字串中的每個引數，按一下<b>[!UICONTROL 新增專案]</b>，然後輸入欄位名稱及所要的值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Body]</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

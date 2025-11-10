@@ -3,10 +3,10 @@ title: Veeva儲存庫模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Veeva Vault的工作流程，並將其連線到多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 37cb18a2e13a494c4174514539c0c7e43cdee011
+source-git-commit: 4ba05a5f400ba1bdfb97586500baf741b555cd20
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 3%
+source-wordcount: '2325'
+ht-degree: 2%
 
 ---
 
@@ -118,18 +118,23 @@ ht-degree: 3%
 
 ![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
+* [文件](#document)
+* [物件](#object)
+* [其他](#other)
+
 ### 文件
 
 * [建立單一檔案](#create-a-single-document)
 * [建立多個檔案](#create-multiple-documents)
 * [刪除單一檔案](#delete-a-single-document)
+* [下載檔案](#download-file)
 * [匯出檔案](#export-documents)
 * [取得單一檔案](#get-a-single-document)
 * [啟動使用者動作](#initiate-user-action)
 * [列出檔案](#list-documents)
 * [擷取檔案匯出結果](#retrieve-document-export-results)
-* [更新多份檔案](#update-multiple-documents)
 * [更新單一檔案](#update-a-single-document)
+* [更新多份檔案](#update-multiple-documents)
 
 #### 建立單一檔案
 
@@ -196,6 +201,41 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader"><p>檔案ID/繫結器ID/範本名稱</p> </td> 
    <td> <p>選取您要刪除的欄位。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 下載檔案
+
+此模組會從Veeva Vault下載檔案、檔案版本或範本。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連接 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>類型</p> </td> 
+   <td> <p>選取您要下載檔案或範本。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>下載型別</p> </td> 
+   <td> <p>選取您要下載檔案或檔案版本。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>檔案ID/範本名稱</p> </td> 
+   <td> <p>輸入或對應檔案的ID或您要下載的範本名稱。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>簽出檔案</p> </td> 
+   <td> <p>如果您正在下載檔案，請啟用此選項以在下載檔案之前先出庫檔案。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>版本</p> </td> 
+   <td> <p>如果您正在下載檔案版本，請選取要下載的版本。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -387,9 +427,106 @@ ht-degree: 3%
 
 ### 物件
 
+* [建立單一物件記錄](#create-a-single-object-record)
+* [刪除單一物件記錄](#delete-a-single-object-record)
+* [取得單一物件](#get-a-single-object)
+* [列出物件記錄](#list-objects-records)
+* [更新單一物件記錄](#update-a-single-object-record)
 
+#### 建立單一物件記錄
 
-#### 列出物件
+此模組會建立、複製或深層複製單一物件記錄。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連接 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>類型</p> </td> 
+   <td> <p>選取是否要建立或複製記錄，或是否要深層複製記錄。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">移轉模式</td> 
+   <td>如果建立或複製記錄，請啟用此選項以建立或更新非初始狀態的物件記錄，並以最小的驗證方式，建立非使用中記錄，以及設定標準和系統管理的欄位，例如<code>createdby_v</code>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">無觸發程式</td> 
+   <td>如果設為true且已啟用移轉模式，則模組會略過所有系統、標準、自訂SDK觸發程式和動作觸發程式。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件名稱</td> 
+   <td>輸入或對應物件名稱__v欄位值，例如<code>product__v</code>、<code>country__v</code>或<code>custom_object__c</code>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄ID</td> 
+   <td>如果您要深度複製記錄，請選取要複製的記錄。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄欄位</td> 
+   <td>如果您深度複製記錄，請選取要提供值的欄位，然後提供這些值。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 刪除單一物件記錄
+
+此模組會刪除或重疊刪除單一物件記錄。 重疊刪除記錄會刪除記錄及其所有子物件。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連接 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>類型</p> </td> 
+   <td> <p>選取要刪除記錄，還是重疊刪除記錄。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件名稱</td> 
+   <td>選取您要刪除的物件。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄ID</td> 
+   <td>選取您要刪除的記錄ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">外部 ID</td> 
+   <td>您可以使用這個使用者定義檔案外部ID，而不使用記錄ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 取得單一物件
+
+此模組會擷取在儲存庫中特定物件記錄上設定的中繼資料。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連接 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件名稱</td> 
+   <td>選取您要擷取中繼資料的物件。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄ID</td> 
+   <td>選取您要擷取中繼資料的記錄ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 列出物件記錄
 
 此模組會擷取已驗證儲存庫中的所有儲存庫物件。
 
@@ -408,6 +545,55 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">傳回結果的最大數量</td> 
    <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--#### Update a single object record-->
+
+此模組會更新現有物件記錄中的欄位。
+
+此模組會建立、複製或深層複製單一物件記錄。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連接 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>類型</p> </td> 
+   <td> <p>選取是否要建立或複製記錄，或是否要深層複製記錄。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">移轉模式</td> 
+   <td>啟用此選項以建立或更新非初始狀態且驗證最少的物件記錄、建立非使用中記錄，以及設定標準和由系統管理的欄位，例如<code>createdby_v</code>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">無觸發程式</td> 
+   <td>如果已啟用移轉模式，您可以啟用此選項以略過所有系統、標準、自訂SDK觸發程式和動作觸發程式。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">物件名稱</td> 
+   <td>輸入或對應物件名稱__v欄位值，例如<code>product__v</code>、<code>country__v</code>或<code>custom_object__c</code>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄ID</td> 
+   <td>選取要更新的記錄識別碼。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">狀態</td> 
+   <td>指定當<code>X-VaultAPI-MigrationMode</code>設為true時記錄的生命週期狀態。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">狀態標籤</td> 
+   <td>當<code>X-VaultAPI-MigrationMode</code>設為true時，指定記錄的生命週期狀態型別。 使用格式<code>base:object_lifecycle:</code>，後接物件狀態型別。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄欄位</td> 
+   <td>如果您深度複製記錄，請選取要提供值的欄位，然後提供這些值。</td> 
   </tr> 
  </tbody> 
 </table>

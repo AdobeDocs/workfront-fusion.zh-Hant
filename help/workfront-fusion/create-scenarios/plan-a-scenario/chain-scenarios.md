@@ -3,17 +3,19 @@ title: 將多個案例鏈結在一起
 description: 您可以將案例鏈結在一起，讓一個案例觸發另一個案例，然後將第二個案例輸出的資料傳回給第一個案例。
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
-source-git-commit: b41f7795273d35dc4e0c019c568f8939926b875a
+exl-id: def8d4c1-fc20-4b93-b1fd-be2f60300464
+source-git-commit: 7f73007e219714c38dd0cf29d2a1e3a4c8f6f3cc
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
-
 # 將多個案例鏈結在一起
+
+>[!NOTE]
+>
+>此功能目前在Beta中。
 
 您可以將案例鏈結在一起，讓一個案例觸發另一個案例，然後將第二個案例輸出的資料傳回給第一個案例。 這可讓您建立更多模組化的案例，而不需在多個案例中重複案例區段。
 

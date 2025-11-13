@@ -3,17 +3,19 @@ title: 鏈結模組
 description: 使用這些模組，您可以將案例連結在一起，進行另一個呼叫。
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: 21429f94-fe4c-4ccc-a8c0-d7573657fecc
-source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
+source-git-commit: 7f73007e219714c38dd0cf29d2a1e3a4c8f6f3cc
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '625'
 ht-degree: 1%
 
 ---
 
 # 鏈結模組
+
+>[!NOTE]
+>
+>此功能目前在Beta中。
 
 使用「鏈」模組，可以將一個案例連線到另一個案例。
 

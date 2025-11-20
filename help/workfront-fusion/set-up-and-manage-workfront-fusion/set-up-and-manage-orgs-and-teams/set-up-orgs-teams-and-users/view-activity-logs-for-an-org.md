@@ -43,7 +43,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-如需有關此表格資訊的詳細資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取需求[。
+如需有關此表格資訊的詳細資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取需求。
 
 +++
 

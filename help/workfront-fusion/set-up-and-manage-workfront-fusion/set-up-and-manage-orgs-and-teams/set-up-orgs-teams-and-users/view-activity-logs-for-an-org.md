@@ -4,10 +4,10 @@ description: 您可以檢視組織的活動記錄，例如情境建立或啟動�
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cf851e3-50a1-4baa-8318-a24e1f467134
-source-git-commit: f7c1d5b1de74cc0c59e3a00938bed14b489500db
+source-git-commit: 2ffb7676067720a5b9daa51b560389396f4a665f
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 7%
 
 ---
 
@@ -15,20 +15,22 @@ ht-degree: 0%
 
 您可以檢視活動的記錄，例如為您的組織建立情境或邀請使用者。
 
+活動記錄會顯示三個月的資料。 可匯出3個月以前的資料。
+
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以查看此文章中功能的存取需求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 套件</td> 
    <td> <p>Adobe Workfront工作流程Ultimate和Adobe Workfront自動化與整合Ultimate</p><p>Workfront Ultimate</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
    <td> <p>標準</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -41,7 +43,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+如需有關此表格資訊的詳細資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取需求[。
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-title: Frame.io模組
+title: Frame.io 模組
 description: ' [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io] 帳戶。'
 author: Becky
 feature: Workfront Fusion
@@ -7,79 +7,79 @@ exl-id: 16d32ebd-1807-495e-8aaf-27346056ec71
 source-git-commit: 52dbf75ebb65a1de1a7a86619af4c7633e0cbe03
 workflow-type: tm+mt
 source-wordcount: '4399'
-ht-degree: 1%
+ht-degree: 87%
 
 ---
 
-# [!DNL Frame.io] V4模組
+# [!DNL Frame.io] V4 模組
 
 >[!IMPORTANT]
 >
->本文說明Frame.io聯結器的新版本。 此聯結器用於連線至Frame.io版本4。
+>此文章說明新版本的 Frame.io 連接器。此連接器是用來連線至 Frame.io 版本 4。
 >
->如需舊版Frame.io聯結器的說明，請參閱[Frame.io舊版聯結器](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)。
+>如需有關舊版 Frame.io 連接器說明，請參閱 [Frame.io 舊版連接器](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)。
 
-Adobe Workfront Fusion [!DNL Frame.io]模組可讓您監視、建立、更新、擷取或刪除您[!DNL Frame.io]帳戶中的資產和註解。
+Adobe Workfront Fusion [!DNL Frame.io] 模組可讓您監視、建立、更新、檢索或刪除您 [!DNL Frame.io] 帳戶中的資產和註解。
 
-Workfront提供兩個Frame.io聯結器，根據您連線的Frame.io版本而定。
+Workfront 提供兩個 Frame.io 連接器，會根據您所連線的 Frame.io 版本而定。
 
-| 聯結器 | Frame.io版本 |
+| 連接器 | Frame.io 版本 |
 |---|---|
 | Frame.io | V4 |
-| Frame.io （舊版） | V3 |
+| Frame.io (舊版) | V3 |
 
-如需舊版Frame.io聯結器的說明，請參閱[Frame.io舊版聯結器](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)。
+如需有關舊版 Frame.io 連接器說明，請參閱 [Frame.io 舊版連接器](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)。
 
 
-如需Frame.io聯結器的影片簡介，請參閱：
+如需有關 Frame.io 連接器的影片簡介，請參閱：
 
 * [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## 存取需求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以查看此文章中功能的存取需求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 套件</td> 
+   <td> <p>任何 Adobe Workfront Workflow 套件及任何 Adobe Workfront 自動化和整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 套件，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權需求</p>
+   <p>連接器型 (舊版)：適用於工作自動化和整合的 Workfront Fusion </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 套件，但不包括 Workfront 自動化和整合，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+如需有關此表格資訊的詳細資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取需求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+如需有關 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## 先決條件
 
-若要使用[!DNL Frame.io]模組，您必須有[!DNL Frame.io]帳戶
+若要使用 [!DNL Frame.io] 模組，您必須擁有 [!DNL Frame.io] 帳戶
 
-## Frame.io API資訊
+## Frame.io API 資訊
 
-Frame.io聯結器使用下列專案：
+Frame.io 連接器使用下列專案：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,95 +90,95 @@ Frame.io聯結器使用下列專案：
    <td> https://api.frame.io/v4</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API版本</td> 
+   <td role="rowheader">API 版本</td> 
    <td> v2 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.0.76</td> 
   </tr>
  </tbody> 
  </table>
 
-## 將[!DNL Frame.io]連線至[!UICONTROL Adobe Workfront Fusion]
+## 將 [!DNL Frame.io] 連線至 [!UICONTROL Adobe Workfront Fusion]
 
-您可以使用使用者認證自動連線、手動建立使用者認證連線，或建立伺服器對伺服器連線。
+您可以利用使用者認證進行自動連線、手動建立使用者認證連線，或建立伺服器對伺服器連線。
 
-* [使用使用者認證自動連線](#connect-automatically-with-user-credentials#)
+* [利用使用者認證進行自動連線](#connect-automatically-with-user-credentials#)
 * [手動建立使用者認證連線](#create-a-user-credentials-connection-manually)
 * [建立伺服器對伺服器連線](#create-a-server-to-server-connection)
 
-### 使用使用者認證自動連線
+### 利用使用者認證進行自動連線
 
-如果您已登入Frame.io，此方法會自動建立連線，或將您連線至Frame.io登入頁面以便您登入。
+若您登入 Frame.io，此方法會自動建立連線，或將您連線至 Frame.io 登入頁面以便您登入。
 
-1. 在任何Frame.io模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
-1. 輸入連線的名稱。
-1. 按一下&#x200B;**繼續**。
-1. 如果系統提示您登入Frame.io帳戶，請登入。
-1. 如果您屬於多個Frame.io組織，請選取要用於此連線的組織。
+1. 在任何 Frame.io 模組中，按一下「連線」方框旁的「**[!UICONTROL 新增]**」。
+1. 輸入此連線的名稱。
+1. 按一下「**繼續**」。
+1. 如果系統提示您登入 Frame.io 帳戶，請進行此步驟。
+1. 若您屬於多個 Frame.io 組織，請選取要用於此連線的組織。
 
-已建立連線。
+已建立此連線。
 
 ### 手動建立使用者認證連線
 
-您可以登入Frame.io或提供使用者端ID或使用者端密碼來建立使用者認證連線。
+您可以透過登入 Frame.io、提供用戶端 ID 或用戶端密碼來建立使用者認證連線。
 
-若要建立伺服器對伺服器連線，您必須先在Adobe Developer Console中設定應用程式。
+若要建立伺服器對伺服器連線，您必須先在 Adobe Developer Console 中設定應用程式。
 
-* [在Adobe Developer Console中建立使用者認證](#create-user-credentials-in-the-adobe-developer-console)
+* [在 Adobe Developer Console 中建立使用者認證](#create-user-credentials-in-the-adobe-developer-console)
 * [設定使用者驗證連線](#configure-a-user-authentication-connection)
 
-#### 在Adobe Developer Console中建立使用者認證
+#### 在 Adobe Developer Console 中建立使用者認證
 
-如果您在Adobe Developer Console專案中還沒有伺服器對伺服器認證，您可以建立這些認證。
+若您在 Adobe Developer Console 專案中尚未擁有伺服器對伺服器認證，則可以建立這些認證。
 
-1. 開啟[Adobe Developer Console](https://developer.adobe.com/)。
-1. 在Adobe Developer Console中選取要用於此連線的現有專案
+1. 開啟 [Adobe Developer Console](https://developer.adobe.com/)
+1. 在 Adobe Developer Console 中選取要用於此連線的現有專案
 
    或
 
-   在Adobe Developer Console中建立新專案。 如需指示，請參閱[建立空白專案](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty)。
+   在 Adobe Developer Console 中建立新專案。如需相關說明，請參閱[建立空白專案](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty)。
 
-1. 在專案概觀頁面或開始使用新專案頁面上，按一下&#x200B;**新增API**。
-1. 在開啟的頁面上，找到並按一下&#x200B;**Frame.io API**。
-1. 在[選取驗證型別]頁面上，選取[**使用者驗證**]，然後按一下[下一步] **。**
-1. 在[新增使用者驗證認證]頁面上，選取&#x200B;**OAuth Web App**，然後按一下[下一步]&#x200B;**&#x200B;**。
-1. 在設定OAuth Web App認證頁面上，輸入下列內容：   <table style="table-layout:auto">
+1. 在專案概觀頁面或開始使用新專案頁面上，按一下「**新增 API**」。
+1. 在開啟的頁面上，找到 **Frame.io API** 並點選。
+1. 在「選取驗證類別」頁面上，選取「**使用者驗證**」，並按一下「**下一步**」。
+1. 在「新增使用者驗證認證」頁面上，選取「**OAuth 網頁應用程式**」，並按一下「**下一步**」。
+1. 在「設定 OAuth 網頁應用程式認證」頁面上，請輸入下列內容：   <table style="table-layout:auto">
    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
       </col>
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[!UICONTROL 預設重新導向URI]</td>
+          <td role="rowheader">[!UICONTROL 預設重新導向 URI]</td>
           <td>
             <p><code>https://oauth.app.workfrontfusion.com/oauth/cb/frame-io2</code></p>
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 重新導向URI模式]</td>
+          <td role="rowheader">[!UICONTROL 重新導向 URI 模式]</td>
           <td>
             <p><code>https://oauth\.app\.workfrontfusion\.com/oauth/cb/frame-io2</code></p>
           </td>
         </tr>
        </tbody>
     </table>
-1. 按一下&#x200B;**下一步**。
-1. 按一下&#x200B;**儲存設定的API**。
-1. 在產品頁面上，按一下您剛建立之憑證的卡片。
+1. 按一下「**下一步**」。
+1. 按一下「**儲存已設定的 API**」。
+1. 在產品頁面上，按一下您剛建立的認證卡片。
 
-   您可以在這裡找到您的使用者端ID和使用者端密碼。
+   您可以在此處找到您的用戶端 ID 和用戶端密碼。
 
 >[!NOTE]
 >
-> 建議您在Adobe Workfront Fusion中開始設定連線時，保持此視窗開啟。 您可以複製使用者端ID，並從此頁面擷取及複製使用者端密碼，以貼入連線欄位。
+> 我們建議您在 Adobe Workfront Fusion 中開始設定連線時，保持此視窗開啟。您可以複製此用戶端 ID，並從此頁面檢索及複製用戶端密碼，將其貼上到此連線欄位。
 
 
 #### 設定使用者驗證連線
 
-1. 在任何Frame.io模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
-1. 在[建立連線]方塊中，按一下[顯示進階設定]。**&#x200B;**
+1. 在任何 Frame.io 模組中，按一下「連線」方框旁的「**[!UICONTROL 新增]**」。
+1. 在「建立連線」方框中，按一下「**顯示進階設定**」。
 
 1. 填寫下列欄位：
 
@@ -189,9 +189,9 @@ Frame.io聯結器使用下列專案：
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[!UICONTROL 連線型別]</td>
+          <td role="rowheader">[!UICONTROL 連線類型]</td>
           <td>
-            <p>選取<b>IMS使用者驗證</b>。</p>
+            <p>選取「<b>IMS 使用者驗證</b>」。</p>
           </td>
         </tr>
         <tr>
@@ -201,58 +201,58 @@ Frame.io聯結器使用下列專案：
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端ID]</td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。<p>如需建立認證的指示，請參閱本文中的<a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref">在Adobe Developer Console中建立使用者認證</a>。</p></td>
+          <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。此欄位可在 [!DNL Adobe Developer Console]的 [!UICONTROL 認證詳細資訊] 區段中找到。<p>如需建立認證相關說明，請參閱此文章中的<a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立使用者認證</a>。</p></td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。<p>如需建立認證的指示，請參閱本文中的<a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref">在Adobe Developer Console中建立使用者認證</a>。</p>
+          <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。此欄位可在 [!DNL Adobe Developer Console]的 [!UICONTROL 認證詳細資訊] 區段中找到。<p>如需建立認證相關說明，請參閱此文章中<a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立使用者認證</a>。</p>
         </tr>
        </tbody>
     </table>
-1. 如果系統提示您登入Frame.io帳戶，請登入。
-1. 如果您屬於多個Frame.io組織，請選取要用於此連線的組織。
+1. 如果系統提示您登入 Frame.io 帳戶，請進行此步驟。
+1. 若您屬於多個 Frame.io 組織，請選取要用於此連線的組織。
 
-已建立連線。
+已建立此連線。
 
 
 ### 建立伺服器對伺服器連線
 
-若要建立伺服器對伺服器連線，您必須先在Adobe Developer Console中設定應用程式。
+若要建立伺服器對伺服器連線，您必須先在 Adobe Developer Console 中設定應用程式。
 
-* [在Adobe Developer Console中建立伺服器對伺服器認證](#create-server-to-server-credentials-in-the-adobe-developer-console)
+* [在 Adobe Developer Console 中建立伺服器對伺服器認證](#create-server-to-server-credentials-in-the-adobe-developer-console)
 * [設定伺服器對伺服器連線](#configure-a-server-to-server-connection)
 
-#### 在Adobe Developer Console中建立伺服器對伺服器認證
+#### 在 Adobe Developer Console 中建立伺服器對伺服器認證
 
-如果您在Adobe Developer Console專案中還沒有伺服器對伺服器認證，您可以建立這些認證。
+若您在 Adobe Developer Console 專案中尚未擁有伺服器對伺服器認證，則可以建立這些認證。
 
-1. 開啟[Adobe Developer Console](https://developer.adobe.com/)。
-1. 在Adobe Developer Console中選取要用於此連線的現有專案
+1. 開啟 [Adobe Developer Console](https://developer.adobe.com/)
+1. 在 Adobe Developer Console 中選取要用於此連線的現有專案
 
    或
 
-   在Adobe Developer Console中建立新專案。 如需指示，請參閱[建立空白專案](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty)。
+   在 Adobe Developer Console 中建立新專案。如需相關說明，請參閱[建立空白專案](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty)。
 
-1. 在專案概觀頁面或開始使用新專案頁面上，按一下&#x200B;**新增API**。
-1. 在開啟的頁面上，找到並按一下&#x200B;**Frame.io API**。
-1. 在[選取驗證型別]頁面上，選取&#x200B;**伺服器對伺服器驗證**，然後按一下[下一步]&#x200B;**&#x200B;**。
-1. 輸入認證的名稱。 這可讓您稍後在Adobe Admin Console的「API認證」區域中識別認證。
-1. 按一下&#x200B;**下一步**。
-1. 在「選取產品設定檔」頁面上，選取包含您要連線之Frame.io帳戶的產品設定檔。
-1. 按一下&#x200B;**儲存設定的API**。
-1. 在產品頁面上，按一下您剛建立之憑證的卡片。
+1. 在專案概觀頁面或開始使用新專案頁面上，按一下「**新增 API**」。
+1. 在開啟的頁面上，找到 **Frame.io API** 並點選。
+1. 在「選取驗證類別」頁面上，選取「**伺服器對伺服器驗證**」，並按一下「**下一步**」。
+1. 輸入此認證名稱。此步驟可讓您稍後在 Adobe Admin Console 的 API 認證區域中識別此認證。
+1. 按一下「**下一步**」。
+1. 在「選取產品設定檔」頁面上，選取包括您要連線的 Frame.io 帳戶的產品設定檔。
+1. 按一下「**儲存已設定的 API**」。
+1. 在產品頁面上，按一下您剛建立的認證卡片。
 
-   您可以在這裡找到您的使用者端ID和使用者端密碼。
+   您可以在此處找到您的用戶端 ID 和用戶端密碼。
 
 >[!NOTE]
 >
-> 建議您在Adobe Workfront Fusion中開始設定連線時，保持此視窗開啟。 您可以複製使用者端ID，並從此頁面擷取及複製使用者端密碼，以貼入連線欄位。
+> 我們建議您在 Adobe Workfront Fusion 中開始設定連線時，保持此視窗開啟。您可以複製此用戶端 ID，並從此頁面檢索及複製用戶端密碼，將其貼上到此連線欄位。
 
 
 #### 設定伺服器對伺服器連線
 
-1. 在任何Frame.io模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
+1. 在任何 Frame.io 模組中，按一下「連線」方框旁的「**[!UICONTROL 新增]**」。
 
 1. 填寫下列欄位：
 
@@ -263,9 +263,9 @@ Frame.io聯結器使用下列專案：
       </col>
       <tbody>
         <tr>
-          <td role="rowheader">[!UICONTROL 連線型別]</td>
+          <td role="rowheader">[!UICONTROL 連線類型]</td>
           <td>
-            <p>選取<b>IMS伺服器至伺服器</b>。</p>
+            <p>選取「<b>IMS 伺服器至伺服器</b>」。</p>
           </td>
         </tr>
         <tr>
@@ -275,27 +275,27 @@ Frame.io聯結器使用下列專案：
           </td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端ID]</td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。<p>如需建立認證的指示，請參閱本文中的<a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref">在Adobe Developer Console中建立伺服器對伺服器認證</a>。</p></td>
+          <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。此欄位可在 [!DNL Adobe Developer Console]的 [!UICONTROL 認證詳細資訊] 區段中找到。<p>如需建立認證相關說明，請參閱此文章中的<a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立伺服器對伺服器認證</a>。</p></td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。<p>如需建立認證的指示，請參閱本文中的<a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref">在Adobe Developer Console中建立伺服器對伺服器認證</a>。</p>
+          <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。此欄位可在 [!DNL Adobe Developer Console]的 [!UICONTROL 認證詳細資訊] 區段中找到。<p>如需建立認證相關說明，請參閱此文章中的<a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立伺服器對伺服器認證</a>。</p>
         </tr>
        </tbody>
     </table>
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
+1. 按一下「**[!UICONTROL 繼續]**」來儲存連線並返回此模組。
 
 
 
 
-## [!DNL Frame.io]模組及其欄位
+## [!DNL Frame.io] 模組及其欄位
 
-當您設定[!DNL Frame.io]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Frame.io]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Frame.io] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，可能還會顯示其他 [!DNL Frame.io] 欄位，取決於您在此應用程式或服務中的存取層級等因素。模組中的粗體標題表示必填欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函數上方看到對應按鈕，您可以使用此按鈕來設定欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應至另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [資產](#assets)
 * [註解](#comments)
@@ -310,9 +310,9 @@ Frame.io聯結器使用下列專案：
 
 * [[!UICONTROL 建立資產]](#create-an-asset)
 * [[!UICONTROL 刪除資產]](#delete-an-asset)
-* [[!UICONTROL 取得資產]](#get-an-asset)
+* [[!UICONTROL 獲得資產]](#get-an-asset)
 * [[!UICONTROL 列出資產]](#list-assets)
-* [觀看資產已刪除](#watch-asset-deleted)
+* [觀看已刪除的資產](#watch-asset-deleted)
 * [觀看新資產](#watch-new-asset)
 
 #### [!UICONTROL 建立資產] <!--different for v4-->
@@ -324,20 +324,20 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應包含您要建立資產的專案之帳戶的ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取此帳戶或對應包含您要建立資產專案的帳戶 ID。</p> </td> 
   </tr> 
  <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取工作區或對應包含您要建立資產的專案之工作區的ID。</p> </td> 
+   <td> <p>選取此工作區或對應包含您要建立資產專案的工作區 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 專案ID] </td> 
-   <td> <p>選取專案或對應您要建立資產的專案ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 專案 ID] </td> 
+   <td> <p>選取此專案或對應您要建立資產的專案 ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 路徑] </td> 
@@ -356,11 +356,11 @@ Frame.io聯結器使用下列專案：
     <td> <p>如果您要上傳本機檔案，請輸入或對應檔案大小（位元組）。</p> </td> 
    </tr>
   <tr> 
-   <td role="rowheader">[!UICONTROL Source URL] </td> 
+   <td role="rowheader">[!UICONTROL 來源 URL] </td> 
    <td> <p>如果從遠端檔案建立資產，請輸入您要上傳之檔案的URL。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Source檔案]</td> 
+   <td>[！UICONTROL Source檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱。</p> </td> 
   </tr> 
 <!--  <tr> 
@@ -379,20 +379,20 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應包含您要建立資產的專案之帳戶的ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取此帳戶或對應包含您要建立資產專案的帳戶 ID。</p> </td> 
   </tr> 
  <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取工作區或對應包含您要建立資產的專案之工作區的ID。</p> </td> 
+   <td> <p>選取此工作區或對應包含您要建立資產專案的工作區 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 專案ID] </td> 
-   <td> <p>選取專案或對應您要建立資產的專案ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 專案 ID] </td> 
+   <td> <p>選取此專案或對應您要建立資產的專案 ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 路徑] </td> 
@@ -404,15 +404,15 @@ Frame.io聯結器使用下列專案：
   </tr>
     <tr> 
     <td role="rowheader">檔案大小 </td> 
-    <td> <p>輸入或對應檔案大小（位元組）。</p> </td> 
+    <td> <p>輸入或對應此檔案大小 (以位元組為單位)。</p> </td> 
    </tr>
   <tr> 
-   <td role="rowheader">[!UICONTROL Source URL] </td> 
-   <td> <p>如果建立檔案，請輸入您要上傳之檔案的URL。</p> </td> 
+   <td role="rowheader">[!UICONTROL 來源 URL] </td> 
+   <td> <p>若要建立檔案，請輸入您要上傳檔案的 URL。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 媒體型別] </td> 
-   <td> <p>選取此資產的媒體型別。</p> </td> 
+   <td role="rowheader">[!UICONTROL 媒體類別] </td> 
+   <td> <p>選取此資產的媒體類別。</p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -426,46 +426,46 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應包含您要刪除之資產的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應包含您要刪除資產的帳戶 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資產ID] </td> 
+   <td role="rowheader">[!UICONTROL 資產 ID] </td> 
    <td> <p>選取或對應您要刪除的資產。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 取得資產]
+#### [!UICONTROL 獲得資產]
 
-此動作模組會擷取資產詳細資訊。
+此動作模組會檢索資產詳細資訊。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應包含您要擷取之資產的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應包含您要檢索資產的帳戶 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資產ID] </td> 
-   <td> <p>選取或對應您要擷取的資產。</p> </td> 
+   <td role="rowheader">[!UICONTROL 資產 ID] </td> 
+   <td> <p>選取或對應您要檢索的資產。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 列出資產]
 
-此搜尋模組會擷取指定專案資料夾中的所有資產。
+此搜尋模組會檢所指定專案資料夾中的所有資產。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -474,25 +474,25 @@ Frame.io聯結器使用下列專案：
  </col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應包含您要列出之資產的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應包含您要列出資產的帳戶 ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 傳回資產的最大數量] </td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的資產最大數量。</p> </td> 
+   <td> <p>輸入或對應您希望此模組在每個情境執行週期中傳回的最大資產數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 觀看資產已刪除
+#### 觀看已刪除的資產
 
-此觸發模組會在資產刪除時啟動案例。
+此觸發模組會在資產已刪除時開始情境。
 
-選取您要用於此模組的webhook，或按一下Webhook欄位旁的新增，然後輸入下列資訊：
+選取您要用於此模組的 Webhook，或按一下 Webhook 欄位旁的「新增」，並輸入下列資訊：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -501,25 +501,25 @@ Frame.io聯結器使用下列專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook名稱] </td> 
-   <td> <p>輸入新webhook的名稱。</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook 名稱] </td> 
+   <td> <p>輸入新 Webhook 名稱。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應您要監視已刪除資產的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應您要觀看已刪除資產的帳戶 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### 觀看新資產
 
-此觸發模組會在建立新資產時啟動案例。
+此觸發模組會在建立新資產時開始情境。
 
-選取您要用於此模組的webhook，或按一下Webhook欄位旁的新增，然後輸入下列資訊：
+選取您要用於此模組的 Webhook，或按一下 Webhook 欄位旁的「新增」，並輸入下列資訊：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -528,16 +528,16 @@ Frame.io聯結器使用下列專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook名稱] </td> 
-   <td> <p>輸入新webhook的名稱。</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook 名稱] </td> 
+   <td> <p>輸入新 Webhook 名稱。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應您要監視新資產的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應您要觀看新資產的帳戶 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -546,51 +546,51 @@ Frame.io聯結器使用下列專案：
 
 * [[!UICONTROL 建立註解]](#create-a-comment)
 * [[!UICONTROL 刪除註解]](#delete-a-comment)
-* [[!UICONTROL 取得註解]](#get-a-comment)
-* [[!UICONTROL 清單註解]](#list-comments)
+* [[!UICONTROL 獲得註解]](#get-a-comment)
+* [[!UICONTROL 列出註解]](#list-comments)
 * [[!UICONTROL 更新註解]](#update-a-comment)
-* [觀看評論已更新](#watch-comment-updated)
-* [觀看新評論](#watch-new-comment)
+* [觀看已更新的註解](#watch-comment-updated)
+* [觀看新註解](#watch-new-comment)
 
 #### [!UICONTROL 建立註解]
 
-此動作模組會新增註解或回覆至資產。
+此動作模組會新增新註解或回覆資產。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應包含您要新增註解之資產的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應包含您要新增註解的資產帳戶 ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取帳戶或對應包含您要新增註解之資產的工作區ID。</p> </td> 
+   <td> <p>選取帳戶或對應包含您要新增註解的資產 Workspace ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 專案ID] </td> 
-   <td> <p>選取專案或對應專案ID，專案包含您要新增註解的資產。</p> </td> 
+   <td role="rowheader">[!UICONTROL 專案 ID] </td> 
+   <td> <p>選取專案或對應包含您要新增註解的資產專案 ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 路徑] </td> 
    <td> <p>選取您要新增註解的資產路徑。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Text]</td> 
-   <td> <p> 輸入評論或回覆的文字內容。</p> </td> 
+   <td role="rowheader">[!UICONTROL 文字]</td> 
+   <td> <p> 輸入註解或回覆的文字內容。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 時間戳記] </td> 
-   <td> <p>在影片中輸入評論應連結的影格編號。</p> </td> 
+   <td> <p>輸入影片中應連結註解的時間格編號。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 頁面] </td> 
-   <td> <p>如果資產是PDF，請輸入或對應應附加註解的頁面。</p> </td> 
+   <td> <p>若此資產為 PDF，請輸入或對應應附加註解的頁面。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -604,74 +604,74 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應包含您要刪除之註解的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應包含您要刪除註解的帳戶 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 註解ID] </td> 
-   <td> <p>輸入或對應您要刪除之註解的ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 註解 ID] </td> 
+   <td> <p>輸入或對應您要刪除註解的 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 取得註解]
+#### [!UICONTROL 獲得註解]
 
-此動作模組會擷取指定註解的詳細資料。
+此動作模組會檢索指定註解的詳細資訊。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應包含您要擷取詳細資訊之註解的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應包含您要檢索相關詳細資訊的註解帳戶 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 註解ID] </td> 
-   <td> <p>選取您要擷取有關詳細資訊的註解。</p> </td> 
+   <td role="rowheader">[!UICONTROL 註解 ID] </td> 
+   <td> <p>選取您要檢索相關詳細資訊的註解。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 列出註解]
 
-此搜尋模組會擷取指定資產的所有註解。
+此搜尋模組會檢索指定資產的所有註解。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取或對應包含您要擷取註解之資產的帳戶。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取或對應包含您要檢索註解的資產帳戶。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取或對應包含您要擷取註解之資產的工作區。</p> </td> 
+   <td> <p>選取或對應包含您要檢索註解的資產 Workspace。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 專案ID] </td> 
-   <td> <p>選取包含您要擷取註解之資產的專案。</p> </td> 
+   <td role="rowheader">[!UICONTROL 專案 ID] </td> 
+   <td> <p>選取包含您要檢索註解的資產專案。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 路徑] </td> 
-   <td> <p>選取通往您要列出註解之資產的路徑。</p> </td> 
+   <td> <p>選取引導至您要列出註解的資產路徑。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL 傳回評論的最大數量] </td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大註解數。</p> </td> 
+   <td role="rowheader">[!UICONTROL 傳回註解的最大數量] </td> 
+   <td> <p>輸入或對應您希望此模組在每個情境執行週期中傳回的最大註解數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -685,37 +685,37 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取或對應包含您要在其中更新評論之資產的專案的帳戶。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取或對應包含您要更新註解的資產專案帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 註解ID] </td> 
-   <td> <p>選取要更新的註解。</p> </td> 
+   <td role="rowheader">[!UICONTROL 註解 ID] </td> 
+   <td> <p>選取您要更新的註解。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Text]</td> 
+   <td role="rowheader">[!UICONTROL 文字]</td> 
    <td> <p> 輸入註解的文字內容。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 時間戳記] </td> 
-   <td> <p>在評論連結的視訊中輸入影格編號。</p> </td> 
+   <td> <p>輸入影片中要連結註解的時間格編號。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 頁面] </td> 
-   <td> <p>如果資產是PDF，請輸入或對應附有註解的頁面。</p> </td> 
+   <td> <p>若此資產為 PDF，請輸入或對應要附加註解的頁面。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 觀看評論已更新
+#### 觀看已更新的註解
 
-此觸發模組會在評論更新時啟動案例。
+此觸發模組會在註解更新時開始情境。
 
-選取您要用於此模組的webhook，或按一下Webhook欄位旁的新增，然後輸入下列資訊：
+選取您要用於此模組的 Webhook，或按一下 Webhook 欄位旁的「新增」，並輸入下列資訊：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -724,25 +724,25 @@ Frame.io聯結器使用下列專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook名稱] </td> 
-   <td> <p>輸入新webhook的名稱。</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook 名稱] </td> 
+   <td> <p>輸入新 Webhook 名稱。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應您要監視其是否有更新評論的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應您要觀看已更新註解的帳戶 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 觀看新評論
+#### 觀看新註解
 
-此觸發模組會在建立評論時啟動案例。
+此觸發模組會在註解建立時開始情境。
 
-選取您要用於此模組的webhook，或按一下Webhook欄位旁的新增，然後輸入下列資訊：
+選取您要用於此模組的 Webhook，或按一下 Webhook 欄位旁的「新增」，並輸入下列資訊：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -751,16 +751,16 @@ Frame.io聯結器使用下列專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook名稱] </td> 
-   <td> <p>輸入新webhook的名稱。</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook 名稱] </td> 
+   <td> <p>輸入新 Webhook 名稱。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應您要監視新評論的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應您要觀看新註解的帳戶 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -769,26 +769,26 @@ Frame.io聯結器使用下列專案：
 
 #### 建立資料夾
 
-此動作模組會在Frame.io中建立新資料夾。
+此動作模組會在 Frame.io 中建立新資料夾。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應您要建立資料夾的帳戶。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取或對應您要建立資料夾的工作區。</p> </td> 
+   <td> <p>選取或對應您要建立資料夾的 Workspace。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 專案ID] </td> 
+   <td role="rowheader">[!UICONTROL 專案 ID] </td> 
    <td> <p>選取您要建立資料夾的位置。</p> </td> 
   </tr> 
   <tr> 
@@ -796,7 +796,7 @@ Frame.io聯結器使用下列專案：
    <td> <p>選取您要建立資料夾的路徑。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">姓名 </td> 
+   <td role="rowheader">名稱 </td> 
    <td> <p>輸入或對應新資料夾的名稱。</p> </td> 
   </tr> 
  </tbody> 
@@ -805,55 +805,55 @@ Frame.io聯結器使用下列專案：
 ### 專案
 
 * [建立專案](#create-a-project)
-* [邀請使用者加入Frame.io專案](#invite-users-to-frameio-project)
+* [邀請使用者加入 Frame.io 專案](#invite-users-to-frameio-project)
 * [列出專案](#list-projects)
 
 #### 建立專案
 
-此動作模組會在Frame.io中建立新專案。
+此動作模組會在 Frame.io 中建立新專案。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應您要建立專案的帳戶。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取或對應您要建立專案的工作區。</p> </td> 
+   <td> <p>選取或對應您要建立專案的 Workspace。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">姓名 </td> 
+   <td role="rowheader">名稱 </td> 
    <td> <p>輸入或對應新專案的名稱。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 邀請使用者加入Frame.io專案
+#### 邀請使用者加入 Frame.io 專案
 
-此動作模組邀請使用者加入指定的Frame.io專案。
+此動作模組會邀請使用者加入指定的 Frame.io 專案。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取或對應包含您要邀請使用者加入之專案的帳戶。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取或對應包含您要邀請使用者加入的專案帳戶。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取或對應包含您要邀請使用者加入之專案的工作區。</p> </td> 
+   <td> <p>選取或對應包含您要邀請使用者加入的專案工作區。</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">專案 ID </td> 
@@ -862,35 +862,34 @@ Frame.io聯結器使用下列專案：
   </tr> 
    <tr> 
    <td role="rowheader">使用者 ID </td> 
-   <td> <p>選取或對應您要邀請加入專案的使用者。</p> </td> 
+   <td> <p>選取或對應您要邀請使用者加入的專案。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 列出專案]
 
-此搜尋模組會擷取指定團隊的所有專案。
+此搜尋模組會檢索指定團隊的所有專案。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取或對應包含您要擷取專案之資產的帳戶。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取或對應包含您要檢索專案的資產帳戶。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取或對應包含您要擷取專案之資產的工作區。</p> </td> 
+   <td> <p>選取或對應包含您要檢索專案的資產 Workspace。</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL 傳回專案的最大數量] </td> 
-   <td> <p>輸入或對應最大專案數量
-   您希望模組在每個案例執行週期中傳回。</p> </td> 
+   <td> <p>輸入或對應您希望此模組在每個情境執行週期中傳回的最大專案數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -902,45 +901,45 @@ Frame.io聯結器使用下列專案：
 
 #### 將資產新增至共用連結
 
-此動作模組會將資產新增至Frame.io中的共用連結。
+此動作模組會將資產新增至 Frame.io 中的共用連結。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取或對應包含您要新增資產的共用連結的帳戶。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取或對應包含您要新增資產至共用連結的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 共用連結ID] </td> 
+   <td role="rowheader">[!UICONTROL 共用連結 ID] </td> 
    <td> <p>選取或對應您要新增資產的共用連結。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL 資產ID] </td> 
-   <td> <p>輸入或對應您要新增至共用連結之資產的ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 資產 ID] </td> 
+   <td> <p>輸入或對應您要新增至共用連結的資產 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### 建立共用連結
 
-此動作模組會在Frame.io中建立新的共用連結。
+此動作模組會在 Frame.io 中建立新的共用連結。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應您要建立共用連結的帳戶。</p> </td> 
   </tr> 
   <tr> 
@@ -948,32 +947,32 @@ Frame.io聯結器使用下列專案：
    <td> <p>選取或對應您要建立共用連結的工作區。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 專案ID] </td> 
+   <td role="rowheader">[!UICONTROL 專案 ID] </td> 
    <td> <p>選取或對應您要建立共用連結的專案。</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">存取 </td> 
-   <td> <p>選取此連結是否具有公開或限制的存取權。</p> </td> 
+   <td> <p>選取此連結的存取權是否公開或限制。</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">資產 </td> 
-   <td> <p>針對您想要新增至共用連結的每個資產，按一下<b>新增專案</b>並輸入資產識別碼。</p> </td> 
+   <td> <p>針對您要新增至共用連結的每個資產，按一下「<b>新增項目</b>」並輸入資產 ID。</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">說明 </td> 
    <td> <p>輸入或對應共用連結的說明。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">姓名 </td> 
+   <td role="rowheader">名稱 </td> 
    <td> <p>輸入或對應共用連結的到期日。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">姓名 </td> 
-   <td> <p>輸入或對應新共用連結的名稱。</p> </td> 
+   <td role="rowheader">名稱 </td> 
+   <td> <p>輸入或對應此新共用連結的名稱。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">姓名 </td> 
-   <td> <p>輸入或對應共用連結的密碼。</p> </td> 
+   <td role="rowheader">名稱 </td> 
+   <td> <p>輸入或對應共用連結的密碼短語。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -982,23 +981,23 @@ Frame.io聯結器使用下列專案：
 
 #### 建立工作區
 
-此動作模組會在Frame.io中建立新的工作區
+此動作模組會在 Frame.io 中建立新工作區。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應您要建立工作區的帳戶。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 名稱] </td> 
-   <td> <p>輸入或對應工作區的新名稱。</p> </td> 
+   <td> <p>輸入或對應此工作區的新名稱。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1012,17 +1011,16 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取或對應包含您要擷取工作區之資產的帳戶。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取或對應包含您要檢索工作區的資產帳戶。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL 傳回工作區的最大數目] </td> 
-   <td> <p>輸入或對應工作區的最大數目
-   您希望模組在每個案例執行週期中傳回。</p> </td> 
+   <td role="rowheader">[!UICONTROL 傳回工作區的最大數量] </td> 
+   <td> <p>輸入或對應您希望此模組在每個情境執行週期中傳回的最大工作區數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1045,11 +1043,11 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應您要建立中繼資料的帳戶。</p> </td> 
   </tr> 
    <tr> 
@@ -1058,7 +1056,7 @@ Frame.io聯結器使用下列專案：
   </tr> 
   </tr> 
    <tr> 
-   <td role="rowheader">姓名 </td> 
+   <td role="rowheader">名稱 </td> 
    <td> <p>輸入或對應新欄位的名稱。</p> </td> 
   </tr> 
  </tbody> 
@@ -1073,11 +1071,11 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應包含您要刪除之中繼資料欄位的帳戶。</p> </td> 
   </tr> 
    <tr> 
@@ -1096,11 +1094,11 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應包含您要擷取中繼資料之檔案的帳戶。</p> </td> 
   </tr> 
    <tr> 
@@ -1123,15 +1121,15 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應您要列出其欄位的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 傳回協定的最大數目]</td> 
+   <td role="rowheader">[！UICONTROL傳回協定的最大數目]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大欄位數。</p> </td> 
   </tr> 
  </tbody> 
@@ -1146,11 +1144,11 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應您要建立中繼資料的帳戶。</p> </td> 
   </tr> 
    <tr> 
@@ -1163,7 +1161,7 @@ Frame.io聯結器使用下列專案：
   </tr> 
   </tr> 
    <tr> 
-   <td role="rowheader">姓名 </td> 
+   <td role="rowheader">名稱 </td> 
    <td> <p>輸入或對應欄位的新名稱。</p> </td> 
   </tr> 
  </tbody> 
@@ -1178,27 +1176,27 @@ Frame.io聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
    <td> <p>選取或對應包含您要更新中繼資料之檔案的帳戶。</p> </td> 
   </tr> 
  <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID] </td> 
-   <td> <p>選取工作區或對應包含您要建立資產的專案之工作區的ID。</p> </td> 
+   <td> <p>選取此工作區或對應包含您要建立資產專案的工作區 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 專案ID] </td> 
-   <td> <p>選取專案或對應您要建立資產的專案ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 專案 ID] </td> 
+   <td> <p>選取此專案或對應您要建立資產的專案 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案ID] </td> 
+   <td role="rowheader">[！UICONTROL檔案ID] </td> 
    <td> <p>針對您要更新中繼資料的每個檔案，按一下<b>新增專案</b>，然後輸入或對應檔案的識別碼。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 值] </td> 
+   <td role="rowheader">[！UICONTROL值] </td> 
    <td> <p>針對您想要更新中繼資料的每個欄位，按一下<b>新增專案</b>，然後輸入或對應欄位定義的識別碼，以及您想要放在該欄位中的值。 「檔案ID」欄位中指定的所有檔案都會使用此欄位值更新。</p> </td> 
   </tr> 
  </tbody> 
@@ -1206,41 +1204,41 @@ Frame.io聯結器使用下列專案：
 
 ### 其他
 
-* [進行自訂API呼叫](#make-a-custom-api-call)
-* [觀看中繼資料值已更新](#watch-metadata-value-updated)
+* [進行自訂 API 呼叫](#make-a-custom-api-call)
+* [觀看已更新的後設資料值](#watch-metadata-value-updated)
 
 
-#### [!UICONTROL 進行自訂API呼叫]
+#### [!UICONTROL 進行自訂 API 呼叫]
 
-此模組可讓您執行自訂API呼叫。
+此模組可讓您執行自訂 API 呼叫。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>輸入相對於<code>https://api.frame.io</code>的路徑。 範例： <code> /v4/me</code></p> <p>注意：如需可用端點的清單，請參閱[!DNL Frame.io] API參考。</p> </td> 
+   <td> <p>輸入相對於 <code>https://api.frame.io</code> 的路徑。範例： <code> /v4/me</code></p> <p>注意：如需可用端點的清單，請參閱 [!DNL Frame.io] API 參考。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取所需的 HTTP 要求方法，來設定 API 呼叫。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增請求的標頭。</p> <p>例如： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串] </td> 
-   <td> <p>輸入請求查詢字串。 針對您要包含在查詢字串中的每個引數，按一下<b>[!UICONTROL 新增專案]</b>，然後輸入欄位名稱及所要的值。</p> </td> 
+   <td> <p>輸入此請求查詢字串。針對您要包括在查詢字串中的每個參數，按一下 <b>[!UICONTROL 新增項目]</b>，並輸入此欄位名稱和必要值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[!UICONTROL 內文]</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的內文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外側。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -1248,11 +1246,11 @@ Frame.io聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### 觀看中繼資料值已更新
+#### 觀看已更新的後設資料值
 
-此觸發模組會在評論更新時啟動案例。
+此觸發模組會在註解更新時開始情境。
 
-選取您要用於此模組的webhook，或按一下Webhook欄位旁的新增，然後輸入下列資訊：
+選取您要用於此模組的 Webhook，或按一下 Webhook 欄位旁的「新增」，並輸入下列資訊：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1261,16 +1259,16 @@ Frame.io聯結器使用下列專案：
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook名稱] </td> 
-   <td> <p>輸入新webhook的名稱。</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook 名稱] </td> 
+   <td> <p>輸入新 Webhook 名稱。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>如需建立[!DNL Frame.io]連線的指示，請參閱本文中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線[!DNL Frame.io]至Adobe Workfront Fusion</a>。</td> 
+    <td role="rowheader">[!UICONTROL 連線] </td> 
+   <td>如需建立 [!DNL Frame.io] 連線的相關說明，請參閱此文章中的<a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">連線 [!DNL Frame.io] 至 Adobe Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 帳戶ID] </td> 
-   <td> <p>選取帳戶或對應您要監視更新後中繼資料值的帳戶ID。</p> </td> 
+   <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
+   <td> <p>選取帳戶或對應您要觀看已更新後設資料的帳戶 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>

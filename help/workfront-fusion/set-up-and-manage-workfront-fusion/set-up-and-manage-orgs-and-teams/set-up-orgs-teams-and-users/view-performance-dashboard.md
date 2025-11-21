@@ -5,10 +5,10 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 1a3865325fed3ebb0862f05641cdeb28d9e6c9f3
+source-git-commit: 671773fa1baaac8e01e0f01546602a738e219fdf
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 7%
+source-wordcount: '534'
+ht-degree: 6%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 7%
 
 Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發生延遲的位置，以及您的背景工作集區的運作成效。 這可提供執行磁碟區、佇列深度、集區使用率和案例層級效能的即時可見度。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以查看此文章中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>Adobe Workfront工作流程Ultimate和Adobe Workfront自動化與整合Ultimate</p><p>Workfront Ultimate</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -41,11 +41,15 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
  </tbody> 
 </table>
 
-如需有關此表格資訊的詳細資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
 ## 效能儀表板元件
+
+>[!NOTE]
+>
+>度量會依工作者集區顯示。 若要檢視不同的Worker集區，請按一下控制面板左上角附近的「集區」欄位，然後選取您要檢視量度的集區。
 
 在Fusion效能控制面板中，您可以看到下列量度。
 

@@ -1,60 +1,60 @@
 ---
-title: Adobe Photoshop模組
+title: Adobe Photoshop 模組
 description: 透過Adobe Photoshop模組，您可以根據Adobe Photoshop帳戶中的事件啟動Adobe Workfront Fusion案例，建立、讀取或更新協定和其他記錄，使用您設定的條件搜尋記錄，以及上傳檔案。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: d4bdc4005a3b7b22d64adc8ca1d20bcf534ddfd1
+source-git-commit: a68de976258d17631459f0951d28657fd0e0dcf6
 workflow-type: tm+mt
-source-wordcount: '5398'
-ht-degree: 0%
+source-wordcount: '5414'
+ht-degree: 14%
 
 ---
 
-# [!DNL Adobe Photoshop]模組
+# [!DNL Adobe Photoshop] 模組
 
-在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Adobe Photoshop]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Adobe Photoshop] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 
 
 如果您需要建立案例的指示，請參閱[建立案例：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -79,15 +79,15 @@ Adobe Photoshop聯結器會使用以下專案：
    <td>https://image.adobe.io/pie/psdService</td> 
   </tr>
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.12.31</td> 
   </tr>
  </tbody> 
  </table>
 
-## 建立與[!DNL Adobe Photoshop]的連線
+## 建立與 [!DNL Adobe Photoshop] 的連線
 
-若要為您的[!DNL Adobe Photoshop]模組建立連線：
+若要為您的 [!DNL Adobe Photoshop] 模組建立連線：
 
 1. 在任何模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 
@@ -100,7 +100,7 @@ Adobe Photoshop聯結器會使用以下專案：
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL 連線型別]</td>
+        <td role="rowheader">[!UICONTROL 連線類型]</td>
         <td>
           <p>選取您要使用JWT連線或伺服器對伺服器連線。</p>
         </td>
@@ -112,20 +112,20 @@ Adobe Photoshop聯結器會使用以下專案：
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
-        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL 使用者端ID]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
+        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
-        <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
+        <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 技術帳戶ID]</td>
-        <td>如果您使用JWT連線，請輸入您的[!DNL Adobe] [!UICONTROL 技術帳戶ID]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
+        <td>如果您使用JWT連線，請輸入您的[!DNL Adobe] [！UICONTROL技術帳戶ID]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 組織ID]</td>
-        <td>如果您使用JWT連線，請輸入您的[!DNL Adobe] [!UICONTROL 組織識別碼]。 您可在的[!UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[！UICONTROL組織ID]</td>
+        <td>如果您使用JWT連線，請輸入您的[!DNL Adobe] [！UICONTROL組織識別碼]。 您可在的[！UICONTROL Credentials]詳細資訊區段中找到 [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 私密金鑰]</td>
@@ -134,10 +134,10 @@ Adobe Photoshop聯結器會使用以下專案：
           <p>若要擷取您的私密金鑰或憑證：</p>
           <ol>
             <li value="1">
-              <p>按一下<b>[!UICONTROL Extract]</b>。</p>
+              <p>按一下「<b>[!UICONTROL 擷取]</b>」。</p>
             </li>
             <li value="2">
-              <p>選取要解壓縮的檔案型別。</p>
+              <p>選取要擷取的檔案類型。</p>
             </li>
             <li value="3">
               <p>選取包含私密金鑰或憑證的檔案。</p>
@@ -154,15 +154,15 @@ Adobe Photoshop聯結器會使用以下專案：
       </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
+1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 
-## [!DNL Adobe Photoshop]模組及其欄位
+## [!DNL Adobe Photoshop] 模組及其欄位
 
-當您設定[!DNL Adobe Photoshop]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Adobe Photoshop]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Adobe Photoshop] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Adobe Photoshop] 欄位。在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [套用PSD編輯](#apply-psd-edits)
 * [自動色彩校正影像](#auto-color-correct-an-image)
@@ -176,7 +176,7 @@ Adobe Photoshop聯結器會使用以下專案：
 * [執行Photoshop動作](#execute-photoshop-actions)
 * [執行產品裁切](#execute-product-crop)
 * [取得圖層資訊](#get-layer-info)
-* [進行自訂API呼叫](#make-a-custom-api-call)
+* [進行自訂的 API 呼叫](#make-a-custom-api-call)
 * [移除背景](#remove-background)
 * [取代智慧型物件](#replace-a-smart-object)
 * [取代智慧型物件（舊版）](#replace-a-smart-object-legacy)
@@ -187,89 +187,91 @@ Adobe Photoshop聯結器會使用以下專案：
 
 此動作模組會套用各種檔案和圖層層級編輯。
 
+此模組支援大型檔案。 如需大型檔案的詳細資訊，請參閱[使用大型檔案](/help/workfront-fusion/references/scenarios/fusion-large-files.md)。
+
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸入）儲存體]</td>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
       <td>
         <p>選取儲存您要編輯之檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸入）檔案位置]</p>
+        <p>[！UICONTROL （輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應您要編輯之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案&gt;影像大小）高度]</p>
+        <p>[！UICONTROL （選項&gt;檔案&gt;影像大小）高度]</p>
       </td>
       <td> 輸入或對應影像的高度（畫素）。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案&gt;影像大小）寬度]</p>
+        <p>[！UICONTROL （選項&gt;檔案&gt;影像大小）寬度]</p>
       </td>
       <td> 輸入或對應影像的寬度（畫素）。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案&gt;畫布大小） Top]</p>
+        <p>[！UICONTROL （選項&gt;檔案&gt;畫布大小） Top]</p>
       </td>
    <td> 輸入或對應檔案左上角的y座標（畫素）。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案&gt;畫布大小）底部]</p>
+        <p>[！UICONTROL （選項&gt;檔案&gt;畫布大小）底部]</p>
       </td>
    <td> 輸入或對應檔案右下角的y座標（畫素）。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案&gt;畫布大小）左側]</p>
+        <p>[！UICONTROL （選項&gt;檔案&gt;畫布大小）左側]</p>
       </td>
    <td> 輸入或對應檔案左上角的x座標（畫素）。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案&gt;畫布大小） Right]</p>
+        <p>[！UICONTROL （選項&gt;檔案&gt;畫布大小） Right]</p>
       </td>
    <td> 輸入或對應檔案右下角的x座標（畫素）。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案）修剪]</p>
+        <p>[！UICONTROL （選項&gt;檔案）修剪]</p>
       </td>
    <td> 選取「透明畫素」，讓修剪以影像中的透明畫素為依據。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項）預設字型]</p>
+        <p>[！UICONTROL （選項）預設字型]</p>
       </td>
    <td> 輸入要做為檔案全域預設值之字型的完整postscript名稱。 此字型將用於任何文字圖層，該文字圖層缺少字型，而且沒有為該圖層特別提供其他字型。 如果缺少此字型，則在「管理缺少的字型」中指定的選項將會生效。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Options) Fonts]</p>
+        <p>[！UICONTROL (Options) Fonts]</p>
       </td>
    <td> 針對檔案所需的每種字型，按一下「新增專案」並輸入字型的儲存位置和檔案位置。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Options) Manage missing fonts]</p>
+        <p>[！UICONTROL (Options) Manage missing fonts]</p>
       </td>
    <td> 選取當檔案中有一或多個遺失字型時要採取的動作。 <ul><li><code>fail</code>：工作不會成功，且狀態會設定為「失敗」，並在狀態的「詳細資訊」區段中提供錯誤的詳細資訊。</li><li><code>useDefault</code>：工作將成功，並且所有遺失的字型都將替換為ArialMT。</li></ul></td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項）圖層]</p>
+        <p>[！UICONTROL （選項）圖層]</p>
       </td>
    <td> 對於每個要新增的圖層，按一下「新增專案」並填入圖層詳細資訊。 <p>如需圖層選項的詳細資訊，請參閱Adobe Photoshop檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/modifyDocumentAsync">套用PSD編輯</a>。  </td> 
     </tr>
@@ -280,32 +282,32 @@ Adobe Photoshop聯結器會使用以下專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存新檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td>選取您要轉換檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存空間中的檔案。</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）裁剪至畫布]</p>
+        <p>[！UICONTROL （輸出）裁剪至畫布]</p>
       </td>
    <td>選取轉譯是否必須為畫布大小。 True會將轉譯修剪為「畫布」大小，而False會將轉譯圖層調整為「大小」</td> 
     </tr>
@@ -321,41 +323,41 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸入）儲存體]</td>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
       <td>
         <p>選取儲存您要校正色彩之檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸入）檔案位置]</p>
+        <p>[！UICONTROL （輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應您要校正顏色之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存新檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td>選取您要轉換檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存空間中的檔案。</p>
       </td>
@@ -372,18 +374,18 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸入）儲存體]</td>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
       <td>
         <p>選取要從中移除背景的檔案儲存所在的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸入）檔案位置]</p>
+        <p>[！UICONTROL （輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應您要移除背景之檔案的URL或路徑。 </td> 
     </tr>
@@ -394,25 +396,25 @@ Adobe Photoshop聯結器會使用以下專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存新檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td>選取您要轉換檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存空間中的檔案。</p>
       </td>
@@ -429,60 +431,60 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸入）儲存體]</td>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
       <td>
         <p>選取要用來建立遮罩的檔案儲存所在的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸入）檔案位置]</p>
+        <p>[！UICONTROL （輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應您要建立遮色片之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取您要儲存遮罩檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應遮罩檔案儲存位置的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 覆寫]</td>
+      <td role="rowheader">[！UICONTROL覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存空間中的檔案。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 色域]</p>
+        <p>[！UICONTROL色域]</p>
       </td>
    <td>選取輸出影像是使用RGB還是RGBA色彩。 </td> 
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 遮罩格式]</p>
+        <p>[！UICONTROL遮罩格式]</p>
       </td>
    <td>選取遮色片應該柔和（羽化）還是二進位。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 最佳化]</p>
+        <p>[！UICONTROL最佳化]</p>
       </td>
    <td>選取效能以最佳化速度，或選取批次以允許等待時間。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 後處理]</p>
+        <p>[！UICONTROL後處理]</p>
       </td>
    <td>選取是否啟用後處理。</td> 
     </tr>
@@ -504,66 +506,66 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案&gt;影像大小）高度]</p>
+        <p>[！UICONTROL （選項&gt;檔案&gt;影像大小）高度]</p>
       </td>
       <td> 輸入或對應影像的高度（畫素）。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案&gt;影像大小）寬度]</p>
+        <p>[！UICONTROL （選項&gt;檔案&gt;影像大小）寬度]</p>
       </td>
       <td> 輸入或對應影像的寬度（畫素）。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案）解析度]</p>
+        <p>[！UICONTROL （選項&gt;檔案）解析度]</p>
       </td>
    <td> 輸入或對應影像的解析度，以每英吋畫素為單位。 此值必須介於72到300之間。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案）模式]</p>
+        <p>[！UICONTROL （選項&gt;檔案）模式]</p>
       </td>
    <td> 選取影像的模式。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案）填滿]</p>
+        <p>[！UICONTROL （選項&gt;檔案）填滿]</p>
       </td>
    <td> 選取您要讓背景圖層的填色為透明、白色或影像的背景顏色。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項&gt;檔案）深度]</p>
+        <p>[！UICONTROL （選項&gt;檔案）深度]</p>
       </td>
    <td> 選取影像的位元深度。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項）圖層]</p>
+        <p>[！UICONTROL （選項）圖層]</p>
       </td>
    <td> 對於每個要新增的圖層，按一下「新增專案」並填入圖層詳細資訊。 <p>如需圖層選項的詳細資訊，請參閱Adobe Photoshop檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/createDocumentAsync">建立PSD</a>。  </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （選項）全域字型]</p>
+        <p>[！UICONTROL （選項）全域字型]</p>
       </td>
    <td> 輸入要做為檔案全域預設值之字型的完整postscript名稱。 此字型將用於任何文字圖層，該文字圖層缺少字型，而且沒有為該圖層特別提供其他字型。 如果缺少此字型，則在「管理缺少的字型」中指定的選項將會生效。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Options) Fonts]</p>
+        <p>[！UICONTROL (Options) Fonts]</p>
       </td>
    <td> 針對檔案所需的每種字型，按一下「新增專案」並輸入字型的儲存位置和檔案位置。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Options) Manage missing fonts]</p>
+        <p>[！UICONTROL (Options) Manage missing fonts]</p>
       </td>
    <td> 選取當檔案中有一或多個遺失字型時要採取的動作。 <ul><li><code>fail</code>：工作不會成功，且狀態會設定為「失敗」，並在狀態的「詳細資訊」區段中提供錯誤的詳細資訊。</li><li><code>useDefault</code>：工作將成功，並且所有遺失的字型都將替換為ArialMT。</li></ul></td> 
     </tr>
@@ -574,25 +576,25 @@ Adobe Photoshop聯結器會使用以下專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存新檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td>選取您要轉換檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）其他欄位]</td>
+      <td role="rowheader">[！UICONTROL （輸出）其他欄位]</td>
       <td>
         <p><p>如需輸出選項的詳細資訊，請參閱Adobe Photoshop檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/createDocumentAsync">建立PSD</a>。  </p>
       </td>
@@ -609,62 +611,62 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 輸入檔案儲存]</td>
+      <td role="rowheader">[！UICONTROL輸入檔案儲存]</td>
       <td>
         <p>選取儲存您要編輯之檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 輸入檔案URL]</p>
+        <p>[！UICONTROL輸入檔案URL]</p>
       </td>
    <td> 輸入或對應您要編輯之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Manage missing fonts]</td>
+      <td role="rowheader">[！UICONTROL Manage missing fonts]</td>
       <td>
         <p>選取當檔案中有一或多個遺失字型時要採取的動作。 如果未提供字型，模組會使用預設字型。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 預設字型]  </td>
+      <td role="rowheader">[！UICONTROL預設字型]  </td>
       <td>
         <p>輸入要做為檔案全域預設值之字型的完整postscript名稱。 此字型將用於任何文字圖層，該文字圖層缺少字型，而且沒有為該圖層特別提供其他字型。 如果缺少此字型，則在「管理缺少的字型」中指定的選項將會生效。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Options) Fonts]</p>
+        <p>[！UICONTROL (Options) Fonts]</p>
       </td>
    <td> 輸入字型的儲存位置和檔案位置。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 圖層]</td>
+      <td role="rowheader">[！UICONTROL圖層]</td>
    <td> <p>針對您要編輯的每個文字圖層，按一下<b>新增專案</b>並輸入圖層選項。<p>如需圖層選項的詳細資訊，請參閱Adobe Photoshop檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/editTextLayerAsync">編輯文字</a>。</p>  </td>     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取要儲存編輯檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存已編輯檔案的URL或路徑。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td> 選取已編輯檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。</p>
       </td>
@@ -683,68 +685,68 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 輸入檔案儲存]</td>
+      <td role="rowheader">[！UICONTROL輸入檔案儲存]</td>
       <td>
         <p>選取儲存您要編輯之檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 輸入檔案URL]</p>
+        <p>[！UICONTROL輸入檔案URL]</p>
       </td>
    <td> 輸入或對應您要編輯之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Manage missing fonts]</td>
+      <td role="rowheader">[！UICONTROL Manage missing fonts]</td>
       <td>
         <p>選取當檔案中有一或多個遺失字型時要採取的動作。 如果未提供字型，模組會使用預設字型。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 預設字型]  </td>
+      <td role="rowheader">[！UICONTROL預設字型]  </td>
       <td>
         <p>輸入要做為檔案全域預設值之字型的完整postscript名稱。 此字型將用於任何文字圖層，該文字圖層缺少字型，而且沒有為該圖層特別提供其他字型。 如果缺少此字型，則在「管理缺少的字型」中指定的選項將會生效。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Options) Fonts]</p>
+        <p>[！UICONTROL (Options) Fonts]</p>
       </td>
    <td> 輸入字型的儲存位置和檔案位置。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 圖層]</td>
+      <td role="rowheader">[！UICONTROL圖層]</td>
    <td> <p>如需圖層選項的詳細資訊，請參閱Adobe Photoshop檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/editTextLayerAsync">編輯文字圖層</a>。</p>  </td>     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 輸出檔案儲存]</td>
+      <td role="rowheader">[！UICONTROL輸出檔案儲存]</td>
       <td>
         <p>選取要儲存編輯檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取要儲存編輯檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存已編輯檔案的URL或路徑。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td> 選取已編輯檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。</p>
       </td>
@@ -762,36 +764,36 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸入）儲存體]</td>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
       <td>
         <p>選取儲存您要編輯之檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸入）檔案位置]</p>
+        <p>[！UICONTROL （輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應您要編輯之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 動作JSON]</td>
+      <td role="rowheader">[！UICONTROL動作JSON]</td>
       <td>
         <p>輸入您要執行動作的JSON命令。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 字型/圖案/筆刷/其他影像]</td>
+      <td role="rowheader">[！UICONTROL字型/圖案/筆刷/其他影像]</td>
       <td>
         <p>針對每一個要在此動作中使用的字型、圖樣、筆刷或其他影像，按一下「新增專案」，然後輸入專案的儲存和檔案位置。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 字型/模式/筆刷檔案URL]</p>
+        <p>[！UICONTROL字型/模式/筆刷檔案URL]</p>
       </td>
    <td> 輸入或對應您要使用的檔案URL或路徑。 </td> 
     </tr>
@@ -803,25 +805,25 @@ Adobe Photoshop聯結器會使用以下專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取要儲存編輯檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案URL]</p>
+        <p>[！UICONTROL （輸出）檔案URL]</p>
       </td>
    <td> 輸入或對應將儲存已編輯檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td> 選取已編輯檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。</p>
       </td>
@@ -838,47 +840,47 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 輸入檔案儲存]</td>
+      <td role="rowheader">[！UICONTROL輸入檔案儲存]</td>
       <td>
         <p>選取儲存您要編輯之檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 輸入檔案URL]</p>
+        <p>[！UICONTROL輸入檔案URL]</p>
       </td>
    <td> 輸入或對應您要編輯之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取要儲存編輯檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案URL]</p>
+        <p>[！UICONTROL （輸出）檔案URL]</p>
       </td>
    <td> 輸入或對應將儲存已編輯檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td> 選取已編輯檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL 其他欄位]</td>
+      <td role="rowheader">[！UICONTROL其他欄位]</td>
       <td>
         <p>如需其他「深度模糊」選項的詳細資訊，請參閱Adobe Photoshop API檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/applyDepthBlurAsync">執行深度模糊</a>。</p>
       </td>
@@ -895,77 +897,77 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 輸入檔案儲存]</td>
+      <td role="rowheader">[！UICONTROL輸入檔案儲存]</td>
       <td>
         <p>選取儲存您要編輯之檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 輸入檔案URL]</p>
+        <p>[！UICONTROL輸入檔案URL]</p>
       </td>
    <td> 輸入或對應您要編輯之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Actions檔案儲存]</td>
+      <td role="rowheader">[！UICONTROL Actions檔案儲存]</td>
       <td>
         <p>選取儲存動作檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 動作檔案URL]</p>
+        <p>[！UICONTROL動作檔案URL]</p>
       </td>
    <td> 輸入或對應動作檔案的URL或路徑。 </td> 
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 動作名稱]</p>
+        <p>[！UICONTROL動作名稱]</p>
       </td>
    <td> 如果只想執行特定動作，您可以指定要從ActionSet播放哪個動作。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 字型/圖樣/筆刷儲存]</td>
+      <td role="rowheader">[！UICONTROL字型/圖樣/筆刷儲存]</td>
       <td>
         <p>選取要用來儲存檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 字型/模式/筆刷檔案URL]</p>
+        <p>[！UICONTROL字型/模式/筆刷檔案URL]</p>
       </td>
    <td> 輸入或對應您要使用的檔案URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取要儲存編輯檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案URL]</p>
+        <p>[！UICONTROL （輸出）檔案URL]</p>
       </td>
    <td> 輸入或對應將儲存已編輯檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td> 選取已編輯檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL 其他欄位]</td>
+      <td role="rowheader">[！UICONTROL其他欄位]</td>
       <td>
         <p>如需其他「深度模糊」選項的詳細資訊，請參閱Adobe Photoshop API檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/applyDepthBlurAsync">執行深度模糊</a>。</p>
       </td>
@@ -982,65 +984,65 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 輸入檔案儲存]</td>
+      <td role="rowheader">[！UICONTROL輸入檔案儲存]</td>
       <td>
         <p>選取要儲存裁切之檔案的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 輸入檔案URL]</p>
+        <p>[！UICONTROL輸入檔案URL]</p>
       </td>
    <td> 輸入或對應您要裁切之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 單位]</p>
+        <p>[！UICONTROL單位]</p>
       </td>
    <td> 選取您要以畫素或百分比描述高度和寬度調整。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 寬度]</p>
+        <p>[！UICONTROL寬度]</p>
       </td>
    <td> 輸入或對映您想要新增的寬度邊框間距。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Height]</p>
+        <p>[！UICONTROL Height]</p>
       </td>
    <td> 輸入或對映您想要增加的高度邊框間距。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取要儲存編輯檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案URL]</p>
+        <p>[！UICONTROL （輸出）檔案URL]</p>
       </td>
    <td> 輸入或對應將儲存已編輯檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td> 選取已編輯檔案的檔案型別。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。</p>
       </td>
     </tr>
    <tr>
-      <td role="rowheader">[!UICONTROL 其他欄位]</td>
+      <td role="rowheader">[！UICONTROL其他欄位]</td>
       <td>
         <p>如需其他「深度模糊」選項的詳細資訊，請參閱Adobe Photoshop API檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/applyDepthBlurAsync">執行深度模糊</a>。</p>
       </td>
@@ -1057,31 +1059,31 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 輸入檔案儲存]</td>
+      <td role="rowheader">[！UICONTROL輸入檔案儲存]</td>
       <td>
         <p>選取要從中擷取圖層資訊的檔案儲存所在的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 輸入檔案URL]</p>
+        <p>[！UICONTROL輸入檔案URL]</p>
       </td>
    <td> 輸入或對應您要擷取圖層資訊之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 縮圖]</p>
+        <p>[！UICONTROL縮圖]</p>
       </td>
    <td> 選取您要縮圖的檔案型別。 縮圖是任何可轉譯圖層的小型預覽。</td> 
     </tr>
   </tbody>
 </table>
 
-### 進行自訂API呼叫
+### 進行自訂的 API 呼叫
 
 此動作模組會對Photoshop API進行自訂呼叫。
 
@@ -1090,27 +1092,27 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>輸入相對於<code>https://image.adobe.io/pie/psdService</code>的路徑。 範例： <code>/photoshopActions</code></p>
+        <p>輸入相對於 <code>https://image.adobe.io/pie/psdService</code> 的路徑。範例： <code>/photoshopActions</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 方法]</p>
       </td>
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td role="rowheader">[!UICONTROL 標頭]</td>
       <td>
-        <p>以標準JSON物件的形式新增請求的標頭。</p>
+        <p>以標準 JSON 物件的形式新增要求標頭。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion會自動新增授權標頭。</p>
+        <p>Workfront Fusion 會自動新增授權標頭。</p>
       </td>
     </tr>
     <tr>
@@ -1120,8 +1122,8 @@ Adobe Photoshop聯結器會使用以下專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+      <td role="rowheader">[!UICONTROL 正文]</td>
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -1137,60 +1139,60 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸入）儲存體]</td>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
       <td>
         <p>選取要從中移除背景的檔案儲存所在的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸入）檔案位置]</p>
+        <p>[！UICONTROL （輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應您要移除背景之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存新檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 覆寫]</td>
+      <td role="rowheader">[！UICONTROL覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存空間中的檔案。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 色域]</p>
+        <p>[！UICONTROL色域]</p>
       </td>
    <td>選取輸出影像是使用RGB還是RGBA色彩。 </td> 
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 遮罩格式]</p>
+        <p>[！UICONTROL遮罩格式]</p>
       </td>
    <td>選取影像的邊緣應該是柔和（羽化）還是二進位。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 最佳化]</p>
+        <p>[！UICONTROL最佳化]</p>
       </td>
    <td>選取效能以最佳化速度，或選取批次以允許等待時間。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 後處理]</p>
+        <p>[！UICONTROL後處理]</p>
       </td>
    <td>選取是否啟用後處理。</td> 
     </tr>
@@ -1214,30 +1216,30 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸入）儲存體]</td>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
       <td>
         <p>選取儲存智慧物件的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸入）檔案位置]</p>
+        <p>[！UICONTROL （輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應智慧型物件的URL或路徑。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 圖層]</p>
+        <p>[！UICONTROL圖層]</p>
       </td>
    <td>針對您想要新增至「智慧型物件」的每個圖層，按一下「新增專案」，然後輸入物件的名稱或ID、儲存智慧型物件的檔案服務，以及圖層的URL或路徑。<p>如需此區域進階設定的說明，請參閱Photoshop API檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/replaceSmartObjectAsync">取代智慧型物件</a> </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 在置入期間調整影像大小]</p>
+        <p>[！UICONTROL在置入期間調整影像大小]</p>
       </td>
    <td> 選取是否要調整影像大小。</td> 
     </tr>
@@ -1248,20 +1250,20 @@ Adobe Photoshop聯結器會使用以下專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存新檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td> 選取已編輯檔案的檔案型別。 </td> 
     </tr>
@@ -1279,24 +1281,24 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸入）儲存體]</td>
+      <td role="rowheader">[！UICONTROL （輸入）儲存體]</td>
       <td>
         <p>選取儲存智慧物件的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸入）檔案位置]</p>
+        <p>[！UICONTROL （輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應智慧型物件的URL或路徑。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 圖層]</p>
+        <p>[！UICONTROL圖層]</p>
       </td>
    <td>針對您想要新增至「智慧型物件」的每個圖層，按一下「新增專案」，然後輸入物件的名稱或ID、儲存智慧型物件的檔案服務，以及圖層的URL或路徑。<p>如需此區域進階設定的說明，請參閱Photoshop API檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/replaceSmartObjectAsync">取代智慧型物件</a> </td> 
     </tr>
@@ -1307,25 +1309,25 @@ Adobe Photoshop聯結器會使用以下專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存新檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）寬度]</p>
+        <p>[！UICONTROL （輸出）寬度]</p>
       </td>
    <td> 輸出檔案的寬度（畫素）。 模組將保留原始的外觀比例。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存空間中的檔案。</p>
       </td>
@@ -1341,18 +1343,18 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 儲存]</td>
+      <td role="rowheader">[！UICONTROL儲存]</td>
       <td>
         <p>選取要儲存檔案大小的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 檔案位置]</p>
+        <p>[！UICONTROL檔案位置]</p>
       </td>
    <td> 輸入或對應您要調整大小的檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
@@ -1364,38 +1366,38 @@ Adobe Photoshop聯結器會使用以下專案：
     </tr>
     <tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 儲存]</td>
+      <td role="rowheader">[！UICONTROL儲存]</td>
       <td>
         <p>選取您要儲存新檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 檔案位置]</p>
+        <p>[！UICONTROL檔案位置]</p>
       </td>
    <td> 輸入或對應將儲存新檔案的URL或路徑。  只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 寬度]</p>
+        <p>[！UICONTROL寬度]</p>
       </td>
    <td> 輸出檔案的寬度（畫素）。 模組將保留原始的外觀比例。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 最大寬度]</p>
+        <p>[！UICONTROL最大寬度]</p>
       </td>
    <td>當寬度為0時，可提供的最大值搭配以取得大小。 最大寬度優先於小於檔案寬度。</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 覆寫]</td>
+      <td role="rowheader">[！UICONTROL覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存空間中的檔案。</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Trim to canvas]</p>
+        <p>[！UICONTROL Trim to canvas]</p>
       </td>
    <td>選取「是」將轉譯裁剪為「畫布」大小，或選取「否」將轉譯設為「圖層大小」。</td> 
     </tr>
@@ -1411,82 +1413,82 @@ Adobe Photoshop聯結器會使用以下專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Photoshop]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與[!DNL Adobe Photoshop]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （基底&gt;輸入）儲存]</td>
+      <td role="rowheader">[！UICONTROL （基底&gt;輸入）儲存]</td>
       <td>
         <p>選取要新增浮水印的檔案儲存所在的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （基底&gt;輸入）檔案位置]</p>
+        <p>[！UICONTROL （基底&gt;輸入）檔案位置]</p>
       </td>
    <td> 輸入或對應您要新增浮水印之檔案的URL或路徑。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （浮水印&gt;輸入）儲存]</td>
+      <td role="rowheader">[！UICONTROL （浮水印&gt;輸入）儲存]</td>
       <td>
         <p>選取要儲存浮水印的檔案服務。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （浮水印&gt;輸入）儲存]</td>
+      <td role="rowheader">[！UICONTROL （浮水印&gt;輸入）儲存]</td>
       <td>
         <p>選取要儲存浮水印的檔案服務。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （浮水印&gt;界限）高度]</p>
+        <p>[！UICONTROL （浮水印&gt;界限）高度]</p>
       </td>
    <td>輸入或對應所需的浮水印高度（畫素）。</td> 
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （浮水印&gt;界限）寬度]</p>
+        <p>[！UICONTROL （浮水印&gt;界限）寬度]</p>
       </td>
    <td> 輸入或對應所需的浮水印寬度（畫素）。 </td> 
     </tr>  
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （浮水印&gt;界限）左側]</p>
+        <p>[！UICONTROL （浮水印&gt;界限）左側]</p>
       </td>
    <td> 輸入或對應距離影像左側的距離（以畫素為單位），也就是浮水印應該距離的位置。</td> 
     </tr>  
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （浮水印&gt;界限） Top]</p>
+        <p>[！UICONTROL （浮水印&gt;界限） Top]</p>
       </td>
    <td> 輸入或對應浮水印應該位於的距離影像頂端（以畫素為單位）。</td> 
     </tr>  
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）儲存]</td>
+      <td role="rowheader">[！UICONTROL （輸出）儲存]</td>
       <td>
         <p>選取要儲存浮水印檔案的檔案服務。</p><p>選取Fusion內部儲存體可讓檔案供後續模組使用，但無法讓檔案在情境之外使用。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）檔案位置]</p>
+        <p>[！UICONTROL （輸出）檔案位置]</p>
       </td>
    <td> 輸入或對應要儲存浮水印檔案的URL或路徑。 只有在您尚未為輸出儲存體選擇Fusion內部儲存體時，才需要這樣做。</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）型別]</p>
+        <p>[！UICONTROL （輸出）型別]</p>
       </td>
    <td>選取您要轉換檔案的檔案型別。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL （輸出）寬度]</p>
+        <p>[！UICONTROL （輸出）寬度]</p>
       </td>
    <td> 輸出檔案的寬度（畫素）。 模組將保留原始的外觀比例。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL （輸出）覆寫]</td>
+      <td role="rowheader">[！UICONTROL （輸出）覆寫]</td>
       <td>
         <p>選取新編輯的檔案是否會覆寫任何已存在的輸出檔案。 這僅適用於Adobe儲存空間中的檔案。</p>
       </td>

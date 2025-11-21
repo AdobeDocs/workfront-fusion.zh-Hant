@@ -1,17 +1,17 @@
 ---
-title: 使用大型檔案
+title: 處理大型檔案
 description: Workfront和HTTP聯結器目前提供大型檔案支援。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: 80cb3736d96d4b7c3226d78149842a80077e3551
+source-git-commit: a68de976258d17631459f0951d28657fd0e0dcf6
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 2%
+source-wordcount: '1048'
+ht-degree: 6%
 
 ---
 
-# 使用大型檔案
+# 處理大型檔案
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理�
 
 >[!NOTE]
 >
->* 如果使用支援大型檔案的模組下載檔案，然後傳遞至不支援大型檔案的模組，該模組不會成功處理檔案。 在整個工作流程中，大型檔案必須以支援的模組專門處理。
+>* 如果使用支援大型檔案的模組下載檔案，然後傳遞至不支援大型檔案的模組，則該模組無法成功處理相關檔案。在整個工作流程中，大型檔案必須由支援的模組專門處理。
 >* 不支援大型檔案的模組可處理大小最大為200 MB的檔案。
 
 * Workfront
@@ -40,6 +40,8 @@ Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理�
    * 下載校訂
 * Adobe Authenticator
    * 進行自訂API呼叫
+* Adobe Photoshop
+   * 套用PSD編輯
 * SharePoint
    * 建立檔案
    * 取得檔案

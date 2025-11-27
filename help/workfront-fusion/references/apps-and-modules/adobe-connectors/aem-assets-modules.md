@@ -62,7 +62,7 @@ ht-degree: 100%
 * 您必須具備 Adobe Experience Manager Assets 帳戶才能使用這些模組。
 * 您必須在 Adobe Developer Console 中設定伺服器對伺服器流程。
 
-  關於在 Adobe Developer Console 中設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
+  關於在 Adobe Developer Console 中設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
 * 您的 Adobe Experience Manager 技術帳戶必須擁有寫入權限。
 
   關於將寫入權限新增至您的 Adobe Experience Manager 技術帳戶的說明，請參閱 Adobe Experience Manager 文件中的[服務認證](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
@@ -113,7 +113,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
 >
 >* 要填入這些欄位的資訊是在 Adobe Developer Console 上設定伺服器對伺服器流程的過程中產生的。您可以在設定過程中產生的服務認證 JSON 檔案中找到這些值。
 >
->   關於在 Adobe Developer Console 上設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
+>   關於在 Adobe Developer Console 上設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
 >
 >* 您的 Adobe Experience Manager 技術帳戶必須擁有寫入權限。
 >

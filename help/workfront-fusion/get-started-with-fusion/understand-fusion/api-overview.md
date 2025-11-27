@@ -1,46 +1,46 @@
 ---
-title: API總覽
-description: 應用程式設計介面(API)是應用程式和服務彼此通訊的一種方式。 Fusion會使用API與您連線的應用程式通訊。 每個應用程式都有個別的API。
+title: API 概觀
+description: 應用程式介面 (API) 是應用程式和服務互相進行通訊的方式。Fusion 使用 API 與您連接的應用程式進行通訊。每個應用程式都有個別的 API。
 author: Becky
 feature: Workfront Fusion
 source-git-commit: b30aac8040cc0b6bcad92914b1c0997a8ddebdd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Fusion中的API概觀
+# Fusion 中的 API 概觀
 
 <!--Add me to TOCs-->
 
-應用程式設計介面(API)是應用程式和服務彼此通訊的一種方式。 Fusion會使用API與您連線的應用程式通訊。
+應用程式介面 (API) 是應用程式和服務互相進行通訊的方式。Fusion 會使用 API 與您所連接的應用程式進行通訊。
 
-API由應用程式擁有者建立與控制。 例如，Workfront API歸Adobe的Workfront團隊所有，而Microsoft Graph API歸Microsoft所有。 API的擁有者會定義哪些動作可透過API使用。
+應用程式的所有者建立並控制 API。例如，Adobe 的 Workfront 團隊擁有 Workfront API，而 Microsoft 擁有 Microsoft Graph API。API 的所有者會定義可以透過 API 執行哪些動作。
 
 ## 考量事項
 
-API是由其擁有者而非Fusion定義的事實，導致了一些重要的考量：
+因為由 API 的所有者而非 Fusion 定義 API 的功能，所以我們必須進行一些重要考量：
 
-* **您可以使用Fusion連線到任何具有公用API的應用程式或服務**，無論Fusion是否提供該應用程式或服務的專用聯結器。 您可以使用Fusion的通用聯結器，將這些應用程式或服務帶入您的情境中。
+* **您可以使用 Fusion 連接至具有公開 API 的任何應用程式或服務**，無論 Fusion 是否提供該應用程式或服務的專用連接器。您可以使用 Fusion 的通用連接器，將這些應用程式或服務引入您的情境中。
 
-  如需通用聯結器的清單，請參閱[通用聯結器](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)。
+  如需通用連接器的清單，請參閱[通用連接器](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)。
 
-* **擁有者對應用程式API所做的變更可能會影響Fusion功能。**&#x200B;如果變更足夠嚴重，Fusion可能需要更新模組或連線型別，或在極端情況下可能會為應用程式建立新的聯結器。
+* **所有者對應用程式 API 所做的變更可能會影響 Fusion 功能。**&#x200B;如果變更達到一定的重大程度，Fusion 可能需要更新模組或連線類型，或在極端情況下，可能要為應用程式建立新的連接器。
 
-  如需這些極端情況（稱為「重大變更」）的詳細資訊，請參閱本文中的[重大變更](#breaking-changes)。
+  關於這些極端情況 (稱為「重大變更」) 的詳細資訊，請參閱這篇文章中的[重大變更](#breaking-changes)。
 
 
 ## 重大變更
 
-API擁有者從可用性移除部分或全部API時，中斷變更的常見原因是棄用。 發生此情況時，Fusion團隊會盡一切努力快速將Fusion功能與應用程式的API新版本重新調整。 這通常採用新模組、連線型別或聯結器的形式。
+發生重大變更的常見原因是棄用，即 API 所有者不再提供某個 API 的部分或全部功能。發生此情況時，Fusion 團隊會盡一切努力快速調整 Fusion 功能，以便與應用程式的新版本 API 保持一致。這項調整通常會採用新的模組、連線類型或連接器的形式。
 
-由於您的Fusion案例是使用特定資料設定的，因此您可能需要更新案例。
+由於您的 Fusion 情境是使用您的特定資料進行設定，因此可能需要更新情境。
 
-* 如果變更與驗證或授權有關，您可能需要更新該應用程式的連線。
-* 如果變更與API中的特定動作（端點）相關，您可能需要將與該動作相關的任何模組更新為模組的新版本。
-* 如果淘汰Fusion使用的整個API版本，您可能需要將該聯結器的所有模組更新到聯結器的新版本。
+* 若變更與驗證或授權有關，您可能需要更新該應用程式的連線。
+* 若變更與 API 中的特定動作 (端點) 有關，您可能會需要將與該動作相關的任何模組更新為新版本的模組。
+* 若 Fusion 使用的整個 API 版本被棄用，您可能需要將該連接器的所有模組更新至新版本的連接器。
 
-在許多情況下，您可以升級至模組的新版本，而不需要重新設定該模組。
+在許多情況下，您可以升級至新版本的模組，而不需要重新設定該模組。
 
-如需升級模組的資訊與指示，請參閱[將模組升級為新版本](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md)。
+如需關於升級模組的資訊與說明，請參閱[將模組升級為新版本](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md)。

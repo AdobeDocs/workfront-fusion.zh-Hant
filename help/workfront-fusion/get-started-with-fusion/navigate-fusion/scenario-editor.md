@@ -4,10 +4,10 @@ description: 情境編輯器可讓您在視覺介面中建立和編輯情境。
 author: Becky
 feature: Workfront Fusion
 exl-id: 47ccecf0-751c-4026-96a9-329c33cb6801
-source-git-commit: 93d06cb917680f9cabc1bad6be0f9cd843449d07
+source-git-commit: f968b9141173725160cea36575ad4e02a09a5e3f
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 16%
 
 ---
 
@@ -17,32 +17,32 @@ ht-degree: 3%
 
 ![案例編輯器](assets/scenario-editor.jpg)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -71,15 +71,20 @@ ht-degree: 3%
 
 ### 控制項
 
+您可能需要按一下「控制項」區域中的三點圖示，才能檢視其中的部分控制項。
+
 | 動作 | 詳細資料 |
 |----------|----------|
-| 儲存 | 儲存您的情境後，三點選單底下將顯示新版本，以備您日後需要存取時使用。 先前儲存的案例版本僅可使用60天。 |
-| 案例設定 | 情境設定面板包含情境的進階設定。 如需有關可用設定的詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)。 |
-| 附註 | 記錄情境。 其他使用者在情境中時可以檢視這些附註。 |
-| 自動對齊 | 自動對齊案例中的模組。 |
-| 說明流程 | 檢視移動點顯示資料如何流經情境的動畫。 |
-| 開發工具 | 使用Devtool，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。 如需詳細資訊，請參閱[偵錯案例](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md)。 |
-| 更多 | 在更多選單中，您可以匯入或匯出Blueprint，並將案例還原回先前的版本。 |
+| 儲存 <p>![儲存圖示](assets/save-icon.png)</p> | 儲存您的情境後，三點選單底下將顯示新版本，以備您日後需要存取時使用。 先前儲存的案例版本僅可使用60天。 |
+| 案例設定 <p>![案例設定圖示](assets/scenario-settings-icon.png)</p> | 情境設定面板包含情境的進階設定。 如需有關可用設定的詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)。 |
+| 附註  <p>![筆記圖示](assets/notes-icon.png)</p> | 記錄情境。 其他使用者在情境中時可以檢視這些附註。 |
+| 自動對齊 <p>![自動對齊圖示](assets/auto-align-icon.png)</p> | 自動對齊案例中的模組。 |
+| 搜尋模組![搜尋模組](assets/search-modules-icon.png)  </p> | 輸入搜尋字詞以尋找模組，然後按一下要帶到該模組的搜尋結果。 您可以依模組名稱、ID、型別或應用程式來搜尋。 |
+| 說明流程  <p>![說明流程圖示](assets/explain-flow-icon.png) </p> | 檢視移動點顯示資料如何流經情境的動畫。 |
+| DevTool <p>![DevTool圖示](assets/devtool-icon.png)</p> | 使用DevTool，您可以檢查案例的所有手動執行、檢閱所有已執行的操作，並檢視每個已執行API呼叫的詳細資訊。 您可以檢視導致錯誤的模組、操作或單一回應，並運用該知識來調整您的案例。 如需詳細資訊，請參閱[偵錯案例](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md)。 |
+| 匯出Blueprint  <p>![匯出Bluepring圖示](assets/export-blueprint-icon.png) </p> | 匯出目前案例的藍圖。 |
+| 匯入Blueprint  <p>![匯入Blueprint圖示](assets/import-blueprint-icon.png) </p> | 匯入先前匯出的情境藍圖。 |
+| 先前版本  <p>![舊版圖示](assets//previous-version-icon.png) </p> | 檢視此情境的早期版本。 |
 
 ![控制項面板](assets/controls-editor-scenario.png)
 

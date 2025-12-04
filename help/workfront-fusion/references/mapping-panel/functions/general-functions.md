@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion對應面板中有以下一般函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6d4b8801-aa7e-47d4-80b3-aceac10c073f
-source-git-commit: 295004ab7536b85124bc366d6832c08365338d08
+source-git-commit: f968b9141173725160cea36575ad4e02a09a5e3f
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 0%
+source-wordcount: '318'
+ht-degree: 3%
 
 ---
 
@@ -15,10 +15,12 @@ ht-degree: 0%
 
 ## 變數
 
-有兩個一般變數可用來識別執行的詳細資訊：
+您可以使用這些一般變數來識別有關執行的詳細資訊：
 
 * `executionID`：此案例執行的識別碼
 * `triggerTimestamp`：觸發此執行的時間
+* `scenarioID`：目前開啟情境的識別碼
+* `operationsConsumed`：情境中該時間點使用的作業數目。
 
 ## [!UICONTROL get （物件或陣列；路徑）]
 

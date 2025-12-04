@@ -4,10 +4,10 @@ description: 許多服務都會提供Webhook，以便在服務發生特定變更
 author: Becky
 feature: Workfront Fusion
 exl-id: 5bfda2b2-dc1c-4ff6-9236-b480bfda2e58
-source-git-commit: d4bdc4005a3b7b22d64adc8ca1d20bcf534ddfd1
+source-git-commit: f968b9141173725160cea36575ad4e02a09a5e3f
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 0%
+source-wordcount: '1232'
+ht-degree: 10%
 
 ---
 
@@ -35,32 +35,32 @@ ht-degree: 0%
 * [Webhook簡介](https://video.tv.adobe.com/v/3427025/){target=_blank}
 * [中繼Webhook](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -83,6 +83,11 @@ ht-degree: 0%
 1. 若要檢視使用webhook的情境，請按一下該webhook「情境」欄中的&#x200B;**情境**&#x200B;按鈕。
 1. 若要檢視用於此webhook的連線，請按一下該webhook的[連線]欄中的&#x200B;**連線**&#x200B;按鈕。
 1. 若要隱藏欄或顯示先前隱藏的欄，請按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/glist-column.png)並核取或取消核取欄名稱。
+1. 若要檢視與Workfront webhook相關的活動訂閱，請核取webhook旁的方塊，並選取頁面底部的&#x200B;**顯示詳細資料**。
+
+   >[!NOTE]
+   >
+   > 事件訂閱詳細資料僅適用於在新Workfront聯結器中建立的Workfront Webhook。 Webhook詳細資料目前不適用於其他聯結器。
 
 
 ## 排程即時觸發程式
@@ -131,7 +136,7 @@ ht-degree: 0%
 
 ### Webhook裝載
 
-Workfront Fusion會儲存webhook裝載30天。 在建立webhook裝載超過30天後存取該裝載會導致錯誤[!UICONTROL `Failed to read file from storage.`]
+Workfront Fusion 會儲存 Webhook 承載長達 30 天。在建立webhook裝載超過30天後存取該裝載會導致錯誤[!UICONTROL `Failed to read file from storage.`]
 
 ### 錯誤處理
 
@@ -150,10 +155,10 @@ Workfront Fusion會儲存webhook裝載30天。 在建立webhook裝載超過30天
 
 ### Webhook停用
 
-如果符合下列任一條件，Webhook就會自動停用：
+若符合下列任一條件，Webhook 便會自動停用：
 
 * webhook已超過5天未連線至任何案例。
-* webhook僅用於非使用中情況，這些情況已非使用中超過30天。
+* 僅在非使用中的情境中使用 Webhook，而非使用中狀態已經超過 30 天。
 
 如果停用的Webhook未連線至任何案例，且已停用狀態超過30天，則會自動刪除及取消註冊。
 

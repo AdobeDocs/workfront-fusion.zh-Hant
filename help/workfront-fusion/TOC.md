@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: ec4fec0fc66fd89afad4cfe85a0fb41fc1786925
+source-git-commit: 04fe3b413638119d06686b420deaeb4f7d37d81c
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1963'
 ht-degree: 97%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 97%
    * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion 發行版本 - 2025 年 {#fusion-releases-2025}
       * [Workfront Fusion發行活動： 2025年11月17日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-17.md)
+      * [Workfront Fusion發行活動： 2025年12月8日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-12-8.md)
       * [Workfront Fusion發行活動： 2025年12月1日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-12-1.md)
       * [Workfront Fusion發行活動： 2025年11月10日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-10.md)
       * [Workfront Fusion發行活動： 2025年11月3日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-3.md)
@@ -336,6 +337,7 @@ ht-degree: 97%
          * [Adobe Frame.io Beta (V4) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md)
          * [Adobe Frame.io 舊版 (V3) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
          * [Adobe I/O Events 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
+         * [Adobe InDesign模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/indesign-modules.md)
          * [Adobe Journey Optimizer 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
          * [Adobe Lightroom 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
          * [Adobe Marketo 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)

@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: f23a089565c2cfb7d2d1321a7bf67ae14e336af3
+source-git-commit: b5c41aea9f259e309a769a66eaa627b0e1f136db
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '480'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,7 @@ Fusion 為許多 Adobe 產品和服務提供連接器。
 * [Adobe Frame.io Beta (V4) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
 * [Adobe Frame.io 舊版 (V3) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
 * [Adobe I/O Events 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
+* [Adobe InDesign模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/indesign-modules.md)
 * [Adobe Journey Optimizer 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
 * [Adobe Marketo 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)

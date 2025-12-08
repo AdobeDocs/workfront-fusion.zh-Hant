@@ -1,48 +1,50 @@
 ---
-title: Adobe Workfront規劃模組
+title: Adobe Workfront 規劃模組
 description: 透過 [!DNL Adobe Workfront Planning] 模組，您可以根據 [!DNL Adobe] Adobe Workfront Planning帳戶中的事件來啟動Workfront Fusion案例、建立、讀取或更新合約與其他記錄、使用您設定的條件搜尋記錄，以及上傳檔案。
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
+source-git-commit: 30ddefa8519e6f2052308482137d0fa018676902
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 1%
+source-wordcount: '1583'
+ht-degree: 44%
 
 ---
 
-# [!DNL Adobe Workfront Planning]模組
+# [!DNL Adobe Workfront Planning] 模組
 
 透過[!DNL Adobe Workfront Planning]模組，您可以在Workfront Planning中發生事件時觸發案例。 您也可以建立、讀取、更新及刪除記錄，或執行自訂API呼叫至您的[!DNL Adobe Workfront Planning]帳戶。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
-   </td> 
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-+++##必要條件
++++
+
+s##必要條件
 
 您必須具備下列專案才能存取Workfront Planning：
 
@@ -63,17 +65,17 @@ Adobe Workfront Planning聯結器使用下列專案：
    <td>https://{{connection.host}}/maestro/api/{{common.maestroApiVersion}}/</td> 
   </tr>
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.13.7</td> 
   </tr>
  </tbody> 
  </table>
 
-## 建立與[!DNL Adobe Workfront Planning]的連線 {#create-a-connection-to-adobe-workfront-planning}
+## 建立與 [!DNL Adobe Workfront Planning] 的連線 {#create-a-connection-to-adobe-workfront-planning}
 
 您可以直接從Workfront Fusion模組內建立與您的[!DNL Workfront Planning]帳戶的連線。
 
-1. 在任何[!DNL Adobe Workfront Planning]模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
+1. 在任何 [!DNL Adobe Workfront Planning] 模組中，按一下「連線」方塊旁的「**[!UICONTROL 新增]**」。
 
 1. 填寫下列欄位：
 
@@ -94,19 +96,19 @@ Adobe Workfront Planning聯結器使用下列專案：
           <td>選取您要連線到生產或非生產環境。</td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 型別]</td>
+          <td role="rowheader">[!UICONTROL 類型]</td>
           <td>選取您是要連線到服務帳戶還是個人帳戶。</td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端ID]<p>(選填)</p></td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端識別碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。</td>
+          <td role="rowheader">[!UICONTROL 用戶端 ID]<p>(選填)</p></td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。</td>
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 使用者端密碼]<p>(選填)</p></td>
-          <td>輸入您的[!DNL Adobe] [!UICONTROL 使用者端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL 認證詳細資料]區段中找到。
+          <td role="rowheader">[!UICONTROL 用戶端密碼]<p>(選填)</p></td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 驗證URL]</td>
+          <td role="rowheader">[!UICONTROL 驗證 URL]</td>
           <td>輸入您的Workfront執行個體將用來驗證此連線的URL。 <p>預設值為 <code>https://oauth.my.workfront.com/integrations/oauth2</code>。</p>
         </tr>
         <tr>
@@ -116,16 +118,16 @@ Adobe Workfront Planning聯結器使用下列專案：
       </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
+1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 
-## [!DNL Adobe Workfront Planning]模組及其欄位
+## [!DNL Adobe Workfront Planning] 模組及其欄位
 
-設定Workfront模組時，Workfront Fusion會顯示下列欄位。 除此之外，可能還會顯示其他Workfront欄位，視您應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 Workfront 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 Workfront 欄位。在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [觸發程序](#triggers)
 * [動作](#actions)
@@ -147,36 +149,36 @@ Adobe Workfront Planning聯結器使用下列專案：
       <td>選取您要使用的webhook，或按一下「新增」以建立新的webhook。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 物件型別]</td>
+      <td role="rowheader">[!UICONTROL 物件類型]</td>
       <td>選取您要監視記錄、記錄型別或工作區。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 狀態]</td>
-      <td>選取您要觀看舊狀態還是新狀態。<ul><li><p><b>[!UICONTROL 新狀態]</b></p><p>當記錄將指定值<b>變更為</b>時觸發案例。</p></li><li><p><b>[!UICONTROL 舊狀態]</b></p><p>當記錄從<b>變更指定值時，觸發案例</b>。</p></li></ul></td> 
+      <td>選取您要監視舊狀態或新狀態。<ul><li><p><b>[!UICONTROL 新狀態]</b></p><p>當記錄變更<b>為</b>特定值時觸發一個情境。</p></li><li><p><b>[!UICONTROL 舊狀態]</b></p><p>當記錄<b>從</b>特定值變更為其他時會觸發一個情境。</p></li></ul></td> 
     <tr>
-      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td role="rowheader">[！UICONTROL Workspace]</td>
       <td>如果觀看記錄，請選取您要觀看記錄的Workspace 。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 記錄型別]</td>
+      <td role="rowheader">[!UICONTROL 記錄類型]</td>
       <td>如果觀看記錄，請選取您要觀看的記錄型別。</td>
     </tr>
     </tr>
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL 事件篩選器]</p> </td> 
-      <td> <p>您可以設定篩選器，只監視符合您選取條件的記錄。</p> <p>針對每個篩選器，輸入您希望篩選器評估的欄位、運運算元，以及您希望篩選器允許的值。 您可以新增AND規則來使用一個以上的篩選器。</p> <p>注意：您無法編輯現有Workfront Webhook中的篩選器。 若要為Workfront活動訂閱設定不同的篩選器，請移除目前的webhook並建立新的篩選器。</p> <p>如需事件篩選的詳細資訊，請參閱Workfront模組文章中的Workfront &gt; [!UICONTROL 觀看活動]模組中的<a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">事件訂閱篩選</a>。</p> </td> 
+      <td> <p>您可以設定篩選器為僅監視符合所選取條件的記錄。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。您可以新增 AND 規則，以便使用一個以上的篩選器。</p> <p>注意：您無法編輯現有Workfront Webhook中的篩選器。 若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。</p> <p>如需事件篩選的詳細資訊，請參閱Workfront模組文章中的Workfront &gt; [！UICONTROL觀看活動]模組中的<a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">事件訂閱篩選</a>。</p> </td> 
      </tr> 
     <tr>
-      <td role="rowheader">要觀看的[!UICONTROL 物件]</td>
+      <td role="rowheader">要觀看的[！UICONTROL物件]</td>
       <td>選取是否要監視新專案。 更新、新增和更新或刪除的記錄。</td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 排除此連線所做的更新]</p>
+        <p>[！UICONTROL排除此連線所做的更新]</p>
       </td>
       <td>啟用此選項可防止此模組使用的連線進行變更時觸發此案例。 如此可防止在此案例執行觸發動作時觸發另一個案例例項。</td> 
       </tr>
@@ -201,19 +203,19 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄型別ID]</p>
+        <p>[！UICONTROL記錄型別ID]</p>
       </td>
       <td>輸入或對應您要刪除之記錄型別的ID。</td> 
       </tr>
   </tbody>
 </table>
 
-#### 進行自訂API呼叫
+#### 進行自訂的 API 呼叫
 
 此模組會對[!DNL Adobe Workfront Planning] API發出自訂API呼叫。
 
@@ -222,8 +224,8 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -237,14 +239,14 @@ Adobe Workfront Planning聯結器使用下列專案：
       <td role="rowheader">
         <p>[!UICONTROL 方法]</p>
       </td>
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td role="rowheader">[!UICONTROL 標頭]</td>
       <td>
-        <p>以標準JSON物件的形式新增請求的標頭。</p>
+        <p>以標準 JSON 物件的形式新增要求標頭。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion會自動新增授權標頭。</p>
+        <p>Workfront Fusion 會自動新增授權標頭。</p>
       </td>
     </tr>
     <tr>
@@ -254,8 +256,8 @@ Adobe Workfront Planning聯結器使用下列專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+      <td role="rowheader">[!UICONTROL 正文]</td>
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -274,30 +276,30 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Workspace]</p>
+        <p>[！UICONTROL Workspace]</p>
       </td>
       <td>輸入或對應包含您要搜尋之記錄的Workspace。</td> 
       </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄型別]</p>
+        <p>[!UICONTROL 記錄類型]</p>
       </td>
       <td>選取您要搜尋的記錄型別。</td> 
       </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄欄位]</p>
+        <p>[！UICONTROL記錄欄位]</p>
       </td>
       <td>針對搜尋中要使用的每個欄位，找到該欄位，選取運運算元，然後輸入或對應您要搜尋的值。 根據所選的記錄型別，可使用欄位。</td> 
       </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 篩選條件]</p>
+        <p>[！UICONTROL篩選條件]</p>
       </td>
       <td>選取篩選條件：<ul><li><b>且</b><p>模組傳回符合您選取之欄位值的<b>所有</b>的記錄。</p></li><li><b>或</b><p>模組傳回符合您選取之欄位值的<b>任一</b>的記錄。</p></li></ul></td> 
       </tr>
@@ -305,7 +307,7 @@ Adobe Workfront Planning聯結器使用下列專案：
       <td role="rowheader">
         <p>[!UICONTROL 限制]</p>
       </td>
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
       </tr>
   </tbody>
 </table>
@@ -323,12 +325,12 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄型別ID]</p>
+        <p>[！UICONTROL記錄型別ID]</p>
       </td>
       <td>輸入或對應您要建立的記錄型別。 可用的記錄型別取決於您的Workfront Planning帳戶。</td> 
       </tr>
@@ -351,12 +353,12 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄ID]</p>
+        <p>[！UICONTROL記錄ID]</p>
       </td>
       <td>輸入或對應您要刪除之記錄的ID。</td> 
       </tr>
@@ -372,11 +374,11 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 記錄ID]</td>
+      <td role="rowheader">[！UICONTROL記錄ID]</td>
       <td>輸入或對應您要擷取之記錄的ID。</td>
     </tr>
   </tbody>
@@ -391,15 +393,15 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td role="rowheader">[！UICONTROL Workspace]</td>
       <td>選取或對映包含您要擷取之記錄的工作區。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 記錄型別]</td>
+      <td role="rowheader">[!UICONTROL 記錄類型]</td>
       <td>選取您要擷取的記錄型別。</td>
     </tr>
      <!--<tr>
@@ -419,11 +421,11 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td role="rowheader">[！UICONTROL Workspace]</td>
       <td>選取或對應包含您要擷取之記錄型別的工作區。</td>
     </tr>
   </tbody>
@@ -438,12 +440,12 @@ Adobe Workfront Planning聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>如需建立[!DNL Adobe Workfront Planning]連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與[!DNL Adobe Workfront Planning]</a>的連線。</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄ID]</p>
+        <p>[！UICONTROL記錄ID]</p>
       </td>
       <td>輸入或對應您要更新的記錄型別。 可用的記錄型別取決於您的Workfront Planning帳戶。</td> 
       </tr>

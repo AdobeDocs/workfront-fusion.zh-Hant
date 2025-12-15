@@ -138,37 +138,37 @@ ht-degree: 3%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL儲存] </td> 
+   <td role="rowheader">[!UICONTROL 儲存] </td> 
    <td>Ctrl+Shift+S</td> 
    <td>Cmd+Shift+S</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL執行一次]</td> 
+   <td role="rowheader">[!UICONTROL 執行一次]</td> 
    <td>Ctrl+Shift+Enter</td> 
    <td>Cmd+Shift+Enter</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL開啟開發工具]</td> 
+   <td role="rowheader">[!UICONTROL 開啟開發工具]</td> 
    <td>F12</td> 
    <td>Ctrl+Fn+F12</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選取多個模組]</td> 
+   <td role="rowheader">[!UICONTROL 選取多個模組]</td> 
    <td>Shift+拖曳</td> 
    <td>Shift+拖曳</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL副本]</td> 
+   <td role="rowheader">[!UICONTROL 副本]</td> 
    <td>Ctrl+C</td> 
    <td>Cmd+C</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL貼上]</td> 
+   <td role="rowheader">[!UICONTROL 貼上]</td> 
    <td>Ctrl+V</td> 
    <td>Cmd+V</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL搜尋模組]</td> 
+   <td role="rowheader">[!UICONTROL 搜尋模組]</td> 
    <td>Ctrl+K</td> 
    <td>Cmd+K</span> </td> 
   </tr> 

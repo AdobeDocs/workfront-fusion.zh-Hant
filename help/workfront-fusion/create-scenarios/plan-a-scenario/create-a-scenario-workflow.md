@@ -4,10 +4,10 @@ description: 依照此一般工作流程建立情境
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: fc0b3b7ca4ec999c7a121d0564d36abff6f2d620
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 0%
+source-wordcount: '816'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 * [在模組之間對應資料](#map-data-between-modules)
 * [設定路由](#configure-routing)
 * [設定錯誤處理](#configure-error-handling)
-* [設定案例設定](#onfigure-scenario-settings)
+* [設定情境設定](#onfigure-scenario-settings)
 * [測試和修訂](#test-and-revise)
 * [啟動情境](#activate-the-scenario)
 * [Workfront Fusion案例鍵盤快速鍵](#workfront-fusion-scenario-keyboard-shortcuts)
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 如需指示，請參閱[新增錯誤處理](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md)。
 
-## 設定案例設定
+## 設定情境設定
 
 您可以針對整個情境進行設定，例如排程情境、製作附註或決定資料的儲存方式。
 
@@ -138,34 +138,39 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 儲存] </td> 
+   <td role="rowheader">[！UICONTROL儲存] </td> 
    <td>Ctrl+Shift+S</td> 
    <td>Cmd+Shift+S</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 執行一次]</td> 
+   <td role="rowheader">[！UICONTROL執行一次]</td> 
    <td>Ctrl+Shift+Enter</td> 
    <td>Cmd+Shift+Enter</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 開啟開發工具]</td> 
+   <td role="rowheader">[！UICONTROL開啟開發工具]</td> 
    <td>F12</td> 
    <td>Ctrl+Fn+F12</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選取多個模組]</td> 
+   <td role="rowheader">[！UICONTROL選取多個模組]</td> 
    <td>Shift+拖曳</td> 
    <td>Shift+拖曳</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 副本]</td> 
+   <td role="rowheader">[！UICONTROL副本]</td> 
    <td>Ctrl+C</td> 
    <td>Cmd+C</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 貼上]</td> 
+   <td role="rowheader">[！UICONTROL貼上]</td> 
    <td>Ctrl+V</td> 
    <td>Cmd+V</span> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL搜尋模組]</td> 
+   <td>Ctrl+K</td> 
+   <td>Cmd+K</span> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">將cURL貼入情境以建立HTTP模組</td> 

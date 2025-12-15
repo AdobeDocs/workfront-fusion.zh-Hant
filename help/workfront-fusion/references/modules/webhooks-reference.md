@@ -4,9 +4,9 @@ description: 許多服務都會提供Webhook，以便在服務發生特定變更
 author: Becky
 feature: Workfront Fusion
 exl-id: 5bfda2b2-dc1c-4ff6-9236-b480bfda2e58
-source-git-commit: f968b9141173725160cea36575ad4e02a09a5e3f
+source-git-commit: 45efeecd1758e302f57498bab842594800a84c1d
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1272'
 ht-degree: 10%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -76,6 +76,9 @@ ht-degree: 10%
 
 1. 若要搜尋特定webhook，請在「搜尋」方塊中輸入搜尋字詞。
 1. 若要複製webhook，請按一下該webhook的列URL附近的復製圖示![複製webhook圖示](assets/copy-webhook-icon.png)。
+1. 若要設定webhook的優先順序，請按一下「優先順序」欄中的下拉式清單，然後選取新的優先順序。
+
+   優先順序較高的Webhook會先處理，如果背景工作集區有許多自動作業在競爭資源，則此功能會很有幫助。
 1. 若要停用或啟用webhook，請停用或啟用該webhook列中「狀態」欄的切換。
 1. 若要檢視webhooks佇列是否已滿，請核取完整佇列欄。 此資料欄中的數字是目前在佇列中的專案數。
 1. 若要檢視webhook所處理的作業，請按一下該webhook的[完整佇列]資料欄中的&#x200B;**作業**。

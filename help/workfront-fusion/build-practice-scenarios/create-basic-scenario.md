@@ -7,45 +7,45 @@ description: 瞭解如何使用Adobe Workfront Fusion建立簡單的自動化案
 author: Becky
 feature: Workfront Fusion
 exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
-source-git-commit: 93d06cb917680f9cabc1bad6be0f9cd843449d07
+source-git-commit: 6269db7454a63e80de3d770ab1012162d5080565
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 0%
+source-wordcount: '1419'
+ht-degree: 12%
 
 ---
 
 # 建立基本情境
 
-Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注於新任務，而不是一遍又一遍地重複相同的任務。 其運作方式是連結應用程式和服務內外的動作，以建立自動傳輸和轉換資料的情境。 您建立的案例會監視應用程式或服務中的資料，並處理該資料以提供您想要的結果。
+Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心處理新任務，而不是一再重複相同的任務。其將應用程式和服務內部及兩者之間的動作連結起來，並建立一個自動轉移和轉換您的資料的情境。您建立的情境會監視應用程式或服務中的資料，並處理該資料以便提供您想要的結果。
 
 此範例會帶您進行建立情境的過程，以在Workfront中搜尋請求，並將其轉換為專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -114,7 +114,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 
 ## 新增並設定第二個模組
 
-1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]&#x200B;**&#x200B;**。
+1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]****。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 轉換物件]**。
 1. 在「[!UICONTROL 連線]」欄位中，選取您在上一個模組中使用的相同Workfront連線。
 1. 在&#x200B;**[!UICONTROL 記錄型別]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL 問題]**，因為模組將會轉換問題。
@@ -123,7 +123,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 
    切換在啟用時變成藍色。 這可讓您對應上一個模組的任務ID。
 
-   ![地圖切換](assets/map-toggle.png)
+   ![對應切換](assets/map-toggle.png)
 1. 按一下&#x200B;**[!UICONTROL 任務識別碼]**&#x200B;欄位。
 
    會開啟一個面板，讓您選取要作為要轉換為專案之任務的ID使用的專案。 由於您啟用了對應，因此面板會包含任何先前模組的輸出。 您選取ID作為前一個模組的輸出，因此現在面板中可提供該ID。
@@ -162,7 +162,7 @@ Adobe Workfront Fusion的角色是自動化您的流程，以便您可以專注�
 
    >[!IMPORTANT]
    >
-   >隨時儲存並測試情境。
+   >隨時儲存並測試情境。 您可能需要在Workfront帳戶中建立新問題才能觸發此情境。
 
 >[!TIP]
 >

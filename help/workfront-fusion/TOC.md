@@ -2,10 +2,10 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: fc0b3b7ca4ec999c7a121d0564d36abff6f2d620
+source-git-commit: aa3bdd7d14c86085c36e3859f6d53c0cadb28920
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 97%
+source-wordcount: '1979'
+ht-degree: 96%
 
 ---
 
@@ -269,6 +269,7 @@ ht-degree: 97%
    * [檢視、編輯和刪除範本](/help/workfront-fusion/create-and-manage-templates/view-edit-and-delete-fusion-templates.md)
    * [發佈和共用範本](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md)
    * [目前可用的 Adobe Workfront Fusion 範本](/help/workfront-fusion/create-and-manage-templates/currently-available-fusion-templates.md)
+   * [使用範本連結Adobe Workfront Fusion和Jira](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md)
    * [Adobe Workfront Fusion 範本常見問題集](/help/workfront-fusion/create-and-manage-templates/fusion-templates-faqs.md)
 * 參考資料 {#references}
    * [參考資料](/help/workfront-fusion/references/references-toc.md)

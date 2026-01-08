@@ -1,37 +1,35 @@
 ---
-title: Adobe Workfront Fusion範本常見問題集
+title: Adobe Workfront Fusion 範本常見問題集
 description: 本文說明有關 [!DNL Adobe Workfront Fusion scenario] 範本的常見問題。
 author: Becky
 feature: Workfront Fusion
 exl-id: 479b1ee5-5bde-465e-a269-61a49640699e
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: d372a4c9c852c81b81b5dde4ca919a6fe7fd2bc5
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 1%
+source-wordcount: '277'
+ht-degree: 40%
 
 ---
 
-# Adobe Workfront Fusion範本常見問題集
+# Adobe Workfront Fusion 範本常見問題集
 
 本文會介紹Adobe Workfront Fusion案例範本的常見問題。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具有下列存取權才能使用本文中的功能：
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion授權**</td> 
@@ -44,17 +42,15 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>新增:</p> <ul><li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li><li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li></ul>
-   <p>或</p>
-   <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 

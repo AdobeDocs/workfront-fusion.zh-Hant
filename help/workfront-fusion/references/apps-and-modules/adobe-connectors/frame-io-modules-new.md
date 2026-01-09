@@ -67,7 +67,7 @@ Workfront 提供兩個 Frame.io 連接器，根據您所連接的 Frame.io 版�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -1129,7 +1129,7 @@ Frame.io 連接器會使用以下項目：
    <td> <p>選取或對應您要列出其欄位的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL傳回協定的最大數目]</td> 
+   <td role="rowheader">[!UICONTROL 傳回協定的最大數目]</td> 
    <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大欄位數。</p> </td> 
   </tr> 
  </tbody> 
@@ -1192,11 +1192,11 @@ Frame.io 連接器會使用以下項目：
    <td> <p>選取您要建立資產的專案，或對應該專案的 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案ID] </td> 
+   <td role="rowheader">[!UICONTROL 檔案ID] </td> 
    <td> <p>針對您要更新中繼資料的每個檔案，按一下<b>新增專案</b>，然後輸入或對應檔案的識別碼。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL值] </td> 
+   <td role="rowheader">[!UICONTROL 值] </td> 
    <td> <p>針對您想要更新中繼資料的每個欄位，按一下<b>新增專案</b>，然後輸入或對應欄位定義的識別碼，以及您想要放在該欄位中的值。 「檔案ID」欄位中指定的所有檔案都會使用此欄位值更新。</p> </td> 
   </tr> 
  </tbody> 
@@ -1279,7 +1279,7 @@ Frame.io 連接器會使用以下項目：
       <td> <p>輸入您要觀看活動之工作區的ID。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL事件]</td> 
+      <td role="rowheader">[!UICONTROL 事件]</td> 
       <td> <p>選取您要觸發此模組的事件</p> </td> 
      </tr> 
     </tbody> 

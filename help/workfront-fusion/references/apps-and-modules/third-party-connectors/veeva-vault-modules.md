@@ -3,9 +3,9 @@ title: Veeva Vault 模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Veeva Vault的工作流程，並將其連線到多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 881e5ba39d1730b641085cf0d02137d18e443135
+source-git-commit: b57ae36cf9225705c7f4923d7302b1749aa04d94
 workflow-type: tm+mt
-source-wordcount: '2485'
+source-wordcount: '2539'
 ht-degree: 19%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -115,6 +115,26 @@ ht-degree: 19%
        <td role="rowheader">連線名稱</td> 
        <td> <p>輸入此連線的名稱。</p> </td> 
       </tr> 
+      <tr> 
+       <td role="rowheader">授權伺服器提供者</td> 
+       <td> <p>選取您要用於此驗證的提供者。</p> </td> 
+      </tr> 
+      <tr> 
+       <td role="rowheader">Ping主機</td> 
+       <td> <p>如果您使用PingFederate，請輸入Ping主機。</p> </td> 
+      </tr> 
+      <tr>
+        <td role="rowheader">範圍</td>
+        <td>
+          <p>輸入此連線的範圍。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">租使用者ID</td>
+        <td>
+          <p>如果您使用Azure AD/Microsoft Entra ID作為授權伺服器提供者，請輸入此連線的租使用者ID。</p>
+        </td>
+      </tr>
       <tr>
         <td role="rowheader">用戶端 ID</td>
         <td>
@@ -128,18 +148,6 @@ ht-degree: 19%
         </td>
       </tr>
       <tr>
-        <td role="rowheader">範圍</td>
-        <td>
-          <p>輸入此連線的範圍。</p>
-        </td>
-      </tr>
-      <tr>
-        <td role="rowheader">租使用者ID</td>
-        <td>
-          <p>輸入此連線的租使用者ID。</p>
-        </td>
-      </tr>
-      <tr>
         <td role="rowheader">設定檔ID</td>
         <td>
           <p>輸入您OAuth2 / Copen ID Connect設定檔的ID。</p>
@@ -149,6 +157,12 @@ ht-degree: 19%
        <td role="rowheader">儲存庫DNS</td> 
        <td>輸入您的Veeva Vault DNS （網域名稱）。</p><p>若要找到Veeva Vault DNS，請檢查您用來存取Veeva Vault的URL。</p>例如，在URL <code>https://my-dns.veevavault.com</code>中，DNS是<code>my-dns</code>。 您不需要輸入整個URL。</td> 
       </tr> 
+      <tr>
+        <td role="rowheader">您的工作階段過期時間（分鐘）</td>
+        <td>
+          <p>輸入工作階段的到期時間（分鐘）。</p>
+        </td>
+      </tr>
      </tbody> 
     </table>
 

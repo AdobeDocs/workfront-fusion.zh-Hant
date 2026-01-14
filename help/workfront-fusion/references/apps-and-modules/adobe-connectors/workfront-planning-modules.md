@@ -4,10 +4,10 @@ description: 透過 [!DNL Adobe Workfront Planning] 模組，您可以根據 [!D
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: 30ddefa8519e6f2052308482137d0fa018676902
+source-git-commit: 86747ffc38fddde91352558277d40572d13ba2b0
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 44%
+source-wordcount: '1993'
+ht-degree: 52%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 44%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -71,54 +71,129 @@ Adobe Workfront Planning聯結器使用下列專案：
  </tbody> 
  </table>
 
-## 建立與 [!DNL Adobe Workfront Planning] 的連線 {#create-a-connection-to-adobe-workfront-planning}
+## 將Workfront Planning連線至Workfront Fusion
 
-您可以直接從Workfront Fusion模組內建立與您的[!DNL Workfront Planning]帳戶的連線。
+Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 
-1. 在任何 [!DNL Adobe Workfront Planning] 模組中，按一下「連線」方塊旁的「**[!UICONTROL 新增]**」。
+您可以直接從Workfront Planning Fusion模組內建立與Workfront Planning帳戶的連線。
 
+* [使用使用者端ID和使用者端密碼連線至Workfront Planning](#connect-to-workfront-planning-using-client-id-and-client-secret)
+* [使用伺服器對伺服器連線來連線至Workfront Planning](#connect-to-workfront--planning-using-a-server-to-server-connection)
+
+### 使用使用者端ID和使用者端密碼連線至Workfront Planning
+
+1. 在任何Adobe Workfront Planning模組中，按一下「連線」欄位旁的&#x200B;**新增**。
 1. 填寫下列欄位：
 
    <table style="table-layout:auto"> 
-      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
-      </col>
-      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
-      </col>
-      <tbody>
-        <tr>
-          <td role="rowheader">[!UICONTROL 連線名稱]</td>
-          <td>
-            <p>輸入此連線的名稱。</p>
-          </td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL 環境]</td>
-          <td>選取您要連線到生產或非生產環境。</td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL 類型]</td>
-          <td>選取您是要連線到服務帳戶還是個人帳戶。</td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL 用戶端 ID]<p>(選填)</p></td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。</td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL 用戶端密碼]<p>(選填)</p></td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL 驗證 URL]</td>
-          <td>輸入您的Workfront執行個體將用來驗證此連線的URL。 <p>預設值為 <code>https://oauth.my.workfront.com/integrations/oauth2</code>。</p>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL 主機前置詞]</td>
-          <td>輸入您的主機前置詞。<p>預設值為 <code>origin-</code>。</p>
-        </tr>
-      </tbody>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL 連線類型]</td>
+        <td>
+          <p>選取「<b>Adobe Workfront 驗證連線</b>」。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 連線名稱]</td>
+        <td>
+          <p>輸入新連線的名稱。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
+        <td>輸入您的 Workfront 用戶端 ID。您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。開啟您要連接的特定應用程式以便查看用戶端 ID。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
+        <td>輸入您的 Workfront 用戶端密碼。您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。如果您在 Workfront 的 OAuth2 應用程式沒有用戶端密碼，您可以產生另一個密碼。相關說明請參閱 Workfront 文件。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 驗證 URL]</td>
+        <td>此欄位可維持預設值，或者您可以輸入 Workfront 實例的 URL 且後面接著 <code>/integrations/oauth2</code>。 <p>範例： <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 主機前置詞]</td>
+        <td>在大多數情況下，此值應為 <code>origin</code>。
+      </tr>
+    </tbody>
     </table>
 
 1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
+
+   如果您未登入Workfront Planning，系統會將您導向至登入畫面。 登入後，您可以允許連線。
+
+>[!NOTE]
+>
+>* Workfront API 的 OAuth 2.0 連線不再依賴 API 金鑰。
+>* 若要建立與 Workfront 沙箱環境的連線，您必須在該環境中建立 OAuth2 應用程式，然後在您的連線中使用該應用程式產生的用戶端 ID 和用戶端密碼。
+
+### 使用伺服器對伺服器連線來連線至Workfront Planning
+
+1. 在任何Adobe Workfront Planning模組中，按一下「連線」欄位旁的&#x200B;**新增**。
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL 連線類型]</td>
+        <td>
+          <p>選取「<b>Adobe Workfront 伺服器對伺服器連線</b>」。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 連線名稱]</td>
+        <td>
+          <p>輸入新連線的名稱。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 執行個體名稱]</td>
+        <td>
+          <p>輸入執行個體的名稱，也是您的網域。</p><p>範例：若您的 URL 為 <code>https://example.my.workfront.com</code>，請輸入 <code>example</code>。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 執行個體路徑]</td>
+        <td>
+          <p>輸入此連線將連接的環境類型。</p><p>範例：若您的 URL 為 <code>https://example.my.workfront.com</code>，請輸入 <code>my</code>。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
+        <td>輸入您的 Workfront 用戶端 ID。您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。開啟您要連接的特定應用程式以便查看用戶端 ID。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
+        <td>輸入您的 Workfront 用戶端密碼。您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。如果您在 Workfront 的 OAuth2 應用程式沒有用戶端密碼，您可以產生另一個密碼。相關說明請參閱 Workfront 文件。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 範圍]</td>
+        <td>輸入此連線的適用範圍。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 主機前置詞]</td>
+        <td>在大多數情況下，此值應為 <code>origin</code>。
+      </tr>
+    </tbody>
+    </table>
+
+1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
+
+   如果您未登入Workfront Planning，系統會將您導向至登入畫面。 登入後，您可以允許連線。
+
+>[!NOTE]
+>
+>* Workfront API 的 OAuth 2.0 連線不再依賴 API 金鑰。
+>* 若要建立與 Workfront 沙箱環境的連線，您必須在該環境中建立 OAuth2 應用程式，然後在您的連線中使用該應用程式產生的用戶端 ID 和用戶端密碼。
+
 
 ## [!DNL Adobe Workfront Planning] 模組及其欄位
 
@@ -160,7 +235,7 @@ Adobe Workfront Planning聯結器使用下列專案：
       <td role="rowheader">[!UICONTROL 狀態]</td>
       <td>選取您要監視舊狀態或新狀態。<ul><li><p><b>[!UICONTROL 新狀態]</b></p><p>當記錄變更<b>為</b>特定值時觸發一個情境。</p></li><li><p><b>[!UICONTROL 舊狀態]</b></p><p>當記錄<b>從</b>特定值變更為其他時會觸發一個情境。</p></li></ul></td> 
     <tr>
-      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td role="rowheader">[！UICONTROL Workspace]</td>
       <td>如果觀看記錄，請選取您要觀看記錄的Workspace 。</td>
     </tr>
     <tr>
@@ -170,15 +245,15 @@ Adobe Workfront Planning聯結器使用下列專案：
     </tr>
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL 事件篩選器]</p> </td> 
-      <td> <p>您可以設定篩選器為僅監視符合所選取條件的記錄。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。您可以新增 AND 規則，以便使用一個以上的篩選器。</p> <p>注意：您無法編輯現有Workfront Webhook中的篩選器。 若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。</p> <p>如需事件篩選的詳細資訊，請參閱Workfront模組文章中的Workfront &gt; [!UICONTROL 觀看活動]模組中的<a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">事件訂閱篩選</a>。</p> </td> 
+      <td> <p>您可以設定篩選器為僅監視符合所選取條件的記錄。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。您可以新增 AND 規則，以便使用一個以上的篩選器。</p> <p>注意：您無法編輯現有Workfront Webhook中的篩選器。 若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。</p> <p>如需事件篩選的詳細資訊，請參閱Workfront模組文章中的Workfront &gt; [！UICONTROL觀看活動]模組中的<a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">事件訂閱篩選</a>。</p> </td> 
      </tr> 
     <tr>
-      <td role="rowheader">要觀看的[!UICONTROL 物件]</td>
+      <td role="rowheader">要觀看的[！UICONTROL物件]</td>
       <td>選取是否要監視新專案。 更新、新增和更新或刪除的記錄。</td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 排除此連線所做的更新]</p>
+        <p>[！UICONTROL排除此連線所做的更新]</p>
       </td>
       <td>啟用此選項可防止此模組使用的連線進行變更時觸發此案例。 如此可防止在此案例執行觸發動作時觸發另一個案例例項。</td> 
       </tr>
@@ -208,7 +283,7 @@ Adobe Workfront Planning聯結器使用下列專案：
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄型別ID]</p>
+        <p>[！UICONTROL記錄型別ID]</p>
       </td>
       <td>輸入或對應您要刪除之記錄型別的ID。</td> 
       </tr>
@@ -281,7 +356,7 @@ Adobe Workfront Planning聯結器使用下列專案：
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Workspace]</p>
+        <p>[！UICONTROL Workspace]</p>
       </td>
       <td>輸入或對應包含您要搜尋之記錄的Workspace。</td> 
       </tr>
@@ -293,13 +368,13 @@ Adobe Workfront Planning聯結器使用下列專案：
       </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄欄位]</p>
+        <p>[！UICONTROL記錄欄位]</p>
       </td>
       <td>針對搜尋中要使用的每個欄位，找到該欄位，選取運運算元，然後輸入或對應您要搜尋的值。 根據所選的記錄型別，可使用欄位。</td> 
       </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 篩選條件]</p>
+        <p>[！UICONTROL篩選條件]</p>
       </td>
       <td>選取篩選條件：<ul><li><b>且</b><p>模組傳回符合您選取之欄位值的<b>所有</b>的記錄。</p></li><li><b>或</b><p>模組傳回符合您選取之欄位值的<b>任一</b>的記錄。</p></li></ul></td> 
       </tr>
@@ -330,7 +405,7 @@ Adobe Workfront Planning聯結器使用下列專案：
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄型別ID]</p>
+        <p>[！UICONTROL記錄型別ID]</p>
       </td>
       <td>輸入或對應您要建立的記錄型別。 可用的記錄型別取決於您的Workfront Planning帳戶。</td> 
       </tr>
@@ -358,7 +433,7 @@ Adobe Workfront Planning聯結器使用下列專案：
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄ID]</p>
+        <p>[！UICONTROL記錄ID]</p>
       </td>
       <td>輸入或對應您要刪除之記錄的ID。</td> 
       </tr>
@@ -378,7 +453,7 @@ Adobe Workfront Planning聯結器使用下列專案：
       <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 記錄ID]</td>
+      <td role="rowheader">[！UICONTROL記錄ID]</td>
       <td>輸入或對應您要擷取之記錄的ID。</td>
     </tr>
   </tbody>
@@ -397,7 +472,7 @@ Adobe Workfront Planning聯結器使用下列專案：
       <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td role="rowheader">[！UICONTROL Workspace]</td>
       <td>選取或對映包含您要擷取之記錄的工作區。</td>
     </tr>
     <tr>
@@ -425,7 +500,7 @@ Adobe Workfront Planning聯結器使用下列專案：
       <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td role="rowheader">[！UICONTROL Workspace]</td>
       <td>選取或對應包含您要擷取之記錄型別的工作區。</td>
     </tr>
   </tbody>
@@ -445,7 +520,7 @@ Adobe Workfront Planning聯結器使用下列專案：
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 記錄ID]</p>
+        <p>[！UICONTROL記錄ID]</p>
       </td>
       <td>輸入或對應您要更新的記錄型別。 可用的記錄型別取決於您的Workfront Planning帳戶。</td> 
       </tr>

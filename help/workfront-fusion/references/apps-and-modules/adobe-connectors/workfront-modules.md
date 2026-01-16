@@ -4,7 +4,7 @@ description: 您可以使用 Adobe Workfront Fusion Adobe Workfront 連接器，
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: f968b9141173725160cea36575ad4e02a09a5e3f
+source-git-commit: ab12dbf0dbad25a8300eb1201fa3e0fde9148acc
 workflow-type: tm+mt
 source-wordcount: '7366'
 ht-degree: 99%
@@ -59,9 +59,11 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-+++## 將 Workfront 連接至 Workfront Fusion 
++++
+
+## 將Workfront連線至Workfront Fusion
 
 Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 

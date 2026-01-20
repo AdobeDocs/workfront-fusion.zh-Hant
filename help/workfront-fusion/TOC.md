@@ -2,10 +2,10 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: e6c6e33135f5367c626f83405a0b1e5fbb8f028a
+source-git-commit: 3ae274720ea2d7e4ee823a8467b750ad6f4d0c52
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 96%
+source-wordcount: '1993'
+ht-degree: 99%
 
 ---
 
@@ -16,13 +16,14 @@ ht-degree: 96%
 * Fusion 發行活動 {#fusion-release-activity}
    * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion 發行版本 - 2025 年 {#fusion-releases-2025}
+      * [Workfront Fusion發行活動： 2026年1月19日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-1-19.md)
       * [Workfront Fusion發行活動： 2026年1月12日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-1-12.md)
-      * [Workfront Fusion發行活動： 2025年11月17日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-17.md)
-      * [Workfront Fusion發行活動： 2025年12月15日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-12-15.md)
-      * [Workfront Fusion發行活動： 2025年12月8日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-12-8.md)
-      * [Workfront Fusion發行活動： 2025年12月1日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-12-1.md)
-      * [Workfront Fusion發行活動： 2025年11月10日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-10.md)
-      * [Workfront Fusion發行活動： 2025年11月3日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-3.md)
+      * [Workfront Fusion 發行活動：2025 年 11 月 17 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-17.md)
+      * [Workfront Fusion 發行活動：2025 年 12 月 15 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-12-15.md)
+      * [Workfront Fusion 發行活動：2025 年 12 月 8 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-12-8.md)
+      * [Workfront Fusion 發行活動：2025 年 12 月 1 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-12-1.md)
+      * [Workfront Fusion 發行活動：2025 年 11 月 10 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-10.md)
+      * [Workfront Fusion 發行活動：2025 年 11 月 3 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-11-3.md)
       * [Workfront Fusion 發行活動：2025 年 10 月 20 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-10-20.md)
       * [Workfront Fusion 發行活動：2025 年 10 月 27 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-10-27.md)
       * [Workfront Fusion 發行活動：2025 年 10 月 13 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-10-13.md)
@@ -180,7 +181,7 @@ ht-degree: 96%
          * [將使用者新增至團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-a-user-to-a-team.md)
          * [設定團隊通知選項](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.md)
          * [檢視組織的活動記錄](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.md)
-         * [檢視組織的績效儀表板](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-performance-dashboard.md)
+         * [檢視組織的效能儀表板](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-performance-dashboard.md)
       * 管理使用者與團隊 {#manage-users-and-teams}
          * [管理使用者與團隊：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/manage-users-and-teams.md)
          * [檢視組織中的使用者](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-users-in-an-org.md)
@@ -270,7 +271,7 @@ ht-degree: 96%
    * [檢視、編輯和刪除範本](/help/workfront-fusion/create-and-manage-templates/view-edit-and-delete-fusion-templates.md)
    * [發佈和共用範本](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md)
    * [目前可用的 Adobe Workfront Fusion 範本](/help/workfront-fusion/create-and-manage-templates/currently-available-fusion-templates.md)
-   * [使用範本連結Adobe Workfront Fusion和Jira](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md)
+   * [使用範本來連結 Adobe Workfront Fusion 和 Jira](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md)
    * [Adobe Workfront Fusion 範本常見問題集](/help/workfront-fusion/create-and-manage-templates/fusion-templates-faqs.md)
 * 參考資料 {#references}
    * [參考資料](/help/workfront-fusion/references/references-toc.md)
@@ -340,13 +341,13 @@ ht-degree: 96%
          * [Adobe Frame.io Beta (V4) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md)
          * [Adobe Frame.io 舊版 (V3) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
          * [Adobe I/O Events 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
-         * [Adobe InDesign模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/indesign-modules.md)
+         * [Adobe InDesign 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/indesign-modules.md)
          * [Adobe Journey Optimizer 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
          * [Adobe Lightroom 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
          * [Adobe Marketo 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
          * [Adobe PDF Services 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/pdf-modules.md)
          * [Adobe Photoshop 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-photoshop-modules.md)
-         * [Adobe Substance模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-substance-modules.md)
+         * [Adobe Substance 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-substance-modules.md)
          * [Adobe 儲存空間模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-storage-modules.md)
          * [Adobe Target 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
          * [Adobe 使用者管理模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-user-management-modules.md)
@@ -404,7 +405,7 @@ ht-degree: 96%
          * [SDL 管理翻譯模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/sdl-managed-translation-modules.md)
          * [ServiceNow 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/servicenow-modules.md)
          * [Slack 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules-new.md)
-         * [Slack模組（舊版）](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md)
+         * [Slack 模組 (舊版)](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md)
          * [Split.io 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/split-io-modules.md)
          * [Trello 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/trello-modules.md)
          * [Widen 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/widen-modules.md)

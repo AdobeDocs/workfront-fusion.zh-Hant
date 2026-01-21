@@ -5,9 +5,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 16d32ebd-1807-495e-8aaf-27346056ec71
 source-git-commit: 3cb613c11500dfc94774783ee0b38e6f1768de20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4539'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Workfront 提供兩個 Frame.io 連接器，根據您所連接的 Frame.io 版�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -303,7 +303,7 @@ Frame.io 連接器會使用以下項目：
 * [專案](#projects)
 * [共用](#shares)
 * [工作區](#workspaces)
-* [中繼資料](#metadata)
+* [後設資料](#metadata)
 * [其他](#other)
 
 ### 資產
@@ -317,7 +317,7 @@ Frame.io 連接器會使用以下項目：
 
 #### [!UICONTROL 建立資產] <!--different for v4-->
 
-此動作模組會建立新資產。 您可以上傳本機檔案，或提供遠端檔案的URL，以便從中建立資產。
+此動作模組會建立新資產。您可以上傳本機檔案，或提供 URL，以便使用遠端檔案來建立資產。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -348,16 +348,16 @@ Frame.io 連接器會使用以下項目：
    <td> <p>Enter the name of the file that you want to use for this asset.</p> </td> 
   </tr> -->
     <tr> 
-    <td role="rowheader">上傳型別 </td> 
-    <td> <p>選取您是從本機檔案還是從遠端生命週期建立資產。</p> </td> 
+    <td role="rowheader">上傳類型 </td> 
+    <td> <p>請選取要使用本機檔案或遠端檔案來建立資產。</p> </td> 
    </tr>
     <tr> 
     <td role="rowheader">檔案大小 </td> 
-    <td> <p>如果您要上傳本機檔案，請輸入或對應檔案大小（位元組）。</p> </td> 
+    <td> <p>如果您要上傳本機檔案，請輸入或對應檔案大小 (以位元組為單位)。</p> </td> 
    </tr>
   <tr> 
    <td role="rowheader">[!UICONTROL 來源 URL] </td> 
-   <td> <p>如果從遠端檔案建立資產，請輸入您要上傳之檔案的URL。</p> </td> 
+   <td> <p>若要使用遠端檔案建立資產，請輸入要上傳之檔案的 URL。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 來源檔案]</td> 
@@ -370,7 +370,7 @@ Frame.io 連接器會使用以下項目：
   </tbody> 
 </table>
 
-#### [!UICONTROL 建立資產（舊版）] <!--different for v4-->
+#### [!UICONTROL 建立資產 (舊版)]<!--different for v4-->
 
 此動作模組會建立新資產。
 
@@ -1025,18 +1025,18 @@ Frame.io 連接器會使用以下項目：
  </tbody> 
 </table>
 
-### 中繼資料
+### 後設資料
 
 * [建立帳戶層級欄位](#create-an-account-level-field)
 * [刪除帳戶層級欄位](#delete-an-account-level-field)
-* [取得中繼資料](#get-metadata)
+* [取得後設資料](#get-metadata)
 * [列出帳戶層級欄位](#list-account-level-fields)
-* [更新科目層次欄位定義](#update-an-account-level-field-definition)
-* [在多個檔案中更新中繼資料](#update-metadata-across-multiple-files)
+* [更新帳戶層級欄位定義](#update-an-account-level-field-definition)
+* [跨多個檔案更新後設資料](#update-metadata-across-multiple-files)
 
 #### 建立帳戶層級欄位
 
-此動作模組會建立及設定新的帳戶層級中繼資料欄位。
+此動作模組會建立和設定新的帳戶層級後設資料欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1048,11 +1048,11 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
-   <td> <p>選取或對應您要建立中繼資料的帳戶。</p> </td> 
+   <td> <p>選取或對應您要建立後設資料的帳戶。</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">欄位類型 </td> 
-   <td> <p>選取您要建立的中繼資料欄位型別，然後設定該欄位的選項。</p> </td> 
+   <td> <p>選取您要建立的後設資料欄位類型，然後設定此欄位的選項。</p> </td> 
   </tr> 
   </tr> 
    <tr> 
@@ -1064,7 +1064,7 @@ Frame.io 連接器會使用以下項目：
 
 #### 刪除帳戶層級欄位
 
-此動作模組會刪除單一帳戶層級中繼資料欄位。
+此動作模組會刪除單一帳戶層級的後設資料欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1076,18 +1076,18 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
-   <td> <p>選取或對應包含您要刪除之中繼資料欄位的帳戶。</p> </td> 
+   <td> <p>選取或對應包含要刪除的後設資料欄位之帳戶。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">欄位定義ID </td> 
-   <td> <p>輸入或對應您要刪除之欄位的ID。 您可以使用清單帳戶層級欄位模組來尋找欄位ID。</p> </td> 
+   <td role="rowheader">欄位定義 ID </td> 
+   <td> <p>輸入或對應要刪除的欄位之 ID。您可以使用列出帳戶層級欄位的模組來尋找欄位 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 取得中繼資料
+#### 取得後設資料
 
-此動作模組會擷取Frame.io中檔案的中繼資料。
+此動作模組會檢索 Frame.io 中檔案的後設資料。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1099,22 +1099,22 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
-   <td> <p>選取或對應包含您要擷取中繼資料之檔案的帳戶。</p> </td> 
+   <td> <p>選取或對應包含您要檢索其後設資料之檔案的帳戶。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">檔案ID </td> 
-   <td> <p>輸入或對應您要擷取中繼資料的檔案ID。</p> </td> 
+   <td role="rowheader">檔案 ID </td> 
+   <td> <p>輸入或對應您要檢索其後設資料的檔案之 ID。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">顯示null </td> 
-   <td> <p>啟用此選項以在輸出中包含值為null的欄位。</p> </td> 
+   <td role="rowheader">顯示 null </td> 
+   <td> <p>啟用此選項可在輸出中包含值為 null 的欄位。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### 列出帳戶層級欄位
 
-此模組會擷取指定帳戶的帳戶層級中繼資料欄位清單。
+此模組會檢索指定帳戶的帳戶層級後設資料欄位的清單。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1129,15 +1129,15 @@ Frame.io 連接器會使用以下項目：
    <td> <p>選取或對應您要列出其欄位的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 傳回協定的最大數目]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大欄位數。</p> </td> 
+   <td role="rowheader">[!UICONTROL 傳回協議的最大數量]</td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大欄位數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 更新科目層次欄位定義
+#### 更新帳戶層級欄位定義
 
-此模組會更新單一現有中繼資料欄位的定義。
+此模組會更新單一現有後設資料欄位的定義。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1149,27 +1149,27 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
-   <td> <p>選取或對應您要建立中繼資料的帳戶。</p> </td> 
+   <td> <p>選取或對應您要建立後設資料的帳戶。</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">欄位定義ID </td> 
-   <td> <p>輸入或對應您要更新的欄位ID。 您可以使用清單帳戶層級欄位模組來尋找欄位ID。</p> </td> 
+   <td role="rowheader">欄位定義 ID </td> 
+   <td> <p>輸入或對應您要更新的欄位之 ID。您可以使用列出帳戶層級欄位的模組來尋找欄位 ID。</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">欄位類型 </td> 
-   <td> <p>如果您想要變更欄位的欄位型別，請選取您要建立的中繼資料欄位型別，然後設定該欄位的選項。</p> </td> 
+   <td> <p>如果您想要變更此欄位的欄位類型，請選取您要建立的後設資料欄位類型，然後設定該欄位的選項。</p> </td> 
   </tr> 
   </tr> 
    <tr> 
    <td role="rowheader">名稱 </td> 
-   <td> <p>輸入或對應欄位的新名稱。</p> </td> 
+   <td> <p>輸入或對應此欄位的新名稱。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 在多個檔案中更新中繼資料
+#### 跨多個檔案更新後設資料
 
-此模組會以您指定的值更新一或多個檔案的中繼資料欄位。
+此模組會使用您指定的值來更新一個或多個檔案的後設資料欄位。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1181,7 +1181,7 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
-   <td> <p>選取或對應包含您要更新中繼資料之檔案的帳戶。</p> </td> 
+   <td> <p>選取或對應包含您要更新其後設資料的檔案之帳戶。</p> </td> 
   </tr> 
  <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID] </td> 
@@ -1192,12 +1192,12 @@ Frame.io 連接器會使用以下項目：
    <td> <p>選取您要建立資產的專案，或對應該專案的 ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案ID] </td> 
-   <td> <p>針對您要更新中繼資料的每個檔案，按一下<b>新增專案</b>，然後輸入或對應檔案的識別碼。</p> </td> 
+   <td role="rowheader">[!UICONTROL 檔案 ID] </td> 
+   <td> <p>針對您要更新其後設資料的每個檔案，請按一下「<b>新增項目</b>」，並輸入或對應檔案的 ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 值] </td> 
-   <td> <p>針對您想要更新中繼資料的每個欄位，按一下<b>新增專案</b>，然後輸入或對應欄位定義的識別碼，以及您想要放在該欄位中的值。 「檔案ID」欄位中指定的所有檔案都會使用此欄位值更新。</p> </td> 
+   <td> <p>針對您要更新其後設資料的每個欄位，請按一下「<b>新增項目</b>」，然後輸入或對應欄位定義的 ID，以及您要輸入該欄位中的值。「檔案 ID」欄位中指定的所有檔案皆會使用此欄位值進行更新。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1205,7 +1205,7 @@ Frame.io 連接器會使用以下項目：
 ### 其他
 
 * [進行自訂的 API 呼叫](#make-a-custom-api-call)
-* [觀看活動](#watch-events)
+* [觀看事件](#watch-events)
 * [監視後設資料值更新](#watch-metadata-value-updated)
 
 
@@ -1247,11 +1247,11 @@ Frame.io 連接器會使用以下項目：
  </tbody> 
 </table>
 
-#### 觀看活動
+#### 觀看事件
 
-此即時觸發模組會在選取的事件發生在Frame.io中時啟動案例。
+當選取的事件在 Frame.io 中發生時，此即時觸發程序模組會啟動一個情境。
 
-您可以使用現有的webhook，也可以建立新的。
+您可使用現有 Webhook 或建立新的 Webhook。
 
 若要建立新的 Webhook：
 
@@ -1263,7 +1263,7 @@ Frame.io 連接器會使用以下項目：
     <col> 
     <tbody> 
      <tr> 
-     <td role="rowheader">Webhook名稱 </td> 
+     <td role="rowheader">Webhook 名稱 </td> 
       <td> <p>輸入新 Webhook 的名稱。</p> </td> 
      </tr> 
      <tr> 
@@ -1272,11 +1272,11 @@ Frame.io 連接器會使用以下項目：
      </tr> 
      <tr> 
      <td role="rowheader">[!UICONTROL 帳戶 ID] </td> 
-      <td> <p>選取或對應包含您要觀看活動之工作區的帳戶。</p> </td> 
+      <td> <p>選取或對應包含您要觀看事件的工作區之帳戶。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
-      <td> <p>輸入您要觀看活動之工作區的ID。</p> </td> 
+      <td> <p>輸入您要觀看事件的工作區之 ID。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 事件]</td> 
@@ -1285,8 +1285,8 @@ Frame.io 連接器會使用以下項目：
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**&#x200B;以儲存webhook並返回模組。
-1. 按一下「觀看事件」模組中的&#x200B;**確定**&#x200B;以儲存設定。
+1. 按一下「**儲存**」來儲存此 Webhook 並返回模組。
+1. 在觀看事件模組中按一下「**確定**」來儲存設定。
 
 
 #### 監視後設資料值更新

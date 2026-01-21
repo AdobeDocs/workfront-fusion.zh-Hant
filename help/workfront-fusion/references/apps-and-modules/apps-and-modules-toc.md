@@ -7,9 +7,9 @@ feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
 source-git-commit: b5c41aea9f259e309a769a66eaa627b0e1f136db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,14 +48,14 @@ Fusion 為許多 Adobe 產品和服務提供連接器。
 * [Adobe Frame.io Beta (V4) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
 * [Adobe Frame.io 舊版 (V3) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
 * [Adobe I/O Events 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
-* [Adobe InDesign模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/indesign-modules.md)
+* [Adobe InDesign 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/indesign-modules.md)
 * [Adobe Journey Optimizer 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
 * [Adobe Marketo 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
 * [Adobe PDF Services 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/pdf-modules.md)
 * [Adobe Photoshop 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-photoshop-modules.md)
 * [Adobe 儲存空間模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-storage-modules.md)
-* [Adobe Substance模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-substance-modules.md)
+* [Adobe Substance 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-substance-modules.md)
 * [Adobe Target 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
 * [Adobe 使用者管理模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-user-management-modules.md)
 * [Adobe Workfront 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md)
@@ -116,7 +116,7 @@ Fusion 為許多第三方應用程式提供連接器。
 * [SDL 管理翻譯模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/sdl-managed-translation-modules.md)
 * [ServiceNow 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/servicenow-modules.md)
 * [Slack 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules-new.md)
-* [Slack模組（舊版）](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md)
+* [Slack 模組 (舊版)](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md)
 * [Split.io 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/split-io-modules.md)
 * [Trello 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/trello-modules.md)
 * [Veeva Vault 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/veeva-vault-modules.md)

@@ -59,7 +59,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -214,9 +214,9 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 +++ **[!UICONTROL 監視事件]**
 
-在Workfront中新增、更新或刪除特定型別的物件時，此觸發模組會即時執行案例。
+在 Workfront 中新增、更新或刪除特定類型的物件時，此觸發程序模組會即時執行某個情境。
 
-模組會顯示與webhook相關的所有事件訂閱。 這包括透過Fusion建立的事件訂閱，以及直接透過API建立的事件訂閱。 舊版Watch Events模組不提供此事件訂閱檢視。
+此模組會顯示與 Webhook 相關的所有事件訂閱。其中包括透過 Fusion 建立的事件訂閱，以及直接透過 API 建立的事件訂閱。舊版觀看事件模組並未提供此事件訂閱視圖。
 
 模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
 

@@ -1,17 +1,17 @@
 ---
-title: 使用AI產生案例區段
+title: 使用 AI 產生情境區段
 description: 您可以使用AI輸入文字提示，說明您需要案例的區段做什麼。 然後Fusion會產生一個或多個模組來執行這些動作，您可以在情境中使用這些模組。
 author: Becky
 feature: Workfront Fusion
 exl-id: d231e33a-6033-4e3c-b1d4-7034797c45a5
-source-git-commit: c83070a7c2d1d048000a4eace4aaede73c7ec49d
+source-git-commit: 2bec2607d55e4ba2ffd6ddcae6daa51071b204c4
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 1%
+ht-degree: 19%
 
 ---
 
-# 使用AI產生案例區段
+# 使用 AI 產生情境區段
 
 <!--DO NOT DELETE - linked through CSH-->
 
@@ -25,41 +25,43 @@ ht-degree: 1%
 
 和從AI產生的任何專案一樣，我們建議您仔細檢查並測試產生的模組，以確保模組如預期般執行。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-+++##必要條件
++++
+
+## 先決條件
 
 您的組織必須符合下列必要條件，才能使用此功能：
 
 * 貴組織必須已參與Workfront AI Assistant Beta計畫。
 * Adobe必須為貴組織的檔案提供已簽署的Adobe Gen AI合約。
 
-  如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署Adobe Gen AI合約](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
+  如需簽署合約的詳細資訊，請參閱Workfront檔案中AI助理概觀一文中的[簽署Adobe Gen AI合約](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement)。
 
 ## 目前支援的AI模組應用程式
 
@@ -68,9 +70,9 @@ Fusion AI目前可以產生連線到以下應用程式的模組：
 * Adobe Firefly
 * Azure OpenAI
 * Microsoft Graph
-* Adobe Workfront規劃
+* Adobe Workfront 規劃
 * Adobe Analytics
-* Adobe PDF服務
+* Adobe PDF Services
 * Adobe Marketo
 * Adobe Frame.io
 * Dropbox

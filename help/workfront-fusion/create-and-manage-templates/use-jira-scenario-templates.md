@@ -2,20 +2,18 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 使用範本連結Adobe Workfront Fusion和Jira
+title: 使用範本來連結 Adobe Workfront Fusion 和 Jira
 description: 使用這些範本自動化Adobe Workfront Fusion和Jira之間的工作流程。
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
-source-git-commit: c3d1abb898eec6fc84dc1de0fb7799d13d9e3571
+source-git-commit: 4ede5c7a75725a6540d6a8ff9cd056e6147d5c55
 workflow-type: tm+mt
 source-wordcount: '4171'
 ht-degree: 3%
 
 ---
 
-# 使用範本連結Adobe Workfront Fusion和Jira
+# 使用範本來連結 Adobe Workfront Fusion 和 Jira
 
 Adobe Workfront Fusion提供可自動化Fusion和Jira之間常用工作流程的範本。
 
@@ -48,7 +46,7 @@ Adobe Workfront Fusion提供可自動化Fusion和Jira之間常用工作流程的
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -61,7 +59,7 @@ Adobe Workfront Fusion提供可自動化Fusion和Jira之間常用工作流程的
   如需相關資訊與指示，請參閱Adobe檔案中的[技術帳戶設定](https://developer.adobe.com/cloud-storage/guides/getting-started/technical-account-setup)。
 * 您必須套用系統管理員許可權到Adobe Admin Console產品設定檔區域中的技術帳戶。
 
-  如需資訊與指示，請參閱[使用Adobe Admin Console在Workfront中建立系統管理員](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console#create-system-administrators-in-workfront-with-the-adobe-admin-console)
+  如需資訊與指示，請參閱[使用Adobe Admin Console在Workfront中建立系統管理員](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console#create-system-administrators-in-workfront-with-the-adobe-admin-console)
 
 ### Jira
 
@@ -156,13 +154,13 @@ When configuring this application, you will need the following scopes:
 
 1. 在Workfront中，建立系統整合使用者。 此使用者僅供Workfront Fusion使用，不代表人類使用者。 指派給此使用者的任務將觸發將Workfront與Jira同步的情境。
 
-   如需指示，請參閱Workfront檔案中的[新增使用者](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)。
+   如需指示，請參閱Workfront檔案中的[新增使用者](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users)。
 
 #### 在Workfront中建立自訂表單
 
 1. 在Workfront中，開始建立自訂表單。
 
-   如需指示，請參閱Workfront檔案中的[建立自訂表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form)。
+   如需指示，請參閱Workfront檔案中的[建立自訂表單](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form)。
 1. 將表單命名為&quot;**JIRA欄位**&quot;。
 1. 在自訂表單上包含下列欄位：
 
@@ -179,7 +177,7 @@ When configuring this application, you will need the following scopes:
 >
 >我們建議限制此表單以供其他使用者編輯。 您可以透過確保新增到自訂表單的任何使用者僅擁有檢視存取權來完成此操作。
 >
->如需指示，請參閱Workfront檔案中的[共用自訂表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/customize/custom-forms/manage-custom-forms/share-access-to-a-custom-form)。
+>如需指示，請參閱Workfront檔案中的[共用自訂表單](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/manage-custom-forms/share-access-to-a-custom-form)。
 
 ### 在Workfront Fusion中設定連線
 
@@ -253,7 +251,7 @@ When configuring this application, you will need the following scopes:
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取[僅新增記錄]。
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
+1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
 1. 繼續[將範本模組連線至Workfront和Jira](#connect-template-modules-to-workfront-and-jira)
 
 #### 將範本模組連線至Workfront和Jira
@@ -323,7 +321,7 @@ Awaiting feedback-->
 #### 將範本模組連線至Workfront和Jira （模組2）
 
 1. 在&#x200B;**每個** Workfront模組的「連線」欄位中，選取您在[在Workfront Fusion中設定連線](#configure-connections-in-workfront-fusion)中所建立的Workfront連線，然後按一下&#x200B;**確定**&#x200B;以儲存與該模組的連線。
-1. 在&#x200B;**每個** Jira模組的「連線」欄位中，選取您在[在Workfront Fusion中設定連線](#configure-connections-in-workfront-fusion)中所建立的Workfront連線，然後按一下&#x200B;**確定**&#x200B;以儲存與該模組的連線。
+1. 在&#x200B;**每個** Jira模組的「連線」欄位中，選取您在[在Workfront Fusion中設定連線](#configure-connections-in-workfront-fusion)中所建立的Workfront連線，然後按一下&#x200B;**確定**以儲存與該模組的連線。
    <!--#### Map custom fields-->
 
 +++
@@ -354,7 +352,7 @@ Awaiting feedback-->
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`Updated record only`。
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
+1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
 1. 在&#x200B;**設定JIRA變數**&#x200B;模組中，設定下列變數，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
    | 變數名稱 | 變數值 |
@@ -396,7 +394,7 @@ Awaiting feedback-->
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`Updated record only`。
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
+1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
 1. 在&#x200B;**設定JIRA變數**&#x200B;模組中，設定下列變數，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
    | 變數名稱 | 變數值 |
@@ -433,7 +431,7 @@ Awaiting feedback-->
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`New record only`。
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
+1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
 1. 在&#x200B;**設定變數**&#x200B;模組中，設定下列變數，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
    | 變數名稱 | 變數值 |
@@ -470,7 +468,7 @@ Awaiting feedback-->
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`Deleted record only`。
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
+1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
 1. 在第二個模組中，設定下列變數，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
    | 變數名稱 | 變數值 |
@@ -514,7 +512,7 @@ Awaiting feedback-->
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`New record only`。
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
+1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
 1. 在&#x200B;**每個** Workfront模組的「連線」欄位中，選取使用系統整合認證的Workfront連線，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 1. 在&#x200B;**每個** Jira模組的「連線」欄位中，選取使用系統整合認證的Jira連線，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
@@ -551,7 +549,7 @@ Awaiting feedback-->
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`Deleted record only`。
-1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
+1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
 1. 在&#x200B;**每個** Workfront模組的「連線」欄位中，選取使用系統整合認證的Workfront連線，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 1. 在&#x200B;**每個** Jira模組的「連線」欄位中，選取使用系統整合認證的Jira連線，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 

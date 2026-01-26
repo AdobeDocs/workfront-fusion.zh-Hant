@@ -33,7 +33,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 此Fusion範本可自動化該程式。 當任務提早完成時，所有相依（後續）任務都會自動重新排程，以更早開始，協助您的團隊更快行動並保持敏捷。
 
-### [!BADGE 新增！ ]{type=Informative} HTTP>CSV>WF — 依網域和層級建立事件子清單並匯出至CSV
+### [!BADGE 新增！ &#x200B;]{type=Informative} HTTP>CSV>WF — 依網域和層級建立事件子清單並匯出至CSV
 
 下載事件訂閱資訊、建立CSV檔案，並將檔案上傳至Workfront。
 

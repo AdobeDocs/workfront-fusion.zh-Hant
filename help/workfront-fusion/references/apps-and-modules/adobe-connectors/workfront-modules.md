@@ -1034,7 +1034,7 @@ Workfront 最近發行新版本的事件訂閱服務。新版本並非對 Workfr
 
 關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 
-關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
+關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
 
 <table style="table-layout:auto">
  <col> 
@@ -2362,7 +2362,7 @@ See a list of the Workfront object types for which you can use this module in [W
 >
 >   關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 >
->   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境 (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)]。
+>   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境 (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)]。
 
 Workfront [!UICONTROL 監視事件]模組會根據在 Workfront API 中建立事件訂閱的 Webhook 觸發情境。事件訂閱是一個資料集，用於決定哪些事件要傳送至 Webhook。例如，若您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
 

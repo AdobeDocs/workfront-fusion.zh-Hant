@@ -1,18 +1,18 @@
 ---
-title: 檢視組織的績效儀表板
+title: 檢視組織的效能儀表板
 description: Fusion管理員可以檢視顯示組織執行度量的控制面板。
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 671773fa1baaac8e01e0f01546602a738e219fdf
+source-git-commit: 0b9f972a0d051db6771f5a54d8af57cdee8b0ce6
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 6%
+source-wordcount: '548'
+ht-degree: 9%
 
 ---
 
-# 檢視組織的績效儀表板
+# 檢視組織的效能儀表板
 
 Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發生延遲的位置，以及您的背景工作集區的運作成效。 這可提供執行磁碟區、佇列深度、集區使用率和案例層級效能的即時可見度。
 
@@ -41,7 +41,7 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -50,6 +50,10 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
 >[!NOTE]
 >
 >度量會依工作者集區顯示。 若要檢視不同的Worker集區，請按一下控制面板左上角附近的「集區」欄位，然後選取您要檢視量度的集區。
+
+>[!NOTE]
+>
+>組織可以請求布建額外的背景工作集區（共2個）。
 
 在Fusion效能控制面板中，您可以看到下列量度。
 

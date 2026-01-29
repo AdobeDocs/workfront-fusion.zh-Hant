@@ -5,9 +5,9 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 0b9f972a0d051db6771f5a54d8af57cdee8b0ce6
+source-git-commit: 85b7a5e07ef7d3169b31f91bc54d4cb246199443
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '534'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -51,9 +51,13 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
 >
 >度量會依工作者集區顯示。 若要檢視不同的Worker集區，請按一下控制面板左上角附近的「集區」欄位，然後選取您要檢視量度的集區。
 
+<!--
+
 >[!NOTE]
 >
->組織可以請求布建額外的背景工作集區（共2個）。
+>Organizations can request provisioning for one additional worker pool (for a total of 2).
+
+-->
 
 在Fusion效能控制面板中，您可以看到下列量度。
 

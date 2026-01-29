@@ -5,9 +5,9 @@ description: 您可以在「情境設定」面板中設定情境的特定設定�
 author: Becky
 feature: Workfront Fusion
 exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
-source-git-commit: 0b9f972a0d051db6771f5a54d8af57cdee8b0ce6
+source-git-commit: 85b7a5e07ef7d3169b31f91bc54d4cb246199443
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1279'
 ht-degree: 7%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -187,6 +187,10 @@ Workfront >監看記錄模組中的最大週期數設為`10`。
 
 此設定會將案例指派給與您的組織相關聯的特定工作者集區，讓您將資源專用於高優先順序案例。
 
+<!--
+
 >[!NOTE]
 >
->組織可以請求布建額外的背景工作集區（共2個）。
+>Organizations can request provisioning of one additional worker pool (for a total of 2).
+
+-->

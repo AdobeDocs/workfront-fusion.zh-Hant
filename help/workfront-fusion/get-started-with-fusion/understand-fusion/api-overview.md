@@ -3,10 +3,10 @@ title: API 概觀
 description: 應用程式介面 (API) 是應用程式和服務互相進行通訊的方式。Fusion 使用 API 與您連接的應用程式進行通訊。每個應用程式都有個別的 API。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b30aac8040cc0b6bcad92914b1c0997a8ddebdd5
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 95cdc14b313a3f76d6feebabb59f72b4277ae9e4
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 91%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 100%
 應用程式介面 (API) 是應用程式和服務互相進行通訊的方式。Fusion 會使用 API 與您所連接的應用程式進行通訊。
 
 應用程式的所有者建立並控制 API。例如，Adobe 的 Workfront 團隊擁有 Workfront API，而 Microsoft 擁有 Microsoft Graph API。API 的所有者會定義可以透過 API 執行哪些動作。
+
+>[!NOTE]
+>
+>Workfront Fusion有自己的API，可用於在Fusion中自動化操作，例如管理連線、鉤點、情境、執行、記錄和其他核心自動化資源。
+>如需Workfront Fusion API的相關檔案，請參閱[Workfront Fusion API](https://developer.adobe.com/workfront-fusion-apis/)。
 
 ## 考量事項
 

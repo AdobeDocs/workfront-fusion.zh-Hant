@@ -5,10 +5,10 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 85b7a5e07ef7d3169b31f91bc54d4cb246199443
+source-git-commit: b4c9cd075cc2bb7aa3d5c568bb91fb8ce5c6f31e
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 9%
+source-wordcount: '686'
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -61,14 +61,22 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
 
 在Fusion效能控制面板中，您可以看到下列量度。
 
-* 正在等待處理的執行
-此圖表顯示在指定時間點等待處理的執行數目。
-* 集區使用率
+* **等待處理的執行**
+此圖表顯示在指定時間點等待處理的執行數目（也稱為執行待處理專案）。
+
+  等待處理的大量執行可能會影響Fusion執行個體的效能。 如果您的執行待辦專案達到5000個執行，您將會收到通知。 我們建議識別負責的情境，並修改或停用它們。 如果高執行積壓持續存在，Fusion團隊會停用負責的情境，藉此保護Fusion執行個體的效能。
+* **集區使用率**
 此圖表顯示一段時間內的工作者集區使用率。 如果此圖表定期顯示工作者集區使用率，您可能會想要將某些案例指派給另一個集區。
-* 各情境的執行次數
+
+  如果集區的使用率接近100%，則使用相同集區的其他資源可能會延遲或中斷。 如果發生這種情況，我們建議將高使用率案例重新指派給另一個工作者集區，或將現有案例修改為資源密集度較低的案例。
+* 每個情境&#x200B;**執行次數**
 此圖表顯示每個案例的執行次數。 不同的顏色代表不同的情境。 當您將滑鼠停留在圖表上時，會出現一個視窗，顯示哪個顏色是哪個案例。
-* 執行期間
+
+  您可以使用此圖表來識別哪些案例可能會導致執行待處理專案或高工作者集區使用率。
+* **執行期間**
 此圖表顯示每個案例的執行次數。 不同的顏色代表不同的情境。 當您將滑鼠停留在圖表上時，會出現一個視窗，顯示哪個顏色是哪個案例。
+
+  您可以使用此圖表來識別花費較平常更長的情境，包括受連線應用程式或服務問題影響的情境。
 
 ## 檢視Fusion效能儀表板
 

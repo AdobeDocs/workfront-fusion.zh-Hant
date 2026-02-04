@@ -4,8 +4,8 @@ description: 開啟 Fusion 時，您有許多動作選項。這篇文章可協�
 author: Becky
 feature: Workfront Fusion
 exl-id: 427ec131-d68d-4401-b620-998d3d5162da
-source-git-commit: b54a2ae43efb44ebd002357d7b2269f40523bc9f
-workflow-type: ht
+source-git-commit: 05c75c0e125a4f3f657049d7e57bbc94cc5e4d67
+workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 這篇文章會介紹這些區域，並提供詳細介紹每個區域的連結。
 
 | 區域 | 說明 | 如需詳細資訊，請參閱 |
-|---|---|---|
+| --- | --- | --- |
 | 組織概觀<br> ![組織圖示](assets/org-icon.png) | 在這裡可以看到關於您的 Fusion 組織的資訊。您可以檢視此組織中由情境執行的作業數量，以及使用中情境的清單。您也可以檢視此組織的團隊、使用者和環境的清單。<br>目前選取的組織會顯示在此圖示上方。 | [組織與團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md) |
 | 團隊概觀<br> ![團隊圖示](assets/team-icon.png) | 在這裡，您可以看到關於 Fusion 團隊的資訊，例如此團隊中由情境執行的作業數量，以及使用中情境的清單。您也可以檢視及管理此團隊的使用者。檢視團隊時，您可以從本頁面頂端的下拉式選單中選取不同的團隊。<br>目前選取的團隊會顯示在此圖示上方。<br>您可能需要先建立團隊，才能看到團隊概觀或這篇文章列出的任何團隊區段。 | [組織與團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md) |
 | 情境<br> ![情境圖示](assets/scenarios-icon.png) | Fusion 中的情境代表自動化的工作流程。例如，一個情境可以監視傳入的 Workfront 請求並將其轉換成專案，而另一個情境可以產生影像、將影像上傳給文件提供者，以及將核准任務新增至 Workfront。您在 Fusion 中的大部分工作是設定和管理各個情境。在「情境」區域中，您可以檢視及組織團隊的情境清單、選取個別情境進行檢視或修改，或者開始建立新情境。 | [情境概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md) |

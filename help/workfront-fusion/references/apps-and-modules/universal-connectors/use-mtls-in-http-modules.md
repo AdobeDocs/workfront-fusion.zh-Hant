@@ -1,17 +1,17 @@
 ---
-title: 在Adobe Workfront Fusion的HTTP模組中使用雙向TLS
+title: 在 Adobe Workfront Fusion 的 HTTP 模組中使用雙向 TLS
 description: 您可以在Adobe Workfront Fusion HTTP模組中使用Mutual TLS，讓資訊交易的兩端都能驗證對方的身分。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e0b4c3b-9a0b-491d-aaf2-0011d8386abe
-source-git-commit: 54c368d335b30f55cab19595a5b4740dde6013a7
+source-git-commit: b48b7ad0954208ae80e99501e9297a3adaede228
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 0%
+source-wordcount: '841'
+ht-degree: 16%
 
 ---
 
-# 在Adobe Workfront Fusion的HTTP模組中使用雙向TLS
+# 在 Adobe Workfront Fusion 的 HTTP 模組中使用雙向 TLS
 
 ## 雙向TLS總覽
 
@@ -29,41 +29,41 @@ ht-degree: 0%
 >
 >* **雙向TLS**： MySoftware.com是需要來自MyGreatBank.com API的資訊的軟體使用者端。 MyGreatBank只允許受信任的使用者端連線到其伺服器。 因此，除了驗證MyGreatBank.com身分的常規TLS之外，TLS/憑證授權程式也會驗證MySoftware.com的要求。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -83,6 +83,25 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
+>* 這些Workfront Fusion公開憑證的到期日為&#x200B;**2027年3月2日** （美國和EU）或&#x200B;**2027年3月8日** (Azure)。 您的憑證過期後，您需要將新的憑證上傳到Web服務。 建議您：
+>
+>   * 記下到期日，並設定提醒給自己，以便上傳憑證至您的Web服務。
+>   * 將此頁面加入書籤，即可輕鬆尋找新憑證。
+>
+>* 這些是非萬用字元mTLS憑證。
+
+| 資料中心 | 下載連 | 有效日期 |
+| --- | --- | --- |
+| 美國資料中心 | [下載Workfront Fusion US Certificate 2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-us-mtls-certificate-2026.pem) | 2026年1月29日至2027年3月2日 |
+| 歐盟資料中心 | [下載Workfront Fusion EU憑證2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-eu-mtls-certificate-2026.pem) | 2026年1月29日至2027年3月2日 |
+| Azure叢集 | [下載Workfront Fusion Azure憑證2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-eu-az-mtls-certificate-2026.pem) | 2026年2月4日至2027年3月8日 |
+
+
+### 2025年憑證
+
+>[!IMPORTANT]
+>
+>* 建議您安裝2026年的憑證（如上所示）。
 >* 這些Workfront Fusion公開憑證將於&#x200B;**2026年4月4日** （美國和EU）或&#x200B;**2025年11月25日** (Azure)到期。 您的憑證過期後，您需要將新的憑證上傳到Web服務。 建議您：
 >
 >   * 記下到期日，並設定提醒給自己，以便上傳憑證至您的Web服務。
@@ -91,7 +110,7 @@ ht-degree: 0%
 >* 這些是非萬用字元mTLS憑證。
 
 | 資料中心 | 下載連 | 有效日期 |
-|---|---|---|
+| --- | --- | --- |
 | 美國資料中心 | [下載Workfront Fusion US Certificate 2025](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-us-mtls-certificate.pem) | 2025年3月3日至2026年4月4日 |
 | 歐盟資料中心 | [下載Workfront Fusion EU憑證2025](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-eu-mtls-certificate.pem) | 2025年3月3日至2026年4月4日 |
 | Azure叢集 | [下載Workfront Fusion Azure憑證2025](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-az-mtls-certificate.pem) | 2024年10月24日至2025年11月25日 |

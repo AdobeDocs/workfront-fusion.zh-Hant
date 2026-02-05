@@ -4,9 +4,9 @@ description: 您可以在Adobe Workfront Fusion HTTP模組中使用Mutual TLS，
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e0b4c3b-9a0b-491d-aaf2-0011d8386abe
-source-git-commit: e0b25da3d0c7a2cab454adafc7525f14c4f0b4eb
+source-git-commit: 6a4bf090e7804f0b2b9ca6eefbb7490d1c35b6ce
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '866'
 ht-degree: 16%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->* 這些Workfront Fusion公開憑證的到期日為&#x200B;**2027年3月2日** （美國和EU）或&#x200B;**2027年3月8日** (Azure)。 您的憑證過期後，您需要將新的憑證上傳到Web服務。 建議您：
+>* 這些Workfront Fusion公開憑證的過期日期會因您的叢集而異。 請檢視下表，瞭解您的過期時間。 到期後，您需要將新憑證上傳到Web服務。 建議您：
 >
 >   * 記下到期日，並設定提醒給自己，以便上傳憑證至您的Web服務。
 >   * 將此頁面加入書籤，即可輕鬆尋找新憑證。
@@ -92,9 +92,10 @@ ht-degree: 16%
 
 | 資料中心 | 下載連 | 有效日期 |
 | --- | --- | --- |
-| 美國資料中心 | [下載Workfront Fusion US Certificate 2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-us-mtls-certificate-2026.pem) | 2026年1月29日至2027年3月2日 |
-| 歐盟資料中心 | [下載Workfront Fusion EU憑證2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-eu-mtls-certificate-2026.pem) | 2026年1月29日至2027年3月2日 |
-| Azure叢集 | [下載Workfront Fusion Azure憑證2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-eu-az-mtls-certificate-2026.pem) | 2026年2月4日至2027年3月8日 |
+| 美國AWS資料中心 | [下載Workfront Fusion US Certificate 2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-us-mtls-certificate-2026.pem) | 2026年1月29日至2027年3月2日 |
+| US Azure叢集 | [下載Workfront Fusion US Azure憑證2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-az-mtls-certificate.pem) | 2025年9月21日至2026年10月23日 |
+| 歐盟AWS資料中心 | [下載Workfront Fusion EU憑證2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-eu-mtls-certificate-2026.pem) | 2026年1月29日至2027年3月2日 |
+| EU Azure叢集 | [下載Workfront Fusion EU Azure憑證2026](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2026-certs/fusion-prod-eu-az-mtls-certificate-2026.pem) | 2026年2月4日至2027年3月8日 |
 
 
 ### 2025年憑證

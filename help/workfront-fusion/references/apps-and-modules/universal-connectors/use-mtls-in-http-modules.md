@@ -4,7 +4,7 @@ description: 您可以在Adobe Workfront Fusion HTTP模組中使用Mutual TLS，
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e0b4c3b-9a0b-491d-aaf2-0011d8386abe
-source-git-commit: b48b7ad0954208ae80e99501e9297a3adaede228
+source-git-commit: e0b25da3d0c7a2cab454adafc7525f14c4f0b4eb
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 16%
@@ -61,7 +61,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -79,7 +79,7 @@ ht-degree: 16%
 
 您可以使用以下連結下載Workfront Fusion公開憑證。 若要尋找您的資料中心，請參閱貴組織允許清單中「設定Fusion的IP位址」一文中的[識別您的資料中心](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)。
 
-### 2025年憑證
+### 2026年憑證
 
 >[!IMPORTANT]
 >

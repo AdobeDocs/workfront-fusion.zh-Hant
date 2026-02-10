@@ -3,9 +3,8 @@ title: 檢視組織的效能儀表板
 description: Fusion管理員可以檢視顯示組織執行度量的控制面板。
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
-source-git-commit: b4c9cd075cc2bb7aa3d5c568bb91fb8ce5c6f31e
+exl-id: 8f80f86a-69e5-48a1-9812-87322a4959a6
+source-git-commit: 1d8504b10d9ca74a5df5532232cda235c67b0185
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 7%
@@ -41,7 +40,7 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -93,6 +92,3 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
 1. 若要變更控制面板的時間範圍，請在控制面板右上角的「時間範圍」欄位中選取新的時間範圍。 可用的最長時段為24小時，最短時段為15分鐘。
 1. 若要重新整理圖表，請按一下控制面板右上角附近的重新整理圖示。
 1. 若要檢視不同的Worker集區，請按一下控制面板左上角附近的「集區」欄位，然後選取您要檢視的集區。
-
-
-

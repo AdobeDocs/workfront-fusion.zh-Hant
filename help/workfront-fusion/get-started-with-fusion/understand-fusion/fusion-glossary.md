@@ -4,10 +4,10 @@ description: 以下字彙表說明 Adobe Workfront Fusion 中的一些常用詞�
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f098ec2-8594-4e5d-9ce7-d1738a05f9a6
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
-workflow-type: ht
+source-git-commit: c89536b6d3e6ca5f7e5048b8487a2d86bda3b213
+workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
   </tr> 
   <tr>
    <td role="rowheader"> <p>連線</p> </td> 
-   <td> <p>連線代表連接至特定服務的一組認證。您可以在任何模組內設定連線，然後可以在任何其他模組內使用該連線。每個模組都必須選取連線，Fusion 才能使用這些認證存取模組所需的資訊。 </p><p>如需詳細資訊，請參閱<a href="/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md" class="MCXref xref">連線概觀</a>。</p> </td> 
+   <td> <p>連線代表要連線至指定服務的一組認證。 您可以在任何模組內設定連線，然後可以在任何其他模組內使用該連線。每個模組都必須選取連線，Fusion 才能使用這些認證存取模組所需的資訊。 </p><p>如需詳細資訊，請參閱<a href="/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md" class="MCXref xref">連線概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">連接器</td> 

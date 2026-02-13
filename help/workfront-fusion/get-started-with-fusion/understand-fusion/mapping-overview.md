@@ -4,10 +4,10 @@ description: 對應是將模組的輸出，經過結構化成為項目後，指�
 author: Becky
 feature: Workfront Fusion
 exl-id: 9208ce20-0757-427a-9669-ce4274d05522
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: 88147d0305595e1d0d388f510ed43fc5beaa4b64
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 >[!ENDSHADEBOX]
 
 
-關於對應的說明，請參閱[對應資料：文章索引](/help/workfront-fusion/create-scenarios/map-data/map-data-toc.md)之下的文章。
+如需有關對應的說明，請參閱[對應資料：文章索引](/help/workfront-fusion/create-scenarios/map-data/map-data-toc.md)下方的文章。
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 關於函式索引標籤的詳細資訊，請參閱[函式概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md)。
 
-關於使用函式對應項目的詳細資訊，請參閱[使用函式對應項目](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md)。
+如需使用函式對應專案的詳細資訊，請參閱[使用內建函式對應專案](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md)。
 
 ## 集合
 

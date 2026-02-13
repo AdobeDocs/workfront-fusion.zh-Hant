@@ -4,10 +4,10 @@ description: 開啟 Fusion 時，您有許多動作選項。這篇文章可協�
 author: Becky
 feature: Workfront Fusion
 exl-id: 427ec131-d68d-4401-b620-998d3d5162da
-source-git-commit: 05c75c0e125a4f3f657049d7e57bbc94cc5e4d67
+source-git-commit: 3c726c1df589785719c0f141fbd5bc17194cc218
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 100%
 | 金鑰<br> ![金鑰圖示](assets/keys-icon.png) | 我們使用公開和私密金鑰來加密和解密資料。公開金鑰可以分發，任何擁有公開金鑰的人都能加密資料，但只有私密金鑰能夠將資料解密。同樣地，擁有私密金鑰的使用者可以加密資料，而任何擁有公開金鑰者都能將其加密的資料解密。在「金鑰」區域中，您可以檢視和管理您的團隊擁有的金鑰。 | [金鑰](/help/workfront-fusion/references/modules/keys.md) |
 | 資料存放庫<br> ![資料存放庫圖示](assets/data-store-icon.png) | 資料存放庫是存在於情境以外的小型資料庫。您可以利用資料存放庫在不同情境之間，或在某個情境的個別執行之間轉移資料。在「資料存放庫」區域中，您可以檢視和管理您團隊擁有的資料存放庫。 | [資料存放庫](/help/workfront-fusion/create-scenarios/map-data/data-stores.md) |
 | 資料結構<br> ![資料結構圖示](assets/data-structure-icon.png) | 資料結構說明傳輸至 Fusion 的資料之格式，通常用於序列化或剖析 JSON、XML 和 CSV 等格式。在「資料結構」中，您可以檢視和管理您的團隊擁有的資料結構。 | [資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md) |
+| 函式 <br> ![功能圖示](assets/functions-icon.png) | 自訂函式是可新增至情境的JavaScript函式，可操控和轉換資料。 <br>您的組織必須擁有Adobe App Builder的授權，才能建立及使用自訂函式。 | [使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md) |
 
 >[!NOTE]
 >

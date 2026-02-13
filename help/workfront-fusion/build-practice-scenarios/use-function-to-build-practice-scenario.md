@@ -7,10 +7,10 @@ description: 瞭解如何新增函式以更新Workfront中的工作專案。
 author: Becky
 feature: Workfront Fusion
 exl-id: aa082ac8-48e8-4569-880e-024dd77feaa1
-source-git-commit: 6269db7454a63e80de3d770ab1012162d5080565
+source-git-commit: 88147d0305595e1d0d388f510ed43fc5beaa4b64
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 19%
+source-wordcount: '603'
+ht-degree: 18%
 
 ---
 
@@ -47,7 +47,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -60,7 +60,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 ### 將更新記錄模組新增至您的情境
 
 1. 在案例編輯器中開啟案例。
-1. 將滑鼠停留在第二個模組右邊的部分圓圈上，然後按一下[新增其他模組] **&#x200B;**。
+1. 將滑鼠停留在第二個模組右邊的部分圓圈上，然後按一下[新增其他模組] ****。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 更新記錄]**。
 1. 在ID欄位中，選取「轉換物件模組」下的ID區塊。 這是該模組輸出的專案ID。
 
@@ -111,4 +111,4 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 
 ## 資源
 
-* [使用函式對應項目](/help//workfront-fusion/create-scenarios/map-data/map-using-functions.md)
+* [使用內建函式對應專案](/help//workfront-fusion/create-scenarios/map-data/map-using-functions.md)

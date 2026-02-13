@@ -1,53 +1,61 @@
 ---
-title: 使用函式對應專案
-description: 對映專案時，您可以使用函式來建立簡單或複雜的公式。
+title: 使用內建函式對應專案
+description: 對應項目時，您可以使用函式來建立簡單或複雜的公式。
 author: Becky
 feature: Workfront Fusion
 exl-id: b9d7643e-febf-42e2-9ddc-8ec8eba98e7a
-source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
+source-git-commit: 3c726c1df589785719c0f141fbd5bc17194cc218
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 0%
+source-wordcount: '711'
+ht-degree: 24%
 
 ---
 
-# 使用函式對應專案
+# 使用內建函式對應專案
 
-對映專案時，您可以使用函式來建立簡單或複雜的公式。 可用的函式類似於Excel和某些程式語言中的函式：
+Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 這些函式涵蓋各種使用案例，包括陣列、字串、數字及先前模組資料的函式。
 
-* 它們會評估一般邏輯、數學、文字、日期和陣列。
-* 它們可讓您執行專案值的條件邏輯和轉換，例如將文字轉換為大寫、裁剪文字、將日期轉換為不同格式等等。
+此外，您可以建立自訂函式，情境可隨後使用這些函式來轉換和處理資料。
 
-## 存取需求
+如需自訂函式的資訊與指示，請參閱[使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md)。
 
-+++ 展開以檢視本文中功能的存取需求。
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p><ul><li>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li><li>您必須擁有Adobe App Builder授權才能使用自訂函式。</ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
-## 將函式插入欄位
+## 使用內建函式對應資料
+
+對應項目時，您可以使用函式來建立簡單或複雜的公式。可用的函式與 Excel 和一些程式語言中的函式類似：
+
+* 這些函式會評估一般邏輯、數學、文本、日期和陣列。
+* 您可以利用函式來執行條件邏輯和項目值轉換，例如將文字轉換為大寫、修剪文本、轉換不同的日期格式等。
+
+### 將函式插入欄位
 
 若要將函式插入欄位：
 
@@ -69,7 +77,7 @@ ht-degree: 0%
 
    如需函式及其引數的詳細資訊，請參閱[函式參考下的文章：文章索引](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)。
 
-1. 繼續設定模組，或按一下[確定]。**&#x200B;**
+1. 繼續設定模組，或按一下[確定]。****
 
 >[!TIP]
 >
@@ -86,7 +94,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-## 巢狀函式
+### 巢狀函式
 
 您可以巢狀內嵌函式。
 
@@ -110,9 +118,9 @@ ht-degree: 0%
 1. 在該函式中，按一下要巢狀函式移至何處。 在此範例中，巢狀函式會取代第一個引數。
 1. 在對映面板中，按一下巢狀函式。 在此範例中，這是`trim`函式。
 1. 繼續視需要設定函式。
-1. 繼續設定模組，或按一下[確定]。**&#x200B;**
+1. 繼續設定模組，或按一下[確定]。****
 
-## 使用[!DNL Google Sheets]函式
+### 使用[!DNL Google Sheets]函式
 
 如果Workfront Fusion不提供您想使用的功能，但由[!DNL Google Sheets]提供，您可以依照下列步驟使用：
 

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: 0c91cd108c7350a9e2d790ca71e6d4edbd4a461b
+source-git-commit: 84deef6c58e18d526788727611932d7fe10d3210
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 98%
+source-wordcount: '2032'
+ht-degree: 97%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 98%
 * Fusion 發行活動 {#fusion-release-activity}
    * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion 發行版本 - 2025 年 {#fusion-releases-2025}
+      * [Workfront Fusion發行活動： 2026年2月9日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-2-9.md)
       * [Workfront Fusion發行活動： 2026年2月2日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-2-2.md)
       * [Workfront Fusion發行活動： 2026年1月26日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-1-26.md)
       * [Workfront Fusion 發行活動：2026 年 1 月 19 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-1-19.md)
@@ -219,7 +220,8 @@ ht-degree: 98%
    * 對應資料 {#map-data}
       * [對應資料](/help/workfront-fusion/create-scenarios/map-data/map-data-toc.md)
       * [將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)
-      * [使用函式對應項目](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md)
+      * [使用內建函式對應專案](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md)
+      * [使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md)
       * [對應陣列和陣列元素](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md)
       * [在模組之間對應檔案](/help/workfront-fusion/create-scenarios/map-data/map-files.md)
       * [資料存放庫](/help/workfront-fusion/create-scenarios/map-data/data-stores.md)
@@ -335,6 +337,7 @@ ht-degree: 98%
          * [Webhook](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md)
          * [在 Adobe Workfront Fusion 的 HTTP 模組中使用雙向 TLS](/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md)
       * Adobe 連接器 {#adobe-connectors}
+         * [Adobe App Builder模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-app-builder.md)
          * [Adobe Acrobat Sign 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-sign-modules.md)
          * [Adobe Authenticator 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md)
          * [Adobe Campaign 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-campaign-classic-connector.md)

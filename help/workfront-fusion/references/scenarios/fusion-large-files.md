@@ -4,9 +4,9 @@ description: Workfront和HTTP聯結器目前提供大型檔案支援。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: a68de976258d17631459f0951d28657fd0e0dcf6
+source-git-commit: 2493ce7ccca599e30b44b62558573ce2a55b03e0
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1052'
 ht-degree: 6%
 
 ---
@@ -44,6 +44,7 @@ Workfront Fusion現在提供增強的資料傳輸功能，讓場景可以處理�
    * 套用PSD編輯
 * SharePoint
    * 建立檔案
+   * 建立檔案（舊版）
    * 取得檔案
 * Salesforce
    * 上傳檔案
@@ -78,7 +79,7 @@ Workfront >上傳檔案模組已修改為處理大型檔案。 此模組的先�
 
 ### Fusion的新檔案傳輸如何運作？
 
-Fusion處理檔案時，會將較大的檔案新增到永久儲存體（S3儲存貯體或Azure Blob儲存體）。 當Fusion模組執行檔案動作（例如上傳或下載）時，Fusion會使用持續性儲存體中的檔案作為來源，而非使用中記憶體。
+Fusion處理檔案時，會將較大的檔案新增到永久儲存體(S3儲存貯體或Azure Blob儲存體)。 當Fusion模組執行檔案動作（例如上傳或下載）時，Fusion會使用持續性儲存體中的檔案作為來源，而非使用中記憶體。
 
 ### 我可以使用不完整執行的大型檔案嗎？
 

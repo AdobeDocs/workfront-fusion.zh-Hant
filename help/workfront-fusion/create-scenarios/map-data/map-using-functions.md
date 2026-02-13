@@ -44,7 +44,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -77,7 +77,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 
    如需函式及其引數的詳細資訊，請參閱[函式參考下的文章：文章索引](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)。
 
-1. 繼續設定模組，或按一下[確定]。****
+1. 繼續設定模組，或按一下[確定]。**&#x200B;**
 
 >[!TIP]
 >
@@ -118,7 +118,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 1. 在該函式中，按一下要巢狀函式移至何處。 在此範例中，巢狀函式會取代第一個引數。
 1. 在對映面板中，按一下巢狀函式。 在此範例中，這是`trim`函式。
 1. 繼續視需要設定函式。
-1. 繼續設定模組，或按一下[確定]。****
+1. 繼續設定模組，或按一下[確定]。**&#x200B;**
 
 ### 使用[!DNL Google Sheets]函式
 

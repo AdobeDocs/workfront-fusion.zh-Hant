@@ -1,17 +1,17 @@
 ---
-title: 將篩選器新增至案例
+title: 在情境中加入篩選器
 description: 在某些情況下，您只需要使用符合特定條件的組合。 篩選可讓您選取這些組合。
 author: Becky
 feature: Workfront Fusion
 exl-id: b507dca0-0e85-4ab7-8310-b6e6bcb7ae12
-source-git-commit: c83070a7c2d1d048000a4eace4aaede73c7ec49d
+source-git-commit: a871a130a1ac023dcb4ce8da7241918da2431d3a
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
-# 將篩選器新增至案例
+# 在情境中加入篩選器
 
 在某些情況下，您只需要使用符合特定條件的組合。 篩選可讓您選取這些組合。
 
@@ -22,34 +22,36 @@ ht-degree: 0%
 * 如果是，套件組合會傳遞至案例中的下一個模組。
 * 如果沒有，則會終止束的處理。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-+++##必要條件
++++
+
+## 先決條件
 
 您必須先將兩個模組新增至情境，才能在它們之間新增篩選器。
 
@@ -90,13 +92,13 @@ ht-degree: 0%
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增篩選的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 按一下熒幕底部附近的DevTool圖示![&#x200B; DevTool圖示](assets/debugger-icon.png)，開啟Fusion DevTool。
+1. 按一下熒幕底部附近的DevTool圖示![ DevTool圖示](assets/debugger-icon.png)，開啟Fusion DevTool。
 
    如果您沒有看到DevTool圖示，請參閱[偵錯案例](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md)以取得開啟DevTool的說明。
 
 1. 按一下左側列中的&#x200B;**[!UICONTROL 工具]**&#x200B;圖示![DevTool工具](assets/devtools-tools-icon.png)。
 
-1. 按一下「複製篩選器」**&#x200B;**，然後在右側面板中設定「複製篩選器」**&#x200B;**&#x200B;工具：
+1. 按一下「複製篩選器」****，然後在右側面板中設定「複製篩選器」****&#x200B;工具：
 
    1. 將&#x200B;**[!UICONTROL Source模組]**&#x200B;直接設定為您要複製的篩選器之後的模組。
    1. 將&#x200B;**[!UICONTROL Target模組]**&#x200B;設定為您要直接放置篩選器的模組。

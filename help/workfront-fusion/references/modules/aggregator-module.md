@@ -40,7 +40,7 @@ ht-degree: 11%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -60,21 +60,21 @@ ht-degree: 11%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[！UICONTROL Source模組]</p> </td> 
+   <td> <p>[!UICONTROL Source模組]</p> </td> 
    <td> <p>套件組合彙總開始的模組。 來源模組通常是輸出一系列組合的疊代器或搜尋模組。</p><p>當您設定彙總器的來源模組（並關閉彙總器的設定）時，來源模組與彙總器模組之間的路由會以灰色區域包圍，以便您可以清楚看到彙總的開始與結束。 
-   </p> <p>如需迭代器的詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/iterator-module.md" class="MCXref xref">[！UICONTROL Iterator]模組</a>。</p> 
+   </p> <p>如需迭代器的詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator]模組</a>。</p> 
    <p>如需搜尋模組的詳細資訊，請參閱模組概觀中的<a href="/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#search-modules" class="MCXref xref">搜尋模組</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL目標結構型別]</p><p>（僅適用於[！UICONTROL陣列彙總]模組。）</p> </td> 
-   <td> <p> 彙總資料的目標結構。 預設選項[！UICONTROL自訂]可讓您選擇應彙總至[！UICONTROL陣列彙總]之輸出套件組合的<code>Array </code>專案的專案：</p> <p> <img src="assets/output-bundle-array-item.png"> </p> <p>在[！UICONTROL陣列彙總]模組之後連線更多模組，並返回彙總模組的設定後，[！UICONTROL目標]結構型別下拉式功能表將包含下列所有模組及其欄位：「集合陣列」型別。 <p>在此範例中，[!DNL Slack] &gt;[！UICONTROL建立訊息]模組的[！UICONTROL附件]欄位會出現在「陣列彙總&gt;目標結構型別」欄位中。 </p> <p> <img src="assets/array-aggregator-slack.png"> </p> </td> 
+   <td> <p>[!UICONTROL 目標結構型別]</p><p>（僅適用於[!UICONTROL 陣列彙總]模組。）</p> </td> 
+   <td> <p> 彙總資料的目標結構。 預設選項[!UICONTROL 自訂]可讓您選擇應彙總至[!UICONTROL 陣列彙總]之輸出套件組合的<code>Array </code>專案的專案：</p> <p> <img src="assets/output-bundle-array-item.png"> </p> <p>在[!UICONTROL 陣列彙總]模組之後連線更多模組，並返回彙總模組的設定後，[!UICONTROL 目標]結構型別下拉式功能表將包含下列所有模組及其欄位：「集合陣列」型別。 <p>在此範例中，[!DNL Slack] &gt;[!UICONTROL 建立訊息]模組的[!UICONTROL 附件]欄位會出現在「陣列彙總&gt;目標結構型別」欄位中。 </p> <p> <img src="assets/array-aggregator-slack.png"> </p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL彙總欄位]</td> 
+   <td>[!UICONTROL 彙總欄位]</td> 
    <td>您要包含在彙總模組輸出中的欄位。</td> 
   </tr> 
   <tr> 
-   <td> <p>[！UICONTROL Group by]</p> </td> 
+   <td> <p>[!UICONTROL Group by]</p> </td> 
    <td> <p>使用「分組依據」欄位，您可以定義包含一或多個對應專案的運算式。 接著，彙總的資料會依運算式的值分隔為「群組」。 每個群組都會輸出為個別的組合，包含索引鍵和資料陣列。 透過將結果分組，您可以在後續模組中使用該索引鍵作為篩選器。</p>
    <p>每個組合都包含兩個專案：</p> 
     <ul> 
@@ -84,7 +84,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> <p>在空白彙總後停止處理</p> </td> 
-   <td> <p>根據預設，即使沒有套件組合達到[！UICONTROL彙總]模組（例如，因為它們已從包含彙總的路徑中篩選掉），[！UICONTROL彙總]模組也會輸出彙總的結果。 如果選項[！UICONTROL Stop processing after an empty aggregation]已啟用，[！UICONTROL Aggregator]模組就不會在沒有輸入套件組合時產生任何輸出套件。 相反地，流程會停止。</p> </td> 
+   <td> <p>根據預設，即使沒有套件組合達到[!UICONTROL 彙總]模組（例如，因為它們已從包含彙總的路徑中篩選掉），[!UICONTROL 彙總]模組也會輸出彙總的結果。 如果選項[!UICONTROL Stop processing after an empty aggregation]已啟用，[!UICONTROL Aggregator]模組就不會在沒有輸入套件組合時產生任何輸出套件。 相反地，流程會停止。</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,10 +4,10 @@ description: 工作自動化需具備快速處理的能力，於是為了達成�
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 3a05e5df36bf9b1aacd0611fdad0240c8c52368d
-workflow-type: ht
-source-wordcount: '1092'
-ht-degree: 100%
+source-git-commit: 441b192d50e928ce74e54d8bcc0d89f4af348bb5
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 96%
 
 ---
 
@@ -76,8 +76,7 @@ ht-degree: 100%
 
 ## 未完成的執行
 
-* 每個情境中未完成的執行之總大小限制為 **10 MB**。如果已達到 10 MB 限制，則不會再儲存該情境未完成的執行。
-* 每個團隊中未完成的執行之總大小限制為 **500 MB**。如果已達到 500 MB 限制，則不會再儲存該團隊未完成的執行。
+* 未完成執行的總大小限製為每個情境&#x200B;**11 GB**&#x200B;或&#x200B;**100個未完成執行**，以先達到的限制為準。 如果達到限制，則不會再為該情景儲存不完整的執行。
 * Workfront Fusion 每分鐘允許最多 5 次失敗。
 
 ## 重試

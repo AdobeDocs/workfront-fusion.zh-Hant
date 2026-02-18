@@ -6,51 +6,49 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 748055ad-d305-4513-9a5c-9c970b74a96e
-source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
+source-git-commit: 5dfca593b17a234c80c807470026a7b192cbf7fa
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 23%
 
 ---
 
-# 模型內容通訊協定(MCP)模組
+# 模型內容協定 (MCP) 模組
 
-目前沒有MCP模組可用。
+<!--SET UP REDIRECTS-->
 
-<!-- SET UP REDIRECTS
+模型上下文通訊協定(MCP)是一種將AI語言模型與其他應用程式安全連線的方法。 您可以設定MCP伺服器，讓AI模型存取應用程式。 然後，您可以向AI模型傳送提示，它可以從應用程式返回資訊。
 
-Model Context Protocol (MCP) is a way to securely connect AI language models with other applications. You configure MCP servers, which allow the AI model to access the application. You can then send a prompt to the AI model, and it can return information from the application.
+例如，您可以設定MCP伺服器來連線AI模型與Gmail。 當您傳送提示「Give my last 5 emails from Gmail」時，它可以存取您的Gmail並傳回電子郵件。
 
-For example, you could configure a MCP server to connect an AI model with Gmail. When you send the prompt "Give me my last 5 emails from Gmail," it can access your Gmail and return the emails.
+「模型上下文通訊協定」(MCP)模組可讓您使用語言模型和MCP伺服器來處理使用者提示。
 
-The Model Context Protocol (MCP) module allows you to process a user prompt using a language model and MCP servers.
+## 存取權要求
 
-## Access requirements
-
-+++ Expand to view access requirements for the functionality in this article.
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p>Any Adobe Workfront Workflow package and any Adobe Workfront Automation and Integration package</p><p>Workfront Ultimate</p><p>Workfront Prime and Select packages, with an additional purchase of Workfront Fusion.</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront licenses</td> 
-   <td> <p>Standard</p><p>Work or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">產品</td> 
    <td>
-   <p>If your organization has a Select or Prime Workfront package that does not include Workfront Automation and Integration, your organization must purchase Adobe Workfront Fusion.</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in documentation](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -58,31 +56,47 @@ For more detail about the information in this table, see [Access requirements in
 
 
 
-## Model Context Protocol module and its fields
+## 模型內容通訊協定模組及其欄位
 
-When you configure the MCP module, Adobe Workfront Fusion displays the fields listed below. A bolded title in a module indicates a required field.
+當您設定MCP模組時，Adobe Workfront Fusion會顯示下列欄位。 在模組中，粗體標題表示那是必要欄位。
 
-### Process User Prompt
+### 處理使用者提示
 
-This action module processes a prompt, using the language model and MCP servers you specify.
+此動作模組會使用您指定的語言模型和MCP伺服器來處理提示。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Large language model (LLM) key]</td> 
-   <td> <p>Enter or map API key for the large language model you want to use for this prompt. </p> <p>Currently, only the Anthropic API key is supported.</p></td> 
+   <td>LLM金鑰</td> 
+   <td> 選取現有的LLM金鑰，或按一下<b>新增</b>並輸入下列資訊以建立新金鑰： 
+     <ul>
+       <li><b>金鑰名稱</b>：輸入新金鑰的名稱。</li>
+       <li><b>LLM</b>：選取與此索引鍵關聯的大型語言模型。</li>
+       <li><b>Key</b>：輸入或對應您所選模型的API金鑰。</li>
+       <li><b>模型</b>：選取金鑰將使用的LLM模型。</li>
+       <li><b>Token數目上限</b>：輸入或對映LLM在其回應中可產生的最大Token數目。<p>一個語彙基元通常等於四個字元，或一個英文單字的0.75。 「Hello world」會等於兩個權杖，而「Authentication」會等於一到兩個權杖。</li>
+      </ul>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL MCP servers]</td> 
-   <td> <p>For each MCP server that you want to make available for this prompt, click <b>Add item</b> and enter the server's name and host. </p> </td> 
+   <td>MCP伺服器</td> 
+   <td> <p>針對您想要連線的每個MCP伺服器，按一下[新增] <b></b>並輸入下列資訊： </p> 
+     <ul>
+       <li><b>連線</b>：選取Fusion用來連線到MCP伺服器的連線。</li>
+       <li><b>MCP伺服器主機</b>：輸入MCP伺服器的URL。</li>
+       <li><b>MCP伺服器名稱</b>：輸入或對應此MCP伺服器的名稱。</li>
+       <li><b>標題</b>：新增任何適用的標題。</li>
+       <li><b>MCP伺服器型別</b>：選取伺服器型別。</li>
+      </ul>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Enter your prompt]</td> 
-   <td> <p>Enter or map the prompt for the large lanugage model. </p> </td> 
+   <td>輸入提示 </td> 
+   <td> <p>輸入或對應您要處理的提示。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
--->
+

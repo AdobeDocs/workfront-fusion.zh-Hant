@@ -6,14 +6,14 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 748055ad-d305-4513-9a5c-9c970b74a96e
-source-git-commit: 5dfca593b17a234c80c807470026a7b192cbf7fa
+source-git-commit: 97abe6bf0ff7b10a139268f02f8a1a24f3e31b47
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 23%
+source-wordcount: '488'
+ht-degree: 18%
 
 ---
 
-# 模型內容協定 (MCP) 模組
+# MCP代理程式模組
 
 <!--SET UP REDIRECTS-->
 
@@ -22,6 +22,8 @@ ht-degree: 23%
 例如，您可以設定MCP伺服器來連線AI模型與Gmail。 當您傳送提示「Give my last 5 emails from Gmail」時，它可以存取您的Gmail並傳回電子郵件。
 
 「模型上下文通訊協定」(MCP)模組可讓您使用語言模型和MCP伺服器來處理使用者提示。
+
+如需有關Fusion案例中MCP的詳細資訊，請參閱[將AI提示加入您的案例](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md)。
 
 ## 存取權要求
 
@@ -48,21 +50,24 @@ ht-degree: 23%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
+## 先決條件
 
-
-
+* 您必須已設定要連線的任何MCP伺服器。
+* 您必須擁有所選LLM （大型語言模型）的LLM金鑰。
 
 ## 模型內容通訊協定模組及其欄位
-
-當您設定MCP模組時，Adobe Workfront Fusion會顯示下列欄位。 在模組中，粗體標題表示那是必要欄位。
 
 ### 處理使用者提示
 
 此動作模組會使用您指定的語言模型和MCP伺服器來處理提示。
+
+>[!NOTE]
+>
+>此模組必須傳回物件。 它不會傳回輸出，例如字串或數字。
 
 <table style="table-layout:auto"> 
  <col> 

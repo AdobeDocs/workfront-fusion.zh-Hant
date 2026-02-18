@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: 5e7a879ee69bea03aed5a936fe0962acdd3a3014
+source-git-commit: bd8e770765ac535fd8c11e6f58620e1e4cadfc3d
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2046'
 ht-degree: 97%
 
 ---
@@ -210,6 +210,7 @@ ht-degree: 97%
       * [新增模組](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md)
       * [在情境中加入模組](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-basic.md)
       * [設定模組](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md)
+      * [將AI提示新增至您的情境](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md)
       * [使用 AI 產生情境區段](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-with-ai.md)
       * [複製模組或情境](/help/workfront-fusion/create-scenarios/add-modules/copy-modules-or-scenarios.md)
       * [使用 Adobe Workfront Fusion 範本建立情境](/help/workfront-fusion/create-scenarios/add-modules/create-scenarios-with-fusion-templates.md)

@@ -3,10 +3,11 @@ title: Veeva Vault 模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Veeva Vault的工作流程，並將其連線到多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b57ae36cf9225705c7f4923d7302b1749aa04d94
+exl-id: 2ef967b6-0a69-4801-8574-5f17c9ce991d
+source-git-commit: 323e7d10795991bbcb6c1439db0af90e4331e687
 workflow-type: tm+mt
-source-wordcount: '2539'
-ht-degree: 19%
+source-wordcount: '3683'
+ht-degree: 14%
 
 ---
 
@@ -50,7 +51,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -117,7 +118,9 @@ ht-degree: 19%
       </tr> 
       <tr> 
        <td role="rowheader">授權伺服器提供者</td> 
-       <td> <p>選取您要用於此驗證的提供者。</p> </td> 
+       <td> <p>選取您要用於此驗證的提供者。</p> 
+       <p><b>注意：</b>選取Azure做為授權伺服器提供者時，Veeva Vault會使用Azure AD使用者端認證。</p>
+       </td> 
       </tr> 
       <tr> 
        <td role="rowheader">Ping主機</td> 
@@ -126,13 +129,13 @@ ht-degree: 19%
       <tr>
         <td role="rowheader">範圍</td>
         <td>
-          <p>輸入此連線的範圍。</p>
+          <p>輸入此連線的範圍。 範圍必須格式化為<code>{Application ID URI}/.default</code>。 應用程式ID URI必須屬於公開許可權的資源或應用程式。</p>
         </td>
       </tr>
       <tr>
         <td role="rowheader">租使用者ID</td>
         <td>
-          <p>如果您使用Azure AD/Microsoft Entra ID作為授權伺服器提供者，請輸入此連線的租使用者ID。</p>
+          <p>如果您正在使用Azure AD/Microsoft Entra ID作為授權伺服器提供者，請輸入此連線的租使用者ID。</p>
         </td>
       </tr>
       <tr>
@@ -150,12 +153,12 @@ ht-degree: 19%
       <tr>
         <td role="rowheader">設定檔ID</td>
         <td>
-          <p>輸入您OAuth2 / Copen ID Connect設定檔的ID。</p>
+          <p>輸入您的OAuth2 / Open ID Connect設定檔的ID。</p>
         </td>
       </tr>
       <tr> 
        <td role="rowheader">儲存庫DNS</td> 
-       <td>輸入您的Veeva Vault DNS （網域名稱）。</p><p>若要找到Veeva Vault DNS，請檢查您用來存取Veeva Vault的URL。</p>例如，在URL <code>https://my-dns.veevavault.com</code>中，DNS是<code>my-dns</code>。 您不需要輸入整個URL。</td> 
+       <td>輸入您的Veeva Vault DNS （網域名稱）。</p><p>若要找到Veeva Vault DNS，請檢查您用來存取Veeva Vault的URL。</p>例如，在URL <code>https://my-dns.veevavault.com</code>中，DNS是<code>my-dns.veevavault.com</code>。 </td> 
       </tr> 
       <tr>
         <td role="rowheader">您的工作階段過期時間（分鐘）</td>
@@ -184,15 +187,24 @@ ht-degree: 19%
 ### 文件
 
 * [建立單一檔案](#create-a-single-document)
+* [建立單一檔案關係](#create-a-single-document-relationship)
+* [建立多個註解](#create-multiple-annotations)
 * [建立多個檔案](#create-multiple-documents)
+* [建立多個檔案關係](#create-multiple-document-relationships)
 * [刪除單一檔案](#delete-a-single-document)
+* [刪除單一檔案關係](#delete-a-single-document-relationship)
+* [刪除多個註解](#delete-multiple-annotations)
+* [刪除多個檔案關係](#delete-multiple-document-relationships)
 * [下載檔案](#download-file)
 * [匯出檔案](#export-documents)
 * [取得單一檔案](#get-a-single-document)
+* [取得檔案註解](#get-document-annotations)
+* [取得檔案關係](#get-document-relationships)
 * [啟動使用者動作](#initiate-user-action)
 * [列出檔案](#list-documents)
 * [擷取檔案匯出結果](#retrieve-document-export-results)
 * [更新單一檔案](#update-a-single-document)
+* [更新多個註解](#update-multiple-annotations)
 * [更新多份檔案](#update-multiple-documents)
 
 #### 建立單一檔案
@@ -205,7 +217,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -218,6 +230,114 @@ ht-degree: 19%
  </tbody> 
 </table>
 
+#### 建立單一檔案關係
+
+此動作模組會建立兩份檔案之間的關係
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>文件 ID</p> </td> 
+   <td> <p>輸入或對應您要建立關係的檔案ID。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>版本</p> </td> 
+   <td> <p>選取或對應您要建立關聯性之版本的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>目標檔案ID</p> </td> 
+   <td> <p>輸入關係指向的檔案ID。</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Target主要版本</p> </td> 
+   <td> <p>輸入目標檔案的主要版本。 這是該點之前的數字。</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>目標次要版本</p> </td> 
+   <td> <p>輸入目標檔案的主要版本。 這是該點之後的數字。</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>關係型別</p> </td> 
+   <td> <p>輸入或對應您要建立的關係型別。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 建立多個註解
+
+此動作模組可讓您建立最多500個註解。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>註解</p> </td> 
+   <td> <p>針對您想要新增的每個附註，按一下<b>新增專案</b>，並填入本文中<a href="#annotation-fields" class="MCXref xref">附註欄位</a>中說明的資料。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### 附註欄位
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">附註型別 </td> 
+   <td> <p>選取您要建立的註釋型別。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>類型</p> </td> 
+   <td> <p>輸入或對應您要用於此註解的地標型別。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>頁碼</p> </td> 
+   <td> <p>輸入或對應您要此註解出現的頁碼。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>X座標</p> </td> 
+   <td> <p>輸入或對應位置的X座標。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Y座標</p> </td> 
+   <td> <p>輸入或對映位置的Y座標。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>寬度</p> </td> 
+   <td> <p>輸入或對映位置標籤的寬度。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>高度</p> </td> 
+   <td> <p>輸入或對應預留位置的高度。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>樣式</p> </td> 
+   <td> <p>輸入或對映位置標籤的樣式。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>參考</p> </td> 
+   <td> <p>參照允許註釋參照外部來源。 針對您想要加入至註釋的每個參考，按一下<b>加入專案</b>，然後輸入參考的型別、檔案版本ID和註釋。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>選取欄位</p> </td> 
+   <td> <p>選取您要提供值的欄位，然後在每個欄位中輸入值。 可用欄位取決於註解型別。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 #### 建立多個檔案
 
 此模組會使用CSV檔案建立多個檔案或範本。
@@ -228,15 +348,79 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
-   <td> <p>選取您要建立範本或檔案</p> </td> 
+   <td> <p>選取您要建立範本或檔案。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">  <p>檔案資料</p> </td> 
    <td> <p>對應將用於建立檔案的CSV檔案。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 建立多個檔案關係
+
+此動作模組可設定多個檔案關係。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>輸入型別</p> </td> 
+   <td> <p>選取您要用來建立這些關係的輸入型別。</p> <ul><li>CSV</li><li>JSON</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>檔案資料</p> </td> 
+   <td> <p>如果您使用CSV檔案，請輸入或對CSV檔案資料。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>關係資料</p> </td> 
+   <td> <p>如果您使用JSON，針對您想要新增的每個關聯性，按一下「<b>新增專案</b>」，並填入本文中「<a href="#relationship-fields" class="MCXref xref">關聯性欄位</a>」中說明的資料。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### 關係欄位
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Source檔案ID </td> 
+   <td> <p>輸入或對應您要建立關係的檔案ID。</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Source主要版本</p> </td> 
+   <td> <p>輸入來原始檔的主要版本。 這是該點之前的數字。</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Source次要版本</p> </td> 
+   <td> <p>輸入來原始檔的主要版本。 這是該點之後的數字。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>目標檔案ID</p> </td> 
+   <td> <p>輸入關係指向的檔案ID。</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Target主要版本</p> </td> 
+   <td> <p>輸入目標檔案的主要版本。 這是該點之前的數字。</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>目標次要版本</p> </td> 
+   <td> <p>輸入目標檔案的主要版本。 這是該點之後的數字。</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>關係型別</p> </td> 
+   <td> <p>輸入或對應您要建立的關係型別。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -251,7 +435,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -259,7 +443,88 @@ ht-degree: 19%
   </tr> 
   <tr> 
    <td role="rowheader"><p>檔案ID/繫結器ID/範本名稱</p> </td> 
-   <td> <p>選取您要刪除的欄位。</td> 
+   <td> <p>選取您要刪除的專案。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 刪除單一檔案關係
+
+此動作模組會從檔案刪除關係
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>文件 ID</p> </td> 
+   <td> <p>針對您要刪除的關係輸入或對應來原始檔的識別碼。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>版本</p> </td> 
+   <td> <p>選取或對應您要刪除關聯性的版本ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>關係ID</p> </td> 
+   <td> <p>輸入或對應您要刪除之關係的ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 刪除多個註解
+
+此動作模組會刪除註解。 使用者必須擁有刪除Veeva Vault中註解的許可權。 您最多可以刪除500個註解。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>註解</p> </td> 
+   <td> <p>針對您要刪除的每個附註，按一下<b>新增專案</b>並輸入下列欄位。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>ID</p> </td> 
+   <td> <p>輸入或對應您要刪除之註解的ID。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>檔案版本ID</p> </td> 
+   <td> <p>輸入或對應包含您要刪除之註解的檔案版本號碼。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 刪除多個檔案關係
+
+此動作模組會從多份檔案刪除關係
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>輸入型別</p> </td> 
+   <td> <p>選取您要提供的輸入型別，以刪除這些關係。</p> <ul><li>CSV</li><li>JSON</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>檔案資料</p> </td> 
+   <td> <p>如果您使用CSV檔案，請輸入或對CSV檔案資料。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>關係資料</p> </td> 
+   <td> <p>如果您使用JSON，針對您想要新增的每個關係，按一下<b>新增專案</b>並輸入關係識別碼。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -274,7 +539,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -309,7 +574,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -344,7 +609,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -353,6 +618,60 @@ ht-degree: 19%
   <tr> 
    <td role="rowheader"><p>檔案ID/繫結器ID/範本名稱</p> </td> 
    <td> <p>選取您要擷取資料的欄位。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 取得檔案註解
+
+此模組會從特定檔案版本擷取註解。 您可以擷取所有註釋或選擇僅擷取特定註釋型別。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>文件 ID</p> </td> 
+   <td> <p>選取或對應您要擷取註釋的檔案。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>版本</p> </td> 
+   <td> <p>選取或對應您要擷取註解之版本的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">傳回附註的最大數量</td> 
+   <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大註解數量。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 取得檔案關係
+
+此模組會擷取檔案的所有關係。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>文件 ID</p> </td> 
+   <td> <p>選取或對應您要擷取關係的檔案。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>版本</p> </td> 
+   <td> <p>選取或對應您要擷取關係之版本的ID。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">傳回關係的最大數量</td> 
+   <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大關聯數。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,7 +686,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -398,7 +717,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -421,11 +740,30 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>工作 ID</p> </td> 
    <td> <p>輸入或對應您要傳回結果的作業ID。 </p> </td> 
+  </tr> 
+  </tbody> 
+</table>
+
+#### 更新多個註解
+
+此動作模組最多可更新500個註解。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>註解</p> </td> 
+   <td> <p>針對您要更新的每個附註，按一下<b>新增專案</b>，並填入本文中<a href="#annotation-fields" class="MCXref xref">附註欄位</a>中說明的資料。</p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -440,7 +778,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -463,7 +801,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -502,7 +840,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -521,7 +859,7 @@ ht-degree: 19%
    <td>輸入或對應物件名稱__v欄位值，例如<code>product__v</code>、<code>country__v</code>或<code>custom_object__c</code>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">記錄ID</td> 
+   <td role="rowheader">記錄 ID</td> 
    <td>如果您要深度複製記錄，請選取要複製的記錄。</td> 
   </tr> 
   <tr> 
@@ -541,7 +879,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -552,7 +890,7 @@ ht-degree: 19%
    <td>選取您要刪除的物件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">記錄ID</td> 
+   <td role="rowheader">記錄 ID</td> 
    <td>選取您要刪除的記錄ID。</td> 
   </tr> 
   <tr> 
@@ -572,14 +910,14 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件名稱</td> 
    <td>選取您要擷取中繼資料的物件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">記錄ID</td> 
+   <td role="rowheader">記錄 ID</td> 
    <td>選取您要擷取中繼資料的記錄ID。</td> 
   </tr> 
  </tbody> 
@@ -595,7 +933,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>擷取當地語系化標籤</p> </td> 
@@ -620,7 +958,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -639,7 +977,7 @@ ht-degree: 19%
    <td>輸入或對應物件名稱__v欄位值，例如<code>product__v</code>、<code>country__v</code>或<code>custom_object__c</code>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">記錄ID</td> 
+   <td role="rowheader">記錄 ID</td> 
    <td>選取要更新的記錄識別碼。</td> 
   </tr> 
   <tr> 
@@ -673,11 +1011,11 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線</td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>輸入相對於<code>baseurl/api/v</code>的路徑。  例如： <code>/objects/documents</code>。 不要包含<code>baseurl/api/v/</code>，因為它已包含。</td> 
+   <td>輸入相對於<code>baseurl/api/v</code>的路徑。  例如: <code>/objects/documents</code>。不要包含<code>baseurl/api/v/</code>，因為它已包含。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">方法</td> 
@@ -711,7 +1049,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>類型</p> </td> 
@@ -734,7 +1072,7 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td role="rowheader">連線 </td> 
-   <td> <p>如需有關將Veeva Vault帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>稽核型別</p> </td> 
@@ -758,5 +1096,3 @@ ht-degree: 19%
   </tr> 
  </tbody> 
 </table>
-
-

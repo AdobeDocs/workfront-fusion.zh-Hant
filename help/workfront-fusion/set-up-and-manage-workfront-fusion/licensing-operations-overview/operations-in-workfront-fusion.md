@@ -1,17 +1,17 @@
 ---
-title: 營運
+title: 作業
 description: Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目的，模組所執行的任何成功動作都是作業。
 author: Becky
 feature: Workfront Fusion
 exl-id: c14e2bb2-1cce-48ff-8bea-acc9829d3cf2
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: d630251ec01f5e11bad0305a2f49fb447bf1dd1e
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
 
-# 營運
+# 作業
 
 Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目的，模組所執行的任何成功動作都是作業。
 
@@ -20,12 +20,17 @@ Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目
 * 一般而言，任何成功的動作步驟執行都會被視為作業。
 * 案例中的第一個模組只會執行一次，而且一律會計為一項作業，即使未傳回套件組合亦然。
 * 其餘模組執行的次數取決於它們必須處理的組合數量。  一個套件組合的一個模組執行為一項作業。 彙總模組則為例外，其計算為每一組處理中的套件組合進行一次作業。
+* 操作值可能有所不同。 有些將更小、更簡單的操作，而有些將更複雜。 無論操作有多簡單或複雜，都會計入您的總計。
 * 作業在案例執行的[!UICONTROL 最終處理]階段計算。
 * 下列&#x200B;**不是**&#x200B;計入為作業：
    * 任何篩選步驟。
    * 任何發生錯誤或中斷的動作。
    * 任何因不符合路由規則而不執行的路由，例如遞補或停用的路由。
    * 未執行的任何動作，可能是因為篩選器不允許資料通過，或因為案例因錯誤而停止。
+
+>[!NOTE]
+>
+>如果您的組織例行嘗試使用比Workfront Fusion套件允許的作業更多時，我們建議您考慮升級至自動化與整合Ultimate套件。
 
 ## 作業限制
 

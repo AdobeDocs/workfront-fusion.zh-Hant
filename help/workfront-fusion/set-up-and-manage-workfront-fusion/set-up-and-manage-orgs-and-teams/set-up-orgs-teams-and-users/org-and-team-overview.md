@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion的「組織」和「團隊」功能可讓企
 author: Becky
 feature: Workfront Fusion
 exl-id: 44e6de2a-b2d3-410d-abc3-10facd258495
-source-git-commit: 4cd97fe2924150b9e7be140a25215f135b2788da
+source-git-commit: 9cb630b713f5fac90acff54fa2034e9d65dd1611
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '612'
+ht-degree: 2%
 
 ---
 
@@ -27,6 +27,18 @@ Workfront Fusion使用者屬於組織。
 
 必須先將使用者新增至組織，才能將其新增至團隊。
 
+### 組織資源
+
+下列資源會影響整個Fusion組織，因此會在組織層級上擁有與處理：
+
+* **背景工作集區：**：背景工作集區是專用於特定組織的Workfront Fusion處理資源數量。
+
+  如需詳細資訊，請參閱[背景工作集區](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/worker-pools.md)。
+
+* **作業**： Adobe Workfront Fusion中的作業是由模組執行的工作。
+
+  如需詳細資訊，請參閱[作業](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md)。
+
 ### 組織角色
 
 使用者在組織中擁有下列其中一種角色：
@@ -43,11 +55,11 @@ Workfront Fusion使用者屬於組織。
 
 團隊是共用特定資源存取許可權的使用者群組。 這些資源可能包括：
 
-* 方案
+* 情境
 * 連線
 * Webhook
 * 金鑰
-* 資料儲存區
+* 資料存放庫
 * 資料結構
 * 電子郵件通知設定
 

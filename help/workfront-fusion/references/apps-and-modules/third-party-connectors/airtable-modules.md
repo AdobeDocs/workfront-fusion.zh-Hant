@@ -1,56 +1,56 @@
 ---
-title: 可投放模組
-description: 除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+title: Airtable 模組
+description: Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusion 授權。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3b445b50-5812-4ded-9788-f467991e0b52
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: a5a1f8f596b55b2f1eca9d7874b5885e435b2489
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 2%
+source-wordcount: '1957'
+ht-degree: 26%
 
 ---
 
-# 可投放模組
+# Airtable 模組
 
 
 使用Adobe Workfront Fusion的[!DNL Airtable]聯結器，您可以根據[!DNL Airtable]帳戶中的事件啟動案例、建立、上傳和更新記錄、搜尋記錄，以及對Airtable API進行自訂API呼叫。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -75,7 +75,7 @@ Airtable聯結器使用下列專案：
    <td>https://api.airtable.com/v0</td> 
   </tr>
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v3.3.28</td> 
   </tr>
  </tbody> 
@@ -89,8 +89,10 @@ Airtable聯結器使用下列專案：
 1. Open your account overview and generate the API key.
 -->
 1. 開啟Workfront Fusion並開啟所需模組的&#x200B;**建立連線**&#x200B;對話方塊。
-1. 輸入連線的名稱。
-1. （選擇性）按一下「顯示進階設定」，然後輸入您的Airtable使用者端ID和使用者端密碼。
+1. 選取您是使用個人存取權杖或OAuth 2授權。
+1. 輸入此連線的名稱。
+1. （視條件而定）如果使用個人存取權杖，請按一下「顯示進階設定」，然後輸入您的個人存取權杖。
+1. （條件式）如果使用OAuth 2，請按一下顯示進階設定，然後輸入您的Airtable使用者端ID和使用者端密碼。
 1. 按一下&#x200B;**繼續**&#x200B;按鈕以建立連線並返回模組。
 
 ## 可座飛機模組及其欄位
@@ -113,7 +115,7 @@ Airtable聯結器使用下列專案：
 
 您可以指定要在記錄中儲存的資料以及儲存位置。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -122,7 +124,7 @@ Airtable聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>連接 </td> 
+   <td>連線 </td> 
    <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -173,7 +175,7 @@ Airtable聯結器使用下列專案：
 
 您可以指定記錄的ID和位置。
 
-模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -182,7 +184,7 @@ Airtable聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>連接 </td> 
+   <td>連線 </td> 
    <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -194,7 +196,7 @@ Airtable聯結器使用下列專案：
    <td> <p>選取包含您要刪除之記錄的表格。</p> </td> 
   </tr> 
   <tr> 
-   <td>記錄ID</td> 
+   <td>記錄 ID</td> 
    <td> <p>輸入或對應您要模組刪除之記錄的唯一Airtable ID。 例如，您可以使用搜尋記錄模組來擷取ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -209,7 +211,7 @@ Airtable聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>連接 </td> 
+   <td>連線 </td> 
    <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -221,7 +223,7 @@ Airtable聯結器使用下列專案：
    <td> <p> 選取包含您要擷取其詳細資訊之記錄的表格。</p> </td> 
   </tr> 
   <tr> 
-   <td>記錄ID</td> 
+   <td>記錄 ID</td> 
    <td> <p> 輸入或對應您要擷取其詳細資訊的記錄ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -231,7 +233,7 @@ Airtable聯結器使用下列專案：
 
 此搜尋模組會在Airtable中尋找符合您指定之搜尋查詢的物件記錄。
 
-您可以在情境中的後續模組中對應此資訊。
+您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -240,7 +242,7 @@ Airtable聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>連接 </td> 
+   <td>連線 </td> 
    <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -265,7 +267,7 @@ Airtable聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>限制</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -276,7 +278,7 @@ Airtable聯結器使用下列專案：
 
 您可以指定記錄的ID，以及要包含的新資料。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -285,7 +287,7 @@ Airtable聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>連接 </td> 
+   <td>連線 </td> 
    <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -297,7 +299,7 @@ Airtable聯結器使用下列專案：
    <td> <p>選取包含要更新的記錄的表格。</p> </td> 
   </tr> 
   <tr> 
-   <td>記錄ID </td> 
+   <td>記錄 ID </td> 
    <td> <p>輸入或對應您要模組更新的記錄的唯一Airtable ID。 例如，您可以使用搜尋記錄模組來擷取ID。</p> </td> 
   </tr> 
   <tr> 
@@ -340,7 +342,7 @@ Airtable聯結器使用下列專案：
 
 您可以指定記錄的ID，以及要包含的新資料。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -349,7 +351,7 @@ Airtable聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>連接 </td> 
+   <td>連線 </td> 
    <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +363,7 @@ Airtable聯結器使用下列專案：
    <td> <p>選取包含要更新的記錄的表格。</p> </td> 
   </tr> 
   <tr> 
-   <td>記錄ID </td> 
+   <td>記錄 ID </td> 
    <td> <p>如果您要更新記錄，請輸入或對應您要模組更新的記錄的唯一Airtable ID。 例如，您可以使用搜尋記錄模組來擷取ID。</p> </td> 
   </tr> 
   <tr> 
@@ -411,7 +413,7 @@ Airtable聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>連接 </td> 
+   <td>連線 </td> 
    <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -473,7 +475,7 @@ webhook URL需要在Workfront Fusion中產生，然後新增到Airtable中的表
 
 #### 自訂API呼叫
 
-此動作模組可讓您對[!DNL Airtable] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Airtable]模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Airtable] API 進行已驗證的自訂呼叫。如此一來，您就可以建立其他 [!DNL Airtable] 模組無法完成的資料流程自動化。
 
 動作以您指定的圖元型別（Allocadia物件型別）為基礎。
 
@@ -484,28 +486,28 @@ webhook URL需要在Workfront Fusion中產生，然後新增到Airtable中的表
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>連接</p> </td> 
+   <td role="rowheader"> <p>連線</p> </td> 
    <td> <p>如需有關將Airtable帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">將Airtable連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>輸入相對於<code>https://api.airtable.com/</code>的路徑。 範例：<code>v0/{base}/{table}</code> </td> 
+   <td>輸入相對於 <code>https://api.airtable.com/</code> 的路徑。範例：<code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">方法</td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">標頭</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">查詢字串</td> 
    <td> <p>以索引鍵和值的形式新增API呼叫的查詢</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">內文</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">正文</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

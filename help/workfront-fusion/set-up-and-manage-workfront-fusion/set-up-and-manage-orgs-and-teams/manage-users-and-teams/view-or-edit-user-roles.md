@@ -4,10 +4,10 @@ description: 管理貴組織中的Adobe Workfront Fusion使用者
 author: Becky
 feature: Workfront Fusion
 exl-id: 32c221fa-856b-4921-9fa6-5e60f2aa08cd
-source-git-commit: 88d7a92a4b117d10ab114e32ab5e61f03bc5a846
+source-git-commit: 3f9390d8947ef2666336c1a4cc6eab8d174849d5
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 24%
+source-wordcount: '516'
+ht-degree: 18%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Workfront Fusion管理員可以在Workfront Fusion中管理使用者角色
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -64,23 +64,19 @@ Adobe Workfront Fusion管理員可以檢視和更新組織的使用者角色。
 1. 在您要檢視的使用者列中，按一下&#x200B;**[!UICONTROL 詳細資料]**。
 1. （選擇性）若要更新組織中使用者的角色，請在您要變更使用者角色的組織列中，按一下&#x200B;**[!DNL Role]**&#x200B;欄中的下拉式清單，然後選取新角色。
 
-<!--
+### 新增或變更組織擁有者時的注意事項
 
-### Considerations when adding or changing organization Owners
+您的組織可以有多個擁有者。
 
-Your organization can have more than one Owner. 
+將使用者指派給擁有者角色或從擁有者角色指派使用者時，請考慮下列事項。
 
-When assigning a user to or from an Owner role, consider the following. 
-
-* Only an Owner can assign the Owner role, or assign another role to a current Owner.
-* Only Admins can be upgraded to Owner.
-* If there is only one Owner, that Owner role cannot be changed or removed.
-* If there is only one Owner, that Owner cannot be deleted if there are other users in the organization.
-* When an Admin is assigned an Owner role, they automatically become Admin in all teams within the org.
-* When an Owner is assigned to another role, that user automatically becomes a Team Member in all teams.
-* When a new team is created, all Owners are automatically assigned as Team Admins.
-
--->
+* 只有擁有者才能指派擁有者角色，或指派其他角色給目前擁有者。
+* 只有管理員可以升級為擁有者。
+* 如果只有一個擁有者，則無法變更或移除該擁有者角色。
+* 如果只有一個擁有者，則當組織中有其他使用者時，無法刪除該擁有者。
+* 當管理員被指派所有者角色時，他們會自動成為組織內所有團隊的管理員。
+* 當所有者指派給另一個角色時，該使用者會自動成為所有團隊中的團隊成員。
+* 建立新團隊時，所有擁有者都會自動指派為團隊管理員。
 
 ## 檢視或編輯團隊的使用者角色
 

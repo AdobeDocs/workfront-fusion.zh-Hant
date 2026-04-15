@@ -2,10 +2,10 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: ac19f04af9ce80912e3dd9d63dc2ca414080c0c1
+source-git-commit: 6885e29b3b14d97bebcb046d86e204bd2fdfbace
 workflow-type: tm+mt
-source-wordcount: '2091'
-ht-degree: 95%
+source-wordcount: '2104'
+ht-degree: 94%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 95%
 * Fusion 發行活動 {#fusion-release-activity}
    * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion 發行版本 - 2026 年 {#fusion-releases-2026}
+      * [Workfront Fusion發行活動： 2026年4月13日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-4-13.md)
       * [Workfront Fusion發行活動：2026年3月30日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-30.md)
       * [Workfront Fusion發行活動：2026年3月23日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-23.md)
       * [Workfront Fusion發行活動：2026年3月16日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-16.md)
@@ -266,6 +267,7 @@ ht-degree: 95%
    * [檢視和解決未完成的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)
    * [檢視情境的執行歷史記錄](/help/workfront-fusion/manage-scenarios/view-scenario-execution-history.md)
    * [檢視特定情境執行](/help/workfront-fusion/manage-scenarios/view-a-specific-scenario-execution.md)
+   * [檢視和管理鏈結的案例關係](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md)
    * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
    * [檢視 Webhook 的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
    * [Workfront Fusion 中的 AI 助理](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)

@@ -6,10 +6,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 45935dab-199b-46b8-a339-abfea8650320
-source-git-commit: bd8e770765ac535fd8c11e6f58620e1e4cadfc3d
+source-git-commit: 3d957c219cdc5fed4fdf9b0649cab724fae21871
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 70%
+source-wordcount: '82'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 70%
 
 * [在情境中加入模組](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-basic.md)
 * [設定模組](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md)
-* [使用 AI 產生情境區段](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-with-ai.md)
 * [將AI提示新增至您的情境](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md)
 * [複製模組或情境](/help/workfront-fusion/create-scenarios/add-modules/copy-modules-or-scenarios.md)
 * [使用 Adobe Workfront Fusion 範本建立情境](/help/workfront-fusion/create-scenarios/add-modules/create-scenarios-with-fusion-templates.md)

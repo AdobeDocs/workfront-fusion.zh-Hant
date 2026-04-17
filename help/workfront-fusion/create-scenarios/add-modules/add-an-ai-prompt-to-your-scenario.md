@@ -3,9 +3,10 @@ title: 在您的情境中新增AI提示
 description: 您可以在情境中加入AI提示，此提示會連線至您的
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 09e8ca28c12990a699816671d07f85288d973bc7
+exl-id: d0ac0d0b-e3a0-46de-801d-e53c1c4d63ff
+source-git-commit: 3d957c219cdc5fed4fdf9b0649cab724fae21871
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -13,12 +14,6 @@ ht-degree: 0%
 # 將AI提示新增至您的情境
 
 您可以使用結合大型語言模型(LLM)的「模型上下文通訊協定」(MCP)，在情境中加入AI提示。 在MCP代理程式模組中設定這些專案，您可以使用人工智慧來設定高效率、安全且有彈性的工作流程。
-
->[!NOTE]
->
->此功能與使用AI將模組新增到情境的功能不同。
->
->如需使用AI新增模組的資訊，請參閱[使用AI產生案例區段](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-with-ai.md)。
 
 ## 模型內容通訊協定概觀
 

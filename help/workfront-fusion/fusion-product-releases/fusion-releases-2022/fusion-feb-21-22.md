@@ -5,12 +5,11 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: 9cafd129-3348-485c-87dd-db599b37bf08
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 32%
 
 ---
 
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 本頁說明2022年2月21日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
+如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 ## Adobe Acrobat Sign聯結器和模組現已推出
 
@@ -28,4 +27,4 @@ ht-degree: 0%
 
 * 建立、更新及讀取協定或其他記錄
 * 在您的Adobe Acrobat Sign帳戶中列出或搜尋記錄
-* 進行自訂API呼叫
+* 進行自訂的 API 呼叫

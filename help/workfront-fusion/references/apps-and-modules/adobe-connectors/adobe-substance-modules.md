@@ -1,9 +1,10 @@
 ---
-title: Adobe Substance模組
+title: Adobe Substance 模組
 description: 在 Adobe Workfront Fusion 情境中，您可以將使用  [!DNL Adobe Substance] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 2e44c89d487100b3245b40f6927185a0ff12ef2f
+exl-id: 85e2e832-0347-4270-b360-4a07224f2bcc
+source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 32%
@@ -50,7 +51,7 @@ ht-degree: 32%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -94,7 +95,8 @@ ht-degree: 32%
    <td role="rowheader">其他欄位</td> 
    <td>視需要設定其他欄位。 如需欄位的詳細資訊，請參閱<a href="https://s3d.adobe.io/docs#/operations/v1/composites/compose">Adobe Substance API檔案</a>。</td> 
   </tr> 
-<!--  <tr> 
+  <!--
+  <tr>
    <td role="rowheader">Camera name</td> 
    <td>Enter or map the name of an existing camera that has been previously defined in the source 3D file.</td> 
   </tr> 
@@ -105,7 +107,8 @@ ht-degree: 32%
   <tr> 
    <td role="rowheader">Enable ground plane</td> 
    <td>Enable this to enable the auto-generated ground plane under the hero asset. This is useful if the 3D scene contains only a hero asset, without additional elements.</td> 
-  </tr> -->
+  </tr>
+  -->
  </tbody> 
 </table>
 

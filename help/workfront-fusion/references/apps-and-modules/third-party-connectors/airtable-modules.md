@@ -4,7 +4,7 @@ description: Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 3b445b50-5812-4ded-9788-f467991e0b52
-source-git-commit: a5a1f8f596b55b2f1eca9d7874b5885e435b2489
+source-git-commit: 805e3e0d194d0f73caa1455ea1dadf1d799bdc7a
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 26%
@@ -48,7 +48,7 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -137,7 +137,9 @@ Airtable聯結器使用下列專案：
   </tr> 
   <tr> 
    <td> <p>記錄</p> </td> 
-   <td> <p>輸入新記錄的值。 可用欄位取決於您選取的表格。</p> <!--<p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
+   <td> <p>輸入新記錄的值。 可用欄位取決於您選取的表格。</p> 
+   <!--
+   <p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>Multiple lines of text, which may contain "mention tokens", for example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -160,7 +162,9 @@ Airtable聯結器使用下列專案：
      <li><strong>Lookup</strong>: Array of long text fields</li> 
      <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
      <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
-    </ul> --></td> 
+    </ul> 
+   -->
+   </td> 
   </tr> 
   <tr> 
    <td>智慧型連結</td> 
@@ -304,7 +308,9 @@ Airtable聯結器使用下列專案：
   </tr> 
   <tr> 
    <td> <p>記錄</p> </td> 
-   <td> <p>輸入新記錄的值。 可用欄位取決於您選取的表格。</p> <!--<p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
+   <td> <p>輸入新記錄的值。 可用欄位取決於您選取的表格。</p> 
+   <!--
+   <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -327,7 +333,9 @@ Airtable聯結器使用下列專案：
      <li><strong>Lookup</strong>: Array of long text fields</li> 
      <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
      <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
-    </ul> --></td> 
+    </ul> 
+   -->
+   </td> 
   </tr> 
   <tr> 
    <td>智慧型連結</td> 
@@ -368,7 +376,9 @@ Airtable聯結器使用下列專案：
   </tr> 
   <tr> 
    <td> <p>記錄</p> </td> 
-   <td> <p>輸入新記錄的值。 可用欄位取決於您選取的表格。</p> <!-- <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
+   <td> <p>輸入新記錄的值。 可用欄位取決於您選取的表格。</p> 
+   <!-- 
+   <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -391,7 +401,9 @@ Airtable聯結器使用下列專案：
      <li><strong>Lookup</strong>: Array of long text fields</li> 
      <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
      <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
-    </ul> --></td> 
+    </ul> 
+   -->
+   </td> 
   </tr> 
   <tr> 
    <td>智慧型連結</td> 

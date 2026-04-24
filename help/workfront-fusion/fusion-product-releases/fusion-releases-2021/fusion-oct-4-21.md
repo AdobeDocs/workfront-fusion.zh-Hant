@@ -5,12 +5,11 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: 123f49bc-54fd-4f60-8a61-33fce5ec56a6
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -18,9 +17,9 @@ ht-degree: 1%
 
 本頁說明2021年10月4日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
+如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 ## 在「Workfront >觀看活動模組」中檢視現有活動篩選器
 
@@ -37,7 +36,7 @@ ht-degree: 1%
 
 ## 在Workfront Fusion建立的評論和自訂欄位中使用RTF文字
 
-現在，當您在Workfront Fusion中使用「Workfront >建立記錄或更新記錄模組」時，可以使用RTF文字。 新增HTML標籤至您要新增或更新之評論或自訂欄位的文字，Workfront中的評論會顯示格式。 此功能也適用於評論的回覆。
+現在，當您在Workfront Fusion中使用「Workfront >建立記錄或更新記錄模組」時，可以使用RTF文字。 新增HTML標籤至您要新增或更新之註解或自訂欄位的文字，Workfront中的註解會顯示格式。 此功能也適用於評論的回覆。
 
 更新支援下列RTF格式：
 

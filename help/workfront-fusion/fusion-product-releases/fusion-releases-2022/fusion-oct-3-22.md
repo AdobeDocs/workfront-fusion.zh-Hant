@@ -3,21 +3,20 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: Workfront Fusion發行活動： 2022年10月3日當週
+title: Workfront Fusion 發行活動：2022 年 10 月 3 日當週
 description: 本頁說明2022年10月3日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: 0dcd5fd6-f4d3-4ab8-99f4-305ef5f94ca5
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Workfront Fusion發行活動： 2022年10月3日當週
+# Workfront Fusion 發行活動：2022 年 10 月 3 日當週
 
 ## 「Workfront >觀看事件」模組中事件篩選器可用的新運運算元和功能
 

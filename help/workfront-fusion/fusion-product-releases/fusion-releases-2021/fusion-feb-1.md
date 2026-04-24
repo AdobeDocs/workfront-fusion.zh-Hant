@@ -8,12 +8,11 @@ description: 本頁說明2021年2月1日當週在Adobe Workfront Fusion中所做
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: ce0c1c62-d012-4bc2-8d73-69893c1be8da
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -21,9 +20,9 @@ ht-degree: 0%
 
 本頁說明2021年2月1日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
-如需所有最近變更的清單，請參閱[Adobe Workfront Fusion發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
+如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需Workfront Fusion中最近的錯誤修正清單，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為Workfront Fusion維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 
 ## MariaDB聯結器和模組現已推出
@@ -45,4 +44,4 @@ ht-degree: 0%
 * 在清單中新增銷售機會或移除銷售機會
 * 排程行銷活動
 * 複製方案
-* 進行自訂API呼叫
+* 進行自訂的 API 呼叫

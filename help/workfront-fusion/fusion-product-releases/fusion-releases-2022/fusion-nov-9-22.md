@@ -3,21 +3,20 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: Workfront Fusion發行活動： 2022年11月7日當週
+title: Workfront Fusion 發行活動：2022 年 11 月 7 日當週
 description: 本頁說明2022年11月7日當週在Adobe Workfront Fusion中所做的所有增強功能。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: 9d58abd0-1fe7-43c8-a1ea-2fadea738590
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
-# Workfront Fusion發行活動： 2022年11月7日當週
+# Workfront Fusion 發行活動：2022 年 11 月 7 日當週
 
 **Webhook佇列最佳化**
 
@@ -33,6 +32,6 @@ ht-degree: 0%
 我們已對Workfront Fusion處理未使用Webhook的方式進行一些變更。 現在，如果符合下列任一條件，Webhook就會自動停用：
 
 * webhook已超過5天未連線至任何案例。
-* webhook僅用於非使用中情況，這些情況已非使用中超過30天。
+* 僅在非使用中的情境中使用 Webhook，而非使用中狀態已經超過 30 天。
 
-如果停用的Webhook未連線至任何情境且處於停用狀態超過30天，則會自動刪除和取消註冊。
+如果停用的 Webhook 未連接任何情境，且處於停用狀態已超過 30 天，則會自動刪除和取消註冊。

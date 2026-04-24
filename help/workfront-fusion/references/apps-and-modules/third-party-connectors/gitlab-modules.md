@@ -57,7 +57,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -77,12 +77,12 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
       <td> <p>輸入此連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL GitLab]網址]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL GitLab]網址]</td> 
       <td>輸入[!DNL GitLab]執行個體的URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL存取權杖]</td> 
-      <td><p>輸入您的[！UICONTROL私密權杖]或[！UICONTROL個人存取權杖]。</p><p>如需有關在[!DNL GitLab]中尋找或建立個人存取權杖的資訊，請參閱<a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">檔案中</a>個人存取權杖[!DNL GitLab]中的「建立個人存取權杖」。</p></td> 
+      <td role="rowheader">[!UICONTROL 存取權杖]</td> 
+      <td><p>輸入您的[!UICONTROL 私密權杖]或[!UICONTROL 個人存取權杖]。</p><p>如需有關在[!DNL GitLab]中尋找或建立個人存取權杖的資訊，請參閱<a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">檔案中</a>個人存取權杖[!DNL GitLab]中的「建立個人存取權杖」。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -111,7 +111,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視建置狀態變更的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視建置狀態變更的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -128,7 +128,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook觀看其註解的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook觀看其註解的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -145,7 +145,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視認可專案的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視認可專案的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -162,7 +162,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望Webhook觀看問題註解的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望Webhook觀看問題註解的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -179,7 +179,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視問題的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視問題的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -201,7 +201,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視合併請求的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視合併請求的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -218,7 +218,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視合併請求註解的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視合併請求註解的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -235,7 +235,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視管道狀態變更的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視管道狀態變更的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -294,7 +294,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視標籤的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook監視標籤的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -311,7 +311,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook觀看其註解的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望webhook觀看其註解的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -336,7 +336,7 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[！UICONTROL webhook]欄位旁的<b>[！UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望Webhook觀看Wiki頁面的專案</li></ul></li><li>按一下<b>[！UICONTROL儲存]</b>以儲存webhook並返回模組。 </td> 
+   <td><p>選取您要用於此觸發器的webhook，或新增新的webhook。 </p><p>若要新增webhook， <ol><li>按一下[!UICONTROL webhook]欄位旁的<b>[!UICONTROL Add]</b>。</li><li>輸入下列： <ul><li>webhook的名稱</li><li>您要用於此webhook的連線</li><li>您希望Webhook觀看Wiki頁面的專案</li></ul></li><li>按一下<b>[!UICONTROL 儲存]</b>以儲存webhook並返回模組。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -370,24 +370,24 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
    <td> <p>選取或對應包含您要取消之組建的專案。</p> </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL組建ID]</td> 
+   <td role="rowheader">[!UICONTROL 組建ID]</td> 
    <td>選取或對應您要取消的組建。</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL合併認可訊息]</td> 
+   <td role="rowheader">[!UICONTROL 合併認可訊息]</td> 
    <td> 輸入或對應合併的認可訊息。
     </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL應移除來源分支]</td> 
+   <td role="rowheader">[!UICONTROL 應移除來源分支]</td> 
    <td>選擇合併完成時是否要移除來源分支。</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">建置成功時進行[！UICONTROL合併]</td> 
+   <td role="rowheader">建置成功時進行[!UICONTROL 合併]</td> 
    <td>選擇是否在建置完成後立即合併合併合併請求。</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL SHA]</td> 
+   <td role="rowheader">[!UICONTROL SHA]</td> 
    <td>如果存在，則此SHA必須符合來源分支的HEAD。 如果不相符，合併就會失敗。</td> 
    </tr> 
    </tbody> 
@@ -644,14 +644,14 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
+   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL 連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL專案]</td> 
+   <td role="rowheader">[!UICONTROL 專案]</td> 
    <td> <p>選取包含您要擷取詳細資訊之問題的專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL問題ID]</td> 
+   <td role="rowheader">[!UICONTROL 問題ID]</td> 
    <td> <p>輸入或對應您要擷取其詳細資訊的問題名稱。</p> </td> 
   </tr> 
  </tbody> 
@@ -781,14 +781,14 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
+   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL 連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 專案 ID]</td> 
    <td> <p>選取包含您要列出建置之認可的專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL範圍]</td> 
+   <td role="rowheader">[!UICONTROL 範圍]</td> 
    <td> 若要將搜尋限製為以特定狀態建置，請選取狀態。 將此欄位保留空白會傳回認可的所有組建。  </td> 
   </tr> 
  </tbody> 
@@ -1014,14 +1014,14 @@ Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusio
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[！UICONTROL連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
+   <td>若要建立新連線，請參閱本文中的<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL 連線[!DNL GitLab]至Workfront Fusion]</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 專案 ID]</td> 
    <td> <p>選取包含您要重試之組建的專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL組建ID]</td> 
+   <td role="rowheader">[!UICONTROL 組建ID]</td> 
    <td> 選取要重試的組建。 </td> 
   </tr> 
  </tbody> 

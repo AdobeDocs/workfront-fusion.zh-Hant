@@ -10,20 +10,20 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 5727d1bd-6b1d-4c99-90b5-68a555751e8c
-source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
+source-git-commit: bc4c5c047f4847b929c4b047be1897d8872709e9
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
-# Workfront Fusion發行活動： 2022年5月9日當週
+# Workfront Fusion 發行活動：2022 年 5 月 9 日當週
 
 本頁說明2022年5月9日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
 如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 
 ## 案例執行歷史記錄搜尋功能的增強功能

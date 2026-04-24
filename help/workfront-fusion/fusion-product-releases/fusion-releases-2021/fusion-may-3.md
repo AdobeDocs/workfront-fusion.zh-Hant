@@ -9,20 +9,20 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 8858fc79-5eda-4938-9bb5-c05be38f02bc
-source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
+source-git-commit: bc4c5c047f4847b929c4b047be1897d8872709e9
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
-# Workfront Fusion發行活動： 2021年5月3日起一週
+# Workfront Fusion 發行活動：2021 年 5 月 3 日當週
 
 本頁說明2021年5月3日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
 如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 ## Salesforce聯結器現在可以使用SOQL進行搜尋
 

@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion JSON應用程式提供可處理JSON格式資
 author: Becky
 feature: Workfront Fusion
 exl-id: f8b281c5-bb63-4412-98c5-d82f45f8eafc
-source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
+source-git-commit: 6aad13e81c083754d7aad53dec103715bd6b8807
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -15,32 +15,32 @@ ht-degree: 0%
 
 Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資料的模組，讓Adobe Workfront Fusion可以進一步處理資料內容，或建立新的JSON內容。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -109,18 +109,18 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
 
 ## [!UICONTROL JSON]模組及其欄位
 
-當您設定[!DNL JSON]模組時，Workfront Fusion會顯示下列欄位。 除此之外，可能會顯示其他JSON欄位，實際取決於您應用程式或服務中的存取層級等因素。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL JSON] 模組時，Workfront Fusion 會顯示下列欄位。除此之外，可能會顯示其他JSON欄位，實際取決於您應用程式或服務中的存取層級等因素。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [將JSON轉換為XML](#convert-json-to-xml)
 * [剖析JSON](#parse-json)
 * [建立JSON](#create-json)
 * [轉換JSON](#transform-json)
 
-### 彙總
+### 彙總器
 
 #### [!UICONTROL 彙總至JSON]
 
@@ -131,23 +131,23 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source模組] </td> 
+   <td role="rowheader">[！UICONTROL Source模組] </td> 
    <td> <p>選取輸出您要彙總至JSON之資料的模組。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料結構]</td> 
+   <td role="rowheader">[！UICONTROL資料結構]</td> 
    <td> <p>選取您要用來建立JSON的資料結構。 資料結構會決定此模組中有哪些其他欄位可用。 如需詳細資訊，請參閱本文中的<a href="#data-structure" class="MCXref xref">資料結構</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 縮排]</td> 
+   <td role="rowheader">[！UICONTROL縮排]</td> 
    <td> <p> 選取您要使用定位字元、兩個空格或四個空格縮排JSON。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Group by]</td> 
+   <td role="rowheader">[！UICONTROL Group by]</td> 
    <td>定義要將彙總輸出分組依據的運算式。 此運算式可包含一或多個對應專案。 接著，會使用此運算式的值，將彙總資料分隔成群組。 每個群組會輸出一個單獨的組合，內含索引鍵（運算式）和值（彙總文字）。 您可以在後續模組中使用該索引鍵作為篩選條件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 在空白彙總後停止處理]</td> 
+   <td role="rowheader">[！UICONTROL在空白彙總後停止處理]</td> 
    <td>啟用此選項可在沒有結果時停止情境。</td> 
   </tr> 
  </tbody> 
@@ -169,7 +169,7 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL JSON string] </td> 
+   <td role="rowheader">[！UICONTROL JSON string] </td> 
    <td> <p>輸入或對應您要轉換成XML的JSON。</p> </td> 
   </tr> 
  </tbody> 
@@ -203,11 +203,11 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料結構]</td> 
+   <td role="rowheader">[！UICONTROL資料結構]</td> 
    <td> <p>選取您要用來建立JSON的資料結構。 如需詳細資訊，請參閱本文中的<a href="#data-structure" class="MCXref xref">資料結構</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL JSON string] </td> 
+   <td role="rowheader">[！UICONTROL JSON string] </td> 
    <td> <p>輸入或對應您要剖析的JSON。</p> </td> 
   </tr> 
  </tbody> 
@@ -226,7 +226,7 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
    <td> <p>選取您要用於此JSON的縮排。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 物件]</td> 
+   <td role="rowheader">[！UICONTROL物件]</td> 
    <td> <p>輸入或對應您要轉換為JSON的物件。</p> </td> 
   </tr> 
  </tbody> 
@@ -259,7 +259,7 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
    ```
 
 1. 按一下「**[!UICONTROL 儲存]**」。資料結構中的[!UICONTROL 規格]欄位現在包含產生的結構。
-1. 將您的資料結構名稱變更為更具體的名稱，然後按一下[儲存]。**&#x200B;** 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
+1. 將您的資料結構名稱變更為更具體的名稱，然後按一下[儲存]。**** 對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
 
 1. 按一下欄位旁的&#x200B;**[!UICONTROL 對應]**&#x200B;按鈕，並將Array彙總器輸出中的`Array[]`專案對應至該欄位。
 
@@ -285,7 +285,7 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
 
 ### 在JSON中使用條件陳述式時，模組失敗
 
-在JSON中使用條件陳述式（例如`if`）時，請將引號放在條件陳述式之外。
+在 JSON 中使用條件陳述式 (例如 `if`) 時，請將引號放在條件陳述式的外面。
 
 >[!BEGINSHADEBOX]
 

@@ -1,17 +1,17 @@
 ---
-title: 日期和時間函式
+title: 日期與時間函式
 description: 下列日期和時間函式可在Adobe Workfront Fusion對應面板中使用。
 author: Becky
 feature: Workfront Fusion
 exl-id: 92813dac-4bf0-4681-9b71-7bd2e92a89a4
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 42bf7b0ac6eb414312573b32b93677a5c9650fa8
 workflow-type: tm+mt
 source-wordcount: '1879'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 日期和時間函式
+# 日期與時間函式
 
 ## 變數
 
@@ -23,11 +23,11 @@ ht-degree: 1%
 
 以Unix時間戳記形式取得目前時間。
 
-## 函數
+## 函式
 
 ### [!UICONTROL addSeconds （日期；數字）]
 
-將指定秒數新增至日期後，傳回新日期。 若要減去秒數，請輸入負數。
+Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
 
 >[!BEGINSHADEBOX]
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-### [!UICONTROL addHours （日期；數字）] {#addhours-date-number}
+### [!UICONTROL addHours (date; number)] {#addhours-date-number}
 
 將指定小時數新增至日期後，傳回新日期。 若要減去時數，請輸入負數。
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 指定從0到59的數字。 如果數字超出該範圍，此函式會傳回前一分鐘的第二秒（代表負數）或後續的分鐘（代表正數）。
 
-如果您需要指定超出範圍的數字，建議您使用[!UICONTROL &#x200B; addSeconds]，如上節[addSeconds (date； number)](#addseconds-date-number)所述。
+如果您需要指定超出範圍的數字，建議您使用[!UICONTROL  addSeconds]，如上節[addSeconds (date； number)](#addseconds-date-number)所述。
 
 >[!BEGINSHADEBOX]
 
@@ -213,11 +213,11 @@ ht-degree: 1%
 
 * `setDay(2018-06-27T11:36:39.138Z;Monday)`
 
-  傳回2018-06-25T11:36:39.138Z
+  Returns 2018-06-25T11:36:39.138Z
 
 * `setDay(2018-06-27T11:36:39.138Z;1)`
 
-  傳回2018-06-24T11:36:39.138Z
+  Returns 2018-06-24T11:36:39.138Z
 
 * `setDay(2018-06-27T11:36:39.138Z;7)`
 
@@ -241,13 +241,13 @@ ht-degree: 1%
 
 * `setDate(2015-08-07T11:36:39.138Z;32)`
 
-  傳回2015-09-01T11:36:39.138Z
+  Returns 2015-09-01T11:36:39.138Z
 
 >[!ENDSHADEBOX]
 
-### [!UICONTROL setMonth （日期；英文的月份編號/名稱）]
+### [!UICONTROL setMonth (date; number/name of the month in English)]
 
-此函式使用引數中指定的月份傳回新日期。
+This function returns a new date with the month specified in parameters.
 
 指定從1到12的數字。 如果數字超出此範圍，此函式會傳回前一年（負數）或後續年度（正數）中的月份。
 
@@ -306,17 +306,17 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 日期] </td> 
+   <td>[！UICONTROL日期] </td> 
    <td>日期 </td> 
    <td> <p>將日期值轉換為文字值。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 格式] </td> 
+   <td>[！UICONTROL格式] </td> 
    <td>文字 </td> 
    <td> <p>可讓您使用日期/時間格式代號來指定格式。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">日期與時間格式的</a>代號。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 時區] </td> 
+   <td>[！UICONTROL時區] </td> 
    <td>文字 </td> 
    <td> <p>（選用）可讓您指定用於轉換的時區。 </p> <p>如需可辨識時區的清單，請參閱Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"> tz資料庫時區清單</a>中的「TZ資料庫名稱」欄。 函式只會將此欄中列出的值辨識為有效時區。 系統會忽略任何其他值，而改用設定檔中指定的案例時區。 </p> <p>如果您忽略此引數，則會套用設定檔設定中指定的情境時區。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>Europe/Prague</code>， <code>UTC</code></p> </td> 
   </tr> 
@@ -333,7 +333,7 @@ ht-degree: 1%
 
 **範例：**&#x200B;在這些範例中，案例和網頁時區都設為`Europe/Prague`。
 
-![日期時間函式範例](assets/date&time-functions-examples-350x61.png)
+![日期時間函式範例](assets/date-time-functions-examples-350x61.png)
 
 * `formatDate(1. Date created;MM/DD/YYYY)`
 
@@ -374,17 +374,17 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL text] </td> 
+   <td>[！UICONTROL text] </td> 
    <td>文字 </td> 
    <td> <p>將日期值轉換為文字值。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 格式] </td> 
+   <td>[！UICONTROL格式] </td> 
    <td>文字 </td> 
    <td> <p>可讓您使用日期/時間格式代號來指定格式。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">日期與時間格式的</a>代號。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 時區] </td> 
+   <td>[！UICONTROL時區] </td> 
    <td>文字 </td> 
    <td> <p>（選用）可讓您指定用於轉換的時區。 </p> <p>如需可辨識時區的清單，請參閱Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"> tz資料庫時區清單</a>中的「TZ資料庫名稱」欄。 函式只會將此欄中列出的值辨識為有效時區。 系統會忽略任何其他值，而改用設定檔中指定的案例時區。 </p> <p>如果您忽略此引數，則會套用設定檔設定中指定的情境時區。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>Europe/Prague</code>， <code>UTC</code></p> </td> 
   </tr> 
@@ -407,19 +407,19 @@ ht-degree: 1%
 
 * `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
 
-  傳回2016-12-28T16:03:00.000Z
+  Returns 2016-12-28T16:03:00.000Z
 
 * `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
 
-  傳回2016-12-28T16:03:06.000Z
+  Returns 2016-12-28T16:03:06.000Z
 
 * `parseDate(1482940986;X)`
 
-  傳回2016-12-28T16:03:06.000Z
+  Returns 2016-12-28T16:03:06.000Z
 
 >[!ENDSHADEBOX]
 
-### [!UICONTROL dateDifference (Date1； Date2； Unit)]
+### [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
 傳回代表兩個日期之間差異的數字，以指定的單位表示。
 
@@ -463,7 +463,7 @@ ht-degree: 1%
 
 如果您需要計算與當月第n天對應的日期（例如，第一個星期二、第三個星期五等），您可以使用下列公式：
 
-![計算第n天](assets/date&time-functions-calc-nth-day-350x31.png)
+![計算第n天](assets/date-time-functions-calc-nth-day-350x31.png)
 
 ```
 {{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}
@@ -499,7 +499,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td><code>1.date</code> </td> 
-   <td> <p> 日期決定月份。 若要計算當月一週的第n天，請使用<code>now</code>變數。</p> </td> 
+   <td> <p> The date determines the month. 若要計算當月一週的第n天，請使用<code>now</code>變數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -533,7 +533,7 @@ ht-degree: 1%
 >
 >* `round()`函式適用於其中一個日期在日光節約時間期間內，而另一個日期不在日光節約時間期間的情況。 在這些情況下，時數差會少一小時或更多。 您可以將其除以24來得出非整數結果。 您會失去一小時的日光節約時間。 將平面化成圓形，這樣就不會有百分比
 
-#### 如何計算月份的最後一天/毫秒
+#### How to calculate last day/millisecond of month
 
 當您指定日期範圍時，例如在搜尋模組中，如果範圍跨越整個前一個月為關閉間隔（包括其兩個限制點的間隔），則需要計算該月的最後一天。
 
@@ -551,15 +551,15 @@ ht-degree: 1%
 
 2019-09-01T00:00:00.000Z ≤ D ≤ 2019-09-30T23:59:59.999Z
 
-此公式顯示計算前一個月最後一毫秒的一種方式：
+This formula shows one way how to calculate last millisecond of the previous month:
 
-![上個月的毫秒數](assets/last-millisecond-prev-month-350x45.png)
+![Last millisecond of previous month](assets/last-millisecond-prev-month-350x45.png)
 
 ```
 {{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}
 ```
 
-如果您需要結果來使用時區設定，請省略UTC引數：
+If you need the result to use your timezone setting, omit the UTC argument:
 
 ![省略UTC](assets/omit-utc-argument-350x45.png)
 

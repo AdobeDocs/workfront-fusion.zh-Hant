@@ -4,7 +4,7 @@ description: 您可以使用 Adobe Workfront Fusion Adobe Workfront 連接器，
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
+source-git-commit: bc4c5c047f4847b929c4b047be1897d8872709e9
 workflow-type: tm+mt
 source-wordcount: '7366'
 ht-degree: 100%
@@ -695,7 +695,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 +++
 
-### **取得預先簽署的檔案 URL**
++++ **取得預先簽署的檔案 URL**
 
 此動作模組會取得預先簽署的檔案 URL，稍後可供其他 API 使用。
 
@@ -717,6 +717,8 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
  </tbody> 
 </table>
+
++++
 
 +++ **[!UICONTROL 其他動作]**
 

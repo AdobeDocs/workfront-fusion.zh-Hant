@@ -1,25 +1,26 @@
 ---
-title: 'Workfront Fusion release activity: Week of August 23, 2021'
-description: 'Workfront Fusion release activity: Week of August 23, 2021'
+title: Workfront Fusion發行活動： 2021年8月23日起一週
+description: Workfront Fusion發行活動： 2021年8月23日起一週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
+hidefromtoc: true
 exl-id: c670b466-1203-4530-94ab-b572326369da
-source-git-commit: bc4c5c047f4847b929c4b047be1897d8872709e9
+source-git-commit: 0e8f73afb2ab60bb1b601abf3c4f3d611e97d125
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 22%
+source-wordcount: '203'
+ht-degree: 20%
 
 ---
 
-# Workfront Fusion release activity: Week of August 23, 2021
+# Workfront Fusion發行活動： 2021年8月23日起一週
 
 本頁說明2021年8月23日當週在Adobe Workfront Fusion中所做的所有增強功能。
 
 如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 ## Workfront模組中現在提供預先輸入欄位
 

@@ -4,9 +4,9 @@ description: 依照此一般工作流程建立情境
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-source-git-commit: fc0b3b7ca4ec999c7a121d0564d36abff6f2d620
+source-git-commit: 0390bb875eb10278967d7d1c9cd61e5243e5f37e
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '782'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 ## 啟動情境
 
-此範例案例沒有觸發程式模組。 如果這是您用於真實資料的情境，它會從觸發模組開始，而您的最後一件事是啟動它。 啟用案例後，預設會每15分鐘執行一次。 您可以定義何時以及多久執行一次來變更此專案。
+啟用案例後，預設會每15分鐘執行一次。 您可以定義何時以及多久執行一次來變更此專案。
 
 如需啟動案例的詳細資訊，請參閱[啟動或停用案例](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md)。
 
@@ -138,37 +138,37 @@ ht-degree: 3%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 儲存] </td> 
+   <td role="rowheader">[！UICONTROL儲存] </td> 
    <td>Ctrl+Shift+S</td> 
    <td>Cmd+Shift+S</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 執行一次]</td> 
+   <td role="rowheader">[！UICONTROL執行一次]</td> 
    <td>Ctrl+Shift+Enter</td> 
    <td>Cmd+Shift+Enter</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 開啟開發工具]</td> 
+   <td role="rowheader">[！UICONTROL開啟開發工具]</td> 
    <td>F12</td> 
    <td>Ctrl+Fn+F12</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選取多個模組]</td> 
+   <td role="rowheader">[！UICONTROL選取多個模組]</td> 
    <td>Shift+拖曳</td> 
    <td>Shift+拖曳</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 副本]</td> 
+   <td role="rowheader">[！UICONTROL副本]</td> 
    <td>Ctrl+C</td> 
    <td>Cmd+C</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 貼上]</td> 
+   <td role="rowheader">[！UICONTROL貼上]</td> 
    <td>Ctrl+V</td> 
    <td>Cmd+V</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 搜尋模組]</td> 
+   <td role="rowheader">[！UICONTROL搜尋模組]</td> 
    <td>Ctrl+K</td> 
    <td>Cmd+K</span> </td> 
   </tr> 

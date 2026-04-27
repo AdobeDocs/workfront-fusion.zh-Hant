@@ -1,50 +1,50 @@
 ---
-title: 將資訊從一個模組對應至另一個模組
-description: 對應是將模組的輸出（結構化為專案）指派給其他模組的輸入欄位的程式。
+title: 將資訊從一個模組對應到另一個模組
+description: 對應是將模組的輸出，經過結構化成為項目後，指派至其他模組之輸入欄位的程序。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e3f7729-f48e-451e-a90b-d680c9e3bcbc
-source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
+source-git-commit: 8de3e365ff7ff91f4b29fb8a298f3b846de0a980
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 0%
+source-wordcount: '777'
+ht-degree: 17%
 
 ---
 
-# 將資訊從一個模組對應至另一個模組
+# 將資訊從一個模組對應到另一個模組
 
-對應是將模組的輸出指派給其他模組的輸入欄位的程式。
+對應是將模組的輸出指派至其他模組之輸入欄位的程序。
 
 當您按一下欄位，可在其中插入從情境中的前一個模組輸出的值時，對應面板隨即顯示。
 
 您也可以使用對應面板中函式和對應專案的任意組合，以及您鍵入的靜態文字，來建立公式。 這些元素可以彼此巢狀內嵌。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 ### 問題：對應面板中缺少專案
 
-對應面板會顯示先前模組的輸出專案。 有時，此面板中可能會遺漏某些專案。 您可以在情境編輯器中執行缺少輸出的模組，然後對應面板可以在後續模組中包含這些專案。 確切的程式會依模組的型別而有所不同
+對應面板會顯示先前模組的輸出專案。 有時，此面板中可能會遺漏某些專案。 您可以在情境編輯器中執行缺少輸出的模組，然後對應面板可以在後續模組中包含這些專案。 確切的程式會因模組的型別而異。
 
 * [即時觸發](#instant-trigger)
 * [輪詢觸發程式](#polling-trigger)

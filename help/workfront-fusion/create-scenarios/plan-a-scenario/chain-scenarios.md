@@ -1,12 +1,12 @@
 ---
-title: 將多個案例鏈結在一起
-description: 您可以將案例鏈結在一起，讓一個案例觸發另一個案例，然後將第二個案例輸出的資料傳回給第一個案例。
+title: Chain Multiple Scenarios Together
+description: You can chain scenarios together, allowing one scenario to trigger another, and returning the data output by the second scenario to the first.
 author: Becky
 feature: Workfront Fusion
 exl-id: def8d4c1-fc20-4b93-b1fd-be2f60300464
-source-git-commit: 34f24f26675fbdf0dd84223cbe8e2d1c3b1aa8cf
+source-git-commit: 0390bb875eb10278967d7d1c9cd61e5243e5f37e
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1266'
 ht-degree: 12%
 
 ---
@@ -15,96 +15,96 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->此功能目前在Beta中。
+>This feature is currently in Beta.
 
-您可以將案例鏈結在一起，讓一個案例觸發另一個案例，然後將第二個案例輸出的資料傳回給第一個案例。 這可讓您建立更多模組化的案例，而不需在多個案例中重複案例區段。
+You can chain scenarios together, allowing one scenario to trigger another, and returning the data output by the second scenario to the first. This allows more modular scenario creation, where you do not have to duplicate scenario sections in multiple scenarios.
 
 您可以從父情境呼叫多個子情境，也可以從多個父情境呼叫子情境。 您也可以巢狀內嵌子案例，從另一個案例呼叫一個。
 
-當父案例等待子案例傳回資料時，該時間不會計入父案例的逾時。 例如，父案例會呼叫5個子案例，每個案例需要10分鐘執行，總共為50分鐘。 父情境中的模組本身需要15分鐘才能執行。 即使總共已超過65分鐘（超過40分鐘的逾時限制），父情境也不會逾時。
+When a parent scenario is waiting for a child scenario to return data, that time does not count against the parent scenario&#39;s timeout. For example, a parent scenario calls 5 child scenarios, each of which takes 10 minutes to run, for a total of 50 minutes. The modules in the parent scenario itself take 15 minutes to run. The parent scenario does not time out, even though a total of 65 minutes has passed, which is over the timeout limit of 40 minutes.
 
-如需Fusion效能護欄（包括逾時）的詳細資訊，請參閱[Fusion效能護欄](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md)。
+For more information on Fusion&#39;s performance guardrails, including timeouts, see [Fusion performance guardrails](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md).
 
 如需設定鏈結模組的說明，請參閱[鏈結模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md)。
 
-## 父方案和子方案
+## Parent and child scenarios
 
-* **父項**&#x200B;情境呼叫另一個情境，使用&#x200B;**鏈結** > **呼叫子情境**&#x200B;模組。 它會接收子案例的輸出，並可在後續案例模組中處理。
-* **子項**&#x200B;情境是由父項情境呼叫。 其觸發模組會接收來自父項案例的資料，並將輸出傳回至父項案例。
+* The **parent** scenario calls another scenario, using the **Chain** > **Call a child scenario** module. It receives the output of the child scenario, which it can process in later scenario modules.
+* The **child** scenario is called by the parent scenario. Its trigger module receives data from the parent scenario, and returns output to the parent scenario.
 
-父案例需要來自子案例的回應。 目前不支援未傳回資料的子案例。
+The parent scenario requires a response from the child scenario. Child scenarios that do not return data are currently not supported.
 
-## 鏈結案例中的資料結構
+## Data structures in chained scenarios
 
-Workfront Fusion會使用資料結構，將資訊從父案例傳輸到子案例。 資料結構會在子情境中設定。 從父情境選取子情境時，用作子情境輸入的資料結構欄位會出現在父情境中。 您可以將值對應到這些欄位，這些欄位會在子案例觸發時傳遞至子案例。
+Workfront Fusion uses data structures to transfer information from the parent scenario to the child scenario. The data structure is configured in the child scenario. When the child scenario is selected from the parent scenario, the fields for the data structure used as the child scenario&#39;s input appear in the parent scenario. You can map values to these fields, which are passed to the child scenario when it is triggered.
 
-如需有關要在父子情境中設定的模組的資訊，請參閱[鏈結模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md)。
+For information on the modules to configure in the parent and child scenarios, see [Chain modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
 
-如需資料結構的詳細資訊，請參閱[資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)。
+For information on data structures, see [Data structures](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
 
-## 資料流程
+## Data flow
 
-1. 資料會流經父案例。
-1. 資料到達「呼叫子情境」模組。 資料會對應至呼叫子案例模組中的欄位，這些欄位符合子案例觸發模組中所使用資料結構的欄位。
-1. 「呼叫子項」情境中的資料會傳遞至子項情境。
-1. 子案例會處理資料並執行動作。
-1. 子案例以傳回至父模組的回應結束。
-1. 傳回至父模組的回應輸出會傳遞至父情境。
-1. 「呼叫子項」情境的輸出是子項的輸出。 此輸出稍後可在父情境中處理。
+1. Data flows through the parent scenario.
+1. Data reaches the Call a child scenario module. Data is mapped to the fields in the Call a child scenario module, which match the fields in the data structure used in the child scenario&#39;s trigger module.
+1. Data from the Call a child scenario is passed to the child scenario.
+1. The child scenario processes data and performs actions.
+1. The child scenario ends with the Return response to parent module.
+1. The output of the Return response to parent module is passed to the parent scenario.
+1. The output of the Call a child scenario is the output of the child scenario. This output can be processed later in the parent scenario.
 
 ## 使用案例
 
-考慮以下鏈結案例的範例使用案例：
+Consider the following example use cases for chaining scenarios:
 
-* **可重複使用的邏輯**：您可以為跨多個案例使用的重複動作鏈結案例。 例如，如果您有多個封存內容的案例，您可以建立名為「封存內容」的單一子案例，然後作為任何封存內容的工作流程的子案例。
+* **Reusable logic**:  You can chain scenario for repeated actions used across multiple scenarios. For example, if you have multiple scenarios that archive content, you can create a single child scenario called &quot;Archive content&quot; that you can then use as a child scenario for any workflows that archive content.
 
-* **錯誤處理**：組織通常會有跨多個案例的相同錯誤處理動作，例如傳送錯誤記錄至資料存放區並建立Slack通知的錯誤處理路由。 您可以使用這些動作建立子情境，並在處理多個情境中的路由時將該情境鏈結。
+* **Error handling**: It&#39;s common for organizations to have the same error handling actions across multiple scenarios, such as an error handling route that sends an error log to a data store and creates a slack notification. You can create a child scenario with these actions and chain that scenario in error handling routes in multiple scenarios.
 
-* **延長時間**：您可以針對執行時間較長的大型批次作業使用鏈結機制，例如匯出和匯入檔案時。 如果檔案很多，這項作業會花一些時間。 由於子案例不會計入父案例的逾時，因此您可以使用多個子案例匯出或匯入檔案來超過執行時間。
+* **Extending time**: You can use chaining for large batch operations with long running actions, such as when you export and import files. This operation takes some time if there are many files. Because child scenarios do not count against the parent scenario&#39;s timeout, you can exceed execution time by using multiple child scenarios to export or import the files.
 
-* **取代疊代器**&#x200B;將疊代器取代為子案例可以減少記憶體使用量，例如在造成記憶體不足錯誤的疊代中執行複雜作業。 您可以為複雜操作建立個別情境，並將疊代器取代為「呼叫子情境模組」
+* **Replacing iterators** Replacing iterators with child scenarios can reduce memory usage, such as in complex operations in an iteration that cause Out of Memory error. You can create a separate scenario for the complex operation and replace the iterator with Call a child scenario module
 
-* **搜尋並建立記錄**：例如，您可以建立搜尋使用者的情境。 如果存在，則架構會將他們新增為核准者，並擁有他們所需的檢閱和核准存取權。 如果變數不存在，情境會建立要求管理員加入新使用者。
+* **Search for and create a record**:  For example, you could create a scenario that searches for a user. If they exist, the scehario adds them as approver with access they need to review and approve. If they don&#39;t exist, the scenario creates a request for the admin to onboard a new user.
 
-## 檢視鏈結案例的執行歷史記錄
+## Viewing execution history for chained scenarios
 
-您可以檢視鏈結案例的執行歷史記錄，方法是檢視鏈結中包含的每個案例的歷史記錄。 例如，父案例的執行歷史記錄將包含直接在父案例中處理的模組和資料的相關資訊。 若要檢視子案例中處理之模組和資料的執行歷史記錄，請開啟子案例並在那裡檢視執行歷史記錄。
+You can view execution history for chained scenarios by viewing the history of each scenario included in the chain. For example, the parent scenario&#39;s execution history would include information about modules and data processed directly in the parent scenario. To view execution history for modules and data processed in a child scenario, open the child scenario and view the execution history there.
 
-我們建議使用「呼叫子案例」模組中的&#x200B;**移至子案例**&#x200B;按鈕，快速移至子案例，您可在此檢視其執行歷史記錄。 子案例會在另一個瀏覽器視窗中開啟，讓您同時檢視父案例和子案例。
+We recommend using the **Go to the child scenario** button in the Call a child scenario module to quickly go to the child scenario, where you can view its execution history. The child scenario opens in another browser window, allowing you to see parent and child scenarios at the same time.
 
-![移至子案例按鈕](assets/go-to-the-child-button.png)
+![Go to the child scenario button](assets/go-to-the-child-button.png)
 
-## 錯誤和不完整的執行
+## Errors and incomplete executions
 
 ### 錯誤處理
 
-如果子案例發生錯誤，這可能會影響將資料傳回給父項。
+If the child scenario errors out, that may affect getting data back to your parent.
 
-我們建議在子案例中設定錯誤處理，以確保子案例中發生錯誤時，父案例不會卡在等待子案例的回應。
+We recommend configuring error handling in the child scenario to ensure that if something goes wrong in the child scenario, the parent scenario is not stuck waiting for the response from the child scenario.
 
 ## 最佳實務
 
-鏈結情境時，請考量下列最佳實務。
+Consider the following best practices when chaining a scenario.
 
-### 鏈結情境時避免遞回
+### Avoid recursion when chaining scenarios
 
 當一個情境觸發自身的新執行，而該新執行會觸發新執行，如此反復形成無限迴圈的狀況，便是遞迴。
 
 遞迴可能會對擁有遞迴情境的組織和其他組織造成效能問題。
 
-鏈結情境時，請遵循下列實務以避免遞回：
+When chaining scenarios, follow these practices to avoid recursion:
 
-* 請確定&#x200B;**子案例無法觸發父案例**。 例如，如果在建立請求時觸發了父案例，請確保子案例不會建立請求。
-* 請確定&#x200B;**子案例不會相互呼叫**。 例如，如果子案例A呼叫子案例B，請確定子案例B不會呼叫子案例A。
-* 請確定&#x200B;**案例不能呼叫自身**。 例如，建立任務時會觸發一個情境，而該情境建立兩個任務。新建立的兩個任務皆再次觸發該情境，而該情境會建立四個新任務。每次建立一個任務，就會觸發該情境，而每次執行該情境時，任務數量就會加倍。任務數量因此呈指數級增長。
+* Ensure that **child scenarios cannot trigger the parent scenario**. For example, if a parent scenario is triggered when a request is created, ensure that the child scenarios do not create requests.
+* Ensure that **child scenarios do not call each other**. For example, If child scenario A calls child scenario B, ensure that child scenario B does not call child scenario A.
+* Ensure that **a scenario cannot call itself**. 例如，建立任務時會觸發一個情境，而該情境建立兩個任務。 新建立的兩個任務皆再次觸發該情境，而該情境會建立四個新任務。 每次建立一個任務，就會觸發該情境，而每次執行該情境時，任務數量就會加倍。 任務數量因此呈指數級增長。
 
 >[!IMPORTANT]
 >
 >* **當某個情境導致遞迴時，Fusion 工程團隊會停用該情境，以避免出現更多效能問題。**
 >* 由於遞迴是情境設計所導致的結果，因此設計情境時必須確保情境不包含會觸發情境本身的動作。
->* 您可以檢視父案例與子案例之間的關係圖。
->   如需指示，請參閱[檢視鏈結的案例關係](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md)。
+>* You can view a diagram of the relationships between parent and child scenarios.
+>   For instructions, see [View chained scenario relationships](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md).
 
-### 使用錯誤處理來確保回應
+### Use error handling to ensure a response
 
-由於父案例在等待子案例的回應之後才能繼續，因此您必須確保子案例已建置，以便在遇到錯誤時也能提供回應。
+Because the parent scenario is waiting for a response from the child scenario before it can continue, you must ensure that the child scenario is built so that it will provide a response even if it encounters an error.

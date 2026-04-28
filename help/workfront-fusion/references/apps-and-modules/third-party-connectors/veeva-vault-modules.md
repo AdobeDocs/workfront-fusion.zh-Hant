@@ -4,10 +4,10 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Veeva 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2ef967b6-0a69-4801-8574-5f17c9ce991d
-source-git-commit: 323e7d10795991bbcb6c1439db0af90e4331e687
+source-git-commit: d64d894cfb0e1905c135cdf5ea39f11cd7a6e5f2
 workflow-type: tm+mt
-source-wordcount: '3683'
-ht-degree: 14%
+source-wordcount: '4125'
+ht-degree: 13%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 14%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -176,12 +176,15 @@ ht-degree: 14%
 
 設定Veeva Vault模組時，Workfront Fusion會顯示下列欄位。 除此之外，可能還會顯示其他Veeva Vault欄位，視您應用程式或服務中的存取層級等因素而定。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [文件](#document)
 * [物件](#object)
+* [多檔案擷取](#multi-file-extract)
+* [多檔案載入](#multi-file-load)
+* [檔案分段](#file-staging)
 * [其他](#other)
 
 ### 文件
@@ -995,6 +998,148 @@ ht-degree: 14%
  </tbody> 
 </table>
 
+### 多檔案擷取
+
+* [擷取多個檔案](#extract-multiple-files)
+* [擷取擷取結果](#retrieve-extract-results)
+
+#### 擷取多個檔案
+
+此動作模組會建立載入器工作，以擷取一或多個資料檔案。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">資料檔案</td> 
+   <td>針對您想要擷取的每個檔案，按一下[新增專案] <b> </b>並輸入下列內容：
+   <ul>
+   <li>物件類型</li>
+   <li>VQL條件（選用）：若要篩選資料集以僅包含符合特定條件的檔案，請在「儲存庫查詢語言」(VQL)中輸入條件。</li>
+   </ul>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 擷取擷取結果
+
+此動作模組會擷取指定擷取請求的結果。
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>工作 ID</p> </td> 
+   <td> <p>輸入或對應您要擷取結果的工作。 您可以從擷取資料檔案模組對應此專案。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">任務 ID</td> 
+   <td> <p>輸入或對應您要擷取結果的工作。 您可以從擷取資料檔案模組對應此專案。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 多檔案載入
+
+* [載入多個檔案](#load-multiple-files)
+* [擷取記錄結果](#retrieve-log-results)
+
+#### 載入多個檔案
+
+此模組會建立載入器工作，並載入一組資料檔案。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">檔案</td> 
+   <td>輸入檔案路徑或將檔案路徑對應至此工作將使用的CSV檔案。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">訂單</td> 
+   <td>輸入或對應檔案清單的順序。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">無觸發程式</td> 
+   <td>選取「是」以略過記錄或檔案觸發程式。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 擷取記錄結果
+
+此動作模組會擷取載入器工作結果的記錄。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>工作 ID</p> </td> 
+   <td> <p>輸入或對應您要擷取結果的工作。 您可以從載入資料檔案模組對應此專案。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">任務 ID</td> 
+   <td> <p>輸入或對應您要擷取結果的工作。 您可以從載入資料檔案模組對應此專案。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">類型</td> 
+   <td> <p>選取您要擷取成功或失敗的工作。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 檔案分段
+
+#### 在路徑列出專案
+
+此模組會傳回指定路徑的檔案與資料夾清單。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線 </td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">選擇您的主目錄</td> 
+   <td>選取要列出專案的起始目錄。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">訂單</td> 
+   <td>輸入或對應檔案清單的順序。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">無觸發程式</td> 
+   <td>選取「是」以略過記錄或檔案觸發程式。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### 其他
 
 * [進行自訂的 API 呼叫](#make-a-custom-api-call)
@@ -1015,11 +1160,11 @@ ht-degree: 14%
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>輸入相對於<code>baseurl/api/v</code>的路徑。  例如: <code>/objects/documents</code>。不要包含<code>baseurl/api/v/</code>，因為它已包含。</td> 
+   <td>輸入相對於 <code>baseurl/api/v</code> 的路徑。  例如: <code>/objects/documents</code>。 不要包含<code>baseurl/api/v/</code>，因為它已包含。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">方法</td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">標頭</td> 

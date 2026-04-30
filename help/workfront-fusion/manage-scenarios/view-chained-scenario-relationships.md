@@ -3,10 +3,11 @@ title: 檢視鏈結案例關係
 description: 您可以對應父案例與子案例之間的關係。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: e7b12ec51474440990cc28996bc70fd97688b082
+exl-id: 0782c6b1-42a5-48de-bfa0-3ced6ed2bf7f
+source-git-commit: aee2b35919e240cce5346df6d94a610c34b26e88
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 20%
+source-wordcount: '485'
+ht-degree: 18%
 
 ---
 
@@ -43,7 +44,7 @@ ht-degree: 20%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -88,5 +89,6 @@ ht-degree: 20%
 
    * 如果您只檢視地圖的一部分，該部分在簡化地圖上會較暗。
    * 在簡化地圖上，目前案例以藍色標示。
+1. 若要檢視鏈結的執行歷史記錄，請按一下檢視頂端附近的「歷史記錄」標籤。
 
-
+   您可以按一下歷史記錄，以檢視在鏈結情境之間傳遞的特定資料。

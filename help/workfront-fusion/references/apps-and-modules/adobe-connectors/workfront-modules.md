@@ -1,13 +1,13 @@
 ---
 title: Adobe Workfront 模組
-description: 您可以使用 Adobe Workfront Fusion Adobe Workfront 連接器，在 Workfront 內部將流程自動化。若您具備 Workfront Fusion for Work Automation and Integration 授權，也可以使用此授權連接至第三方應用程式和服務。
+description: 您可以使用 Adobe Workfront Fusion Adobe Workfront 連接器，在 Workfront 內部將流程自動化。 若您具備 Workfront Fusion for Work Automation and Integration 授權，也可以使用此授權連接至第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: bc4c5c047f4847b929c4b047be1897d8872709e9
+source-git-commit: 35cbede1551bd8d158d2ef502b436bc2f760bcae
 workflow-type: tm+mt
-source-wordcount: '7366'
-ht-degree: 100%
+source-wordcount: '7298'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->這篇文章包含 2025 年 10 月 22 日發行的新版本 Workfront 連接器的說明。此新連接器會反映對 Workfront API 所做的變更。
+>這篇文章包含 2025 年 10 月 22 日發行的新版本 Workfront 連接器的說明。 此新連接器會反映對 Workfront API 所做的變更。
 >
 >新的連接器會標示為「Workfront」，而先前可用的連接器會標示為「Workfront (舊版)」。
 >
@@ -24,15 +24,15 @@ ht-degree: 100%
 >* 在建立或更新情境時使用新連接器。
 >* 將現有模組升級為使用新連接器。
 >
->舊版 Workfront 連接器使用 Workfront API 版本 20，此版本預計在 28.4 版本發行時 (2028 年 4 月) 棄用。舊版連接器中的模組將持續運作，直到上述時間為止。
+>舊版 Workfront 連接器使用 Workfront API 版本 20，此版本預計在 28.4 版本發行時 (2028 年 4 月) 棄用。 舊版連接器中的模組將持續運作，直到上述時間為止。
 >
 >關於升級現有模組的說明，請參閱「將模組升級為新版本」文章中的[將 Workfront 模組升級為新版本](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md)。
 >
 >關於為什麼有時會需要新連接器的資訊，請參閱 [Fusion 中的 API 概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/api-overview.md)。
 
-您可以使用 Adobe Workfront Fusion Adobe Workfront 連接器，在 Workfront 內部將流程自動化。您也可以將 Workfront 連接至其他應用程式和服務。
+您可以使用 Adobe Workfront Fusion Adobe Workfront 連接器，在 Workfront 內部將流程自動化。 您也可以將 Workfront 連接至其他應用程式和服務。
 
-關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。 關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
 ## 存取權要求
 
@@ -97,11 +97,11 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-        <td>輸入您的 Workfront 用戶端 ID。您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。開啟您要連接的特定應用程式以便查看用戶端 ID。</td>
+        <td>輸入您的 Workfront 用戶端 ID。 您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。 開啟您要連接的特定應用程式以便查看用戶端 ID。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-        <td>輸入您的 Workfront 用戶端密碼。您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。如果您在 Workfront 的 OAuth2 應用程式沒有用戶端密碼，您可以產生另一個密碼。相關說明請參閱 Workfront 文件。</td>
+        <td>輸入您的 Workfront 用戶端密碼。 您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。 如果您在 Workfront 的 OAuth2 應用程式沒有用戶端密碼，您可以產生另一個密碼。 相關說明請參閱 Workfront 文件。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 驗證 URL]</td>
@@ -116,7 +116,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 
-   若您未登入 Workfront，系統會將您導向至登入畫面。登入後，您可以允許連線。
+   若您未登入 Workfront，系統會將您導向至登入畫面。 登入後，您可以允許連線。
 
 >[!NOTE]
 >
@@ -160,11 +160,11 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-        <td>輸入您的 Workfront 用戶端 ID。您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。開啟您要連接的特定應用程式以便查看用戶端 ID。</td>
+        <td>輸入您的 Workfront 用戶端 ID。 您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。 開啟您要連接的特定應用程式以便查看用戶端 ID。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-        <td>輸入您的 Workfront 用戶端密碼。您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。如果您在 Workfront 的 OAuth2 應用程式沒有用戶端密碼，您可以產生另一個密碼。相關說明請參閱 Workfront 文件。</td>
+        <td>輸入您的 Workfront 用戶端密碼。 您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。 如果您在 Workfront 的 OAuth2 應用程式沒有用戶端密碼，您可以產生另一個密碼。 相關說明請參閱 Workfront 文件。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 範圍]</td>
@@ -179,7 +179,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 
-   若您未登入 Workfront，系統會將您導向至登入畫面。登入後，您可以允許連線。
+   若您未登入 Workfront，系統會將您導向至登入畫面。 登入後，您可以允許連線。
 
 >[!NOTE]
 >
@@ -188,16 +188,16 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 ## Workfront 模組及其欄位
 
-當您設定 Workfront 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 Workfront 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 Workfront 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 Workfront 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
->* 若您在 Workfront 模組中未看到最新的欄位，可能是因為快取問題。請等待一小時，然後再試一次。
+>* 若您在 Workfront 模組中未看到最新的欄位，可能是因為快取問題。 請等待一小時，然後再試一次。
 >* Adobe Workfront 發出的 HTTP 429 狀態代碼不應導致停用，而是在情境中觸發短暫的執行暫停。
 
 * [觸發程序](#triggers)
@@ -216,9 +216,20 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 在 Workfront 中新增、更新或刪除特定類型的物件時，此觸發程序模組會即時執行某個情境。
 
-此模組會顯示與 Webhook 相關的所有事件訂閱。其中包括透過 Fusion 建立的事件訂閱，以及直接透過 API 建立的事件訂閱。舊版觀看事件模組並未提供此事件訂閱視圖。
+此模組會顯示與 Webhook 相關的所有事件訂閱。 其中包括透過 Fusion 建立的事件訂閱，以及直接透過 API 建立的事件訂閱。 舊版觀看事件模組並未提供此事件訂閱視圖。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
+
+>[!IMPORTANT]
+>
+>您稍後可以編輯此模組，此模組將編輯webhook。
+>
+>更新webhook時，請考量下列事項：
+>
+>* Workfront事件訂閱會將編輯後的webhook視為新訂閱。 系統不會保留先前webhook設定的事件訂閱歷史記錄，因為這會視為個別的事件訂閱。
+>* 從舊事件訂閱切換到新事件訂閱可能不會完全同步。 因此，可能會收到事件兩次（如果新訂閱在舊訂閱停止之前開始執行），或錯過事件（如果舊訂閱在新訂閱開始執行之前停止）。
+>
+>如需有關編輯webhook的詳細資訊，請參閱[編輯webhook](/help/workfront-fusion/manage-scenarios/edit-webhooks.md)。
 
 1. 按一下「**Webhook**」方框右側的「**[!UICONTROL 新增]**」。
 
@@ -246,11 +257,11 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL 事件篩選器]</p> </td> 
-      <td> <p>您可以設定篩選器為僅監視符合所選取條件的記錄。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。您可以新增 AND 規則，以便使用一個以上的篩選器。</p> <p><b>注意</b>：您無法編輯現有 Workfront Webhook 中的篩選器。若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。</p> <p>關於事件篩選器的詳細資訊，請參閱這篇文章中的 <a href="#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Workfront 中的事件訂閱篩選器 &gt; [!UICONTROL 監視事件]模組</a>。</p> </td> 
+      <td> <p>您可以設定篩選器為僅監視符合所選取條件的記錄。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。 您可以新增 AND 規則，以便使用一個以上的篩選器。</p> <p><b>注意</b>：您無法編輯現有 Workfront Webhook 中的篩選器。 若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。</p> <p>關於事件篩選器的詳細資訊，請參閱這篇文章中的 <a href="#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Workfront 中的事件訂閱篩選器 &gt; [!UICONTROL 監視事件]模組</a>。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>排除此連線所造成的事件</td> 
-      <td>啟用此選項，以便排除使用與此觸發程序模組相同的連接器所建立或更新的事件。這樣可以避免情境可能觸發自身，導致其在無限迴圈中重複的情況。<p><b>注意</b>：指派記錄類型不包含此選項。</p></td> 
+      <td>啟用此選項，以便排除使用與此觸發程序模組相同的連接器所建立或更新的事件。 這樣可以避免情境可能觸發自身，導致其在無限迴圈中重複的情況。<p><b>注意</b>：指派記錄類型不包含此選項。</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 記錄來源]</td> 
@@ -276,7 +287,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 +++ **[!UICONTROL 監視欄位]**
 
-當您指定的欄位更新時，此觸發程序模組會執行一個情境。模組會同時傳回指定欄位舊的值和新的值。您可以在情境內之後的模組中對應此資訊。
+當您指定的欄位更新時，此觸發程序模組會執行一個情境。 模組會同時傳回指定欄位舊的值和新的值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -294,7 +305,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
   </tr> 
   <tr> 
    <td>[!UICONTROL 欄位]</td> 
-   <td>選取您要模組監視其更新的欄位。這些欄位反映 Workfront 管理員為了追蹤而設定的欄位。</td> 
+   <td>選取您要模組監視其更新的欄位。 這些欄位反映 Workfront 管理員為了追蹤而設定的欄位。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 輸出]</td> 
@@ -313,7 +324,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 +++ **[!UICONTROL 監視記錄]**
 
-此觸發程序模組會在新增、更新或是同時新增和更新特定類型的物件時執行情境。模組會傳回與記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+此觸發程序模組會在新增、更新或是同時新增和更新特定類型的物件時執行情境。 模組會傳回與記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 在輸出中，模組會指出每個記錄是新記錄或是更新的記錄。
 
@@ -402,19 +413,19 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 物件類型]</td> 
-   <td> <p>選取您要轉換的物件類型。這是物件在轉換之前的類型。</p> </td> 
+   <td> <p>選取您要轉換的物件類型。 這是物件在轉換之前的類型。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 轉換成]</td> 
-   <td>選取您要轉換成哪一種物件。這是物件在轉換之後的類型。</td> 
+   <td>選取您要轉換成哪一種物件。 這是物件在轉換之後的類型。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL &lt;物件&gt; ID]</td> 
-   <td> <p>輸入物件的 ID。 </p> <p>注意：輸入物件的 ID 時，您可以開始輸入物件的名稱，然後從清單中選取。然後模組會在欄位中輸入適當的 ID。</p> </td> 
+   <td> <p>輸入物件的 ID。 </p> <p>注意：輸入物件的 ID 時，您可以開始輸入物件的名稱，然後從清單中選取。 然後模組會在欄位中輸入適當的 ID。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 範本 ID]</td> 
-   <td> <p>若要轉換成專案，請選取您要用於專案的範本 ID。</p> <p>注意：輸入物件的 ID 時，您可以開始輸入物件的名稱，然後從清單中選取。然後模組會在欄位中輸入適當的 ID。</p> </td> 
+   <td> <p>若要轉換成專案，請選取您要用於專案的範本 ID。</p> <p>注意：輸入物件的 ID 時，您可以開始輸入物件的名稱，然後從清單中選取。 然後模組會在欄位中輸入適當的 ID。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 自訂表單]</td> 
@@ -422,7 +433,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 選項]</td> 
-   <td> <p>啟用轉換物件時所需的任何選項。可用選項取決於您要轉換成哪種物件或是從哪種物件進行轉換。</p> </td> 
+   <td> <p>啟用轉換物件時所需的任何選項。 可用選項取決於您要轉換成哪種物件或是從哪種物件進行轉換。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 複製原生欄位]</td> 
@@ -439,13 +450,13 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 +++ **[!UICONTROL 建立記錄]** 
 
-此動作模組會建立物件，例如 Workfront 中的專案、任務或問題，並讓您在新物件中新增自訂表單。您可以透過模組選取在模組中可以使用物件的哪些欄位。
+此動作模組會建立物件，例如 Workfront 中的專案、任務或問題，並讓您在新物件中新增自訂表單。 您可以透過模組選取在模組中可以使用物件的哪些欄位。
 
 您指定記錄的 ID。
 
-模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
-請務必提供最少數量的輸入欄位。例如，若您要建立問題，則需要在「專案 ID」欄位中提供有效的上層專案 ID，以便指出問題在 Workfront 中應存放在哪裡。您可以使用對應面板來對應來自情境中另一個模組的這些資訊，或是輸入名稱然後從清單中選取，以手動方式輸入資訊。
+請務必提供最少數量的輸入欄位。 例如，若您要建立問題，則需要在「專案 ID」欄位中提供有效的上層專案 ID，以便指出問題在 Workfront 中應存放在哪裡。 您可以使用對應面板來對應來自情境中另一個模組的這些資訊，或是輸入名稱然後從清單中選取，以手動方式輸入資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -465,7 +476,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 選取要對應的欄位]</td> 
-   <td> <p>選取可供輸入資料的欄位。這樣一來，您可以使用這些欄位，但是不需要捲動瀏覽不需要的欄位。接著，您可以在這些欄位中輸入或對應資料。</p> <p>對於自訂表單中的欄位，請使用「<b>[!UICONTROL 附加自訂表單]</b>」欄位。</p> </td> 
+   <td> <p>選取可供輸入資料的欄位。 這樣一來，您可以使用這些欄位，但是不需要捲動瀏覽不需要的欄位。 接著，您可以在這些欄位中輸入或對應資料。</p> <p>對於自訂表單中的欄位，請使用「<b>[!UICONTROL 附加自訂表單]</b>」欄位。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 附加自訂表單]</td> 
@@ -478,7 +489,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 >[!NOTE]
 >
->* 輸入物件的 ID 時，您可以開始輸入物件的名稱，然後從清單中選取。然後模組會在欄位中輸入適當的 ID。
+>* 輸入物件的 ID 時，您可以開始輸入物件的名稱，然後從清單中選取。 然後模組會在欄位中輸入適當的 ID。
 >* 輸入自訂欄位或[!UICONTROL 備註]物件 (註解或回覆) 的文字時，您可以在「[!UICONTROL 備註文字]」欄位中使用 HTML 標記來建立 RTF 文字，例如粗體或斜體文字。
 >
 
@@ -486,7 +497,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 >[!NOTE]
 >
->所建立的使用者皆是「已停用」和「待核准」的狀態。如果您的組織已移轉至 Adobe Admin Console，但在幾分鐘內「待核准」徽章並未移除，您可以核准使用者。
+>所建立的使用者皆是「已停用」和「待核准」的狀態。 如果您的組織已移轉至 Adobe Admin Console，但在幾分鐘內「待核准」徽章並未移除，您可以核准使用者。
 >
 >* **解析個別使用者**
 >
@@ -560,16 +571,16 @@ See a list of the Workfront object types for which you can use this module in [W
 
 +++ **[!UICONTROL 自訂 API 呼叫]**
 
-您可以利用此動作模組，對 Workfront API 進行已驗證的自訂呼叫。如此一來，您就可以建立其他 Workfront 模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 Workfront API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 Workfront 模組無法完成的資料流程自動化。
 
 模組會傳回以下資訊：
 
-* **[!UICONTROL 狀態代碼]** (數字)：此代碼表示您的 HTTP 要求是成功或失敗。您可以在網際網路上查閱這些標準代碼。
-* **[!UICONTROL 標頭]** (物件)：與輸出正文無關之回應/狀態代碼的更詳細內容。並非顯示在回應標頭中的所有標頭都是回應標頭，因此有一部分對您而言可能並無用處。
+* **[!UICONTROL 狀態代碼]** (數字)：此代碼表示您的 HTTP 要求是成功或失敗。 您可以在網際網路上查閱這些標準代碼。
+* **[!UICONTROL 標頭]** (物件)：與輸出正文無關之回應/狀態代碼的更詳細內容。 並非顯示在回應標頭中的所有標頭都是回應標頭，因此有一部分對您而言可能並無用處。
 
   回應標頭取決於您在設定模組時所選擇的 HTTP 要求。
 
-* **[!UICONTROL 正文]** (物件)：根據您在設定模組時所選擇的 HTTP 要求，您可能會收到一些傳回的資料。該資料 (例如來自 GET 請求的資料) 會包含在此物件中。
+* **[!UICONTROL 正文]** (物件)：根據您在設定模組時所選擇的 HTTP 要求，您可能會收到一些傳回的資料。 該資料 (例如來自 GET 請求的資料) 會包含在此物件中。
 
 您可以在情境內之後的模組中對應此資訊。
 
@@ -593,11 +604,11 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion 中的 HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion 中的 HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 
-   <td> <p>以標準 JSON 物件的形式新增要求標頭。此資訊會決定請求的內容類型。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤訊息而且無法判斷其來源，請考慮根據 Workfront 文件修改標頭。如果您的自訂 API 呼叫傳回 422 HTTP 要求錯誤，請嘗試使用 <code>"Content-Type":"text/plain"</code> 標頭。</p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。 此資訊會決定請求的內容類型。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤訊息而且無法判斷其來源，請考慮根據 Workfront 文件修改標頭。 如果您的自訂 API 呼叫傳回 422 HTTP 要求錯誤，請嘗試使用 <code>"Content-Type":"text/plain"</code> 標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串]</td> 
@@ -623,7 +634,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 您指定記錄的 ID。
 
-模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -645,7 +656,7 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ID</td> 
-   <td> <p>輸入您要模組刪除之記錄的唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>輸入您要模組刪除之記錄的唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。 例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 記錄類型]</td> 
@@ -672,7 +683,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 您指定記錄的 ID。
 
-模組會傳回文件的內容、檔案名稱、副檔名和檔案大小。您可以在情境內之後的模組中對應此資訊。
+模組會傳回文件的內容、檔案名稱、副檔名和檔案大小。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -686,7 +697,7 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr> 
    <td>[!UICONTROL 文件 ID]</td> 
-   <td> <p>對應或手動輸入您要模組下載的檔案之唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>對應或手動輸入您要模組下載的檔案之唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。 例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -709,11 +720,11 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr> 
    <td>[!UICONTROL 文件 ID]</td> 
-   <td> <p>對應或手動輸入您要取得預先簽署 URL 之檔案的唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>對應或手動輸入您要取得預先簽署 URL 之檔案的唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。 例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL URL 過期時間]</td> 
-   <td> <p>輸入或對應此 URL 在過期前存在的分鐘數。預設值為 1 分鐘。</p><p>若要變更此值，您必須讓 Workfront Fusion 團隊啟用此參數。若未啟用，則無論您輸入什麼數字，此值都將維持 1 分鐘。</p> </td> 
+   <td> <p>輸入或對應此 URL 在過期前存在的分鐘數。 預設值為 1 分鐘。</p><p>若要變更此值，您必須讓 Workfront Fusion 團隊啟用此參數。 若未啟用，則無論您輸入什麼數字，此值都將維持 1 分鐘。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -726,7 +737,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 >[!NOTE]
 >
->自 2024 年 7 月起，`convertToProject` 動作包含欄位 `copyCategories`。設定為 `TRUE` 時，所有自訂表單都將包含在由問題轉換而成的專案中。
+>自 2024 年 7 月起，`convertToProject` 動作包含欄位 `copyCategories`。 設定為 `TRUE` 時，所有自訂表單都將包含在由問題轉換而成的專案中。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -744,9 +755,9 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 動作]</td> 
-   <td> <p>選取您要模組執行的動作。</p> <p>視您選擇的「[!UICONTROL 記錄類型]」和「[!UICONTROL 動作]」而定，可能需要填寫其他欄位。這兩項設定的部分組合可能只需要記錄 ID，而其他設定 (例如「<strong>[!UICONTROL 記錄類型]</strong>」為專案以及「<strong>[!UICONTROL 動作]」</strong>為「[!UICONTROL 附加範本]」) 則需要其他資訊 (例如物件 ID 和範本 ID)。</p><p>關於部分動作可用的選項，請參閱這篇文章中的<a href="#misc-action-options" class="MCXref xref">其他動作選項</a>。</p> <p>關於個別欄位的詳細資訊，請參閱 <a href="http://developer.workfront.com/">Workfront 開發人員文件</a>。 <p><strong>注意</strong>：開發人員文件網站僅包含至 API 版本 14 為止的資訊，但仍包含 API 呼叫的重要資訊。 </p> 
+   <td> <p>選取您要模組執行的動作。</p> <p>視您選擇的「[!UICONTROL 記錄類型]」和「[!UICONTROL 動作]」而定，可能需要填寫其他欄位。 這兩項設定的部分組合可能只需要記錄 ID，而其他設定 (例如「<strong>[!UICONTROL 記錄類型]</strong>」為專案以及「<strong>[!UICONTROL 動作]」</strong>為「[!UICONTROL 附加範本]」) 則需要其他資訊 (例如物件 ID 和範本 ID)。</p><p>關於部分動作可用的選項，請參閱這篇文章中的<a href="#misc-action-options" class="MCXref xref">其他動作選項</a>。</p> <p>關於個別欄位的詳細資訊，請參閱 <a href="http://developer.workfront.com/">Workfront 開發人員文件</a>。 <p><strong>注意</strong>：開發人員文件網站僅包含至 API 版本 14 為止的資訊，但仍包含 API 呼叫的重要資訊。 </p> 
     <ol> 
-     <li value="1"> <p>在 Workfront 開發人員文件頁面的左側導覽區中選取記錄類型。下列類型有其專屬頁面：</p> 
+     <li value="1"> <p>在 Workfront 開發人員文件頁面的左側導覽區中選取記錄類型。 下列類型有其專屬頁面：</p> 
       <ul> 
        <li> <p>[!UICONTROL 專案]</p> </li> 
        <li> <p>[!UICONTROL 任務]</p> </li> 
@@ -760,7 +771,7 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td>輸入或對應模組要與其互動之記錄的不重複 Workfront ID。<p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+   <td>輸入或對應模組要與其互動之記錄的不重複 Workfront ID。<p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。 例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -923,7 +934,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 此動作模組會從單一記錄檢索資料。
 
-您指定記錄的 ID。您也可以指定您要模組讀取的相關記錄。
+您指定記錄的 ID。 您也可以指定您要模組讀取的相關記錄。
 
 例如，若模組正在讀取的記錄為專案，您可以指定要讀取專案的任務。
 
@@ -963,7 +974,7 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr> 
     <td>[!UICONTROL ID]</td>
-   <td> <p>輸入您要模組讀取之記錄的唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>輸入您要模組讀取之記錄的唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。 例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1032,11 +1043,11 @@ See a list of the Workfront object types for which you can use this module in [W
 
 +++ **更新事件承載版本**
 
-Workfront 最近發行新版本的事件訂閱服務。新版本並非對 Workfront API 有所變更，而是變更事件訂閱功能。此動作模組會更新此情境所使用的事件承載版本。
+Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workfront API 有所變更，而是變更事件訂閱功能。 此動作模組會更新此情境所使用的事件承載版本。
 
 關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 
-關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 <table style="table-layout:auto">
  <col> 
@@ -1059,11 +1070,11 @@ Workfront 最近發行新版本的事件訂閱服務。新版本並非對 Workfr
 +++ **更新記錄**
 
 
-此動作模組會更新物件，例如專案、任務或問題。您可以透過模組選取在模組中可以使用物件的哪些欄位。
+此動作模組會更新物件，例如專案、任務或問題。 您可以透過模組選取在模組中可以使用物件的哪些欄位。
 
 您指定記錄的 ID。
 
-模組會傳回物件的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回物件的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -1079,7 +1090,7 @@ Workfront 最近發行新版本的事件訂閱服務。新版本並非對 Workfr
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>輸入您要模組更新之記錄的唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>輸入您要模組更新之記錄的唯一 Workfront ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。 例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Record Type]</td> 
@@ -1087,11 +1098,11 @@ Workfront 最近發行新版本的事件訂閱服務。新版本並非對 Workfr
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!DNL Select fields to map]</td> 
-   <td>選取可供輸入資料的欄位。這樣一來，您可以使用這些欄位，但是不需要捲動瀏覽不需要的欄位。接著，您可以在這些欄位中輸入或對應資料。</td> 
+   <td>選取可供輸入資料的欄位。 這樣一來，您可以使用這些欄位，但是不需要捲動瀏覽不需要的欄位。 接著，您可以在這些欄位中輸入或對應資料。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!DNL Attach Custom Form]</td> 
-   <td>選取您要在新記錄上提供欄位值的自訂表單。選取表單後，在表單上的欄位中輸入資料。<p> 若要對您附加在此模組的表單提供欄位值，需包含欄位中的自訂表單 ID 才能對應區段。</td> 
+   <td>選取您要在新記錄上提供欄位值的自訂表單。 選取表單後，在表單上的欄位中輸入資料。<p> 若要對您附加在此模組的表單提供欄位值，需包含欄位中的自訂表單 ID 才能對應區段。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1160,13 +1171,13 @@ See a list of the Workfront object types for which you can use this module in [W
 
 +++ **[!UICONTROL 上傳文件]**
 
-此動作模組會將文件上傳至 Workfront 物件，例如專案、任務或問題。此模組會以區塊形式上傳文件，讓 Workfront 的上傳流程更為順暢。
+此動作模組會將文件上傳至 Workfront 物件，例如專案、任務或問題。 此模組會以區塊形式上傳文件，讓 Workfront 的上傳流程更為順暢。
 
 此模組能夠處理比舊版模組更大的檔案，而且是採分階段方式向擁有 Ultimate Workfront 封裝的組織推出實施。
 
 您可以指定文件的位置、要上傳的檔案，以及可供檔案選用的新名稱。
 
-模組會傳回文件的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回文件的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -1257,7 +1268,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 此搜尋模組會讀取在特定上層物件中，符合您指定之搜尋查詢的記錄。
 
-您指定在輸出中要包含哪些欄位。您可以在情境內之後的模組中對應此資訊。
+您指定在輸出中要包含哪些欄位。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -1275,7 +1286,7 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 上層記錄 ID]</td> 
-   <td> <p>輸入或對應您要讀取其關聯記錄的上層記錄的 ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>輸入或對應您要讀取其關聯記錄的上層記錄的 ID。</p> <p>若要取得 ID，請在瀏覽器中開啟 Workfront 物件，並複製 URL 結尾在「ID=」之後的文字。 例如：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 集合]</td> 
@@ -1312,7 +1323,7 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr> 
    <td>[!UICONTROL 自訂表單清單]</td> 
-   <td> <p>選取至少一個自訂表單。這些自訂表單中的欄位將可用於搜尋查詢。</p> </td> 
+   <td> <p>選取至少一個自訂表單。 這些自訂表單中的欄位將可用於搜尋查詢。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 結果集]</td> 
@@ -1324,11 +1335,11 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr> 
    <td>[!UICONTROL 搜尋條件欄位]</td> 
-   <td> <p>選取您要用於搜尋條件的欄位。隨後在搜尋條件下拉式選單中可使用這些欄位。</p></td> 
+   <td> <p>選取您要用於搜尋條件的欄位。 隨後在搜尋條件下拉式選單中可使用這些欄位。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 搜尋條件]</td> 
-   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運算子，以及要在欄位中搜尋的值。</p> <p>注意：請勿在您的搜尋條件中使用 <code>username </code>。若在對 Workfront 進行的 API 查詢中加入 <code>username </code>，使用者便會登入 Workfront，而搜尋不會成功。</p> <p>注意：<code>In</code> 和 <code>NotIn</code> 可搭配陣列使用。輸入應使用陣列的格式。</p></td> 
+   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運算子，以及要在欄位中搜尋的值。</p> <p>注意：請勿在您的搜尋條件中使用 <code>username </code>。 若在對 Workfront 進行的 API 查詢中加入 <code>username </code>，使用者便會登入 Workfront，而搜尋不會成功。</p> <p>注意：<code>In</code> 和 <code>NotIn</code> 可搭配陣列使用。 輸入應使用陣列的格式。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 輸出]</td> 
@@ -1351,8 +1362,8 @@ See a list of the Workfront object types for which you can use this module in [W
 
 >[!IMPORTANT]
 >
->搜尋記錄模組已經取代這個模組。我們建議在新情境中使用該模組。
->使用這個模組的現有情境將繼續如常運作。這個模組將在 2025 年 5 月從模組選擇器中移除。
+>搜尋記錄模組已經取代這個模組。 我們建議在新情境中使用該模組。
+>使用這個模組的現有情境將繼續如常運作。 這個模組將在 2025 年 5 月從模組選擇器中移除。
 
 此搜尋模組會在 Workfront 中尋找物件中符合您指定之搜尋查詢的記錄。
 
@@ -1382,11 +1393,11 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
   <tr> 
    <td>[!UICONTROL 搜尋條件欄位]</td> 
-   <td> <p>選取您要用於搜尋條件的欄位。隨後在搜尋條件下拉式選單中可使用這些欄位。</p></td> 
+   <td> <p>選取您要用於搜尋條件的欄位。 隨後在搜尋條件下拉式選單中可使用這些欄位。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 搜尋條件]</td> 
-   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運算子，以及要在欄位中搜尋的值。</p> <p>注意：請勿在您的搜尋條件中使用 <code>username </code>。若在對 Workfront 進行的 API 查詢中加入 <code>username </code>，使用者便會登入 Workfront，而搜尋不會成功。</p> <p>注意：<code>In</code> 和 <code>NotIn</code> 可搭配陣列使用。輸入應使用陣列的格式。</p></td> 
+   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運算子，以及要在欄位中搜尋的值。</p> <p>注意：請勿在您的搜尋條件中使用 <code>username </code>。 若在對 Workfront 進行的 API 查詢中加入 <code>username </code>，使用者便會登入 Workfront，而搜尋不會成功。</p> <p>注意：<code>In</code> 和 <code>NotIn</code> 可搭配陣列使用。 輸入應使用陣列的格式。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 輸出]</td> 
@@ -2364,17 +2375,17 @@ See a list of the Workfront object types for which you can use this module in [W
 >
 >* 我們強烈建議您在[!UICONTROL 監視事件]模組中使用事件訂閱篩選器。
 >
->* Workfront 最近發行新版本的事件訂閱服務。新版本並非對 Workfront API 有所變更，而是變更事件訂閱功能。此動作模組會更新此情境所使用的事件承載版本。
+>* Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workfront API 有所變更，而是變更事件訂閱功能。 此動作模組會更新此情境所使用的事件承載版本。
 >
 >   關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 >
->   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境 (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)]。
+>   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境 (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)]。
 
-Workfront [!UICONTROL 監視事件]模組會根據在 Workfront API 中建立事件訂閱的 Webhook 觸發情境。事件訂閱是一個資料集，用於決定哪些事件要傳送至 Webhook。例如，若您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
+Workfront [!UICONTROL 監視事件]模組會根據在 Workfront API 中建立事件訂閱的 Webhook 觸發情境。 事件訂閱是一個資料集，用於決定哪些事件要傳送至 Webhook。 例如，若您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
 
-藉由使用事件訂閱篩選器，Fusion 使用者可以根據其使用案例建立更加合適的事件訂閱。例如，您可以在 Workfront API 中設定事件訂閱，僅將特定專案中的問題傳送至 Webhook，確保[!UICONTROL 監視事件]模組僅會因為該專案中的問題而觸發。由於能夠建立範圍較小的觸發程序，因此可以減少不相關的觸發程序的數量，進而改善情境設計。
+藉由使用事件訂閱篩選器，Fusion 使用者可以根據其使用案例建立更加合適的事件訂閱。 例如，您可以在 Workfront API 中設定事件訂閱，僅將特定專案中的問題傳送至 Webhook，確保[!UICONTROL 監視事件]模組僅會因為該專案中的問題而觸發。 由於能夠建立範圍較小的觸發程序，因此可以減少不相關的觸發程序的數量，進而改善情境設計。
 
-這與在 Workfront Fusion 情境中設定篩選器不同。若沒有事件訂閱篩選器，您的 Webhook 會接收與所選物件類型相關的所有事件。這些事件大多與情境無關，必須先篩選掉，情境才能繼續。
+這與在 Workfront Fusion 情境中設定篩選器不同。 若沒有事件訂閱篩選器，您的 Webhook 會接收與所選物件類型相關的所有事件。 這些事件大多與情境無關，必須先篩選掉，情境才能繼續。
 
 Workfront > 監視事件篩選器中提供下列運算子：
 
@@ -2396,7 +2407,7 @@ Workfront > 監視事件篩選器中提供下列運算子：
 
 >[!IMPORTANT]
 >
->您無法編輯現有 Workfront Webhook 中的篩選器。若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。
+>您無法編輯現有 Workfront Webhook 中的篩選器。 若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。
 
 >[!INFO]
 >
@@ -2404,7 +2415,7 @@ Workfront > 監視事件篩選器中提供下列運算子：
 >
 >### 使用事件訂閱篩選器來篩選事件 (建議使用)
 >
->透過事件篩選器，您可以設定 Webhook 在問題建立時若將問題指派至 Ana，則觸發情境。Ana 的使用者 ID 是 b378489d8f7cd3cee0539260720a84b7。
+>透過事件篩選器，您可以設定 Webhook 在問題建立時若將問題指派至 Ana，則觸發情境。 Ana 的使用者 ID 是 b378489d8f7cd3cee0539260720a84b7。
 >
 >![事件篩選器](/help/workfront-fusion/references/apps-and-modules/assets/event-filter-watch-events-350x277.png)
 >
@@ -2416,7 +2427,7 @@ Workfront > 監視事件篩選器中提供下列運算子：
 >
 >![沒有事件篩選器](/help/workfront-fusion/references/apps-and-modules/assets/watch-events-non-event-filter-350x206.png)
 >
->如果一天內建立了 100 個問題，但只有兩個問題指派至 Ana，情境會執行 100 次。其中 98 次執行會在遇到篩選器時便停止，但觸發程序模組仍在所有執行中使用資料及執行作業。
+>如果一天內建立了 100 個問題，但只有兩個問題指派至 Ana，情境會執行 100 次。 其中 98 次執行會在遇到篩選器時便停止，但觸發程序模組仍在所有執行中使用資料及執行作業。
 
 關於 Workfront 事件訂閱的詳細資訊，請參閱[常見問題集 - 事件訂閱](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-faq)。
 

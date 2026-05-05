@@ -4,10 +4,10 @@ description: 下列陣列函式可在Adobe Workfront Fusion對應面板中使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 16c3915c-add1-4aab-a0e1-75fc590c42a6
-source-git-commit: 9b61a3b18df1f755cc7ccc28889564e4bcb6cda0
+source-git-commit: 869927a3bc9849fa136078c8acb195f56aee0320
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 0%
+source-wordcount: '648'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `map(Emails[];email)`
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 * `desc`
 
-  遞減順序： ...， 3， 2， 1代表型別Number。...， c， b， a， C， B， A代表文字。
+  遞減順序： ...， 3， 2， 1代表型別Number。 ...， c， b， a， C， B， A代表文字。
 
 * `asc ci`
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `sort(Contacts[];name)`
 
@@ -200,11 +200,11 @@ ht-degree: 0%
 
 為`mode`引數輸入下列其中一個值。
 
-* `classic`：傳回新陣列，其中包含`array1`中不存在的`array2`的所有元素。
+* `classic`：傳回新陣列，其中包含`array2`中不存在的`array1`的所有元素。
 
 * `symmetric`：傳回兩個陣列不共用的元素陣列。
 
-  換言之，此函式傳回的陣列包含`array1`中不存在的`array2`的所有元素，以及`array2`中不存在的`array1`的所有元素。
+  換言之，此函式傳回的陣列包含`array2`中不存在的`array1`的所有元素，以及`array1`中不存在的`array2`的所有元素。
 
 >[!BEGINSHADEBOX]
 
@@ -231,6 +231,30 @@ yourArray = [3,4,5,6,7]
 * `arrayDifference [myArray, yourArray, symmetric]`
 
   傳回`[1,2,6,7]`
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL arrayElement（陣列；索引）]
+
+[!BADGE 新增！]{type=Informative}
+
+
+傳回陣列中指定1型索引處的元素。 如果索引超出界限或小於1，則傳回`null`。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `arrayElement(\[10; 20; 30]; 2)`
+
+  傳回20
+* `arrayElement(\[10; 20; 30]; 1)`
+
+  傳回10
+* `arrayElement(\[10; 20; 30]; 5)`
+
+  傳回null
 
 >[!ENDSHADEBOX]
 

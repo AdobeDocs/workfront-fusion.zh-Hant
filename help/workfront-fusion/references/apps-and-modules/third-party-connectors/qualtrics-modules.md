@@ -51,7 +51,7 @@ ht-degree: 59%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -100,11 +100,11 @@ Qualtrics聯結器使用下列專案：
       <td> <p>輸入新連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL資料中心ID] </td> 
+      <td role="rowheader">[!UICONTROL 資料中心ID] </td> 
       <td>使用格式<code>&lt;Data Center ID>.qualtrics.com</code>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL API Key]</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
       <td>若要尋找您的API金鑰，請參閱[!DNL Qualtrics]檔案。</td> 
      </tr> 
     </tbody> 

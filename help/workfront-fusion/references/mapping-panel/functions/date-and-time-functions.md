@@ -4,9 +4,9 @@ description: 下列日期和時間函式可在Adobe Workfront Fusion對應面板
 author: Becky
 feature: Workfront Fusion
 exl-id: 92813dac-4bf0-4681-9b71-7bd2e92a89a4
-source-git-commit: e11e581c092ebba343a0f2d6943ecbe4d0fe4c87
+source-git-commit: fc7f98c128f73a60d75750c6bd57ec8ddc31954c
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2375'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `addSeconds(2016-12-08T15:55:57.536Z;2)`
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `addMinutes(2016-12-08T15:55:57.536Z;2)`
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `addHours(2016-12-08T15:55:57.536Z; 2)`
 
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `addDays(2016-12-08T15:55:57.536Z;2)`
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 `addWeekDays("2016-12-08T15:55:57.536Z"; 2)`
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `addMonths(2016-08-08T15:55:57.536Z;2)`
 
@@ -140,7 +140,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `addYears(2016-08-08T15:55:57.536Z;2)`
 
@@ -160,7 +160,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `dayOfMonth("2016-12-28T16:03:06.372Z")`
 
@@ -180,7 +180,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `dayOfWeek("2016-12-28T16:03:06.372Z")`
 
@@ -200,7 +200,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `daysInMonth("2016-01-01T00:00:00.000Z")`
 
@@ -220,7 +220,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `daysInSplitWeek("2016-12-28T16:03:06.372Z")`
 
@@ -240,7 +240,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `daysInYear("2016-06-01T00:00:00.000Z")`
 
@@ -260,7 +260,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `dateMax("2016-06-01T00:00:00.000Z"; "2016-12-01T00:00:00.000Z") `
 
@@ -281,7 +281,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `dateMin("2016-06-01T00:00:00.000Z"; "2016-12-01T00:00:00.000Z")`
 
@@ -294,6 +294,31 @@ ht-degree: 2%
 >[!ENDSHADEBOX]
 
 
+### [!UICONTROL endOfMonth（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回指定日期當月的最後時刻 — 最後一天的最後毫秒數(23:59:59.999)。 自動說明該月內的天數，包括閏年。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `endOfMonth("2016-06-15T12:30:00.000Z")`
+
+  傳回2016-06-30T23:59:59.999Z
+
+* `endOfMonth("2016-01-01T00:00:00.000Z")`
+
+  傳回2016-01-31T23:59:59.999Z
+
+* `endOfMonth("2016-02-01T00:00:00.000Z")`
+
+  傳回2016-02-29T23:59:59.999Z
+
+>[!ENDSHADEBOX]
+
+
 ### [!UICONTROL 小時（日期）]
 
 [!BADGE 新增！]{type=Informative}
@@ -302,7 +327,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `hour("2016-12-08T15:55:57.536Z")`
 
@@ -310,6 +335,35 @@ ht-degree: 2%
 * `hour("2016-12-08T00:00:00.000Z")`
 
   傳回0
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL isWeekend（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+如果日期在星期六或星期日，則傳回`true`，若為其他任何日期，則傳回`false`。 結果由情境設定的時區決定。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `isWeekend("2016-12-10T00:00:00.000Z")`
+
+  傳回true （星期六）
+
+* `isWeekend("2016-12-11T00:00:00.000Z")`
+
+  傳回true （星期日）
+
+* `isWeekend("2016-12-12T00:00:00.000Z")`
+
+  傳回false （星期一）
+
+* `isWeekend("2016-12-09T00:00:00.000Z")`
+
+  傳回false （星期五）
 
 >[!ENDSHADEBOX]
 
@@ -322,7 +376,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `minute("2016-12-08T15:55:57.536Z")`
 
@@ -342,7 +396,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `month("2016-12-08T15:55:57.536Z")`
 
@@ -362,7 +416,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `second("2016-12-08T15:55:57.536Z")`
 
@@ -370,6 +424,27 @@ ht-degree: 2%
 * `second("2016-12-08T15:55:00.000Z")`
 
   傳回0
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL startOfMonth(date)]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回指定日期當月的第一個時間 — 第1天的午夜(00:00:00.000)。 結果可感知時區。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `startOfMonth("2016-06-15T12:30:00.000Z")`
+
+  傳回2016-06-01T00:00:00.000Z
+
+* `startOfMonth("2024-02-14T08:00:00.000Z")`
+
+  傳回2024-02-01T00:00:00.000Z
 
 >[!ENDSHADEBOX]
 
@@ -382,7 +457,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `weekDayDiff("2016-12-07T12:00:00.000Z"; "2016-12-05T00:00:00.000Z")`
 
@@ -402,7 +477,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `workMinutesDiff("2016-12-05T09:00:00.000Z"; "2016-12-05T17:00:00.000Z")`
 
@@ -422,7 +497,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `year("2016-12-08T15:55:57.536Z")`
 
@@ -443,7 +518,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `setSecond(2015-10-07T11:36:39.138Z;10)`
 
@@ -465,7 +540,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `setMinute(2015-10-07T11:36:39.138Z;10)`
 
@@ -487,7 +562,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `setHour(2015-08-07T11:36:39.138Z;6)`
 
@@ -509,7 +584,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `setDay(2018-06-27T11:36:39.138Z;Monday)`
 
@@ -533,7 +608,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `setDate(2015-08-07T11:36:39.138Z;5)`
 
@@ -553,7 +628,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `setMonth(2015-08-07T11:36:39.138Z;5)`
 
@@ -739,7 +814,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
 

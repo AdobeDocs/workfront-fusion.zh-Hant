@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: a48a7f5f6577782dbc043e322a3c769781ffd63b
+source-git-commit: 1752b97d5902c9f9b2ec3a8c0bd01f9dbab93d0a
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2397'
 ht-degree: 55%
 
 ---
@@ -16,14 +16,15 @@ ht-degree: 55%
 * Fusion 發行活動 {#fusion-release-activity}
    * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion版本 — 2026 {#fusion-releases-2026}
-      * {hide-from-toc}[Workfront Fusion發行活動： 2026年4月27日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-4-27.md)
-      * {hide-from-toc}[Workfront Fusion發行活動： 2026年4月13日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-4-13.md)
-      * {hide-from-toc}[Workfront Fusion發行活動：2026年3月30日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-30.md)
-      * {hide-from-toc}[Workfront Fusion發行活動：2026年3月23日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-23.md)
-      * {hide-from-toc}[Workfront Fusion發行活動：2026年3月16日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-16.md)
-      * {hide-from-toc}[Workfront Fusion發行活動： 2026年3月9日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-9.md)
-      * {hide-from-toc}[Workfront Fusion發行活動：2026年3月2日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-2.md)
-      * {hide-from-toc}[Workfront Fusion發行活動： 2026年2月23日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-2-23.md)
+      * [Workfront Fusion發行活動： 2026年5月4日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-5-4.md)
+      * [Workfront Fusion發行活動： 2026年4月27日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-4-27.md)
+      * [Workfront Fusion發行活動： 2026年4月13日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-4-13.md)
+      * [Workfront Fusion發行活動：2026年3月30日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-30.md)
+      * [Workfront Fusion發行活動：2026年3月23日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-23.md)
+      * [Workfront Fusion發行活動：2026年3月16日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-16.md)
+      * [Workfront Fusion發行活動： 2026年3月9日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-9.md)
+      * [Workfront Fusion發行活動： 2026年3月2日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-2.md)
+      * [Workfront Fusion發行活動： 2026年2月23日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-2-23.md)
    * Fusion 發行版本 - 2025 年 {#fusion-releases-2025}
       * {hide-from-toc}[Workfront Fusion發行活動： 2026年2月16日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-2-16.md)
       * {hide-from-toc}[Workfront Fusion發行活動： 2026年2月9日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-2-9.md)

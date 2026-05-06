@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion對應面板中有以下字串函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: d3e49fce-85bc-4ee6-9a94-497a306e0c74
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: e11e581c092ebba343a0f2d6943ecbe4d0fe4c87
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 4%
+source-wordcount: '778'
+ht-degree: 5%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `ascii(` `Wěošrčkřfžrýoáníté` `)`
 
@@ -162,7 +162,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `substring( Hello ; 0 ; 3)`
 
@@ -180,7 +180,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `indexOf( Workfront ; o )`
 
@@ -204,7 +204,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `toBinary( Workfront )`
 
@@ -285,7 +285,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `contains( Hello World ; Hello )`
 
@@ -392,3 +392,144 @@ ht-degree: 4%
 傳回： d29ya2Zyb250==
 
 >[!ENDSHADEBOX]
+
+
+### [!UICONTROL concat（string1；分隔符號；string2； ...）]
+
+[!BADGE 新增！]{type=Informative}
+
+串連字串，每個字串之間有分隔符號。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `concat("Hello"; " "; "World")`
+
+  傳回Hello World
+* `concat("a"; "-"; "b"; "c")`
+
+  傳回a-b-c
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL left(string； length)]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回字串左側的指定字元數。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `left("Hello"; 3)`
+
+  傳回Hel
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL right(string； length)]
+
+[!BADGE 新增！]{type=Informative}
+
+從字串右側傳回指定的字元數。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `right("Hello"; 3)`
+
+  傳回llo
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL removeAccents(string)]
+
+[!BADGE 新增！]{type=Informative}
+
+從重音字元中移除變音符號（重音符號）。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `removeAccents("Héllo wörld")`
+
+  傳回Hello世界
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL replacePattern(string； pattern； replacement)]
+
+[!BADGE 新增！]{type=Informative}
+
+將規則運算式模式的所有相符專案取代為
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `replacePattern("foo123bar"; "\\d+"; "\_")`
+
+  傳回foo\_bar
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL sortAscString(string1； string2； ...)]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回提供的字串，這些字串會以遞增（字母順序）順序排序。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `sortAscString("banana"; "apple"; "cherry")`
+
+  傳回\[&quot;apple&quot;、&quot;banana&quot;、&quot;cherry&quot;]
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL sortDescString(string1； string2； ...)]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回提供的字串，這些字串會以遞減（反向字母順序）順序排序。
+
+**語法:** `sortDescString(string1; string2; ...)`
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `sortDescString("banana"; "apple"; "cherry")`
+
+  傳回\[&quot;cherry&quot;、&quot;banana&quot;、&quot;apple&quot;]
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL pascal（字串）]
+
+[!BADGE 新增！]{type=Informative}
+
+將字串轉換為PascalCase，方法是將每個字的第一個字母轉換為大寫，並移除空格。
+
+**語法:** `pascal(string)`
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `pascal("hello world")`
+
+  傳回HelloWorld
+* `pascal("foo bar baz")`
+
+  傳回FooBarBaz
+
+>[!ENDSHADEBOX]
+
+

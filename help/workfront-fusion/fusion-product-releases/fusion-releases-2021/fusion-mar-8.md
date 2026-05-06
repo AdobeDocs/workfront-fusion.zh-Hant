@@ -8,9 +8,8 @@ description: 本頁說明2021年3月8日當週在Adobe Workfront Fusion中所做
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: c543ac10-840f-497a-a511-9afefc417a3b
-source-git-commit: 0e8f73afb2ab60bb1b601abf3c4f3d611e97d125
+source-git-commit: a48a7f5f6577782dbc043e322a3c769781ffd63b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 39%

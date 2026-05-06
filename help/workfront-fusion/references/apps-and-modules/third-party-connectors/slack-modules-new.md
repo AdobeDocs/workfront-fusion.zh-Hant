@@ -4,9 +4,9 @@ description: 在 [!DNL Adobe Workfront Fusion] 案例中，您可以自動執行
 author: Becky
 feature: Workfront Fusion
 exl-id: 4c14fa36-8333-40d6-bd0a-fc6b0d9f4410
-source-git-commit: 88147d0305595e1d0d388f510ed43fc5beaa4b64
+source-git-commit: 42b5b5729b68bf8cea9940fb261a15293db52be1
 workflow-type: tm+mt
-source-wordcount: '4581'
+source-wordcount: '4621'
 ht-degree: 12%
 
 ---
@@ -80,7 +80,7 @@ Slack聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎 URL</td> 
-   <td>{{ifempty(parameters.domain， 'https://slack.com/api/')}}</td> 
+   <td><pre><code>&#123;&#123;ifempty(parameters.domain, 'https://slack.com/api/')&#125;&#125;</code></pre></td> 
   </tr>
   <tr> 
    <td role="rowheader">API 標記</td> 
@@ -91,9 +91,9 @@ Slack聯結器會使用以下專案：
 
 ## [!DNL Slack] 模組及其欄位
 
-當您設定[!DNL Slack]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Slack] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定[!DNL Slack]模組時，[!DNL Workfront Fusion]會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Slack] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -134,11 +134,11 @@ Slack聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 文字]</p> </td> 
-   <td> <p>輸入要建立的訊息文字內容。</p> <p>注意：如需有關文字格式的詳細資訊，請參閱<a href="https://api.slack.com/reference/surfaces/formatting">檔案中的</a>格式化應用程式表面的文字[!DNL Slack]。</p> </td> 
+   <td> <p>輸入要建立的訊息文字內容。</p> <p>注意：如需有關文字格式的詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/reference/surfaces/formatting">格式化應用程式表面的文字</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 區塊]</td> 
-   <td>區塊是可重複使用的元件，可用於自訂及組織您的訊息。 如需有關區塊的詳細資訊，請參閱<a href="https://api.slack.com/block-kit">檔案中的</a>區塊套件[!DNL Slack]。</td> 
+   <td>區塊是可重複使用的元件，可用於自訂及組織您的訊息。 如需有關區塊的詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/block-kit">區塊套件</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 執行緒訊息ID （時間戳記）]</td> 
@@ -154,11 +154,11 @@ Slack聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 連結名稱]</p> </td> 
-   <td> <p>啟用此選項以允許名稱和管道使用<code>@username</code>或<code>#channel</code>格式。 </p> <p>如需詳細資訊，請參閱<a href="https://api.slack.com/docs/formatting">檔案中的</a>格式化應用程式介面的文字[!DNL Slack]。</p> </td> 
+   <td> <p>啟用此選項以允許名稱和管道使用<code>@username</code>或<code>#channel</code>格式。 </p> <p>如需詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/docs/formatting">格式化應用程式介面的文字</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 剖析訊息文字]</p> </td> 
-   <td> <p>啟用此選項以允許自動剖析。 </p> <p>如需詳細資訊，請參閱<a href="https://api.slack.com/docs/formatting">檔案中的</a>格式化應用程式介面的文字[!DNL Slack]。</p> <p>注意：如果您在原始訊息中使用[!UICONTROL 連結名稱]或[!UICONTROL 剖析訊息文字]選項，您也應在執行[!UICONTROL 更新訊息]模組時指定這些選項。</p> </td> 
+   <td> <p>啟用此選項以允許自動剖析。 </p> <p>如需詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/docs/formatting">格式化應用程式介面的文字</a>。</p> <p>注意：如果您在原始訊息中使用[!UICONTROL 連結名稱]或[!UICONTROL 剖析訊息文字]選項，您也應在執行[!UICONTROL 更新訊息]模組時指定這些選項。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 使用Markdown]</p> </td> 
@@ -166,11 +166,11 @@ Slack聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 展開主要是文字型內容]</p> </td> 
-   <td> <p>啟用此選項以允許展開主要是文字型內容。 </p> <p>如需在[!DNL Slack]中展開的相關詳細資訊，請參閱<a href="https://api.slack.com/reference/messaging/link-unfurling">檔案中的</a>在訊息中展開連結[!DNL Slack]。</p> </td> 
+   <td> <p>啟用此選項以允許展開主要是文字型內容。 </p> <p>如需在[!DNL Slack]中展開的相關詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/reference/messaging/link-unfurling">在訊息中展開連結</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 展開媒體內容]</p> </td> 
-   <td> <p>啟用此選項可允許展開媒體內容。 </p> <p>如需在[!DNL Slack]中展開的相關詳細資訊，請參閱<a href="https://api.slack.com/reference/messaging/link-unfurling">檔案中的</a>在訊息中展開連結[!DNL Slack]。</p> </td> 
+   <td> <p>啟用此選項可允許展開媒體內容。 </p> <p>如需在[!DNL Slack]中展開的相關詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/reference/messaging/link-unfurling">在訊息中展開連結</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -330,25 +330,25 @@ Slack聯結器會使用以下專案：
    <td role="rowheader"> <p>[!UICONTROL 輸入管道ID或名稱]</p> </td> 
    <td> <p>選擇您希望如何選取所要的訊息。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>在<strong>[!UICONTROL 頻道ID或名稱]</strong>欄位中，輸入或對應包含訊息的頻道ID或頻道，然後輸入訊息的<strong>[!UICONTROL 時間戳記（訊息ID）]</strong>。.</p> <p>注意：頻道ID可使用[!UICONTROL 清單頻道]模組擷取。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>在<strong>[!UICONTROL 頻道ID或名稱]</strong>欄位中，輸入或對應包含訊息的頻道ID或頻道，然後輸入訊息的<strong>[!UICONTROL 時間戳記（訊息ID）]</strong>。 .</p> <p>注意：頻道ID可使用[!UICONTROL 清單頻道]模組擷取。</p> </li> 
      <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取管道型別，然後選取管道，再選取訊息。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 文字]</p> </td> 
-   <td> <p>輸入要更新的訊息的新文字內容。</p> <p>如需詳細資訊，請參閱<a href="https://api.slack.com/docs/formatting">檔案中的</a>格式化應用程式介面的文字[!DNL Slack]。</p> </td> 
+   <td> <p>輸入要更新的訊息的新文字內容。</p> <p>如需詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/docs/formatting">格式化應用程式介面的文字</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 區塊]</td> 
-   <td>區塊是可重複使用的元件，可用於自訂及組織您的訊息。 如需有關區塊的詳細資訊，請參閱<a href="https://api.slack.com/block-kit">檔案中的</a>區塊套件[!DNL Slack]。</td> 
+   <td>區塊是可重複使用的元件，可用於自訂及組織您的訊息。 如需有關區塊的詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/block-kit">區塊套件</a>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 連結名稱]</p> </td> 
-   <td> <p>啟用此選項以允許名稱和管道使用<code>@username</code>或<code>#channel</code>格式。 </p> <p>如需詳細資訊，請參閱<a href="https://api.slack.com/docs/formatting">檔案中的</a>格式化應用程式介面的文字[!DNL Slack]。</p> </td> 
+   <td> <p>啟用此選項以允許名稱和管道使用<code>@username</code>或<code>#channel</code>格式。 </p> <p>如需詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/docs/formatting">格式化應用程式介面的文字</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 剖析訊息文字]</p> </td> 
-   <td> <p>啟用此選項以允許自動剖析。 </p> <p> 如需詳細資訊，請參閱<a href="https://api.slack.com/docs/formatting">檔案中的</a>格式化應用程式介面的文字[!DNL Slack]。</p> <p>注意：如果您在原始訊息中使用[!UICONTROL 連結名稱]或[!UICONTROL 剖析訊息文字]選項，您也應在執行更新訊息模組時指定這些選項。</p> </td> 
+   <td> <p>啟用此選項以允許自動剖析。 </p> <p> 如需詳細資訊，請參閱[!DNL Slack]檔案中的<a href="https://api.slack.com/docs/formatting">格式化應用程式介面的文字</a>。</p> <p>注意：如果您在原始訊息中使用[!UICONTROL 連結名稱]或[!UICONTROL 剖析訊息文字]選項，您也應在執行更新訊息模組時指定這些選項。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1478,7 +1478,7 @@ This action module deletes a specific reminder.
 
 +++ **[!UICONTROL 進行API呼叫]**
 
-您可以利用此動作模組，對 [!DNL Slack] API 進行已驗證的自訂呼叫。如此一來，您就可以建立其他 [!DNL Slack] 模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Slack] API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 [!DNL Slack] 模組無法完成的資料流程自動化。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1490,11 +1490,11 @@ This action module deletes a specific reminder.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>輸入相對於 <code>https://slack.com/api/</code> 的路徑。範例：<code>/users/identity</code>。</td> 
+   <td>輸入相對於 <code>https://slack.com/api/</code> 的路徑。 範例：<code>/users/identity</code>。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   td&gt; <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
+   td&gt; <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 
@@ -1528,4 +1528,4 @@ This action module deletes a specific reminder.
 * **IM**： [!UICONTROL 立即訊息]
 * **私人頻道**：先前為[!UICONTROL 群組]
 * **直接訊息**：先前為[!UICONTROL IM]
-* **頻道**： API檔案中的[!UICONTROL 交談]，[!UICONTROL 應用程式中的]頻道[!DNL Slack]。
+* **頻道**： API檔案中的[!UICONTROL 交談]，[!DNL Slack]應用程式中的[!UICONTROL 頻道]。

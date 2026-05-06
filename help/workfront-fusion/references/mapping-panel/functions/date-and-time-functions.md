@@ -4,9 +4,9 @@ description: 下列日期和時間函式可在Adobe Workfront Fusion對應面板
 author: Becky
 feature: Workfront Fusion
 exl-id: 92813dac-4bf0-4681-9b71-7bd2e92a89a4
-source-git-commit: 42bf7b0ac6eb414312573b32b93677a5c9650fa8
+source-git-commit: e11e581c092ebba343a0f2d6943ecbe4d0fe4c87
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '2253'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 ### [!UICONTROL addSeconds （日期；數字）]
 
-Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
+將指定秒數新增至日期後，傳回新日期。 若要減去秒數，請輸入負數。
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `addSeconds(2016-12-08T15:55:57.536Z;2)`
 
@@ -49,7 +49,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `addMinutes(2016-12-08T15:55:57.536Z;2)`
 
@@ -61,13 +61,13 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!ENDSHADEBOX]
 
-### [!UICONTROL addHours (date; number)] {#addhours-date-number}
+### [!UICONTROL addHours （日期；數字）] {#addhours-date-number}
 
 將指定小時數新增至日期後，傳回新日期。 若要減去時數，請輸入負數。
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `addHours(2016-12-08T15:55:57.536Z; 2)`
 
@@ -85,7 +85,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `addDays(2016-12-08T15:55:57.536Z;2)`
 
@@ -97,13 +97,32 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!ENDSHADEBOX]
 
+### [!UICONTROL addWeekDays（日期；數字）]
+
+[!BADGE 新增！]{type=Informative}
+
+將工作日數新增至日期。 只加入整數值（小數值會向下舍入）。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+`addWeekDays("2016-12-08T15:55:57.536Z"; 2)`
+
+傳回2016-12-12T15:55:57.536Z
+`addWeekDays("2016-12-08T15:55:57.536Z"; -2)`
+傳回2016-12-06T15:55:57.536Z
+
+>[!ENDSHADEBOX]
+
+
 ### [!UICONTROL addMonths （日期；數字）]
 
 將指定月份數新增至日期後，傳回新日期。 若要減去月份，請輸入負數。
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `addMonths(2016-08-08T15:55:57.536Z;2)`
 
@@ -121,7 +140,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `addYears(2016-08-08T15:55:57.536Z;2)`
 
@@ -130,6 +149,287 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 * `addYears(2016-12-08T15:55:57.536Z; -2)`
 
   傳回2014-08-08T15:55:57.536Z
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL dayOfMonth（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+以1到31之間的數字傳回日期的月中日。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `dayOfMonth("2016-12-28T16:03:06.372Z")`
+
+  傳回28
+* `dayOfMonth("2015-01-05T11:36:39.138Z")`
+
+  傳回5
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL dayOfWeek（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+以1 （星期日）和7 （星期六）之間的數字傳回日期的一週中某日。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `dayOfWeek("2016-12-28T16:03:06.372Z")`
+
+  傳回4
+* `dayOfWeek("2016-12-25T16:03:06.372Z")`
+
+  傳回1
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL daysInMonth（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回指定日期所在月份的總天數。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `daysInMonth("2016-01-01T00:00:00.000Z")`
+
+  傳回31
+* `daysInMonth("2016-02-01T00:00:00.000Z")`
+
+  傳回29
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL daysInSplitWeek（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回該日期和一星期結束之間、或一個月結束之間（視其中哪個日期先到）的工作日總數。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `daysInSplitWeek("2016-12-28T16:03:06.372Z")`
+
+  傳回3
+* `daysInSplitWeek("2016-01-25T16:03:06.372Z")`
+
+  傳回5
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL daysInYear（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回指定日期一年中的總天數（一般年是365，閏年是366）。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `daysInYear("2016-06-01T00:00:00.000Z")`
+
+  傳回366
+* `daysInYear("2015-06-01T00:00:00.000Z")`
+
+  傳回365
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL dateMax(date1； date2； ...)]
+
+[!BADGE 新增！]{type=Informative}
+
+從清單傳回最新（最新）日期。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `dateMax("2016-06-01T00:00:00.000Z"; "2016-12-01T00:00:00.000Z") `
+
+  傳回2016-12-01T00:00:00.000Z
+
+* `dateMax("2015-01-01T00:00:00.000Z"; "2016-06-15T00:00:00.000Z"; "2014-03-20T00:00:00.000Z")`
+
+  傳回2016-06-15T00:00:00.000Z
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL dateMin(date1； date2； ...)]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回清單中最早的日期。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `dateMin("2016-06-01T00:00:00.000Z"; "2016-12-01T00:00:00.000Z")`
+
+  傳回2016-06-01T00:00:00.000Z
+
+* `dateMin("2015-01-01T00:00:00.000Z"; "2016-06-15T00:00:00.000Z"; "2014-03-20T00:00:00.000Z") `
+
+  傳回2014-03-20T00:00:00.000Z
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL 小時（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+以0到23之間的數字傳回日期的小時數。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `hour("2016-12-08T15:55:57.536Z")`
+
+  傳回15
+* `hour("2016-12-08T00:00:00.000Z")`
+
+  傳回0
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL 分鐘（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+以0到59之間的數字傳回日期的分鐘數。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `minute("2016-12-08T15:55:57.536Z")`
+
+  傳回55
+* `minute("2016-12-08T15:00:00.000Z")`
+
+  傳回0
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL 個月（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+以1到12之間的數字傳回日期的月份。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `month("2016-12-08T15:55:57.536Z")`
+
+  傳回12
+* `month("2016-01-08T15:55:57.536Z")`
+
+  傳回1
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL 秒（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+以0到59之間的數字傳回日期的秒數。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `second("2016-12-08T15:55:57.536Z")`
+
+  傳回57
+* `second("2016-12-08T15:55:00.000Z")`
+
+  傳回0
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL weekDayDiff(date2； date1)]
+
+[!BADGE 新增！]{type=Informative}
+
+傳回兩個日期之間的工作日數，計入這些日期的時間戳記。 例如，如果開始時間是下午3點，則開始日期不會計算為全天。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `weekDayDiff("2016-12-07T12:00:00.000Z"; "2016-12-05T00:00:00.000Z")`
+
+  傳回2.5
+* `weekDayDiff("2016-12-09T15:00:00.000Z"; "2016-12-05T15:00:00.000Z")`
+
+  傳回4
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL workMinutesDiff(date1； date2)]
+
+[!BADGE 新增！]{type=Informative}
+
+根據標準星期一至星期五、上午9點至下午5點的排程，傳回兩個日期之間的排程工作分鐘數。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `workMinutesDiff("2016-12-05T09:00:00.000Z"; "2016-12-05T17:00:00.000Z")`
+
+  傳回480
+* `workMinutesDiff("2016-12-05T09:00:00.000Z"; "2016-12-06T17:00:00.000Z")`
+
+  傳回960
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL 年（日期）]
+
+[!BADGE 新增！]{type=Informative}
+
+以4位數字傳回日期的年份。
+
+>[!BEGINSHADEBOX]
+
+**範例:**
+
+* `year("2016-12-08T15:55:57.536Z")`
+
+  傳回2016年
+* `year("2000-01-01T00:00:00.000Z")`
+
+  傳回2000
 
 >[!ENDSHADEBOX]
 
@@ -143,7 +443,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `setSecond(2015-10-07T11:36:39.138Z;10)`
 
@@ -165,7 +465,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `setMinute(2015-10-07T11:36:39.138Z;10)`
 
@@ -187,7 +487,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `setHour(2015-08-07T11:36:39.138Z;6)`
 
@@ -209,15 +509,15 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `setDay(2018-06-27T11:36:39.138Z;Monday)`
 
-  Returns 2018-06-25T11:36:39.138Z
+  傳回2018-06-25T11:36:39.138Z
 
 * `setDay(2018-06-27T11:36:39.138Z;1)`
 
-  Returns 2018-06-24T11:36:39.138Z
+  傳回2018-06-24T11:36:39.138Z
 
 * `setDay(2018-06-27T11:36:39.138Z;7)`
 
@@ -233,7 +533,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `setDate(2015-08-07T11:36:39.138Z;5)`
 
@@ -241,19 +541,19 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 * `setDate(2015-08-07T11:36:39.138Z;32)`
 
-  Returns 2015-09-01T11:36:39.138Z
+  傳回2015-09-01T11:36:39.138Z
 
 >[!ENDSHADEBOX]
 
-### [!UICONTROL setMonth (date; number/name of the month in English)]
+### [!UICONTROL setMonth （日期；英文的月份編號/名稱）]
 
-This function returns a new date with the month specified in parameters.
+此函式使用引數中指定的月份傳回新日期。
 
 指定從1到12的數字。 如果數字超出此範圍，此函式會傳回前一年（負數）或後續年度（正數）中的月份。
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `setMonth(2015-08-07T11:36:39.138Z;5)`
 
@@ -407,19 +707,19 @@ This function returns a new date with the month specified in parameters.
 
 * `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
 
-  Returns 2016-12-28T16:03:00.000Z
+  傳回2016-12-28T16:03:00.000Z
 
 * `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
 
-  Returns 2016-12-28T16:03:06.000Z
+  傳回2016-12-28T16:03:06.000Z
 
 * `parseDate(1482940986;X)`
 
-  Returns 2016-12-28T16:03:06.000Z
+  傳回2016-12-28T16:03:06.000Z
 
 >[!ENDSHADEBOX]
 
-### [!UICONTROL dateDifference (Date1; Date2; Unit)]
+### [!UICONTROL dateDifference (Date1； Date2； Unit)]
 
 傳回代表兩個日期之間差異的數字，以指定的單位表示。
 
@@ -439,7 +739,7 @@ This function returns a new date with the month specified in parameters.
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
 
@@ -464,6 +764,7 @@ This function returns a new date with the month specified in parameters.
 如果您需要計算與當月第n天對應的日期（例如，第一個星期二、第三個星期五等），您可以使用下列公式：
 
 ![計算第n天](assets/date-time-functions-calc-nth-day-350x31.png)
+
 
 ```
 {{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}
@@ -499,7 +800,7 @@ This function returns a new date with the month specified in parameters.
   </tr> 
   <tr> 
    <td><code>1.date</code> </td> 
-   <td> <p> The date determines the month. 若要計算當月一週的第n天，請使用<code>now</code>變數。</p> </td> 
+   <td> <p> 日期決定月份。 若要計算當月一週的第n天，請使用<code>now</code>變數。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -523,6 +824,7 @@ This function returns a new date with the month specified in parameters.
 
 ![計算日期之間的天數](assets/calculate-days-between-dates-350x68.png)
 
+
 ```
 {{round((2.value - 1.value) / 1000 / 60 / 60 / 24)}}
 ```
@@ -533,7 +835,7 @@ This function returns a new date with the month specified in parameters.
 >
 >* `round()`函式適用於其中一個日期在日光節約時間期間內，而另一個日期不在日光節約時間期間的情況。 在這些情況下，時數差會少一小時或更多。 您可以將其除以24來得出非整數結果。 您會失去一小時的日光節約時間。 將平面化成圓形，這樣就不會有百分比
 
-#### How to calculate last day/millisecond of month
+#### 如何計算月份的最後一天/毫秒
 
 當您指定日期範圍時，例如在搜尋模組中，如果範圍跨越整個前一個月為關閉間隔（包括其兩個限制點的間隔），則需要計算該月的最後一天。
 
@@ -543,6 +845,7 @@ This function returns a new date with the month specified in parameters.
 
 ![上個月的最後一天](assets/last-day-prev-month.png)
 
+
 ```
 {{addDays(setDate(now; 1); -1)}}
 ```
@@ -551,15 +854,16 @@ This function returns a new date with the month specified in parameters.
 
 2019-09-01T00:00:00.000Z ≤ D ≤ 2019-09-30T23:59:59.999Z
 
-This formula shows one way how to calculate last millisecond of the previous month:
+此公式顯示計算前一個月最後一毫秒的一種方式：
 
-![Last millisecond of previous month](assets/last-millisecond-prev-month-350x45.png)
+![上個月的毫秒數](assets/last-millisecond-prev-month-350x45.png)
+
 
 ```
 {{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}
 ```
 
-If you need the result to use your timezone setting, omit the UTC argument:
+如果您需要結果來使用時區設定，請省略UTC引數：
 
 ![省略UTC](assets/omit-utc-argument-350x45.png)
 

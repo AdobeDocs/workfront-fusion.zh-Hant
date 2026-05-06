@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion對應面板中有以下一般函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6d4b8801-aa7e-47d4-80b3-aceac10c073f
-source-git-commit: f968b9141173725160cea36575ad4e02a09a5e3f
+source-git-commit: e11e581c092ebba343a0f2d6943ecbe4d0fe4c87
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 3%
+source-wordcount: '471'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 3%
 
 * `executionID`：此案例執行的識別碼
 * `triggerTimestamp`：觸發此執行的時間
-* `scenarioID`：目前開啟情境的識別碼
-* `operationsConsumed`：情境中該時間點使用的作業數目。
+* `scenarioID`：目前已開啟情境的 ID
+* `operationsConsumed`：在情境中該時間點使用的作業數量。
 
 ## [!UICONTROL get （物件或陣列；路徑）]
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `get( array ; 1 + 1 )`
 * `get( array ; 5.raw_name )`
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `if( 1 = 1 ; A ; B )`
 
@@ -73,15 +73,15 @@ ht-degree: 3%
 
 **範例：**
 
-* `ifempty(` `A` `;` `B`
+* `ifempty(` `A` `;` `B` )
 
   傳回
 
-* `ifempty(` `unknown` `;` `B`
+* `ifempty(` `unknown` `;` `B` )
 
   傳回B
 
-* `ifempty(` `""` `;` `B`
+* `ifempty(` `""` `;` `B` )
 
   傳回B
 
@@ -93,7 +93,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**範例：**
+**範例:**
 
 * `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
 
@@ -142,3 +142,102 @@ ht-degree: 3%
 ## mergeCollections(collection1； collection2)
 
 結合兩個集合的機碼值組以將其合併。 如果兩個集合包含相同的索引鍵，則第二個集合的值會覆寫第一個集合的值。
+
+### [!UICONTROL isBlank(value)]
+
+如果值為`null`或空字串，則傳回`true`，否則傳回`false`。 不像`ifEmpty`，此函式不會將數字`0`或僅限空白的字串視為空白。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `isBlank("")     `
+
+  傳回true
+* `isBlank(null)   `
+
+  傳回true
+* `isBlank("Hello")`
+
+  傳回false
+* `isBlank(0)      `
+
+  傳回false
+* `isBlank(" ")    `
+
+  傳回false
+
+>[!ENDSHADEBOX]
+
+
+### [!UICONTROL in(value； value1； value2； ...)]
+
+如果值等於提供的值之一（嚴格相等，沒有型別強制），則傳回`true`。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `in("B"; "A"; "B"; "C")`
+
+  傳回true
+* `in("D"; "A"; "B"; "C")`
+
+  傳回false
+* `in(2; 1; 2; 3)        `
+
+  傳回true
+* `in("2"; 1; 2; 3)      `
+
+  傳回false
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL ifin(value； value1； value2； ...； trueExpression； falseExpression)]
+
+如果值與任何提供的相符值相符，則傳回`trueExpression`，否則傳回`falseExpression`。 至少需要3個引數（值、一個符合值以及trueExpression + falseExpression）。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `ifin("B"; "A"; "B"; "yes"; "no")`
+
+  傳回yes
+* `ifin("D"; "A"; "B"; "yes"; "no")`
+
+  傳回否
+* `ifin("X"; "X"; "found"; "not found")`
+
+  找到傳回
+
+>[!ENDSHADEBOX]
+
+### [!UICONTROL case(indexNumber； value1； value2； ...)]
+
+傳回索引編號（以1為基礎）所指定位置的值。 如果索引超出界限或為0，則傳回`null`。
+
+>[!BEGINSHADEBOX]
+
+**範例：**
+
+* `case(1; "Sun"; "Mon"; "Tue")`
+
+  傳回Sun
+* `case(2; "Sun"; "Mon"; "Tue")`
+
+  傳回週一
+* `case(3; "Sun"; "Mon"; "Tue")`
+
+  傳回星期二
+* `case(5; "a"; "b")           `
+
+  傳回null
+
+>[!NOTE]
+>
+>我們建議使用此項來取得日期的日名稱：
+>`case(dayOfWeek(date); "Sun"; "Mon"; "Tue"; "Wed"; "Thu"; "Fri"; "Sat")`
+
+>[!ENDSHADEBOX]
+

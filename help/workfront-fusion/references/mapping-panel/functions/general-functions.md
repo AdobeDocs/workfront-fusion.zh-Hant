@@ -4,10 +4,10 @@ description: Adobe Workfront Fusion對應面板中有以下一般函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6d4b8801-aa7e-47d4-80b3-aceac10c073f
-source-git-commit: e11e581c092ebba343a0f2d6943ecbe4d0fe4c87
+source-git-commit: 5709c9c0f8efd2c29ff7dbc0391a5b496a467c6a
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 7%
+source-wordcount: '478'
+ht-degree: 6%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 7%
 * `executionID`：此案例執行的識別碼
 * `triggerTimestamp`：觸發此執行的時間
 * `scenarioID`：目前已開啟情境的 ID
+* `scenarioName`：目前執行中情境的名稱
 * `operationsConsumed`：在情境中該時間點使用的作業數量。
 
 ## [!UICONTROL get （物件或陣列；路徑）]
@@ -28,7 +29,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `get( array ; 1 + 1 )`
 * `get( array ; 5.raw_name )`
@@ -49,7 +50,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `if( 1 = 1 ; A ; B )`
 
@@ -93,7 +94,7 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
 

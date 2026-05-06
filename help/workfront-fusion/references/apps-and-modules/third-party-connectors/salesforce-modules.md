@@ -1,17 +1,17 @@
 ---
-title: Salesforce模組
+title: Salesforce 模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesforce的工作流程，並將其連結到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: 88e75d6f385bec049a9f7a0cd613032119c249b0
 workflow-type: tm+mt
-source-wordcount: '2990'
-ht-degree: 0%
+source-wordcount: '3032'
+ht-degree: 35%
 
 ---
 
-# [!DNL Salesforce]模組
+# [!DNL Salesforce] 模組
 
 在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Salesforce]的工作流程，並將其連線至多個協力廠商應用程式和服務。
 
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 * [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
 >[!NOTE]
 >
@@ -29,47 +29,47 @@ ht-degree: 0%
 >* 有關從[!DNL Salesforce] API傳回的特定錯誤的資訊，請參閱[!DNL Salesforce] API檔案。 您也可以檢查[!DNL Salesforce] API的狀態，瞭解是否有任何可能的服務中斷。
 >
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## 先決條件
 
-若要使用[!DNL Salesforce]模組，您必須有[!DNL Salesforce]帳戶。
+若要使用 [!DNL Salesforce] 模組，您必須擁有 [!DNL Salesforce] 帳戶。
 
 ## Salesforce API資訊
 
@@ -81,14 +81,14 @@ Salesforce聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td role="rowheader">基礎 URL</td> 
-   <td> {{connection.instanceUrl}}</td>
+   <td><pre><code>&#123;&#123;connection.instanceUrl&#125;&#125;</code></pre></td>
   </tr> 
   <tr> 
-   <td role="rowheader">API版本</td> 
+   <td role="rowheader">API 版本</td> 
    <td> v62.0 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.15.14</td> 
   </tr>
  </tbody> 
@@ -104,11 +104,11 @@ Salesforce聯結器會使用以下專案：
 
 如需有關搜尋可能性的詳細資訊，請參閱[!DNL Salesforce]有關SOQL和SOSL的開發人員檔案。
 
-## 建立與[!DNL Salesforce]的連線
+## 建立與 [!DNL Salesforce] 的連線
 
-若要為您的[!DNL Salesforce]模組建立連線：
+若要為您的 [!DNL Salesforce] 模組建立連線：
 
-1. 在任何[!DNL Salesforce]模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
+1. 在任何 [!DNL Salesforce] 模組中，按一下「連線」方塊旁的「**[!UICONTROL 新增]**」。
 
 1. 填寫下列欄位：
 
@@ -127,40 +127,40 @@ Salesforce聯結器會使用以下專案：
       <tr>
         <td role="rowheader">[!UICONTROL 環境]</td>
         <td>
-          <p>選取要連線到生產或非生產環境。</p>
+          <p>選取要連接至生產或非生產環境。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 型別]</td>
+        <td role="rowheader">[!UICONTROL 類型]</td>
         <td>
-          <p>選取您要連線到服務帳戶還是個人帳戶。</p>
+          <p>選取要連接至服務帳戶或者個人帳戶。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
+        <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
         <td>輸入您的Salesforce使用者端ID。</td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
+        <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
         <td>輸入您的Salesforce使用者端密碼。 </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Sandbox]</td>
+        <td role="rowheader">[！UICONTROL Sandbox]</td>
         <td>如果這是沙箱環境，則啟用此選項。</td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL API版本]</td>
+        <td role="rowheader">[!UICONTROL API 版本]</td>
         <td>輸入您要使用的Salesforce API版本。 預設版本為62.0。</td>
       </tr>
     </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
+1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 
 
-## [!DNL Salesforce]模組及其欄位
+## [!DNL Salesforce] 模組及其欄位
 
-* [觸發器](#triggers)
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [搜尋](#searches)
 
@@ -179,12 +179,12 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 記錄型別] </td> 
-   <td> <p>選取記錄型別，其中包含您要模組觀看的欄位。 您必須選擇在[!DNL Salesforce]設定中開啟[!UICONTROL 欄位歷程記錄]的記錄型別。 如需詳細資訊，請參閱<a href="https://help.salesforce.com/s/articleView?id=xcloud.tracking_field_history.htm&type=5">檔案中的</a>欄位歷程記錄追蹤[!DNL Salesforce]。 </p> </td> 
+   <td>[!UICONTROL 記錄類型] </td> 
+   <td> <p>選取記錄型別，其中包含您要模組觀看的欄位。 您必須選擇在[!DNL Salesforce]設定中開啟[！UICONTROL欄位歷程記錄]的記錄型別。 如需詳細資訊，請參閱[!DNL Salesforce]檔案中的<a href="https://help.salesforce.com/s/articleView?id=xcloud.tracking_field_history.htm&amp;type=5">欄位歷程記錄追蹤</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 欄位]</td> 
@@ -192,14 +192,14 @@ Salesforce聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL 限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大欄位數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大欄位數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 觀看記錄]
 
-此觸發器模組會在物件中的記錄建立或更新時執行案例。 模組會傳回與一個或多個記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+此觸發器模組會在物件中的記錄建立或更新時執行案例。 模組會傳回與記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -208,23 +208,23 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 型別] </td> 
+   <td>[!UICONTROL 類型] </td> 
    <td> <p>選取您希望模組觀看的[!DNL Salesforce]記錄型別。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 記錄欄位]</td> 
+   <td>[！UICONTROL記錄欄位]</td> 
    <td>選取您希望模組觀看的欄位。 可用欄位取決於記錄型別。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 最大記錄數]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td>[！UICONTROL最大記錄數]</td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 手錶]</td> 
+   <td>[！UICONTROL手錶]</td> 
    <td> <p>決定您要案例只監視所選型別的新記錄，還是隻監視所選型別的新記錄以及該型別記錄的所有其他變更。</p> </td> 
   </tr> 
  </tbody> 
@@ -232,7 +232,7 @@ Salesforce聯結器會使用以下專案：
 
 #### [!UICONTROL 觀看傳出訊息]
 
-有人傳送訊息時，此觸發模組會執行案例。 模組會傳回與一個或多個記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+有人傳送訊息時，此觸發模組會執行案例。 模組會傳回與記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 此模組需要一些額外的設定。 必須為傳出訊息設定流量。
 
@@ -273,10 +273,10 @@ Salesforce聯結器會使用以下專案：
  <tbody> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
-   <td> <p>選取您要用來觀看外寄郵件的webhook。 若要新增webhook，請按一下<strong>[!UICONTROL 新增]</strong>並輸入webhook的名稱和連線。</p> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!UICONTROL Adobe Workfront Fusion]的連線 — 基本說明</a></p> </td> 
+   <td> <p>選取您要用來觀看外寄郵件的webhook。 若要新增webhook，請按一下<strong>[！UICONTROL新增]</strong>並輸入webhook的名稱和連線。</p> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[！UICONTROL Adobe Workfront Fusion]的連線 — 基本說明</a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 記錄型別] </td> 
+   <td>[!UICONTROL 記錄類型] </td> 
    <td> <p>選取您希望模組監視傳出訊息的[!DNL Salesforce]記錄型別。</p> </td> 
   </tr> 
   <tr> 
@@ -289,7 +289,7 @@ Salesforce聯結器會使用以下專案：
 ### 動作
 
 * [[!UICONTROL 建立記錄]](#create-a-record)
-* [[!UICONTROL 自訂API呼叫]](#custom-api-call)
+* [[!UICONTROL 自訂 API 呼叫]](#custom-api-call)
 * [[!UICONTROL 刪除記錄]](#delete-a-record)
 * [[!UICONTROL 下載附件/檔案]](#download-attachmentdocument)
 * [[!UICONTROL 讀取記錄]](#read-a-record)
@@ -300,9 +300,9 @@ Salesforce聯結器會使用以下專案：
 
 此動作模組會在物件中建立新記錄。
 
-模組可讓您選取可在模組中取得哪些物件欄位。 這可減少設定模組時必須捲動瀏覽的欄位數。
+您可以透過模組選取在模組中可以使用物件的哪些欄位。 這可減少設定模組時必須捲動瀏覽的欄位數。
 
-模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -311,32 +311,32 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 記錄型別] </p> </td> 
-   <td> <p>選取您要模組建立的[!DNL Salesforce]記錄型別。 根據[!UICONTROL 記錄型別]欄位中所選的記錄型別，欄位將變為可用。 這些欄位是以[!DNL Salesforce] API為基礎。</p> </td> 
+   <td> <p>[!UICONTROL 記錄類型] </p> </td> 
+   <td> <p>選取您要模組建立的[!DNL Salesforce]記錄型別。 根據[！UICONTROL記錄型別]欄位中所選的記錄型別，欄位將變為可用。 這些欄位是以[!DNL Salesforce] API為基礎。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 選擇要對應的欄位]</td> 
+   <td>[!UICONTROL 選取要對應的欄位]</td> 
    <td> <p>選取建立新記錄時您希望模組設定的欄位。 必填欄位位於清單頂端。 </p> <p>您選取的欄位會在此欄位下方開啟。 您現在可以在這些欄位中輸入值。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 自訂API呼叫]
+#### [!UICONTROL 自訂 API 呼叫]
 
-此動作模組可讓您對[!DNL Salesforce] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Salesforce]模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Salesforce] API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 [!DNL Salesforce] 模組無法完成的資料流程自動化。
 
 模組傳回以下內容：
 
-* **[!UICONTROL 狀態碼]** （數字）：這表示您的HTTP要求成功或失敗。 這些是您可在網際網路上查閱的標準程式碼。
-* **[!UICONTROL Headers]** （物件）：與輸出本文無關之回應/狀態代碼的更詳細內容。 並非顯示在回應標題中的所有標題都是回應標題，因此某些標題可能對您並不實用。
+* **[!UICONTROL 狀態代碼]** (數字)：此代碼表示您的 HTTP 要求是成功或失敗。 您可以在網際網路上查閱這些標準代碼。
+* **[!UICONTROL 標頭]** (物件)：與輸出正文無關之回應/狀態代碼的更詳細內容。 並非顯示在回應標頭中的所有標頭都是回應標頭，因此有一部分對您而言可能並無用處。
 
-  回應標題取決於您在設定模組時選擇的HTTP請求。
+  回應標頭取決於您在設定模組時所選擇的 HTTP 要求。
 
-* **[!UICONTROL 內文]** （物件）：根據您在設定模組時所選擇的HTTP要求，您可能會收到一些傳回的資料。 該資料(例如來自[!UICONTROL GET]請求的資料)包含在此物件中。
+* **[!UICONTROL 正文]** (物件)：根據您在設定模組時所選擇的 HTTP 要求，您可能會收到一些傳回的資料。 該資料（例如來自[!UICONTROL GET]請求的資料）包含在此物件中。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -345,28 +345,28 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>輸入相對於<code> &lt;Instance URL&gt;/services/data/v62.0/</code>的路徑。</p> <p>如需可用端點的清單，請參閱<a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Salesforce REST API開發人員指南</a>。</p> </td> 
+   <td> <p>輸入相對於 <code> &lt;Instance URL&gt;/services/data/v62.0/</code> 的路徑。</p> <p>如需可用端點的清單，請參閱<a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Salesforce REST API開發人員指南</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。 例如 <code>{"Content-type":"application/json"}</code>。Workfront Fusion會為您新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。 例如 <code>{"Content-type":"application/json"}</code>。 Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的查詢。 例如： <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的查詢。 例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[!UICONTROL 正文]</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -400,9 +400,9 @@ Salesforce聯結器會使用以下專案：
 
 此動作模組會刪除物件中的現有記錄。
 
-您指定記錄的ID。
+您指定記錄的 ID。
 
-模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -411,11 +411,11 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 記錄型別] </td> 
+   <td>[!UICONTROL 記錄類型] </td> 
    <td> <p>選取您要模組刪除的[!DNL Salesforce]記錄型別。</p> </td> 
   </tr> 
   <tr> 
@@ -431,7 +431,7 @@ Salesforce聯結器會使用以下專案：
 
 您可以指定記錄的ID以及您想要的下載型別。
 
-模組會傳回附件或檔案的ID以及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回附件或檔案的ID以及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -440,20 +440,20 @@ Salesforce聯結器會使用以下專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr>
-    <td>[!UICONTROL Connection]</td>
+    <td>[!UICONTROL 連線]</td>
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr>
-    <td>[!UICONTROL 下載型別]</td>
+    <td>[！UICONTROL下載型別]</td>
     <td> <p>指定您要從Salesforce下載的檔案型別。</p> 
      <ul> 
-      <li>[!UICONTROL 附件]</li> 
-      <li>[!UICONTROL 檔案]</li> 
-      <li>[!UICONTROL ContentDocument] （這是已在[!DNL Saleforce CRM Content]或[!DNL Salesforce Files]中上傳至檔案庫的檔案）。</li> 
+      <li>[！UICONTROL附件]</li> 
+      <li>[！UICONTROL檔案]</li> 
+      <li>[！UICONTROL ContentDocument] （這是已在[!DNL Saleforce CRM Content]或[!DNL Salesforce Files]中上傳至檔案庫的檔案）。</li> 
      </ul> </td>
   </tr> 
   <tr>
-    <td> <p>[!UICONTROL ID] / </p> <p>[!UICONTROL 附件ID] / </p> <p>[!UICONTROL ContentDocument ID]</p> </td>
+    <td> <p>[！UICONTROL ID] / </p> <p>[！UICONTROL附件ID] / </p> <p>[！UICONTROL ContentDocument ID]</p> </td>
     <td> <p>輸入或對應您要模組下載之記錄的唯一[!DNL Salesforce]識別碼。</p> <p>若要取得ID，請在瀏覽器中開啟[!DNL Salesforce]物件，並複製URL結尾處最後一個正斜線(/)之後的文字。 例如： <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
   </tr> 
  </tbody> 
@@ -463,9 +463,9 @@ Salesforce聯結器會使用以下專案：
 
 此動作模組會從[!DNL Salesforce]中的單一物件讀取資料。
 
-您指定記錄的ID。
+您指定記錄的 ID。
 
-模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -474,15 +474,15 @@ Salesforce聯結器會使用以下專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr>
-    <td>[!UICONTROL Connection]</td>
+    <td>[!UICONTROL 連線]</td>
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr>
-    <td>[!UICONTROL 記錄型別]</td>
+    <td>[!UICONTROL 記錄類型]</td>
     <td>選取您希望模組讀取的[!DNL Salesforce]記錄型別。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 記錄欄位]</td>
+    <td>[！UICONTROL記錄欄位]</td>
     <td>選取您希望模組讀取的欄位。 您必須至少選取一個欄位。 可用欄位取決於記錄型別。</td>
   </tr> 
   <tr>
@@ -497,9 +497,9 @@ Salesforce聯結器會使用以下專案：
 
 此動作模組會編輯物件中的記錄。
 
-模組可讓您選取可在模組中取得哪些物件欄位。 這可減少設定模組時必須捲動瀏覽的欄位數。
+您可以透過模組選取在模組中可以使用物件的哪些欄位。 這可減少設定模組時必須捲動瀏覽的欄位數。
 
-模組會傳回記錄ID及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -508,7 +508,7 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -516,11 +516,11 @@ Salesforce聯結器會使用以下專案：
    <td>輸入或對應您要更新的記錄ID。</td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 記錄型別] </p> </td> 
+   <td> <p>[!UICONTROL 記錄類型] </p> </td> 
    <td> <p>選取您希望模組更新的[!DNL Salesforce]記錄型別。 根據在「記錄型別」欄位中選取的記錄型別，欄位將變為可用。 這些欄位是以[!DNL Salesforce] API為基礎。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 選擇要對應的欄位]</td> 
+   <td>[!UICONTROL 選取要對應的欄位]</td> 
    <td> <p>選取建立新記錄時您希望模組設定的欄位。 必填欄位位於清單頂端。 </p> <p>您選取的欄位會在此欄位下方開啟。 您現在可以在這些欄位中輸入值。</p> </td> 
   </tr> 
  </tbody> 
@@ -531,7 +531,7 @@ Salesforce聯結器會使用以下專案：
 
 此動作模組會上傳檔案並將其附加至您指定的記錄，或上傳檔案。
 
-模組會傳回附件或檔案的ID以及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境中的後續模組中對應此資訊。
+模組會傳回附件或檔案的ID以及任何關聯欄位，連同連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -540,11 +540,11 @@ Salesforce聯結器會使用以下專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 上傳型別]</td> 
+   <td>[！UICONTROL上傳型別]</td> 
    <td>選取您要模組上傳附件還是檔案。</td> 
   </tr> 
   <tr> 
@@ -556,7 +556,7 @@ Salesforce聯結器會使用以下專案：
    <td>選取您要上傳檔案的資料夾。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Source檔案]</td> 
+   <td>[!UICONTROL 來源檔案]</td> 
    <td>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</td> 
   </tr> 
  </tbody> 
@@ -571,27 +571,27 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL &#x200B; Adobe Workfront Fusion]的連線 — 基本說明</a></td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL  Adobe Workfront Fusion]的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL 來源檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案連結]</td> 
+   <td role="rowheader">[！UICONTROL檔案連結]</td> 
    <td>選取是否要套用內容檔案連結。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL linkedEntityId]</td> 
+   <td role="rowheader">[！UICONTROL linkedEntityId]</td> 
    <td>如果使用檔案連結，請輸入或對應連結物件的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ShareType]</td> 
+   <td role="rowheader">[！UICONTROL ShareType]</td> 
    <td>如果使用檔案連結，請選取檔案的許可權。<ul><li><b>檢視器許可權</b><p>使用者可以檢視檔案。</p></li><li><b>共同作業人員許可權</b><p>使用者可以檢視及編輯檔案。</p></li><li><b>推斷的許可權</b><p>許可權取決於使用者對相關記錄（例如程式庫）的許可權。</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 可見性]</td> 
+   <td role="rowheader">[！UICONTROL可見性]</td> 
    <td>如果使用檔案連結，請輸入或對映檔案的可見度。<ul><li><b>所有使用者</b><p>適用於所有具有許可權的使用者</p></li><li><b>內部使用者</b><p>可供擁有許可權的內部使用者使用。</p></li><li><b>共用使用者</b><p>可供可以檢視已張貼檔案之摘要的使用者使用。</p></li></ul></td> 
   </tr> 
  </tbody> 
@@ -611,11 +611,11 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL &#x200B; Adobe Workfront Fusion]的連線 — 基本說明</a></td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與[!DNL  Adobe Workfront Fusion]的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 型別]</td> 
+   <td role="rowheader">[!UICONTROL 類型]</td> 
    <td> <p>選取您要搜尋的物件型別。</p> </td> 
   </tr> 
   <tr> 
@@ -627,11 +627,11 @@ Salesforce聯結器會使用以下專案：
    <td>選取您要納入模組輸出的欄位。 根據記錄型別可使用欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 結果集]</td> 
+   <td role="rowheader">[！UICONTROL結果集]</td> 
    <td>選取您希望模組傳回「所有比對記錄」，還是隻傳回「第一個比對記錄」。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximal]</td> 
+   <td role="rowheader">[!UICONTROL 最大值]</td> 
    <td>輸入或對應您希望模組在每個案例執行週期中擷取的記錄數上限。</td> 
   </tr> 
  </tbody> 
@@ -639,7 +639,7 @@ Salesforce聯結器會使用以下專案：
 
 #### [!UICONTROL 使用查詢搜尋]
 
-此搜尋模組會在[!DNL Salesforce]中尋找符合您指定之搜尋查詢的物件記錄。 您可以在情境中的後續模組中對應此資訊。
+此搜尋模組會在[!DNL Salesforce]中尋找符合您指定之搜尋查詢的物件記錄。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -648,29 +648,29 @@ Salesforce聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
+   <td>[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Salesforce]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-salesforce">建立與Salesforce的連線</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 搜尋型別]</td> 
+   <td>[！UICONTROL搜尋型別]</td> 
    <td> <p>選取您要模組執行的搜尋型別：</p> 
     <ul> 
-     <li> <p>[!UICONTROL Simple]</p> </li> 
-     <li> <p>使用SOSL (Salesforce物件搜尋語言)的</p> </li> 
-     <li> <p>使用SOQL (Salesforce物件查詢語言)的</p> </li> 
+     <li> <p>[！UICONTROL Simple]</p> </li> 
+     <li> <p>使用SOSL （Salesforce物件搜尋語言）的[！UICONTROL]</p> </li> 
+     <li> <p>使用SOQL （Salesforce物件查詢語言）的[！UICONTROL]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 型別] </p> </td> 
+   <td> <p>[!UICONTROL 類型] </p> </td> 
    <td> <p>如果您選取簡單搜尋型別，請選擇您要模組搜尋的[!DNL Salesforce]記錄型別。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Query] / [!UICONTROL SOSL Query] / [!UICONTROL SOQL Query]</td> 
-   <td> <p>輸入搜尋依據的查詢。</p> <p>如需有關SOSL的詳細資訊，請參閱<a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">檔案中的</a>Salesforce物件搜尋語言(SOSL) [!DNL Salesforce]。</p> <p>如需有關SOQL的詳細資訊，請參閱<a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">檔案中的</a>Salesforce物件查詢語言(SOQL) [!DNL Salesforce]。</p> <p>注意：請注意，引數<code>RETURNING </code>的值會影響模組的輸出。 如果您使用<code>LIMIT</code>，[!DNL Fusion]將會忽略[!UICONTROL 最大記錄計數]欄位中的設定。 如果您未設定任何限制，Fusion將會插入值[!UICONTROL LIMIT =最大記錄計數]。</p> </td> 
+   <td>[！UICONTROL Query] / [！UICONTROL SOSL Query] / [！UICONTROL SOQL Query]</td> 
+   <td> <p>輸入搜尋依據的查詢。</p> <p>如需有關SOSL的詳細資訊，請參閱[!DNL Salesforce]檔案中的<a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce物件搜尋語言(SOSL)</a>。</p> <p>如需有關SOQL的詳細資訊，請參閱[!DNL Salesforce]檔案中的<a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce物件查詢語言(SOQL)</a>。</p> <p>注意：請注意，引數<code>RETURNING </code>的值會影響模組的輸出。 如果您使用<code>LIMIT</code>，[!DNL Fusion]將會忽略[！UICONTROL最大記錄計數]欄位中的設定。 如果您未設定任何限制，Fusion將會插入值[！UICONTROL LIMIT =最大記錄計數]。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 最大記錄數]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td>[！UICONTROL最大記錄數]</td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,10 +4,10 @@ description: 在 Adobe Workfront Fusion 情境中，您可以將使用  [!DNL Ad
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3b29ba3d-a769-4e97-b2c2-0b4eeed5b029
-source-git-commit: a766080defca64b4ce5d8ecd8b19fdfc3ff26470
+source-git-commit: 4e432e277c84f95b3792cb7c295cba41a5563244
 workflow-type: tm+mt
-source-wordcount: '2519'
-ht-degree: 21%
+source-wordcount: '3886'
+ht-degree: 15%
 
 ---
 
@@ -236,6 +236,63 @@ Adobe Firefly聯結器會使用以下專案：
 
 此模組已淘汰，將於不久將來移除。 請改用「填滿影像」模組。
 
+### 產生自適應複合
+
+此動作模組會將主題影像完美地合成至遮色位置的背景影像。 您可以控制陰影套用的強烈程度、物件的光源和顏色與背景的協調方式，以及原始背景細節是否保留在遮色區域內。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td>關於建立與 [!DNL Adobe Firefly] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >建立與 [!DNL Adobe Firefly]</a> 的連線。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 背景&gt;影像&gt; Source]</td> 
+   <td>選取您提供背景影像的方式。 背景影像是合成物件的目的地場景。<ul><li><p><b>上傳影像</b></p><p>上傳背景影像，或對映上一個模組的影像檔案。</p></li><li><p><b>影像URL</b></p><p>輸入或對映背景影像的URL。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 背景&gt;填色區域遮色片&gt; Source]</td> 
+   <td>選取如何提供填色區域遮色片。 填色區域遮色片會指出將放置物件的背景區域。<ul><li><p><b>上傳影像</b></p><p>上傳填色區域遮色片影像，或對映上一個模組的影像檔案。</p></li><li><p><b>影像URL</b></p><p>輸入或對映填色區域遮色片影像的URL。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 物件&gt;影像&gt; Source]</td> 
+   <td>選取您提供物件影像的方式。 物件影像是物件的來源影像，可合成到背景中。<ul><li><p><b>上傳影像</b></p><p>上傳物件影像，或對映上一個模組的影像檔案。</p></li><li><p><b>影像URL</b></p><p>輸入或對應物件影像的URL。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 物件&gt;遮色片&gt; Source]</td> 
+   <td>選取提供物件遮色片的方式。 物件遮色片是物件的分段遮色片。<ul><li><p><b>上傳影像</b></p><p>上傳物件遮色片影像，或對映上一個模組的影像檔案。</p></li><li><p><b>影像URL</b></p><p>輸入或對應物件遮色片影像的URL。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 變化數]</td> 
+   <td>輸入介於1和3之間的數字。 模組會產生此數量的複合變數。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 種子]*</td> 
+   <td>按一下<b>新增專案</b>以新增種子值，然後輸入或對應整數。 每個變數使用一個種子。 如果同時提供這兩個值，則種子值的計數必須與[!UICONTROL Number of Variations]值相符。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 協調]*</td> 
+   <td>輸入介於0和1之間的數字，以控制物件的顏色和光源調整成符合背景的程度。 <code>0.0</code>套用最小協調，<code>1.0</code>套用最大協調。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 陰影強度]*</td> 
+   <td>輸入介於0和1之間的數字，以控制合成結果中的陰影強度。 較低的值會減少陰影。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 保留背景]*</td> 
+   <td>選取在合成期間是否保留遮色區域的原始背景細節。 <ul><li><b>是</b><p>在合成期間，遮色區域內的原始背景細節會保留。</p></li><li><b>無</b><p>在合成期間，遮色區域內的原始背景細節不會保留。</p></li><li><b>未定義</b><p>使用此選項的預設行為。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 輸出&gt;媒體型別]*</td> 
+   <td>選取產生的複合將儲存為的檔案格式。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+* 這些欄位是進階欄位，除非您選取&#x200B;**[!UICONTROL 顯示進階設定]**，否則不會顯示。
+
 ### 產生影像
 
 此動作模組會根據您提供的提示產生和影像。 您也可以提供選用的參考影像，產生的影像將與參考影像的樣式相符。
@@ -372,6 +429,108 @@ Adobe Firefly聯結器會使用以下專案：
  </tbody> 
 </table>
 
+### 使用Image5產生影像
+
+此動作模組使用[!DNL Adobe Firefly] Image5模型產生影像。 您可以提供文字提示，也可選擇提供參考影像來指導產生作業。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td>關於建立與 [!DNL Adobe Firefly] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >建立與 [!DNL Adobe Firefly]</a> 的連線。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 提示]</td> 
+   <td>輸入或對應您要產生的影像描述。 提示必須介於1到1500個字元之間。 提示中的詳細資訊可讓您更深入控制影像中顯示的內容。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 外觀比例]</td> 
+   <td>選取產生影像的形狀。 如果提供參考影像，請選取<b>自動</b>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 解析度]</td> 
+   <td>選取產生影像的解析度。 產生更高的解析度需要更長的時間。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 參考影像]</td> 
+   <td>可選擇提供一個參考影像來指導產生流程。 按一下<b>新增專案</b>並提供影像。 使用參考影像時，請將[!UICONTROL 外觀比例]設定為<b>自動</b>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 種子]*</td> 
+   <td>按一下<b>新增專案</b>，然後輸入或對應整數來重新產生特定的產生結果。 留空將產生隨機結果。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 提示推理]*</td> 
+   <td>選取產生期間使用的提示推理策略。<ul><li><p><b>品質 — 產生影像說明</b></p><p>在模組的輸出中產生影像說明。</p></li><li><p><b>速度 — 產生速度更快，不提供說明</b></p><p>產生影像的速度更快，但影像說明維持空白。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Locale]*</td> 
+   <td>輸入或對應語言與地區代碼，將產生的內容量身訂做特定的國家/地區和語言。 <p>地區必須以ISO 639-1語言代碼和ISO 3166-1區域提供。</p><p>範例： <code>en-US</code></p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 變數數目]*</td> 
+   <td>輸入每個請求要產生的影像數量。 目前僅支援1個。 若要產生多個影像，請傳送個別請求。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 模型]*</td> 
+   <td>選取您要用來產生影像的[!DNL Firefly]模型。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
+   <td>輸入或對應您希望模組在一個執行週期內使用的最大結果數量。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*這些欄位為進階欄位，除非您選取[顯示進階設定]&#x200B;**&#x200B;**，否則不會顯示。
+
+### 產生精確複合
+
+此動作模組會將主旨置於背景影像的遮色區域中，並套用產生式協調，使主旨與背景自然融合。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td>關於建立與 [!DNL Adobe Firefly] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >建立與 [!DNL Adobe Firefly]</a> 的連線。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 背景&gt;影像&gt; Source]</td> 
+   <td>選取您提供背景影像的方式。 背景影像是合成物件的目的地場景。<ul><li><p><b>上傳影像</b></p><p>上傳背景影像，或對映上一個模組的影像檔案。</p></li><li><p><b>影像URL</b></p><p>輸入或對映背景影像的URL。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 背景&gt;填色區域遮色片&gt; Source]</td> 
+   <td>選取如何提供填色區域遮色片。 填色區域遮色片會指出將放置物件的背景區域。<ul><li><p><b>上傳影像</b></p><p>上傳填色區域遮色片影像，或對映上一個模組的影像檔案。</p></li><li><p><b>影像URL</b></p><p>輸入或對映填色區域遮色片影像的URL。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 物件&gt;影像&gt; Source]</td> 
+   <td>選取您提供物件影像的方式。 物件影像是物件的來源影像，可合成到背景中。<ul><li><p><b>上傳影像</b></p><p>上傳物件影像，或對映上一個模組的影像檔案。</p></li><li><p><b>影像URL</b></p><p>輸入或對應物件影像的URL。</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 變化數]</td> 
+   <td>輸入介於1和3之間的數字。 模組會產生此數量的複合變數。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 種子]*</td> 
+   <td>按一下<b>新增專案</b>以新增種子值，然後輸入或對應整數。 每個變數使用一個種子。 如果同時提供這兩個值，則種子值的計數必須與[!UICONTROL Number of Variations]值相符。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Blend]*</td> 
+   <td>輸入介於0和1之間的數字，以控制物件的協調外觀和原始外觀之間的混合。 <code>0.0</code>套用完全協調，且<code>1.0</code>保留原始物件的外觀。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 輸出&gt;媒體型別]*</td> 
+   <td>選取產生的複合將儲存為的檔案格式。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+* 這些欄位是進階欄位，除非您選取&#x200B;**[!UICONTROL 顯示進階設定]**，否則不會顯示。
+
 ### 產生類似影像
 
 此動作模組會產生與您指定的來源影像類似的影像。
@@ -419,6 +578,59 @@ Adobe Firefly聯結器會使用以下專案：
  </tbody> 
 </table>
 
+
+### 產生視訊
+
+此動作模組會從文字提示產生視訊。 您也可以提供一個或多個參考影像來指導視訊的產生。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td>關於建立與 [!DNL Adobe Firefly] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >建立與 [!DNL Adobe Firefly]</a> 的連線。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 提示]</td> 
+   <td>輸入或對應您要產生之視訊的說明。 提示中的詳細資訊可讓您更深入控制視訊中顯示的內容。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 影像&gt;條件]</td> 
+   <td>可選擇提供一或多個參考影像來指導視訊的產生。 按一下每個參考影像的<b>新增專案</b>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 大小]</td> 
+   <td>按一下<b>新增專案</b>，然後輸入或對應所產生視訊的尺寸。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 位元速率係數]*</td> 
+   <td>輸入0到63之間的數字，指定產生視訊的位元速率係數。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 視訊設定&gt;相機動作]*</td> 
+   <td>選取您要在產生的視訊中使用的相機動作。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 視訊設定&gt;提示樣式]*</td> 
+   <td>選取您要用於產生視訊的提示樣式。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 視訊設定&gt;拍攝角度]*</td> 
+   <td>選取您要在產生的視訊中使用的拍攝角度。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 視訊設定&gt;拍攝大小]*</td> 
+   <td>選取您要在產生的視訊中使用的拍攝大小。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 限制]</td> 
+   <td>輸入或對應您希望模組在一個執行週期內使用的最大結果數量。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+* 這些欄位是進階欄位，除非您選取&#x200B;**[!UICONTROL 顯示進階設定]**，否則不會顯示。
 
 ### 進行自訂的 API 呼叫
 

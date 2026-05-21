@@ -4,10 +4,16 @@ description: Adobe Workfront Fusion HubSpot CRM模組可讓您監視 [!DNL HubSp
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: 27ff7374e5e2d6765a1bcbfae9d10fb8a8f77521
+TQID: https://experienceleague.adobe.com/F-jLL4aF0bSUiFpDjJr-DVBU8ZnbqNHKiFzjEjmalxw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '7314'
-ht-degree: 9%
+source-wordcount: 7326
+ht-degree: 10%
 
 ---
 
@@ -86,9 +92,9 @@ HubSpot CRM聯結器使用下列專案：
 
 ## [!DNL HubSpot CRM] 模組及其欄位
 
-當您設定 [!DNL Hubspot CRM] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Hubspot CRM] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Hubspot CRM] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Hubspot CRM] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -1618,7 +1624,7 @@ HubSpot CRM聯結器使用下列專案：
 
 
 
-&lt;!—####觀看表單提交 — 需要尋找有效連線>—>
+&lt;！—####觀看表單提交作業 — 需要尋找有效連線>—>
 
 ### 社群媒體（廣播）
 
@@ -2129,7 +2135,7 @@ This action module associates two CRM objects.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 正文]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。<img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。<img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
 </table>

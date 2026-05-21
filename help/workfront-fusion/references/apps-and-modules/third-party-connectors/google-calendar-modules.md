@@ -4,9 +4,16 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Google
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e514204-cd8e-4f30-bbbb-b8fbe48fc670
-source-git-commit: 6aad13e81c083754d7aad53dec103715bd6b8807
+TQID: https://experienceleague.adobe.com/Odm53LiZwpv6l-WOLmsvwAdCG1WeyN3CAJfI38o4lXc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: 2717
 ht-degree: 15%
 
 ---
@@ -86,9 +93,9 @@ Google Calendar聯結器使用下列專案：
 
 ## [!DNL Google Calendar] 模組及其欄位
 
-當您設定 [!DNL Google Calendar] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Google Calendar] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Google Calendar] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Google Calendar] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -104,7 +111,7 @@ Google Calendar聯結器使用下列專案：
 
 #### 監視事件
 
-此觸發器模組會在您指定的行事曆中新增、更新、刪除、開始或結束新事件時執行情境。 模組會傳回與記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+此觸發器模組會在您指定的行事曆中新增、更新、刪除、開始或結束新事件時執行情境。 模組會傳回與記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -134,7 +141,7 @@ Google Calendar聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL 最大事件數]</td> 
-   <td> <p> 設定Workfront Fusion在一個週期內處理的最大事件數（每個案例執行的重複數量）。 如果該值設定得太高，則在指定的第三方服務端可能會中斷連線（逾時）。 Workfront Fusion對此沒有影響。 We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
+   <td> <p> 設定Workfront Fusion在一個週期內處理的最大事件數（每個案例執行的重複數量）。 如果該值設定得太高，則在指定的第三方服務端可能會中斷連線（逾時）。 Workfront Fusion對此沒有影響。 我們建議您設定較低的值，並為最大週期數定義較高的值，或是更頻繁地執行情境。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -153,7 +160,7 @@ Google Calendar聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL 最大事件數]</td> 
-   <td> <p> 設定Workfront Fusion在一個週期內處理的最大事件數（每個案例執行的重複數量）。 如果該值設定得太高，則在指定的第三方服務端可能會中斷連線（逾時）。 Workfront Fusion對此沒有影響。 We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
+   <td> <p> 設定Workfront Fusion在一個週期內處理的最大事件數（每個案例執行的重複數量）。 如果該值設定得太高，則在指定的第三方服務端可能會中斷連線（逾時）。 Workfront Fusion對此沒有影響。 我們建議您設定較低的值，並為最大週期數定義較高的值，或是更頻繁地執行情境。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +259,7 @@ Google Calendar聯結器使用下列專案：
    <td>將出席者新增至活動。 為每位出席者按一下<b>新增出席者</b>，然後輸入或對應其名稱與電子郵件地址。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Show me as]</td> 
+   <td>[!UICONTROL 顯示為]</td> 
    <td>選取您希望檢視您行事曆的人員在此活動期間將您視為「忙碌」或「可用」。</td> 
   </tr> 
   <tr> 
@@ -350,7 +357,7 @@ Google Calendar聯結器使用下列專案：
    <td>[!UICONTROL Order by]</td> 
    <td> <p>選取結果中傳回事件的順序。</p> 
     <ul> 
-     <li><strong>[!UICONTROL Start Time]</strong>: Order by the start date and time (ascending). This is only available when querying single events.</li> 
+     <li><strong>[!UICONTROL 開始時間]</strong>：依開始日期和時間（升序）排序。 這僅在查詢單一事件時可用。</li> 
      <li><strong>[!UICONTROL 更新時間]</strong>：依上次修改時間排序（升序）。</li> 
     </ul> </td> 
   </tr> 
@@ -453,7 +460,7 @@ Google Calendar聯結器使用下列專案：
 
 ### 疊代器
 
-#### Iterate attachments
+#### 重複附件
 
 此動作模組會逐一檢視事件的附件，並將每個附件輸出到單獨的套件組合中。
 
@@ -520,13 +527,13 @@ Google Calendar聯結器使用下列專案：
    1. 開啟&#x200B;**[!UICONTROL 篩選器和封鎖的地址]**&#x200B;索引標籤。
    1. 按一下&#x200B;**[!UICONTROL 建立新篩選器]**。
    1. 為來自`     calendar-notification@google.com`的所有電子郵件設定篩選器，然後按一下&#x200B;**[!UICONTROL 建立篩選器]**：
-   1. Select **[!UICONTROL Forward it to]** and choose the mailhooks&#39;s email address from the list.
-   1. Click **[!UICONTROL Create filter]** to create the filter.
+   1. 選取&#x200B;**[!UICONTROL 將其轉寄至]**，並從清單中選擇Mailhook的電子郵件地址。
+   1. 按一下&#x200B;**[!UICONTROL 建立篩選器]**&#x200B;以建立篩選器。
 
-1. (Optional) In Workfront Fusion, add the [!UICONTROL Text parser] > [!UICONTROL Match pattern] module after the [!UICONTROL Webhooks] >[!UICONTROL Custom mailhook] module to parse the email&#39;s HTML code to obtain any information you need.
+1. （選擇性）在Workfront Fusion中，在[!UICONTROL Webhooks] >[!UICONTROL 自訂mailhook]模組之後新增[!UICONTROL 文字剖析器] > [!UICONTROL 符合模式]模組，以剖析電子郵件的HTML程式碼，取得您所需的任何資訊。
 
-   For example, you could configure the module as follows to obtain the event&#39;s ID:
+   例如，您可以依照以下方式設定模組，以取得事件的ID：
 
-   *Pattern*: `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
+   *模式*： `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
 
-   *文字*：從`HTML content`Webhook[!UICONTROL &#x200B; >]自訂mailhook[!UICONTROL 模組輸出的]專案。
+   *文字*：從[!UICONTROL Webhook] >[!UICONTROL 自訂mailhook]模組輸出的`HTML content`專案。

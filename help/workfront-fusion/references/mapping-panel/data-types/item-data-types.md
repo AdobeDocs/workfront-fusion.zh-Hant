@@ -1,17 +1,22 @@
 ---
-title: 專案資料型別
+title: 項目資料類型
 description: 您的Adobe Workfront Fusion案例可以包含套件組合中列出的專案型別。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3ad65959-5c19-4727-bc9d-4ff1d238ad8b
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+TQID: https://experienceleague.adobe.com/mZQcg6jwJFDuyI45vATzKOl4X7ROiTurGheyWvC0s5w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: 580
+ht-degree: 2%
 
 ---
 
-# 專案資料型別
+# 項目資料類型
 
 可在束中包含下列專案型別。
 

@@ -4,10 +4,15 @@ description: webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來
 author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
-source-git-commit: d4bdc4005a3b7b22d64adc8ca1d20bcf534ddfd1
+TQID: https://experienceleague.adobe.com/VuJQ4w3kfMUJ4H-m1PdN-F8242KOJRPz1holJRxSE0Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 0%
+source-wordcount: 1535
+ht-degree: 13%
 
 ---
 
@@ -19,41 +24,41 @@ ht-degree: 0%
 
 webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時觸發程式模組。 任何連線至網際網路並允許HTTP請求的應用程式都可以將Webhook傳送至Adobe Workfront Fusion。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -239,7 +244,7 @@ Content-Type: application/json
 >
 >**範例：**
 >
->下列範例顯示從`authorization`陣列中擷取`Headers[]`標頭值的公式。 此公式會用於比較擷取值與指定文字的篩選中，以便只傳遞符合的Webhook。
+>下列範例顯示從`Headers[]`陣列中擷取`authorization`標頭值的公式。 此公式會用於比較擷取值與指定文字的篩選中，以便只傳遞符合的Webhook。
 >
 >![設定篩選器](/help/workfront-fusion/references/apps-and-modules/assets/set-up-a-filter-350x169.png)
 >
@@ -297,7 +302,7 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL Body] </td> 
+>&gt;   <td role="rowheader">[!UICONTROL 正文] </td> 
 >&gt;   <td> <p>HTML程式碼</p> </td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -346,12 +351,12 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 
 ## Webhook停用
 
-如果符合下列任一條件，Webhook就會自動停用：
+若符合下列任一條件，Webhook 便會自動停用：
 
-* webhook已超過5天未連線至任何案例
-* webhook僅用於非使用中情況，這些情況已非使用中超過30天。
+* Webhook 已超過 5 天未連接至任何情境
+* 僅在非使用中的情境中使用 Webhook，而非使用中狀態已經超過 30 天。
 
-如果停用的Webhook未連線至任何情境且處於停用狀態超過30天，則會自動刪除和取消註冊。
+如果停用的 Webhook 未連接任何情境，且處於停用狀態已超過 30 天，則會自動刪除和取消註冊。
 
 
 ## 疑難排解

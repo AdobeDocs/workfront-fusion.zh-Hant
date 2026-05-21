@@ -4,10 +4,15 @@ description: ' [!DNL Adobe Workfront Fusion Frame].io modules enable you to moni
 author: Becky
 feature: Workfront Fusion
 exl-id: 121b145c-d04d-44b9-b673-ea2928e2346d
-source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
+TQID: https://experienceleague.adobe.com/uL3krmkiGJ5VPBQRbd1ynAApZVNcEaMGVGPmVPXKVV4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2663'
-ht-degree: 44%
+source-wordcount: 2662
+ht-degree: 45%
 
 ---
 
@@ -112,7 +117,7 @@ Frame.io 連接器會使用以下項目：
 若要使用API權杖將您的[!DNL Frame.io]帳戶連線到Workfront Fusion，您必須在[!DNL Frame.io]帳戶中建立API權杖，並將其插入到Workfront Fusion [!DNL Frame.io] [!UICONTROL 建立連線]對話方塊。
 
 1. 登入您的[!DNL Frame.io]帳戶。
-1. 前往&#x200B;**[!UICONTROL 開發人員的]** Token[!DNL Frame.io]頁面。
+1. 前往[!DNL Frame.io]開發人員的&#x200B;**[!UICONTROL Token]**&#x200B;頁面。
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
 1. 輸入權杖的名稱，選取您要使用的範圍，然後按一下[建立]。**&#x200B;**
 1. 複製提供的Token。
@@ -137,7 +142,7 @@ Frame.io 連接器會使用以下項目：
 
 #### 使用OAuth 2.0 PKCE （含使用者端ID）連線至[!DNL Frame.io]
 
-1. 在[!DNL Frame.io]中建立OAuth 2.0應用程式。 如需指示，請參閱有關[!DNL Frame.io]OAuth 2.0程式碼授權流程[!UICONTROL 的]檔案。
+1. 在[!DNL Frame.io]中建立OAuth 2.0應用程式。 如需指示，請參閱有關[!UICONTROL OAuth 2.0程式碼授權流程]的[!DNL Frame.io]檔案。
 
    >[!IMPORTANT]
    >
@@ -157,14 +162,14 @@ Frame.io 連接器會使用以下項目：
 1. 在&#x200B;**[!UICONTROL 連線型別]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**。
 1. 在&#x200B;**[!UICONTROL 連線名稱]**&#x200B;欄位中輸入新連線的名稱。
 1. 按一下&#x200B;**[!UICONTROL 顯示進階設定]**。
-1. 輸入您在步驟2中複製到`client_id`使用者端識別碼&#x200B;**[!UICONTROL 欄位的]**。
+1. 輸入您在步驟2中複製到&#x200B;**[!UICONTROL 使用者端識別碼]**&#x200B;欄位的`client_id`。
 1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以建立連線並返回模組。
 
 ## [!DNL Frame.io] 模組及其欄位
 
-當您設定 [!DNL Frame.io] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Frame.io] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Frame.io] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Frame.io] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -735,7 +740,7 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制] </td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大專案數量。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大專案數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -756,11 +761,11 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>輸入相對於 <code>https://api.frame.io</code> 的路徑。範例： <code> /v2/teams</code></p> <p>注：如需可用端點的清單，請參閱 [!DNL Frame.io] API 參考資料。</p> </td> 
+   <td> <p>輸入相對於 <code>https://api.frame.io</code> 的路徑。 範例： <code> /v2/teams</code></p> <p>注：如需可用端點的清單，請參閱 [!DNL Frame.io] API 參考資料。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 
@@ -768,7 +773,7 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串] </td> 
-   <td> <p>輸入請求查詢字串。對於您要包括在查詢字串中的每個參數，按一下<b>[!UICONTROL 新增項目]</b>，並輸入此欄位的名稱和所需的值。</p> </td> 
+   <td> <p>輸入請求查詢字串。 對於您要包括在查詢字串中的每個參數，按一下<b>[!UICONTROL 新增項目]</b>，並輸入此欄位的名稱和所需的值。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 正文]</td> 

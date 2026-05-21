@@ -4,16 +4,22 @@ description: 在Adobe Workfront Fusion案例中，您可以使用 [!DNL Adobe Ta
 author: Becky
 feature: Workfront Fusion
 exl-id: f3c1ed7b-b69b-478a-8240-1a2ab89e11e5
-source-git-commit: f23a089565c2cfb7d2d1321a7bf67ae14e336af3
+TQID: https://experienceleague.adobe.com/WIVzoQxjp0cEeUgQPWN49Vp-cNreFyaBdQM8yPOvqsM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2275'
-ht-degree: 30%
+source-wordcount: 2368
+ht-degree: 31%
 
 ---
 
 # [!DNL Adobe Target]模組
 
-在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Adobe Target]的工作流程，並將其連線至多個協力廠商應用程式和服務。 [!DNL Adobe Target]模組可讓您建立、讀取、更新或刪除記錄、列出特定型別的所有記錄、根據您指定的條件搜尋記錄，或執行對[!DNL Adobe Target] API的自訂API呼叫。
+在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Adobe Target] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。 [!DNL Adobe Target]模組可讓您建立、讀取、更新或刪除記錄、列出特定型別的所有記錄、根據您指定的條件搜尋記錄，或執行對[!DNL Adobe Target] API的自訂API呼叫。
 
 
 如果您需要建立案例的指示，請參閱[建立案例：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
@@ -179,9 +185,9 @@ Adobe Target聯結器會使用以下專案：
 
 ## [!DNL Adobe Target] 模組及其欄位
 
-當您設定 [!DNL Adobe Target] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Adobe Target] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Adobe Target] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Adobe Target] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -771,7 +777,7 @@ Adobe Target聯結器會使用以下專案：
       <td role="rowheader">
         <p>[!UICONTROL 方法]</p>
       </td>
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 標頭]</td>
@@ -947,7 +953,7 @@ Adobe Target聯結器會使用以下專案：
   <tr>
     <td role="rowheader">[!UICONTROL 限制]</td>
     <td>
-      <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。 將此欄位與[!UICONTROL Offset]欄位搭配使用，可將回應分頁。</p>
+      <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。 將此欄位與[!UICONTROL Offset]欄位搭配使用，可將回應分頁。</p>
       <p>例如，若要檢視回應的第三個頁面，當每個頁面有10個回應時，請將[!UICONTROL Offset]設為20，並將[!UICONTROL Maximum number of returned]設為10。</p>
     </td>
   </tr>

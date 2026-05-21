@@ -1,17 +1,22 @@
 ---
-title: 連線中繼資料
+title: 連線後設資料
 description: Fusion使用中繼資料來識別連線的重要屬性。
 author: Becky
 feature: Workfront Fusion
 exl-id: b41fbe8c-30fa-49d0-8a24-3535642b97ae
-source-git-commit: d13312031955a697e10ddfcdc2e64dfe198b3dac
+TQID: https://experienceleague.adobe.com/95OLgw45L7WeFuTtNYYD1lVYf916pkSNVVw0O8eZ9y8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 1%
+source-wordcount: 289
+ht-degree: 2%
 
 ---
 
-# 連線中繼資料
+# 連線後設資料
 
 Fusion使用中繼資料來識別連線的重要屬性。
 

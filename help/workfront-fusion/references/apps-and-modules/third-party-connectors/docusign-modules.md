@@ -1,66 +1,71 @@
 ---
-title: docussign模組
+title: DocuSign 模組
 description: ' [!DNL Adobe Workfront Fusion DocuSign] 模組可讓您監視和擷取信封狀態、搜尋和擷取信封，或下載和傳送檔案以登入您的 [!DNL DocuSign] 帳戶。'
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 94a823a6-3c70-42a1-b6cf-298591dbca15
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/uzyMYKqpIGORM1QDNEkkPUumYtLdgTVD7s04At0fNzM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2250'
-ht-degree: 0%
+source-wordcount: 2252
+ht-degree: 27%
 
 ---
 
-# docussign模組
+# DocuSign 模組
 
 Adobe Workfront Fusion [!DNL DocuSign]模組可讓您監視和擷取信封狀態、搜尋和擷取信封，或下載和傳送檔案以登入您的[!DNL DocuSign]帳戶。
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## 先決條件
 
-若要使用[!DNL DocuSign]模組，您必須有[!DNL DocuSign]帳戶。
+若要使用 [!DNL DocuSign] 模組，您必須擁有 [!DNL DocuSign] 帳戶。
 
 ## DocuSign API資訊
 
@@ -71,17 +76,17 @@ DocuSign聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>1.18.11</td> 
   </tr>
  </tbody> 
  </table>
 
-## 將[!DNL DocuSign]連線至Workfront Fusion {#connect-docusign-to-workfront-fusion}
+## 將 [!DNL DocuSign] 連接至 Workfront Fusion {#connect-docusign-to-workfront-fusion}
 
-若要為您的[!DNL DocuSign]模組建立連線：
+若要為您的 [!DNL DocuSign] 模組建立連線：
 
-1. 當您開始設定第一個&#x200B;**[!UICONTROL 模組時，請按一下]**&#x200B;連線[!UICONTROL 方塊旁的]新增[!DNL DocuSign]。
+1. 當您開始設定第一個[!DNL DocuSign]模組時，請按一下[!UICONTROL 連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 1. 輸入下列：
 
    <table style="table-layout:auto">
@@ -98,7 +103,7 @@ DocuSign聯結器使用下列專案：
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL 連線名稱]</p> </td> 
-      <td>選取您要連線到服務帳戶還是個人帳戶。</td> 
+      <td>選取要連接至服務帳戶或者個人帳戶。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 帳戶型別]</td> 
@@ -107,15 +112,15 @@ DocuSign聯結器使用下列專案：
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**繼續**&#x200B;以儲存連線並返回模組。
+1. 按一下「**繼續**」，儲存連線並返回模組。
 
-## [!DNL DocuSign]模組及其欄位
+## [!DNL DocuSign] 模組及其欄位
 
-當您設定[!DNL DocuSign]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL DocuSign]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL DocuSign] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL DocuSign] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [觸發程序](#triggers)
 * [動作](#actions)
@@ -131,7 +136,7 @@ DocuSign聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將Docusign連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +160,7 @@ DocuSign聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
-   <td>輸入或對應您希望模組在每個案例執行週期中處理的最大記錄數量。</td> 
+   <td>輸入或對應您要此模組在每個情境執行週期中處理的最大記錄數量。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -165,7 +170,7 @@ DocuSign聯結器使用下列專案：
 * [[!UICONTROL 新增自訂欄位]](#add-a-custom-field)
 * [[!UICONTROL 新增收件者到信封]](#add-recipient-to-envelope)
 * [[!UICONTROL 建立新信封]](#create-a-new-envelope)
-* [[!UICONTROL 自訂API呼叫]](#custom-api-call)
+* [[!UICONTROL 自訂 API 呼叫]](#custom-api-call)
 * [[!UICONTROL 下載檔案]](#download-a-document)
 * [[!UICONTROL 修改自訂欄位]](#modify-custom-field)
 * [[!UICONTROL 讀取信封]](#read-an-envelope)
@@ -181,8 +186,8 @@ DocuSign聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將[!DNL DocuSign]連線到Workfront Fusion</a>。</p> </td>
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶] </td> 
@@ -220,7 +225,7 @@ DocuSign聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr data-mc-conditions=""> 
-    <td>[!UICONTROL Connection] </td>
+    <td>[!UICONTROL 連線] </td>
    <td> <p>如需有關將DocuSign帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions="">
@@ -288,7 +293,7 @@ DocuSign聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td>
+    <td role="rowheader">[!UICONTROL 連線] </td>
 
 <td> <p>如需有關將DocuSign帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>下的文章。</p> </td> 
   </tr> 
@@ -312,7 +317,7 @@ DocuSign聯結器使用下列專案：
     <ul>
     <li><b>存取代碼</b><p>輸入或對應收件者用來存取信封的代碼。<p></li>
     <li><b>電子郵件</b><p>輸入或對應收件者的電子郵件地址。<p></li>
-    <li><b>姓名</b><p>輸入或對映收件者的名稱。<p></li>
+    <li><b>名稱</b><p>輸入或對映收件者的名稱。<p></li>
     <li><b>角色名稱</b><p>輸入或對應收件者的角色名稱。<p></li>
     <li><b>製程訂單</b><p>輸入或對應收件者的路由編號。 路由號碼會決定收件者接收及簽署檔案的順序。<p></li>
     </ul>
@@ -368,7 +373,7 @@ DocuSign聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">
-     [!UICONTROL Body]
+     [!UICONTROL 正文]
    </td> 
    <td> <p>輸入或對應此信封隨附之電子郵件的內文（內容）。</p> </td> 
   </tr> 
@@ -381,7 +386,7 @@ DocuSign聯結器使用下列專案：
  </tbody> 
 </table>
 
-#### [!UICONTROL 自訂API呼叫]
+#### [!UICONTROL 自訂 API 呼叫]
 
 此動作模組可讓您執行自訂API呼叫。
 
@@ -390,8 +395,8 @@ DocuSign聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將[!DNL DocuSign]連線到Workfront Fusion</a>。</p> </td> 
+   <td>[!UICONTROL 連線]</td> 
+   <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 帳戶]</td> 
@@ -403,19 +408,19 @@ DocuSign聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL 方法]</td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。 這會決定請求的內容型別。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤且難以判斷其來源，請考慮根據Workfront檔案修改標題。 如果您的自訂API呼叫傳回422 HTTP請求錯誤，請嘗試使用「Content-Type」：「text/plain」標頭。</p> </td> 
+   <td>[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。 此資訊會決定請求的內容類型。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤訊息而且無法判斷其來源，請考慮根據 Workfront 文件修改標頭。 如果您的自訂API呼叫傳回422 HTTP請求錯誤，請嘗試使用「Content-Type」：「text/plain」標頭。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 查詢字串]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td>[!UICONTROL 正文]</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -464,8 +469,8 @@ DocuSign聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將[!DNL DocuSign]連線到Workfront Fusion</a>。</p> </td>
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶] </td> 
@@ -476,7 +481,7 @@ DocuSign聯結器使用下列專案：
    <td> <p> 輸入或對應您要下載的信封識別碼。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 檔案ID]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 文件 ID]</p> </td> 
    <td> <p>輸入或對應您要下載的檔案ID。</p> </td> 
   </tr> 
   <tr> 
@@ -492,7 +497,7 @@ DocuSign聯結器使用下列專案：
    <td>如果您想要為您[!DNL DocuSign]帳戶上設定的所有金鑰管理員加密回應中傳回的PDF位元組，請啟用此選項。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Language]</td> 
+   <td role="rowheader">[!UICONTROL 語言]</td> 
    <td>選取語言。</td> 
   </tr> 
   <tr> 
@@ -515,8 +520,8 @@ DocuSign聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將[!DNL DocuSign]連線到Workfront Fusion</a>。</p> </td>
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶] </td> 
@@ -558,8 +563,8 @@ DocuSign聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將[!DNL DocuSign]連線到Workfront Fusion</a>。</p> </td>
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶] </td> 
@@ -585,8 +590,8 @@ DocuSign聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將[!DNL DocuSign]連線到Workfront Fusion</a>。</p> </td>
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶] </td> 
@@ -608,8 +613,8 @@ DocuSign聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將[!DNL DocuSign]連線到Workfront Fusion</a>。</p> </td>
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 帳戶] </td> 
@@ -620,7 +625,7 @@ DocuSign聯結器使用下列專案：
    <td> <p> 輸入或對應您要上傳檔案之信封的識別碼。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL 來源檔案]</td> 
    <td>從先前的模組中選取來源檔案，或輸入來源檔案的名稱和資料。</td> 
   </tr> 
  </tbody> 

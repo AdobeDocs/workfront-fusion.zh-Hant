@@ -7,16 +7,21 @@ description: 瞭解如何使用Adobe Workfront Fusion建立簡單的自動化案
 author: Becky
 feature: Workfront Fusion
 exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
-source-git-commit: 6269db7454a63e80de3d770ab1012162d5080565
+TQID: https://experienceleague.adobe.com/4SeGiWeAsMRQbbk15I5IoL8-ZYe5WLeF6z9URFpTQQI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: 1426
 ht-degree: 12%
 
 ---
 
 # 建立基本情境
 
-Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心處理新任務，而不是一再重複相同的任務。其將應用程式和服務內部及兩者之間的動作連結起來，並建立一個自動轉移和轉換您的資料的情境。您建立的情境會監視應用程式或服務中的資料，並處理該資料以便提供您想要的結果。
+Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心處理新任務，而不是一再重複相同的任務。 其將應用程式和服務內部及兩者之間的動作連結起來，並建立一個自動轉移和轉換您的資料的情境。 您建立的情境會監視應用程式或服務中的資料，並處理該資料以便提供您想要的結果。
 
 此範例會帶您進行建立情境的過程，以在Workfront中搜尋請求，並將其轉換為專案。
 
@@ -81,7 +86,7 @@ Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心
    如果您沒有Workfront連線，請參閱[建立連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 1. 在[!UICONTROL 記錄型別]方塊中，選取&#x200B;**[!UICONTROL 問題]**。 這會將模組設定為僅搜尋問題，包括請求。
 
-   如果您開始輸入&quot;**[!UICONTROL 問題]**&quot;，可以在清單中找到[!UICONTROL 問題]。
+   如果您開始輸入&quot;[!UICONTROL 問題]&quot;，可以在清單中找到&#x200B;**[!UICONTROL 問題]**。
 
 1. 在&#x200B;**[!UICONTROL 結果集]**&#x200B;方塊中，選取&#x200B;**[!UICONTROL 第一個相符記錄]**。
 
@@ -90,7 +95,7 @@ Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心
 
    1. 在[!UICONTROL 搜尋條件]下的第一個方塊中，選取您要納入搜尋的欄位。 在此範例中，選取&#x200B;**[!UICONTROL 名稱]**。
 
-      如果您開始輸入「**[!UICONTROL 名稱]**」，可以在清單中找到[!UICONTROL 名稱]。
+      如果您開始輸入「[!UICONTROL 名稱]」，可以在清單中找到&#x200B;**[!UICONTROL 名稱]**。
    1. 對於運運算元，按一下&#x200B;**存在**&#x200B;旁的下拉箭頭，並將其變更為&#x200B;[!UICONTROL **包含（不區分大小寫）**]。
 
       如此一來，模組便可尋找名稱中包含您所選字詞的專案，即使您並未輸入完整名稱或輸入大小寫不正確（例如全部大寫）的名稱亦然。

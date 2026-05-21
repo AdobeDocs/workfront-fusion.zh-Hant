@@ -1,12 +1,18 @@
 ---
 title: XML
-description: XML應用程式可讓您透過XML &amp；剖析XML模組來剖析XML格式文字，並將它轉換為套件組合，讓其他模組可以使用該資料。 您也可以透過XML &amp；gt；建立XML模組將組合轉換為XML格式文字
+description: XML應用程式可讓您透過XML &gt；剖析XML模組來剖析XML格式文字，並將它轉換成組合，讓其他模組可以使用該資料。 您也可以透過XML &gt；建立XML模組將組合轉換為XML格式文字
 author: Becky
 feature: Workfront Fusion
 exl-id: ab323361-cd04-4dcc-ab02-0fb468334fdb
-source-git-commit: 6aad13e81c083754d7aad53dec103715bd6b8807
+TQID: https://experienceleague.adobe.com/WAXpNvb43E4nAZ8lD4Ch55gwqdgRbG3bhPmZDSvnFx4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: 1433
 ht-degree: 8%
 
 ---
@@ -92,7 +98,7 @@ ht-degree: 8%
 典型的使用案例是將資料從[!DNL Google] >試算表轉換為XML。
 
 1. 將[!DNL Google Sheets] > [!UICONTROL 選取情境中的列]模組以擷取資料。 設定模組以從[!DNL Google]試算表中擷取列。 將&#x200B;**[!UICONTROL 傳回資料列數目上限]**&#x200B;設定為小數，但大於一個以供測試之用（例如，三個）。 執行[!DNL Google Sheets]模組，方法為用滑鼠右鍵按一下該模組，然後選擇&#x200B;**[!UICONTROL 僅執行此模組]**。 驗證模組的輸出。
-1. 在[!UICONTROL 模組之後連線]陣列彙總[!DNL Google Sheets]模組。 在模組的設定中，選擇[!DNL Google Sheets]Source節點&#x200B;**[!UICONTROL 欄位中的]**&#x200B;模組。 讓其他欄位維持目前的狀態。
+1. 在[!DNL Google Sheets]模組之後連線[!UICONTROL 陣列彙總]模組。 在模組的設定中，選擇&#x200B;**[!UICONTROL Source節點]**&#x200B;欄位中的[!DNL Google Sheets]模組。 讓其他欄位維持目前的狀態。
 1. 在[!UICONTROL 陣列彙總]模組之後連線[!UICONTROL XML] > [!UICONTROL 建立XML]模組。
 
    模組的設定需要說明XML輸出結構的資料結構。 按一下「**[!UICONTROL 新增]**」按鈕，開啟資料結構設定。 建立此資料結構的最簡單方法是從XML範例自動產生它。
@@ -107,9 +113,9 @@ ht-degree: 8%
 1. 將您的資料結構名稱變更為更具體的名稱，然後按一下[儲存]。**&#x200B;**
 
    對應至根陣列屬性的欄位會顯示為JSON模組設定中的可對應欄位。
-1. 按一下欄位旁的&#x200B;**[!UICONTROL 對應]**&#x200B;按鈕，並將來自`Array[]`陣列彙總[!UICONTROL 輸出的]專案對應至該欄位：
+1. 按一下欄位旁的&#x200B;**[!UICONTROL 對應]**&#x200B;按鈕，並將來自[!UICONTROL 陣列彙總]輸出的`Array[]`專案對應至該欄位：
 1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;關閉XML模組的安裝程式。
-1. 開啟[!UICONTROL 陣列彙總]模組的設定。 將&#x200B;**[!UICONTROL 目標結構]**&#x200B;從「自訂」變更為XML模組的欄位，此欄位對應到父XML專案。將專案從[!DNL Google Sheets]模組對應到適當的欄位。
+1. 開啟[!UICONTROL 陣列彙總]模組的設定。 將&#x200B;**[!UICONTROL 目標結構]**&#x200B;從自訂變更為與父XML專案相對應的XML模組欄位。將來自[!DNL Google Sheets]模組的專案對應到適當的欄位。
 1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以關閉陣列彙總模組的設定。
 1. 執行情境。
 

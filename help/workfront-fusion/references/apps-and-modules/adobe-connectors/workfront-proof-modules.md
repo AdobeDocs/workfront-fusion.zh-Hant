@@ -4,10 +4,15 @@ description: 在 Adobe Workfront Fusion 情境中，您可以將使用  [!DNL Wo
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: 9e556ae5-e672-4872-9c40-8c8e5f0305be
-source-git-commit: a871a130a1ac023dcb4ce8da7241918da2431d3a
+TQID: https://experienceleague.adobe.com/PE6mgMsKjoQLz5JeXx6EN-xYsm-x1DpaIrtHBnRE1PY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '3106'
-ht-degree: 22%
+source-wordcount: 3117
+ht-degree: 23%
 
 ---
 
@@ -75,7 +80,7 @@ Workfront Proof聯結器會使用以下專案：
 
 您可以直接從Workfront Fusion模組內建立與您的[!DNL Workfront Proof]帳戶的連線。
 
-1. 在任何Workfront Fusion模組中，按一下&#x200B;[!UICONTROL **連線**]&#x200B;欄位旁的[!UICONTROL 新增]
+1. 在任何Workfront Fusion模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;[!UICONTROL **新增**]
 
 2. 填寫下列欄位：
 
@@ -125,9 +130,9 @@ Workfront Proof聯結器會使用以下專案：
 
 ## [!DNL Workfront Proof] 模組及其欄位
 
-當您設定 [!DNL Workfront Proof] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Workfront Proof] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Workfront Proof] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Workfront Proof] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -340,7 +345,7 @@ Workfront Proof聯結器會使用以下專案：
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 將此校訂通知收件者]</td> 
-   <td>選取選項以指示您是否希望在建立校訂時通知收件者。&gt;</td> 
+   <td>選取選項以指出您是否希望在建立校訂時通知收件者。&gt;</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 校訂名稱]</td> 
@@ -393,7 +398,7 @@ Workfront Proof聯結器會使用以下專案：
 
 #### [!UICONTROL 自訂 API 呼叫]
 
-您可以利用此動作模組，對 [!DNL Workfront Proof] API 進行已驗證的自訂呼叫。如此一來，您就可以建立其他 [!DNL Workfront Proof] 模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Workfront Proof] API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 [!DNL Workfront Proof] 模組無法完成的資料流程自動化。
 
 模組會傳回狀態代碼、標題和內文。 您可以在情境內之後的模組中對應此資訊。
 
@@ -433,7 +438,7 @@ Workfront Proof聯結器會使用以下專案：
 
 您指定校訂的ID。
 
-模組會傳回用於建立校訂之來源檔案的內容。您可以在情境中的後續模組中對應此資訊。
+模組會傳回用來建立校訂之來源檔案的內容。您可以在情境內之後的模組中對應此資訊。
 
 您必須有足夠的許可權可以存取[!DNL Workfront Proof]中的記錄，才能擷取此資訊。
 
@@ -531,7 +536,7 @@ Workfront Proof聯結器會使用以下專案：
 
 您可以指定校樣ID和記錄型別，以及要包含在輸出中的欄位。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 您必須有足夠的許可權可以存取[!DNL Workfront Proof]中的記錄，才能擷取此資訊。
 
@@ -618,7 +623,7 @@ Workfront Proof聯結器會使用以下專案：
 
 #### [!UICONTROL 上傳檔案]
 
-此動作模組上傳檔案以與[!UICONTROL 中的]建立校訂[!DNL Workfront Proof]模組搭配使用。
+此動作模組上傳檔案以與[!DNL Workfront Proof]中的[!UICONTROL 建立校訂]模組搭配使用。
 
 模組會傳回已上傳檔案的雜湊ID。 您可以在情境內之後的模組中對應此資訊。
 
@@ -671,7 +676,7 @@ Workfront Proof聯結器會使用以下專案：
 
 此搜尋模組會在[!DNL Workfront Proof]中尋找符合您指定之搜尋查詢的物件記錄。
 
-如果正在搜尋校訂，模組會傳回校訂ID。 或者，如果正在搜尋收件者，它會傳回收件者的使用者ID、電子郵件、名稱、位置及電子郵件別名。您可以將此資訊對應至案例中的後續模組。
+如果正在搜尋校訂，模組會傳回校訂ID。 或者，如果正在搜尋收件者，它會傳回收件者的使用者ID、電子郵件、名稱、位置及電子郵件別名。您可以在情境內之後的模組中對應此資訊。
 
 您必須有足夠的許可權可以存取[!DNL Workfront Proof]中的記錄，才能擷取此資訊。
 

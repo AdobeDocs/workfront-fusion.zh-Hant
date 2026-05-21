@@ -6,10 +6,13 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c31c0ad9-6de4-467d-8ccd-9376443e2e7e
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+TQID: https://experienceleague.adobe.com/O08hruYCfmwW8hSM9R9Kr19sQSiqj0eGcw45YpnVAbA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 5%
+source-wordcount: 36
+ht-degree: 19%
 
 ---
 
@@ -17,6 +20,6 @@ ht-degree: 5%
 
 本節包含下列文章：
 
-* [專案資料型別](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md)
-* [輸入強制](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md)
+* [項目資料類型](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md)
+* [類型強制轉換](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md)
 * [資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)

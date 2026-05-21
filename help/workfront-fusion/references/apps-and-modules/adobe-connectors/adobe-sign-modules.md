@@ -1,55 +1,63 @@
 ---
-title: Adobe Acrobat Sign模組
+title: Adobe Acrobat Sign 模組
 description: 透過 [!DNL Adobe Acrobat Sign] 模組，您可以根據 [!DNL Adobe] Adobe Workfront帳戶中的事件來啟動Acrobat Sign Fusion案例、建立、讀取或更新合約及其他記錄、使用您設定的條件搜尋記錄，以及上傳檔案。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0ef9d40e-8ad6-434e-8fa0-076920ff29ea
-source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
+TQID: https://experienceleague.adobe.com/bIhgpTsd4d1GOHARM2tYljUIJTt1JNRA-8JslmAuMRk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '6763'
-ht-degree: 0%
+source-wordcount: 6796
+ht-degree: 11%
 
 ---
 
-# [!DNL Adobe Acrobat Sign]模組
+# [!DNL Adobe Acrobat Sign] 模組
 
 透過[!DNL Adobe Acrobat Sign]模組，您可以根據[!DNL Adobe Acrobat Sign]帳戶中的事件來啟動Adobe Workfront Fusion案例、建立、讀取或更新合約及其他記錄、使用您設定的條件搜尋記錄，以及上傳檔案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -62,11 +70,11 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">API版本</td> 
+   <td role="rowheader">API 版本</td> 
    <td> v6 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.35.1</td> 
   </tr>
  </tbody> 
@@ -83,13 +91,13 @@ Adobe Acrobat Sign聯結器會使用以下專案：
 
 ![Adobe Sign建議](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
 
-## [!DNL Adobe Acrobat Sign]模組及其欄位
+## [!DNL Adobe Acrobat Sign] 模組及其欄位
 
-當您設定[!DNL Adobe Acrobat Sign]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Adobe Acrobat Sign]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Adobe Acrobat Sign] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Adobe Acrobat Sign] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [觸發程序](#triggers)
 * [動作](#actions)
@@ -111,14 +119,14 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
 <td>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td>  </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 篩選器]</td> 
    <td>選取您要監視新記錄、更新記錄或兩者。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別] </td> 
+   <td role="rowheader">[!UICONTROL 記錄類型] </td> 
    <td>選取您要記錄觀看的記錄型別。</td> 
   </tr> 
   <tr> 
@@ -126,8 +134,8 @@ Adobe Acrobat Sign聯結器會使用以下專案：
    <td> <p>輸入您要搜尋的字詞。 模組會傳回包含這些字詞作為欄位值的記錄。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">Adobe Sign搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 傳回協定的最大數目]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td role="rowheader">[!UICONTROL 傳回協議的最大數量]</td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,11 +155,11 @@ Adobe Acrobat Sign聯結器會使用以下專案：
    <td>選取您要使用的webhook，或按一下<b>[!UICONTROL 新增]</b>並填入下列欄位。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Webhook名稱]</td> 
-   <td> <p>輸入webhook的名稱</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook 名稱]</td> 
+   <td> <p>輸入 Webhook 的名稱</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -223,15 +231,15 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td>以標準JSON物件的形式新增請求的標頭。 例如， <code>{"Content-type":"application/json"}</code></td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td>以標準 JSON 物件的形式新增要求標頭。 例如， <code>{"Content-type":"application/json"}</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄類型]</td> 
    <td> <p>選取您要建立的記錄型別。</p> 
     <ul> 
      <li> <p><b>[!UICONTROL 群組]</b> </p> </li> 
@@ -263,7 +271,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
      <li> <p><b>[!UICONTROL 共用模式]</b> </p> <p>指定應該擁有程式庫檔案存取權的使用者。</p> </li> 
      <li> <p><b>[!UICONTROL 程式庫檔案狀態]</b> </p> <p>選擇檔案是處於編寫狀態還是使用中。</p> </li> 
      <li> <p><b>[!UICONTROL 程式庫範本型別]</b> </p> <p>針對您要使用的每個程式庫範本型別，按一下<b>[!UICONTROL 新增專案]</b>並選取範本型別。</p> </li> 
-     <li> <p><b>[!UICONTROL 上次事件日期]</b> </p> <p>輸入程式庫檔案發生事件的最後日期。</p> <p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </li> 
+     <li> <p><b>[!UICONTROL 上次事件日期]</b> </p> <p>輸入程式庫檔案發生事件的最後日期。</p> <p>如需支援之日期和時間格式的清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">類型強制轉換</a>。</p> </li> 
      <li> <p><b>[!UICONTROL 資料庫檔案狀態]</b> </p> <p>選取程式庫檔案的狀態。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -356,11 +364,11 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
 <td>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td>  </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td>以標準JSON物件的形式新增請求的標頭。 例如， <code>{"Content-type":"application/json"}</code></td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td>以標準 JSON 物件的形式新增要求標頭。 例如， <code>{"Content-type":"application/json"}</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">要傳送的[!UICONTROL 檔案]</td> 
@@ -496,15 +504,15 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄類型]</td> 
    <td>選取要與建立的記錄產生關聯的原始記錄的記錄型別。</td> 
   </tr> 
   <tr> 
@@ -594,7 +602,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
         <ul> 
          <li> <p><b>[!UICONTROL 電子郵件]</b> </p> <p>輸入接收新建立網路表單之人員的電子郵件地址</p> </li> 
          <li> <p><b>[!UICONTROL 註解]</b> </p> <p>輸入描述API呼叫者如何建立簽署者身分的註解。 此資訊會顯示在[!DNL Adobe Acrobat Sign]稽核軌跡中。</p> </li> 
-         <li> <p><b>[!UICONTROL 到期]</b> </p> <p>輸入此網頁表單個人化的到期日。 </p> <p>如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref" data-mc-variable-override="">型別強制執行</a>。</p> </li> 
+         <li> <p><b>[!UICONTROL 到期]</b> </p> <p>輸入此網頁表單個人化的到期日。 </p> <p>如需支援之日期和時間格式的清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref" data-mc-variable-override="">類型強制轉換</a>。</p> </li> 
          <li> <p><b>[!UICONTROL 可重複使用]</b> </p> <p>如果您希望預定簽署者能夠多次簽署表單，請選取<b>[!UICONTROL 是]</b>。</p> </li> 
         </ul> </li> 
       </ul> </li> 
@@ -606,36 +614,36 @@ Adobe Acrobat Sign聯結器會使用以下專案：
 
 +++
 
-+++ **[!UICONTROL 自訂API呼叫]**
-此模組可讓您執行自訂API呼叫。
++++ **[!UICONTROL 自訂 API 呼叫]**
+您可以透過此模組進行自訂的 API 呼叫。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>輸入相對於 <code>https://api.[region].adobesign.com/api/rest/v6/</code></p> <p>注意：如需可用端點的清單，請參閱[!DNL Adobe Sign] API參考。</p> </td> 
+   <td> <p>輸入相對於 <code>https://api.[region].adobesign.com/api/rest/v6/</code></p> <p>注：如需可用端點的清單，請參閱 [!DNL Adobe Sign] API 參考資料。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串] </td> 
    <td> <p>輸入請求查詢字串。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[!UICONTROL 正文]</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -658,15 +666,15 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄類型]</td> 
    <td>選取您要擷取相關記錄的記錄型別。</td> 
   </tr> 
   <tr> 
@@ -691,7 +699,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 傳回記錄的最大數量]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> <p>注意：此欄位會與[!UICONTROL Cursor]或[!UICONTROL Start Index]欄位結合，以分頁。 例如，如果[!UICONTROL 傳回事件數上限]為100，而[!UICONTROL 開始索引]為101，模組會傳回記錄101-200，或傳回結果的第二頁。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> <p>注意：此欄位會與[!UICONTROL Cursor]或[!UICONTROL Start Index]欄位結合，以分頁。 例如，如果[!UICONTROL 傳回事件數上限]為100，而[!UICONTROL 開始索引]為101，模組會傳回記錄101-200，或傳回結果的第二頁。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 父網域URL]</td> 
@@ -711,15 +719,15 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄類型]</td> 
    <td>選取您要擷取相關記錄的記錄型別。</td> 
   </tr> 
   <tr> 
@@ -740,15 +748,15 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄類型]</td> 
    <td>選取您要擷取相關記錄的記錄型別。</td> 
   </tr> 
   <tr> 
@@ -781,19 +789,19 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 記錄ID] </td> 
-   <td>輸入或對應您要更新的記錄ID。</td> 
+   <td>輸入或對應您要更新之記錄的 ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄類型]</td> 
    <td>選取您要更新的記錄型別。</td> 
   </tr> 
   <tr> 
@@ -842,15 +850,15 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄型別]</td> 
+   <td role="rowheader">[!UICONTROL 記錄類型]</td> 
    <td>選取與相關欄位關聯之記錄的記錄型別。</td> 
   </tr> 
   <tr> 
@@ -920,12 +928,12 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會自動新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 會自動新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 記錄ID]</td> 
@@ -938,7 +946,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  </tbody> 
 </table>
 
-**範例：**&#x200B;在此工作流程中，要簽署的檔案(先前從Workfront下載)會上傳為暫時性檔案。
+**範例：**&#x200B;在此工作流程中，要簽署的檔案（先前從Workfront下載）會上傳為暫時性檔案。
 
 (/help/workfront-fusion/references/apps-and-modules/assets/sign-example-1-350x308.png)
 
@@ -959,12 +967,12 @@ Adobe Acrobat Sign聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Adobe Acrobat Sign]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 文字篩選]</td> 
@@ -995,7 +1003,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
    <td> <p>群組ID是建立群組時指派的識別碼。</p> <p>針對您要新增的每個外部ID，按一下<b>[!UICONTROL 新增]</b>，然後輸入或對應外部ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產 ID]</td> 
    <td> <p>這是指派給特定合約的ID。 </p> <p>針對您要新增的每個外部ID，按一下<b>[!UICONTROL 新增]</b>，然後輸入或對應外部ID。</p> </td> 
   </tr> 
   <tr> 
@@ -1023,7 +1031,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
    <td>選取您希望傳回的結果包含的狀態。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 型別]</td> 
+   <td role="rowheader">[!UICONTROL 類型]</td> 
    <td>選取您想要傳回結果包含的協定型別。</td> 
   </tr> 
   <tr> 
@@ -1044,7 +1052,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 傳回結果的最大數目]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>

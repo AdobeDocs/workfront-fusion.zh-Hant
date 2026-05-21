@@ -4,16 +4,23 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Adobe InDesign模組
+title: Adobe InDesign 模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Adobe InDesign的工作流程，並將其連結至多個協力廠商應用程式和服務。
 author: Becky
-source-git-commit: 30ddefa8519e6f2052308482137d0fa018676902
+exl-id: 8164487a-d114-4e31-9d1c-8404fc89a04b
+TQID: https://experienceleague.adobe.com/D2JdaOqvTA5SUsKm9U8Sjss6dJFMZv2Uo5RGk25QphQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 20%
+source-wordcount: 1702
+ht-degree: 22%
 
 ---
-
 
 # Adobe InDesign模組
 
@@ -113,7 +120,7 @@ ht-degree: 20%
 
 設定Adobe InDesign模組時，Workfront Fusion會顯示下列欄位。 除此之外，可能還會顯示其他Adobe InDesign欄位，視您應用程式或服務中的存取層級等因素而定。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -123,7 +130,7 @@ ht-degree: 20%
 * [刪除自訂指令碼](#delete-a-custom-script)
 * [合併資料](#merge-data)
 * [重新對應連結](#remap-links)
-* [提交自訂指令碼執行請求](#submit-a-custom-script-execution-request)
+* [提交自訂指令碼執行要求](#submit-a-custom-script-execution-request)
 
 #### 建立轉譯
 
@@ -149,7 +156,7 @@ ht-degree: 20%
       <td role="rowheader">
         <p>資產</p>
       </td>
-      <td>針對您想要新增至轉譯的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'上傳 或'/'。 應該要有有效的檔案名稱。</td>
+      <td>針對您想要新增至轉譯的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'或'/'上傳。 應該要有有效的檔案名稱。</td>
     </tr>
     <tr>
       <td role="rowheader">目標檔案</td>
@@ -198,7 +205,7 @@ ht-degree: 20%
       <td role="rowheader">
         <p>資產</p>
       </td>
-      <td>針對您要新增至資料合併的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'上傳 或'/'。 應該要有有效的檔案名稱。</td>
+      <td>針對您要新增至資料合併的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'或'/'上傳。 應該要有有效的檔案名稱。</td>
     </tr>
     <tr>
       <td role="rowheader">目標檔案</td>
@@ -234,7 +241,7 @@ ht-degree: 20%
       <td role="rowheader">
         <p>資產</p>
       </td>
-      <td>針對您想要新增至模組的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'上傳 或'/'。 應該要有有效的檔案名稱。</td>
+      <td>針對您想要新增至模組的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'或'/'上傳。 應該要有有效的檔案名稱。</td>
     </tr>
     <tr>
       <td role="rowheader">目標檔案</td>
@@ -250,7 +257,7 @@ ht-degree: 20%
   </tbody>
 </table>
 
-#### 提交自訂指令碼執行請求
+#### 提交自訂指令碼執行要求
 
 此動作模組會提交自訂指令碼的執行請求。 您可以定義自訂指令碼在執行期間使用的輸入資產和引數。
 
@@ -272,7 +279,7 @@ ht-degree: 20%
       <td role="rowheader">
         <p>資產</p>
       </td>
-      <td>針對您要提交執行者請求的每個資產， <ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'上傳 或'/'。 應該要有有效的檔案名稱。</td>
+      <td>針對您要提交執行者請求的每個資產， <ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'或'/'上傳。 應該要有有效的檔案名稱。</td>
     </tr>
     <tr>
       <td role="rowheader">其他欄位</td>
@@ -284,7 +291,7 @@ ht-degree: 20%
 
 * [取得自訂指令碼詳細資料](#get-custom-script-details)
 * [取得資料合併標籤](#get-data-merge-tags)
-* [取得檔案資訊](#get-document-information)
+* [取得文件資訊](#get-document-information)
 * [列出自訂指令碼](#list-custom-scripts)
 
 #### 取得自訂指令碼詳細資料
@@ -324,7 +331,7 @@ ht-degree: 20%
       <td role="rowheader">
         <p>資產</p>
       </td>
-      <td>針對您想要新增至模組的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'上傳 或'/'。 應該要有有效的檔案名稱。</td>
+      <td>針對您想要新增至模組的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'或'/'上傳。 應該要有有效的檔案名稱。</td>
     </tr>
     <tr>
       <td role="rowheader">目標檔案</td>
@@ -340,7 +347,7 @@ ht-degree: 20%
   </tbody>
 </table>
 
-#### 取得檔案資訊
+#### 取得文件資訊
 
 此模組會擷取有關INDD/IDML檔案的完整資訊，並根據請求中指定的啟用資訊型別傳回資料。
 
@@ -356,7 +363,7 @@ ht-degree: 20%
       <td role="rowheader">
         <p>資產</p>
       </td>
-      <td>針對您想要新增至模組的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'上傳 或'/'。 應該要有有效的檔案名稱。</td>
+      <td>針對您想要新增至模組的每個資產：<ol><li>按一下<b>新增專案</b>。</li><li>選取或對應資產的來源。</li><li>輸入目的地。 目的地是相對於下載資源的暫存基底目錄（工作目錄）的路徑。 這可在引數中識別資產。 無法使用'..'或'/'上傳。 應該要有有效的檔案名稱。</td>
     </tr>
     <tr>
       <td role="rowheader">目標檔案</td>
@@ -419,7 +426,7 @@ ht-degree: 20%
         <p>方法</p>
       </td>
       <td>
-        <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱[HTTP要求方法](/help/workfront-fusion/references/modules/http-request-methods.md)。</p>
+        <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱[HTTP要求方法](/help/workfront-fusion/references/modules/http-request-methods.md)。</p>
       </td>
     </tr>
     <tr>

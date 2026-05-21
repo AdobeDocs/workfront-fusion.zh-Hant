@@ -4,9 +4,12 @@ description: 本文說明有關 [!DNL Adobe Workfront Fusion scenario] 範本的
 author: Becky
 feature: Workfront Fusion
 exl-id: 479b1ee5-5bde-465e-a269-61a49640699e
-source-git-commit: d372a4c9c852c81b81b5dde4ca919a6fe7fd2bc5
+TQID: https://experienceleague.adobe.com/7vcKvFskdlSF-0aGVFtyA6JWqMemNMXpsRfEgQWBcUA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 276
 ht-degree: 40%
 
 ---

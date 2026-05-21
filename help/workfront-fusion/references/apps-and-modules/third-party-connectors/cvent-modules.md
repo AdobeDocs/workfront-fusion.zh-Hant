@@ -1,65 +1,70 @@
 ---
-title: 事件模組
+title: Cvent 模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Cvent的工作流程，並將其連線到多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: b7e16180-1db8-4aff-bb7b-69ca98194b00
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/3Zi0MPk58Fvcshiq87skNQ3LlAMwGyRJ54KnktwX8cw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 1%
+source-wordcount: 1134
+ht-degree: 35%
 
 ---
 
-# [!DNL Cvent]模組
+# [!DNL Cvent] 模組
 
-在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Cvent]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Cvent] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## 先決條件
 
-若要使用[!DNL Cvent]模組，您必須有[!DNL Cvent]帳戶。
+若要使用 [!DNL Cvent] 模組，您必須擁有 [!DNL Cvent] 帳戶。
 
 ## Cvent API資訊
 
@@ -70,11 +75,11 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">API版本</td> 
+   <td role="rowheader">API 版本</td> 
    <td> V200611.ASMX </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.7.14</td> 
   </tr>
  </tbody> 
@@ -94,29 +99,29 @@ Cvent聯結器使用下列專案：
 
 您可以直接從[!DNL Cvent]模組內建立與您的[!DNL Cvent]帳戶的連線。
 
-1. 在任何[!DNL Cvent]模組中，按一下&#x200B;**[!UICONTROL 連線]**&#x200B;欄位旁的[!UICONTROL 新增]。
+1. 在任何[!DNL Cvent]模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;**[!UICONTROL 新增]**。
 1. 選取您要連線的區域。
 
    * [!UICONTROL 北美]
    * [!UICONTROL 歐洲]
    * [!UICONTROL 沙箱]
 
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以建立連線並返回模組。
+1. 按一下「**[!UICONTROL 繼續]**」來建立連線並返回模組。
 
-## [!DNL Cvent]模組及其欄位
+## [!DNL Cvent] 模組及其欄位
 
-當您設定[!DNL Cvent]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Cvent]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Cvent] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Cvent] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [動作](#actions)
 * [搜尋](#searches)
 
 ### 動作
 
-* [[!UICONTROL 自訂API呼叫]](#create-meeting-request)
+* [[!UICONTROL 自訂 API 呼叫]](#create-meeting-request)
 * [[!UICONTROL 讀取記錄]](#read-a-record)
 * [[!UICONTROL 註冊受邀者]](#register-invitee)
 * [[!UICONTROL 新增被邀請者]](#add-invitee)
@@ -124,9 +129,9 @@ Cvent聯結器使用下列專案：
 * [[!UICONTROL 更新連絡人]](#update-contact)
 * [[!UICONTROL 建立會議要求]](#create-meeting-request)
 
-#### [!UICONTROL 自訂API呼叫]
+#### [!UICONTROL 自訂 API 呼叫]
 
-此動作模組可讓您對[!DNL Cvent] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Cvent]模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Cvent] API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 [!DNL Cvent] 模組無法完成的資料流程自動化。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -137,12 +142,12 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">作業</td> 
-   td&gt; <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   td&gt; <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">內文(XML)</td> 
@@ -160,11 +165,11 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 記錄型別]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 記錄類型]</p> </td> 
    <td>選取您要讀取之記錄的專案型態。</td> 
   </tr> 
   <tr> 
@@ -187,7 +192,7 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -195,7 +200,7 @@ Cvent聯結器使用下列專案：
    <td> <p>輸入或對應您要註冊事件的受邀者ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">事件ID</td> 
+   <td role="rowheader">事件 ID</td> 
    <td> <p>輸入或對應您要註冊受邀者之事件的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -210,7 +215,7 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -233,7 +238,7 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -252,7 +257,7 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -279,7 +284,7 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -312,12 +317,12 @@ Cvent聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 記錄型別]</p> </td> 
-   <td> <p>選取您要列出的記錄型別。</p> 
+   <td role="rowheader"> <p>[!UICONTROL 記錄類型]</p> </td> 
+   <td> <p>選取您要列出清單的記錄類型。</p> 
     <ul> 
      <li> <p>來自您[!DNL Cvent]帳戶的所有事件</p> </li> 
      <li> <p>事件的所有工作階段</p> </li> 

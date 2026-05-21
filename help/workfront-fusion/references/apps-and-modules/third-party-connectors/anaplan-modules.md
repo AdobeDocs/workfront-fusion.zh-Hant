@@ -4,10 +4,18 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Anapla
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 81c9b141-4e40-430f-99f1-c44b7a833bcd
-source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
+TQID: https://experienceleague.adobe.com/oe0aoid5lPYljLtCBKV7GKd8KGNKh-LGQYD2d83-9eo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 25%
+source-wordcount: 2040
+ht-degree: 26%
 
 ---
 
@@ -62,7 +70,7 @@ ht-degree: 25%
 使用[!DNL Anaplan]聯結器之前，您必須確定符合下列先決條件：
 
 * 您必須擁有使用中的[!UICONTROL Anaplan]帳戶。
-* 您必須先在[!DNL Anaplan]Anaplan[!UICONTROL 帳戶中設定工作區、模型和其他]物件，Workfront Fusion才能與這些物件互動。
+* 您必須先在[!UICONTROL Anaplan]帳戶中設定工作區、模型和其他[!DNL Anaplan]物件，Workfront Fusion才能與這些物件互動。
 
 ## Anaplan API資訊
 
@@ -91,7 +99,7 @@ Anaplan聯結器使用下列專案：
 
 若要為您的 [!DNL Anaplan] 模組建立連線：
 
-1. 按一下&#x200B;**[!UICONTROL 連線]**&#x200B;方塊旁的[!UICONTROL 新增]。
+1. 按一下[!UICONTROL 連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 1. 填寫下列欄位：
 
    <table style="table-layout:auto"> 
@@ -157,9 +165,9 @@ Anaplan聯結器使用下列專案：
 
 ## [!DNL Anaplan] 模組及其欄位
 
-當您設定 [!DNL Anaplan] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Anaplan] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Anaplan] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Anaplan] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -363,7 +371,7 @@ Anaplan聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 

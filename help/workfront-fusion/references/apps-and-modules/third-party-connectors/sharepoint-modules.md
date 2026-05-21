@@ -4,9 +4,17 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Micros
 author: Becky
 feature: Workfront Fusion
 exl-id: 1a09aa86-5e0e-4347-b4cf-2b0a95e5b049
-source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
+TQID: https://experienceleague.adobe.com/WmECfdPt-a3l2-WT9LMX2HB-7-p-BLIO4F2i3OAc7D0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '4276'
+source-wordcount: 4303
 ht-degree: 13%
 
 ---
@@ -200,7 +208,7 @@ SharePoint聯結器會使用以下專案：
 
 當您設定Microsoft SharePoint Online模組時，Workfront Fusion會顯示下列欄位。 除此之外，可能還會顯示其他Microsoft SharePoint Online欄位，視您應用程式或服務中的存取層級等因素而定。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -339,7 +347,7 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入站台、磁碟機和檔案                ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和檔案ID]</td> 
    <td> <p>選取您要如何識別要取得之檔案的位置。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>針對您要擷取的資料夾，輸入或對映<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 資料夾路徑]</strong>。</p> </li> 
@@ -362,7 +370,7 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入站台、磁碟機和檔案                ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和檔案ID]</td> 
    <td> <p>選取您要如何識別要取得之檔案的位置。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>針對您要擷取的資料夾或檔案，輸入或對應<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 資料夾或專案識別碼]</strong>。</p> </li> 
@@ -782,7 +790,7 @@ SharePoint聯結器會使用以下專案：
 
 >[!NOTE]
 >
->`beta`中[!DNL Microsoft Graph]版本的API可能會變更。 不支援在生產應用程式中使用這些API。
+>[!DNL Microsoft Graph]中`beta`版本的API可能會變更。 不支援在生產應用程式中使用這些API。
 
 * [取得頁面](#get-a-page)
 * [清單頁面](#list-pages)
@@ -987,15 +995,15 @@ SharePoint聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>輸入相對於 <code>https://graph.microsoft.com</code> 的路徑。範例：<code> /beta/sites</code></p> </td> 
+   <td> <p>輸入相對於 <code>https://graph.microsoft.com</code> 的路徑。 範例：<code> /beta/sites</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 
-   <td> <p>以標準 JSON 物件的形式新增要求標頭。例如 <code>{"Content-type":"application/json"}</code>。Workfront Fusion會為您新增授權標頭。</p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。 例如 <code>{"Content-type":"application/json"}</code>。 Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串]</td> 

@@ -4,9 +4,12 @@ description: 您必須為建立的每個模組進行設定。
 author: Becky
 feature: Workfront Fusion
 exl-id: ae82d1fe-31e1-424a-9c1a-42dc1a20b749
-source-git-commit: a871a130a1ac023dcb4ce8da7241918da2431d3a
+TQID: https://experienceleague.adobe.com/yDENFBx9N8X2hxJOmKJYYj2yqCkasYLgunIJwFf-JY4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: 301
 ht-degree: 32%
 
 ---

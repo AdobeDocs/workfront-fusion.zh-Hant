@@ -1,57 +1,64 @@
 ---
-title: Google工作表模組
+title: Google Sheets 模組
 description: 若要搭配Adobe Workfront Fusion使用 [!DNL Google Sheets] ，您需要[!UICONTROL Workfront Fusion Google Sheets]擴充功能（選用，但即時觸發程式必須使用）。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 80965570-2937-4ac8-97c0-54f7a813ec50
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/jotAS2NHIZV4NNM0tvhGFlTnT-owWSKo8zo7cV4J7dM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '4046'
-ht-degree: 0%
+source-wordcount: 4067
+ht-degree: 11%
 
 ---
 
-# [!DNL Google Sheets]模組
+# [!DNL Google Sheets] 模組
 
-在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Google Sheets]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Google Sheets] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 
 如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱[建立與Adobe Workfront Fusion的連線 — 基本說明](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -72,11 +79,11 @@ Google Sheets聯結器使用下列專案：
    <td> https://sheets.googleapis.com/v4</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API版本</td> 
+   <td role="rowheader">API 版本</td> 
    <td> v4 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v2.5.7</td> 
   </tr>
  </tbody> 
@@ -84,11 +91,11 @@ Google Sheets聯結器使用下列專案：
 
 ## Google工作表模組及其欄位
 
-當您設定[!DNL Google Forms]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Google Sheets]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Google Forms] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Google Sheets] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 ### 觸發程序
 
@@ -107,7 +114,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -140,7 +147,7 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 日期和時間轉譯選項]</p> </td> 
-   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL 序號]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL 格式字串]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL 序號]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。 這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL 格式字串]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制] </td> 
@@ -167,18 +174,18 @@ Google Sheets聯結器使用下列專案：
 
 此模組會附加一列至工作表。
 
-當您設定[!DNL Google Sheets]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Google Sheets]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Google Sheets] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Google Sheets] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -237,7 +244,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -264,7 +271,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -291,7 +298,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -316,7 +323,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -360,7 +367,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -387,7 +394,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -410,7 +417,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -431,7 +438,7 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!DNL Date and time render option]</td> 
-   <td> <ul><li><p style="font-weight: bold;">[!DNL Serial number]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p></li><li> <p style="font-weight: bold;">[!DNL Formatted string]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p> </li><ul></td> 
+   <td> <ul><li><p style="font-weight: bold;">[!DNL Serial number]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。 這正確將1900年視為閏年。</p></li><li> <p style="font-weight: bold;">[!DNL Formatted string]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p> </li><ul></td> 
   </tr> 
  </tbody> 
 </table>
@@ -445,28 +452,28 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將Google Sheets帳戶連線到Workfront Fusion的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td>輸入相對於<code>https://sheets.googleapis.com/v4/</code>的路徑。</td> 
+   <td>輸入相對於 <code>https://sheets.googleapis.com/v4/</code> 的路徑。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。 例如 <code>{"Content-type":"application/json"}</code>。Workfront Fusion會為您新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。 例如 <code>{"Content-type":"application/json"}</code>。 Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串]</td> 
-   <td> <p> 以標準JSON物件的形式新增API呼叫的查詢。</p> </td> 
+   <td> <p> 以標準 JSON 物件的形式新增 API 呼叫的查詢。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：   <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[!UICONTROL 正文]</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：   <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -481,7 +488,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -520,7 +527,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -576,7 +583,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +612,7 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL 日期和時間轉譯選項]</td> 
-   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL 序號]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL 格式字串]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL 序號]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。 這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL 格式字串]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -619,7 +626,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -638,7 +645,7 @@ Google Sheets聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將Google Sheets帳戶連線到Workfront Fusion的指示，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立與Adobe Workfront Fusion的連線 — 基本指示</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -675,7 +682,7 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL 日期和時間轉譯選項]</td> 
-   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL 序號]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL 格式字串]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
+   <td> <ul><li><p style="font-weight: bold;">[!UICONTROL 序號]</p> <p>日期、時間、日期時間和持續時間欄位會以「序號」格式輸出為兩倍，並由Lotus 1-2-3普及。 值的整數部分（小數點左側）計算自1899年12月30日以來的天數。 小數部分（小數點右側）會將時間計為一天中的小數。 例如，1900年1月1日中午是2.5、2，因為是在1899年12月30日之後的2天，而。5，因為中午是半天。 1900年2月1日下午3點會是33.625。 這正確將1900年視為閏年。</p> </li><li><p style="font-weight: bold;">[!UICONTROL 格式字串]</p> <p>日期、時間、日期時間和持續時間欄位會以其指定的數字格式（視試算表的地區設定而定）輸出為字串。</p></li><ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 傳回資料列數目上限]</td> 
@@ -693,7 +700,7 @@ Google Sheets聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!DNL Google Sheets]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -706,7 +713,7 @@ Google Sheets聯結器使用下列專案：
   </tr> 
   <tr> 
    <td>[!UICONTROL Query]</td> 
-   <td> <p>使用[!DNL Google Charts Query Language]。 範例： <code>select * where B = "John"</code></p> <p>如需[!DNL Google Charts Query Language]的詳細資訊，請參閱<a href="https://developers.google.com/chart/interactive/docs/querylanguage">檔案中的</a>查詢語言參考[!DNL Google]。</p> </td> 
+   <td> <p>使用[!DNL Google Charts Query Language]。 範例： <code>select * where B = "John"</code></p> <p>如需[!DNL Google Charts Query Language]的詳細資訊，請參閱[!DNL Google]檔案中的<a href="https://developers.google.com/chart/interactive/docs/querylanguage">查詢語言參考</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -745,7 +752,7 @@ select * where E is null
 1. 在[!UICONTROL 繪圖]視窗中，按一下視窗頂端附近的&#x200B;**[!UICONTROL 文字方塊]**&#x200B;圖示![文字方塊](/help/workfront-fusion/references/apps-and-modules/assets/text-box.png)。
 1. 設計按鈕並按一下右上角的&#x200B;**[!UICONTROL 儲存並關閉]**&#x200B;按鈕：
 1. 此按鈕會放置在您的工作表中。 按一下按鈕右上角的三個垂直點：
-1. 選擇&#x200B;**[!UICONTROL 指派指令碼……]。功能表中的**。
+1. 從功能表選擇&#x200B;**[!UICONTROL 指派指令碼……].**。
 1. 輸入指令碼（函式）的名稱，例如`runScenario`，然後按一下&#x200B;**[!UICONTROL 確定]**：
 1. 從主功能表列選擇&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 指令碼編輯器]**。
 

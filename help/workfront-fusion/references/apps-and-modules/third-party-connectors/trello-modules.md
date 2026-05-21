@@ -1,13 +1,18 @@
 ---
-title: 格線模組
+title: Trello 模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Trello的工作流程，並將其連線到多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5df5cd2b-ad4c-4a02-9d0c-7cee35232f93
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/OIQOEivCkKstdfGnDsqlkNLHqU0nk81BaWTL1wJu-GI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '5386'
-ht-degree: 0%
+source-wordcount: 5401
+ht-degree: 8%
 
 ---
 
@@ -15,45 +20,45 @@ ht-degree: 0%
 
 在Adobe Workfront Fusion案例中，您可以自動使用[!UICONTROL Trello]的工作流程，並將其連線到多個協力廠商應用程式和服務。
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -74,11 +79,11 @@ Trello聯結器使用下列專案：
    <td> https://api.trello.com/1</td>
   </tr> 
   <tr> 
-   <td role="rowheader">API版本</td> 
+   <td role="rowheader">API 版本</td> 
    <td> v1 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v4.12.37</td> 
   </tr>
  </tbody> 
@@ -90,11 +95,11 @@ Trello聯結器使用下列專案：
 
 ## [!UICONTROL 格線]模組及其欄位
 
-當您設定[!UICONTROL Trello]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位之外，根據您在應用程式或服務中的存取層級等因素，可能會顯示其他[!UICONTROL 格線]欄位。 模組中的粗體標題表示必填欄位。
+當您設定[!UICONTROL Trello]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位之外，根據您在應用程式或服務中的存取層級等因素，可能會顯示其他[!UICONTROL 格線]欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [展示板](#boards)
 * [清單](#lists)
@@ -115,7 +120,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -140,7 +145,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -178,7 +183,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -269,7 +274,7 @@ Trello聯結器使用下列專案：
 > <col> 
 > <tbody> 
 >  <tr> 
->   <td role="rowheader">[!UICONTROL Connection] </td> 
+>   <td role="rowheader">[!UICONTROL 連線] </td> 
 >   <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
 >  </tr> 
 >  <tr> 
@@ -367,7 +372,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -388,7 +393,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -421,7 +426,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -446,7 +451,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -469,7 +474,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -506,11 +511,11 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 清單ID]</td> 
+   <td role="rowheader">[!UICONTROL 清單 ID]</td> 
    <td> <p> 輸入或對應您要更新的清單ID。</p> </td> 
   </tr> 
   <tr> 
@@ -543,11 +548,11 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 清單ID]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 清單 ID]</p> </td> 
    <td> <p>輸入或對應您要擷取相關資訊之清單的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -564,7 +569,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -577,7 +582,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制] </td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -595,7 +600,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -628,7 +633,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -653,7 +658,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -686,7 +691,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 到期日期]</td> 
-   <td> <p> 輸入卡片的到期日。 如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </td> 
+   <td> <p> 輸入卡片的到期日。 如需支援之日期和時間格式的清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">類型強制轉換</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 到期完成]</td> 
@@ -697,7 +702,7 @@ Trello聯結器使用下列專案：
    <td> <p>輸入或對應您要新增為卡片附件的檔案URL。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Source檔案]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 來源檔案]</p> </td> 
    <td> <p>輸入或對應您要新增為卡片附件的檔案資訊。 從先前的模組中選取檔案，或對應檔案名稱和資料</p> 
      <p>注意：每個附件有10 MB的檔案上傳限制。 但是，[!UICONTROL Business Class]和[!UICONTROL Trello Gold]成員的每個附件有250 MB的檔案上傳限制。</p> 
      </li> 
@@ -725,7 +730,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -758,7 +763,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 到期日期]</td> 
-   <td> <p> 輸入卡片的到期日。 如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </td> 
+   <td> <p> 輸入卡片的到期日。 如需支援之日期和時間格式的清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">類型強制轉換</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 到期完成]</td> 
@@ -794,7 +799,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -823,7 +828,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -858,7 +863,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 卡片] </td> 
-   <td> <p>若要搜尋特定卡片，請按一下[新增專案] <b>並新增卡片識別碼。</b></p> </td> 
+   <td> <p>若要搜尋特定卡片，請按一下[新增專案] </b>並新增卡片識別碼。<b></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -874,7 +879,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -888,7 +893,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制] </td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -906,7 +911,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -924,7 +929,7 @@ Trello聯結器使用下列專案：
 
 +++ **[!UICONTROL 指派成員給討論區]**
 
-請參閱[!UICONTROL 展示板]下的[將成員指派給展示板](#boards)。
+請參閱[展示板](#boards)下的[!UICONTROL 將成員指派給展示板]。
 
 +++
 
@@ -937,7 +942,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -950,7 +955,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 傳回成員的最大數目]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -959,7 +964,7 @@ Trello聯結器使用下列專案：
 
 +++ **[!UICONTROL 從展示板取消指派成員]**
 
-請參閱「[!UICONTROL 面板]下的[從面板](#boards)取消指派成員」。
+請參閱「[面板](#boards)下的[!UICONTROL 從面板]取消指派成員」。
 
 +++
 
@@ -974,7 +979,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1011,7 +1016,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1048,7 +1053,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1091,7 +1096,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1118,7 +1123,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1145,7 +1150,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1157,16 +1162,16 @@ Trello聯結器使用下列專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 傳回評論的最大數量]</td> 
+   <td role="rowheader">[!UICONTROL 傳回註解的最大數量]</td> 
    <td> <p> 輸入Workfront Fusion在一個執行週期內傳回的最大註解數。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 始自] </td> 
-   <td> <p>設定建立註解的期間的開始日期。 如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </td> 
+   <td> <p>設定建立註解的期間的開始日期。 如需支援之日期和時間格式的清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">類型強制轉換</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Before] </td> 
-   <td> <p>設定建立註解的期間的結束日期。 如需支援的日期和時間格式清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">型別強制執行</a>。</p> </td> 
+   <td> <p>設定建立註解的期間的結束日期。 如需支援之日期和時間格式的清單，請參閱<a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref">類型強制轉換</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1182,7 +1187,7 @@ Trello聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td role="rowheader">[!UICONTROL 連線] </td> 
    <td> <p>如需有關將您的[!UICONTROL Trello]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -1198,7 +1203,7 @@ Trello聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制] </td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大註解數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大註解數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1212,7 +1217,7 @@ Trello聯結器使用下列專案：
 
 ### 如何在[!DNL Trello]中找到卡片的ID或短連結
 
-如果您想要編輯卡片或建立新註解，您必須知道卡片的ID或其短連結。 您可以從[!UICONTROL 新卡片]觸發器的輸出取得此資訊。 開啟卡片並按一下[!UICONTROL 共用]按鈕，也可以取得卡片的短連結。 在[!UICONTROL 之後URL結尾的]連結至此卡片`https://trello.com/c/`方塊中，可以找到短連結。
+如果您想要編輯卡片或建立新註解，您必須知道卡片的ID或其短連結。 您可以從[!UICONTROL 新卡片]觸發器的輸出取得此資訊。 開啟卡片並按一下[!UICONTROL 共用]按鈕，也可以取得卡片的短連結。 在`https://trello.com/c/`之後URL結尾的[!UICONTROL 連結至此卡片]方塊中，可以找到短連結。
 
 ![共用及更多](/help/workfront-fusion/references/apps-and-modules/assets/share-and-more-350x575.png)
 

@@ -1,21 +1,24 @@
 ---
 title: 檢視組織的活動記錄
-description: You can view a log of activities, such as scenario creation or activation, for your organization.
+description: 您可以檢視組織的活動記錄，例如情境建立或啟動。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cf851e3-50a1-4baa-8318-a24e1f467134
-source-git-commit: 6aad13e81c083754d7aad53dec103715bd6b8807
+TQID: https://experienceleague.adobe.com/HzeBJonpCSsEnDAgsfveksA7Xc2EKoeywgol9Vp0KGc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: 504
 ht-degree: 7%
 
 ---
 
 # 檢視組織的活動記錄
 
-You can view a log of activities, such as creating a scenario or inviting a user, for your organization.
+您可以檢視活動的記錄，例如為您的組織建立情境或邀請使用者。
 
-Activity logs show three months of data. 可匯出3個月以前的資料。
+活動記錄會顯示三個月的資料。 可匯出3個月以前的資料。
 
 ## 存取權要求
 
@@ -36,8 +39,8 @@ Activity logs show three months of data. 可匯出3個月以前的資料。
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定</td> 
    <td> 
-     <p>You must be a Workfront Fusion administrator for your organization.</p>
-     <p>You must be a Workfront Fusion administrator for your team.</p>
+     <p>您必須是組織的Workfront Fusion管理員。</p>
+     <p>您必須是團隊的Workfront Fusion管理員。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -57,10 +60,10 @@ Activity logs show three months of data. 可匯出3個月以前的資料。
 1. （選用）篩選活動記錄，以依據您指定的條件限制結果。
 
    如需指示，請參閱本文中的[篩選活動記錄](#filter-the-activity-logs)。
-1. (Optional) To clear an applied filter, Locate the filter near the upper-right of the screen, and click the **X** in the filter&#39;s box.
-1. (Optional) Export the log.
+1. （選擇性）若要清除套用的篩選器，請在熒幕右上角附近找到該篩選器，然後按一下篩選器方塊中的&#x200B;**X**。
+1. （選用）匯出記錄。
 
-   For instructions, see [Export the Activity Logs](#export-the-activity-logs) in this article.
+   如需指示，請參閱本文中的[匯出活動記錄檔](#export-the-activity-logs)。
 
 
 ## 篩選活動記錄
@@ -74,9 +77,9 @@ Activity logs show three months of data. 可匯出3個月以前的資料。
 1. 按一下欄位，設定下列一或多個篩選器。
 
    * **開始日期和結束日期**：從行事曆中選取日期，並（選擇性）輸入時間。
-   * **User**: Select a user from the dropdown.
-   * **Team**: Select a team from the dropdown. Only teams that you are a member of display in the dropdown.
-   * **Entity**: Select the type of Fusion object that you want to view activity logs for.
+   * **使用者**：從下拉式清單中選取使用者。
+   * **團隊**：從下拉式清單中選取團隊。 下拉式清單中只會顯示您所屬的團隊。
+   * **實體**：選取您要檢視活動記錄檔的Fusion物件型別。
    * **動作**：選取您要檢視活動記錄的動作。
 
 1. 按一下&#x200B;**套用**
@@ -88,6 +91,6 @@ Activity logs show three months of data. 可匯出3個月以前的資料。
 1. 按一下熒幕頂端附近的&#x200B;**[!UICONTROL 活動記錄]**&#x200B;標籤。
 
    「活動記錄」頁面隨即開啟。
-1. Select the date range from the from the calendar, and (optional) enter times.
-1. Select whether to export an Excel file or a CSV file.
+1. 從行事曆選取日期範圍，然後（選擇性）輸入時間。
+1. 選取要匯出Excel檔案還是CSV檔案。
 1. 按一下「**套用**」。

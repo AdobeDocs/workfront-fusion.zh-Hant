@@ -1,24 +1,29 @@
 ---
-title: 在組織的允許清單中設定Fusion的IP位址
+title: 在組織的允許清單中設定 Fusion 的 IP 位址
 description: Fusion使用特定的IP位址和網域進行Web通訊。 必須先將這些專案新增到貴組織的允許清單中，您才能在組織中使用Workfront。
 author: Becky
 feature: Workfront Fusion
 exl-id: 406dd45c-0863-4270-a80e-c1c115e0b367
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+TQID: https://experienceleague.adobe.com/-ogVZgc8Jan8jmPV-l8PzajHzJrZ1np6dS-h7OAYY10
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 0%
+source-wordcount: 569
+ht-degree: 8%
 
 ---
 
-# 在組織的允許清單中設定Fusion的IP位址
+# 在組織的允許清單中設定 Fusion 的 IP 位址
 
 由於Adobe Workfront Fusion會與貴組織的網路通訊，因此貴組織的防火牆必須設定為允許該通訊。 防火牆是高度有效的安全措施，可將組織的網路與網際網路隔離開來。 它們可確保只有選取的資料和網路流量可以移入或移出組織的網路。 防火牆會根據傳送或接收資料的網站，允許或封鎖資料。 身為Fusion管理員，您必須確保傳送至或來自Fusion的資料可透過您組織的防火牆。
 
 這是透過允許清單來完成，其實質為「允許」透過防火牆傳送或接收資料的網站「清單」。 您可以使用下列兩種方式之一來識別網站：
 
 * **IP位址**：一系列數字，例如52.31.132.175
-* **網域**： URL的一部分，例如`thisdomain`中的`www.thisdomain.com`
+* **網域**： URL的一部分，例如`www.thisdomain.com`中的`thisdomain`
 
 Fusion使用特定的IP位址和網域進行Web通訊。 必須先將這些專案新增到貴組織的允許清單中，您才能在組織中使用Workfront。
 

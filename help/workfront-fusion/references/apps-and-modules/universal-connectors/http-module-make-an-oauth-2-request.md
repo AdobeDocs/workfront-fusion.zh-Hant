@@ -4,18 +4,25 @@ description: 若要向需要OAuth 2.0授權的伺服器發出Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: a302a1d4-fddf-4a71-adda-6b87ff7dba4b
-source-git-commit: 54c368d335b30f55cab19595a5b4740dde6013a7
+TQID: https://experienceleague.adobe.com/ylQwzctWz1sE03eGhHWxjf48mKxHiuZVy-HN07Mtmh0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2320'
-ht-degree: 0%
+source-wordcount: 2371
+ht-degree: 11%
 
 ---
 
-# [!UICONTROL HTTP] > [!UICONTROL 發出OAuth 2.0請求]模組
+# [!UICONTROL HTTP] > [!UICONTROL 提出 OAuth 2.0 請求]模組
 
 >[!NOTE]
 >
->除了Adobe Workfront授權，Adobe Workfront Fusion還需要Adobe Workfront Fusion授權。
+>Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Workfront Fusion 授權。
 
 若要向需要OAuth 2.0授權的伺服器發出Adobe Workfront Fusion HTTP(S)請求，您首先需要建立OAuth連線。 Adobe Workfront Fusion會確保使用此連線進行的所有呼叫都有適當的授權標頭，並視需要自動重新整理關聯的權杖。
 
@@ -34,41 +41,41 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
 >
 >如需詳細資訊，請參閱[Adobe Authenticator模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -115,7 +122,7 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
       <td> <p>選取您是使用生產或非生產環境。</p> </td> 
      </tr> 
       <tr> 
-      <td role="rowheader">[!UICONTROL 型別] </td> 
+      <td role="rowheader">[!UICONTROL 類型] </td> 
       <td> <p>選取您是使用服務帳戶還是個人帳戶。</p> </td> 
      </tr> 
      <tr> 
@@ -135,11 +142,11 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
       <td> <p>選取上面輸入的範圍應該用分隔符號。 您可以在特定服務的開發人員(API)檔案中找到此資訊。</p> <p>警告：如果分隔符號未正確設定，Workfront Fusion將無法建立連線，且您會收到無效的範圍錯誤。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者端ID] </td> 
+      <td role="rowheader">[!UICONTROL 用戶端 ID] </td> 
       <td> <p>輸入使用者端識別碼。 您在要連線的服務中建立OAuth使用者端時，已取得使用者端ID。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者端密碼]</td> 
+      <td role="rowheader">[!UICONTROL 用戶端密碼]</td> 
       <td> <p> 輸入使用者端密碼。 您在要連線的服務中建立OAuth使用者端時，已取得使用者端密碼。</p> </td> 
      </tr> 
      <tr> 
@@ -157,7 +164,7 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
             <td>https://app.workfrontfusion.com/oauth/cb/oauth2</td> 
            </tr> 
            <tr> 
-            <td role="rowheader">EMEA </td> 
+            <td role="rowheader">歐洲、中東和非洲地區 </td> 
             <td>https://app-eu.workfrontfusion.com/oauth/cb/oauth2</td> 
            </tr> 
           </tbody> 
@@ -180,7 +187,7 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
             <td>https://app.workfrontfusion.com/oauth/cb/oauth2</td> 
            </tr> 
            <tr> 
-            <td role="rowheader">EMEA </td> 
+            <td role="rowheader">歐洲、中東和非洲地區 </td> 
             <td>https://app-eu.workfrontfusion.com/oauth/cb/oauth2</td> 
            </tr> 
           </tbody> 
@@ -219,14 +226,14 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
+1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 1. 繼續[設定Make an OAuth 2.0要求模組](#configure-the-make-an-oauth-20-request-module)。
 
-### 在[!DNL Google]HTTP[!UICONTROL &#x200B; > &#x200B;]建立OAuth 2.0要求模組[!UICONTROL 中與]連線的指示
+### 在[!UICONTROL HTTP] > [!UICONTROL 建立OAuth 2.0要求模組]中與[!DNL Google]連線的指示
 
 下列範例顯示如何使用[!UICONTROL HTTP] > [!UICONTROL 建立OAuth 2.0]要求模組以連線至[!DNL Google]。
 
-1. 請確定您已建立專案、設定OAuth設定，並產生您的認證，如文章[使用自訂OAuth使用者端 [!DNL Google Services] 將Adobe Workfront Fusion連線至](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md)中所述。
+1. 請確定您已建立專案、設定OAuth設定，並產生您的認證，如文章[使用自訂OAuth使用者端](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md)將Adobe Workfront Fusion連線至 [!DNL Google Services] 中所述。
 1. 開啟[!UICONTROL HTTP] > [!UICONTROL 發出OAuth 2.0請求]模組。
 1. 在任何模組中，按一下[連線]方塊旁的&#x200B;**[!UICONTROL 新增]**。
 1. 輸入下列值：
@@ -237,14 +244,14 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 連線名稱] </td> 
-      <td> <p>輸入連線的名稱。</p> </td> 
+      <td> <p>輸入此連線的名稱。</p> </td> 
      </tr> 
       <tr> 
       <td role="rowheader">[!UICONTROL 環境] </td> 
       <td> <p>選取您是使用生產或非生產環境。</p> </td> 
      </tr> 
       <tr> 
-      <td role="rowheader">[!UICONTROL 型別] </td> 
+      <td role="rowheader">[!UICONTROL 類型] </td> 
       <td> <p>選取您是使用服務帳戶還是個人帳戶。</p> </td> 
      </tr> 
      <tr> 
@@ -261,19 +268,19 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 範圍] </td> 
-      <td> <p>新增個別範圍。 如需有關範圍的詳細資訊，請參閱<a href="https://developers.google.com/identity/protocols/oauth2/scopes">檔案中的[!DNL Google] API的</a>OAuth 2.O範圍[!DNL Google]。</p> </td> 
+      <td> <p>新增個別範圍。 如需有關範圍的詳細資訊，請參閱[!DNL Google]檔案中的[!DNL Google] API的<a href="https://developers.google.com/identity/protocols/oauth2/scopes">OAuth 2.O範圍</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 範圍分隔符號] </td> 
       <td> <p>[!UICONTROL 空格]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者端ID] </td> 
-      <td> <p>輸入您的[!DNL Google]使用者端識別碼。 </p> <p>若要建立使用者端ID，請參閱文章<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md#create-oauth-credentials" class="MCXref xref">中的</a>使用自訂OAuth使用者端[!DNL Connect Adobe Workfront Fusion]建立至[!DNL Google Services]的OAuth認證</a>。</p> </td> 
+      <td role="rowheader">[!UICONTROL 用戶端 ID] </td> 
+      <td> <p>輸入您的[!DNL Google]使用者端識別碼。 </p> <p>若要建立使用者端ID，請參閱文章[!DNL Connect Adobe Workfront Fusion]中的<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md#create-oauth-credentials" class="MCXref xref">使用自訂OAuth使用者端</a>建立至[!DNL Google Services]的OAuth認證</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者端密碼]</td> 
-      <td> <p>輸入您的[!DNL Google]使用者端密碼。 </p> <p>若要建立使用者端密碼，請參閱文章<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md#create-oauth-credentials" class="MCXref xref">中的</a>使用自訂OAuth使用者端建立[!DNL Connect Adobe Workfront Fusion]服務的OAuth認證[!DNL Google]</a>。</p> </td> 
+      <td role="rowheader">[!UICONTROL 用戶端密碼]</td> 
+      <td> <p>輸入您的[!DNL Google]使用者端密碼。 </p> <p>若要建立使用者端密碼，請參閱文章[!DNL Connect Adobe Workfront Fusion]中的<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md#create-oauth-credentials" class="MCXref xref">使用自訂OAuth使用者端建立[!DNL Google]服務的OAuth認證</a></a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Authorize引數]</p> </td> 
@@ -289,18 +296,18 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
 
 建立OAuth 2.0連線後，繼續視需要設定模組。 所有授權權杖會自動包含在此請求中，以及使用相同連線的任何其他請求中。
 
-當您設定[!UICONTROL HTTP] > [!UICONTROL 發出OAuth 2.0請求]模組時，Workfront Fusion會顯示下列欄位。 模組中的粗體標題表示必填欄位。
+當您設定[!UICONTROL HTTP] > [!UICONTROL 發出OAuth 2.0請求]模組時，Workfront Fusion會顯示下列欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[在Adobe Workfront Fusion中將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[在Adobe Workfront Fusion中將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需設定連線的詳細資訊，請參閱本文中的<a href="#create-a-connection-for-an-oauth-request" class="MCXref xref">為OAuth要求建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -313,11 +320,11 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers] </td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。 例如， <code>{"Content-type":"application/json"}</code></p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭] </td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。 例如， <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串]</td> 

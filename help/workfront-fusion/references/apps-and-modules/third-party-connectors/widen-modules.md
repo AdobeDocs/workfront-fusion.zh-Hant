@@ -1,60 +1,66 @@
 ---
-title: 加寬模組
+title: Widen 模組
 description: 在Adobe Workfront Fusion案例中，您可以自動使用[!UICONTROL Widen]的工作流程，並將其連線到多個協力廠商應用程式和服務。
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 11376e58-a44b-4766-85dc-e2421b0112de
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/joW38nxn0gj6qr1bd1RMS2RT2xOd2KgUsA-M8l57-ys
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 0%
+source-wordcount: 1673
+ht-degree: 30%
 
 ---
 
-# [!DNL Widen]模組
+# [!DNL Widen] 模組
 
 在Adobe Workfront Fusion案例中，您可以自動使用[!UICONTROL Widen]的工作流程，並將其連線到多個協力廠商應用程式和服務。
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -71,39 +77,39 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">API版本</td> 
+   <td role="rowheader">API 版本</td> 
    <td> v2 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.10.11</td> 
   </tr>
  </tbody> 
  </table>
 
-## 將[!DNL Widen]連線至Workfront Fusion  {#connect-widen-to-workfront-fusion}
+## 將 [!DNL Widen] 連接至 Workfront Fusion  {#connect-widen-to-workfront-fusion}
 
 您可以直接從[!DNL Widen]模組內建立與您的[!DNL Widen]帳戶的連線。
 
-1. 在任何[!DNL Widen]模組中，按一下&#x200B;**[!UICONTROL 連線]**&#x200B;欄位旁的[!UICONTROL 新增]。
+1. 在任何[!DNL Widen]模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;**[!UICONTROL 新增]**。
 1. 選取您要連線的環境和帳戶型別。 這僅供參考，並顯示在Fusion的「連線」區域中。
 1. 選取您要連線的[!DNL Widen]網域。
 1. 輸入您[!DNL Widen]帳戶的權杖。 如需尋找此Token的說明，請參閱[[!DNL Widen] API常見問題集](https://community.widen.com/collective/s/article/API-FAQs)。
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以建立連線並返回模組。
+1. 按一下「**[!UICONTROL 繼續]**」來建立連線並返回模組。
 
-## [!DNL Widen]模組及其欄位
+## [!DNL Widen] 模組及其欄位
 
-當您設定[!DNL Widen]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Widen]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Widen] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Widen] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [觸發模組](#trigger-modules)
+* [觸發程序模組](#trigger-modules)
 * [動作模組](#action-modules)
 * [搜尋模組](#search-modules)
 
-### 觸發模組
+### 觸發程序模組
 
 #### [!UICONTROL 觀看資產]
 
@@ -114,7 +120,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -139,7 +145,7 @@ ht-degree: 0%
 ### 動作模組
 
 * [[!UICONTROL 新增資產至集合]](#add-assets-to-collections)
-* [[!UICONTROL 自訂API呼叫]](#custom-api-call)
+* [[!UICONTROL 自訂 API 呼叫]](#custom-api-call)
 * [[!UICONTROL 下載檔案]](#download-file)
 * [[!UICONTROL 讀取資產資訊]](#read-asset-info)
 * [[!UICONTROL 從集合]移除資產](#remove-assets-from-collection)
@@ -155,7 +161,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -175,9 +181,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 自訂API呼叫]
+#### [!UICONTROL 自訂 API 呼叫]
 
-此動作模組可讓您對[!DNL Widen] API進行自訂的已驗證呼叫。 如此一來，您就可以建立其他[!DNL Widen]模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Widen] API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 [!DNL Widen] 模組無法完成的資料流程自動化。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -186,7 +192,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -199,19 +205,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion]會為您新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion] 會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[!UICONTROL 正文]</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -228,11 +234,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產 ID]</td> 
    <td> <p>輸入或對應您要下載的資產識別碼。</p> </td> 
   </tr> 
  </tbody> 
@@ -247,11 +253,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產 ID]</td> 
    <td> <p>輸入或對應您要讀取資訊之資產的ID。</p> </td> 
   </tr> 
   <tr> 
@@ -274,7 +280,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -304,11 +310,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資產ID]</td> 
+   <td role="rowheader">[!UICONTROL 資產 ID]</td> 
    <td> <p>輸入或對應您要更新中繼資料的資產ID。</p> </td> 
   </tr> 
   <tr> 
@@ -335,7 +341,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -352,7 +358,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 檔案名稱]</td> 
-   <td>輸入或對應已上傳檔案的名稱。</td> 
+   <td>輸入或對應所上傳檔案的名稱。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 中繼資料型別]</td> 
@@ -379,7 +385,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -392,7 +398,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Max]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 排序依據]</td> 
@@ -418,7 +424,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
   <td> <p>如需有關將您的[!DNL Widen]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-widen-to-workfront-fusion" class="MCXref xref">將[!DNL Widen]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
@@ -447,7 +453,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 位移]</td> 

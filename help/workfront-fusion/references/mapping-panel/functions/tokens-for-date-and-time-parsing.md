@@ -1,17 +1,20 @@
 ---
-title: 日期和時間剖析的權杖
+title: 日期與時間剖析用的語彙基元
 description: ' [!DNL Adobe Workfront Fusion mapping] 面板中有下列日期和時間剖析的權杖。'
 author: Becky
 feature: Workfront Fusion
 exl-id: d3242af3-89e8-45ae-81a1-3b4dadf824fd
-source-git-commit: 24a6c1558fd6349c022df8a1847a7f39fafddd67
+TQID: https://experienceleague.adobe.com/ZU2fO6cE2nEceklQoIj6TrpETBbssJe3FuCpcXHZepI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: 164
+ht-degree: 17%
 
 ---
 
-# 日期和時間剖析的權杖
+# 日期與時間剖析用的語彙基元
 
 ## 年、月和日權杖
 

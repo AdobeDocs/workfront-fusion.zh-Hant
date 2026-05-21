@@ -4,16 +4,21 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Micros
 author: Becky
 feature: Workfront Fusion
 exl-id: 96f8d4f1-f97b-4da8-8d82-83cccb54ec68
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/MSvJMXg8hyI8piqHpn1OnEPEoCcP1Tn-za1veFtHeIo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 0%
+source-wordcount: 1147
+ht-degree: 39%
 
 ---
 
 # [!DNL Microsoft Dynamics 365 Finance and Operations modules]
 
-在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Microsoft Dynamics 365]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Microsoft Dynamics 365] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 
 >[!NOTE]
 >
@@ -23,45 +28,45 @@ ht-degree: 0%
 
 
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -82,7 +87,7 @@ ht-degree: 0%
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL 連線型別]</td>
+        <td role="rowheader">[!UICONTROL 連線類型]</td>
         <td>
           <p>選取您要建立標準的Dynamics Finance and Operations連線，或使用授權碼建立連線。</p>
         </td>
@@ -94,11 +99,11 @@ ht-degree: 0%
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 使用者端ID]</td>
+        <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
         <td>輸入您的Dynamics Finance and Operations [!UICONTROL 使用者端ID]。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL 使用者端密碼]</td>
+        <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
         <td>輸入您的Dynamics Finance and Operations [!UICONTROL 使用者端密碼]。 </td>
         </tr>
         <tr>
@@ -107,12 +112,12 @@ ht-degree: 0%
         </tr>
         <tr>
         <td role="rowheader">資源</td>
-        <td>輸入Dynamics Finance and Operations帳戶的URL (不含https://)</td>
+        <td>輸入Dynamics Finance and Operations帳戶的URL （不含https://）</td>
         </tr>
       </tbody>
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以儲存連線並返回模組。
+1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 
 
 
@@ -137,7 +142,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
+    <td>[!UICONTROL 連線]</td>
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +150,7 @@ ht-degree: 0%
      <td>輸入或對應您要建立的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Body]</td>
+    <td>[!UICONTROL 正文]</td>
      <td> <p>輸入或對應包含您要納入新實體專案之資料的JSON內文。</p> </td> 
   </tr> 
  </tbody> 
@@ -162,7 +167,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
+    <td>[!UICONTROL 連線]</td>
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -176,7 +181,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### 進行自訂API呼叫
+### 進行自訂的 API 呼叫
 
 此動作模組會對Dynamics Finance and Operations API進行自訂呼叫。
 
@@ -185,7 +190,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -194,19 +199,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。 這會決定請求的內容型別。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤且難以判斷其來源，請考慮根據Workfront檔案修改標題。 如果您的自訂API呼叫傳回422 HTTP請求錯誤，請嘗試使用<code>"Content-Type":"text/plain"</code>標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。 此資訊會決定請求的內容類型。</p> <p>例如，<code> {"Content-type":"application/json"}</code></p> <p>注意：如果您收到錯誤訊息而且無法判斷其來源，請考慮根據 Workfront 文件修改標頭。 如果您的自訂 API 呼叫傳回 422 HTTP 要求錯誤，請嘗試使用 <code>"Content-Type":"text/plain"</code> 標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> <p>提示：建議您透過JSON內文傳送資訊，而非查詢引數。</p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> <p>提示：建議您透過 JSON 正文而非查詢參數傳送資訊。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[!UICONTROL 正文]</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -225,7 +230,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
+    <td>[!UICONTROL 連線]</td>
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -246,7 +251,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
+    <td>[!UICONTROL 連線]</td>
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -258,7 +263,7 @@ ht-degree: 0%
      <td> 主索引鍵欄位可識別專案。 針對您想要提供的每個主索引鍵欄位，按一下<b>新增專案</b>，然後輸入或對應識別該專案的唯一索引鍵和值。 </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Body]</td>
+    <td>[!UICONTROL 正文]</td>
      <td> <p>輸入或對應包含您要納入新實體專案之資料的JSON內文。</p> </td> 
   </tr> 
  </tbody> 
@@ -273,8 +278,8 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection]</td> 
-   <td> <p>如需有關將Workfront應用程式連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將Workfront連線到Workfront Fusion</a>。</p> </td> 
+   <td>[!UICONTROL 連線]</td> 
+   <td> <p>關於將 Workfront 應用程式連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將 Workfront 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 實體]</td> 
@@ -282,11 +287,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 搜尋條件]</td> 
-   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運運算元，以及要在欄位中搜尋的值。</p> </td> 
+   <td> <p>輸入您要搜尋的欄位、要在查詢中使用的運算子，以及要在欄位中搜尋的值。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 排序依據]</td> 

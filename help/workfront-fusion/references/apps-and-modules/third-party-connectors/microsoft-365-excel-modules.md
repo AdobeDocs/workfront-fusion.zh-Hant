@@ -4,9 +4,15 @@ description: 在Adobe Workfront Fusion情境中，您可以自動化使用Micros
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 059bc82b-f1bc-4b92-a44b-51c1daf14f08
-source-git-commit: 03f4556d7f903689c85cba966ad875973037a2ba
+TQID: https://experienceleague.adobe.com/SZwX0GVZYFlIudwirqN6ne-W8mEoXHC-WKI8JFnbzrA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2699'
+source-wordcount: 2707
 ht-degree: 18%
 
 ---
@@ -98,9 +104,9 @@ Microsoft Office 365 Excel聯結器使用下列專案：
 
 ## [!DNL Microsoft Office 365 Excel] 模組及其欄位
 
-當您設定 [!DNL Microsoft 365 Excel] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Microsoft 365 Excel] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Microsoft 365 Excel] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Microsoft 365 Excel] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -156,7 +162,7 @@ Microsoft Office 365 Excel聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 篩選器]</p> </td> 
-   <td> <p>您可以設定篩選器，只搜尋符合您選取條件的活頁簿。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。您可以新增AND或OR規則，以使用一個以上的篩選器。</p> </td> 
+   <td> <p>您可以設定篩選器，只搜尋符合您選取條件的活頁簿。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。 您可以新增AND或OR規則，以使用一個以上的篩選器。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
@@ -184,7 +190,7 @@ Microsoft Office 365 Excel聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 篩選器]</p> </td> 
-   <td> <p>您可以設定篩選器，只監視符合您選取條件的活頁簿。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。您可以新增AND或OR規則，以使用一個以上的篩選器。</p> </td> 
+   <td> <p>您可以設定篩選器，只監視符合您選取條件的活頁簿。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。 您可以新增AND或OR規則，以使用一個以上的篩選器。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
@@ -690,11 +696,11 @@ Microsoft Office 365 Excel聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>輸入相對於 <code>https://graph.microsoft.com</code> 的路徑。範例：<code> /v1.0/me/drive/root/children</code></td> 
+   <td>輸入相對於 <code>https://graph.microsoft.com</code> 的路徑。 範例：<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   td&gt; <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
+   td&gt; <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 

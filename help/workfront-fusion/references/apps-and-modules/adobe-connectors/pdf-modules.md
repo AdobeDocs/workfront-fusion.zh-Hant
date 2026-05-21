@@ -5,16 +5,26 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e6fbbc20-4315-4668-9e11-af7cfa82ae66
-source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
-workflow-type: ht
-source-wordcount: '4151'
+TQID: https://experienceleague.adobe.com/IMoZJbCBhHsko7g3MA5otzXcWUfkTPLQVhgWbpBdSyQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+workflow-type: tm+mt
+source-wordcount: 4312
 ht-degree: 100%
 
 ---
 
 # [!DNL Adobe PDF Services]
 
-透過 Adobe Workfront Fusion [!DNL Adobe PDF Services]，您可以從 PDF 檔案擷取資料，或從您提供的資料產生新的 PDF 檔案。此外，您可以將不同的檔案類型轉換成 PDF，或將 PDF 轉換成其他檔案類型。您也可以使用 PDF Services 合併、壓縮或讀取 PDF 檔案的後設資料，以及控制檔案的密碼保護。
+透過 Adobe Workfront Fusion [!DNL Adobe PDF Services]，您可以從 PDF 檔案擷取資料，或從您提供的資料產生新的 PDF 檔案。 此外，您可以將不同的檔案類型轉換成 PDF，或將 PDF 轉換成其他檔案類型。 您也可以使用 PDF Services 合併、壓縮或讀取 PDF 檔案的後設資料，以及控制檔案的密碼保護。
 
 關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
@@ -24,7 +34,7 @@ ht-degree: 100%
 
 ## 使用 [!DNL Adobe PDF Services] 時的安全性考量
 
-[!DNL Adobe PDF Services] 可以讀取、轉換或修改您的檔案，但 [!DNL Adobe] 和 Workfront Fusion 都無法儲存您的檔案或資料。這表示：
+[!DNL Adobe PDF Services] 可以讀取、轉換或修改您的檔案，但 [!DNL Adobe] 和 Workfront Fusion 都無法儲存您的檔案或資料。 這表示：
 
 * 您保有對檔案的控制權，包括其安全性
 * 您不需要擁有 [!UICONTROL Adobe] 儲存空間或雲端儲存空間帳戶，即可使用 PDF Services。
@@ -69,7 +79,7 @@ ht-degree: 100%
 
 ## 先決條件
 
-若要建立 OAuth 伺服器對伺服器連線，您必須在 Adobe Developers Console 中新增 Adobe PDF Services API。新增 API 時，請選取 OAuth 伺服器對伺服器選項。
+若要建立 OAuth 伺服器對伺服器連線，您必須在 Adobe Developers Console 中新增 Adobe PDF Services API。 新增 API 時，請選取 OAuth 伺服器對伺服器選項。
 
 如需相關說明，請參閱 Adobe 開發人員文件中的[使用 OAuth 使用者驗證認證將 API 新增至專案](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication)。
 
@@ -120,19 +130,19 @@ Adobe PDF Services 連接器使用以下項目：
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。此資訊可在 [!DNL Adobe Developer Console] 的「[!UICONTROL 認證詳細資訊]」區段中找到。<p>如需關於尋找認證的說明，請參閱 Adobe 開發人員文件中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p></td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>如需關於尋找認證的說明，請參閱 Adobe 開發人員文件中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。此資訊可在 [!DNL Adobe Developer Console] 的「[!UICONTROL 認證詳細資訊]」區段中找到。<p>如需關於尋找認證的說明，請參閱 Adobe 開發人員文件中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>如需關於尋找認證的說明，請參閱 Adobe 開發人員文件中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 技術帳戶 ID] (僅限 JWT)</td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 技術帳戶 ID]。此資訊可在 [!DNL Adobe Developer Console] 的「[!UICONTROL 認證詳細資訊]」區段中找到。<p>如需關於尋找認證的說明，請參閱 Adobe 開發人員文件中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 技術帳戶 ID]。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>如需關於尋找認證的說明，請參閱 Adobe 開發人員文件中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 組織 ID] (僅限 JWT)</td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 組織 ID]。此資訊可在 [!DNL Adobe Developer Console] 的「[!UICONTROL 認證詳細資訊]」區段中找到。<p>如需關於尋找認證的說明，請參閱 Adobe 開發人員文件中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 組織 ID]。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>如需關於尋找認證的說明，請參閱 Adobe 開發人員文件中的<a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" >認證</a>。</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 中繼範圍] (僅限 JWT)</td>
@@ -171,9 +181,9 @@ Adobe PDF Services 連接器使用以下項目：
 
 ## [!DNL Adobe PDF Services] 模組及其欄位
 
-當您設定 [!DNL PDF Services] 時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他欄位。模組中的粗體標題表示為必要欄位。
+當您設定 [!DNL PDF Services] 時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他欄位。 模組中的粗體標題表示為必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -198,7 +208,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 合併 PDF 檔案]
 
-此動作模組會取用多個 PDF 檔案，並將其合併為單一個 PDF 檔案。例如，此模組可在 [!UICONTROL Workfront] 專案完成後，將專案中所有文件合併為單一 PDF。
+此動作模組會取用多個 PDF 檔案，並將其合併為單一個 PDF 檔案。 例如，此模組可在 [!UICONTROL Workfront] 專案完成後，將專案中所有文件合併為單一 PDF。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -210,11 +220,11 @@ Adobe PDF Services 連接器使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 文件]</td> 
-   <td> <p>您可以使用彙總器模組彙集文件並合併為 PDF，也可以手動新增文件。 </p> <p>我們建議使用 [!UICONTROL 陣列彙總器] 模組，彙總來自先前模組的輸出內容。使用彙總器時，您不需要知道要合併的檔案之名稱、位置或數量。因此，比起手動輸入要合併的文件，使用彙總器是更加靈活且可擴展的方法。</p> <p>若要將[!UICONTROL 合併 PDF] 檔案模組與彙總器搭配使用，您必須啟用[!UICONTROL 文件]欄位的對應功能。 </p> <p>於此範例中，[!UICONTROL 讀取相關記錄]模組會找出與專案相關的文件，而[!UICONTROL 下載文件]模組會下載每個文件。所有 PDF 會彙總成為陣列，此陣列會傳遞至[!UICONTROL 合併 PDF] 檔案模組。</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>您也可以手動輸入文件。</p> <p>針對要納入合併 PDF 中的每個文件進行以下動作：</p> 
+   <td> <p>您可以使用彙總器模組彙集文件並合併為 PDF，也可以手動新增文件。 </p> <p>我們建議使用 [!UICONTROL 陣列彙總器] 模組，彙總來自先前模組的輸出內容。 使用彙總器時，您不需要知道要合併的檔案之名稱、位置或數量。 因此，比起手動輸入要合併的文件，使用彙總器是更加靈活且可擴展的方法。</p> <p>若要將[!UICONTROL 合併 PDF] 檔案模組與彙總器搭配使用，您必須啟用[!UICONTROL 文件]欄位的對應功能。 </p> <p>於此範例中，[!UICONTROL 讀取相關記錄]模組會找出與專案相關的文件，而[!UICONTROL 下載文件]模組會下載每個文件。 所有 PDF 會彙總成為陣列，此陣列會傳遞至[!UICONTROL 合併 PDF] 檔案模組。</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>您也可以手動輸入文件。</p> <p>針對要納入合併 PDF 中的每個文件進行以下動作：</p> 
     <ol> 
      <li value="1"> <p>按一下「[!UICONTROL 新增文件]」</p> </li> 
      <li value="2"> <p>在「[!UICONTROL 來源檔案]」欄位中，選取會輸出您要包含之文件的模組，或對應來源檔案的名稱和資料。 </p> </li> 
-     <li value="3"> <p>(選用) 若您只想包含來源檔案中的某些頁面，對於您要新增的每個頁面範圍，按一下「[!UICONTROL 頁面]」欄位中的「<strong>[!UICONTROL 新增項目]</strong>」，然後輸入要納入的頁面範圍之第一頁和最後一頁，再按一下「<strong>[!UICONTROL 新增]</strong>」。您可以包含單一文件中的多個頁面範圍。</p> </li> 
+     <li value="3"> <p>(選用) 若您只想包含來源檔案中的某些頁面，對於您要新增的每個頁面範圍，按一下「[!UICONTROL 頁面]」欄位中的「<strong>[!UICONTROL 新增項目]</strong>」，然後輸入要納入的頁面範圍之第一頁和最後一頁，再按一下「<strong>[!UICONTROL 新增]</strong>」。 您可以包含單一文件中的多個頁面範圍。</p> </li> 
      <li value="4"> <p>按一下「<strong>[!UICONTROL 新增]</strong>」。 </p> </li> 
     </ol> </td> 
   </tr> 
@@ -223,7 +233,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 壓縮 PDF 檔案]
 
-此動作模組會取用 PDF 檔案並加以壓縮。這樣做有助於節省頻寬或記憶體。
+此動作模組會取用 PDF 檔案並加以壓縮。 這樣做有助於節省頻寬或記憶體。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -248,7 +258,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 將文件轉換成 PDF 檔案]
 
-此工具可將文件轉換成 PDF 檔案。來源檔案必須是下列其中一種文件格式：
+此工具可將文件轉換成 PDF 檔案。 來源檔案必須是下列其中一種文件格式：
 
 * DOC
 * XLS
@@ -279,7 +289,7 @@ Adobe PDF Services 連接器使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 語言]</td> 
-   <td> <p>選取來源文件的預設語言。選取語言後，若來源檔案中未包含字型的話，模組可以選取適當的字型。</p> <p>從下列語言中選取：</p> 
+   <td> <p>選取來源文件的預設語言。 選取語言後，若來源檔案中未包含字型的話，模組可以選取適當的字型。</p> <p>從下列語言中選取：</p> 
     <ul> 
      <li> <p>en-US (預設)：英文 (美國)</p> </li> 
      <li> <p>ca-ES：加泰隆尼亞文 (西班牙)</p> </li> 
@@ -357,11 +367,11 @@ Adobe PDF Services 連接器使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 頁面寬度]</td> 
-   <td>輸入紙張的寬度，以英吋為單位。此模組會使用這項資訊來設定所建立 PDF 檔案的頁面格式。</td> 
+   <td>輸入紙張的寬度，以英吋為單位。 此模組會使用這項資訊來設定所建立 PDF 檔案的頁面格式。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 頁面高度]</td> 
-   <td>輸入紙張的高度，以英吋為單位。此模組會使用這項資訊來設定所建立 PDF 檔案的頁面格式。</td> 
+   <td>輸入紙張的高度，以英吋為單位。 此模組會使用這項資訊來設定所建立 PDF 檔案的頁面格式。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -389,7 +399,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 將 PDF 轉換成文件]
 
-此工具可將 PDF 檔案轉換成文件。您可以選取下列其中一種作為輸出檔案的格式。
+此工具可將 PDF 檔案轉換成文件。 您可以選取下列其中一種作為輸出檔案的格式。
 
 * DOC
 * DOCX
@@ -424,7 +434,7 @@ Adobe PDF Services 連接器使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 語言]</td> 
-   <td> <p>選取來源文件的預設語言。選取語言後，若來源檔案中未包含字型的話，模組可以選取適當的字型。</p> <p>從下列語言中選取：</p> 
+   <td> <p>選取來源文件的預設語言。 選取語言後，若來源檔案中未包含字型的話，模組可以選取適當的字型。</p> <p>從下列語言中選取：</p> 
     <ul> 
      <li> <p>en-US (預設)：英文 (美國)</p> </li> 
      <li> <p>ca-ES：加泰隆尼亞文 (西班牙)</p> </li> 
@@ -470,9 +480,9 @@ Adobe PDF Services 連接器使用以下項目：
 
 此工具可將 PDF 轉換成 PNG 或 JPEG 格式的影像，此影像隨後以清單形式輸出或合併成 ZIP 檔。
 
-若輸出為 ZIP 檔，PDF 會將每頁轉換成一張影像，而每張影像的名稱結尾為頁碼。接著影像檔案會合併成一個 ZIP 檔。
+若輸出為 ZIP 檔，PDF 會將每頁轉換成一張影像，而每張影像的名稱結尾為頁碼。 接著影像檔案會合併成一個 ZIP 檔。
 
-比如，一個共有 8 頁且名為「TestFile」的檔案會產生 8 張影像，分別命名為「TestFile_1」到「TestFile_8」。此模組會輸出含有 8 張影像的 ZIP 檔案。
+比如，一個共有 8 頁且名為「TestFile」的檔案會產生 8 張影像，分別命名為「TestFile_1」到「TestFile_8」。 此模組會輸出含有 8 張影像的 ZIP 檔案。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -506,7 +516,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 擷取文字/表格]
 
-您可以藉由這個動作模組從 PDF 檔案擷取資料。此模組會輸出個別的文字元素，例如一個段落或表格的單一儲存格中的文字。
+您可以藉由這個動作模組從 PDF 檔案擷取資料。 此模組會輸出個別的文字元素，例如一個段落或表格的單一儲存格中的文字。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -541,7 +551,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 產生文件]
 
-[!UICONTROL 產生文件]模組是建立包含您選取的資料之 PDF 的有效方法。您可以使用 [!DNL Microsoft Word] 範本來設定其格式，或使用 JSON 格式提供資料。
+[!UICONTROL 產生文件]模組是建立包含您選取的資料之 PDF 的有效方法。 您可以使用 [!DNL Microsoft Word] 範本來設定其格式，或使用 JSON 格式提供資料。
 
 如需關於[!UICONTROL [!DNL Adobe PDF Services]產生文件]功能的詳細資訊，請參閱 [!DNL Adobe Document Services] 文件中的[產生文件概觀](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)。
 
@@ -558,7 +568,7 @@ Adobe PDF Services 連接器使用以下項目：
 >您不需要使用 Microsoft Word 範本模組，也可以搭配 PDF Services 的產生檔案模組使用 Microsoft Word 範本。
 
 
-若要搭配 [!UICONTROL Microsoft Word] 範本使用[!UICONTROL 產生檔案]模組，您必須先建立範本。如需相關說明，請在 [!DNL Microsoft Office] 文件中搜尋「建立範本」。
+若要搭配 [!UICONTROL Microsoft Word] 範本使用[!UICONTROL 產生檔案]模組，您必須先建立範本。 如需相關說明，請在 [!DNL Microsoft Office] 文件中搜尋「建立範本」。
 
 依照下列內容填入[!UICONTROL 產生文件]模組欄位：
 
@@ -572,7 +582,7 @@ Adobe PDF Services 連接器使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 來源檔案]</td> 
-   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>此來源檔案是模組用來產生新 PDF 的 [!DNL Microsoft Word] 範本。</p> <p>建議在 Workfront 中為您在 Workfront Fusion 中使用的 [!DNL Microsoft Word] 範本建立一個專案。接著，您可以使用「Workfront &gt; [!UICONTROL 下載文件]」模組，將適當的範本提取至情境中。</p> </td> 
+   <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> <p>此來源檔案是模組用來產生新 PDF 的 [!DNL Microsoft Word] 範本。</p> <p>建議在 Workfront 中為您在 Workfront Fusion 中使用的 [!DNL Microsoft Word] 範本建立一個專案。 接著，您可以使用「Workfront &gt; [!UICONTROL 下載文件]」模組，將適當的範本提取至情境中。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 輸出格式]</td> 
@@ -586,7 +596,7 @@ Adobe PDF Services 連接器使用以下項目：
    <td role="rowheader">[!UICONTROL 用於合併的資料]</td> 
    <td> <p>針對範本中您要以文字取代的每個值標記，請填入下列資訊：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 索引鍵]</p> <p>請輸入索引鍵。在範本中，索引鍵為值標記中所顯示的文字。例如，若您想要在值標記 <code>&#123;&#123;name&#125;&#125;</code> 中放入文字，請在索引鍵欄位中輸入 <code>name </code>。</p> </li> 
+     <li> <p>[!UICONTROL 索引鍵]</p> <p>請輸入索引鍵。 在範本中，索引鍵為值標記中所顯示的文字。 例如，若您想要在值標記 <code>&#123;&#123;name&#125;&#125;</code> 中放入文字，請在索引鍵欄位中輸入 <code>name </code>。</p> </li> 
      <li> <p>值類型</p> <p>對於值欄位中的資料，選取其為值、物件或物件陣列。</p> </li> 
      <li> <p>[!UICONTROL 值]</p> <p>輸入或對應您要在所產生的文件中取代值標記顯示的文字。</p> </li> 
     </ul> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
@@ -627,7 +637,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 將 PDF 檔案線性化]
 
-此工具可將 PDF 文件線性化，以便建立針對網頁最佳化的 PDF 文件。線性化的 PDF 文件可以逐頁檢視，而不需要下載整份文件。
+此工具可將 PDF 文件線性化，以便建立針對網頁最佳化的 PDF 文件。 線性化的 PDF 文件可以逐頁檢視，而不需要下載整份文件。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -664,7 +674,7 @@ Adobe PDF Services 連接器使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 
@@ -711,8 +721,8 @@ Adobe PDF Services 連接器使用以下項目：
    <td role="rowheader">[!UICONTROL OCR 類型]</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL 已修改原始影像] 類型可確保文字可搜尋且可供選取，但在執行清理程序期間 (例如，進行去歪斜處理) 會修改原始影像，然後在影像上放置隱形的文字圖層。此類型會移除不想要的成品，並在部分情境下可能製作出更容易閱讀的文件。 </p> </li> 
-     <li> <p>[!UICONTROL 未變更原始影像] 類型也會在原始影像上覆蓋可搜尋的文字圖層，但在這個情況下，原始影像維持不變。此類型會維持與原始影像最大的保真度。</p> </li> 
+     <li> <p>[!UICONTROL 已修改原始影像] 類型可確保文字可搜尋且可供選取，但在執行清理程序期間 (例如，進行去歪斜處理) 會修改原始影像，然後在影像上放置隱形的文字圖層。 此類型會移除不想要的成品，並在部分情境下可能製作出更容易閱讀的文件。 </p> </li> 
+     <li> <p>[!UICONTROL 未變更原始影像] 類型也會在原始影像上覆蓋可搜尋的文字圖層，但在這個情況下，原始影像維持不變。 此類型會維持與原始影像最大的保真度。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -720,7 +730,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 頁面操作]
 
-您可以透過這個模組選擇旋轉或刪除 PDF 文件中的頁面。例如，您可以將縱向檢視變更為橫式檢視，或從 PDF 文件中移除某些頁面。
+您可以透過這個模組選擇旋轉或刪除 PDF 文件中的頁面。 例如，您可以將縱向檢視變更為橫式檢視，或從 PDF 文件中移除某些頁面。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -742,7 +752,7 @@ Adobe PDF Services 連接器使用以下項目：
     <ul> 
      <li> <p><b>[!UICONTROL 刪除]</b> </p> <p>選取此選項可刪除文件中的頁面。</p><p>對於您要刪除的每個頁面範圍，按一下「<strong>[!UICONTROL 新增]</strong>」，然後輸入頁面範圍的第一頁和最後一頁。 </p> <p>注意：   
      <ul> 
-      <li> <p>您可以使用負數從文件結尾往前計算。文件的最後一頁為 -1，倒數第二頁為 -2，依此類推。</p> </li> 
+      <li> <p>您可以使用負數從文件結尾往前計算。 文件的最後一頁為 -1，倒數第二頁為 -2，依此類推。</p> </li> 
       <li> <p>若要刪除單一頁面，請將範圍的開始和結尾設定為相同的頁碼。</p></ul> </li> 
      <li> <p><b>[!UICONTROL 旋轉]</b> </p> <p>選取此選項來旋轉頁面，然後按照您要讓文件頁面從起始方向依順時針旋轉的角度，輸入其度數。</p> <p>若要從縱向旋轉為橫式或是反之，請將頁面旋轉 90 度或 270 度。</p> <p>如果頁面上下顛倒，請將其旋轉 180 度。</p> </li> 
     </ul> </td> 
@@ -751,7 +761,7 @@ Adobe PDF Services 連接器使用以下項目：
    <td role="rowheader">[!UICONTROL 頁面]</td> 
    <td> <p>對於您要刪除的每個頁面範圍，按一下「<strong>[!UICONTROL 新增]</strong>」，然後輸入頁面範圍的第一頁和最後一頁。 </p> <p>注意：   
      <ul> 
-      <li> <p>您可以使用負數從文件結尾往前計算。文件的最後一頁為 -1，倒數第二頁為 -2，依此類推。</p> </li> 
+      <li> <p>您可以使用負數從文件結尾往前計算。 文件的最後一頁為 -1，倒數第二頁為 -2，依此類推。</p> </li> 
       <li> <p>若要刪除單一頁面，請將範圍的開始和結尾設定為相同的頁碼。</p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -764,7 +774,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL PDF 無障礙自動標記]
 
-此動作模組會建立標記為適用於無障礙使用案例的 PDF，也會建立選用的 Microsoft Excel 報告，其中列出相關問題並提供修正建議。
+此動作模組會建立標記為適用於無障礙使用案例的 PDF， 也會建立選用的 Microsoft Excel 報告，其中列出相關問題並提供修正建議。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -820,7 +830,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 保護 PDF 檔案]
 
-此工具可透過使用者或所有者密碼保護 PDF 文件的安全，也可以針對 PDF 文件中某些功能 (例如列印、編輯和複製) 設定限制。由您選取要加密的內容類型及加密演算法。
+此工具可透過使用者或所有者密碼保護 PDF 文件的安全， 也可以針對 PDF 文件中某些功能 (例如列印、編輯和複製) 設定限制。 由您選取要加密的內容類型及加密演算法。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -838,7 +848,7 @@ Adobe PDF Services 連接器使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 密碼保護類型]</td> 
-   <td> <p>啟用此選項可使用密碼來加密輸入的 PDF 文件。若啟用此選項，您必須指定並輸入下列其中一項或兩項的值： </p> 
+   <td> <p>啟用此選項可使用密碼來加密輸入的 PDF 文件。 若啟用此選項，您必須指定並輸入下列其中一項或兩項的值： </p> 
     <ul> 
      <li> <p>[!UICONTROL 使用者密碼]</p> </li> 
      <li> <p>[!UICONTROL 所有者密碼] </p> </li> 
@@ -880,7 +890,7 @@ Adobe PDF Services 連接器使用以下項目：
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>選取此模組要使用的連線。</p> 關於建立與 [!DNL Adobe PDF Services] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > 建立與 [!DNL Adobe PDF Services]</a> 的連線。 </td> 
+   <td> <p>選取此模組要使用的連線。</p> 關於建立與 [!DNL Adobe PDF Services] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >建立與 [!DNL Adobe PDF Services]</a> 的連線。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 來源檔案]</td> 
@@ -895,7 +905,7 @@ Adobe PDF Services 連接器使用以下項目：
 
 ### [!UICONTROL 分割 PDF 檔案]
 
-此動作模組可將 PDF 文件分割成多個小文件。您可以指定依照檔案數量、每個檔案的頁數或者頁面範圍進行分割。
+此動作模組可將 PDF 文件分割成多個小文件。 您可以指定依照檔案數量、每個檔案的頁數或者頁面範圍進行分割。
 
 <table style="table-layout:auto"> 
  <col> 

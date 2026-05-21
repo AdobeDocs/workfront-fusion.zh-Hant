@@ -4,9 +4,14 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Salesf
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 88e75d6f385bec049a9f7a0cd613032119c249b0
+TQID: https://experienceleague.adobe.com/P-GPOboH09jZI9dQ5wBfFNV3NNOk-lpSPs7SI4rXHE4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '3032'
+source-wordcount: 3032
 ht-degree: 35%
 
 ---
@@ -336,7 +341,7 @@ Salesforce聯結器會使用以下專案：
 
   回應標頭取決於您在設定模組時所選擇的 HTTP 要求。
 
-* **[!UICONTROL 正文]** (物件)：根據您在設定模組時所選擇的 HTTP 要求，您可能會收到一些傳回的資料。 該資料（例如來自[!UICONTROL GET]請求的資料）包含在此物件中。
+* **[!UICONTROL 正文]** (物件)：根據您在設定模組時所選擇的 HTTP 要求，您可能會收到一些傳回的資料。 該資料（例如[!UICONTROL GET]要求的資料）包含在此物件中。
 
 當您設定此模組時，會顯示下列欄位。
 

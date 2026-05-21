@@ -1,21 +1,24 @@
 ---
-title: 輸入強制
+title: 類型強制轉換
 description: 本檔案說明Adobe Workfront Fusion在收到預期和意外資料格式的值時如何行動。
 author: Becky
 feature: Workfront Fusion
 exl-id: a8bdd36d-c01f-4019-a3ea-fb185101500e
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+TQID: https://experienceleague.adobe.com/rqDQTI-IuOW95TbguHt-F2-4lugdaOfJf-7dcwXk5ZE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 5%
+source-wordcount: 709
+ht-degree: 9%
 
 ---
 
-# 輸入強制
+# 類型強制轉換
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能使用本文中的功能：
 
@@ -56,7 +59,7 @@ ht-degree: 5%
 
 +++
 
-### 輸入強制
+### 類型強制轉換
 
 本檔案說明Adobe Workfront Fusion在收到預期和意外資料格式的值時如何行動。
 

@@ -4,9 +4,14 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 92cac080-d8f6-4770-a6a6-8934538c978b
-source-git-commit: bc4c5c047f4847b929c4b047be1897d8872709e9
+TQID: https://experienceleague.adobe.com/MFz4BA1p4lfDWSft169C3GEMRY9vtO2TrkUcg35LPYE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2466'
+source-wordcount: 2479
 ht-degree: 42%
 
 ---
@@ -122,11 +127,11 @@ Jira聯結器使用下列專案：
    >
    >關閉此對話方塊後，您無法再次檢視權杖。
 1. 將產生的Token儲存在安全的地方。
-1. 繼續進行[在Workfront Fusion [!DNL Jira] 中設定](#configure-the-jira-api-token-in-workfront-fusion)API Token。
+1. 繼續進行[在Workfront Fusion](#configure-the-jira-api-token-in-workfront-fusion)中設定 [!DNL Jira] API Token。
 
 #### 在Workfront Fusion中設定[!DNL Jira] API權杖
 
-1. 在Workfront Fusion的任何[!DNL Jira Cloud]模組中，按一下&#x200B;**[!UICONTROL 連線]**&#x200B;欄位旁的[!UICONTROL 新增]。
+1. 在Workfront Fusion的任何[!DNL Jira Cloud]模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;**[!UICONTROL 新增]**。
 1. 指定下列資訊：
 
    * **環境**
@@ -233,7 +238,7 @@ Jira聯結器使用下列專案：
    </table>
 
 1. 按一下「**[!UICONTROL 繼續]**」。
-1. 繼續在Workfront Fusion[中 [!DNL Jira Server] 建立與 [!DNL Jira Data Center] 或](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)的連線
+1. 繼續在Workfront Fusion[&#128279;](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)中建立與 [!DNL Jira Server] 或 [!DNL Jira Data Center] 的連線
 
 #### 在Workfront Fusion中建立與[!DNL Jira Server]或[!DNL Jira Data Center]的連線
 
@@ -241,7 +246,7 @@ Jira聯結器使用下列專案：
 >
 >使用[!DNL Jira Server]應用程式連線至[!DNL Jira Server]或[!DNL Jira Data Center]。
 
-1. 在Workfront Fusion的任何[!DNL Jira Server]模組中，按一下&#x200B;**[!UICONTROL 連線]**&#x200B;欄位旁的[!UICONTROL 新增]。
+1. 在Workfront Fusion的任何[!DNL Jira Server]模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;**[!UICONTROL 新增]**。
 1. 在[!UICONTROL 建立連線]面板中，填寫下列欄位：
 
    <table style="table-layout:auto"> 
@@ -266,7 +271,7 @@ Jira聯結器使用下列專案：
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Private Key]</td> 
-      <td>從您在<code>[!DNL jira_privatekey.pcks8]</code>產生您連線<a href="#generate-public-and-private-keys-for-your-jira-connection" class="MCXref xref">的公開和私密金鑰[!DNL Jira]中建立的</a>檔案貼上私密金鑰。</td> 
+      <td>從您在<a href="#generate-public-and-private-keys-for-your-jira-connection" class="MCXref xref">產生您連線[!DNL Jira]的公開和私密金鑰</a>中建立的<code>[!DNL jira_privatekey.pcks8]</code>檔案貼上私密金鑰。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
@@ -279,9 +284,9 @@ Jira聯結器使用下列專案：
 
 ## [!DNL Jira Software] 模組及其欄位
 
-當您設定 [!DNL Jira Software] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Jira Software] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Jira Software] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Jira Software] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -357,7 +362,7 @@ Jira聯結器使用下列專案：
 
 此動作模組會在Jira中建立新記錄。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -386,7 +391,7 @@ Jira聯結器使用下列專案：
 
 #### [!UICONTROL 自訂 API 呼叫]
 
-您可以利用此動作模組，對 [!DNL Jira Software] API 進行已驗證的自訂呼叫。使用此模組建立其他[!DNL Jira Software]模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Jira Software] API 進行已驗證的自訂呼叫。 使用此模組建立其他[!DNL Jira Software]模組無法完成的資料流程自動化。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -404,7 +409,7 @@ Jira聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   td&gt; <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
+   td&gt; <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 
@@ -428,7 +433,7 @@ Jira聯結器使用下列專案：
 
 您指定記錄的 ID。
 
-模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -485,7 +490,7 @@ Jira聯結器使用下列專案：
 
 您指定記錄的 ID。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -525,7 +530,7 @@ Jira聯結器使用下列專案：
 
 您指定記錄的 ID。
 
-模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -568,15 +573,15 @@ Jira聯結器使用下列專案：
 >
 >這是由於 Jira 端的功能被淘汰所導致。
 >
->如果遇到此錯誤，您可以將舊版 Jira 連接器的搜尋模組替換為新版連接器的搜尋模組。請注意，新版連接器允許您選擇使用的 API 版本。建立連線時，請務必選取V3。
+>如果遇到此錯誤，您可以將舊版 Jira 連接器的搜尋模組替換為新版連接器的搜尋模組。 請注意，新版連接器允許您選擇使用的 API 版本。 建立連線時，請務必選取V3。
 >
 > 新Jira聯結器中的![API版本選項](/help/workfront-fusion/references/apps-and-modules/assets/jira-version-option.png)
 >
 >請注意：
 >
->* 只受搜尋模組影響。目前，Fusion 連接器使用的其他 Jira API 端點不受此功能淘汰的影響。
+>* 只受搜尋模組影響。 目前，Fusion 連接器使用的其他 Jira API 端點不受此功能淘汰的影響。
 >
->* 地理區域推廣可能會導致不一致的情況。Atlassian 正在區域性地推廣此更改，這意味著某些 Jira Cloud 執行個體可能仍會暫時支援舊的端點。這可能會導致不同環境間的行為不一致。
+>* 地理區域推廣可能會導致不一致的情況。 Atlassian 正在區域性地推廣此更改，這意味著某些 Jira Cloud 執行個體可能仍會暫時支援舊的端點。 這可能會導致不同環境間的行為不一致。
 
 #### [!UICONTROL 清單記錄]
 

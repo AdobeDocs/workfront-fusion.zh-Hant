@@ -1,13 +1,19 @@
 ---
-title: 圖形模組
+title: Figma 模組
 description: 使用Adobe Workfront Fusion Figma模組，您可以擷取註解、檔案、檔案版本或專案的清單。 您也可以張貼註解或呼叫Figma API。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1220460b-1957-4dfc-b7c1-4c97b36ea061
-source-git-commit: 545bc38a619c44dd39bb746d751775f63e7aa16d
+TQID: https://experienceleague.adobe.com/sr5gzukvb4qLZHn0lszB15dVogIfa-VrLwqEAWd69oA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '2638'
-ht-degree: 14%
+source-wordcount: 2643
+ht-degree: 19%
 
 ---
 
@@ -17,19 +23,19 @@ ht-degree: 14%
 
 如果您需要建立案例的指示，請參閱[建立案例：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以查看此文章中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 套件</td> 
-   <td> <p>任何 Adobe Workfront Workflow 套件及任何 Adobe Workfront 自動化和整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 套件，以及額外購買的 Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront 授權</td> 
@@ -38,28 +44,28 @@ ht-degree: 14%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無 Workfront Fusion 授權需求</p>
-   <p>連接器型 (舊版)：適用於工作自動化和整合的 Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織擁有 Select 或 Prime Workfront 套件，但不包括 Workfront 自動化和整合，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需有關此表格資訊的詳細資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需有關 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## 先決條件
 
-若要使用[!DNL Figma]模組，您必須有[!DNL Figma]帳戶。
+若要使用 [!DNL Figma] 模組，您必須擁有 [!DNL Figma] 帳戶。
 
 ## 圖表API資訊
 
@@ -134,15 +140,15 @@ Figma聯結器使用下列專案：
       </tbody>
     </table>
 
-1. 按一下「**[!UICONTROL 繼續]**」來儲存連線並返回此模組。
+1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 
 
 
 ## [!DNL Figma] 模組及其欄位
 
-當您設定 [!DNL Figma] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，可能還會顯示其他 [!DNL Figma] 欄位，取決於您在此應用程式或服務中的存取層級等因素。模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Figma] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Figma] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函數上方看到對應按鈕，您可以使用此按鈕來設定欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應至另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -178,7 +184,7 @@ Figma聯結器使用下列專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 檔案ID]</td>
+      <td role="rowheader">[!UICONTROL 檔案 ID]</td>
       <td>輸入或對應您要新增或刪除註解的檔案的檔案ID。 </td>
     </tr>
     <tr>
@@ -188,7 +194,7 @@ Figma聯結器使用下列專案：
   </tbody>
 </table>
 
-#### [!UICONTROL 列出註解]
+#### [!UICONTROL 列出註解清單]
 
 此搜尋模組列出附加至[!DNL Figma]中單一檔案的所有註解。
 
@@ -201,7 +207,7 @@ Figma聯結器使用下列專案：
       <td> <p>如需有關將您的[!DNL Figma]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 檔案ID]</td>
+      <td role="rowheader">[!UICONTROL 檔案 ID]</td>
       <td>
         <p>輸入或對應您要擷取註解的檔案的檔案ID。 </p>
         <ul>
@@ -216,7 +222,7 @@ Figma聯結器使用下列專案：
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 傳回註解的最大數量]</td>
-      <td>輸入或對應您希望此模組在每個情境執行週期中傳回的最大註解數量。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大註解數量。</td>
     </tr>
   </tbody>
 </table>
@@ -235,7 +241,7 @@ Figma聯結器使用下列專案：
       <td> <p>如需有關將您的[!DNL Figma]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
-      <td  role="rowheader">[!UICONTROL 檔案ID]</td>
+      <td  role="rowheader">[!UICONTROL 檔案 ID]</td>
       <td>
         <p>輸入或對應您要張貼註解的檔案的檔案ID。 </p>
         <ul>
@@ -264,7 +270,7 @@ Figma聯結器使用下列專案：
 
 * [列出專案檔案](#list-project-files)
 
-* [列出專案](#list-projects)
+* [列出專案清單](#list-projects)
 
 
 #### [!UICONTROL 取得檔案或影像]
@@ -280,7 +286,7 @@ Figma聯結器使用下列專案：
       <td> <p>如需有關將您的[!DNL Figma]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 物件型別]</td>
+      <td role="rowheader">[!UICONTROL 物件類型]</td>
       <td>
         <p>選取您要擷取的物件型別。</p>
         <ul>
@@ -502,7 +508,7 @@ Figma聯結器使用下列專案：
       <td role="rowheader">[!UICONTROL 連線]</td>
       <td> <p>如需有關將您的[!DNL Figma]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     <tr>
-      <td role="rowheader">[!UICONTROL 檔案ID]</td>
+      <td role="rowheader">[!UICONTROL 檔案 ID]</td>
       <td>
         <p>輸入或對應您要擷取版本記錄的檔案的檔案ID。 </p>
         <ul>
@@ -517,7 +523,7 @@ Figma聯結器使用下列專案：
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 傳回檔案的最大數量]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td>
     </tr>
   </tbody>
 </table>
@@ -535,7 +541,7 @@ Figma聯結器使用下列專案：
       <td> <p>如需有關將您的[!DNL Figma]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override="">建立與Figma的連線</a>。</p>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 檔案ID]</td>
+      <td role="rowheader">[!UICONTROL 檔案 ID]</td>
       <td>
         <p>輸入或對映您要擷取檔案的專案之專案ID。 </p>
         <ul>
@@ -547,7 +553,7 @@ Figma聯結器使用下列專案：
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 傳回檔案的最大數量]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td>
     </tr>
   </tbody>
 </table>
@@ -570,7 +576,7 @@ Figma聯結器使用下列專案：
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 傳回專案的最大數量]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td>
     </tr>
   </tbody>
 </table>
@@ -630,7 +636,7 @@ Figma聯結器使用下列專案：
 
 * [進行API呼叫](#make-an-api-call)
 
-* [觀看活動](#watch-events)
+* [監視事件](#watch-events)
 
 
 #### [!UICONTROL 進行API呼叫]
@@ -648,32 +654,32 @@ Figma聯結器使用下列專案：
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>輸入相對於<code>https://api.figma.com/v1/</code>的路徑。</p>
+        <p>輸入相對於 <code>https://api.figma.com/v1/</code> 的路徑。</p>
         <p>例如： <code>[!DNL files/7179110/comments]</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 方法]</td>
-      <td> <p>選取所需的 HTTP 要求方法，來設定 API 呼叫。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td>
+      <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 標頭]</td>
       <td>
-        <p>以標準 JSON 物件的形式新增請求的標頭。</p>
-        <p>例如： <code>{"Content-type":"application/json"}</code></p>
+        <p>以標準 JSON 物件的形式新增要求標頭。</p>
+        <p>例如， <code>{"Content-type":"application/json"}</code></p>
         <p>Workfront Fusion會為您新增授權標頭。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 查詢字串]</td>
       <td>
-        <p>以標準JSON物件的形式新增API呼叫的查詢。</p>
+        <p>以標準 JSON 物件的形式新增 API 呼叫的查詢。</p>
         <p>例如： <code>{"name":"something-urgent"}</code></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 內文]</td>
-   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的內文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外側。</p> 
+      <td role="rowheader">[!UICONTROL 正文]</td>
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

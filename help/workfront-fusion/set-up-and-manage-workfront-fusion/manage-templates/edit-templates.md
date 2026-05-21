@@ -6,10 +6,19 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 473dba8b-faa4-432f-9357-c2146e86b261
-source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
+TQID: https://experienceleague.adobe.com/J7kDB9abxI53dRs6xZikcHRDbgHZZfEhWLzGDUw2CRg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 3%
+source-wordcount: 772
+ht-degree: 2%
 
 ---
 
@@ -74,7 +83,7 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
 1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 所有範本]**。
 1. 按一下您要編輯的範本右邊的&#x200B;**[!UICONTROL 詳細資料]**。
 1. （選擇性）按一下右上角的&#x200B;**選項**&#x200B;並選取&#x200B;**重新命名**，以重新命名範本。
-1. （選擇性）若要變更範本的語言，請按一下[建立新範本] **&#x200B;**&#x200B;[案例設定]圖示![，然後從[語言]下拉式清單中選取語言。](assets/fusion-scenario-settings-icon.png)
+1. （選擇性）若要變更範本的語言，請按一下[建立新範本] **![&#x200B; [案例設定]圖示](assets/fusion-scenario-settings-icon.png)，然後從[語言]下拉式清單中選取語言。**
 
    >[!IMPORTANT]
    >

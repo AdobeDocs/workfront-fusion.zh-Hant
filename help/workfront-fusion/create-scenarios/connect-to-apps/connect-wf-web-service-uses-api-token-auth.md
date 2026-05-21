@@ -1,59 +1,65 @@
 ---
-title: 將Adobe Workfront Fusion連線至使用API權杖授權的網站服務
-description: 有些服務不允許整合解決方案(例如Adobe Workfront Fusion)建立您可在情境中輕鬆使用的應用程式。
+title: 將 Adobe Workfront Fusion 連接至使用 API 權杖授權的網頁服務
+description: 有些服務不允許整合解決方案（例如Adobe Workfront Fusion）建立您可在情境中輕鬆使用的應用程式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 4a8ac816-52de-41e8-96d7-1c8cde2ebe32
-source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
+TQID: https://experienceleague.adobe.com/y1H-y57MvK4LScn9Z6sUYuua3kr3iqyY-ElYkmCgxrI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 0%
+source-wordcount: 985
+ht-degree: 15%
 
 ---
 
-# 將Adobe Workfront Fusion連線至使用API權杖授權的網站服務
+# 將 Adobe Workfront Fusion 連接至使用 API 權杖授權的網頁服務
 
-有些服務不允許整合解決方案(例如Adobe Workfront Fusion)建立您可在情境中輕鬆使用的應用程式。
+有些服務不允許整合解決方案（例如Adobe Workfront Fusion）建立您可在情境中輕鬆使用的應用程式。
 
 此情況的因應措施是使用「HTTP >提出請求」模組，將所需的服務（應用程式）連線至Workfront Fusion。
 
 本文說明如何使用API金鑰/API權杖將幾乎任何Web服務連線至Workfront Fusion。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
    <p>聯結器型（舊版）：若要連線至Workfront產品系列以外的應用程式，您必須使用Workfront Fusion進行工作自動化和整合 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -162,7 +168,7 @@ ht-degree: 0%
    <td> <p>您建立的Pushover應用程式是由您產生的API Token/API金鑰。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> message </td> 
+   <td role="rowheader"> 訊息 </td> 
    <td> <p>傳送至裝置的推播通知文字內容。</p> </td> 
   </tr> 
   <tr> 

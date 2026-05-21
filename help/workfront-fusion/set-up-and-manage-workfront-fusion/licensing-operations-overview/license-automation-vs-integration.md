@@ -1,17 +1,20 @@
 ---
-title: Adobe Workfront Fusion授權
+title: Adobe Workfront Fusion 授權
 description: Adobe Workfront Fusion提供兩種不同的授權，決定您可以存取的功能。 您的組織在購買Workfront Fusion時已選擇其中一個授權。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e2df1a0-c1f9-4833-b1c2-65efb3be9657
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+TQID: https://experienceleague.adobe.com/t3FcOEcjniaGfX9Ag25kYrcU6-2LKwaIdnRojHRpI5Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: 767
+ht-degree: 2%
 
 ---
 
-# Adobe Workfront Fusion授權
+# Adobe Workfront Fusion 授權
 
 Workfront Fusion有兩種授權模型，一種新的以操作為基礎的模型，以及舊有的以聯結器為基礎的模型。
 

@@ -4,10 +4,16 @@ description: 資料存放區（類似於資料庫或簡單表格）可以儲存�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8bfa3201-45db-49d7-985d-9c324acd56b6
-source-git-commit: ac19f04af9ce80912e3dd9d63dc2ca414080c0c1
+TQID: https://experienceleague.adobe.com/pCDU9BMkWEcUJZ9r4XN0dxEA8L89rWJyGQSWk10TiDs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 8%
+source-wordcount: 1366
+ht-degree: 7%
 
 ---
 
@@ -29,7 +35,7 @@ ht-degree: 8%
 
 如需有關Workfront Fusion中資料存放區的影片簡介，請參閱：
 
-* [資料存放庫](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [資料存放區](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## 存取權要求
 

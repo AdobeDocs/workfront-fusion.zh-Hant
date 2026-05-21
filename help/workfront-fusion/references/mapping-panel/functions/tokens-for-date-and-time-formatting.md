@@ -1,17 +1,20 @@
 ---
-title: 日期和時間格式的Token
+title: 日期與時間格式適用的語彙基元
 description: ' [!DNL Adobe Workfront Fusion mapping] 面板中有下列日期和時間格式的Token。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 4a7f288e-d563-4c37-a8bf-efc7e6b759d4
-source-git-commit: 24a6c1558fd6349c022df8a1847a7f39fafddd67
+TQID: https://experienceleague.adobe.com/PVtZkvmHsxtuAH7fXCoXB07zPRlHPJnG-j0M2lb-hGQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 11%
+source-wordcount: 253
+ht-degree: 16%
 
 ---
 
-# 日期和時間格式的Token
+# 日期與時間格式適用的語彙基元
 
 ## 年、月和日權杖
 
@@ -21,7 +24,7 @@ ht-degree: 11%
  <col> 
  <thead> 
   <tr> 
-   <th>Token </th> 
+   <th>權杖 </th> 
    <th>輸出 </th> 
    <th> <p>說明</p> </th> 
   </tr> 
@@ -60,7 +63,7 @@ ht-degree: 11%
   <tr> 
    <td><code>Mo </code> </td> 
    <td><code>1st 2nd ... 11th 12th</code> </td> 
-   <td> <p>[!UICONTROL Month] 含序數</p> </td> 
+   <td> <p>含序數的[!UICONTROL Month]</p> </td> 
   </tr> 
   <tr> 
    <td><code>MM</code> </td> 
@@ -100,7 +103,7 @@ ht-degree: 11%
   <tr> 
    <td><code>DDDo</code> </td> 
    <td><code>1st 2nd ... 364th 365th</code> </td> 
-   <td> <p>[!UICONTROL Day of year] 含序數</p> </td> 
+   <td> <p>[!UICONTROL Day of year] （含序數）</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDDD </code> </td> 
@@ -118,7 +121,7 @@ ht-degree: 11%
  <col> 
  <thead> 
   <tr> 
-   <th>Token </th> 
+   <th>權杖 </th> 
    <th>輸出 </th> 
    <th> <p>說明</p> </th> 
   </tr> 
@@ -162,7 +165,7 @@ ht-degree: 11%
   <tr> 
    <td><code>wo </code> </td> 
    <td><code>1st 2nd ... 52nd 53rd</code> </td> 
-   <td> <p>[!UICONTROL Week of year with ordinal]</p> </td> 
+   <td> <p>[!UICONTROL 包含序數的年中的第幾週]</p> </td> 
   </tr> 
   <tr> 
    <td><code>ww </code> </td> 
@@ -215,7 +218,7 @@ ht-degree: 11%
  <col> 
  <thead> 
   <tr> 
-   <th> <p>Token </p> </th> 
+   <th> <p>權杖 </p> </th> 
    <th>輸出 </th> 
    <th>說明</th> 
   </tr> 
@@ -269,7 +272,7 @@ ht-degree: 11%
   <tr> 
    <td><code>mm</code> </td> 
    <td><code>00 01 ... 58 59</code> </td> 
-   <td> <p>[!UICONTROL Minutes with] 前導零</p> </td> 
+   <td> <p>[!UICONTROL 分鐘，帶]開頭零</p> </td> 
   </tr> 
   <tr> 
    <td><code>s</code> </td> 

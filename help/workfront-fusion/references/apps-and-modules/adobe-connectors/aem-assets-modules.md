@@ -4,9 +4,17 @@ description: 透過適用於 Adobe Workfront Fusion 的 Adobe Experience Manager
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 361e6c9c-1497-4f47-85bb-503619744968
-source-git-commit: d4bdc4005a3b7b22d64adc8ca1d20bcf534ddfd1
-workflow-type: ht
-source-wordcount: '3734'
+TQID: https://experienceleague.adobe.com/x0Sf-4GkVLQ2JkOXOPQdmwcVWVrM8b9JF3P6LV6BE6U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+workflow-type: tm+mt
+source-wordcount: 3823
 ht-degree: 100%
 
 ---
@@ -111,7 +119,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
 
 >[!NOTE]
 >
->* 要填入這些欄位的資訊是在 Adobe Developer Console 上設定伺服器對伺服器流程的過程中產生的。您可以在設定過程中產生的服務認證 JSON 檔案中找到這些值。
+>* 要填入這些欄位的資訊是在 Adobe Developer Console 上設定伺服器對伺服器流程的過程中產生的。 您可以在設定過程中產生的服務認證 JSON 檔案中找到這些值。
 >
 >   關於在 Adobe Developer Console 上設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
 >
@@ -132,7 +140,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
               </tr>
               <tr>
                   <td role="rowheader">不含結尾斜線的執行個體 URL</td>
-                  <td>輸入 Adobe Experience Manager 執行個體的 URL。請勿在 URL 的結尾包含斜線 <code>/</code>。</td>
+                  <td>輸入 Adobe Experience Manager 執行個體的 URL。 請勿在 URL 的結尾包含斜線 <code>/</code>。</td>
               </tr>
               <tr>
                   <td role="rowheader">帳戶詳細資訊填寫選項</td>
@@ -152,11 +160,11 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
               </tr>
               <tr>
                   <td role="rowheader">技術帳戶 ID</td>
-                  <td>若手動輸入詳細資訊，請輸入技術帳戶的 ID，也就是用戶端認證 JSON 檔案中的「id」欄位。</td>
+                  <td>若手動輸入詳細資訊，請輸入技術帳戶的 ID， 也就是用戶端認證 JSON 檔案中的「id」欄位。</td>
               </tr>
               <tr>
                   <td role="rowheader">組織 ID</td>
-                  <td class="">若手動輸入詳細資訊，請輸入您組織的 ID，也就是用戶端認證 JSON 檔案中的「org」欄位。</td>
+                  <td class="">若手動輸入詳細資訊，請輸入您組織的 ID， 也就是用戶端認證 JSON 檔案中的「org」欄位。</td>
               </tr>
               <tr>
                   <td role="rowheader">Meta 權限範圍</td>
@@ -164,7 +172,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
               </tr>
               <tr>
                   <td role="rowheader">私密金鑰</td>
-                  <td>輸入在伺服器對伺服器設定中產生的私密金鑰。若要擷取私密金鑰，請按一下「擷取」，然後輸入要擷取的檔案及該檔案的密碼。</td>
+                  <td>輸入在伺服器對伺服器設定中產生的私密金鑰。 若要擷取私密金鑰，請按一下「擷取」，然後輸入要擷取的檔案及該檔案的密碼。</td>
               </tr>
               <tr>
                   <td role="rowheader">驗證 URL</td>
@@ -188,7 +196,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
             </tr>
             <tr>
                 <td role="rowheader">不含結尾斜線的執行個體 URL</td>
-                <td>輸入 Adobe Experience Manager 執行個體的 URL。請勿在 URL 的結尾包含斜線 <code>/</code>。</td>
+                <td>輸入 Adobe Experience Manager 執行個體的 URL。 請勿在 URL 的結尾包含斜線 <code>/</code>。</td>
             </tr>
             <tr>
                 <td role="rowheader">使用者名稱</td>
@@ -204,9 +212,9 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
 
 ## Adobe Experience Manager Assets 模組及其欄位
 
-設定 Adobe Experience Manager Assets 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 Adobe Experience Manager Assets 欄位。在模組中，粗體標題表示那是必要欄位。
+設定 Adobe Experience Manager Assets 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 Adobe Experience Manager Assets 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -375,7 +383,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">所複製資料夾/資產的名稱</td> 
-   <td>輸入新資料夾或資產的名稱。Adobe Experience Manager Assets 中顯示的資料夾名稱與原始名稱相同。此處輸入的名稱會出現在新資料夾或資產的 URL 中。</td> 
+   <td>輸入新資料夾或資產的名稱。 Adobe Experience Manager Assets 中顯示的資料夾名稱與原始名稱相同。 此處輸入的名稱會出現在新資料夾或資產的 URL 中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">複製子系</td> 
@@ -408,7 +416,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
     <ul> 
      <li> <p>資料夾</p> <p>填寫下列欄位：</p> 
       <ul> 
-       <li> <p>名稱</p> <p>輸入資料夾名稱。此名稱會出現在檔案路徑中，因此不得包含空格或其他字元。 </p> </li> 
+       <li> <p>名稱</p> <p>輸入資料夾名稱。 此名稱會出現在檔案路徑中，因此不得包含空格或其他字元。 </p> </li> 
        <li> <p>標題</p> <p>輸入資料夾的標題，可代替名稱顯示。</p> </li> 
       </ul> </li> 
      <li> <p>資產註解</p> <p>填寫下列欄位：</p> 
@@ -459,7 +467,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">資料夾</td> 
-   <td>選取或對應您要檢索的資料夾。若要將子資料夾新增至路徑，請按一下加號圖示並選取子資料夾。</td> 
+   <td>選取或對應您要檢索的資料夾。 若要將子資料夾新增至路徑，請按一下加號圖示並選取子資料夾。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -482,7 +490,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>方法</p> </td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">標頭</td> 
@@ -490,7 +498,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">查詢字串</td> 
-   <td> <p>輸入請求查詢字串。針對每個索引鍵/值配對，按一下「<b>新增項目</b>」並輸入索引鍵和值。</p> </td> 
+   <td> <p>輸入請求查詢字串。 針對每個索引鍵/值配對，按一下「<b>新增項目</b>」並輸入索引鍵和值。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">正文</td> 
@@ -528,7 +536,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">所移動的資料夾/資產的名稱</td> 
-   <td>輸入所移動資料夾或資產的新名稱。Adobe Experience Manager Assets 中顯示的資料夾名稱與原始名稱相同。此處輸入的名稱會出現在所移動資料夾或資產的 URL 中。</td> 
+   <td>輸入所移動資料夾或資產的新名稱。 Adobe Experience Manager Assets 中顯示的資料夾名稱與原始名稱相同。 此處輸入的名稱會出現在所移動資料夾或資產的 URL 中。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">覆寫</td> 
@@ -621,7 +629,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
 
 當 AEM Assets 中發生事件時，此觸發程序模組會啟動一個情境。
 
-此模組包含單一欄位：Webhook。選取供這些事件使用的現有 Webhook，或建立新的 Webhook。
+此模組包含單一欄位：Webhook。 選取供這些事件使用的現有 Webhook，或建立新的 Webhook。
 
 若要建立新的 Webhook：
 
@@ -688,7 +696,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">更新</td> 
-   <td> <p>對於您要更新的每個後設資料項目，按一下「<b>新增項目</b>」並選取作業。「新增項目」方框中的其他欄位視所選作業而定。</p> </td> 
+   <td> <p>對於您要更新的每個後設資料項目，按一下「<b>新增項目</b>」並選取作業。 「新增項目」方框中的其他欄位視所選作業而定。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -841,7 +849,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">提供要刪除的關聯資產的特定 ID</td> 
-   <td> <p>若是要刪除一個特定的關聯，請勾選此方框。若未勾選此方框，則會刪除所選類型的所有關聯。</p> </td> 
+   <td> <p>若是要刪除一個特定的關聯，請勾選此方框。 若未勾選此方框，則會刪除所選類型的所有關聯。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">關聯的資產 ID</td> 
@@ -923,7 +931,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
    <td> <p>對於您要建立的每個資料夾，按一下「<b>新增項目</b>」並輸入下列資訊：</p>
    <ul>
    <li><b>新資料夾位置</b><p>選取您要建立新資料夾之位置的路徑。</p></li>
-       <li> <b>名稱</b> <p>輸入資料夾名稱。此名稱會出現在檔案路徑中，因此不得包含空格或其他字元。 </p> </li> 
+       <li> <b>名稱</b> <p>輸入資料夾名稱。 此名稱會出現在檔案路徑中，因此不得包含空格或其他字元。 </p> </li> 
        <li> <b>標題</b> <p>輸入資料夾的標題，可代替名稱顯示。</p> </li> 
    </ul> </td> 
   </tr> 
@@ -975,7 +983,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
   </tr> 
  <tr> 
    <td role="rowheader">刪除子資料夾</td> 
-   <td> 啟用此選項以便刪除資料夾及其所有子資料夾。</td>
+   <td> 啟用此選項，以便刪除資料夾及其所有子資料夾。</td>
   </tr> 
  <tr> 
    <td role="rowheader">強制</td> 

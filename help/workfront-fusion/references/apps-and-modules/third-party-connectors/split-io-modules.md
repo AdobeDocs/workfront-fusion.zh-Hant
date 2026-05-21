@@ -5,8 +5,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 7d738a96-5424-4c30-831f-82e1d4c6f9d2
 TQID: https://experienceleague.adobe.com/K-dqwsk18sW-l7LlvWqE2kReKWA9I-yQSJXbAzyjRjU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 1941
@@ -54,7 +56,7 @@ ht-degree: 30%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -115,7 +117,7 @@ Split.io聯結器使用下列專案：
         </td>
       </tr>
       <tr> 
-       <td role="rowheader">[！UICONTROL API金鑰]</td> 
+       <td role="rowheader">[!UICONTROL API金鑰]</td> 
        <td>輸入您的[!DNL Split.io] API金鑰。<p>如需[!DNL Split.io] API金鑰的詳細資訊，請參閱[!DNL Split.io]檔案中的<a href="https://help.split.io/hc/en-us/articles/360019916211-API-keys">API金鑰</a>。</p></td> 
       </tr> 
      </tbody> 
@@ -156,23 +158,23 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應您要新增標籤的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL物件名稱]</td> 
+   <td role="rowheader">[!UICONTROL 物件名稱]</td> 
    <td>輸入或對應您要新增標籤的物件名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL物件型別]</td> 
+   <td role="rowheader">[!UICONTROL 物件型別]</td> 
    <td> <p>輸入或對應您要新增標籤的物件型別。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標記]</td> 
-   <td> <p>針對您要新增的每個標籤，按一下<b>[！UICONTROL新增專案]</b>，然後輸入或對應標籤。</p> </td> 
+   <td> <p>針對您要新增的每個標籤，按一下<b>[!UICONTROL 新增專案]</b>，然後輸入或對應標籤。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,23 +193,23 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應您要建立分割的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL流量型別ID或名稱]</td> 
+   <td role="rowheader">[!UICONTROL 流量型別ID或名稱]</td> 
    <td>選取或對應您要用來建立分割的流量型別。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL分割名稱]</td> 
+   <td role="rowheader">[!UICONTROL 分割名稱]</td> 
    <td> <p>輸入或對應您要建立的分割名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL分割說明]</td> 
-   <td>為您要建立的分割輸入或對映[！UICONTROL split]說明。</td> 
+   <td role="rowheader">[!UICONTROL 分割說明]</td> 
+   <td>為您要建立的分割輸入或對映[!UICONTROL split]說明。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -222,39 +224,39 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應您要建立分割定義的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL環境名稱或ID]</td> 
+   <td role="rowheader">[!UICONTROL 環境名稱或ID]</td> 
    <td>選取或對應您要建立分割定義的環境。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL分割名稱]</td> 
+   <td role="rowheader">[!UICONTROL 分割名稱]</td> 
    <td> <p>輸入或對應您要建立定義的分割名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL註解]</td> 
+   <td role="rowheader">[!UICONTROL 註解]</td> 
    <td>輸入或對應您要新增至分割定義的任何註解。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL規則]</td> 
-   <td> <p>針對您想要新增至定義的每個目標規則，按一下<b>[！UICONTROL新增專案]</b>，然後輸入或對應規則。 </td> 
+   <td role="rowheader">[!UICONTROL 規則]</td> 
+   <td> <p>針對您想要新增至定義的每個目標規則，按一下<b>[!UICONTROL 新增專案]</b>，然後輸入或對應規則。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL預設規則]</td> 
+   <td role="rowheader">[!UICONTROL 預設規則]</td> 
    <td> <p>輸入或對映您要分割用於不符合其他規則規格的流量的規則。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL預設處理]</td> 
+   <td role="rowheader">[!UICONTROL 預設處理]</td> 
    <td> <p>輸入或對應分割要使用的處理方式（如果分割已終止或客戶未包含在流量分配中）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Threads]</td> 
-   <td> <p>針對您想要新增至定義的每個處理，按一下<b>[！UICONTROL新增專案]</b>，然後輸入或對應處理和大小。</p> </td> 
+   <td role="rowheader">[!UICONTROL Threads]</td> 
+   <td> <p>針對您想要新增至定義的每個處理，按一下<b>[!UICONTROL 新增專案]</b>，然後輸入或對應處理和大小。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -269,7 +271,7 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -311,14 +313,14 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應您要刪除分割的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL分割名稱]</td> 
+   <td role="rowheader">[!UICONTROL 分割名稱]</td> 
    <td> <p>輸入或對映您要刪除的分割名稱。</p> </td> 
   </tr> 
  </tbody> 
@@ -334,14 +336,14 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應包含您要擷取之分割的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL分割名稱]</td> 
+   <td role="rowheader">[!UICONTROL 分割名稱]</td> 
    <td> <p>輸入或對映您要擷取的分割名稱。</p> </td> 
   </tr> 
  </tbody> 
@@ -357,18 +359,18 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應包含您要擷取之分割定義的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL環境名稱或ID]</td> 
+   <td role="rowheader">[!UICONTROL 環境名稱或ID]</td> 
    <td>選取或對應包含您要擷取之分割定義的環境。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL分割名稱]</td> 
+   <td role="rowheader">[!UICONTROL 分割名稱]</td> 
    <td> <p>輸入或對應您要擷取分割定義的分割名稱。</p> </td> 
   </tr> 
  </tbody> 
@@ -384,26 +386,26 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應您要更新分割定義的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL環境名稱或ID]</td> 
+   <td role="rowheader">[!UICONTROL 環境名稱或ID]</td> 
    <td>選取或對應您要更新分割定義的環境。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL分割名稱]</td> 
+   <td role="rowheader">[!UICONTROL 分割名稱]</td> 
    <td> <p>輸入或對應您要更新其定義的分割名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL更新內容]</td> 
-   <td> <p>針對您要更新的分割的每個屬性，按一下<b>[！UICONTROL新增專案]</b>，然後輸入或對應所需的變更。</p> </td> 
+   <td role="rowheader">[!UICONTROL 更新內容]</td> 
+   <td> <p>針對您要更新的分割的每個屬性，按一下<b>[!UICONTROL 新增專案]</b>，然後輸入或對應所需的變更。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL註解]</td> 
+   <td role="rowheader">[!UICONTROL 註解]</td> 
    <td>輸入或對應您要新增至分割定義的任何註解。</td> 
   </tr> 
  </tbody> 
@@ -419,22 +421,22 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應您要移除分割定義的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL環境名稱或ID]</td> 
+   <td role="rowheader">[!UICONTROL 環境名稱或ID]</td> 
    <td>選取或對應您要移除分割定義的環境。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL分割名稱]</td> 
+   <td role="rowheader">[!UICONTROL 分割名稱]</td> 
    <td> <p>輸入或對應您要移除其定義的分割名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL註解]</td> 
+   <td role="rowheader">[!UICONTROL 註解]</td> 
    <td>輸入或對應您要新增至分割定義的任何註解。</td> 
   </tr> 
  </tbody> 
@@ -450,23 +452,23 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應您要新增標籤的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL物件名稱]</td> 
+   <td role="rowheader">[!UICONTROL 物件名稱]</td> 
    <td>輸入或對應您要新增標籤的物件名稱，</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL物件型別]</td> 
+   <td role="rowheader">[!UICONTROL 物件型別]</td> 
    <td> <p>輸入或對應您要新增標籤的物件型別。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標記]</td> 
-   <td> <p>針對您要新增的每個標籤，按一下<b>[！UICONTROL新增專案]</b>，然後輸入或對應標籤。</p> </td> 
+   <td> <p>針對您要新增的每個標籤，按一下<b>[!UICONTROL 新增專案]</b>，然後輸入或對應標籤。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -489,7 +491,7 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
@@ -508,7 +510,7 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
@@ -527,7 +529,7 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
@@ -546,14 +548,14 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 
    <td>選取或對應包含您要列出之分割定義的工作區。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL環境名稱或ID]</td> 
+   <td role="rowheader">[!UICONTROL 環境名稱或ID]</td> 
    <td>選取或對應包含您要列出之分割定義的環境。</td> 
   </tr> 
   <tr> 
@@ -573,7 +575,7 @@ Split.io聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td> 
-   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[！UICONTROL Workfront Fusion] </a>。</p> </td> 
+   <td> <p>如需有關將您的[!DNL Split.io]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">將[!DNL Split.io]連線到[!UICONTROL Workfront Fusion] </a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 工作區 ID]</td> 

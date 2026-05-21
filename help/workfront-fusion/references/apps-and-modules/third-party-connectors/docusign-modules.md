@@ -6,8 +6,10 @@ draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 94a823a6-3c70-42a1-b6cf-298591dbca15
 TQID: https://experienceleague.adobe.com/uzyMYKqpIGORM1QDNEkkPUumYtLdgTVD7s04At0fNzM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 2252
@@ -55,7 +57,7 @@ Adobe Workfront Fusion [!DNL DocuSign]模組可讓您監視和擷取信封狀態
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -104,7 +106,7 @@ DocuSign聯結器使用下列專案：
       <td>選取要連接至服務帳戶或者個人帳戶。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL帳戶型別]</td> 
+      <td role="rowheader">[!UICONTROL 帳戶型別]</td> 
       <td>選取您要連線的帳戶是生產帳戶還是示範帳戶。</td> 
      </tr> 
     </tbody> 
@@ -138,18 +140,18 @@ DocuSign聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL DocuSign]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將Docusign連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL帳戶] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶] </td> 
    <td> <p>選取包含要監視之記錄的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL事件型別]</td> 
+   <td role="rowheader">[!UICONTROL 事件型別]</td> 
    <td> <p> 選取您要觀看的事件型別。</p> 
     <ul> 
-     <li>[！UICONTROL檔案已完成]</li> 
-     <li>[！UICONTROL檔案已拒絕]</li> 
-     <li>[！UICONTROL檔案已傳送]</li> 
-     <li>[！UICONTROL檔案已簽署]</li> 
-     <li>[！UICONTROL收件匣中的新檔案]</li> 
+     <li>[!UICONTROL 檔案已完成]</li> 
+     <li>[!UICONTROL 檔案已拒絕]</li> 
+     <li>[!UICONTROL 檔案已傳送]</li> 
+     <li>[!UICONTROL 檔案已簽署]</li> 
+     <li>[!UICONTROL 收件匣中的新檔案]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -188,23 +190,23 @@ DocuSign聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL帳戶] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶] </td> 
    <td> <p>選取包含您要新增自訂欄位之檔案的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL信封ID]</td> 
+   <td role="rowheader">[!UICONTROL 信封ID]</td> 
    <td> <p> 輸入或對應信封的ID，該信封包含您要新增自訂欄位的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL欄位名稱]</td> 
+   <td role="rowheader">[!UICONTROL 欄位名稱]</td> 
    <td>輸入或對應您要新增之新欄位的名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL必填]</td> 
+   <td role="rowheader">[!UICONTROL 必填]</td> 
    <td>如果您希望新增的欄位是必填欄位，請啟用此選項。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL顯示欄位]</td> 
+   <td role="rowheader">[!UICONTROL 顯示欄位]</td> 
    <td>如果您希望顯示欄位，請啟用此選項。</td> 
   </tr> 
   <tr> 
@@ -227,27 +229,27 @@ DocuSign聯結器使用下列專案：
    <td> <p>如需有關將DocuSign帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions="">
-    <td>[！UICONTROL帳戶] </td>
+    <td>[!UICONTROL 帳戶] </td>
    <td> <p>選取包含要新增收件者信封的帳戶。</p> </td> 
   </tr> 
   <tr> 
-    <td>[！UICONTROL信封ID]</td>
+    <td>[!UICONTROL 信封ID]</td>
     <td>選取或對應您要新增收件者的信封識別碼。</td>
   </tr> 
   <tr data-mc-conditions="">
-    <td role="rowheader">[！UICONTROL收件者型別]</td>
+    <td role="rowheader">[!UICONTROL 收件者型別]</td>
    <td> <p> 選取您要新增至信封的收件者型別。</p> 
     <ul> 
-     <li> <p>[！UICONTROL Agent]</p> </li> 
-     <li> <p>[！UICONTROL Carbon copy]</p> </li> 
-     <li> <p>[！UICONTROL Certified delivery]</p> </li> 
-     <li> <p>[！UICONTROL個人簽署者]</p> </li> 
-     <li> <p>[！UICONTROL Intermediate]</p> </li> 
-     <li> <p>[！UICONTROL簽署者]</p> </li> 
+     <li> <p>[!UICONTROL Agent]</p> </li> 
+     <li> <p>[!UICONTROL Carbon copy]</p> </li> 
+     <li> <p>[!UICONTROL Certified delivery]</p> </li> 
+     <li> <p>[!UICONTROL 個人簽署者]</p> </li> 
+     <li> <p>[!UICONTROL Intermediate]</p> </li> 
+     <li> <p>[!UICONTROL 簽署者]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-    <td>[！UICONTROL電子郵件]</td>
+    <td>[!UICONTROL 電子郵件]</td>
    <td> <p>輸入或對應您要新增至信封的收件者電子郵件地址。</p> </td> 
   </tr> 
   <tr> 
@@ -255,28 +257,28 @@ DocuSign聯結器使用下列專案：
    <td>輸入或對應您要新增至信封的收件者名稱。</td> 
   </tr> 
   <tr>
-    <td>[！UICONTROL路由順序]</td>
+    <td>[!UICONTROL 路由順序]</td>
    <td> <p>輸入或對應收件者的路由編號。 路由號碼會決定收件者接收及簽署檔案的順序。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL電子郵件內文]</td>
+    <td role="rowheader">[!UICONTROL 電子郵件內文]</td>
    <td>輸入或對應傳送給收件者的電子郵件內文（內容）。</td> 
   </tr> 
   <tr>
-    <td role="rowheader">[！UICONTROL電子郵件主旨]</td>
+    <td role="rowheader">[!UICONTROL 電子郵件主旨]</td>
    <td>輸入或對應傳送給收件者的電子郵件主旨。</td> 
   </tr> 
-    <td role="rowheader">[！UICONTROL私人訊息]</td>
+    <td role="rowheader">[!UICONTROL 私人訊息]</td>
    <td> 如果您想要傳送私人訊息給收件者，請輸入或對應訊息的文字。 <p>只有選取的收件者會看到私人訊息及一般訊息。 私人訊息的上限為1000個字元。</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Authentication]</td> 
+   <td role="rowheader">[!UICONTROL Authentication]</td> 
    <td> <p>選取您要用來確認收件者身分的驗證方法。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL無]</strong> </p> </li> 
-     <li> <p><strong>[！UICONTROL存取碼]</strong> </p> <p>輸入或對映存取碼。</p> </li> 
-     <li> <p><strong>[！UICONTROL電話]</strong> </p> <p>輸入或對應電話號碼。</p> </li> 
-     <li> <p><strong>[！UICONTROL簡訊]</strong> </p> <p>輸入或對應電話號碼。</p> </li> 
+     <li> <p><strong>[!UICONTROL 無]</strong> </p> </li> 
+     <li> <p><strong>[!UICONTROL 存取碼]</strong> </p> <p>輸入或對映存取碼。</p> </li> 
+     <li> <p><strong>[!UICONTROL 電話]</strong> </p> <p>輸入或對應電話號碼。</p> </li> 
+     <li> <p><strong>[!UICONTROL 簡訊]</strong> </p> <p>輸入或對應電話號碼。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -296,21 +298,21 @@ DocuSign聯結器使用下列專案：
 <td> <p>如需有關將DocuSign帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>下的文章。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[！UICONTROL帳戶] </td>
+    <td role="rowheader">[!UICONTROL 帳戶] </td>
    <td> <p>選取包含要上傳檔案之信封的帳戶。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[！UICONTROL範本]</td>
-   <td> <p> 選取要從中建立新信封的範本。 根據您選取的[！UICONTROL帳戶]可使用範本。</p> </td> 
+    <td role="rowheader" >[!UICONTROL 範本]</td>
+   <td> <p> 選取要從中建立新信封的範本。 根據您選取的[!UICONTROL 帳戶]可使用範本。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL建立後]
+     [!UICONTROL 建立後]
    </td> 
    <td> <p>選取您要將信封儲存為草稿，還是要傳送信封以供簽署。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[！UICONTROL範本收件者]</td>
+    <td role="rowheader" >[!UICONTROL 範本收件者]</td>
     <td>針對您想要新增至此信封的每個收件者，按一下[新增專案] <b>並輸入下列詳細資料：</b>
     <ul>
     <li><b>存取代碼</b><p>輸入或對應收件者用來存取信封的代碼。<p></li>
@@ -323,49 +325,49 @@ DocuSign聯結器使用下列專案：
     </tr>
   <tr> 
    <td role="rowheader">
-     [！UICONTROL Allow Print and Sign]
+     [!UICONTROL Allow Print and Sign]
    </td> 
    <td> <p>啟用此選項可允許收件者列印檔案並簽署紙張。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL允許重新指派]
+     [!UICONTROL 允許重新指派]
    </td> 
    <td> <p>如果您希望收件者能夠將檔案重新指派給其他使用者，請啟用此選項。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL允許收件者遞回]
+     [!UICONTROL 允許收件者遞回]
    </td> 
    <td> <p>啟用此選項以允許收件者遞回。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL授權副本]
+     [!UICONTROL 授權副本]
    </td> 
    <td> <p>啟用此選項可將此信封中的檔案標示為授權副本。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL自動導覽]
+     [!UICONTROL 自動導覽]
    </td> 
    <td> <p>啟用此選項以設定收件者的自動導覽。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL品牌ID]
+     [!UICONTROL 品牌ID]
    </td> 
    <td> <p>輸入或對映品牌的ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL標籤已啟用]
+     [!UICONTROL 標籤已啟用]
    </td> 
    <td> <p>啟用此選項以啟用檔案標示。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL過期已啟用]
+     [!UICONTROL 過期已啟用]
    </td> 
    <td> <p>啟用此選項以設定此信封的有效期。 如果啟用此選項，請填寫以下欄位：<ul><li><b>有效期限</b><p>輸入或對應此信封過期的天數。</p></li><li><b>到期警告</b><p>輸入或對應提醒電子郵件傳送給收件者的到期天數。</p> </td> 
   </tr> 
@@ -377,7 +379,7 @@ DocuSign聯結器使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">
-     [！UICONTROL主旨]
+     [!UICONTROL 主旨]
    </td> 
    <td> <p>輸入或對應此信封隨附之電子郵件的主旨。</p> </td> 
   </tr> 
@@ -397,7 +399,7 @@ DocuSign聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL帳戶]</td> 
+   <td>[!UICONTROL 帳戶]</td> 
    <td>輸入或對應您要用來存取[!DNL DocuSign] API的帳戶。</td> 
   </tr> 
   <tr> 
@@ -471,11 +473,11 @@ DocuSign聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL帳戶] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶] </td> 
    <td> <p>選取包含您要下載之檔案的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL信封ID]</td> 
+   <td role="rowheader">[!UICONTROL 信封ID]</td> 
    <td> <p> 輸入或對應您要下載的信封識別碼。</p> </td> 
   </tr> 
   <tr> 
@@ -483,15 +485,15 @@ DocuSign聯結器使用下列專案：
    <td> <p>輸入或對應您要下載的檔案ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL憑證]</td> 
+   <td role="rowheader">[!UICONTROL 憑證]</td> 
    <td>啟用此選項以在下載中包含信封簽署憑證。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL檔案，依使用者ID]</td> 
+   <td role="rowheader">[!UICONTROL 檔案，依使用者ID]</td> 
    <td>啟用此選項可允許收件者依使用者ID擷取檔案。 例如，如果使用者包含在具有不同可見度的兩個不同製程訂單中，則使用此選項會傳回兩個製程的所有檔案。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Encry]</td> 
+   <td role="rowheader">[!UICONTROL Encry]</td> 
    <td>如果您想要為您[!DNL DocuSign]帳戶上設定的所有金鑰管理員加密回應中傳回的PDF位元組，請啟用此選項。</td> 
   </tr> 
   <tr> 
@@ -499,11 +501,11 @@ DocuSign聯結器使用下列專案：
    <td>選取語言。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL顯示變更]</td> 
+   <td role="rowheader">[!UICONTROL 顯示變更]</td> 
    <td>啟用此選項以反白傳回PDF的任何變更欄位，並以黃色反白顯示，並以紅色概述可選簽名或縮寫。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Watermark]</td> 
+   <td role="rowheader">[!UICONTROL Watermark]</td> 
    <td> <p>啟用此選項以啟用浮水印功能。 </td> 
   </tr> 
  </tbody> 
@@ -522,27 +524,27 @@ DocuSign聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL帳戶] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶] </td> 
    <td> <p>選取包含您要修改自訂欄位之檔案的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL信封ID]</td> 
+   <td role="rowheader">[!UICONTROL 信封ID]</td> 
    <td> <p> 輸入或對應包含要修改自訂欄位之檔案的信封識別碼。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL欄位ID]</td> 
+   <td role="rowheader">[!UICONTROL 欄位ID]</td> 
    <td>輸入或對應您要修改之欄位的ID。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL欄位名稱]</td> 
+   <td role="rowheader">[!UICONTROL 欄位名稱]</td> 
    <td>輸入或對應您要修改的欄位名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL必填]</td> 
+   <td role="rowheader">[!UICONTROL 必填]</td> 
    <td>如果您希望修改的欄位成為必填欄位，請啟用此選項。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL顯示欄位]</td> 
+   <td role="rowheader">[!UICONTROL 顯示欄位]</td> 
    <td>如果您希望顯示欄位，請啟用此選項。</td> 
   </tr> 
   <tr> 
@@ -565,11 +567,11 @@ DocuSign聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL帳戶] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶] </td> 
    <td> <p>選取包含您要讀取資訊之檔案的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL信封ID]</td> 
+   <td role="rowheader">[!UICONTROL 信封ID]</td> 
    <td> <p> 輸入或對應信封的ID，該信封包含您要從中讀取資訊的檔案。</p> </td> 
   </tr> 
   <tr> 
@@ -592,11 +594,11 @@ DocuSign聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL帳戶] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶] </td> 
    <td> <p>選取包含要傳送給收件者之草稿信封的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL信封ID]</td> 
+   <td role="rowheader">[!UICONTROL 信封ID]</td> 
    <td> <p> 輸入或對應您要傳送給收件者的草稿信封的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -615,11 +617,11 @@ DocuSign聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL DocuSign] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">將 [!DNL DocuSign] 連接至 Workfront Fusion</a>。</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL帳戶] </td> 
+   <td role="rowheader">[!UICONTROL 帳戶] </td> 
    <td> <p>選取包含要上傳檔案之信封的帳戶。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL信封ID]</td> 
+   <td role="rowheader">[!UICONTROL 信封ID]</td> 
    <td> <p> 輸入或對應您要上傳檔案之信封的識別碼。</p> </td> 
   </tr> 
   <tr> 

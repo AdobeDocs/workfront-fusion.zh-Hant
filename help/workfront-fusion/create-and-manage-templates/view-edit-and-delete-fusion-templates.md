@@ -8,8 +8,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
 TQID: https://experienceleague.adobe.com/OHwMJdhw3YevvWt3K-20ly90b2S0EfQ-gUz-U9J807U
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 880
@@ -48,7 +50,7 @@ Workfront Fusion範本功能可讓您建立並使用現有範本，作為Workfro
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -70,11 +72,11 @@ Workfront Fusion範本功能可讓您建立並使用現有範本，作為Workfro
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL公用範本]</td> 
+      <td role="rowheader">[!UICONTROL 公用範本]</td> 
       <td> <p> 所有已發佈且隨後由管理員核准的範本。 在範本圖磚上，您可以看到範本的名稱、其預覽和通訊端圖示，其數字表示目前為止已使用範本的次數。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL團隊範本]</td> 
+      <td role="rowheader">[!UICONTROL 團隊範本]</td> 
       <td> <p>您的團隊成員建立的所有範本，包括管理員已公開的範本。 在範本圖磚上，您可以看到範本的名稱、本檔案的「發佈和共用範本」一節中詳述的狀態圖示以及「刪除」按鈕。</p> <b>注意：</b>如果您在「專案團隊範本」標籤下沒有看到預期的範本，請檢查左側導覽或標題，以確定您目前檢視的專案團隊是否正確。</td> 
      </tr> 
     </tbody> 

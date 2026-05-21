@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: a8b8a1f3-d0f4-40bf-b5c1-dd0fb8100ec0
 TQID: https://experienceleague.adobe.com/pVoGQjfcVsJ7rme-jv2issE--0EUNq-VL3NDMbuh-Ko
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 239
@@ -48,7 +49,7 @@ ht-degree: 54%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 

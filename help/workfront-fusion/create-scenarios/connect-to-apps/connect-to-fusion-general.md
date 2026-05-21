@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: e47ab4d9-6612-4d9a-a024-da508a8bbfb2
 TQID: https://experienceleague.adobe.com/7wmBBiCK-UBhGs4HvQWu2JbUgBu-5SfVI9yLNCp-2mE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 575
@@ -57,7 +58,7 @@ ht-degree: 21%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -75,7 +76,7 @@ ht-degree: 21%
 1. 在「型別」欄位中，選取這是服務或個人帳戶。
 1. （條件式）如果應用程式需要進階連線設定（例如ID、金鑰或[!UICONTROL 密碼]），請輸入該資訊。
 
-   您可能需要按一下「顯示進階設定」****&#x200B;來顯示可輸入這類資訊的欄位。
+   您可能需要按一下「顯示進階設定」**&#x200B;**&#x200B;來顯示可輸入這類資訊的欄位。
 
 1. 按一下「**[!UICONTROL 繼續]**」。
 1. 在顯示的登入視窗中，輸入您的認證以登入應用程式（如果尚未這麼做）。

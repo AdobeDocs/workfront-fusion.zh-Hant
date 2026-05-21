@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 560c20b7-155c-40db-9018-5a51b40d6fb0
 TQID: https://experienceleague.adobe.com/U7C1PmiNClfdUnl0qj1j71dKt0eWINJgdwSEFYo7pgQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 364
@@ -42,7 +43,7 @@ ht-degree: 27%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -55,7 +56,7 @@ ht-degree: 27%
 1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 範本]**&#x200B;圖示![範本圖示](assets/templates-icon.png)。
 1. 按一下包含您要使用之範本（公用範本或專案團隊範本）的標籤。
 1. 按一下您要用來開始建立情境的範本。 您可以使用右上角的搜尋方塊，依範本名稱或範本中包含的應用程式名稱來尋找範本。
-1. （視條件而定）如果您是多個組織或團隊的成員，請選取您要建立情境的組織或團隊，然後按一下[繼續]。****
+1. （視條件而定）如果您是多個組織或團隊的成員，請選取您要建立情境的組織或團隊，然後按一下[繼續]。**&#x200B;**
 1. （視條件而定）如果範本是以[!UICONTROL 精靈]設定，請依照提示設定情境。 在每次提示時按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;以確認。
 
    >[!NOTE]

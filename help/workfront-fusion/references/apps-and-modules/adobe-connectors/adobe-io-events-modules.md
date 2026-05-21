@@ -5,8 +5,10 @@ author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: b2229f3e-a2a7-4b07-8ead-a37d193c2ec7
 TQID: https://experienceleague.adobe.com/w3uQqWnDDc3IcnAvd3UN4O3-m98PPJoez-egpWlH-jA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 1099
@@ -50,7 +52,7 @@ ht-degree: 44%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -188,7 +190,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [！UICONTROL Webhook說明]
+           [!UICONTROL Webhook說明]
          </td>
          <td>
            輸入此webhook的說明。
@@ -196,7 +198,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [！UICONTROL事件提供者]
+           [!UICONTROL 事件提供者]
          </td>
          <td>
            選取您要建立事件的來源產品或帳戶。
@@ -204,7 +206,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [！UICONTROL事件型別]
+           [!UICONTROL 事件型別]
          </td>
          <td>
            選取您希望webhook觀看的活動。 這些事件發生時會觸發此情境。
@@ -234,7 +236,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [！UICONTROL事件提供者]
+           [!UICONTROL 事件提供者]
          </td>
          <td>
            選取您要擷取ID的提供者。
@@ -242,7 +244,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [！UICONTROL事件型別]
+           [!UICONTROL 事件型別]
          </td>
          <td>
               選取您要提供ID的事件。 根據事件提供者，可使用事件。 
@@ -319,7 +321,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [！UICONTROL註冊ID]
+           [!UICONTROL 註冊ID]
          </td>
          <td>
            選取您要擷取事件的註冊。
@@ -327,7 +329,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [！UICONTROL傳回事件數上限]
+           [!UICONTROL 傳回事件數上限]
          </td>
          <td>
               輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。 
@@ -335,7 +337,7 @@ Adobe I/O Events聯結器會使用以下專案：
        </tr>
        <tr>
          <td role="rowheader">
-           [！UICONTROL傳回發生於]之後的事件
+           [!UICONTROL 傳回發生於]之後的事件
          </td>
          <td>輸入或對映日期。 模組會傳回此日期之後發生的事件。
          </td>
@@ -351,7 +353,7 @@ Adobe I/O Events聯結器會使用以下專案：
 -->
        <tr>
          <td role="rowheader">
-           [！UICONTROL Latest]
+           [!UICONTROL Latest]
          </td>
          <td>
          啟用此選項以傳回最新事件。

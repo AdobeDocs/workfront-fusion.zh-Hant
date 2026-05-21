@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: b3aed366-c399-44fa-8967-54ecb8647d96
 TQID: https://experienceleague.adobe.com/Gs6NF8KOawlRGN5FpVjY7-8agSjAKm8WYrSzu0ZLt8w
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 634
@@ -42,7 +43,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -55,15 +56,15 @@ ht-degree: 16%
 
 <table>
     <tr>
-        <td>[！UICONTROL初始值]</td>
+        <td>[!UICONTROL 初始值]</td>
         <td>輸入或對映您希望模組在第一個反複專案中的值。 預設值為 1。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL重複]</td>
+        <td>[!UICONTROL 重複]</td>
         <td>輸入或對應您希望模組重複的次數。 此數字必須大於或等於0，且小於或等於10,000。</td>
     </tr>
     <tr>
-        <td>[！UICONTROL步驟]</td>
+        <td>[!UICONTROL 步驟]</td>
         <td>這是模組增加值時所使用的數字。 預設值為 1。</td>
     </tr>
 </table>
@@ -118,5 +119,5 @@ ht-degree: 16%
 
 錯誤處理指示可讓您控制案例對錯誤的反應方式。
 
-如需錯誤處理指示的資訊，請參閱錯誤處理](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的[指示。
+如需錯誤處理指示的資訊，請參閱錯誤處理[&#128279;](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的指示。
 

@@ -9,9 +9,13 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 78ee905f-4713-44a4-bffb-c64cdb3665c2
 TQID: https://experienceleague.adobe.com/sp6gMeEhVxN0QjviLXm9GnI7NSLEp93PnSQkH45zHXI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 1413
@@ -59,7 +63,7 @@ ht-degree: 25%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -76,9 +80,9 @@ ht-degree: 25%
 1. 在Adobe Developer Console中開啟您的專案。
 1. 按一下&#x200B;**新增至專案**，然後選取&#x200B;**API**。
 1. 從可用API清單中，選取&#x200B;**Adobe Cloud Platform和Collaboration API**。
-1. 在[選取驗證型別]畫面上，選取&#x200B;**OAuth伺服器對伺服器**，然後按一下[下一步]****。
+1. 在[選取驗證型別]畫面上，選取&#x200B;**OAuth伺服器對伺服器**，然後按一下[下一步]&#x200B;**&#x200B;**。
 1. 新增憑證的名稱。
-1. 按一下[下一步]****，然後按一下[儲存設定的API]****。
+1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存設定的API]&#x200B;**&#x200B;**。
 1. 記下提供的憑證，這些憑證將在Workfront Fusion中設定連線時使用。
 1. 繼續[將您的技術帳戶設為Adobe Admin Console的管理員](#make-your-technical-account-an-admin-in-the-adobe-admin-console)。
 
@@ -95,7 +99,7 @@ ht-degree: 25%
 
 1. 選取使用者清單上方的&#x200B;**管理員**&#x200B;索引標籤。
 1. 選取&#x200B;**新增管理員**。
-1. 在[新增產品設定檔管理員]方塊中，輸入技術帳戶的電子郵件地址，然後選取[儲存]。****
+1. 在[新增產品設定檔管理員]方塊中，輸入技術帳戶的電子郵件地址，然後選取[儲存]。**&#x200B;**
 
    技術帳戶會成為管理員。
 
@@ -126,14 +130,14 @@ ht-degree: 25%
         </td>
         </tr>
         <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
+        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL 使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL 認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-        <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
+        <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL 認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL IMS組織識別碼]</td>
+        <td role="rowheader">[!UICONTROL IMS組織識別碼]</td>
         <td>輸入或對應您的Adobe IMS組織ID。 這是格式為<code> 123abc@AdobeOrg</code>的字串，其中@之前的區段是十六進位數字。 您可以在Adobe Admin Console中，或在Adobe.IO主控台中，將此值視為您組織的URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
       </tbody>

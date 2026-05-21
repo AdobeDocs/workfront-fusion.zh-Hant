@@ -5,8 +5,10 @@ author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0d7a655-1353-4d24-83d4-7da73d859a63
 TQID: https://experienceleague.adobe.com/LTNDa0pulA4RE5tG59Fui-5bPlKxqHoQHEsKOp485No
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 600
@@ -52,7 +54,7 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -110,13 +112,13 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL執行個體URL，不含尾隨斜線]</td>
+        <td role="rowheader">[!UICONTROL 執行個體URL，不含尾隨斜線]</td>
         <td>
           <p>輸入您用來存取帳戶的URL，不含最後一個斜線。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL IMS端點]</td>
+        <td role="rowheader">[!UICONTROL IMS端點]</td>
         <td>
           <p><code>https://ims-na1.adobelogin.com</code></p>
         </td>
@@ -130,15 +132,15 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
         <td>輸入您的[!DNL Adobe]使用者端密碼。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL組織ID]</td>
+        <td role="rowheader">[!UICONTROL 組織ID]</td>
         <td>輸入您的[!DNL Adobe]組織識別碼。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
+        <td role="rowheader">[!UICONTROL 技術帳戶ID]</td>
         <td>輸入您的[!DNL Adobe]技術帳戶ID。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL Meta範圍]</td>
+        <td role="rowheader">[!UICONTROL Meta範圍]</td>
         <td>輸入任何適當的中繼範圍       </td>
       </tr>
       <tr>

@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 9bc5f195-c406-45e9-9a1e-5c8a2a0e0ded
 TQID: https://experienceleague.adobe.com/b6P6739Vad2S9ZkYJr24KVCv5FE99Cz6ZGAwkcF-yYE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 415
@@ -42,7 +43,7 @@ Adobe Workfront Fusion範本可讓您建立並使用現有範本，作為Workfro
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -62,8 +63,8 @@ Adobe Workfront Fusion範本可讓您建立並使用現有範本，作為Workfro
    範本的檢視隨即開啟，顯示資訊和資料流程的動畫。
 
 1. 再次按一下情境以開始建立您的情境。
-1. （視條件而定）如果您是多個組織的成員，請選取您要建立情境的組織，然後按一下[繼續]****。
-1. （視條件而定）如果您是多個團隊的成員，請選取您要建立情境的團隊，然後按一下[繼續]。****
+1. （視條件而定）如果您是多個組織的成員，請選取您要建立情境的組織，然後按一下[繼續]&#x200B;**&#x200B;**。
+1. （視條件而定）如果您是多個團隊的成員，請選取您要建立情境的團隊，然後按一下[繼續]。**&#x200B;**
 1. （條件式）如果範本是使用精靈設定的，請依照提示設定情境。 在每次提示時按一下&#x200B;**繼續**&#x200B;以確認。
 
    >[!NOTE]

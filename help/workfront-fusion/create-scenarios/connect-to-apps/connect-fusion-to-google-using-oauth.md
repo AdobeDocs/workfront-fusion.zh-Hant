@@ -5,9 +5,13 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 2f0bc289-4ecf-4a31-9d7b-641bbca6fc95
 TQID: https://experienceleague.adobe.com/Y-cRr-lDvYKc83iwzPoB2Rs9gKD9LCZQFfiBgefal7I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 1022
@@ -51,7 +55,7 @@ ht-degree: 15%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -205,7 +209,7 @@ ht-degree: 15%
 #### 在Google服務中連線至Google
 
 1. 在Workfront Fusion中，找到您需要建立連線的Google模組。
-1. 按一下[建立連線]****，然後按一下[顯示進階設定]****。
+1. 按一下[建立連線]&#x200B;**&#x200B;**，然後按一下[顯示進階設定]&#x200B;**&#x200B;**。
 1. 填寫「連線名稱」、「環境」和「型別」欄位（如適用）。
 1. 在個別欄位中輸入您在[建立OAuth認證](#create-oauth-credentials)中擷取的使用者端識別碼和使用者端密碼，然後按一下&#x200B;**繼續**。
 
@@ -222,7 +226,7 @@ ht-degree: 15%
 
 #### 在HTTP >產生OAuth2.0請求模組中連線至Google {#connect-to-google-in-the-http--make-an-oauth20-request-module}
 
-如需在HTTP >產生OAuth2.0要求模組中連線Google的指示，請參閱HTTP >產生OAuth 2.0要求模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-oauth-2-request.md#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)一文中的[在HTTP >產生OAuth 2.0要求模組中建立與Google連線的指示。
+如需在HTTP >產生OAuth2.0要求模組中連線Google的指示，請參閱HTTP >產生OAuth 2.0要求模組[&#128279;](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-oauth-2-request.md#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)一文中的在HTTP >產生OAuth 2.0要求模組中建立與Google連線的指示。
 
 ## 可能的錯誤訊息：[未設定403存取]
 

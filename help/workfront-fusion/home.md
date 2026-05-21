@@ -3,7 +3,8 @@ title: Adobe Workfront Fusion
 description: 歡迎來到 Adobe Workfront Fusion 產品與技術文件首頁。 使用下列連結、說明文章和其他資源，了解如何在您的組織中實施並有效使用 Adobe Workfront Fusion。
 exl-id: c005fc89-4b58-4c4e-ba45-0155cd2c8f03
 TQID: https://experienceleague.adobe.com/IwGzn2TeOw9r-d2u9zdE7OKr5Q7AV5zoet1f9RHKP8o
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 347

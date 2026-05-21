@@ -5,8 +5,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 0534ad8a-af80-46d2-857d-de882a235edb
 TQID: https://experienceleague.adobe.com/4C5kCTIb-pX7zlMxx0tMHn-0UeMPkunWAlkov-lEqPQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 898
@@ -54,7 +56,7 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -71,7 +73,7 @@ ht-degree: 10%
 
    您可以新增任意數量的專案至陣列。
 
-您可以使用疊代器將陣列分割成個別的組合。 如需詳細資訊，請參閱Adobe Workfront Fusion](/help/workfront-fusion/references/modules/iterator-module.md)中的[[!UICONTROL 迭代器]模組。
+您可以使用疊代器將陣列分割成個別的組合。 如需詳細資訊，請參閱Adobe Workfront Fusion[&#128279;](/help/workfront-fusion/references/modules/iterator-module.md)中的[!UICONTROL 迭代器]模組。
 
 ## 將專案對應至新陣列
 

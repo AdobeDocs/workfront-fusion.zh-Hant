@@ -5,8 +5,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 85607e4e-538a-427f-8a99-a0ab65a75ac2
 TQID: https://experienceleague.adobe.com/uVGhNEE-KiHbnVa2ZbP5h2rsg5GO2b1uuAkfj8BIJRw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 1416
@@ -58,7 +60,7 @@ ht-degree: 34%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -113,7 +115,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
 
 * [[!UICONTROL 上傳元素]](#upload-an-element)
 
-* [！UICONTROL [在程式庫中監視新元素]](#watch-new-element-in-library)
+* [[!UICONTROL [在程式庫中監視新元素]]](#watch-new-element-in-library)
 
 * [[!UICONTROL 觀看更新的元素]](#watch-updated-elements)
 
@@ -131,11 +133,11 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
       <td >選取或對應包含您要封存之元素的程式庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL元素ID]</td>
+      <td role="rowheader">[!UICONTROL 元素ID]</td>
       <td>選取或對應您要封存的元素。</td>
     </tr>
   </tbody>
@@ -154,30 +156,30 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
       <td>選取或對應包含您要擷取之元素的程式庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL元素ID]</td>
+      <td role="rowheader">[!UICONTROL 元素ID]</td>
       <td>輸入或對應您要擷取之元素的ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL選擇器]</td>
+      <td role="rowheader">[!UICONTROL 選擇器]</td>
       <td>
         <p>選取模組傳回的資訊型別。 </p>
         <ul>
           <li>
-            <p><b>[！UICONTROL預設值]</b>
+            <p><b>[!UICONTROL 預設值]</b>
             </p>
             <p>基礎資料</p>
           </li>
           <li>
-            <p><b>[！UICONTROL詳細資料]</b>
+            <p><b>[!UICONTROL 詳細資料]</b>
             </p>
             <p>所有可用資料</p>
           </li>
           <li>
-            <p><b>[！UICONTROL代表]</b>
+            <p><b>[!UICONTROL 代表]</b>
             </p>
             <p>與資料庫元素相關聯的平面化資產清單</p>
           </li>
@@ -200,11 +202,11 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
       <td >選取或對應您要列出其元素的資料庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Order by]</td>
+      <td role="rowheader">[!UICONTROL Order by]</td>
       <td>選取您要依名稱排序結果，還是要依上次修改元素的日期排序。</td>
     </tr>
     <tr>
@@ -212,22 +214,22 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <td >輸入或對應MIME型別，將結果限製為使用指定MIME型別識別的元素。 範例：<code>string</code>。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL選擇器]</td>
+      <td role="rowheader">[!UICONTROL 選擇器]</td>
       <td>
         <p>選取模組傳回的資訊型別。 </p>
         <ul>
           <li>
-            <p><b>[！UICONTROL預設值]</b>
+            <p><b>[!UICONTROL 預設值]</b>
             </p>
             <p>基礎資料</p>
           </li>
           <li>
-            <p><b>[！UICONTROL詳細資料]</b>
+            <p><b>[!UICONTROL 詳細資料]</b>
             </p>
             <p>所有可用資料</p>
           </li>
           <li>
-            <p><b>[！UICONTROL代表]</b>
+            <p><b>[!UICONTROL 代表]</b>
             </p>
             <p>與資料庫元素相關聯的平面化資產清單</p>
           </li>
@@ -254,7 +256,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
       <td >選取您要監視更新元素的資料庫。</td>
     </tr>
     <tr>
@@ -278,7 +280,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
       <td >選取您要監視新元素的資料庫。</td>
     </tr>
     <tr>
@@ -358,7 +360,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL API版本]</td>
+      <td role="rowheader">[!UICONTROL API版本]</td>
       <td>
         <p>選取您要連線的[!DNL Adobe Analytics] API版本。</p>
       </td>
@@ -388,7 +390,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
        <tr>
-      <td role="rowheader">[！UICONTROL上傳暫時性檔案]</td>
+      <td role="rowheader">[!UICONTROL 上傳暫時性檔案]</td>
       <td>
       <p>如果要上傳暫時性檔案，請輸入要上傳檔案的來源檔案。</p>
       <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p>
@@ -411,37 +413,37 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料庫ID]</td>
+      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
       <td >選取您要上傳資產的資料庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL呼叫模式]</td>
+      <td role="rowheader">[!UICONTROL 呼叫模式]</td>
       <td>
         <p>選取要用來叫用此要求程式的處理模式。</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL同步]</b>
+            <p><b>[!UICONTROL 同步]</b>
             </p>
             <p>API呼叫會同步處理。 處理完成時會傳送回應（除非呼叫逾時）。</p>
           </li>
           <li>
-            <p><b>[！UICONTROL async]</b>
+            <p><b>[!UICONTROL async]</b>
             </p>
             <p>系統會立即傳回非同步監視器回應，且非同步處理請求。 呼叫負責輪詢端點，直到完成。</p>
           </li>
           <li>
-            <p><b>[！UICONTROL sync，async]</b> （預設）</p>
+            <p><b>[!UICONTROL sync，async]</b> （預設）</p>
             <p>已嘗試同步處理請求。 當處理過程延長超過5000毫秒時，將傳回非同步監視器回應。 應輪詢監視URL，直到請求完成。</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL元素型別]</td>
+      <td role="rowheader">[!UICONTROL 元素型別]</td>
       <td >選取您要上傳的元素型別</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL檔案型別]</td>
+      <td role="rowheader">[!UICONTROL 檔案型別]</td>
       <td >輸入或對應已上傳檔案的MIME型別。</td>
     </tr>
     <tr>

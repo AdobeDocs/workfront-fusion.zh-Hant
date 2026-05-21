@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: d3e49fce-85bc-4ee6-9a94-497a306e0c74
 TQID: https://experienceleague.adobe.com/n1069qGTzCI9vCLsUgEF36uF0Hh9wZufa4xGTGoAeIc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 9dd50e3b7a65813ce454da393a7beacf49cc943a
 workflow-type: tm+mt
 source-wordcount: 778

@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: ebbe74ea-d274-481d-8584-a71ddb1d959b
 TQID: https://experienceleague.adobe.com/4TaxxJxhszGpSGBnMCGPQ4uKH-AfkV9jDRRXhbCh-Eo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 165
@@ -42,7 +43,7 @@ ht-degree: 55%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -57,7 +58,7 @@ ht-degree: 55%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL運算式]</td> 
+   <td role="rowheader">[!UICONTROL 運算式]</td> 
    <td> <p>輸入您希望模組評估的運算式。 </p> <p> </p> <p>如需如何撰寫數學運算式的資訊，請參閱mathjs.org上的<a href="https://mathjs.org/docs/expressions/syntax.html">運算式語法</a>。</p> </td> 
   </tr> 
  </tbody> 

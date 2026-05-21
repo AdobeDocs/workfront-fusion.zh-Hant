@@ -5,8 +5,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: b74a3618-c4a1-4965-a88d-1643bfab12db
 TQID: https://experienceleague.adobe.com/fSi-9BIxl4qI-Vz7Yw9WJoqIX-GlmYDc5u-PGSh5mfc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 2399
@@ -60,7 +62,7 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -92,13 +94,13 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
 >您必須擁有Jira Developer Console的存取權，才能為Jira連線建立和設定OAuth2應用程式。
 
 1. 移至[Jira Developer Console](https://developer.atlassian.com/console.myapps/)。
-1. 在[我的應用程式]區域中，按一下[建立]****，然後選取[OAuth 2.0整合]**。**
-1. 輸入整合的名稱，同意開發人員條款，然後按一下[建立]。****
+1. 在[我的應用程式]區域中，按一下[建立]&#x200B;**&#x200B;**，然後選取[OAuth 2.0整合]&#x200B;**。**
+1. 輸入整合的名稱，同意開發人員條款，然後按一下[建立]。**&#x200B;**
 
    應用程式隨即建立，您就會進入應用程式設定區域。
 1. 按一下左側導覽面板中的&#x200B;**許可權**。
 1. 在[許可權]區域中，找到&#x200B;**Jira API**&#x200B;行。
-1. 按一下Jira API行中的[新增]****，然後按一下同一行中的[繼續]****。
+1. 按一下Jira API行中的[新增]&#x200B;**&#x200B;**，然後按一下同一行中的[繼續]&#x200B;**&#x200B;**。
 1. 啟用下列範圍：
 
    * 檢視Jira問題資料(`read:jira-work`)

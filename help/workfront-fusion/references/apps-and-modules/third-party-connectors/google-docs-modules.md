@@ -5,9 +5,12 @@ author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: cd44250d-c2cd-46b2-8773-15b30472a8d8
 TQID: https://experienceleague.adobe.com/8Ssu593A6Le2Z45BVg5T-wbj0Ld3z-efmO6JVRYk9n0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 4104
@@ -57,7 +60,7 @@ Adobe Workfront Fusion [!DNL Google Docs]模組可讓您監視、建立、編輯
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -129,24 +132,24 @@ Google Docs聯結器會使用以下專案：
    <td> <p>輸入檔案的名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL內容]</td> 
+   <td role="rowheader">[!UICONTROL 內容]</td> 
    <td> <p>輸入檔案的內容。 您可以加入HTML來格式化檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
    <td> <p>選取您要建立檔案的磁碟機型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>在「新建檔案」的「位置」欄位中，選取您要建立檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>在「新建檔案」的「位置」欄位中，選取您要建立檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要建立檔案的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>在「新建檔案」的「位置」欄位中，選取您要建立檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>在「新建檔案」的「位置」欄位中，選取您要建立檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要建立檔案的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL插入頁首]</td> 
+   <td role="rowheader">[!UICONTROL 插入頁首]</td> 
    <td> <p> 啟用此選項可將頁首插入檔案，然後輸入或對應頁首的文字。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL插入頁尾] </td> 
+   <td role="rowheader">[!UICONTROL 插入頁尾] </td> 
    <td> <p>啟用此選項可將頁尾插入檔案，然後輸入或對映頁首的文字。</p> </td> 
   </tr> 
  </tbody> 
@@ -165,20 +168,20 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL從範本建立檔案]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 從範本建立檔案]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
-     <li><strong>[！UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案範本。</li> 
+     <li><strong>[!UICONTROL 依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案範本。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取範本所在的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
+   <td> <p>選取範本所在的磁碟機型別。 如果您在上一個欄位中選取[!UICONTROL By Dropdown] ，即可使用此選項。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p>  </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取範本所在的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p>  </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取範本所在的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -189,30 +192,30 @@ Google Docs聯結器會使用以下專案：
    <td role="rowheader"> <p>[!UICONTROL 值]</p> </td> 
    <td> <p>針對您想要輸入值的每個標籤，按一下<b>新增專案</b>，輸入標籤，然後輸入將要輸入的值，而不是新檔案中的標籤。</p> 
     <ul> 
-     <li><strong>[！UICONTROL標籤]</strong> <br>請輸入檔案範本中包含的標籤。 請勿使用<code>&#123;&#123;&#125;&#125;</code>。 範例：使用<code>name</code>而非<code>&#123;&#123;name&#125;&#125;</code>。</li> 
-     <li><strong>[！UICONTROL取代的值]</strong><br>請輸入標籤的值。</li> 
+     <li><strong>[!UICONTROL 標籤]</strong> <br>請輸入檔案範本中包含的標籤。 請勿使用<code>&#123;&#123;&#125;&#125;</code>。 範例：使用<code>name</code>而非<code>&#123;&#123;name&#125;&#125;</code>。</li> 
+     <li><strong>[!UICONTROL 取代的值]</strong><br>請輸入標籤的值。</li> 
     </ul> <p>例如，來原始檔中的<code> &#123;&#123;name&#125;&#125;</code>變數將顯示為此處的name欄位，可插入值，例如<code>John</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL影像取代]</p> </td> 
-   <td> <p>&gt;針對您要輸入值的每個標籤，按一下<b>新增專案</b>，然後輸入將取代目前影像的[！UICONTROL影像物件ID]和[！UICONTROL影像URL]連結。</p> <p>注意：您可以使用[！UICONTROL Get a Document]模組擷取影像ID，其中ID包含在陣列[！UICONTROL Inline Object Array]中。</p> <p>建議您將ALT文字新增至[!DNL Google]檔案中的影像。 </p> <p>若要將ALT文字新增至[!DNL Google Docs]影像：</p> 
+   <td role="rowheader"> <p>[!UICONTROL 影像取代]</p> </td> 
+   <td> <p>&gt;針對您要輸入值的每個標籤，按一下<b>新增專案</b>，然後輸入將取代目前影像的[!UICONTROL 影像物件ID]和[!UICONTROL 影像URL]連結。</p> <p>注意：您可以使用[!UICONTROL Get a Document]模組擷取影像ID，其中ID包含在陣列[!UICONTROL Inline Object Array]中。</p> <p>建議您將ALT文字新增至[!DNL Google]檔案中的影像。 </p> <p>若要將ALT文字新增至[!DNL Google Docs]影像：</p> 
     <ol> 
      <li value="1">在影像上按一下右鍵。</li> 
-     <li value="2">選取[！UICONTROL替代文字]選項。</li> 
-     <li value="3">在[！UICONTROL標題]欄位中輸入[！UICONTROL替代文字]，然後按一下[！UICONTROL確定]。</li> 
+     <li value="2">選取[!UICONTROL 替代文字]選項。</li> 
+     <li value="3">在[!UICONTROL 標題]欄位中輸入[!UICONTROL 替代文字]，然後按一下[!UICONTROL 確定]。</li> 
     </ol> <p>將ALT文字加入影像後，ALT文字會顯示在括弧內的欄位名稱中。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL標題] </td> 
+   <td role="rowheader">[!UICONTROL 標題] </td> 
    <td> <p>輸入新檔案的名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取範本所在的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
+   <td> <p>選取範本所在的磁碟機型別。 如果您在上一個欄位中選取[!UICONTROL By Dropdown] ，即可使用此選項。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您要建立檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您要建立檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要建立檔案的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取您要建立檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取您要建立檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要建立檔案的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -231,17 +234,17 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
    <td> <p>選取您要刪除的檔案所在的磁碟機型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您要刪除的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您要刪除的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要刪除的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取您要刪除的檔案所在的資料夾，然後選取檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取您要刪除的檔案所在的資料夾，然後選取檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要刪除的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL共用磁碟機]</td> 
-   <td> <p>選取包含您要下載之檔案的磁碟機，然後選取檔案。 如果您已在[！UICONTROL選擇磁碟機]欄位中選取[!DNL My Drive]，則此選項可供使用。</p> </td> 
+   <td role="rowheader">[!UICONTROL 共用磁碟機]</td> 
+   <td> <p>選取包含您要下載之檔案的磁碟機，然後選取檔案。 如果您已在[!UICONTROL 選擇磁碟機]欄位中選取[!DNL My Drive]，則此選項可供使用。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 文件 ID]</td> 
@@ -263,12 +266,12 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
    <td> <p>選取您要下載的檔案所在的磁碟機型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>在「檔案ID」欄位中，選取您要下載的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>在「檔案ID」欄位中，選取您要下載的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要下載的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>在「檔案ID」欄位中，選取您要下載的檔案所在的資料夾，然後選取檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>在「檔案ID」欄位中，選取您要下載的檔案所在的資料夾，然後選取檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要下載的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -293,16 +296,16 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL取得檔案的內容]</td> 
+   <td role="rowheader">[!UICONTROL 取得檔案的內容]</td> 
    <td> <p>選取是否要對應檔案的檔案ID，或從下拉式選單中手動選取檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
    <td> <p>選取包含您要擷取之檔案的磁碟機型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取包含您要擷取之檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取包含您要擷取之檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取包含您要擷取之檔案的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取包含您要擷取之檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取包含您要擷取之檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取包含您要擷取之檔案的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -313,10 +316,10 @@ Google Docs聯結器會使用以下專案：
    <td role="rowheader"> <p>[!UICONTROL 篩選器]</p> </td> 
    <td> <p>選取您要在模組輸出中傳回的物件。</p> 
     <ul> 
-     <li>[！UICONTROL Image] （預設）</li> 
-     <li>[！UICONTROL Drawing]</li> 
-     <li>[！UICONTROL圖表]</li> 
-    </ul> <p>注意：  <p>若要進一步對應這些物件，請在此模組的輸出中使用[！UICONTROL Inline Objects Array]值（而非[！UICONTROL inlineObjects]）。</p> <p>[！UICONTROL Inline Objects Array]物件會以它們在檔案中的顯示順序排序。 如此一來，任何進一步處理作業都會更輕鬆。</p> </p> </td> 
+     <li>[!UICONTROL Image] （預設）</li> 
+     <li>[!UICONTROL Drawing]</li> 
+     <li>[!UICONTROL 圖表]</li> 
+    </ul> <p>注意：  <p>若要進一步對應這些物件，請在此模組的輸出中使用[!UICONTROL Inline Objects Array]值（而非[!UICONTROL inlineObjects]）。</p> <p>[!UICONTROL Inline Objects Array]物件會以它們在檔案中的顯示順序排序。 如此一來，任何進一步處理作業都會更輕鬆。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -334,20 +337,20 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL選取檔案]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 選取檔案]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL By Mapping]</strong> <br>選取此選項以對應檔案。</li> 
-     <li><strong>[！UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>選取此選項以對應檔案。</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取您要新增段落的檔案所在位置的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
+   <td> <p>選取您要新增段落的檔案所在位置的磁碟機型別。 如果您在上一個欄位中選取[!UICONTROL By Dropdown] ，即可使用此選項。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您要新增段落的檔案所在的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您要新增段落的檔案所在的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要新增段落的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取您要新增段落的檔案所在的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取您要新增段落的檔案所在的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要新增段落的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -355,26 +358,26 @@ Google Docs聯結器會使用以下專案：
    <td> <p>對應或選取您要插入文字的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL插入段落]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 插入段落]</p> </td> 
    <td> <p>選取您要將新文字插入檔案中的方式。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL依位置規格]</strong> </p> 
+     <li> <p><strong>[!UICONTROL 依位置規格]</strong> </p> 
       <ul> 
-       <li> <p><strong>[！UICONTROL By index]</strong> </p> 
+       <li> <p><strong>[!UICONTROL By index]</strong> </p> 
         <ul> 
-         <li> <p><strong>[！UICONTROL索引]</strong> </p> <p>輸入要插入文字的索引編號。 您可以使用[！UICONTROL Get a Document]模組來擷取索引號碼。</p> </li> 
-         <li> <p><strong>[！UICONTROL插入文字]</strong> </p> <p>輸入要插入檔案的文字。</p> </li> 
+         <li> <p><strong>[!UICONTROL 索引]</strong> </p> <p>輸入要插入文字的索引編號。 您可以使用[!UICONTROL Get a Document]模組來擷取索引號碼。</p> </li> 
+         <li> <p><strong>[!UICONTROL 插入文字]</strong> </p> <p>輸入要插入檔案的文字。</p> </li> 
         </ul> </li> 
-       <li> <p><strong>[！UICONTROL （依區段識別碼）]</strong> </p> <p>選取您要插入文字內容的頁首與頁尾，並輸入要插入至對應欄位的文字。</p> <p>如果頁首或頁尾已包含文字，則新文字會新增到現有文字之前。</p> </li> 
+       <li> <p><strong>[!UICONTROL （依區段識別碼）]</strong> </p> <p>選取您要插入文字內容的頁首與頁尾，並輸入要插入至對應欄位的文字。</p> <p>如果頁首或頁尾已包含文字，則新文字會新增到現有文字之前。</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[！UICONTROL藉由附加至檔案內文]</strong> </p> <p>在檔案內文內容的結尾附加輸入的文字。</p> <p>新段落的樣式將從目前插入索引處的段落複製，包括清單和專案符號。</p> </li> 
+     <li> <p><strong>[!UICONTROL 藉由附加至檔案內文]</strong> </p> <p>在檔案內文內容的結尾附加輸入的文字。</p> <p>新段落的樣式將從目前插入索引處的段落複製，包括清單和專案符號。</p> </li> 
     </ul> 
     <ul> 
-     <li> <p><strong>[！UICONTROL，藉由附加至區段（頁首和頁尾）的結尾]</strong> </p> <p>選取您要插入文字內容的頁首與頁尾，並輸入要插入至對應欄位的文字。</p> <p>如果頁首或頁尾已包含文字，則新文字會新增至現有文字之後。</p> </li> 
+     <li> <p><strong>[!UICONTROL ，藉由附加至區段（頁首和頁尾）的結尾]</strong> </p> <p>選取您要插入文字內容的頁首與頁尾，並輸入要插入至對應欄位的文字。</p> <p>如果頁首或頁尾已包含文字，則新文字會新增至現有文字之後。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL附加文字]</td> 
+   <td role="rowheader">[!UICONTROL 附加文字]</td> 
    <td>輸入或對應您要附加至檔案的文字</td> 
   </tr> 
  </tbody> 
@@ -393,20 +396,20 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL選取檔案]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 選取檔案]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
-     <li><strong>[！UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
+     <li><strong>[!UICONTROL 依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取您要新增影像的檔案所在的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
+   <td> <p>選取您要新增影像的檔案所在的磁碟機型別。 如果您在上一個欄位中選取[!UICONTROL By Dropdown] ，即可使用此選項。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您要新增影像的檔案所在的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您要新增影像的檔案所在的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要新增影像的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取您要新增影像的檔案所在的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取您要新增影像的檔案所在的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要新增影像的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -414,26 +417,26 @@ Google Docs聯結器會使用以下專案：
    <td> <p>對應或選取您要插入影像的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL插入影像]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 插入影像]</p> </td> 
    <td> <p>選取您要將新影像插入檔案中的方式。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL依位置規格]</strong> </p> 
+     <li> <p><strong>[!UICONTROL 依位置規格]</strong> </p> 
       <ul> 
-       <li> <p><strong>[！UICONTROL By index]</strong> </p> 
+       <li> <p><strong>[!UICONTROL By index]</strong> </p> 
         <ul> 
-         <li> <p><strong>[！UICONTROL索引]</strong> </p> <p>輸入要插入影像的索引編號。 您可以使用[！UICONTROL Get a Document]模組來擷取[！UICONTROL索引編號]。</p>  </li> 
-         <li> <p><strong>[！UICONTROL影像URL]</strong> </p> <p>輸入要插入檔案的影像URL。</p> <p>影像大小上限為50 MB。 不得超過2500萬畫素。 僅支援PNG、JPEG或GIF格式。</p> </li> 
+         <li> <p><strong>[!UICONTROL 索引]</strong> </p> <p>輸入要插入影像的索引編號。 您可以使用[!UICONTROL Get a Document]模組來擷取[!UICONTROL 索引編號]。</p>  </li> 
+         <li> <p><strong>[!UICONTROL 影像URL]</strong> </p> <p>輸入要插入檔案的影像URL。</p> <p>影像大小上限為50 MB。 不得超過2500萬畫素。 僅支援PNG、JPEG或GIF格式。</p> </li> 
         </ul> </li> 
-       <li> <p><strong>[！UICONTROL （依區段識別碼）]</strong> </p> <p>選取您要插入影像的頁首與頁尾，並將影像URL輸入至對應的欄位。</p> <p>影像大小上限為50 MB。 影像不得超過2500萬畫素。 僅支援PNG、JPEG或GIF格式。</p> </li> 
+       <li> <p><strong>[!UICONTROL （依區段識別碼）]</strong> </p> <p>選取您要插入影像的頁首與頁尾，並將影像URL輸入至對應的欄位。</p> <p>影像大小上限為50 MB。 影像不得超過2500萬畫素。 僅支援PNG、JPEG或GIF格式。</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[！UICONTROL藉由附加至檔案內文]</strong> </p> <p>在檔案內文內容的結尾附加特定影像。</p> </li> 
+     <li> <p><strong>[!UICONTROL 藉由附加至檔案內文]</strong> </p> <p>在檔案內文內容的結尾附加特定影像。</p> </li> 
     </ul> 
     <ul> 
-     <li> <p><strong>[！UICONTROL，藉由附加至區段（頁首和頁尾）的結尾]</strong> </p> <p>選取您要插入影像的頁首與頁尾，並輸入要插入至對應欄位的影像URL。</p> </li> 
+     <li> <p><strong>[!UICONTROL ，藉由附加至區段（頁首和頁尾）的結尾]</strong> </p> <p>選取您要插入影像的頁首與頁尾，並輸入要插入至對應欄位的影像URL。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL以點為單位的高度量值/以點為單位的寬度量值]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 以點為單位的高度量值/以點為單位的寬度量值]</p> </td> 
    <td> <p>定義插入影像的高度或寬度。 將會保持長寬比。</p> </td> 
   </tr> 
  </tbody> 
@@ -452,12 +455,12 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
    <td> <p>選取您要列出檔案的磁碟機型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您要列出檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您要列出檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取要列出檔案的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取您要列出檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取您要列出檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取要列出檔案的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -480,20 +483,20 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL選取檔案]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 選取檔案]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
-     <li><strong>[！UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
+     <li><strong>[!UICONTROL 依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取您要新增文字的檔案所在的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
+   <td> <p>選取您要新增文字的檔案所在的磁碟機型別。 如果您在上一個欄位中選取[!UICONTROL By Dropdown] ，即可使用此選項。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您要新增文字的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您要新增文字的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要新增文字的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取您要新增文字的檔案所在的資料夾，然後選取檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取您要新增文字的檔案所在的資料夾，然後選取檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要新增文字的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -501,11 +504,11 @@ Google Docs聯結器會使用以下專案：
    <td> <p>對應或選取您要取代文字的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL取代文字]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 取代文字]</p> </td> 
    <td> <p>針對您要取代的每一段文字，按一下<b>新增專案</b>並輸入下列內容：</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL要取代的舊文字]</strong> </p> <p>輸入要取代的文字。</p> </li> 
-     <li> <p><strong>[！UICONTROL要插入的新文字]</strong> </p> <p>輸入新文字。</p> </li> 
+     <li> <p><strong>[!UICONTROL 要取代的舊文字]</strong> </p> <p>輸入要取代的文字。</p> </li> 
+     <li> <p><strong>[!UICONTROL 要插入的新文字]</strong> </p> <p>輸入新文字。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -524,20 +527,20 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL選取檔案]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 選取檔案]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
-     <li><strong>[！UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
+     <li><strong>[!UICONTROL 依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取您要取代影像之檔案所在的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
+   <td> <p>選取您要取代影像之檔案所在的磁碟機型別。 如果您在上一個欄位中選取[!UICONTROL By Dropdown] ，即可使用此選項。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您要取代影像的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您要取代影像的檔案所在的資料夾，然後選取檔案。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要取代影像之檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取您要取代影像的檔案所在的資料夾，然後選取檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取您要取代影像的檔案所在的資料夾，然後選取檔案。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要取代影像之檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -545,7 +548,7 @@ Google Docs聯結器會使用以下專案：
    <td> <p>對應或選取您要取代影像的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL影像取代]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 影像取代]</p> </td> 
    <td> 針對您要取代的每個影像，按一下[新增專案] <b>並輸入現有的影像ID，然後輸入或對應將取代現有影像的新影像URL。 </b><p>影像會以它們在檔案中的顯示順序列出。 例如，<code>Body: Image No. 1</code>是檔案中的第一個影像。</p> </td> 
   </tr> 
  </tbody> 
@@ -565,16 +568,16 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Watch Documents]</td> 
-   <td> <p style="color: #000000;">選取您要觀看已建立的([！UICONTROL By Created Date])或已修改的([！UICONTROL By Modified Date])檔案。</p> </td> 
+   <td role="rowheader">[!UICONTROL Watch Documents]</td> 
+   <td> <p style="color: #000000;">選取您要觀看已建立的([!UICONTROL By Created Date])或已修改的([!UICONTROL By Modified Date])檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
    <td> <p>選取您要監視的磁碟機型別。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取要監視已建立或已修改檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取要監視已建立或已修改檔案的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要觀看的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Shared Drive]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取要監視已建立或已修改檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取要監視已建立或已修改檔案的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您要觀看的共用磁碟機。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Shared Drive]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -602,25 +605,25 @@ Google Docs聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[！UICONTROL Make All Links in a Document]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Make All Links in a Document]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[！UICONTROL依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
-     <li><strong>[！UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
+     <li><strong>[!UICONTROL 依對應]</strong> <br>選取此選項以對應檔案範本。</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br>選取此選項，從下拉式功能表中選擇檔案。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL選擇磁碟機]</td> 
-   <td> <p>選取您想讓連結可點選的檔案所在的磁碟機型別。 如果您在上一個欄位中選取[！UICONTROL By Dropdown] ，即可使用此選項。</p> 
+   <td role="rowheader">[!UICONTROL 選擇磁碟機]</td> 
+   <td> <p>選取您想讓連結可點選的檔案所在的磁碟機型別。 如果您在上一個欄位中選取[!UICONTROL By Dropdown] ，即可使用此選項。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL我的磁碟機]</strong> </p> <p>選取您想讓連結可點選的檔案所在的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL與我共用]</strong> </p> <p>選取您想讓連結可點選的檔案所在的資料夾。</p> </li> 
-     <li> <p><strong>[！UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[！UICONTROL使用網域管理存取權]。 選取[！UICONTROL是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您想讓連結可點選的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 我的磁碟機]</strong> </p> <p>選取您想讓連結可點選的檔案所在的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL 與我共用]</strong> </p> <p>選取您想讓連結可點選的檔案所在的資料夾。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google]共用磁碟機]</strong> （僅適用於[!DNL Google Workspace]位使用者）</p> <p>選取您是否要[!UICONTROL 使用網域管理存取權]。 選取[!UICONTROL 是]會以網域管理員身分發出請求，並傳回請求者身為管理員的所有共用磁碟機。</p> <p>選取您想讓連結可點選的檔案所在的共用磁碟機，然後選取檔案。</p> <p>注意：如果您已在此欄位中選取[!DNL Google Docs]選項，而且您不是[!DNL Google Workspace]使用者，則會傳回錯誤<code>[400] Invalid Value</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL共用磁碟機]</td> 
-   <td> <p>選取包含您要更新連結之檔案的磁碟機，然後選取檔案。 如果您已在[！UICONTROL選擇磁碟機欄位]中選取[!DNL My Drive]，則此選項可供使用。</p> </td> 
+   <td role="rowheader">[!UICONTROL 共用磁碟機]</td> 
+   <td> <p>選取包含您要更新連結之檔案的磁碟機，然後選取檔案。 如果您已在[!UICONTROL 選擇磁碟機欄位]中選取[!DNL My Drive]，則此選項可供使用。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 文件 ID]</td> 

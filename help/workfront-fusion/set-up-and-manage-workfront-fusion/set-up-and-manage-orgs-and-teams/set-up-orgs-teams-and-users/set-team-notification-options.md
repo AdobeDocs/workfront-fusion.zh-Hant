@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 570a09fc-01a9-4952-8a2b-8bfdd86d0bd8
 TQID: https://experienceleague.adobe.com/-HytP4gfrhiiSn-dg5ndg1YC6NTMC-NURYzSFgO5kIo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
 source-wordcount: 309
@@ -51,7 +52,7 @@ ht-degree: 31%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -70,15 +71,15 @@ ht-degree: 31%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">'[！UICONTROL案例執行中的警告]'</td> 
+      <td role="rowheader">'[!UICONTROL 案例執行中的警告]'</td> 
       <td> <p>當案例執行中有警告時收到電子郵件</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">情景執行中的[！UICONTROL錯誤]</td> 
+      <td role="rowheader">情景執行中的[!UICONTROL 錯誤]</td> 
       <td>當案例執行中發生錯誤時收到電子郵件。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL案例停用]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 案例停用]</p> </td> 
       <td><p>當案例停用時收到電子郵件。</p><p>在某些情況下，案例可能會被Workfront Fusion工程團隊停用，因為案例會導致效能或其他問題。 在這些情況下，您不會在Workfront Fusion中收到通知。 </p></td>
 
 </tr>

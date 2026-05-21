@@ -1,13 +1,15 @@
 ---
-title: jwt模組
+title: JWT 模組
 description: Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提供的演演算法建立JWT權杖的模組。
 author: Becky
 feature: Workfront Fusion
 exl-id: 380f60db-b2ec-411a-86ee-0d5699f19b41
-source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
+TQID: https://experienceleague.adobe.com/90zhDiLzi34ES2MPE-hg26mmSHZ-XQIgZJIFeW4vwy4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 0%
+source-wordcount: 528
+ht-degree: 18%
 
 ---
 
@@ -15,32 +17,32 @@ ht-degree: 0%
 
 Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提供的演演算法建立JWT權杖的模組。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -55,7 +57,7 @@ JWT聯結器使用下列專案：
  <col> 
  <tbody> 
    <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.1.5</td> 
   </tr>
  </tbody> 
@@ -72,7 +74,7 @@ JWT聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 演演算法]</td> 
+   <td role="rowheader">[！UICONTROL演演算法]</td> 
    <td> <p>選取您要用來產生JWT的演演算法。</p> <ul>
    <li><b>HS256</b>：使用SHA-256雜湊演演算法的HMAC</li>
    <li><b>HS384</b>：使用SHA-384雜湊演演算法的HMAC</li>
@@ -89,18 +91,18 @@ JWT聯結器使用下列專案：
    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 裝載] </td> 
+   <td role="rowheader">[！UICONTROL裝載] </td> 
    <td> <p>針對您要新增的每個裝載專案，按一下<b>新增專案</b>並輸入專案的索引鍵和值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Options] </td> 
+   <td role="rowheader">[!UICONTROL 選項] </td> 
    <td> <p>針對您要新增的每個選項專案，按一下<b>新增專案</b>並輸入專案的索引鍵和值。</p> <p>下列鍵可供使用：
    <ul>
    <li><b>演演算法</b>： （預設： RS256）</li>
    <li><b>expiresIn</b>：以秒或描述時間範圍的字串表示（例如2天、10h、7d）。 數值會解譯為秒數。 如果您使用字串，請務必提供時間單位（天、小時等），否則預設會使用毫秒單位（120等於120毫秒）。</li>
    <li><b>notBefore</b>：以秒為單位表示，或是描述時間範圍的字串（例如2天、10h、7d）。 數值會解譯為秒數。 如果您使用字串，請務必提供時間單位（天、小時等），否則預設會使用毫秒單位（120等於120毫秒）。
 </li>
-   <li><b>對象</b></li>
+   <li><b>客群</b></li>
    <li><b>簽發者</b></li>
    <li><b>jwtid</b></li>
    <li><b>主旨</b></li>

@@ -6,9 +6,11 @@ draft: Probably
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 5a70ed9e-9f70-40fb-b289-0955b951bf7a
-source-git-commit: a48a7f5f6577782dbc043e322a3c769781ffd63b
+TQID: https://experienceleague.adobe.com/beSBQ5CQgCl9H7Lby6X9JOAcNOhQluF69454mThmTNk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: 219
 ht-degree: 20%
 
 ---
@@ -19,7 +21,7 @@ ht-degree: 20%
 
 如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 ## Microsoft OneDrive聯結器和模組現已推出
 

@@ -1,12 +1,14 @@
 ---
 title: 模組概觀
-description: Adobe Workfront Fusion 會劃分五種模組類型：動作模組、搜尋模組、觸發程序模組、彙總器和疊代器。彙總器和疊代器適用於進階情境。
+description: Adobe Workfront Fusion 會劃分五種模組類型：動作模組、搜尋模組、觸發程序模組、彙總器和疊代器。 彙總器和疊代器適用於進階情境。
 author: Becky
 feature: Workfront Fusion
 exl-id: 4c8fe028-8425-426d-a006-f0c66871b3cd
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
-workflow-type: ht
-source-wordcount: '917'
+TQID: https://experienceleague.adobe.com/68pDfEru4WzXlcAi8u3A2PEImixguNX-AqQgI9x1qVk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+workflow-type: tm+mt
+source-wordcount: 917
 ht-degree: 100%
 
 ---
@@ -25,7 +27,7 @@ Adobe Workfront Fusion 會劃分五種模組類型：
 
 ## 動作模組
 
-動作模組是最常見的模組類型。典型的動作模組會執行一個動作並傳回單一組合包，這個組合包隨後傳遞至下一個模組進行處理。
+動作模組是最常見的模組類型。 典型的動作模組會執行一個動作並傳回單一組合包，這個組合包隨後傳遞至下一個模組進行處理。
 
 與觸發程序模組不同，動作模組可以放置在情境的開頭、中間或結尾。
 
@@ -49,20 +51,20 @@ Adobe Workfront Fusion 會劃分五種模組類型：
 
 更新子類型包含下列三項作業：
 
-* **清除欄位的內容**。當欄位內容評估為關鍵字 `erase`  (勿與 `empty` 混淆) 時，便會執行此項作業。
+* **清除欄位的內容**。 當欄位內容評估為關鍵字 `erase`  (勿與 `empty` 混淆) 時，便會執行此項作業。
 
   ![關鍵字 Erase](assets/erase-content-of-field.png)
 
-* **讓欄位內容維持不變**。當欄位留空或欄位內容評估為空 (在 JSON 中以 Null 表示) 時，便會執行此項作業。
+* **讓欄位內容維持不變**。 當欄位留空或欄位內容評估為空 (在 JSON 中以 Null 表示) 時，便會執行此項作業。
 
   ![空的組合包](assets/leave-content-field-unchanged.png)
 
-* **取代欄位的內容**。上述兩種情形以外的所有其他情形皆會執行此項作業。
+* **取代欄位的內容**。 上述兩種情形以外的所有其他情形皆會執行此項作業。
 
 >[!NOTE]
 >
 >* 如果您在對應面板中看不到關鍵字 `erase`，表示模組並非更新模組，或者模組尚未更新至應用程式的最新規格。
->* `Empty` 不會變更欄位內容。如果必須清除欄位，您可以使用下列公式：
+>* `Empty` 不會變更欄位內容。 如果必須清除欄位，您可以使用下列公式：
 >
 >   ![若為空](assets/formula-ifempty-name-erase.png)
 >
@@ -98,11 +100,11 @@ Workfront Fusion 使用兩種類型的觸發程序：輪詢觸發程序和即時
 
 ### 輪詢觸發程序
 
-輪詢觸發程序會定期輪詢特定服務，即使在前一次執行情境後沒有變更。我們建議您安排含有輪詢觸發程序的情境定期執行。若變更內容符合觸發程序的設定，觸發程序會傳回包含變更相關資訊的組合包。若沒有符合設定的變更，則觸發程序不會輸出任何組合包。
+輪詢觸發程序會定期輪詢特定服務，即使在前一次執行情境後沒有變更。 我們建議您安排含有輪詢觸發程序的情境定期執行。 若變更內容符合觸發程序的設定，觸發程序會傳回包含變更相關資訊的組合包。 若沒有符合設定的變更，則觸發程序不會輸出任何組合包。
 
 如需安排情境執行時間的說明，請參閱[安排情境執行時間](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md)。
 
-透過輪詢觸發程序，您可以選取觸發程序透過面板應該輸出的第一個組合包，而該面板會在您儲存觸發程序或變更觸發程序設定後自動顯示。此一選取動作只會影響模組的第一次執行。模組執行過一次後，後續的執行只會監視最近一次執行後發生的變更。
+透過輪詢觸發程序，您可以選取觸發程序透過面板應該輸出的第一個組合包，而該面板會在您儲存觸發程序或變更觸發程序設定後自動顯示。 此一選取動作只會影響模組的第一次執行。 模組執行過一次後，後續的執行只會監視最近一次執行後發生的變更。
 
 如需詳細資訊，請參閱[選擇觸發程序模組的起點](/help/workfront-fusion/create-scenarios/add-modules/choose-where-trigger-module-starts.md)。
 
@@ -118,7 +120,7 @@ Workfront Fusion 使用兩種類型的觸發程序：輪詢觸發程序和即時
 
 ### 即時觸發程序
 
-透過即時觸發程序，服務可以在變更發生後立即通知 Workfront Fusion。我們建議您安排含有即時觸發程序的情境立即執行。
+透過即時觸發程序，服務可以在變更發生後立即通知 Workfront Fusion。 我們建議您安排含有即時觸發程序的情境立即執行。
 
 如需相關說明，請參閱[安排情境執行時間](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md)。
 

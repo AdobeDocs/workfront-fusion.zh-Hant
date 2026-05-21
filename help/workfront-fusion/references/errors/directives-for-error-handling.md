@@ -5,9 +5,12 @@ description: 本文說明可用於在Adobe Workfront Fusion案例中處理錯誤
 author: Becky
 feature: Workfront Fusion
 exl-id: d7b0141f-d99d-4ab7-a60f-ed552a76f05d
-source-git-commit: bf2e689f7015b08a0cf773e990077a53144263b6
+TQID: https://experienceleague.adobe.com/4vL9oj7UXeRWQuSzDZP7GJU30oHUg1m75gWGVUkfCfA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 584
 ht-degree: 31%
 
 ---
@@ -41,7 +44,7 @@ ht-degree: 31%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -71,7 +74,7 @@ Workfront Fusion中有以下錯誤處理指示。
   </tr> 
   <tr> 
    <td role="rowheader"> <p>中斷</p> <p> <img src="assets/break.png"> </p> </td> 
-   <td><ul><li> <p>情境執行的狀態儲存在未完成執行作業的佇列中，而錯誤可以手動解決。如需詳細資訊，請參閱<a href="/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">檢視並解決不完整的執行</a>。</p> <p>不過，也有一些例外。 如需詳細資訊，請參閱「設定案例設定」一文中的<a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow" class="MCXref xref">允許儲存未完成的執行</a></a>。</p></li><li> <p>後續模組不會處理。</p></li><li> <p>若有未處理的套件，情境執行將按正常情況繼續。</p> </li><li><p>停用[!UICONTROL 自動完成執行]選項時，案例執行狀態會標示為「警告」。</p></li></ul> <p>如需詳細資訊，請參閱本文中的<a href="#break" class="MCXref xref">[!UICONTROL 分頁符號]</a>一節</p> </td> 
+   <td><ul><li> <p>情境執行的狀態儲存在未完成執行作業的佇列中，而錯誤可以手動解決。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">檢視並解決不完整的執行</a>。</p> <p>不過，也有一些例外。 如需詳細資訊，請參閱「設定案例設定」一文中的<a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow" class="MCXref xref">允許儲存未完成的執行</a></a>。</p></li><li> <p>後續模組不會處理。</p></li><li> <p>若有未處理的套件，情境執行將按正常情況繼續。</p> </li><li><p>停用[！UICONTROL自動完成執行]選項時，案例執行狀態會標示為「警告」。</p></li></ul> <p>如需詳細資訊，請參閱本文中的<a href="#break" class="MCXref xref">[！UICONTROL分頁符號]</a>一節</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>重試</p> <p> <img src="assets/retry.png"> </p> </td> 

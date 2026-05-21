@@ -4,9 +4,11 @@ description: 下列陣列函式可在Adobe Workfront Fusion對應面板中使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 16c3915c-add1-4aab-a0e1-75fc590c42a6
-source-git-commit: 869927a3bc9849fa136078c8acb195f56aee0320
+TQID: https://experienceleague.adobe.com/9ymbGLulR1RFFm15f76YA0qbp9sxPu1vVbTqnoE2ZEM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: 648
 ht-degree: 1%
 
 ---
@@ -51,7 +53,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `map(Emails[];email)`
 
@@ -97,7 +99,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `sort(Contacts[];name)`
 
@@ -244,7 +246,7 @@ yourArray = [3,4,5,6,7]
 
 >[!BEGINSHADEBOX]
 
-**範例:**
+**範例：**
 
 * `arrayElement(\[10; 20; 30]; 2)`
 

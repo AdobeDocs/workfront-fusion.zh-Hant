@@ -5,20 +5,22 @@ description: 本文說明情境如何執行以及資料如何流經情境。 本
 author: Becky
 feature: Workfront Fusion
 exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+TQID: https://experienceleague.adobe.com/gze4-OOI8ekVaS71VgkFeT3Yef1xUoqumWYauC9Es2I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 0%
+source-wordcount: 770
+ht-degree: 1%
 
 ---
 
-# 案例執行流程
+# 情境執行流程
 
 本文說明案例如何執行、資料如何流經案例，以及如何檢視每個模組處理的資料。
 
 若要檢視資料在作用中情境中的流動方式，請參閱[檢視執行中情境的資料流量](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)。
 
-## 案例執行流程
+## 情境執行流程
 
 正確設定並啟動情境後，情境會根據其定義的排程執行。
 
@@ -48,7 +50,7 @@ ht-degree: 0%
 
 **範例：**&#x200B;在此案例中，從Adobe Workfront下載檔案並將它們傳送到[!DNL Dropbox]中的資料夾，資料將以下列方式流動：
 
-此情境的第一個步驟由第一個模組執行，就是在Workfront中監視檔案。 找到的每個檔案都會視為一個組合。 如果模組執行時未發現任何組合，則案例會在第一個模組後結束。
+此情境的第一個步驟由第一個模組執行，就是在Workfront中監視檔案。找到的每個檔案都會視為一個組合。 如果模組執行時未發現任何組合，則案例會在第一個模組後結束。
 
 如果傳回束，則束會通過場景的其餘部分。 在此範例中，此案例的其餘部分包含secondmodule，它會上傳套件組合至[!DNL Dropbox]資料夾。
 

@@ -4,9 +4,14 @@ description: 您可以使用 Adobe Workfront Fusion Adobe Workfront 連接器，
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 35cbede1551bd8d158d2ef502b436bc2f760bcae
+TQID: https://experienceleague.adobe.com/CjzJP-U4P5bVop8ktivUH3pPOjVVgamqqc--cUsLm8U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '7298'
+source-wordcount: 7298
 ht-degree: 98%
 
 ---
@@ -59,7 +64,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -1047,7 +1052,7 @@ Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workf
 
 關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 
-關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 <table style="table-layout:auto">
  <col> 
@@ -2379,7 +2384,7 @@ See a list of the Workfront object types for which you can use this module in [W
 >
 >   關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 >
->   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境 (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)]。
+>   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境 (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)]。
 
 Workfront [!UICONTROL 監視事件]模組會根據在 Workfront API 中建立事件訂閱的 Webhook 觸發情境。 事件訂閱是一個資料集，用於決定哪些事件要傳送至 Webhook。 例如，若您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
 

@@ -4,10 +4,13 @@ description: ' [!DNL Adobe Workfront Fusion Frame].io modules enable you to moni
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d32ebd-1807-495e-8aaf-27346056ec71
-source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
+TQID: https://experienceleague.adobe.com/aqE-HRALPymeQ8S3v6W1DGXOKmWIBCCWETigPp232jA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '4539'
-ht-degree: 100%
+source-wordcount: 4588
+ht-degree: 99%
 
 ---
 
@@ -15,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->這篇文章說明新版本的 Frame.io 連接器。此連接器用於連接至 Frame.io 版本 4。
+>這篇文章說明新版本的 Frame.io 連接器。 此連接器用於連接至 Frame.io 版本 4。
 >
 >關於舊版 Frame.io 連接器的說明，請參閱 [Frame.io 舊版連接器](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)。
 
@@ -138,7 +141,7 @@ Frame.io 連接器會使用以下項目：
 
    或
 
-   在 Adobe Developer Console 中建立新專案。相關說明請參閱[建立空白專案](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty)。
+   在 Adobe Developer Console 中建立新專案。 相關說明請參閱[建立空白專案](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty)。
 
 1. 在專案概觀頁面或開始使用新專案頁面上，按一下「**新增 API**」。
 1. 在開啟的頁面上，找到「**Frame.io API**」並按一下。
@@ -172,7 +175,7 @@ Frame.io 連接器會使用以下項目：
 
 >[!NOTE]
 >
-> 我們建議您在 Adobe Workfront Fusion 中開始設定連線時，保持此視窗開啟。您可以複製用戶端 ID，並從這個頁面檢索及複製用戶端密碼，將其貼上到連線欄位。
+> 我們建議您在 Adobe Workfront Fusion 中開始設定連線時，保持此視窗開啟。 您可以複製用戶端 ID，並從這個頁面檢索及複製用戶端密碼，將其貼上到連線欄位。
 
 
 #### 設定使用者驗證連線
@@ -202,11 +205,11 @@ Frame.io 連接器會使用以下項目：
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>關於建立認證的說明，請參閱這篇文章中的<a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立使用者認證</a>。</p></td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>關於建立認證的說明，請參閱這篇文章中的<a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立使用者認證</a>。</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>關於建立認證的說明，請參閱這篇文章中的<a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立使用者認證</a>。</p>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>關於建立認證的說明，請參閱這篇文章中的<a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立使用者認證</a>。</p>
         </tr>
        </tbody>
     </table>
@@ -232,12 +235,12 @@ Frame.io 連接器會使用以下項目：
 
    或
 
-   在 Adobe Developer Console 中建立新專案。相關說明請參閱[建立空白專案](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty)。
+   在 Adobe Developer Console 中建立新專案。 相關說明請參閱[建立空白專案](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty)。
 
 1. 在專案概觀頁面或開始使用新專案頁面上，按一下「**新增 API**」。
 1. 在開啟的頁面上，找到「**Frame.io API**」並按一下。
 1. 在選取驗證類型頁面上，選取「**伺服器對伺服器驗證**」，然後按一下「**下一步**」。
-1. 輸入此認證的名稱。這樣一來，您稍後在 Adobe Admin Console 的「API 認證」區域中即可找到認證。
+1. 輸入此認證的名稱。 這樣一來，您稍後在 Adobe Admin Console 的「API 認證」區域中即可找到認證。
 1. 按一下「**下一步**」。
 1. 在選取產品設定檔頁面上，選取包括您要連接之 Frame.io 帳戶的產品設定檔。
 1. 按一下「**儲存已設定的 API**」。
@@ -247,7 +250,7 @@ Frame.io 連接器會使用以下項目：
 
 >[!NOTE]
 >
-> 我們建議您在 Adobe Workfront Fusion 中開始設定連線時，保持此視窗開啟。您可以複製用戶端 ID，並從這個頁面檢索及複製用戶端密碼，將其貼上到連線欄位。
+> 我們建議您在 Adobe Workfront Fusion 中開始設定連線時，保持此視窗開啟。 您可以複製用戶端 ID，並從這個頁面檢索及複製用戶端密碼，將其貼上到連線欄位。
 
 
 #### 設定伺服器對伺服器連線
@@ -276,11 +279,11 @@ Frame.io 連接器會使用以下項目：
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>關於建立認證的說明，請參閱這篇文章中的<a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立伺服器對伺服器認證</a>。</p></td>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>關於建立認證的說明，請參閱這篇文章中的<a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立伺服器對伺服器認證</a>。</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>關於建立認證的說明，請參閱這篇文章中的<a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立伺服器對伺服器認證</a>。</p>
+          <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。<p>關於建立認證的說明，請參閱這篇文章中的<a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref">在 Adobe Developer Console 中建立伺服器對伺服器認證</a>。</p>
         </tr>
        </tbody>
     </table>
@@ -291,9 +294,9 @@ Frame.io 連接器會使用以下項目：
 
 ## [!DNL Frame.io] 模組及其欄位
 
-當您設定 [!DNL Frame.io] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Frame.io] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Frame.io] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Frame.io] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -317,7 +320,7 @@ Frame.io 連接器會使用以下項目：
 
 #### [!UICONTROL 建立資產] <!--different for v4-->
 
-此動作模組會建立新資產。您可以上傳本機檔案，或提供 URL，以便使用遠端檔案來建立資產。
+此動作模組會建立新資產。 您可以上傳本機檔案，或提供 URL，以便使用遠端檔案來建立資產。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -893,7 +896,8 @@ Frame.io 連接器會使用以下項目：
   </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL 傳回專案的最大數量] </td> 
-   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大專案數量。</p> </td> 
+   <td> <p>輸入或對應最大專案數量
+   您希望模組在每個案例執行週期中傳回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1024,7 +1028,8 @@ Frame.io 連接器會使用以下項目：
   </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL 傳回工作區的最大數量] </td> 
-   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大工作區數量。</p> </td> 
+   <td> <p>輸入或對應工作區的最大數目
+   您希望模組在每個案例執行週期中傳回。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1084,7 +1089,7 @@ Frame.io 連接器會使用以下項目：
   </tr> 
    <tr> 
    <td role="rowheader">欄位定義 ID </td> 
-   <td> <p>輸入或對應要刪除的欄位之 ID。您可以使用列出帳戶層級欄位的模組來尋找欄位 ID。</p> </td> 
+   <td> <p>輸入或對應要刪除的欄位之 ID。 您可以使用列出帳戶層級欄位的模組來尋找欄位 ID。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1157,7 +1162,7 @@ Frame.io 連接器會使用以下項目：
   </tr> 
    <tr> 
    <td role="rowheader">欄位定義 ID </td> 
-   <td> <p>輸入或對應您要更新的欄位之 ID。您可以使用列出帳戶層級欄位的模組來尋找欄位 ID。</p> </td> 
+   <td> <p>輸入或對應您要更新的欄位之 ID。 您可以使用列出帳戶層級欄位的模組來尋找欄位 ID。</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">欄位類型 </td> 
@@ -1201,7 +1206,7 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 值] </td> 
-   <td> <p>針對您要更新其後設資料的每個欄位，請按一下「<b>新增項目</b>」，然後輸入或對應欄位定義的 ID，以及您要輸入該欄位中的值。「檔案 ID」欄位中指定的所有檔案皆會使用此欄位值進行更新。</p> </td> 
+   <td> <p>針對您要更新其後設資料的每個欄位，請按一下「<b>新增項目</b>」，然後輸入或對應欄位定義的 ID，以及您要輸入該欄位中的值。 「檔案 ID」欄位中指定的所有檔案皆會使用此欄位值進行更新。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1227,11 +1232,11 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>輸入相對於 <code>https://api.frame.io</code> 的路徑。範例： <code> /v4/me</code></p> <p>注：如需可用端點的清單，請參閱 [!DNL Frame.io] API 參考資料。</p> </td> 
+   <td> <p>輸入相對於 <code>https://api.frame.io</code> 的路徑。 範例： <code> /v4/me</code></p> <p>注：如需可用端點的清單，請參閱 [!DNL Frame.io] API 參考資料。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 方法]</p> </td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 
@@ -1239,7 +1244,7 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串] </td> 
-   <td> <p>輸入請求查詢字串。對於您要包括在查詢字串中的每個參數，按一下<b>[!UICONTROL 新增項目]</b>，並輸入此欄位的名稱和所需的值。</p> </td> 
+   <td> <p>輸入請求查詢字串。 對於您要包括在查詢字串中的每個參數，按一下<b>[!UICONTROL 新增項目]</b>，並輸入此欄位的名稱和所需的值。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 正文]</td> 

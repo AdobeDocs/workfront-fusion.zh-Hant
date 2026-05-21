@@ -1,13 +1,15 @@
 ---
-title: JSONata模組
+title: JSONata 模組
 description: Adobe Workfront Fusion JSONata聯結器提供處理JSON格式資料的模組，讓Adobe Workfront Fusion可以進一步處理資料內容。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8c117ecb-3c05-47d4-a629-18dbc546e2a2
-source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
+TQID: https://experienceleague.adobe.com/luvZBccaWY5-8muR71o8C82qVROYJvcuAqt3Ol2LZac
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 0%
+source-wordcount: 329
+ht-degree: 28%
 
 ---
 
@@ -15,32 +17,32 @@ ht-degree: 0%
 
 Adobe Workfront Fusion [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。 此模組不需要連線。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -57,15 +59,15 @@ Adobe Workfront Fusion [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 運算式]</td> 
+   <td role="rowheader">[！UICONTROL運算式]</td> 
    <td>輸入您要用來評估JSON物件的運算式。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料] </td> 
+   <td role="rowheader">[！UICONTROL資料] </td> 
    <td> 輸入要評估的JSON物件。  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 字串輸出] </td> 
+   <td role="rowheader">[！UICONTROL字串輸出] </td> 
    <td> 啟用此選項可將輸出轉換為字串。  </td> 
   </tr> 
   </tbody>
@@ -73,7 +75,7 @@ Adobe Workfront Fusion [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。
 
 >[!BEGINSHADEBOX]
 
-**範例**：
+**範例**:
 
 目標是從以下JSON物件傳回名稱陣列：
 
@@ -108,15 +110,15 @@ Adobe Workfront Fusion [!UICONTROL JSONata]聯結器可讓您查詢JSON物件。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>選取您用來連線到要用於此模組的大型語言模型(LLM)的連線。</p> <p>目前僅支援人類API金鑰。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入結構描述]</td> 
+   <td role="rowheader">[！UICONTROL輸入結構描述]</td> 
    <td> <p>輸入或對應要用於此運算式的輸入結構描述。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸出結構描述]</td> 
+   <td role="rowheader">[！UICONTROL輸出結構描述]</td> 
    <td> <p>輸入或對應要用於此運算式的輸出結構描述。</p> </td> 
   </tr> 
  </tbody> 

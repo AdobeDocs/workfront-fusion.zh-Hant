@@ -9,9 +9,12 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b0e9cb38-f16e-487b-9376-50b18549f8f4
-source-git-commit: a48a7f5f6577782dbc043e322a3c769781ffd63b
+TQID: https://experienceleague.adobe.com/78POo32JxhP0AnkTGoCPHXWhyvpo10lyEDVoT2gD2HE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: 333
 ht-degree: 11%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 11%
 
 如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 ## 現在提供圖形連線和模組
 

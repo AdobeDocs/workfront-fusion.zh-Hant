@@ -4,9 +4,11 @@ description: 管理貴組織中的Adobe Workfront Fusion使用者
 author: Becky
 feature: Workfront Fusion
 exl-id: 32c221fa-856b-4921-9fa6-5e60f2aa08cd
-source-git-commit: 3f9390d8947ef2666336c1a4cc6eab8d174849d5
+TQID: https://experienceleague.adobe.com/XdJ9BXb-lRUhJG-8ThzonprCyEEAIk--hKzVlfHJm4Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: 516
 ht-degree: 18%
 
 ---
@@ -52,7 +54,7 @@ Adobe Workfront Fusion管理員可以在Workfront Fusion中管理使用者角色
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

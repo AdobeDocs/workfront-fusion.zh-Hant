@@ -1,67 +1,70 @@
 ---
-title: Google Forms模組
+title: Google Forms 模組
 description: ' [!DNL Adobe Workfront Fusion Google Forms] 模組可讓您監視、選取、新增、更新或刪除Google Forms上的回應。'
 author: Becky
 feature: Workfront Fusion
 exl-id: dc017957-c0f8-4206-916f-21ccda346fb9
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/mH7rS7ZCyRcDWv0F6CFvhZ19FL-sNL0liLT53jeZy54
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 0%
+source-wordcount: 1432
+ht-degree: 20%
 
 ---
 
-# [!DNL Google Forms]模組
+# [!DNL Google Forms] 模組
 
 Adobe Workfront Fusion [!DNL Google Forms]模組可讓您監視、選取、新增、更新或刪除您的[!DNL Google Forms]回應。
 
 若要搭配Adobe Workfront Fusion使用[!DNL Google Docs]，您必須有[!DNL Google]帳戶。 如果您還沒有[!DNL Google]帳戶，您可以在[!DNL Google]帳戶說明頁面建立一個帳戶。
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## 先決條件
 
-若要使用[!DNL Google Forms]模組，您必須有[!DNL Google]帳戶。
+若要使用 [!DNL Google Forms] 模組，您必須擁有 [!DNL Google] 帳戶。
 
 ## Google Forms API資訊
 
@@ -72,7 +75,7 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>2.0.10</td> 
   </tr>
  </tbody> 
@@ -89,13 +92,13 @@ Google Forms聯結器會使用以下專案：
 1. 選取您要建立新的試算表或現有的試算表
 1. 按一下「**[!UICONTROL 建立]**」。
 
-## [!DNL Google Forms]模組及其欄位
+## [!DNL Google Forms] 模組及其欄位
 
-當您設定[!DNL Google Forms]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Google Forms]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL Google Forms] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Google Forms] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [觸發程序](#triggers)
 * [動作](#actions)
@@ -112,33 +115,33 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
+   <td role="rowheader">[！UICONTROL Spreadsheet]</td> 
    <td> <p>選取試算表，其中包含您要監視新回應的表單回應。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 工作表]</td> 
+   <td role="rowheader">[！UICONTROL工作表]</td> 
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 含標題列]</td> 
+   <td role="rowheader">[！UICONTROL含標題列]</td> 
    <td>指定表格的標頭列。 預設列為<code>A1:Z1</code>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 值演算選項]</td> 
+   <td role="rowheader">[！UICONTROL值演算選項]</td> 
    <td> <p>指定要在輸出中呈現值的方式。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 格式化值]</strong> </p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>$1. 23</code>。</p> </li> 
-     <li> <p><strong>[!UICONTROL 未格式化的值]</strong> </p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>1. 23</code> 。</p> </li> 
-     <li> <p><strong>[!UICONTROL 公式]</strong> </p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>=A1</code>。</p> </li> 
+     <li> <p><strong>[！UICONTROL格式化值]</strong> </p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>$1. 23</code>。</p> </li> 
+     <li> <p><strong>[！UICONTROL未格式化的值]</strong> </p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>1. 23</code> 。</p> </li> 
+     <li> <p><strong>[！UICONTROL公式]</strong> </p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>=A1</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 日期和時間轉譯選項]</td> 
-   <td>選取要在輸出中呈現的日期、時間和持續時間。 如果[!UICONTROL Value Render Option]設定為[!UICONTROL 格式值]，則會忽略此欄位。</td> 
+   <td role="rowheader">[！UICONTROL日期和時間轉譯選項]</td> 
+   <td>選取要在輸出中呈現的日期、時間和持續時間。 如果[！UICONTROL Value Render Option]設定為[！UICONTROL格式值]，則會忽略此欄位。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
@@ -164,35 +167,35 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
+   <td role="rowheader">[！UICONTROL Spreadsheet]</td> 
    <td> <p>選取包含您要新增回應之工作表的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 工作表]</td> 
+   <td role="rowheader">[！UICONTROL工作表]</td> 
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL 值]</p> </td> 
-   <td> <p>在工作表欄中輸入所需的值。 根據工作表可使用欄。</p> <p>對於[!UICONTROL Timestamp]欄，請使用下列值：</p><pre>formatDate（現在；DD/MM/YYYY HH：mm；UTC）</pre> </td> 
+   <td> <p>在工作表欄中輸入所需的值。 根據工作表可使用欄。</p> <p>對於[！UICONTROL Timestamp]欄，請使用下列值：</p><pre>formatDate（現在；DD/MM/YYYY HH：mm；UTC）</pre> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 值輸入選項]</td> 
+   <td role="rowheader">[！UICONTROL值輸入選項]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
-     <li> <p><strong>[!UICONTROL 使用者已進入]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
+     <li> <p><strong>[！UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
+     <li> <p><strong>[！UICONTROL使用者已進入]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 插入資料選項]</td> 
+   <td role="rowheader">[！UICONTROL插入資料選項]</td> 
    <td> <p>指定輸入新資料時如何變更現有資料。 </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 覆寫]</strong> </p> <p>新資料會覆寫其寫入區域中的現有資料。 將資料加入工作表結尾會插入新的列或欄，以便寫入資料。</p> </li> 
-     <li> <p><strong>[!UICONTROL 插入列]</strong></p> <p>會為新資料插入列。</p> </li> 
+     <li> <p><strong>[！UICONTROL覆寫]</strong> </p> <p>新資料會覆寫其寫入區域中的現有資料。 將資料加入工作表結尾會插入新的列或欄，以便寫入資料。</p> </li> 
+     <li> <p><strong>[！UICONTROL插入列]</strong></p> <p>會為新資料插入列。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -207,19 +210,19 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
+   <td role="rowheader">[！UICONTROL Spreadsheet]</td> 
    <td> <p>選取包含您要刪除回應之工作表的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 工作表]</td> 
+   <td role="rowheader">[！UICONTROL工作表]</td> 
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 列號]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL列號]</p> </td> 
    <td> <p>輸入或對應您要刪除的列編號。</p> </td> 
   </tr> 
  </tbody> 
@@ -236,19 +239,19 @@ Google Forms聯結器會使用以下專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
+   <td role="rowheader">[！UICONTROL Spreadsheet]</td> 
    <td> <p>選取包含您要更新回應的工作表試算表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 工作表]</td> 
+   <td role="rowheader">[！UICONTROL工作表]</td> 
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 列號]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL列號]</p> </td> 
    <td> <p>輸入或對應您要更新的資料列編號。</p> </td> 
   </tr> 
   <tr> 
@@ -256,11 +259,11 @@ Google Forms聯結器會使用以下專案：
    <td> <p>輸入所需欄的新值。 根據工作表可使用欄。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 值輸入選項]</td> 
+   <td role="rowheader">[！UICONTROL值輸入選項]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
-     <li> <p><strong>[!UICONTROL 使用者已進入]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
+     <li> <p><strong>[！UICONTROL Raw]</strong> </p> <p> 使用者輸入的值不會剖析並依原樣儲存。 </p> </li> 
+     <li> <p><strong>[！UICONTROL使用者已進入]</strong></p> <p>這些值會剖析為使用者在UI中輸入。 數字仍為數字，但字串可能會根據透過[!DNL Google Sheets] UI在儲存格中輸入文字時所套用的相同規則，轉換為數字、日期或其他格式。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -279,19 +282,19 @@ Google Forms聯結器會使用以下專案：
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
-    <td>連接</td>
+    <td>連線</td>
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>[!UICONTROL Spreadsheet]</td>
+    <td>[！UICONTROL Spreadsheet]</td>
    <td> <p>選取您要搜尋的表單。</p> </td> 
   </tr> 
   <tr data-mc-conditions="">
-    <td>[!UICONTROL 工作表] </td>
+    <td>[！UICONTROL工作表] </td>
    <td> <p>選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>[!UICONTROL 欄範圍]</td>
+    <td>[！UICONTROL欄範圍]</td>
    <td> <p> 選取您要搜尋的欄範圍。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -299,28 +302,28 @@ Google Forms聯結器會使用以下專案：
    <td> <p>定義您要搜尋回應依據的篩選器。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>[!UICONTROL 排序順序] </td>
+    <td>[！UICONTROL排序順序] </td>
    <td> <p>選取要以遞增或遞減順序來排序傳回的回應。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>[!UICONTROL Order By]</td>
+    <td>[！UICONTROL Order By]</td>
    <td> <p> 選取要排序傳回回回回應的資料行。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 值演算選項]</td> 
+   <td role="rowheader">[！UICONTROL值演算選項]</td> 
    <td> <p>指定要在輸出中呈現值的方式。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 格式值]</strong></p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>$1. 23</code>。</p> </li> 
-     <li> <p><strong>[!UICONTROL 未格式化的值]</strong> </p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>1. 23</code> 。</p> </li> 
-     <li> <p><strong>[!UICONTROL 公式]</strong> </p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>=A1</code>。</p> </li> 
+     <li> <p><strong>[！UICONTROL格式值]</strong></p> <p>系統會根據儲存格的格式，在回覆中計算值並設定格式。 格式設定是以試算表的地區設定為基礎，而非請求使用者的地區設定。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>$1. 23</code>。</p> </li> 
+     <li> <p><strong>[！UICONTROL未格式化的值]</strong> </p> <p>系統會計算值，但不會在回覆中設定格式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回數字<code>1. 23</code> 。</p> </li> 
+     <li> <p><strong>[！UICONTROL公式]</strong> </p> <p>不會計算值。 回覆包含公式。 例如，如果<code>A1</code>是<code>1. 23</code>，<code>A2 </code>是<code>=A1</code>且已格式化為貨幣，則<code>A2</code>會傳回<code>=A1</code>。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions="">
-    <td>[!UICONTROL 日期和時間轉譯選項]</td>
-    <td>選取要在輸出中呈現的日期、時間和持續時間。 如果[!UICONTROL Value Render]選項設為「格式化值」，則會忽略此欄位。 </td>
+    <td>[！UICONTROL日期和時間轉譯選項]</td>
+    <td>選取要在輸出中呈現的日期、時間和持續時間。 如果[！UICONTROL Value Render]選項設為「格式化值」，則會忽略此欄位。 </td>
   </tr> 
   <tr>
-    <td role="rowheader">[!UICONTROL 傳回回回回應的最大數目]</td>
+    <td role="rowheader">[！UICONTROL傳回回回回應的最大數目]</td>
    <td> <p> 設定Workfront Fusion在一個週期內傳回的最大回應數。</p> </td> 
   </tr> 
  </tbody> 
@@ -335,23 +338,23 @@ Google Forms聯結器會使用以下專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Connection]</td>
+    <td>[!UICONTROL 連線]</td>
    <td> <p>如需有關將您的[!DNL Google]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref">建立連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr>
-    <td>[!UICONTROL Spreadsheet]</td>
+    <td>[！UICONTROL Spreadsheet]</td>
    <td> <p>選取包含您要搜尋之工作表的試算表。</p> </td> 
   </tr> 
   <tr>
-    <td>[!UICONTROL 工作表]</td>
+    <td>[！UICONTROL工作表]</td>
    <td> <p> 選取包含表單回應的工作表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query]</td> 
+   <td role="rowheader">[！UICONTROL Query]</td> 
    <td> <p>使用<a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts Query Language]</a>定義搜尋查詢。</p> <p>範例： <code>select * where C = "John"</code>會擷取C欄為"John"的資料列的所有值。</p> </td> 
   </tr> 
   <tr>
-    <td>[!UICONTROL 傳回資料列數目上限]</td>
+    <td>[！UICONTROL傳回資料列數目上限]</td>
    <td> <p> 設定Workfront Fusion在一個週期內傳回的最大回應數。</p> </td> 
   </tr> 
  </tbody> 

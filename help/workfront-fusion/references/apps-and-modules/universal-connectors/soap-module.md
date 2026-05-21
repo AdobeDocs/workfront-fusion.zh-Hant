@@ -4,10 +4,14 @@ description: 您可以使用SOAP模組來連線至Adobe Workfront Fusion中的SO
 author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
-source-git-commit: d4bdc4005a3b7b22d64adc8ca1d20bcf534ddfd1
+TQID: https://experienceleague.adobe.com/MIMXln44-LWfrQf0w-lZXfZJ3020Flty2CgwSC3JI9c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 0%
+source-wordcount: 647
+ht-degree: 26%
 
 ---
 
@@ -25,51 +29,51 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
 
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## SOAP模組及其欄位
 
-設定SOAP模組時，Workfront Fusion會顯示下列欄位。  模組中的粗體標題表示必填欄位。
+設定SOAP模組時，Workfront Fusion會顯示下列欄位。  在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 ### 執行SOAP動作
 
@@ -82,19 +86,19 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL WSDL]</td> 
+   <td>[！UICONTROL WSDL]</td> 
    <td> 選取您希望模組使用的WSDL。 若要建立WSDL，請按一下欄位旁的<b>新增</b>並填寫欄位。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL HTTP標頭]</td> 
+   <td>[！UICONTROL HTTP標頭]</td> 
    <td> 針對您想要新增的每個HTTP標頭，按一下<b>新增專案</b>並輸入標頭的名稱和值。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL SOAP headers]</td> 
+   <td>[！UICONTROL SOAP headers]</td> 
    <td> 針對您要新增的每個SOAP標頭，按一下<b>新增專案</b>並輸入標頭的名稱、值、名稱空間及XMLNS。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Force SOAP headers]</td> 
+   <td>[！UICONTROL Force SOAP headers]</td> 
    <td> 啟用此選項以設定SOAP 1.2的標頭。 </td> 
   </tr> 
   </tbody> 
@@ -132,7 +136,7 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
 </complexType>
 ```
 
-此範例包含`soapenc:Array`Workfront Fusion`soapenc:arrayType`尚未支援的`wsdl:arrayType`、[!UICONTROL 和]參考。
+此範例包含[!UICONTROL Workfront Fusion]尚未支援的`soapenc:Array`、`soapenc:arrayType`和`wsdl:arrayType`參考。
 
 >[!ENDSHADEBOX]
 
@@ -150,19 +154,19 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 方法]</td> 
-      <td> <p>[!UICONTROL POST]</p> </td> 
+      <td> <p>[！UICONTROL POST]</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 主體型別]</td> 
-      <td> <p>[!UICONTROL Raw]</p> </td>
+      <td role="rowheader">[！UICONTROL主體型別]</td> 
+      <td> <p>[！UICONTROL Raw]</p> </td>
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 內容型別]</td> 
-      <td> <p>[!UICONTROL XML (application/xml)]</p> </td> 
+      <td role="rowheader">[！UICONTROL內容型別]</td> 
+      <td> <p>[！UICONTROL XML (application/xml)]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 剖析回應]</td> 
-      <td>[!UICONTROL 已啟用]</td> 
+      <td role="rowheader">[！UICONTROL剖析回應]</td> 
+      <td>[！UICONTROL已啟用]</td> 
      </tr> 
     </tbody> 
    </table>

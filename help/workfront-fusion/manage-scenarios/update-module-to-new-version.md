@@ -4,10 +4,12 @@ description: 由於Workfront Fusion連線到的應用程式可能會更新或發
 author: Becky
 feature: Workfront Fusion
 exl-id: b7f07fa5-9d81-48b3-b0ce-7a18b3b44508
-source-git-commit: 93d06cb917680f9cabc1bad6be0f9cd843449d07
+TQID: https://experienceleague.adobe.com/UZ0f1dI1YPiM9C7dYJYyCg0dhd5F025yG10K5-M5YrM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 2%
+source-wordcount: 373
+ht-degree: 27%
 
 ---
 
@@ -21,32 +23,32 @@ ht-degree: 2%
 
 您可以更新模組而不建立新情境。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -56,9 +58,9 @@ ht-degree: 2%
    ![更新圖示](assets/update-indicator-workfront.png)
 1. 選擇下列其中一項：
 
-   * 若要選取新的模組來取代此模組（而非升級模組），請按一下[選擇新的] **，然後按照[將非Workfront模組升級為新版本]**&#x200B;中的說明繼續進行。[&#128279;](#upgrade-a-non-workfront-module-to-a-new-version)
-   * 若要僅升級此模組，保留模組組態，請按一下[升級]。**&#x200B;**
-   * 若要升級案例中的所有Workfront模組，請按一下[全部升級]。**&#x200B;**
+   * 若要選取新的模組來取代此模組（而非升級模組），請按一下[選擇新的] **，然後按照[將非Workfront模組升級為新版本] [中的說明繼續進行。](#upgrade-a-non-workfront-module-to-a-new-version)**
+   * 若要僅升級此模組，保留模組組態，請按一下[升級]。****
+   * 若要升級案例中的所有Workfront模組，請按一下[全部升級]。****
 
 1. 儲存情境。
 

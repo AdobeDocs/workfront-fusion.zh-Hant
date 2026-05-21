@@ -1,17 +1,19 @@
 ---
-title: 情境規劃常見問題集
+title: 情境規劃常見問題
 description: 當您開始在Workfront Fusion中建立案例時，本文中的資訊可能會很有用。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6a1d672d-0bd7-4a3a-b96d-6d8b4c97522d
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+TQID: https://experienceleague.adobe.com/PQablbYLDlXlY5mc7qMAXMrXnUeeHA6sSc-aMVHa6HY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 1%
+source-wordcount: 554
+ht-degree: 5%
 
 ---
 
-# 情境規劃常見問題集
+# 情境規劃常見問題
 
 當您開始在Workfront Fusion中建立案例時，本文中的資訊可能會很有用。
 
@@ -21,7 +23,7 @@ ht-degree: 1%
 
 案例會定義Adobe Workfront Fusion要執行的一系列步驟。 對於每個情境，您都可以指定資料來源、要使用的資料，以及處理資料的方式。 Fusion可讓您建立簡單或複雜的情境，以便符合您組織的使用案例。
 
-如需案例的詳細資訊，請參閱[案例概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md)。
+如需關於情境的詳細資訊，請參閱[情境概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md)。
 
 ## 我可以在一個案例中使用多少模組？
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 ### 解答
 
-是。Workfront Fusion可以接收、儲存、轉換、轉換及加密檔案。 Fusion也提供廣泛的內建功能，讓使用者能夠更有效率、創造性地處理檔案中包含的資料。
+是。 Workfront Fusion可以接收、儲存、轉換、轉換及加密檔案。 Fusion也提供廣泛的內建功能，讓使用者能夠更有效率、創造性地處理檔案中包含的資料。
 
 如需在Fusion中使用檔案的詳細資訊，請參閱[在模組之間對應檔案](/help/workfront-fusion/create-scenarios/map-data/map-files.md)。
 
@@ -71,7 +73,7 @@ ht-degree: 1%
 
 連線是您Workfront Fusion帳戶與您要使用的協力廠商服務之間的連結。 可在編輯案例時建立連線。
 
-如需詳細資訊，請參閱[連線總覽](/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md)。
+如需詳細資訊，請參閱[連線概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md)。
 
 ## 什麼是彙總？
 

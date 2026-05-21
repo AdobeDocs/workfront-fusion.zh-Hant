@@ -4,9 +4,12 @@ description: Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 3b445b50-5812-4ded-9788-f467991e0b52
-source-git-commit: 805e3e0d194d0f73caa1455ea1dadf1d799bdc7a
+TQID: https://experienceleague.adobe.com/Jm9c42LodUUcCVvGbXnQwS2lICMNY40y83Ju2SSmzHo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: 1961
 ht-degree: 26%
 
 ---
@@ -48,7 +51,7 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -115,7 +118,7 @@ Airtable聯結器使用下列專案：
 
 您可以指定要在記錄中儲存的資料以及儲存位置。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -179,7 +182,7 @@ Airtable聯結器使用下列專案：
 
 您可以指定記錄的ID和位置。
 
-模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回記錄的 ID 和任何相關欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -282,7 +285,7 @@ Airtable聯結器使用下列專案：
 
 您可以指定記錄的ID，以及要包含的新資料。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -350,7 +353,7 @@ Airtable聯結器使用下列專案：
 
 您可以指定記錄的ID，以及要包含的新資料。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 當您設定此模組時，會顯示下列欄位。
 
@@ -487,7 +490,7 @@ webhook URL需要在Workfront Fusion中產生，然後新增到Airtable中的表
 
 #### 自訂API呼叫
 
-您可以利用此動作模組，對 [!DNL Airtable] API 進行已驗證的自訂呼叫。如此一來，您就可以建立其他 [!DNL Airtable] 模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Airtable] API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 [!DNL Airtable] 模組無法完成的資料流程自動化。
 
 動作以您指定的圖元型別（Allocadia物件型別）為基礎。
 
@@ -503,11 +506,11 @@ webhook URL需要在Workfront Fusion中產生，然後新增到Airtable中的表
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>輸入相對於 <code>https://api.airtable.com/</code> 的路徑。範例：<code>v0/{base}/{table}</code> </td> 
+   <td>輸入相對於 <code>https://api.airtable.com/</code> 的路徑。 範例：<code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">方法</td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">標頭</td> 

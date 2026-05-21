@@ -1,59 +1,62 @@
 ---
-title: Microsoft Word範本模組
+title: Microsoft Word 範本模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Microsoft Word範本的工作流程，並將其連結至多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: a5ba5634-226b-4886-a4f1-3a14948c1605
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/oP6roNkIFZJ3kCdRiE1MtmYuNQFRrcNJRPMESXP-2Sw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 0%
+source-wordcount: 1363
+ht-degree: 13%
 
 ---
 
-# [!DNL Microsoft Word Template]模組
+# [!DNL Microsoft Word Template] 模組
 
-在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Microsoft Word Templates]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Microsoft Word Templates] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -79,7 +82,7 @@ ht-degree: 0%
 
 例如，您可以使用此[!DNL Microsoft Word]範本：
 
-![之前的](/help/workfront-fusion/references/apps-and-modules/assets/word-template-before-filled-350x62.png)Word範本
+](/help/workfront-fusion/references/apps-and-modules/assets/word-template-before-filled-350x62.png)之前的![Word範本
 
 若要建立此檔案：
 
@@ -152,7 +155,7 @@ ht-degree: 0%
 > Eduard Salo, 4445552345
 ```
 
-## [!DNL Microsoft Word Template]模組
+## [!DNL Microsoft Word Template] 模組
 
 這些模組不需要連線。
 
@@ -168,23 +171,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 要取代之文字的開始分隔符號]</td> 
+   <td role="rowheader">[！UICONTROL要取代之文字的開始分隔符號]</td> 
    <td> <p>輸入要標示取代文字開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#91;&#91;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 要取代之文字的結尾分隔符號]</p> </td> 
-   <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入要取代的<code>&#93;&#93;</code> <code>[[replace_me]]</code></p>。 </td> 
+   <td role="rowheader"> <p>[！UICONTROL要取代之文字的結尾分隔符號]</p> </td> 
+   <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入要取代的<code>&#93;&#93;</code> <code>[[replace_me]]</code></p>. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL 來源檔案]</td> 
    <td> <p> 從先前的模組中選取來源檔案，或對應來源檔案的資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">已填寫檔案的[!UICONTROL 名稱]</td> 
+   <td role="rowheader">已填寫檔案的[！UICONTROL名稱]</td> 
    <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 資料來源]</td> 
+   <td role="rowheader">[！UICONTROL資料來源]</td> 
    <td> <p>選取選項以指出您使用的資料來自表單還是原始資料集合（未處理的電腦資料）。</p> </td> 
   </tr> 
   <tr> 
@@ -198,7 +201,7 @@ ht-degree: 0%
     </ul> 
     <p>若要新增專案：</p>
     <ol> 
-     <li> 按一下<b>[!UICONTROL 新增專案]</b>。 </li> 
+     <li> 按一下<b>[！UICONTROL新增專案]</b>。 </li> 
      <li>選取專案的值型別。</li> 
      <li>新增名稱和值。 如需詳細資訊，請參閱本文所選值型別的範例。 
       <ul> 
@@ -226,31 +229,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source模組]</td> 
+   <td role="rowheader">[！UICONTROL Source模組]</td> 
    <td>選取作為文字來源的模組。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 要取代之文字的開始分隔符號]</td> 
+   <td role="rowheader">[！UICONTROL要取代之文字的開始分隔符號]</td> 
    <td> <p>輸入要標示取代文字開頭的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#91;&#91;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 要取代之文字的結尾分隔符號]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL要取代之文字的結尾分隔符號]</p> </td> 
    <td> <p>輸入要標示取代文字結尾的字元。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>輸入<code>&#93;&#93;</code>以取代<code>[[replace_me]]</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Group by]</td> 
+   <td role="rowheader">[！UICONTROL Group by]</td> 
    <td> 定義包含一或多個對應專案的運算式。 彙總資料會以相同運算式的值分隔在「群組」底下。 每個群組都會輸出為個別的組合，其中包含含運算式和彙總文字的索引鍵。 如此一來，您便可將索引鍵用作後續模組中的篩選條件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 在空白彙總後停止處理]</td> 
+   <td role="rowheader">[！UICONTROL在空白彙總後停止處理]</td> 
    <td>啟用此選項可在彙總不含任何組合時停止處理。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL 來源檔案]</td> 
    <td> <p> 從先前的模組中選取來源檔案，或對應來源檔案的資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">已填寫檔案的[!UICONTROL 名稱]</td> 
+   <td role="rowheader">已填寫檔案的[！UICONTROL名稱]</td> 
    <td>輸入目標輸出檔案的檔案名稱（包括副檔名）。</td> 
   </tr> 
   <tr> 
@@ -264,7 +267,7 @@ ht-degree: 0%
     </ul> 
     <p>若要新增專案：</p>
     <ol> 
-     <li> 按一下<b>[!UICONTROL 新增專案]</b>。 </li> 
+     <li> 按一下<b>[！UICONTROL新增專案]</b>。 </li> 
      <li>選取專案的值型別。</li> 
      <li>新增名稱和值。 如需詳細資訊，請參閱本文所選值型別的範例。 
       <ul> 

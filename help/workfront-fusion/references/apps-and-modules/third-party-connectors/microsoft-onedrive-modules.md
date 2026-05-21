@@ -1,65 +1,68 @@
 ---
-title: Microsoft Onedrive模組
+title: Microsoft OneDrive 模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用OneDrive的工作流程，並將其連線到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: d21eafad-9c67-4f42-b718-0aa4223846e6
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+TQID: https://experienceleague.adobe.com/YscMl6qY47zJvwOieRmWg5rW-RaMnQ69R-b0tjB-FA4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '4165'
-ht-degree: 0%
+source-wordcount: 4184
+ht-degree: 11%
 
 ---
 
-# [!DNL Microsoft OneDrive]模組
+# [!DNL Microsoft OneDrive] 模組
 
-在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL OneDrive]的工作流程，並將其連線至多個協力廠商應用程式和服務。
+在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL OneDrive] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 
-如需建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
+關於建立情境的說明，請參閱[建立情境：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)之下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
 ## 先決條件
 
-若要使用[!DNL OneDrive]模組，您必須有[!DNL Microsoft OneDrive]帳戶。
+若要使用 [!DNL OneDrive] 模組，您必須擁有 [!DNL Microsoft OneDrive] 帳戶。
 
 
 
@@ -76,11 +79,11 @@ OneDrive聯結器使用下列專案：
    <td> https://graph.microsoft.com/v1.0 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API版本</td> 
+   <td role="rowheader">API 版本</td> 
    <td> v1 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v2.0.10</td> 
   </tr>
  </tbody> 
@@ -97,13 +100,13 @@ OneDrive聯結器使用下列專案：
 >
 >例如，如果使用者擁有透過Excel聯結器授予的「讀取表格」許可權，然後在Outlook聯結器中建立連線以讀取電子郵件，則許可權同意畫面會顯示已授予的「讀取表格」許可權和新要求的「寫入電子郵件」許可權。
 
-## [!DNL Microsoft OneDrive]模組及其欄位
+## [!DNL Microsoft OneDrive] 模組及其欄位
 
-當您設定[!DNL OneDrive]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL OneDrive]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定 [!DNL OneDrive] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL OneDrive] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [檔案/資料夾](#filefolder)
 * [其他](#other)
@@ -130,73 +133,73 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入（檔案ID和檔案路徑）]</td> 
+   <td role="rowheader">[！UICONTROL輸入（檔案ID和檔案路徑）]</td> 
    <td>選取您要依「檔案ID」或「檔案路徑」來識別檔案。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入檔案識別碼] / [!UICONTROL 檔案路徑]</td> 
+   <td role="rowheader">[！UICONTROL輸入檔案識別碼] / [！UICONTROL檔案路徑]</td> 
    <td> <p>選取您要如何輸入「檔案ID」或「檔案路徑」：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
-     <li> <p><b>[!UICONTROL 從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
+     <li> <p><b>[！UICONTROL手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
+     <li> <p><b>[！UICONTROL從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取包含您要複製之檔案的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入包含您要複製之檔案或資料夾的磁碟機識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入包含您要複製之檔案或資料夾的磁碟機識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取包含您要移動之檔案的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要複製之檔案的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取包含您要移動之檔案的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要複製之檔案的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取或對應包含您要複製之檔案的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取或對應包含您要複製之檔案的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL 檔案] / [!UICONTROL 檔案識別碼] / [!UICONTROL 檔案路徑]</p> </td> 
-   <td> <p>如果您選取[!UICONTROL Enter Manually]，請輸入或對應您要複製之檔案的ID或路徑。</p> <p>如果您從清單中選取「選取」，請選取要複製的檔案。</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[！UICONTROL檔案] / [！UICONTROL檔案識別碼] / [！UICONTROL檔案路徑]</p> </td> 
+   <td> <p>如果您選取[！UICONTROL Enter Manually]，請輸入或對應您要複製之檔案的ID或路徑。</p> <p>如果您從清單中選取「選取」，請選取要複製的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入新資料夾位置]</td> 
+   <td role="rowheader">[！UICONTROL輸入新資料夾位置]</td> 
    <td> <p>選取要輸入檔案複製目標位置的方式：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
-     <li> <p><b>[!UICONTROL 從清單中選取]</b> </p> <p>如果您想要從可用資料夾清單中選取，請選取此選項。 </p> </li> 
+     <li> <p><b>[！UICONTROL手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
+     <li> <p><b>[！UICONTROL從清單中選取]</b> </p> <p>如果您想要從可用資料夾清單中選取，請選取此選項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新OneDrive位置]</td> 
+   <td role="rowheader">[！UICONTROL新OneDrive位置]</td> 
    <td> <p>選取您要複製檔案管理員的位置。 如果您選擇從清單中選取新資料夾位置，則此選項可供使用。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入您要複製檔案之磁碟機的識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入您要複製檔案之磁碟機的識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取您要複製檔案的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取您要複製檔案的磁碟機所在的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取您要複製檔案的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取您要複製檔案的磁碟機所在的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取或對應包含您要複製檔案之資料夾的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> <p>如果您將此保留為空白，則檔案或資料夾只能複製到相同的[!UICONTROL OneDrive]中。</p> <p>您可以將檔案和資料夾從[!UICONTROL 我的磁碟機]複製到[!UICONTROL 網站的磁碟機]或[!UICONTROL 群組的磁碟機]。 </p> <p>您只能將檔案從[!UICONTROL 網站的磁碟機]複製到相同網站的相同磁碟機。</p> <p>您只能將檔案從[!UICONTROL 群組的磁碟機]複製到相同群組中的相同磁碟機。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取或對應包含您要複製檔案之資料夾的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> <p>如果您將此保留為空白，則檔案或資料夾只能複製到相同的[！UICONTROL OneDrive]中。</p> <p>您可以將檔案和資料夾從[！UICONTROL我的磁碟機]複製到[！UICONTROL網站的磁碟機]或[！UICONTROL群組的磁碟機]。 </p> <p>您只能將檔案從[！UICONTROL網站的磁碟機]複製到相同網站的相同磁碟機。</p> <p>您只能將檔案從[！UICONTROL群組的磁碟機]複製到相同群組中的相同磁碟機。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 資料夾]</td> 
    <td>輸入或對應您要移動復本或資料夾的資料夾。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新複製的檔案名稱]</td> 
+   <td role="rowheader">[！UICONTROL新複製的檔案名稱]</td> 
    <td> <p>輸入或對應檔案新復本的名稱。 如果您不想變更原始檔案名稱，可以保留空白。</p> <p>名稱必須包含副檔名。 範例： <code>file.txt</code></p> </td> 
   </tr> 
  </tbody> 
@@ -211,36 +214,36 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要建立資料夾的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>選取您要建立資料夾的磁碟機。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>選取您要建立資料夾的磁碟機。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取您要建立資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取擁有您要建立資料夾之磁碟機的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取您要建立資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取擁有您要建立資料夾之磁碟機的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取您要建立資料夾的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取您要建立資料夾的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 資料夾]</td> 
    <td>如果您希望新資料夾是子資料夾，請瀏覽至您希望它成為子資料夾的資料夾。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新資料夾名稱]</td> 
+   <td role="rowheader">[！UICONTROL新資料夾名稱]</td> 
    <td> <p>輸入或對應新資料夾的名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ，如果存在相同名稱的資料夾]</td> 
+   <td role="rowheader">[！UICONTROL，如果存在相同名稱的資料夾]</td> 
    <td>選取當同名檔案已存在時如何繼續。</td> 
   </tr> 
  </tbody> 
@@ -255,45 +258,45 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入（檔案/資料夾ID和路徑）]</td> 
+   <td role="rowheader">[！UICONTROL輸入（檔案/資料夾ID和路徑）]</td> 
    <td>選取您要依「檔案ID」或「檔案路徑」來識別檔案。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入檔案/資料夾識別碼/輸入檔案/資料夾路徑]</td> 
+   <td role="rowheader">[！UICONTROL輸入檔案/資料夾識別碼/輸入檔案/資料夾路徑]</td> 
    <td> <p>選取您要如何輸入「檔案ID」或「檔案路徑」：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
-     <li> <p><b>[!UICONTROL 從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
+     <li> <p><b>[！UICONTROL手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
+     <li> <p><b>[！UICONTROL從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要搜尋的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入包含您要刪除之檔案或資料夾的磁碟機識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入包含您要刪除之檔案或資料夾的磁碟機識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取包含您要刪除之檔案或資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要刪除之檔案或資料夾的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取包含您要刪除之檔案或資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要刪除之檔案或資料夾的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取或對應包含您要刪除之檔案或資料夾的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取或對應包含您要刪除之檔案或資料夾的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">選取[!UICONTROL 檔案/資料夾]</td> 
+   <td role="rowheader">選取[！UICONTROL檔案/資料夾]</td> 
    <td>選取您要刪除檔案還是資料夾。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案] / [!UICONTROL 檔案識別碼] / [!UICONTROL 檔案路徑]</td>
-   <td> <p>如果您選取[!UICONTROL 手動輸入]，請輸入或對應您要刪除之檔案的檔案ID或路徑。</p> <p>如果您從清單中選取[!UICONTROL 選取]，請選取您要刪除的檔案。</p> </td> 
+   <td role="rowheader">[！UICONTROL檔案] / [！UICONTROL檔案識別碼] / [！UICONTROL檔案路徑]</td>
+   <td> <p>如果您選取[！UICONTROL手動輸入]，請輸入或對應您要刪除之檔案的檔案ID或路徑。</p> <p>如果您從清單中選取[！UICONTROL選取]，請選取您要刪除的檔案。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -307,44 +310,44 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入（檔案ID和檔案路徑）]</td> 
+   <td role="rowheader">[！UICONTROL輸入（檔案ID和檔案路徑）]</td> 
    <td>選取您要依「檔案ID」或「檔案路徑」來識別檔案。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">輸入檔案ID /檔案路徑</td> 
    <td> <p>選取您要如何輸入「檔案ID」或「檔案路徑」：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
-     <li> <p><b>[!UICONTROL 從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
+     <li> <p><b>[！UICONTROL手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
+     <li> <p><b>[！UICONTROL從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要包含要下載之檔案的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入包含您要下載之檔案的磁碟機識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入包含您要下載之檔案的磁碟機識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取包含您要下載之檔案的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取磁碟機包含要下載之檔案的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取包含您要下載之檔案的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取磁碟機包含要下載之檔案的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取或對應包含您要下載之檔案的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取或對應包含您要下載之檔案的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案] / [!UICONTROL 檔案識別碼] / [!UICONTROL 檔案路徑]</td>
-   <td> <p>如果您選取[!UICONTROL Enter Manually]，請輸入或對應您要下載的檔案識別碼或路徑。</p> <p>如果您選取了[!UICONTROL 從清單中選取]，請選取您要下載的檔案。</p> </td> 
+   <td role="rowheader">[！UICONTROL檔案] / [！UICONTROL檔案識別碼] / [！UICONTROL檔案路徑]</td>
+   <td> <p>如果您選取[！UICONTROL Enter Manually]，請輸入或對應您要下載的檔案識別碼或路徑。</p> <p>如果您選取了[！UICONTROL從清單中選取]，請選取您要下載的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 轉換為PDF]</td> 
+   <td role="rowheader">[！UICONTROL轉換為PDF]</td> 
    <td> <p>啟用此選項以將檔案轉換為PDF檔案。 您可以從下列檔案型別轉換：</p> 
     <table style="table-layout:auto"> 
      <col> 
@@ -395,41 +398,41 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入（檔案ID和檔案路徑）]</td> 
+   <td role="rowheader">[！UICONTROL輸入（檔案ID和檔案路徑）]</td> 
    <td>選取您要依「檔案ID」或「檔案路徑」來識別檔案。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入檔案識別碼] / [!UICONTROL 檔案路徑]</td> 
+   <td role="rowheader">[！UICONTROL輸入檔案識別碼] / [！UICONTROL檔案路徑]</td> 
    <td> <p>選取您要如何輸入「檔案ID」或「檔案路徑」：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
-     <li> <p><b>[!UICONTROL 從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
+     <li> <p><b>[！UICONTROL手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
+     <li> <p><b>[！UICONTROL從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要搜尋的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入包含您要取得之檔案的磁碟機識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入包含您要取得之檔案的磁碟機識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取包含您要取得之檔案的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要取得之檔案的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取包含您要取得之檔案的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要取得之檔案的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取或對應包含您要取得之檔案的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取或對應包含您要取得之檔案的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案] / [!UICONTROL 檔案識別碼] / [!UICONTROL 檔案路徑]</td> 
-   <td> <p>如果您選取[!UICONTROL 手動輸入]，請輸入或對應您要取得之檔案的檔案ID或路徑。</p> <p>如果您選取了[!UICONTROL 從清單中選取]，請選取您要取得的檔案。</p> </td> 
+   <td role="rowheader">[！UICONTROL檔案] / [！UICONTROL檔案識別碼] / [！UICONTROL檔案路徑]</td> 
+   <td> <p>如果您選取[！UICONTROL手動輸入]，請輸入或對應您要取得之檔案的檔案ID或路徑。</p> <p>如果您選取了[！UICONTROL從清單中選取]，請選取您要取得的檔案。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -443,48 +446,48 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入（檔案ID和檔案路徑）]</td> 
+   <td role="rowheader">[！UICONTROL輸入（檔案ID和檔案路徑）]</td> 
    <td>選取您要依「檔案ID」或「檔案路徑」來識別檔案。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入檔案識別碼] / [!UICONTROL 檔案路徑]</td> 
+   <td role="rowheader">[！UICONTROL輸入檔案識別碼] / [！UICONTROL檔案路徑]</td> 
    <td> <p>選取您要如何輸入「檔案ID」或「檔案路徑」：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
-     <li> <p><b>[!UICONTROL 從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
+     <li> <p><b>[！UICONTROL手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
+     <li> <p><b>[！UICONTROL從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要擷取共用連結的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入包含您要擷取共用連結之檔案的磁碟機識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入包含您要擷取共用連結之檔案的磁碟機識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取包含您要擷取共用連結之檔案的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要擷取共用連結之檔案的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取包含您要擷取共用連結之檔案的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要擷取共用連結之檔案的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取或對應包含您要擷取共用連結之檔案的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取或對應包含您要擷取共用連結之檔案的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案] / [!UICONTROL 檔案識別碼] / [!UICONTROL 檔案路徑]</td> 
-   <td> <p>如果您選取[!UICONTROL 手動輸入]，請輸入或對應您要擷取共用連結之檔案的檔案ID或路徑。</p> <p>如果您從清單中選取[!UICONTROL 選取]，請選取您要擷取共用連結的檔案。</p> </td> 
+   <td role="rowheader">[！UICONTROL檔案] / [！UICONTROL檔案識別碼] / [！UICONTROL檔案路徑]</td> 
+   <td> <p>如果您選取[！UICONTROL手動輸入]，請輸入或對應您要擷取共用連結之檔案的檔案ID或路徑。</p> <p>如果您從清單中選取[！UICONTROL選取]，請選取您要擷取共用連結的檔案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 許可權型別]</td> 
+   <td role="rowheader">[！UICONTROL許可權型別]</td> 
    <td> <p>選取您希望擁有連結的人員能夠讀取和寫入檔案，還是唯讀。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 範圍]</td> 
+   <td role="rowheader">[！UICONTROL範圍]</td> 
    <td>選取您希望檔案可供擁有該連結的任何人使用，還是僅供擁有該連結的組織成員使用。</td> 
   </tr> 
  </tbody> 
@@ -499,70 +502,70 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入（檔案ID和檔案路徑）]</td> 
+   <td role="rowheader">[！UICONTROL輸入（檔案ID和檔案路徑）]</td> 
    <td>選取您要依「檔案ID」或「檔案路徑」來識別檔案。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入檔案ID /檔案路徑]</td> 
+   <td role="rowheader">[！UICONTROL輸入檔案ID /檔案路徑]</td> 
    <td> <p>選取您要如何輸入「檔案ID」或「檔案路徑」：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
-     <li> <p><b>[!UICONTROL 從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
+     <li> <p><b>[！UICONTROL手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
+     <li> <p><b>[！UICONTROL從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取包含您要移動之檔案或資料夾的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入包含您要移動之檔案或資料夾的磁碟機識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入包含您要移動之檔案或資料夾的磁碟機識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取包含您要移動之檔案或資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要移動之檔案或資料夾的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取包含您要移動之檔案或資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取其磁碟機包含您要移動之檔案或資料夾的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取或對應包含您要移動之檔案或資料夾的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取或對應包含您要移動之檔案或資料夾的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">選取[!UICONTROL 檔案/資料夾]</td> 
+   <td role="rowheader">選取[！UICONTROL檔案/資料夾]</td> 
    <td>選取您要移動檔案還是資料夾。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL 檔案] / [!UICONTROL 檔案識別碼] / [!UICONTROL 檔案路徑]</p> <p role="rowheader">[!UICONTROL 資料夾] / [!UICONTROL 資料夾識別碼] / [!UICONTROL 資料夾路徑]</p> </td> 
-   <td> <p>如果您選取[!UICONTROL 手動輸入]，請輸入或對應您要移動之檔案或資料夾的ID或路徑。</p> <p>如果您從清單中選取[!UICONTROL 選取]，請選取您要移動的檔案或資料夾。</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[！UICONTROL檔案] / [！UICONTROL檔案識別碼] / [！UICONTROL檔案路徑]</p> <p role="rowheader">[！UICONTROL資料夾] / [！UICONTROL資料夾識別碼] / [！UICONTROL資料夾路徑]</p> </td> 
+   <td> <p>如果您選取[！UICONTROL手動輸入]，請輸入或對應您要移動之檔案或資料夾的ID或路徑。</p> <p>如果您從清單中選取[！UICONTROL選取]，請選取您要移動的檔案或資料夾。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 輸入新資料夾位置]</td> 
+   <td role="rowheader">[！UICONTROL輸入新資料夾位置]</td> 
    <td> <p>選取要如何輸入您要移動檔案或資料夾的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
-     <li> <p><b>[!UICONTROL 從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
+     <li> <p><b>[！UICONTROL手動輸入]</b> </p> <p>如果您想要直接輸入ID或路徑，或是從先前的模組進行對應，請選取此選項。</p> </li> 
+     <li> <p><b>[！UICONTROL從清單中選取]</b> </p> <p>如果您要從可用檔案或路徑清單中選取，請選取此選項。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要移動檔案或資料夾的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入您要移動檔案或資料夾的磁碟機識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入您要移動檔案或資料夾的磁碟機識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取您要移動檔案或資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取您要移動檔案或資料夾之磁碟機的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取您要移動檔案或資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取您要移動檔案或資料夾之磁碟機的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取或對應包含您要移動檔案或資料夾之資料夾的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> <p>如果您將此保留為空白，則檔案或資料夾只能在同一[!DNL OneDrive]中移動。</p> <p>您可以將檔案和資料夾從[!UICONTROL 我的磁碟機]移動到[!UICONTROL 網站的磁碟機]或[!UICONTROL 群組的磁碟機]。 </p> <p>您只能將檔案從[!UICONTROL 網站的磁碟機]移至相同網站的相同磁碟機。</p> <p>您只能將檔案從[!UICONTROL 群組的磁碟機]移至相同群組中的相同磁碟機。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取或對應包含您要移動檔案或資料夾之資料夾的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> <p>如果您將此保留為空白，則檔案或資料夾只能在同一[!DNL OneDrive]中移動。</p> <p>您可以將檔案和資料夾從[！UICONTROL我的磁碟機]移動到[！UICONTROL網站的磁碟機]或[！UICONTROL群組的磁碟機]。 </p> <p>您只能將檔案從[！UICONTROL網站的磁碟機]移至相同網站的相同磁碟機。</p> <p>您只能將檔案從[！UICONTROL群組的磁碟機]移至相同群組中的相同磁碟機。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 資料夾]</td> 
@@ -580,30 +583,30 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要搜尋的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入您希望模組搜尋的磁碟機識別碼。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> <p>導覽至您要模組搜尋的資料夾。 您也可以輸入查詢來篩選傳回的結果。</p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入您希望模組搜尋的磁碟機識別碼。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> <p>導覽至您要模組搜尋的資料夾。 您也可以輸入查詢來篩選傳回的結果。</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 與我共用]</b> </p> <p>模組會搜尋與磁碟機擁有者共用的檔案。</p> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取您要模組搜尋的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取您要模組搜尋其磁碟機的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL與我共用]</b> </p> <p>模組會搜尋與磁碟機擁有者共用的檔案。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取您要模組搜尋的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取您要模組搜尋其磁碟機的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇專案型別]</td> 
-   <td> <p>選取您要搜尋檔案、資料夾或兩者。</p> <p>注意：您無法在[!UICONTROL 與我共用]磁碟機中搜尋資料夾。</p> </td> 
+   <td role="rowheader">[！UICONTROL選擇專案型別]</td> 
+   <td> <p>選取您要搜尋檔案、資料夾或兩者。</p> <p>注意：您無法在[！UICONTROL與我共用]磁碟機中搜尋資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -617,7 +620,7 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
@@ -625,28 +628,28 @@ OneDrive聯結器使用下列專案：
    <td>選取您要依ID或路徑識別目標資料夾。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要上傳檔案的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>選取包含您要取得之檔案的磁碟機。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>選取包含您要取得之檔案的磁碟機。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取包含您要上傳檔案之資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取其磁碟機包含要上傳檔案之資料夾的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取包含您要上傳檔案之資料夾的[!DNL SharePoint]網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取其磁碟機包含要上傳檔案之資料夾的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 磁碟機ID]</td> 
-   <td> <p>選取包含您要上傳檔案之資料夾的磁碟機。 如果您在[!UICONTROL 啟用輸入磁碟機ID]欄位中選取[!UICONTROL 否]，則無法使用此欄位。</p> </td> 
+   <td role="rowheader">[！UICONTROL磁碟機ID]</td> 
+   <td> <p>選取包含您要上傳檔案之資料夾的磁碟機。 如果您在[！UICONTROL啟用輸入磁碟機ID]欄位中選取[！UICONTROL否]，則無法使用此欄位。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source檔案]</td> 
+   <td role="rowheader">[!UICONTROL 來源檔案]</td> 
    <td> <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ，如果存在相同名稱的檔案]</td> 
+   <td role="rowheader">[！UICONTROL，如果存在相同名稱的檔案]</td> 
    <td>選取當同名檔案已存在時如何繼續。</td> 
   </tr> 
   <tr> 
@@ -665,38 +668,38 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 監視檔案/資料夾]</td> 
+   <td role="rowheader">[！UICONTROL監視檔案/資料夾]</td> 
    <td> <p>選取您要如何監視檔案或資料夾：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL By Created Time]</b> </p> <p>留意新檔案或資料夾。</p> </li> 
-     <li> <p><b>[!UICONTROL （按更新時間）]</b> </p> <p>留意已更新的現有檔案或資料夾。</p> </li> 
+     <li> <p><b>[！UICONTROL By Created Time]</b> </p> <p>留意新檔案或資料夾。</p> </li> 
+     <li> <p><b>[！UICONTROL （按更新時間）]</b> </p> <p>留意已更新的現有檔案或資料夾。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇您的[!DNL OneDrive]位置]</td> 
+   <td role="rowheader">[！UICONTROL選擇您的[!DNL OneDrive]位置]</td> 
    <td> <p>選取您要觀看的位置：</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
+     <li> <p><b>[！UICONTROL我的磁碟機]</b> </p> <p>選取是否啟用模組以輸入磁碟機ID。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL 是]</b> </p> <p>輸入您要模組觀看的磁碟機ID。</p> </li> 
-       <li> <p><b>[!UICONTROL 號碼]</b> </p> <p>導覽至您要模組觀看的資料夾。 您也可以輸入查詢來篩選傳回的結果。</p> </li> 
+       <li> <p><b>[！UICONTROL是]</b> </p> <p>輸入您要模組觀看的磁碟機ID。</p> </li> 
+       <li> <p><b>[！UICONTROL號碼]</b> </p> <p>導覽至您要模組觀看的資料夾。 您也可以輸入查詢來篩選傳回的結果。</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 與我共用]</b> </p> <p>模組會監視已和磁碟機擁有者共用的檔案。</p> </li> 
-     <li> <p><b>[!UICONTROL 網站的磁碟機]</b> </p> <p>選取您要模組觀看的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
-     <li> <p><b>[!UICONTROL 群組的磁碟機]</b> </p> <p>選取您要模組監視其磁碟機的群組。</p> </li> 
+     <li> <p><b>[！UICONTROL與我共用]</b> </p> <p>模組會監視已和磁碟機擁有者共用的檔案。</p> </li> 
+     <li> <p><b>[！UICONTROL網站的磁碟機]</b> </p> <p>選取您要模組觀看的SharePoint網站。 可用的網站是後面跟著登入使用者的網站。</p> </li> 
+     <li> <p><b>[！UICONTROL群組的磁碟機]</b> </p> <p>選取您要模組監視其磁碟機的群組。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選擇專案型別]</td> 
-   <td> <p>選取您要監視檔案、資料夾或兩者。</p> <p>注意：您無法在[!UICONTROL 與我共用]磁碟機中監視資料夾。</p> </td> 
+   <td role="rowheader">[！UICONTROL選擇專案型別]</td> 
+   <td> <p>選取您要監視檔案、資料夾或兩者。</p> <p>注意：您無法在[！UICONTROL與我共用]磁碟機中監視資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
-   <td> <p>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</p> </td> 
+   <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -714,28 +717,28 @@ OneDrive聯結器使用下列專案：
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
    <td>如需有關將您的[!DNL OneDrive]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>輸入相對於<code>https://graph.microsoft.com</code>的路徑。 範例：<code> /v1.0/me/drive/root/children</code></td> 
+   <td>輸入相對於 <code>https://graph.microsoft.com</code> 的路徑。 範例：<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>以標準JSON物件的形式新增請求的標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
+   <td role="rowheader">[!UICONTROL 標頭]</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 查詢字串]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+   <td role="rowheader">[!UICONTROL 正文]</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

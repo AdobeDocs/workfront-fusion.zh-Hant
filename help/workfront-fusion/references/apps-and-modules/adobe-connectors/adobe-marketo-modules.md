@@ -4,9 +4,12 @@ description: 在 Adobe Workfront Fusion 情境中，您可以將使用  [!DNL Ma
 author: Becky
 feature: Workfront Fusion
 exl-id: da417ac7-e532-45f7-86d9-3643b5f9f203
-source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
-workflow-type: ht
-source-wordcount: '2237'
+TQID: https://experienceleague.adobe.com/7slKvK8YZmGtubvR-n5D2jx7EDqh07td3Ow9n01PXo8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+workflow-type: tm+mt
+source-wordcount: 2255
 ht-degree: 100%
 
 ---
@@ -118,16 +121,16 @@ Marketo 連接器會使用以下內容：
       <tr>
         <td role="rowheader">[!UICONTROL 帳戶/Munchkin ID]</td>
         <td>
-          <p>輸入您的 [!DNL Marketo] 帳戶或者 [!DNL Marketo] [!UICONTROL Munchkin] ID。這是指派至您帳戶的基礎 URL 或端點的獨特部分，而您可以透過 [!DNL Marketo] 的 [!UICONTROL REST] API 進行存取。如需尋找這個帳戶或 Munchkin ID 的說明，請參閱 [!DNL Marketo] 文件中的 [基礎 URL](https://developers.marketo.com/rest-api/base-url/)。</p>
+          <p>輸入您的 [!DNL Marketo] 帳戶或者 [!DNL Marketo] [!UICONTROL Munchkin] ID。 這是指派至您帳戶的基礎 URL 或端點的獨特部分，而您可以透過 [!DNL Marketo] 的 [!UICONTROL REST] API 進行存取。 如需尋找這個帳戶或 Munchkin ID 的說明，請參閱 [!DNL Marketo] 文件中的 [基礎 URL](https://developers.marketo.com/rest-api/base-url/)。</p>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-        <td>輸入您的 Marketo 用戶端 ID。如需找到這個用戶端 ID 的說明，請參閱 [!DNL Marketo] 文件中的 [驗證](https://developers.marketo.com/rest-api/authentication/)。</td>
+        <td>輸入您的 Marketo 用戶端 ID。 如需找到這個用戶端 ID 的說明，請參閱 [!DNL Marketo] 文件中的 [驗證](https://developers.marketo.com/rest-api/authentication/)。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-        <td>輸入您的 Marketo 用戶端密碼。如需尋找這些密碼的說明，請參閱 [!DNL Marketo] 文件中的 [驗證](https://developers.marketo.com/rest-api/authentication/)。</td>
+        <td>輸入您的 Marketo 用戶端密碼。 如需尋找這些密碼的說明，請參閱 [!DNL Marketo] 文件中的 [驗證](https://developers.marketo.com/rest-api/authentication/)。</td>
       </tr>
      </tbody>
     </table>
@@ -136,9 +139,9 @@ Marketo 連接器會使用以下內容：
 
 ## [!DNL Marketo] 模組及其欄位
 
-當您設定 [!DNL Marketo] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Marketo] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Marketo] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Marketo] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -187,7 +190,7 @@ Marketo 連接器會使用以下內容：
    <td> <p>選取您要建立的記錄類型。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 活動]</strong> </p> <p>選取您要監視的活動類型。 </p> <p>此模組只會監視新活動。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 商機]</strong> </p> <p>在「<b>事件類型</b>」欄位中，選取您要監視新記錄、更新的記錄、新記錄以及更新的記錄，或是特定的欄位更新。若您選取監視特定欄位更新，請選取您要模組監視的欄位。</p> </li> 
+     <li> <p><strong>[!UICONTROL 商機]</strong> </p> <p>在「<b>事件類型</b>」欄位中，選取您要監視新記錄、更新的記錄、新記錄以及更新的記錄，或是特定的欄位更新。 若您選取監視特定欄位更新，請選取您要模組監視的欄位。</p> </li> 
      <li> <p><strong>[!UICONTROL 方案]</strong> </p> <p>在「<b>事件類型</b>」欄位中，選取您要監視新記錄、更新的記錄，或新記錄以及更新的記錄。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -217,7 +220,7 @@ Marketo 連接器會使用以下內容：
 
 #### [!UICONTROL 將商機新增至清單]
 
-此動作模組使用商機 ID 將一個或多個商機新增至清單。一次最多可以新增 300 個商機。
+此動作模組使用商機 ID 將一個或多個商機新增至清單。 一次最多可以新增 300 個商機。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -233,7 +236,7 @@ Marketo 連接器會使用以下內容：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 商機 ID]</td> 
-   <td> <p>對於您要新增至清單的每個商機，按一下「<b>[!UICONTROL 新增]</b>」，然後輸入或對應您要新增商機的 ID。您可以為模組新增最多 300 個商機以便加入清單中。</p> <p>按一下「對應切換」，對應您想要新增至清單中的現有商機集合。</p> </td> 
+   <td> <p>對於您要新增至清單的每個商機，按一下「<b>[!UICONTROL 新增]</b>」，然後輸入或對應您要新增商機的 ID。 您可以為模組新增最多 300 個商機以便加入清單中。</p> <p>按一下「對應切換」，對應您想要新增至清單中的現有商機集合。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,7 +327,7 @@ Marketo 連接器會使用以下內容：
 
 #### [!UICONTROL 自訂 API 呼叫]
 
-您可以利用此動作模組，對 [!DNL Marketo] API 進行已驗證的自訂呼叫。如此一來，您就可以建立其他 [!DNL Marketo] 模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Marketo] API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 [!DNL Marketo] 模組無法完成的資料流程自動化。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -340,7 +343,7 @@ Marketo 連接器會使用以下內容：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法]</td> 
-   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 標頭]</td> 
@@ -401,7 +404,7 @@ Marketo 連接器會使用以下內容：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 輸出]</td> 
-   <td>選取要包含在此模組的輸出組合包中的資訊。可用欄位根據您選取的[!UICONTROL 記錄類型]而定。</td> 
+   <td>選取要包含在此模組的輸出組合包中的資訊。 可用欄位根據您選取的[!UICONTROL 記錄類型]而定。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL &lt;物件&gt; ID]</td> 
@@ -412,7 +415,7 @@ Marketo 連接器會使用以下內容：
 
 #### [!UICONTROL 從清單中移除商機]
 
-此動作模組使用商機 ID 從清單中移除一個或多個商機。一次最多可以移除 300 個商機。
+此動作模組使用商機 ID 從清單中移除一個或多個商機。 一次最多可以移除 300 個商機。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -428,7 +431,7 @@ Marketo 連接器會使用以下內容：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 商機 ID]</td> 
-   <td> <p>對於您要從清單移除的每個商機，按一下「<b>[!UICONTROL 新增項目]</b>」，然後輸入或對應您要移除之商機的 ID。您可以為模組新增最多 300 個商機，以便從清單中移除。 </p> <p>按一下「對應切換」，對應您要從清單中移除的現有商機集合。</p> </td> 
+   <td> <p>對於您要從清單移除的每個商機，按一下「<b>[!UICONTROL 新增項目]</b>」，然後輸入或對應您要移除之商機的 ID。 您可以為模組新增最多 300 個商機，以便從清單中移除。 </p> <p>按一下「對應切換」，對應您要從清單中移除的現有商機集合。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -451,7 +454,7 @@ Marketo 連接器會使用以下內容：
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 安排日期]</p> </td> 
-   <td>選取您要執行該行銷活動的日期。若此欄位留空，則行銷活動會在情境開始後 5 分鐘執行。</td> 
+   <td>選取您要執行該行銷活動的日期。 若此欄位留空，則行銷活動會在情境開始後 5 分鐘執行。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -571,7 +574,7 @@ Marketo 連接器會使用以下內容：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 輸出]</td> 
-   <td>選取要包含在此模組的輸出組合包中的資訊。可用欄位根據您選取的[!UICONTROL 記錄類型]而定。</td> 
+   <td>選取要包含在此模組的輸出組合包中的資訊。 可用欄位根據您選取的[!UICONTROL 記錄類型]而定。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
@@ -607,7 +610,7 @@ Marketo 連接器會使用以下內容：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 值]</td> 
-   <td>輸入您要搜尋的欄位的值。若欄位可以搜尋多個值，對於您要搜尋的每個值，按一下「<b>[!UICONTROL 新增項目]</b>」並輸入值。</td> 
+   <td>輸入您要搜尋的欄位的值。 若欄位可以搜尋多個值，對於您要搜尋的每個值，按一下「<b>[!UICONTROL 新增項目]</b>」並輸入值。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 輸出]</td> 

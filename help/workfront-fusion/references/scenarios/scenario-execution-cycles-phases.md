@@ -4,14 +4,16 @@ description: 本文會說明在Adobe Workfront Fusion案例執行時發生的事
 author: Becky
 feature: Workfront Fusion
 exl-id: abf41be5-df32-4eaf-b3f4-93ddf005bfe3
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+TQID: https://experienceleague.adobe.com/QiQVO7jFPtqkI-ZcsG-Cl7slbYmKlY9HHnTW7MyrO7c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 1%
+source-wordcount: 482
+ht-degree: 2%
 
 ---
 
-# 案例執行、週期和階段
+# 情境執行、週期和階段
 
 每個案例執行都從初始化階段開始，接著至少包含一個由作業和認可/復原階段組成的週期，然後結束最終化階段
 
@@ -28,7 +30,7 @@ ht-degree: 1%
    * 認可或回覆
 * 最終處理
 
-在較小規模中，每個模組也會遵循這些階段。 有關模組階段的資訊可在已處理的套件資訊中找到，可在案例執行後每個模組右上角的編號泡泡中找到。 如需尋找已處理套裝資訊的詳細資訊，請參閱案例執行流程文章中有關已處理套裝的資訊[&#128279;](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md#information-about-processed-bundles)。
+在較小規模中，每個模組也會遵循這些階段。 有關模組階段的資訊可在已處理的套件資訊中找到，可在案例執行後每個模組右上角的編號泡泡中找到。 如需尋找已處理套裝資訊的詳細資訊，請參閱案例執行流程文章中有關已處理套裝的資訊[](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md#information-about-processed-bundles)。
 
 較大的案例階段相關資訊可在執行詳細資訊中找到。
 

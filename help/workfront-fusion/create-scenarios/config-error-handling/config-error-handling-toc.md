@@ -6,17 +6,19 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 920fa2d8-96eb-4d1d-a747-f7f3b8a2fb39
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+TQID: https://experienceleague.adobe.com/jSyCT-PE2H8cQ5t-M9zbBhQiMpBJG3STuWcqU7FsNMQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 4%
+source-wordcount: 47
+ht-degree: 38%
 
 ---
 
 # 設定錯誤處理：文章索引
 
 * [新增錯誤處理](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md)
-* [新增篩選和巢狀至錯誤處理路由](/help/workfront-fusion/create-scenarios/config-error-handling/advanced-error-handling.md)
-* [設定 &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md)
-* [設定 &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
-* [解決Break指示詞處理的錯誤](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md)
+* [為錯誤處理路由新增篩選和嵌套功能](/help/workfront-fusion/create-scenarios/config-error-handling/advanced-error-handling.md)
+* [設定`throw`錯誤因應措施](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md)
+* [設定`retry`錯誤處理因應措施](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
+* [解決「中斷」指示詞所處理的錯誤](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md)

@@ -1,13 +1,16 @@
 ---
-title: Adobe Creative Cloud程式庫模組
+title: Adobe Creative Cloud Libraries 模組
 description: 使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] 程式庫模組，您可以在建立或更新元素或程式庫時啟動案例。 您也可以上傳、擷取、封存或列出元素，或呼叫 [!DNL Adobe Creative Cloud Libraries] API。
 author: Becky
 feature: Workfront Fusion
 exl-id: 85607e4e-538a-427f-8a99-a0ab65a75ac2
-source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
+TQID: https://experienceleague.adobe.com/uVGhNEE-KiHbnVa2ZbP5h2rsg5GO2b1uuAkfj8BIJRw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 1%
+source-wordcount: 1416
+ht-degree: 34%
 
 ---
 
@@ -17,47 +20,47 @@ ht-degree: 1%
 
 如果您需要建立案例的指示，請參閱[建立案例：文章索引](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)下的文章。
 
-如需有關模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)下的文章。
+關於模組的資訊，請參閱[模組：文章索引](/help/workfront-fusion/references/modules/modules-toc.md)之下的文章。
 
 >[!IMPORTANT]
 >
 >Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p>任何Adobe Workfront Workflow套件和任何Adobe Workfront自動化與整合套件</p><p>Workfront Ultimate</p><p>Workfront Prime和Select套件，以及額外購買的Workfront Fusion。</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>任何 Adobe Workfront Workflow 封裝及任何 Adobe Workfront Automation and Integration 封裝</p><p>Workfront Ultimate</p><p>Workfront Prime 和 Select 封裝，以及額外購買的 Workfront Fusion。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td> <p>標準</p><p>工作或更高</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p><p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion授權</td> 
+   <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無Workfront Fusion授權需求</p>
-   <p>以聯結器為基礎（舊版）：用於工作自動化和整合的Workfront Fusion </p>
+   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">產品</td> 
    <td>
-   <p>如果您的組織有Select或Prime Workfront套件，但不包含Workfront Automation和Integration，則您的組織必須購買Adobe Workfront Fusion。</li></ul>
+   <p>如果您的組織擁有 Select 或 Prime Workfront 封裝，但不包括 Workfront Automation and Integration，則您的組織必須購買 Adobe Workfront Fusion。</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-如需此表格中資訊的詳細資訊，請參閱檔案[中的](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)存取需求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-如需Adobe Workfront Fusion授權的相關資訊，請參閱[Adobe Workfront Fusion授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
 +++
 
@@ -78,7 +81,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
    <td>https://cc-libraries.adobe.io/api/v1</td> 
   </tr>
   <tr> 
-   <td role="rowheader">API標籤</td> 
+   <td role="rowheader">API 標記</td> 
    <td>v1.1.7</td> 
   </tr>
  </tbody> 
@@ -86,11 +89,11 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
 
 ## [!UICONTROL Adobe Creative Cloud Libraries]模組及其欄位
 
-當您設定[!UICONTROL Adobe Creative Cloud Libraries]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，可能還會顯示其他[!DNL Adobe Creative Cloud Libraries]欄位，視您在應用程式或服務中的存取層級等因素而定。 模組中的粗體標題表示必填欄位。
+當您設定[!UICONTROL Adobe Creative Cloud Libraries]模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Adobe Creative Cloud Libraries] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-如果您在欄位或函式上方看到對應按鈕，則可以使用它來設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
-![地圖切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 
 * [元素](#elements)
@@ -110,7 +113,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
 
 * [[!UICONTROL 上傳元素]](#upload-an-element)
 
-* [[!UICONTROL [在程式庫中監視新元素]]](#watch-new-element-in-library)
+* [！UICONTROL [在程式庫中監視新元素]](#watch-new-element-in-library)
 
 * [[!UICONTROL 觀看更新的元素]](#watch-updated-elements)
 
@@ -124,15 +127,15 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
       <td >選取或對應包含您要封存之元素的程式庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 元素ID]</td>
+      <td role="rowheader">[！UICONTROL元素ID]</td>
       <td>選取或對應您要封存的元素。</td>
     </tr>
   </tbody>
@@ -147,34 +150,34 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
       <td>選取或對應包含您要擷取之元素的程式庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 元素ID]</td>
+      <td role="rowheader">[！UICONTROL元素ID]</td>
       <td>輸入或對應您要擷取之元素的ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 選擇器]</td>
+      <td role="rowheader">[！UICONTROL選擇器]</td>
       <td>
         <p>選取模組傳回的資訊型別。 </p>
         <ul>
           <li>
-            <p><b>[!UICONTROL 預設值]</b>
+            <p><b>[！UICONTROL預設值]</b>
             </p>
             <p>基礎資料</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 詳細資料]</b>
+            <p><b>[！UICONTROL詳細資料]</b>
             </p>
             <p>所有可用資料</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 代表]</b>
+            <p><b>[！UICONTROL代表]</b>
             </p>
             <p>與資料庫元素相關聯的平面化資產清單</p>
           </li>
@@ -193,38 +196,38 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
       <td >選取或對應您要列出其元素的資料庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Order by]</td>
+      <td role="rowheader">[！UICONTROL Order by]</td>
       <td>選取您要依名稱排序結果，還是要依上次修改元素的日期排序。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 型別]</td>
+      <td role="rowheader">[!UICONTROL 類型]</td>
       <td >輸入或對應MIME型別，將結果限製為使用指定MIME型別識別的元素。 範例：<code>string</code>。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 選擇器]</td>
+      <td role="rowheader">[！UICONTROL選擇器]</td>
       <td>
         <p>選取模組傳回的資訊型別。 </p>
         <ul>
           <li>
-            <p><b>[!UICONTROL 預設值]</b>
+            <p><b>[！UICONTROL預設值]</b>
             </p>
             <p>基礎資料</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 詳細資料]</b>
+            <p><b>[！UICONTROL詳細資料]</b>
             </p>
             <p>所有可用資料</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 代表]</b>
+            <p><b>[！UICONTROL代表]</b>
             </p>
             <p>與資料庫元素相關聯的平面化資產清單</p>
           </li>
@@ -233,7 +236,7 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td>
     </tr>
   </tbody>
 </table>
@@ -247,16 +250,16 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
       <td >選取您要監視更新元素的資料庫。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td>
     </tr>
   </tbody>
 </table>
@@ -271,16 +274,16 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
       <td >選取您要監視新元素的資料庫。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td>
     </tr>
   </tbody>
 </table>
@@ -301,12 +304,12 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td>
     </tr>
   </tbody>
 </table>
@@ -320,12 +323,12 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 限制]</td>
-      <td>輸入或對應您希望模組在每個案例執行週期中傳回的最大記錄數。</td>
+      <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td>
     </tr>
   </tbody>
 </table>
@@ -344,29 +347,29 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td> <p>如需有關將Adobe Creative Cloud帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>輸入相對於<code>https://cc-libraries.adobe.io/api</code>的路徑。</p>
+        <p>輸入相對於 <code>https://cc-libraries.adobe.io/api</code> 的路徑。</p>
     <p>例如 <code>/v1/libraries</code>.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL API版本]</td>
+      <td role="rowheader">[！UICONTROL API版本]</td>
       <td>
         <p>選取您要連線的[!DNL Adobe Analytics] API版本。</p>
       </td>
     </tr>    <tr>
       <td role="rowheader">[!UICONTROL 方法]</td>
-      <td> <p>選取設定API呼叫所需的HTTP要求方法。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP要求方法</a>。</p> </td> 
+      <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td role="rowheader">[!UICONTROL 標頭]</td>
       <td>
-        <p>以標準JSON物件的形式新增請求的標頭。</p>
+        <p>以標準 JSON 物件的形式新增要求標頭。</p>
         <p>例如， <code>{"Content-type":"application/json"}</code></p>
         <p>Workfront Fusion會為您新增授權標頭。</p>
       </td>
@@ -374,18 +377,18 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
     <tr>
       <td role="rowheader">[!UICONTROL 查詢字串]</td>
       <td>
-        <p>以標準JSON物件的形式新增API呼叫的查詢。</p>
+        <p>以標準 JSON 物件的形式新增 API 呼叫的查詢。</p>
         <p>例如： <code>{"name":"something-urgent"}</code></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>以標準JSON物件的形式新增API呼叫的內文內容。</p> <p>注意：  <p>在JSON中使用條件陳述式（例如<code>if</code>）時，請將引號放在條件陳述式之外。</p> 
+      <td role="rowheader">[!UICONTROL 正文]</td>
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
        <tr>
-      <td role="rowheader">[!UICONTROL 上傳暫時性檔案]</td>
+      <td role="rowheader">[！UICONTROL上傳暫時性檔案]</td>
       <td>
       <p>如果要上傳暫時性檔案，請輸入要上傳檔案的來源檔案。</p>
       <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p>
@@ -404,45 +407,45 @@ Adobe Creative Cloud Libraries聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL 連線]</td>
       <td>選取現有的Creative Cloud Libraries連線。 Creative Cloud Libraries聯結器目前無法建立連線。 現有連線如預期般運作。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 資料庫ID]</td>
+      <td role="rowheader">[！UICONTROL資料庫ID]</td>
       <td >選取您要上傳資產的資料庫。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 呼叫模式]</td>
+      <td role="rowheader">[！UICONTROL呼叫模式]</td>
       <td>
         <p>選取要用來叫用此要求程式的處理模式。</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL 同步]</b>
+            <p><b>[！UICONTROL同步]</b>
             </p>
             <p>API呼叫會同步處理。 處理完成時會傳送回應（除非呼叫逾時）。</p>
           </li>
           <li>
-            <p><b>[!UICONTROL async]</b>
+            <p><b>[！UICONTROL async]</b>
             </p>
             <p>系統會立即傳回非同步監視器回應，且非同步處理請求。 呼叫負責輪詢端點，直到完成。</p>
           </li>
           <li>
-            <p><b>[!UICONTROL sync，async]</b> （預設）</p>
+            <p><b>[！UICONTROL sync，async]</b> （預設）</p>
             <p>已嘗試同步處理請求。 當處理過程延長超過5000毫秒時，將傳回非同步監視器回應。 應輪詢監視URL，直到請求完成。</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 元素型別]</td>
+      <td role="rowheader">[！UICONTROL元素型別]</td>
       <td >選取您要上傳的元素型別</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 檔案型別]</td>
+      <td role="rowheader">[！UICONTROL檔案型別]</td>
       <td >輸入或對應已上傳檔案的MIME型別。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Source檔案]</td>
+      <td role="rowheader">[!UICONTROL 來源檔案]</td>
       <td>
         <p>從先前的模組中選取來源檔案，或對應來源檔案的名稱和資料。</p>
       </td>

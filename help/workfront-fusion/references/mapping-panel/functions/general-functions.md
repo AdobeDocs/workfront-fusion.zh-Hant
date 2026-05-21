@@ -4,9 +4,11 @@ description: Adobe Workfront Fusion對應面板中有以下一般函式。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6d4b8801-aa7e-47d4-80b3-aceac10c073f
-source-git-commit: 5709c9c0f8efd2c29ff7dbc0391a5b496a467c6a
+TQID: https://experienceleague.adobe.com/1IX25ZtrWVizi5gZJfFw-acnW5eIuXpGgcXgXW0T-Hw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 478
 ht-degree: 6%
 
 ---

@@ -1,19 +1,21 @@
 ---
 title: 檢視組織的效能儀表板
-description: Fusion administrators can view a dashboard that shows execution metrics for an organization.
+description: Fusion管理員可以檢視顯示組織執行度量的控制面板。
 author: Becky
 feature: Workfront Fusion
 exl-id: 8f80f86a-69e5-48a1-9812-87322a4959a6
-source-git-commit: 6762806f17a0fc55531b647a84901b8ca572a997
+TQID: https://experienceleague.adobe.com/tBZCbpImQxY42gOE8e04aQwCJC8EKgrDTIAt6Sw1KaU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 694
 ht-degree: 7%
 
 ---
 
 # 檢視組織的效能儀表板
 
-The Fusion Performance Dashboard allows you to quickly see which scenarios are running the most, where delays are occurring, and how effectively your worker pools are operating. This provides real-time visibility into execution volumes, queue depth, pool utilization, and scenario-level performance.
+Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發生延遲的位置，以及您的背景工作集區的運作成效。 這可提供執行磁碟區、佇列深度、集區使用率和案例層級效能的即時可見度。
 
 ## 存取權要求
 
@@ -40,15 +42,15 @@ The Fusion Performance Dashboard allows you to quickly see which scenarios are r
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
-## Performance dashboard components
+## 效能儀表板元件
 
 >[!NOTE]
 >
->Metrics are shown by worker pool. To view a different worker pool, click the Pool field near the upper-left corner of the dashboard, then select the pool you want to view metrics for.
+>度量會依工作者集區顯示。 若要檢視不同的Worker集區，請按一下控制面板左上角附近的「集區」欄位，然後選取您要檢視量度的集區。
 
 <!--
 
@@ -58,18 +60,18 @@ The Fusion Performance Dashboard allows you to quickly see which scenarios are r
 
 -->
 
-In the Fusion performance dashboard, you can see the following metrics.
+在Fusion效能控制面板中，您可以看到下列量度。
 
-* **Executions waiting to be processed**
-This chart shows the number of executions waiting to be processed (also known as the execution backlog) at a given point in time.
+* **個等待處理的執行**
+此圖表顯示在指定時間點等待處理的執行數目（也稱為執行待處理專案）。
 
-  A high number of executions waiting to be processed may affect performance in your Fusion instance. You will receive a notification if your execution backlog reaches 5000 executions. We recommend identifying responsible scenarios and modifying or disabling them. If the high execution backlog persists, the Fusion team will protect the performance of your Fusion instance by disabling the responsible scenarios.
-* **Pool Utilization**
-This chart shows worker pool utilization over time. If this chart routinely shows worker pool utilization, you may want to assign some scenarios to another pool.
+  等待處理的大量執行可能會影響Fusion執行個體的效能。 如果您的執行待辦專案達到5000個執行，您將會收到通知。 我們建議識別負責的情境，並修改或停用它們。 如果高執行積壓持續存在，Fusion團隊會停用負責的情境，藉此保護Fusion執行個體的效能。
+* **集區使用率**
+此圖表顯示一段時間內的工作者集區使用率。 如果此圖表定期顯示工作者集區使用率，您可能會想要將某些案例指派給另一個集區。
 
-  If a pool is nearing 100% utilization, other resources that use the same pool may be delayed or disrupted. If this occurs, we recommend reassigning a high-usage scenario to another worker pool, or modifying existing scenarios to be less resource intensive.
-* **Executions per scenario**
-This chart displays executions per scenario. Different colors represent different scenarios. When you hover over the chart, a window appears that shows which color is which scenario.
+  如果集區的使用率接近100%，則使用相同集區的其他資源可能會延遲或中斷。 如果發生這種情況，我們建議將高使用率案例重新指派給另一個工作者集區，或將現有案例修改為資源密集度較低的案例。
+* 每個情境有&#x200B;**個執行專案**
+此圖表顯示每個案例的執行次數。 不同的顏色代表不同的情境。 當您將滑鼠停留在圖表上時，會出現一個視窗，顯示哪個顏色是哪個案例。
 
   您可以使用此圖表來識別哪些案例可能會導致執行待處理專案或高工作者集區使用率。
 * **執行期間**

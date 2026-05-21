@@ -5,9 +5,12 @@ description: 在 Adobe Workfront Fusion 情境中，您可以將使用  [!DNL Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 77237a1b-2acd-4350-9cc0-ec43b8b08137
-source-git-commit: 5967d83107337e6567c0bb3974ba4047ed520f11
+TQID: https://experienceleague.adobe.com/b-RlvqOsRRrFZMh8JrPFAS2pigkQP-6ugZ5kZl8AdZ8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: 1063
 ht-degree: 52%
 
 ---
@@ -52,7 +55,7 @@ ht-degree: 52%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -102,15 +105,15 @@ Workday聯結器會使用以下專案：
                 <td>輸入此連線的名稱。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Workday主機]</td>
+                <td  role="rowheader">[！UICONTROL Workday主機]</td>
                 <td>輸入不含<code>https://</code>的[!DNL Workday]主機位址。 例如: <code>mycompany.workday.com</code>。</td>
             </tr>
             <tr>
-                <td role="rowheader">[!UICONTROL 服務URL]</td>
+                <td role="rowheader">[！UICONTROL服務URL]</td>
                 <td>輸入您的[!DNL Workday]網路服務位址（不含<code>https://</code>）。 例如: <code>mycompany-services.workday.com</code>。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL 租使用者名稱稱]</td>
+                <td  role="rowheader">[！UICONTROL租使用者名稱稱]</td>
                 <td>輸入此[!DNL Workday]帳戶的租使用者。 您的租使用者是您組織的識別碼，可在您用來登入Workday的URL中看見。 範例：在地址<code>https://www.myworkday.com/mycompany</code>中，租使用者是<code>mycompany</code>。</td>
             </tr>
             <tr>
@@ -122,7 +125,7 @@ Workday聯結器會使用以下專案：
                 <td>輸入此連線使用的[!DNL Workday]應用程式的使用者端密碼。 當您在[!DNL Workday]中建立應用程式時，就會取得此資訊。</td>
             </tr>
             <tr>
-                <td role="rowheader">[!UICONTROL 工作階段逾時（分鐘）]</td>
+                <td role="rowheader">[！UICONTROL工作階段逾時（分鐘）]</td>
                 <td >輸入您的授權Token過期的分鐘數。</td>
             </tr>
         </tbody>
@@ -176,7 +179,7 @@ Workday聯結器會使用以下專案：
             <td>輸入或對應您要建立的記錄ID。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL 子資源ID]</td>
+            <td role="rowheader">[！UICONTROL子資源ID]</td>
             <td >輸入或對應您要建立之子資源的ID。</td>
         </tr>
     </tbody>
@@ -201,11 +204,11 @@ Workday聯結器會使用以下專案：
             <td>選取您要刪除的記錄型別。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL 特定記錄型別]</td>
+            <td role="rowheader">[！UICONTROL特定記錄型別]</td>
             <td>選取您要刪除的特定記錄型別。 這些是以您選擇的記錄型別為基礎。</td>
         </tr>
         <tr>
-            <td  role="rowheader">[!UICONTROL 子資源ID]</td>
+            <td  role="rowheader">[！UICONTROL子資源ID]</td>
             <td>輸入或對應您要刪除之子資源的ID。</td>
         </tr>
         <tr>
@@ -268,7 +271,7 @@ Workday聯結器會使用以下專案：
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL 連線]</td>
-            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[!UICONTROL 連線[!DNL Workday]到Workfront Fusion]</a></td>
+            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[！UICONTROL連線[!DNL Workday]到Workfront Fusion]</a></td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL 記錄類型]</td>
@@ -279,7 +282,7 @@ Workday聯結器會使用以下專案：
             <td>輸入或對應您要更新之記錄的 ID。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL 子資源ID]</td>
+            <td role="rowheader">[！UICONTROL子資源ID]</td>
             <td >輸入或對應您要更新的子資源ID。</td>
         </tr>
     </tbody>
@@ -304,14 +307,14 @@ Workday聯結器會使用以下專案：
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL 連線]</td>
-            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[!UICONTROL 連線[!DNL Workday]到Workfront Fusion]</a></td>
+            <td>如需有關將您的[!DNL Workday]帳戶連線到Workfront Fusion的說明，請參閱<a href="#Connect" class="MCXref xref" >[！UICONTROL連線[!DNL Workday]到Workfront Fusion]</a></td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL 記錄類型]</td>
             <td>選取您要刪除的記錄型別。</td>
         </tr>
         <tr>
-            <td role="rowheader">[!UICONTROL 特定記錄型別]</td>
+            <td role="rowheader">[！UICONTROL特定記錄型別]</td>
             <td>選取您要讀取的特定記錄型別。 這些是以您選擇的記錄型別為基礎。</td>
         </tr>
         <tr>

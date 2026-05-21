@@ -4,10 +4,13 @@ description: 在 Adobe Workfront Fusion 情境中，您可以將使用  [!DNL Wo
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: 9e556ae5-e672-4872-9c40-8c8e5f0305be
-source-git-commit: a871a130a1ac023dcb4ce8da7241918da2431d3a
+TQID: https://experienceleague.adobe.com/PE6mgMsKjoQLz5JeXx6EN-xYsm-x1DpaIrtHBnRE1PY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '3106'
-ht-degree: 22%
+source-wordcount: 3117
+ht-degree: 23%
 
 ---
 
@@ -48,7 +51,7 @@ ht-degree: 22%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -75,7 +78,7 @@ Workfront Proof聯結器會使用以下專案：
 
 您可以直接從Workfront Fusion模組內建立與您的[!DNL Workfront Proof]帳戶的連線。
 
-1. 在任何Workfront Fusion模組中，按一下&#x200B;[!UICONTROL **連線**]&#x200B;欄位旁的[!UICONTROL 新增]
+1. 在任何Workfront Fusion模組中，按一下[!UICONTROL 連線]欄位旁的&#x200B;[!UICONTROL **新增**]
 
 2. 填寫下列欄位：
 
@@ -98,7 +101,7 @@ Workfront Proof聯結器會使用以下專案：
                 <td>選取這是服務帳戶還是個人帳戶。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL 電子郵件/使用者名稱]</td>
+                <td  role="rowheader">[！UICONTROL電子郵件/使用者名稱]</td>
                 <td>輸入您[!DNL Workfront Proof]帳戶的使用者名稱。</td>
             </tr>
             <tr>
@@ -106,15 +109,15 @@ Workfront Proof聯結器會使用以下專案：
                 <td>輸入您[!DNL Workfront Proof]帳戶的密碼。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL 租使用者ID]</td>
+                <td  role="rowheader">[！UICONTROL租使用者ID]</td>
                 <td><strong>注意</strong>：不使用BYOK的客戶必須將此欄位留空。 <p>輸入此帳戶的租使用者ID。 如果您需要協助尋找租使用者ID，請聯絡Workfront客戶支援。</p></td>
             </tr>
             <tr>
-                <td role="rowheader">[!UICONTROL 網域延伸模組]</td>
+                <td role="rowheader">[！UICONTROL網域延伸模組]</td>
                 <td>輸入您用來存取帳戶之URL的副檔名。 <p>範例： <code>com</code>或 <code>eu</code></p></td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL 生產、預覽或自訂環境]</td>
+                <td  role="rowheader">[！UICONTROL生產、預覽或自訂環境]</td>
                 <td>您要連線的生產、預覽或自訂環境。</td>
             </tr>
         </tbody>
@@ -125,9 +128,9 @@ Workfront Proof聯結器會使用以下專案：
 
 ## [!DNL Workfront Proof] 模組及其欄位
 
-當您設定 [!DNL Workfront Proof] 模組時，Workfront Fusion 會顯示下列欄位。除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Workfront Proof] 欄位。在模組中，粗體標題表示那是必要欄位。
+當您設定 [!DNL Workfront Proof] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL Workfront Proof] 欄位。 在模組中，粗體標題表示那是必要欄位。
 
-若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+若在欄位或函式上方看到對應按鈕，可以使用按鈕設定該欄位的變數和函式。 如需詳細資訊，請參閱[將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -183,7 +186,7 @@ Workfront Proof聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 活動型別]</td> 
+   <td>[！UICONTROL活動型別]</td> 
    <td>選擇您是要觀看任何新決定（包括校訂狀態變更），還是隻想觀看整體校訂狀態變更。</td> 
   </tr> 
   <tr> 
@@ -259,35 +262,35 @@ Workfront Proof聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 校訂型別]</td> 
-   <td> <p>指定您希望建立的校訂具有基本工作流程還是[!UICONTROL 自動化工作流程]。</p> <p>然後填寫針對您選擇的校樣型別顯示的欄位。 例如，如果您選擇[!UICONTROL 自動化工作流程]，請填寫<strong>[!UICONTROL 工作流程階段]</strong>欄位以設定階段。</p></td> 
+   <td>[！UICONTROL校訂型別]</td> 
+   <td> <p>指定您希望建立的校訂具有基本工作流程還是[！UICONTROL自動化工作流程]。</p> <p>然後填寫針對您選擇的校樣型別顯示的欄位。 例如，如果您選擇[！UICONTROL自動化工作流程]，請填寫<strong>[！UICONTROL工作流程階段]</strong>欄位以設定階段。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 允許下載原始檔案]</td> 
+   <td>[！UICONTROL允許下載原始檔案]</td> 
    <td>選取您是否要允許下載建立校樣的原始檔案。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Classic校訂檢視器]</td> 
+   <td>[！UICONTROL Classic校訂檢視器]</td> 
    <td>選取您是否使用傳統校訂檢視器。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 將所有檔案合併為單一校訂]</td> 
+   <td>[！UICONTROL將所有檔案合併為單一校訂]</td> 
    <td>啟用此選項可將所有檔案合併為單一多頁校訂。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 建立新校訂版本]</td> 
-   <td>如果您希望模組建立現有校訂的新版本，請選取此選項。 然後，在顯示的<strong>[!UICONTROL 現有校訂ID]</strong>欄位中，對應或輸入校訂的唯一ID。</td> 
+   <td>[！UICONTROL建立新校訂版本]</td> 
+   <td>如果您希望模組建立現有校訂的新版本，請選取此選項。 然後，在顯示的<strong>[！UICONTROL現有校訂ID]</strong>欄位中，對應或輸入校訂的唯一ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 自訂連結標籤]</td> 
+   <td>[！UICONTROL自訂連結標籤]</td> 
    <td>輸入或對應自訂校樣連結的標籤。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 自訂連結URL]</td> 
+   <td>[！UICONTROL自訂連結URL]</td> 
    <td>輸入或對應自訂連結的URL。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 訂閱者的預設電子郵件通知]</td> 
+   <td>[！UICONTROL訂閱者的預設電子郵件通知]</td> 
    <td>輸入下列其中一個數字，指出您要使用下列哪些預設電子郵件通知設定來建立校樣。
     <ul>
      <li><strong>1</strong> — 所有新評論和回覆</li>
@@ -299,79 +302,79 @@ Workfront Proof聯結器會使用以下專案：
     </ul></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 停用Excel摘要]</td> 
+   <td>[！UICONTROL停用Excel摘要]</td> 
    <td>選取是否要停用將校訂評論下載到Excel檔案的功能。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 停用PDF摘要]</td> 
+   <td>[！UICONTROL停用PDF摘要]</td> 
    <td>選取是否要停用將校訂評論下載到PDF檔案的功能。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 停用訂閱電子郵件]</td> 
+   <td>[！UICONTROL停用訂閱電子郵件]</td> 
    <td>選取是否要停用此校訂的訂閱電子郵件。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 啟用內嵌播放器]</td> 
+   <td>[！UICONTROL啟用內嵌播放器]</td> 
    <td>選取是否要為此校訂啟用內嵌播放器。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 啟用訂閱]</td> 
+   <td>[！UICONTROL啟用訂閱]</td> 
    <td>選取是否允許非參與者人員訂閱校訂。<br>如果選取此選項，您也可以選取訂閱者的「預設角色」，如本表所述。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 啟用訂閱驗證]</td> 
+   <td>[！UICONTROL啟用訂閱驗證]</td> 
    <td>選取是否要啟用訂閱電子郵件驗證。 如果已啟用，訂閱者必須按一下電子郵件中的連結來存取校訂。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 啟用團隊URL]</td> 
+   <td>[！UICONTROL啟用團隊URL]</td> 
    <td>選取您要讓建立的校訂隱藏或顯示團隊URL。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 檔案雜湊] <span style="font-weight: normal;">或</span> [!UICONTROL 檔案雜湊]</td> 
+   <td>[！UICONTROL檔案雜湊] <span style="font-weight: normal;">或</span> [！UICONTROL檔案雜湊]</td> 
    <td>新增您要建立校樣的一個或多個檔案的ID。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 檔案名稱]</td> 
+   <td>[！UICONTROL檔案名稱]</td> 
    <td>為建立的校訂新增檔案名稱或名稱。這是必填欄位。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 完成所有必要的決定時鎖定校訂]</td> 
+   <td>[！UICONTROL完成所有必要的決定時鎖定校訂]</td> 
    <td>指定您是否希望在做出所有必要的決定後鎖定建立的校訂。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 將此校訂通知收件者]</td> 
-   <td>選取選項以指示您是否希望在建立校訂時通知收件者。&gt;</td> 
+   <td>[！UICONTROL將此校訂通知收件者]</td> 
+   <td>選取選項以指出您是否希望在建立校訂時通知收件者。&gt;</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 校訂名稱]</td> 
+   <td>[！UICONTROL校訂名稱]</td> 
    <td>輸入已建立校訂的名稱。這是必填欄位。 使用直立線符號(|)來分隔多個校訂的名稱。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 校訂所有者ID]</td> 
+   <td>[！UICONTROL校訂所有者ID]</td> 
    <td>輸入或對應校訂擁有者的ID。 如果此欄位留空，則校訂所有者將設定為目前使用者。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 參考ID]</td> 
+   <td>[！UICONTROL參考ID]</td> 
    <td>輸入校訂的參考ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 需要電子簽章]</td> 
+   <td>[！UICONTROL需要電子簽章]</td> 
    <td>選擇您是否希望要求決定校訂的任何人提交電子簽章。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 需要登入]</td> 
+   <td>[！UICONTROL需要登入]</td> 
    <td> <p>指定您是否希望建立的校訂需要登入。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 解析度ID]</td> 
+   <td>[！UICONTROL解析度ID]</td> 
    <td>輸入您要用於校訂之解析度的ID。 如需解析度ID的清單，請參閱[!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API檔案</a>。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL SWF]</td> 
+   <td>[！UICONTROL SWF]</td> 
    <td>輸入SWF校訂的型別。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Show] [item]</td> 
+   <td>[！UICONTROL Show] [item]</td> 
    <td>針對每個專案，選取是否要將其顯示在校樣中。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -379,11 +382,11 @@ Workfront Proof聯結器會使用以下專案：
    <td>輸入您要在其中建立校訂的工作區ID。 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 收件者]</td> 
+   <td>[！UICONTROL收件者]</td> 
    <td>新增收件者的電子郵件地址，您已為建立的校訂提供所需的收件者。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 截止日期]</td> 
+   <td>[！UICONTROL截止日期]</td> 
    <td> <p>指定您想對所建立校訂的截止日期。 使用以下日期格式：</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
   </tr> 
  </tbody> 
@@ -393,7 +396,7 @@ Workfront Proof聯結器會使用以下專案：
 
 #### [!UICONTROL 自訂 API 呼叫]
 
-您可以利用此動作模組，對 [!DNL Workfront Proof] API 進行已驗證的自訂呼叫。如此一來，您就可以建立其他 [!DNL Workfront Proof] 模組無法完成的資料流程自動化。
+您可以利用此動作模組，對 [!DNL Workfront Proof] API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 [!DNL Workfront Proof] 模組無法完成的資料流程自動化。
 
 模組會傳回狀態代碼、標題和內文。 您可以在情境內之後的模組中對應此資訊。
 
@@ -412,7 +415,7 @@ Workfront Proof聯結器會使用以下專案：
    <td>設定API呼叫的動作。 如需可用的動作，請參閱<a href="https://api.proofhq.com/">校訂API檔案</a>。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 內文(XML)]</td> 
+   <td>[！UICONTROL內文(XML)]</td> 
    <td> <p>以標準 JSON 物件的形式新增 API 呼叫的正文內容。</p> <p>注意：  <p>在 JSON 中使用條件陳述式 (例如 <code>if</code>) 時，請將引號放在條件陳述式的外面。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -433,7 +436,7 @@ Workfront Proof聯結器會使用以下專案：
 
 您指定校訂的ID。
 
-模組會傳回用於建立校訂之來源檔案的內容。您可以在情境中的後續模組中對應此資訊。
+模組會傳回用來建立校訂之來源檔案的內容。您可以在情境內之後的模組中對應此資訊。
 
 您必須有足夠的許可權可以存取[!DNL Workfront Proof]中的記錄，才能擷取此資訊。
 
@@ -448,8 +451,8 @@ Workfront Proof聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 校訂ID]</td> 
-   <td> <p>輸入可在[!UICONTROL 校訂詳細資訊]頁面上找到的校訂唯一ID。  </td> 
+   <td>[！UICONTROL校訂ID]</td> 
+   <td> <p>輸入可在[！UICONTROL校訂詳細資訊]頁面上找到的校訂唯一ID。  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -510,11 +513,11 @@ Workfront Proof聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 校訂ID]</td> 
+   <td>[！UICONTROL校訂ID]</td> 
    <td> <p>輸入您要要求PDF摘要之校訂的唯一[!DNL Workfront Proof] ID。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 回呼URL]</td> 
+   <td>[！UICONTROL回呼URL]</td> 
    <td>輸入或對應PDF摘要的傳送位置URL。</td> 
   </tr> 
  </tbody> 
@@ -531,7 +534,7 @@ Workfront Proof聯結器會使用以下專案：
 
 您可以指定校樣ID和記錄型別，以及要包含在輸出中的欄位。
 
-模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。您可以在情境內之後的模組中對應此資訊。
+模組會傳回與記錄相關聯的任何標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
 您必須有足夠的許可權可以存取[!DNL Workfront Proof]中的記錄，才能擷取此資訊。
 
@@ -546,71 +549,71 @@ Workfront Proof聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 校訂ID]</td> 
-   <td> <p>輸入可在[!UICONTROL 校訂詳細資訊]頁面上找到的校訂唯一ID。 </td> 
+   <td>[！UICONTROL校訂ID]</td> 
+   <td> <p>輸入可在[！UICONTROL校訂詳細資訊]頁面上找到的校訂唯一ID。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 截止日期]</td> 
+   <td>[！UICONTROL截止日期]</td> 
    <td> <p>指定您想對所建立校訂的截止日期。 使用日期格式<code>YYYY-MM-DD hh:mm</code>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 訂閱者的預設電子郵件通知]</td> 
+   <td>[！UICONTROL訂閱者的預設電子郵件通知]</td> 
    <td>選取您要用於已建立校訂的下列預設電子郵件通知設定之一。
     <ul>
-     <li> [!UICONTROL 所有新評論和回覆]</li>
-     <li>[!UICONTROL 回覆我的意見]</li>
-     <li>[!UICONTROL 每日摘要]</li>
-     <li> [!UICONTROL 每小時摘要]</li>
-     <li> [!UICONTROL Decisions only]</li>
-     <li> [!UICONTROL 已停用]</li>
+     <li> [！UICONTROL所有新評論和回覆]</li>
+     <li>[！UICONTROL回覆我的意見]</li>
+     <li>[！UICONTROL每日摘要]</li>
+     <li> [！UICONTROL每小時摘要]</li>
+     <li> [！UICONTROL Decisions only]</li>
+     <li> [！UICONTROL已停用]</li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 預設角色]</td> 
+   <td>[！UICONTROL預設角色]</td> 
    <td>選取校訂的預設角色。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 停用訂閱電子郵件]</td> 
+   <td>[！UICONTROL停用訂閱電子郵件]</td> 
    <td>選取是否要停用此校訂的訂閱電子郵件。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 啟用訂閱]</td> 
-   <td>選取是否允許非參與者人員訂閱校訂。<br>如果選取此選項，您也可以在[!UICONTROL 預設角色]欄位中選取選項。</td> 
+   <td>[！UICONTROL啟用訂閱]</td> 
+   <td>選取是否允許非參與者人員訂閱校訂。<br>如果選取此選項，您也可以在[！UICONTROL預設角色]欄位中選取選項。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 啟用訂閱驗證]</td> 
+   <td>[！UICONTROL啟用訂閱驗證]</td> 
    <td>選取是否要啟用訂閱電子郵件驗證。 如果已啟用，訂閱者必須按一下電子郵件中的連結來存取校訂。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 啟用團隊URL]</td> 
+   <td>[！UICONTROL啟用團隊URL]</td> 
    <td>選取您要讓建立的校訂隱藏或顯示團隊URL。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 完成所有必要的決定時鎖定校訂]</td> 
+   <td>[！UICONTROL完成所有必要的決定時鎖定校訂]</td> 
    <td>指定您是否希望在做出所有必要的決定後鎖定建立的校訂。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 訊息]</td> 
+   <td>[！UICONTROL訊息]</td> 
    <td>輸入或對應您要伴隨校訂的訊息。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 校訂ID] </td> 
+   <td>[！UICONTROL校訂ID] </td> 
    <td>輸入或對應您要更新之校訂的ID。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 校訂名稱]</td> 
+   <td>[！UICONTROL校訂名稱]</td> 
    <td>輸入或對應您要更新的校訂名稱。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 需要登入]</td> 
+   <td>[！UICONTROL需要登入]</td> 
    <td> <p>指定您是否希望建立的校訂需要登入。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 顯示類似版本]</td> 
+   <td>[！UICONTROL顯示類似版本]</td> 
    <td>選取您是否想要顯示此校訂其他版本的連結。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 主旨]</td> 
+   <td>[！UICONTROL主旨]</td> 
    <td>輸入或對映證明的主題</td> 
   </tr> 
  </tbody> 
@@ -618,7 +621,7 @@ Workfront Proof聯結器會使用以下專案：
 
 #### [!UICONTROL 上傳檔案]
 
-此動作模組上傳檔案以與[!UICONTROL 中的]建立校訂[!DNL Workfront Proof]模組搭配使用。
+此動作模組上傳檔案以與[!DNL Workfront Proof]中的[!UICONTROL 建立校訂]模組搭配使用。
 
 模組會傳回已上傳檔案的雜湊ID。 您可以在情境內之後的模組中對應此資訊。
 
@@ -671,7 +674,7 @@ Workfront Proof聯結器會使用以下專案：
 
 此搜尋模組會在[!DNL Workfront Proof]中尋找符合您指定之搜尋查詢的物件記錄。
 
-如果正在搜尋校訂，模組會傳回校訂ID。 或者，如果正在搜尋收件者，它會傳回收件者的使用者ID、電子郵件、名稱、位置及電子郵件別名。您可以將此資訊對應至案例中的後續模組。
+如果正在搜尋校訂，模組會傳回校訂ID。 或者，如果正在搜尋收件者，它會傳回收件者的使用者ID、電子郵件、名稱、位置及電子郵件別名。您可以在情境內之後的模組中對應此資訊。
 
 您必須有足夠的許可權可以存取[!DNL Workfront Proof]中的記錄，才能擷取此資訊。
 
@@ -686,23 +689,23 @@ Workfront Proof聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Workfront Proof]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 搜尋]</td> 
+   <td>[！UICONTROL搜尋]</td> 
    <td> <p>選取您要模組搜尋的記錄型別。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 校訂]</strong> </p> <p>輸入您要搜尋之校訂的校訂名稱。</p> </li> 
-     <li> <p><strong>[!UICONTROL 收件者]</strong> </p> <p>輸入您要搜尋之收件者的電子郵件地址。</p> </li> 
+     <li> <p><strong>[！UICONTROL校訂]</strong> </p> <p>輸入您要搜尋之校訂的校訂名稱。</p> </li> 
+     <li> <p><strong>[！UICONTROL收件者]</strong> </p> <p>輸入您要搜尋之收件者的電子郵件地址。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 結果集]</td> 
-   <td>指示模組將搜尋<strong>[!UICONTROL 所有比對記錄]</strong>或僅<strong>[!UICONTROL 第一個比對記錄]</strong>。</td> 
+   <td>指示模組將搜尋<strong>[！UICONTROL所有比對記錄]</strong>或僅<strong>[！UICONTROL第一個比對記錄]</strong>。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 排序依據]</td> 
+   <td>[！UICONTROL排序依據]</td> 
    <td>選取您要排序結果的欄位。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 排序方向]</td> 
+   <td>[！UICONTROL排序方向]</td> 
    <td> <p>選取您要以遞增或遞減方式排序結果。</p> </td> 
   </tr> 
  </tbody> 

@@ -1,17 +1,20 @@
 ---
-title: 專案資料型別
+title: 項目資料類型
 description: 您的Adobe Workfront Fusion案例可以包含套件組合中列出的專案型別。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3ad65959-5c19-4727-bc9d-4ff1d238ad8b
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+TQID: https://experienceleague.adobe.com/mZQcg6jwJFDuyI45vATzKOl4X7ROiTurGheyWvC0s5w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: 580
+ht-degree: 2%
 
 ---
 
-# 專案資料型別
+# 項目資料類型
 
 可在束中包含下列專案型別。
 
@@ -35,7 +38,7 @@ ht-degree: 1%
     <ul> 
      <li> <p>如果欄位是必填欄位且必須填寫，則會顯示必填核取方塊。</p> <p> <img src="assets/boolean-checkbox-350x158.jpg" style="width: 350;height: 158;"> </p> </li> 
      <li> <p>可保留空白的選用欄位會顯示為選取方塊，允許選取三個值： <code>Yes</code>、<code>No</code>和<code>Not defined</code> （預設）。</p> <p> <img src="assets/boolean-convert-file-350x129.jpg" style="width: 350;height: 129;"> </p> </li> 
-    </ul> <p>如果您需要將值對應到其他模組的專案，可以按一下<strong>[!UICONTROL Map]</strong>。</p> </td> 
+    </ul> <p>如果您需要將值對應到其他模組的專案，可以按一下<strong>[！UICONTROL Map]</strong>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>日期</p> </td> 
@@ -55,7 +58,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>陣列</p> </td> 
-   <td> <p>您可以使用陣列型別來處理相同型別的多個值，包括集合。 [!UICONTROL Email]模組就是一個範例：它們會傳回一系列附件，而每個附件都包含名稱、內容、大小等。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/create-scenarios/map-data/map-an-array.md" class="MCXref xref">對應陣列或陣列元素</a>。</p> </td> 
+   <td> <p>您可以使用陣列型別來處理相同型別的多個值，包括集合。 [！UICONTROL Email]模組就是一個範例：它們會傳回一系列附件，而每個附件都包含名稱、內容、大小等。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/create-scenarios/map-data/map-an-array.md" class="MCXref xref">對應陣列或陣列元素</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>驗證</p> </td> 

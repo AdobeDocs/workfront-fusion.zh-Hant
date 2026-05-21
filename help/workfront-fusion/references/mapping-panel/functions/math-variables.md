@@ -4,9 +4,11 @@ description: 下列數學變數可在 [!DNL Adobe Workfront Fusion mapping] 面�
 author: Becky
 feature: Workfront Fusion
 exl-id: b309f035-4d46-473b-b915-6938587b0bcf
-source-git-commit: e11e581c092ebba343a0f2d6943ecbe4d0fe4c87
+TQID: https://experienceleague.adobe.com/7vPwofVyFGdTGAXXuqbP5mmpPgSEK0JqimFqWu-UlJU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: 52
 ht-degree: 11%
 
 ---

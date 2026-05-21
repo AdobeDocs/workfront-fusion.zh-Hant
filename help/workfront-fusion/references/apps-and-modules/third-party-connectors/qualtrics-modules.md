@@ -4,9 +4,11 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Qualtr
 author: Becky
 feature: Workfront Fusion
 exl-id: 80b441b7-c808-4c4f-b9ff-d614650dbb73
-source-git-commit: b4353a0746f4f427c70d0a213e5dde36ff869ab8
+TQID: https://experienceleague.adobe.com/gbH5KTIEYyIAVMSjhmnAyuApEPu7i3eicmMvmJC-gi4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: 352
 ht-degree: 59%
 
 ---
@@ -51,7 +53,7 @@ ht-degree: 59%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -100,11 +102,11 @@ Qualtrics聯結器使用下列專案：
       <td> <p>輸入新連線的名稱。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 資料中心ID] </td> 
+      <td role="rowheader">[！UICONTROL資料中心ID] </td> 
       <td>使用格式<code>&lt;Data Center ID>.qualtrics.com</code>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL API Key]</td> 
+      <td role="rowheader">[！UICONTROL API Key]</td> 
       <td>若要尋找您的API金鑰，請參閱[!DNL Qualtrics]檔案。</td> 
      </tr> 
     </tbody> 

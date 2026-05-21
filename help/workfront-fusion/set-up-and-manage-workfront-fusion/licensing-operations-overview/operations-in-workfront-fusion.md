@@ -4,9 +4,11 @@ description: Adobe Workfront Fusion中的作業是由模組執行的任務。 �
 author: Becky
 feature: Workfront Fusion
 exl-id: c14e2bb2-1cce-48ff-8bea-acc9829d3cf2
-source-git-commit: d630251ec01f5e11bad0305a2f49fb447bf1dd1e
+TQID: https://experienceleague.adobe.com/wkdEgGMzJVgzuiZpNJy4Y8-Fd435VqlQFON-WIRjwmA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: 413
 ht-degree: 1%
 
 ---

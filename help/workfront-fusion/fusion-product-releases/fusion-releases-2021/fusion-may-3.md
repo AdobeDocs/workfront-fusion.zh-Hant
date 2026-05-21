@@ -9,9 +9,13 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 8858fc79-5eda-4938-9bb5-c05be38f02bc
-source-git-commit: a48a7f5f6577782dbc043e322a3c769781ffd63b
+TQID: https://experienceleague.adobe.com/GZ5W-9Q1Y9M-cCVN1CupZVs8GuQPy4Dusifz-5sxJm8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: 273
 ht-degree: 20%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 20%
 
 如需所有近期變更的清單，請參閱 [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)。
 
-如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
+如需 Workfront Fusion 中近期的錯誤修正清單，請參閱 [Workfront 維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)頁面，並檢查任何標示為 Workfront Fusion 維護更新的更新。
 
 ## Salesforce聯結器現在可以使用SOQL進行搜尋
 

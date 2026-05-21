@@ -4,9 +4,11 @@ description: Adobe Workfront Fusion的「組織」和「團隊」功能可讓企
 author: Becky
 feature: Workfront Fusion
 exl-id: 44e6de2a-b2d3-410d-abc3-10facd258495
-source-git-commit: 9cb630b713f5fac90acff54fa2034e9d65dd1611
+TQID: https://experienceleague.adobe.com/rWg9TitUlX092UIFTY1LUZsR7UlmWwE5dItl6wnlBMA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: 612
 ht-degree: 2%
 
 ---

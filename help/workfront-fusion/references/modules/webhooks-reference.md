@@ -5,12 +5,11 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 5bfda2b2-dc1c-4ff6-9236-b480bfda2e58
 TQID: https://experienceleague.adobe.com/-z2vSjTR1JJTQl--BHM23CbnlaN9TSS6puFTzqLRAEk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 99a5a892469814f450832dbc4f137fb2c5aa71ee
 workflow-type: tm+mt
-source-wordcount: 1272
-ht-degree: 10%
+source-wordcount: 1300
+ht-degree: 9%
 
 ---
 
@@ -63,7 +62,7 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -82,6 +81,10 @@ ht-degree: 10%
 1. 若要設定webhook的優先順序，請按一下「優先順序」欄中的下拉式清單，然後選取新的優先順序。
 
    優先順序較高的Webhook會先處理，如果背景工作集區有許多自動作業在競爭資源，則此功能會很有幫助。
+
+   >[!NOTE]
+   >
+   >只有具有[!UICONTROL 團隊管理員]角色或組織[!UICONTROL 管理員]或[!UICONTROL 所有者]角色的使用者才能變更webhook的優先順序。 若是其他使用者，「優先順序」下拉式清單會停用。
 1. 若要停用或啟用webhook，請停用或啟用該webhook列中「狀態」欄的切換。
 1. 若要檢視webhooks佇列是否已滿，請核取完整佇列欄。 此資料欄中的數字是目前在佇列中的專案數。
 1. 若要檢視webhook所處理的作業，請按一下該webhook的[完整佇列]資料欄中的&#x200B;**作業**。

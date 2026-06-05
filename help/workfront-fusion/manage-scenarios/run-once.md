@@ -3,9 +3,8 @@ title: 使用執行一次來測試案例
 description: 您可以使用執行一次按鈕來測試沒有外部觸發器的案例。
 author: Becky
 feature: Workfront Fusion
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 9c05aa1111fd571ea6f0ff86943b2849a39e4973
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 0c732add9c1ec75d7aed43bb7097bb1c95aa6408
 workflow-type: tm+mt
 source-wordcount: 332
 ht-degree: 0%
@@ -53,3 +52,6 @@ ht-degree: 0%
    * **手動提供輸入**：您必須為案例輸入提供webhook裝載。 這必須是JSON格式。
 
      若要提供輸入，請在&#x200B;**Webhook承載**&#x200B;方塊中輸入文字，然後按一下&#x200B;**執行**。
+
+
+

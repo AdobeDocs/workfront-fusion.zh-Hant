@@ -3,9 +3,8 @@ title: 重新觸發特定案例執行
 description: 您可以重新觸發特定案例執行，以使用更新的案例藍圖處理資料，或檢視其資料流程。
 author: Becky
 feature: Workfront Fusion
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 9c05aa1111fd571ea6f0ff86943b2849a39e4973
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 0c732add9c1ec75d7aed43bb7097bb1c95aa6408
 workflow-type: tm+mt
 source-wordcount: 523
 ht-degree: 18%
@@ -53,7 +52,7 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -97,6 +96,9 @@ ht-degree: 18%
 
 
 ![從執行重新觸發程式](assets/retrigger-from-execution.png)
+
+
+
 
 
 

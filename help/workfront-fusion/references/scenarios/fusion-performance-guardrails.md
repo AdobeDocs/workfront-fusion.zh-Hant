@@ -5,12 +5,11 @@ author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
 TQID: https://experienceleague.adobe.com/TARMza99lJaSq6kUUr3xxMf0ExtoQBNk6L-KzzEEL8U
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 81d1dfcdb5c15f6a93e2793f9a0e41821b65c7e3
 workflow-type: tm+mt
-source-wordcount: 1101
-ht-degree: 94%
+source-wordcount: 1351
+ht-degree: 77%
 
 ---
 
@@ -27,6 +26,12 @@ ht-degree: 94%
 * 情境執行的預設逾時限制為 **40 分鐘**。 當執行達到此逾時限制時，Workfront Fusion 會在下一個週期或作業之後中斷情境執行，依情境而定。 這樣做會強制情境在達到 40 分鐘限制後短暫停止
 
   鏈接情境的執行時間不會計入情境執行逾時。 等待下層情境執行時，上層情境不會累計時間。
+
+  >[!IMPORTANT]
+  >
+  > 雖然鏈結可讓工作流程執行超過40分鐘，這應視為設計風險訊號，而不是支援的因應措施。 跨多個長期執行子案例的父案例沒有整體逾時界限。 如果子案例掛起或遇到平台問題，父案例會無限期等待，且沒有錯誤，也不會自動復原。
+  >
+  > 如果您的情境設計需要鏈結以避免40分鐘的限制，請在部署到生產環境之前檢視您的架構。 如需設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
 * 情境藍圖的大小上限為 **5 MB**，但建議您將情境大小維持在 **3 MB** 以下。
 
   使用大量欄位建立或更新資料的應用程式模組，可能會產生非常大的藍圖。
@@ -35,6 +40,14 @@ ht-degree: 94%
    * 使用其他應用程式時，請使用自訂 API 模組與任何具有大量欄位的記錄類型互動。
 
 * 雖然情境中的模組數量沒有上限，但超過 150 個模組的情境會對您的 Workfront Fusion 系統效能產生負面影響。 因此，我們不建議建立包含超過 150 個模組的情境。
+
+## 鏈結情境
+
+* 案例鏈結功能位於Beta中，不建議用於關鍵任務工作流程。 由於Beta功能，行為可能會變更，且邊緣案例可能無法完全處理。
+
+  如需穩定整合，請考慮使用HTTP請求模組透過webhook觸發第二個情境。 此模式會使用完全支援的原語，並為每個案例提供獨立的執行控制。
+
+  如果您選擇使用鏈結的情境，請檢閱文章[將多個情境鏈結在一起](/help/workfront-fusion/create-scenarios/plan-a-scenario/chain-scenarios.md)中的設計指引和限制。
 
 ## 作業
 
@@ -77,6 +90,8 @@ ht-degree: 94%
 * 執行歷史記錄的大小限制為 **100 MB**。 若執行歷史記錄超過此大小，則只會顯示前 100 MB 的內容。
 * 如果單一操作的輸入或輸出大於15 MB，則不會出現在執行記錄中。
 * 如果某個情境同時執行多個實例，則在情境詳細資訊頁面的「執行」區域內只會顯示 5 個執行實例。 即使正在執行 5 個以上的實例也是如此。
+* 如果案例是鏈結網路的一部分，則會分別維護鏈結中每個案例的執行歷史記錄。 沒有跨父情景和子情景的統一追蹤檢視。 若要調查鏈結式執行，請個別開啟每個案例的執行歷史記錄。
+* 如果單一操作的輸入或輸出超過15 MB，則不會出現在執行歷史記錄中。 此限制適用於透過鏈結模組在父案例與子案例之間傳遞的資料。
 
 ## 未完成的執行
 

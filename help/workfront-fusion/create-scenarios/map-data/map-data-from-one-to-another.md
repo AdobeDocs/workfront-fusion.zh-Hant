@@ -5,11 +5,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 1e3f7729-f48e-451e-a90b-d680c9e3bcbc
 TQID: https://experienceleague.adobe.com/wKSHupk1Gx2g7ydAOilpbfRnqu-TMY5W8zKEyKd8Slk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 81d1dfcdb5c15f6a93e2793f9a0e41821b65c7e3
 workflow-type: tm+mt
 source-wordcount: 777
 ht-degree: 17%
@@ -49,7 +47,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -124,8 +122,8 @@ ht-degree: 17%
 
 若要執行單一模組：
 
-1. 在模組上按一下滑鼠右鍵，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL [僅執行此模組]]**。
-1. 提供輸入專案的範例值，然後按一下&#x200B;**[!UICONTROL 確定]** 。
+1. 在模組上按一下滑鼠右鍵，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL 僅執行此模組]**。
+1. 提供輸入專案的範例值，然後按一下[確定]。****
 1. 當模組完成執行時，按一下模組上方的泡泡圖示，以探索其完整輸出。
 
    後續模組的對應面板現在包含模組輸出中的所有專案。

@@ -96,7 +96,7 @@ ht-degree: 10%
 > * **將此模組放在疊代器內時請小心。** 為大型疊代器中的每個料號分派子案例會建立顯著的平台負載。 考慮內嵌子情境的邏輯，或在迭代器外預先計算共用查詢。
 > * **引發並忘記**&#x200B;表示父系無法檢視子系是否執行或成功。 只有在獨立監視子項失敗時才使用。
 >
-> 如需完整的設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
+> 如需完整的設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
 
 >[!NOTE]
 >

@@ -7,18 +7,22 @@ exl-id: 21429f94-fe4c-4ccc-a8c0-d7573657fecc
 TQID: https://experienceleague.adobe.com/AlHUrliXikCc3OVHiBTjLNQFndCf5qLzOLuBvnDTUfA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 81d1dfcdb5c15f6a93e2793f9a0e41821b65c7e3
 workflow-type: tm+mt
-source-wordcount: 625
-ht-degree: 15%
+source-wordcount: 883
+ht-degree: 10%
 
 ---
 
 # 鏈結模組
 
->[!NOTE]
+>[!IMPORTANT]
 >
->此功能目前在Beta中。
+>此功能位於Beta中，不建議用於關鍵任務生產工作流程。 由於Beta功能，行為可能會變更，且邊緣案例可能無法完全處理。
+>
+>對於穩定整合，考慮使用HTTP請求模組透過webhook觸發第二個案例，此模式使用完全支援的原語並給予每個案例獨立的執行控制。
+>
+>如果您選擇使用鏈結的情境，請檢閱[將多個情境鏈結在一起](/help/workfront-fusion/create-scenarios/plan-a-scenario/chain-scenarios.md)以取得設計手冊。
 
 使用「鏈」模組，可以將一個案例連線到另一個案例。
 
@@ -84,6 +88,16 @@ ht-degree: 15%
 
 此模組位於父案例中。 欄位會反映在子情境中，從父模組接收資料中所設定的資料結構。
 
+>[!IMPORTANT]
+>
+> 在生產情境中設定此模組之前，請先檢閱下列內容：
+>
+> * 停用[引發並忘記]時，**請勿在此案例上啟用認可觸發程式(CTL)**。 CTL將在暫停等待子回應時重試此案例，建立無限制的重試回圈。
+> * **將此模組放在疊代器內時請小心。** 為大型疊代器中的每個料號分派子案例會建立顯著的平台負載。 考慮內嵌子情境的邏輯，或在迭代器外預先計算共用查詢。
+> * **引發並忘記**&#x200B;表示父系無法檢視子系是否執行或成功。 只有在獨立監視子項失敗時才使用。
+>
+> 如需完整的設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
+
 >[!NOTE]
 >
 >* 您可以選取現有的子情境，或透過此模組建立新的子情境。
@@ -112,7 +126,11 @@ ht-degree: 15%
 
 這是在子情境中，並將所選結構中的資料傳送至父情境。 您可以在父情境的後續模組中對應此資料。
 
-如果您的子情境有多個路由，我們建議將此模組新增到始終在其他路由之後執行和執行的路由。
+>[!IMPORTANT]
+>
+> 如果您的子案例有多個路由，您&#x200B;**必須**&#x200B;確保可從每個執行路徑連線到父模組的傳回回應。 如果傳回回應模組位於已略過或未執行的路由上，則父案例會無限期等待從未到達的回應。
+>
+> 將Return回應加入至路由器之後的父模組，其路由一律執行，而不論路由器結果為何，或加入錯誤處理，以確保即使發生錯誤也一律會傳回回應。
 
 若要設定「新增回應者」模組：
 

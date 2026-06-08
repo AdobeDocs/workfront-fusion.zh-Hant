@@ -7,7 +7,7 @@ exl-id: 6a1d672d-0bd7-4a3a-b96d-6d8b4c97522d
 TQID: https://experienceleague.adobe.com/PQablbYLDlXlY5mc7qMAXMrXnUeeHA6sSc-aMVHa6HY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 81d1dfcdb5c15f6a93e2793f9a0e41821b65c7e3
 workflow-type: tm+mt
 source-wordcount: 554
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 ### 解答
 
-案例會定義Adobe Workfront Fusion要執行的一系列步驟。 對於每個情境，您都可以指定資料來源、要使用的資料，以及處理資料的方式。 Fusion可讓您建立簡單或複雜的情境，以便符合您組織的使用案例。
+案例會定義Adobe Workfront Fusion要執行的一系列步驟。 對於每個情境，您都可以指定資料來源、要使用的資料，以及處理資料的方式。 Fusion可讓您建立簡單或複雜的情境，以便符合您組織的使用案例
 
 如需關於情境的詳細資訊，請參閱[情境概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md)。
 

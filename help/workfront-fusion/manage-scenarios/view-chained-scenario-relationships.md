@@ -4,14 +4,22 @@ description: 您可以對應父案例與子案例之間的關係。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0782c6b1-42a5-48de-bfa0-3ced6ed2bf7f
-source-git-commit: aee2b35919e240cce5346df6d94a610c34b26e88
+source-git-commit: 81d1dfcdb5c15f6a93e2793f9a0e41821b65c7e3
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 18%
+source-wordcount: '557'
+ht-degree: 16%
 
 ---
 
 # 檢視和管理鏈結的案例關係
+
+>[!IMPORTANT]
+>
+>此功能位於Beta中，不建議用於關鍵任務生產工作流程。 由於Beta功能，行為可能會變更，且邊緣案例可能無法完全處理。
+>
+>對於穩定整合，考慮使用HTTP請求模組透過webhook觸發第二個案例，此模式使用完全支援的原語並給予每個案例獨立的執行控制。
+>
+>如果您選擇使用鏈結的情境，請檢閱[將多個情境鏈結在一起](/help/workfront-fusion/create-scenarios/plan-a-scenario/chain-scenarios.md)以取得設計手冊。
 
 您可以對應父案例與子案例之間的關係。 您也可以使用地圖來跳至鏈中的不同情境。
 

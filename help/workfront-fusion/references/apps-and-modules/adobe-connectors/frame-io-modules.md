@@ -9,7 +9,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 81d1dfcdb5c15f6a93e2793f9a0e41821b65c7e3
 workflow-type: tm+mt
 source-wordcount: 2662
 ht-degree: 45%
@@ -567,7 +567,7 @@ Frame.io 連接器會使用以下項目：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 團隊ID] </td> 
-   <td> <p>選取或對應擁有專案的團隊，該專案包含您要從中擷取資產的資料夾。</p> </td> 
+   <td> <p>選取或對應擁有專案的團隊，專案中包含您想要從中擷取資產的資料夾。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 專案 ID] </td> 

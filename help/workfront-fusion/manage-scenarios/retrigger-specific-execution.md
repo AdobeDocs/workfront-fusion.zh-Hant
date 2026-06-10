@@ -3,9 +3,8 @@ title: 重新觸發特定案例執行
 description: 您可以重新觸發特定案例執行，以使用更新的案例藍圖處理資料，或檢視其資料流程。
 author: Becky
 feature: Workfront Fusion
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 0c732add9c1ec75d7aed43bb7097bb1c95aa6408
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 5859bbef4f45fd4741d89ba1795df8a67fa5beaa
 workflow-type: tm+mt
 source-wordcount: 523
 ht-degree: 18%
@@ -18,7 +17,7 @@ ht-degree: 18%
 
 例如，如果您更新案例以新增動作，例如建立問題，您可以重新觸發更新前發生的執行。 更新的情境將使用原始情境的觸發事件執行，但將包含更新的動作。 在此範例中，情境會在新執行過程中建立問題。
 
-重新觸發適用於具有webhook觸發器的案例以及子案例。
+重新觸發適用於具有webhook觸發器的情境以及鏈結情境。
 
 當重新觸發使用webhook的情景時，可以再次使用原始webhook事件，因此您不必重新建立事件來重新觸發情境。
 
@@ -53,7 +52,7 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

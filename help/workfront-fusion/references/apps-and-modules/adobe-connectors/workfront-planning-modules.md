@@ -11,10 +11,10 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 9f736464e38e7885ff528ff114008175ff2db82e
 workflow-type: tm+mt
-source-wordcount: 2101
-ht-degree: 49%
+source-wordcount: 2236
+ht-degree: 46%
 
 ---
 
@@ -277,6 +277,8 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
       </tr>
   </tbody>
 </table>
+
+如需在此模組上使用進階邏輯的範例，請參閱監視事件模組[&#128279;](#example-of-advanced-logic-in-the-watch-events-module)中的進階邏輯範例。
 
 ### 動作
 
@@ -571,3 +573,40 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 
 如需有關使用JSONata模組的資訊，請參閱[JSONata模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md)。
 
+## 監看事件模組中的進階邏輯範例
+
+這是進階邏輯在使用「Workfront規劃>觀看事件」模組時所採用格式的範例。
+
+```
+[
+  {
+    "fieldName": "recordTypeId",
+    "fieldValue": "Rt68c886502d4b5554ee80896b",
+    "comparison": "eq",
+    "state": "newState"
+  },
+  {
+    "fieldName": "data",
+    "fieldValue": {
+      "F68c886502d4b5554ee808975": "planning"
+    },
+    "comparison": "eq",
+    "state": "newState"
+  },
+  {
+    "fieldName": "data",
+    "fieldValue": {
+      "F68c886502d4b5554ee808975": "active"
+    },
+    "comparison": "eq",
+    "state": "newState"
+  }
+]
+```
+
+在「觀看事件」模組使用進階邏輯時，請考量下列事項：
+
+* 第一個`"fieldvalue":`專案是從URL提取的計畫記錄型別ID。 在此範例中，Planning記錄型別識別碼為`Rt68c886502d4b5554ee80896b`。
+* Planning資料傳回名為`data `的陣列中，此範例中顯示為`"fieldName": "data"`。
+* 規劃fieldNames會傳回為以`F`開頭的ID。
+* 因為此範例是針對`OR`篩選器聯結器進行評估，所以它有兩個相同欄位(`F68c886502d4b5554eec808975`)的專案。  模組篩選依據的兩個下拉式清單選項是`"planning"`和`"active"`。

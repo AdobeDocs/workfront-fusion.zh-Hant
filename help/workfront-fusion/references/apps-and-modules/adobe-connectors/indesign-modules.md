@@ -9,16 +9,13 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Adobe 
 author: Becky
 exl-id: 8164487a-d114-4e31-9d1c-8404fc89a04b
 TQID: https://experienceleague.adobe.com/D2JdaOqvTA5SUsKm9U8Sjss6dJFMZv2Uo5RGk25QphQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 18401e01219383f86e1553e16b21057497d24cc0
 workflow-type: tm+mt
-source-wordcount: 1702
-ht-degree: 22%
+source-wordcount: 2240
+ht-degree: 17%
 
 ---
 
@@ -58,7 +55,7 @@ ht-degree: 22%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -452,3 +449,121 @@ ht-degree: 22%
   </tr> 
   </tbody>
 </table>
+
+### 未分類
+
+#### 將PDF轉換為InDesign
+
+此模組會將PDF檔案轉換為可編輯的InDesign （INDD或IDML）格式。 輸出為ZIP檔案（預設名稱為「output.zip」），其中包含以每個輸入PDF命名的子資料夾，以及轉換的檔案和相關資產。 如果「內嵌連結」選項為false，則資產會提供在ZIP內的個別資料夾中。 如果為true，則所有連結都會內嵌在InDesign檔案中。
+
+
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需建立與Adobe InDesign的連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-indesign" class="MCXref_0">建立與Adobe InDesign的連線</a>。</td>
+      </tr>
+    <tr>
+      <td role="rowheader">輸入資產</td>
+      <td>針對您想要轉換的每個資產，按一下<b>新增專案</b>，然後輸入資產的URL並指派本機檔案名稱。 稍後將在模組中參考檔案名稱。</td>
+    </tr>
+  <tr> 
+   <td>目標檔案</td> 
+   <td>針對您要轉換的每個檔案，按一下<b>新增專案</b>，然後從[輸入資產]欄位輸入指派的檔案名稱。</td> 
+  </tr> 
+  <tr> 
+   <td>輸出格式</td> 
+   <td>選取要將檔案轉換為INDD或IDML檔案。</td> 
+  </tr> 
+  <tr> 
+   <td>內嵌連結</td> 
+   <td>如果您要直接在INDD或IDML檔案中內嵌所有的影像和資產連結，請選取「是」。 選取「否」將這些資產置於ZIP檔案的個別資料夾中。</td> 
+  </tr> 
+  <tr> 
+   <td>輸出壓縮檔名</td> 
+   <td>輸入或命名輸出ZIP檔案的名稱。</td> 
+  </tr> 
+  <tr> 
+   <td>輸出</td> 
+   <td>針對您要輸出的每個檔案，選取儲存型別並輸入儲存詳細資訊。</td> 
+  </tr> 
+  <tr> 
+   <td>傳回結果的最大數量</td> 
+   <td>輸入您希望模組針對每個執行週期傳回的結果數目上限。</td> 
+  </tr> 
+  </tbody>
+</table>
+
+#### 提交自訂指令碼
+
+此模組會提交自訂指令碼套件組合以進行註冊，並傳回URL以張貼註冊指令碼的執行請求。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需建立與Adobe InDesign的連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-indesign" class="MCXref_0">建立與Adobe InDesign的連線</a>。</td>
+      </tr>
+    <tr>
+      <td role="rowheader">指令碼套件組合</td>
+      <td>從先前的模組（例如下載檔案模組）對應來源檔案。 這應該是一個ZIP檔案。</td>
+    </tr>
+  <tr> 
+   <td>檔案名稱</td> 
+   <td>輸入或對應包含指令碼套件組合的上傳檔案名稱。</td> 
+  </tr> 
+  </tbody>
+</table>
+
+#### 更新自訂指令碼應用程式版本
+
+此模組會更新已註冊自訂指令碼的InDesign應用程式版本設定。 這可讓您指定版本策略，包括使用最新版本、修正主要版本，或修正特定的主要和次要版本。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需建立與Adobe InDesign的連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-indesign" class="MCXref_0">建立與Adobe InDesign的連線</a>。</td>
+      </tr>
+    <tr>
+      <td role="rowheader">指令碼名稱</td>
+      <td>輸入或對映要更新的自訂指令碼名稱。 這是指令碼註冊時傳回的<code>capability</code>值。</td>
+    </tr>
+  <tr> 
+   <td>應用程式版本策略</td> 
+   <td>選取您要使用的應用程式版本策略。
+   <ul>
+   <li><b>一律使用最新版本</b></li>
+   <li><b>釘選到主要版本</b><p>輸入或對應要套用此專案的主要版本編號。</p></li>
+   <li><b>釘選到主要和次要版本</b><p>輸入您要套用此套用的主要和次要版本。</p></li>
+   </ul></td> 
+  </tr> 
+  </tbody>
+</table>
+
+#### 取得最新應用程式版本
+
+此模組會擷取所有可用InDesign應用程式版本的相關資訊，包括主要版本、次要版本，以及每個註冊應用程式版本的狀態。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需建立與Adobe InDesign的連線的說明，請參閱本文中的<a href="#create-a-connection-to-adobe-indesign" class="MCXref_0">建立與Adobe InDesign的連線</a>。</td>
+      </tr>
+  <tr> 
+   <td>傳回結果的最大數量</td> 
+   <td>輸入您希望模組針對每個執行週期傳回的結果數目上限。</td> 
+  </tr> 
+  </tbody>
+</table>
+

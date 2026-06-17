@@ -8,9 +8,9 @@ exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
 TQID: https://experienceleague.adobe.com/gze4-OOI8ekVaS71VgkFeT3Yef1xUoqumWYauC9Es2I
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 81d1dfcdb5c15f6a93e2793f9a0e41821b65c7e3
+source-git-commit: 28b8a270f6cb0e7a42c81153493b983d5b9e428b
 workflow-type: tm+mt
-source-wordcount: 770
+source-wordcount: 771
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 此情境的第一個步驟由第一個模組執行，就是在Workfront中監視檔案。 找到的每個檔案都會視為一個組合。 如果模組執行時未發現任何組合，則案例會在第一個模組後結束。
 
-如果傳回束，則束會通過場景的其餘部分。 在此範例中，此案例的其餘部分包含secondmodule，它會上傳套件組合至[!DNL Dropbox]資料夾。
+如果傳回束，則束會通過場景的其餘部分。 在此範例中，此案例的其餘部分包含第二個模組，此模組會將套件組合上傳至[!DNL Dropbox]資料夾。
 
 ![整合情境的執行流程](assets/example-execution-flow-wf-dropbox.png)
 

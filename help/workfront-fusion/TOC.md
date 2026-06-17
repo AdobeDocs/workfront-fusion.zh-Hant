@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: b84dea9d44b4112a8d905b631720727e557351df
+source-git-commit: e6ebc56a6e7d068ccf14411e2af91b3f79d0ca24
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2452'
 ht-degree: 54%
 
 ---
@@ -380,7 +380,7 @@ ht-degree: 54%
          * [Adobe Target 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
          * [Adobe 使用者管理模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-user-management-modules.md)
          * [Adobe Workfront 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md)
-         * [Adobe Workfront 規劃模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-planning-modules.md)
+         * [Adobe Workfront規劃模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-planning-modules.md)* [Adobe Workfront整合式檢閱和核准模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-review-and-approvals-modules.md)
          * [Workfront 展示板模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-boards-modules.md)
          * [Workfront Proof 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-proof-modules.md)
       * 第三方應用程式的連接器 {#third-party-app-connectors}

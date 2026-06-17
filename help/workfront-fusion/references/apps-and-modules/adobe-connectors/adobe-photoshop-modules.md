@@ -9,10 +9,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 19cca2c98ca25a7aee5c5c067d7287ab98c8b79f
 workflow-type: tm+mt
-source-wordcount: 5506
-ht-degree: 14%
+source-wordcount: 6526
+ht-degree: 13%
 
 ---
 
@@ -283,7 +283,7 @@ Adobe Photoshop聯結器會使用以下專案：
     <tr>
       <td role="rowheader">[!UICONTROL 輸出]</td>
       <td>
-        <p>針對每一個要建立的已編輯檔案，按一下「新增專案」，然後輸入此表格中所列的儲存體、位置及型別。</p>
+        <p>對於每個要建立的已編輯檔案，按一下「新增專案」並輸入儲存體、位置及型別，如所列。</p>
       </td>
     </tr>
     <tr>
@@ -397,7 +397,7 @@ Adobe Photoshop聯結器會使用以下專案：
     <tr>
       <td role="rowheader">[!UICONTROL 輸出]</td>
       <td>
-        <p>針對每一個要建立的轉換檔案，按一下「新增專案」，然後輸入儲存體、位置及型別，如本表所列。</p>
+        <p>對於每個要建立的轉換檔案，按一下「新增專案」，然後輸入儲存體、位置及型別，如清單所示。</p>
       </td>
     </tr>
     <tr>
@@ -577,7 +577,7 @@ Adobe Photoshop聯結器會使用以下專案：
     <tr>
       <td role="rowheader">[!UICONTROL 輸出]</td>
       <td>
-        <p>針對您要建立的每個檔案，按一下「新增專案」，然後輸入此表格中所列的儲存體、位置及型別。</p>
+        <p>針對您要建立的每個檔案，按一下「新增專案」，然後輸入儲存體、位置及型別，如清單所示。</p>
       </td>
     </tr>
     <tr>
@@ -806,7 +806,7 @@ Adobe Photoshop聯結器會使用以下專案：
     <tr>
       <td role="rowheader">[!UICONTROL 輸出]</td>
       <td>
-        <p>針對您要建立的每個檔案，按一下「新增專案」，然後輸入此表格中所列的儲存體、位置、型別和覆寫選項。</p>
+        <p>針對您要建立的每個檔案，按一下「新增專案」，然後輸入儲存體、位置、型別和覆寫選項（如所列）。</p>
       </td>
     </tr>
     <tr>
@@ -1366,7 +1366,7 @@ Adobe Photoshop聯結器會使用以下專案：
     <tr>
       <td role="rowheader">[!UICONTROL 輸出]</td>
       <td>
-        <p>針對每一個要建立的轉換檔案，按一下「新增專案」，然後輸入此表格中所列的儲存體、位置和其他選項。</p>
+        <p>針對每一個要建立的轉換檔案，按一下「新增專案」並輸入儲存體、位置及其他選項。</p>
       </td>
     </tr>
     <tr>
@@ -1499,3 +1499,346 @@ Adobe Photoshop聯結器會使用以下專案：
       </td>
     </tbody>
 </table>
+
+
+### 建立工作區域
+
+此模組會在Photoshop中建立新的工作區域。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Images]</td>
+      <td>
+        <p>針對您想要新增至此工作區域的每個影像，按一下<b>新增專案</b>並輸入影像的來源型別和位置。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 工作區域間距]</p>
+      </td>
+   <td>輸入或對應每個工作區域之間的間距（畫素）。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 輸出]</td>
+      <td>
+        <p>針對每一個要建立的轉換檔案，按一下「新增專案」並輸入儲存體、位置及其他選項。</p>
+      </td>
+    </tr>
+    </tbody>
+</table>
+
+### 建立或編輯複合
+
+此模組會在Photoshop中建立或編輯複合。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Images]</td>
+      <td>
+        <p>針對您想要新增至此工作區域的每個影像，按一下<b>新增專案</b>並輸入影像的來源型別和位置。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 寬度]</p>
+      </td>
+   <td>如果您要建立影像，請輸入影像寬度（畫素）。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Height]</td>
+      <td>
+        <p>如果您要建立影像，請輸入影像高度（畫素）。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 模式]</td>
+      <td>
+        <p>選取此影像的色彩模式。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 填滿]</td>
+      <td>
+        <p>選取背景圖層的填色型別。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 名稱]</td>
+      <td>
+        <p>輸入或對應新影像的名稱。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 畫素縮放因數]</td>
+      <td>
+        <p>輸入或對映畫素比例係數。 這必須是介於0.1和1之間的數字。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 解析度]</td>
+      <td>
+        <p>在<b>值</b>欄位中，輸入以密度單位（每英吋畫素）為單位的解析度值。 預設值為72。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 設定檔型別]</td>
+      <td>
+        <p>如果您要覆寫預設色彩設定檔，請選取設定檔型別，然後依清單輸入詳細資訊。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 裁切&gt;上/左/下/右]</td>
+      <td>
+        <p>輸入要裁切影像的邊界。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 隱藏]</td>
+      <td>
+        <p>選取「是」可隱藏裁切邊界以外的畫素。 如果設為FALSE，則會刪除裁切邊界之外的畫素。 預設值為false。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 調整大小&gt;寬度]</td>
+      <td>
+        <p>選取您要用於寬度的單位，然後選取代表您想要之寬度的值。 </p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 調整大小&gt;高度]</td>
+      <td>
+        <p>選取您要用於高度的單位，然後選取代表您要的高度值。 </p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 解析度]</td>
+      <td>
+        <p>選取要用於解析度的單位，然後選取代表所要解析度的值。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 重新取樣]</td>
+      <td>
+        <p>選取重新取樣方法，以在調整大小時使用。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 強制等比例]</td>
+      <td>
+        <p>選取「是」以維持寬度和高度之間的外觀比例。 選取「否」以允許獨立調整寬度和高度。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 點陣化]</td>
+      <td>
+        <p>選取是否要點陣化影像。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 縮放樣式]</td>
+      <td>
+        <p>選取調整影像大小時是否要套用縮放至樣式。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL Trim on]</td>
+      <td>
+        <p>選取是否要在透明畫素上裁剪。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 圖層]</td>
+      <td>
+        <p>對於您稍後想要新增的每一項，按一下[新增專案] <b>並輸入圖層詳細資料。 </b></p><p>如需詳細資訊，請參閱Adobe檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop-v2/#operation/createComposite">建立或編輯複合</a>。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 預設字型PostScript名稱]</td>
+      <td>
+        <p>輸入或對應您要使用之預設字型的PostScript名稱。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 缺少字型策略]</td>
+      <td>
+        <p>選取您是否希望建立或編輯失敗，或是在無法使用字型時使用預設字型。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 其他字型]</td>
+      <td>
+        <p>針對您想要新增的每個字型，按一下[新增專案] <b> </b>並輸入字型的來源URL。 </p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 輸出]</td>
+      <td>
+        <p>對於每個要建立的已編輯檔案，按一下「新增專案」並輸入輸出詳細資訊。 </p><p>如需詳細資訊，請參閱Adobe檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop-v2/#operation/createComposite">建立或編輯複合</a>。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 結果數量上限]</td>
+      <td>
+        <p>輸入或對應您希望模組在一個執行週期內使用的最大結果數量。</p>
+      </td>
+      </tr>
+      </tbody>
+</table>
+
+### 使用各種調整編輯影像
+
+此模組會針對影像進行Lightroom樣式的調整。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Images]</td>
+      <td>
+        <p>輸入或對應影像的來源型別和位置。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 其他欄位]</p>
+      </td>
+   <td><p>如需詳細資訊，請參閱Adobe檔案中的<a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop-v2/#operation/edit">使用各種調整編輯影像</a>。</p></td> 
+    </tr>
+    </tbody>
+</table>
+
+### 執行Photoshop動作、指令碼和轉換
+
+此模組會執行Firefly Photoshop API中可用的動作、指令碼和轉換。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Images]</td>
+      <td>
+        <p>輸入或對應影像的來源型別和位置。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Actions]</p>
+      </td>
+   <td><p>針對您要新增的每個動作，按一下[新增專案] <b> </b>並輸入動作的來源、URL和名稱。</p></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL UXP來源]</p>
+      </td>
+   <td><p>如果您使用UXP指令碼，請選取是要提供URL或內嵌內容，然後輸入或對應URL或內容。</p></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 其他內容]</p>
+      </td>
+   <td><p>最多新增從動作或UXP參照的25個檔案。</p></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 輸出]</td>
+      <td>
+        <p>對於每個要建立的已編輯檔案，按一下「新增專案」並輸入格式、目的地和輸出模式。</p>
+      </td>
+    </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 結果數量上限]</td>
+      <td>
+        <p>輸入或對應您希望模組在一個執行週期內使用的最大結果數量。</p>
+      </td>
+      </tr>
+    </tbody>
+</table>
+
+### 產生資訊清單
+
+此模組會針對給定的輸入影像產生PSD資訊清單。
+
+
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Photoshop] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >建立與 [!DNL Adobe Photoshop]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Source]</td>
+      <td>
+        <p>輸入或對應影像的來源型別和位置。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 輸出]</td>
+      <td>
+        <p>對於每個要建立的已編輯檔案，按一下「新增專案」並輸入目的地詳細資訊。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 包含圖層縮圖]</p>
+      </td>
+   <td><p>如果您想要模組為資訊清單中的每個圖層產生縮圖轉譯，請選取「是」。</p></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 最大縮圖深度]</p>
+      </td>
+   <td><p>輸入或對應縮圖轉譯的最大深度。 若沒有最大深度，請輸入<code>0</code>。</p></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 圖層縮圖格式]</p>
+      </td>
+   <td><p>選取您要讓縮圖為JPEG還是PNG格式。</p></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 提取智慧型物件資料]</td>
+      <td>
+        <p>選取是否擷取內嵌智慧物件，並在資訊清單中包含預先簽署的URL。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 修剪成透明度]</td>
+      <td>
+        <p>選取是否要裁剪每個圖層縮圖以移除透明畫素。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 結果數量上限]</td>
+      <td>
+        <p>輸入或對應您希望模組在一個執行週期內使用的最大結果數量。</p>
+      </td>
+      </tr>
+    </tbody>
+</table>
+

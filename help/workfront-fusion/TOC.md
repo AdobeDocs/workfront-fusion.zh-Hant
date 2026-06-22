@@ -2,7 +2,8 @@
 user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
-source-git-commit: e9ea91840c9be594e98b97202cb46dfa009349a9
+nudge: true
+source-git-commit: 11674a9ee27ae94532a85b6702bafe3e54b26fd7
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 53%

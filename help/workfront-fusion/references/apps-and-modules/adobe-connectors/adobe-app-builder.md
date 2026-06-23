@@ -3,10 +3,11 @@ title: Adobe App Builder模組
 description: Adobe App Builder聯結器可讓您在情境中使用自訂函式。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8250d4fdad8ed7ffe63cd003f6e0cb325cbbfa8d
+exl-id: 92661a0c-436b-4fbd-808a-a4fbe3cd2339
+source-git-commit: 4392b9d13c49d3d64b2b694bf23cfc227ae36d02
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 31%
+source-wordcount: '365'
+ht-degree: 26%
 
 ---
 
@@ -41,19 +42,36 @@ ht-degree: 31%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
 ## Adobe App Builder模組
 
-目前唯一可用的Adobe App Builder模組是執行動作，可讓您使用先前設定的自訂JavaScript函式。
+### 執行自訂程式碼區塊
+
+此模組可讓您執行程式碼區塊。 您可以在設定模組時設定程式碼區塊，並在案例執行期間模組執行時執行此程式碼區塊。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td>
+   <td>選取包含您要執行之自訂函式的連線。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL程式碼區塊]</td> 
+   <td>輸入您希望模組執行的程式碼區塊。<p>若要將程式碼格式化以便於閱讀，請按一下<b>格式化程式碼</b>圖示。</td> 
+  </tr> 
+   </tbody> 
+</table>
+
+### 執行自訂函式
+
+此模組可讓您使用儲存在函式區域中之先前設定的自訂JavaScript函式。
 
 如需設定自訂函式的指示，請參閱[使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md)。
-
-### 執行動作
-
-此模組會執行先前設定的自訂函式。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,10 +86,8 @@ ht-degree: 31%
    <td>選取您要執行的自訂函式。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 引數] </td> 
+   <td role="rowheader">[！UICONTROL引數] </td> 
    <td>輸入函式引數的值。 可用的引數是根據建立函式時設定的引數。<p>如果引數有預設值，您不會在欄位中看到它，但可以透過在欄位中輸入或對應值來覆寫它。</p></td> 
   </tr> 
    </tbody> 
 </table>
-
-

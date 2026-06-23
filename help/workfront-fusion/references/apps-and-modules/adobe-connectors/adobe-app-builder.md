@@ -42,7 +42,7 @@ ht-degree: 32%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -90,7 +90,7 @@ This module allows you to run a code block. You configure the code block when yo
    <td>選取您要執行的自訂函式。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL引數] </td> 
+   <td role="rowheader">[!UICONTROL 引數] </td> 
    <td>輸入函式引數的值。 可用的引數是根據建立函式時設定的引數。<p>如果引數有預設值，您不會在欄位中看到它，但可以透過在欄位中輸入或對應值來覆寫它。</p></td> 
   </tr> 
    </tbody> 

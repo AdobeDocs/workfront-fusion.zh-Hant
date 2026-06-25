@@ -7,9 +7,9 @@ exl-id: b9d7643e-febf-42e2-9ddc-8ec8eba98e7a
 TQID: https://experienceleague.adobe.com/ObsbedalglAtYWQlx0w8vZbvsU7z0ttVIehf8STysvw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 61b8118bed095b526e179c8fae798ece4e11d065
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: 731
 ht-degree: 23%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 23%
 
 Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 這些函式涵蓋各種使用案例，包括陣列、字串、數字及先前模組資料的函式。
 
-此外，您可以建立自訂函式，情境可隨後使用這些函式來轉換和處理資料。
+此外，您可以建立自訂函式和套件，情境可隨後使用這些函式和套件轉換及操控資料。
 
 如需自訂函式的資訊與指示，請參閱[使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md)。
+
+如需有關函式套件的資訊與指示，請參閱[使用自訂函式套件](/help/workfront-fusion/create-scenarios/map-data/use-custom-function-packages.md)。
 
 ## 存取權要求
 

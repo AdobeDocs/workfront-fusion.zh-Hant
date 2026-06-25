@@ -42,7 +42,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -61,7 +61,7 @@ ht-degree: 19%
    <td>選取包含您要執行之自訂函式的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL程式碼區塊]</td> 
+   <td role="rowheader">[!UICONTROL 程式碼區塊]</td> 
    <td>輸入您希望模組執行的程式碼區塊。<p>若要將程式碼格式化以便於閱讀，請按一下<b>格式化程式碼</b>圖示。</td> 
   </tr> 
    </tbody> 
@@ -82,11 +82,11 @@ ht-degree: 19%
    <td>選取包含您要執行之自訂函式的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL套件]</td> 
+   <td role="rowheader">[!UICONTROL 套件]</td> 
    <td>選取包含您要在此案例中執行之函式的套件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL變數] </td> 
+   <td role="rowheader">[!UICONTROL 變數] </td> 
    <td>選取您要在該案例中執行的函式。</p></td> 
   </tr> 
    </tbody> 
@@ -107,11 +107,11 @@ ht-degree: 19%
    <td>選取包含您要執行之自訂函式的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL套件]</td> 
+   <td role="rowheader">[!UICONTROL 套件]</td> 
    <td>選取包含您要納入情境之變數的套件。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL變數] </td> 
+   <td role="rowheader">[!UICONTROL 變數] </td> 
    <td>選取您要納入情境的變數。</p></td> 
   </tr> 
    </tbody> 
@@ -136,7 +136,7 @@ ht-degree: 19%
    <td>選取您要執行的自訂函式。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL引數] </td> 
+   <td role="rowheader">[!UICONTROL 引數] </td> 
    <td>輸入函式引數的值。 可用的引數是根據建立函式時設定的引數。<p>如果引數有預設值，您不會在欄位中看到它，但可以透過在欄位中輸入或對應值來覆寫它。</p></td> 
   </tr> 
    </tbody> 

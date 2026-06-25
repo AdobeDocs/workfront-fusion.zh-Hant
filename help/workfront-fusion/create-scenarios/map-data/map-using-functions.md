@@ -5,11 +5,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: b9d7643e-febf-42e2-9ddc-8ec8eba98e7a
 TQID: https://experienceleague.adobe.com/ObsbedalglAtYWQlx0w8vZbvsU7z0ttVIehf8STysvw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 61b8118bed095b526e179c8fae798ece4e11d065
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: 731
 ht-degree: 23%
 
 ---
@@ -18,9 +17,11 @@ ht-degree: 23%
 
 Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 這些函式涵蓋各種使用案例，包括陣列、字串、數字及先前模組資料的函式。
 
-此外，您可以建立自訂函式，情境可隨後使用這些函式來轉換和處理資料。
+此外，您可以建立自訂函式和套件，情境可隨後使用這些函式和套件轉換及操控資料。
 
 如需自訂函式的資訊與指示，請參閱[使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md)。
+
+如需有關函式套件的資訊與指示，請參閱[使用自訂函式套件](/help/workfront-fusion/create-scenarios/map-data/use-custom-function-packages.md)。
 
 ## 存取權要求
 
@@ -47,7 +48,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -80,7 +81,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 
    如需函式及其引數的詳細資訊，請參閱[函式參考下的文章：文章索引](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)。
 
-1. 繼續設定模組，或按一下[確定]。**&#x200B;**
+1. 繼續設定模組，或按一下[確定]。****
 
 >[!TIP]
 >
@@ -121,7 +122,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 1. 在該函式中，按一下要巢狀函式移至何處。 在此範例中，巢狀函式會取代第一個引數。
 1. 在對映面板中，按一下巢狀函式。 在此範例中，這是`trim`函式。
 1. 繼續視需要設定函式。
-1. 繼續設定模組，或按一下[確定]。**&#x200B;**
+1. 繼續設定模組，或按一下[確定]。****
 
 ### 使用[!DNL Google Sheets]函式
 

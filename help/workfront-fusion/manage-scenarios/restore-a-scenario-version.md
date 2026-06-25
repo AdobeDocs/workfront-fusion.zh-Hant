@@ -7,7 +7,7 @@ exl-id: e7fd0351-b840-422c-b861-82ae110c703b
 TQID: https://experienceleague.adobe.com/xVihxZH-fwPCIkryQAQEOWgeShtPTMXth4jEl5OLdbo
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: eb4c1ed6991606928beccbb57a8a86182e58a9e7
+source-git-commit: ac7190293e7c4b3bb9bfd48d73cd59ad687690e6
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 14%
@@ -124,5 +124,6 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 &#x200B;URL
 如果兩個版本相同，檢視會顯示訊息/ **找不到差異**。
 &#x200B;URL
+
 
 

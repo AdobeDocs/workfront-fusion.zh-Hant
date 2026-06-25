@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 11674a9ee27ae94532a85b6702bafe3e54b26fd7
+source-git-commit: deca1405b732f257cb2dff989d151976a33501a4
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2474'
 ht-degree: 53%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 53%
 * Fusion 發行活動 {#fusion-release-activity}
    * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion版本 — 2026 {#fusion-releases-2026}
+      * [Workfront Fusion發行活動： 2026年6月22日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-6-22.md)
       * [Workfront Fusion發行活動： 2026年6月15日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-6-15.md)
       * [Workfront Fusion發行活動： 2026年6月1日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-6-1.md)
       * [Workfront Fusion發行活動： 2026年5月25日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-5-25.md)
@@ -239,6 +240,7 @@ ht-degree: 53%
       * [將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)
       * [使用內建函式對應專案](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md)
       * [使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md)
+      * [使用自訂函式套件](/help/workfront-fusion/create-scenarios/map-data/use-custom-function-packages.md)
       * [對應陣列和陣列元素](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md)
       * [在模組之間對應檔案](/help/workfront-fusion/create-scenarios/map-data/map-files.md)
       * [資料存放庫](/help/workfront-fusion/create-scenarios/map-data/data-stores.md)

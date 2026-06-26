@@ -7,10 +7,10 @@ exl-id: e7fd0351-b840-422c-b861-82ae110c703b
 TQID: https://experienceleague.adobe.com/xVihxZH-fwPCIkryQAQEOWgeShtPTMXth4jEl5OLdbo
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: ac7190293e7c4b3bb9bfd48d73cd59ad687690e6
+source-git-commit: e24fc726107fcfa34e9288e9a35af445fc0cc765
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 14%
+source-wordcount: 713
+ht-degree: 12%
 
 ---
 
@@ -73,14 +73,14 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 
 ## 比較案例版本
 
-&#x200B;URL
+&#x200B;
 檢視變更功能會並排顯示兩個案例版本之間的差異，讓您在決定還原較舊案例之前可以確切檢視變更內容。
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]** ![案例圖示](assets/scenarios-icon.png)，然後按一下案例以開啟它。
 1. 按一下畫面底部的[!UICONTROL 更多]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 舊版]**。
 
    先前版本的清單隨即顯示。
-&#x200B;URL
+&#x200B;
 1. 按一下您要檢視之情境版本的&#x200B;**檢視變更**。
 1. **檢閱變更**&#x200B;檢視會開啟，並將該版本與您目前的案例進行比較。
 
@@ -102,7 +102,7 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 
 ### 檢查變更
 
-&#x200B;URL
+
 每個變更都會顯示在其所屬的一側，並以還原的方式著色
 執行：
 
@@ -110,9 +110,7 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 * 綠色（右）：此變更位於右側，如果版本已還原，則會新增此變更。
 
 如果發生變更，則值會在左側以紅色顯示，在右側以綠色顯示，而不是移除或新增。
-&#x200B;URL
 變更會分組為多個區段：
-&#x200B;URL
 
 * **案例**：名稱、說明和型別。
 * **案例設定**：排程與處理選項。
@@ -121,9 +119,5 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 * **路由器路由**：路由及其內容。
 * **錯誤處理常式**：錯誤處理分支。
 * **孤立群組**：畫布上的模組已中斷連線。
-&#x200B;URL
 如果兩個版本相同，檢視會顯示訊息/ **找不到差異**。
-&#x200B;URL
-
-
 

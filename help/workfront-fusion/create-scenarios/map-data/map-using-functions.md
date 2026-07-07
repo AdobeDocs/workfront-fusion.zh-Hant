@@ -5,9 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: b9d7643e-febf-42e2-9ddc-8ec8eba98e7a
 TQID: https://experienceleague.adobe.com/ObsbedalglAtYWQlx0w8vZbvsU7z0ttVIehf8STysvw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 61b8118bed095b526e179c8fae798ece4e11d065
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 314c4535a5ef14794458f40002a53ee529c1a4b6
 workflow-type: tm+mt
 source-wordcount: 731
 ht-degree: 23%
@@ -49,7 +48,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -82,7 +81,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 
    如需函式及其引數的詳細資訊，請參閱[函式參考下的文章：文章索引](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)。
 
-1. 繼續設定模組，或按一下[確定]。**&#x200B;**
+1. 繼續設定模組，或按一下[確定]。****
 
 >[!TIP]
 >
@@ -123,7 +122,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 1. 在該函式中，按一下要巢狀函式移至何處。 在此範例中，巢狀函式會取代第一個引數。
 1. 在對映面板中，按一下巢狀函式。 在此範例中，這是`trim`函式。
 1. 繼續視需要設定函式。
-1. 繼續設定模組，或按一下[確定]。**&#x200B;**
+1. 繼續設定模組，或按一下[確定]。****
 
 ### 使用[!DNL Google Sheets]函式
 
@@ -146,3 +145,4 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 1. 使用您在步驟4中使用的相同儲存格ID來設定模組。
 
    ![使用Google工作表功能](assets/exploit-google-sheet-functions-2-350x187.png)
+

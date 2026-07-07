@@ -14,7 +14,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: deca1405b732f257cb2dff989d151976a33501a4
+source-git-commit: 314c4535a5ef14794458f40002a53ee529c1a4b6
 workflow-type: tm+mt
 source-wordcount: 1520
 ht-degree: 89%
@@ -417,3 +417,4 @@ Adobe Workfront Fusion 能順暢連接您的應用程式和網頁服務，讓您
 * [Workfront Fusion 發行活動：2020 年 8 月 17 日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-aug-17.md)
 
 +++
+

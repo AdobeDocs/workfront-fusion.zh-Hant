@@ -3,7 +3,7 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 621399ef230909c889e1ae52b21ea2f90de68ff0
+source-git-commit: 2ccd7424274daa53305259e66d66a50f0733659b
 workflow-type: tm+mt
 source-wordcount: '2483'
 ht-degree: 53%
@@ -190,8 +190,8 @@ ht-degree: 53%
    * 授權與作業概觀 {#licensing-and-operations-overviews}
       * [授權與作業概觀](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/licensing-operations-overviews.md)
       * [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
-      * &lbrack;作業
-        [背景工作集區](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/worker-pools.md)
+      * [作業](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md)
+      * [工作者集區](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/worker-pools.md)
    * 設定和管理組織與團隊 {#set-up-and-manage-orgs-and-teams}
       * [設定和管理組織與團隊：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-and-manage-orgs-and-teams.md)
       * 設定組織與團隊 {#set-up-orgs-teams-and-users}
@@ -280,7 +280,7 @@ ht-degree: 53%
    * [檢視和管理鏈結的案例關係](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md)
    * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
    * [檢視 Webhook 的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
-   * {hide-from-toc}[Workfront Fusion中的AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
+   * Workfront Fusion中的{hide-from-toc}[AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
    * [執行情境評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
    * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
    * [從案例區域管理案例](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)

@@ -3,7 +3,8 @@ title: 使用執行一次來測試案例
 description: 您可以使用執行一次按鈕來測試沒有外部觸發器的案例。
 author: Becky
 feature: Workfront Fusion
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 74faab448149276b8d769dfde0260c96d4b0712a
 workflow-type: tm+mt
 source-wordcount: 332

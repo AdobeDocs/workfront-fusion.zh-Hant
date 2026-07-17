@@ -5,7 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
 TQID: https://experienceleague.adobe.com/xVihxZH-fwPCIkryQAQEOWgeShtPTMXth4jEl5OLdbo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 6a176c74f45b17ed9fbf80b2d87cf45873067f74
 workflow-type: tm+mt
 source-wordcount: 217
@@ -48,7 +49,7 @@ Workfront Fusion管理員可以還原最近刪除的情境。
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -57,5 +58,5 @@ Workfront Fusion管理員可以還原最近刪除的情境。
 1. 在左側導覽中，按一下團隊概述。
 1. 按一下視窗頂端附近的&#x200B;**資源回收筒**&#x200B;標籤。
 1. （選擇性）在&#x200B;**搜尋**&#x200B;列中輸入搜尋字詞、在&#x200B;**刪除介於**&#x200B;之間」欄位中選取日期範圍，或從&#x200B;**團隊**&#x200B;下拉式清單中選取特定團隊，以篩選已刪除案例的清單。
-1. 選取您要還原的一或多個情境，然後按一下畫面底部列中的還原按鈕&#x200B;****。
+1. 選取您要還原的一或多個情境，然後按一下畫面底部列中的還原按鈕&#x200B;**&#x200B;**。
 

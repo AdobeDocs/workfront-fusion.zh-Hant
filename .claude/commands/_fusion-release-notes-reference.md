@@ -10,7 +10,7 @@ ht-degree: 0%
 根據`fusion-release-notes`技能的實際最近頁數
 `help/workfront-fusion/fusion-product-releases/fusion-releases-2026/`.
 
----
+&#x200B;---
 
 ## 範例1：直接的多功能周
 
@@ -50,7 +50,7 @@ To make it easier to understand changes between scenario versions, we've added t
 For more information, see [View and manage scenario versions](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md).
 ```
 
----
+&#x200B;---
 
 ## 範例2：含有必要動作/取代圖說文字的周
 
@@ -96,7 +96,7 @@ To make it easier to identify routes, we've added labels. Now, routes are labele
 For more information on routes, see [Add a Router module and configure routes](/help/workfront-fusion/create-scenarios/add-modules/router-module.md).
 ```
 
----
+&#x200B;---
 
 ## 概觀頁面(`fusion-release-activity.md`)更新模式
 
@@ -129,7 +129,7 @@ For more information on routes, see [Add a Router module and configure routes](/
 +++
 ```
 
----
+&#x200B;---
 
 ## TOC.md更新模式
 
@@ -144,7 +144,7 @@ For more information on routes, see [Add a Router module and configure routes](/
         ...
 ```
 
----
+&#x200B;---
 
 ## 現有頁面中的已知不一致（僅供參考 — 請勿將這些內容複製到新頁面）
 

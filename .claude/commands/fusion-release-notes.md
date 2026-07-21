@@ -97,6 +97,7 @@ For more information, see [{Help article title}](/help/workfront-fusion/{path-to
   
   {Regular description paragraph(s).}
   ```
+
 - 每個功能都應以「如需詳細資訊，請參閱[...]」結尾 相關說明文章的連結。 確認存放庫中存在連結目標。
 
 ## 步驟4：將頁面新增至綜覽索引
@@ -111,6 +112,7 @@ For more information, see [{Help article title}](/help/workfront-fusion/{path-to
   ```markdown
   * [Workfront Fusion release activity: Week of {Month} {Day}, {Year}](/help/workfront-fusion/fusion-product-releases/fusion-releases-{YYYY}/fusion-{YYYY}-{M}-{D}.md)
   ```
+
 - 如果這是新年的第一版，請在前一年標題上方新增新的`## Fusion releases in {YYYY}`標題，並在`+++ **Click to open**` / `+++`可摺疊區塊中包裝&#x200B;*previous*&#x200B;年的區段（如果尚未包裝） （僅目前年份保持展開）。
 
 ## 步驟5：將頁面新增至目錄
@@ -123,6 +125,7 @@ For more information, see [{Help article title}](/help/workfront-fusion/{path-to
   ```markdown
         * [Workfront Fusion release activity: Week of {Month} {Day}, {Year}](/help/workfront-fusion/fusion-product-releases/fusion-releases-{YYYY}/fusion-{YYYY}-{M}-{D}.md)
   ```
+
 - 如果目前年份的標題尚不存在，請在前一年標題上方新增`* Fusion releases - {YYYY} {#fusion-releases-{YYYY}}`。
 - **不要**&#x200B;新增`{hide-from-toc}`首碼至新專案 — 僅用於較舊的專案一旦超過可見導覽的期限（請參閱下列已知的不一致性）。
 

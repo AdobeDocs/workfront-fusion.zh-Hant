@@ -10,7 +10,7 @@ ht-degree: 0%
 根據`fusion-release-notes`技能的實際最近頁數
 `help/workfront-fusion/fusion-product-releases/fusion-releases-2026/`.
 
----
+&#x200B;---
 
 ## 範例1：直接的多功能周
 
@@ -50,7 +50,7 @@ To make it easier to understand changes between scenario versions, we've added t
 For more information, see [View and manage scenario versions](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md).
 ```
 
----
+&#x200B;---
 
 ## 範例2：含有必要動作/取代圖說文字的周
 
@@ -96,7 +96,7 @@ To make it easier to identify routes, we've added labels. Now, routes are labele
 For more information on routes, see [Add a Router module and configure routes](/help/workfront-fusion/create-scenarios/add-modules/router-module.md).
 ```
 
----
+&#x200B;---
 
 ## 範例3：新聯結器啟動
 
@@ -118,7 +118,7 @@ For more information, see [Adobe Content Tagger modules](/help/workfront-fusion/
 
 對於這類聯結器啟動，請一律詢問（根據技能的步驟1）使用者是否要為其設定重新導向。
 
----
+&#x200B;---
 
 ## 概觀頁面(`fusion-release-activity.md`)更新模式
 
@@ -151,7 +151,7 @@ For more information, see [Adobe Content Tagger modules](/help/workfront-fusion/
 +++
 ```
 
----
+&#x200B;---
 
 ## TOC.md更新模式
 
@@ -166,7 +166,7 @@ For more information, see [Adobe Content Tagger modules](/help/workfront-fusion/
         ...
 ```
 
----
+&#x200B;---
 
 ## 重新導向存放庫參考（適用於步驟7）
 
@@ -181,7 +181,7 @@ For more information, see [Adobe Content Tagger modules](/help/workfront-fusion/
 
 新增列後，仍需在`redirects`存放庫中提出PR並加以合併，才能讓該PR上線（1:1重新導向合併後約5分鐘）。 這項技能只會在使用者確認後新增該列 — 不會提高PR。
 
----
+&#x200B;---
 
 ## 現有頁面中的已知不一致（僅供參考 — 請勿將這些內容複製到新頁面）
 

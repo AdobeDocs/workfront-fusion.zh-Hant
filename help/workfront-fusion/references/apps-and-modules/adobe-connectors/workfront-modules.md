@@ -5,20 +5,14 @@ author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
 TQID: https://experienceleague.adobe.com/CjzJP-U4P5bVop8ktivUH3pPOjVVgamqqc--cUsLm8U
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 86ecf8da00cbae38b4ae48f616ac37e759f84494
 workflow-type: tm+mt
-source-wordcount: 7298
-ht-degree: 98%
+source-wordcount: 7518
+ht-degree: 95%
 
 ---
 
@@ -70,7 +64,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -791,6 +785,10 @@ See a list of the Workfront object types for which you can use this module in [W
 
 #### 其他動作選項
 
+* [任務](#task)
+* [問題](#issue)
+* [專案](#project)
+
 ##### 任務
 
 <table style="table-layout:auto">
@@ -1058,7 +1056,7 @@ Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workf
 
 關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 
-關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 <table style="table-layout:auto">
  <col> 
@@ -1373,8 +1371,8 @@ See a list of the Workfront object types for which you can use this module in [W
 
 >[!IMPORTANT]
 >
->搜尋記錄模組已經取代這個模組。 我們建議在新情境中使用該模組。
->使用這個模組的現有情境將繼續如常運作。 這個模組將在 2025 年 5 月從模組選擇器中移除。
+>此模組已由搜尋記錄模組取代。我們建議在新案例中使用該模組。
+>使用此模組的現有案例將繼續如預期般運作。此模組將於2025年5月從模組選擇器中移除。
 
 此搜尋模組會在 Workfront 中尋找物件中符合您指定之搜尋查詢的記錄。
 
@@ -2382,6 +2380,13 @@ See a list of the Workfront object types for which you can use this module in [W
 
 ## Workfront > [!UICONTROL 監視事件]模組中的事件訂閱篩選器
 
+事件訂閱中的篩選器可讓您確保案例只在符合某些引數時執行。
+
+* [事件訂閱篩選器最佳實務](#event-subscription-filter-best-practices)
+* [使用進階篩選](#using-advanced-filters)
+
+### 事件訂閱篩選器最佳實務
+
 >[!NOTE]
 >
 >* 我們強烈建議您在[!UICONTROL 監視事件]模組中使用事件訂閱篩選器。
@@ -2390,7 +2395,7 @@ See a list of the Workfront object types for which you can use this module in [W
 >
 >   關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 >
->   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境 (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)]。
+>   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 Workfront [!UICONTROL 監視事件]模組會根據在 Workfront API 中建立事件訂閱的 Webhook 觸發情境。 事件訂閱是一個資料集，用於決定哪些事件要傳送至 Webhook。 例如，若您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
 
@@ -2408,13 +2413,13 @@ Workfront > 監視事件篩選器中提供下列運算子：
 * 小於或等於
 * 包含
 * 存在
-   * 此運算子不需要值，且值欄位不存在。
+  * 此運算子不需要值，且值欄位不存在。
 * 不存在
-   * 此運算子不需要值，且值欄位不存在。
+  * 此運算子不需要值，且值欄位不存在。
 * 已變更
-   * 此運算子不需要值，且值欄位不存在。
-   * 此運算子會忽略狀態欄位。
-   * 使用 `Changed` 時，請在「**記錄來源**」欄位中選取「**僅更新事件**」。
+  * 此運算子不需要值，且值欄位不存在。
+  * 此運算子會忽略狀態欄位。
+  * 使用 `Changed` 時，請在「**記錄來源**」欄位中選取「**僅更新事件**」。
 
 >[!IMPORTANT]
 >
@@ -2424,7 +2429,7 @@ Workfront > 監視事件篩選器中提供下列運算子：
 >
 >**範例：**&#x200B;考慮一個會處理指派至特定使用者 Ana 之新問題的情境。
 >
->### 使用事件訂閱篩選器來篩選事件 (建議使用)
+>#### 使用事件訂閱篩選器來篩選事件 (建議使用)
 >
 >透過事件篩選器，您可以設定 Webhook 在問題建立時若將問題指派至 Ana，則觸發情境。 Ana 的使用者 ID 是 b378489d8f7cd3cee0539260720a84b7。
 >
@@ -2432,7 +2437,7 @@ Workfront > 監視事件篩選器中提供下列運算子：
 >
 >如果一天內建立了 100 個問題，但只有兩個問題指派至 Ana，則情境會執行兩次。
 >
->### 在情境內篩選事件 (不建議使用)
+>#### 在情境內篩選事件 (不建議使用)
 >
 >若要篩選事件，以便僅處理指派至 Ana 的問題，您可以在[!UICONTROL 監視事件]模組之後建立篩選器。
 >
@@ -2445,3 +2450,26 @@ Workfront > 監視事件篩選器中提供下列運算子：
 關於 Webhook 的詳細資訊，請參閱 [Adobe Workfront Fusion 中的即時觸發程序 (Webhook)](/help/workfront-fusion/references/modules/webhooks-reference.md)
 
 如需關於情境中篩選器的詳細資訊，請參閱[在情境中加入篩選器](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md)。
+
+### 使用進階篩選
+
+Workfront >觀看活動模組提供兩種型別的篩選器。
+
+* **簡單**：此篩選器提供介面，可讓您選取欄位、運運算元和值，以及AND和OR運運算元，以建立篩選器。
+* **進階**：此篩選器可讓您上傳代表您篩選器的JSON。
+
+#### 簡單與進階篩選
+
+這兩種型別的主要差異在於濾鏡的「狀態」。
+
+* **簡單**：設定簡單篩選時，請選取您是要篩選欄位的舊狀態還是新狀態。 也就是說，您決定當欄位從&#x200B;**變更指定值時，是否要啟動案例，或當欄位從**&#x200B;變更為&#x200B;**指定值時，是否要啟動。**&#x200B;使用AND和OR可讓您包含多個欄位和值，但它們必須共用相同的狀態。 您不能對某些欄位使用舊狀態，而對其他欄位使用新狀態。
+* **進階**：您可以在進階篩選器中設定JSON，以指定相同篩選器中新舊狀態的值。 例如，您可以指定當專案從「計畫」狀態移至「目前」狀態時，要觸發案例。 這會排除從「計畫」移至「廢棄」或從「保留」移至「目前」的專案。
+
+<!--
+
+#### Advanced filter examples
+
+-->
+
+<!--CHECK ON EDITING FILTERS-->
+

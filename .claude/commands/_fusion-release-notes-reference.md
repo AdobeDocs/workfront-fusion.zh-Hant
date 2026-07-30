@@ -1,7 +1,7 @@
 ---
-source-git-commit: 59a8d8ee83906bc16fc627bd348accc4e588cf9b
+source-git-commit: 67301a4e3c16eaed28f92a1be7556c5574308429
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -10,7 +10,7 @@ ht-degree: 0%
 根據`fusion-release-notes`技能的實際最近頁數
 `help/workfront-fusion/fusion-product-releases/fusion-releases-2026/`.
 
-&#x200B;---
+---
 
 ## 範例1：直接的多功能周
 
@@ -31,7 +31,7 @@ This page describes all enhancements made in Adobe Workfront Fusion the week of 
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
 
-For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates) page and check for any updates labeled Workfront Fusion Maintenance Update.
+For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) page and check for any updates labeled Workfront Fusion Maintenance Update.
 
 ## Create custom JavaScript packages to use in scenarios
 
@@ -50,7 +50,7 @@ To make it easier to understand changes between scenario versions, we've added t
 For more information, see [View and manage scenario versions](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md).
 ```
 
-&#x200B;---
+---
 
 ## 範例2：含有必要動作/取代圖說文字的周
 
@@ -71,7 +71,7 @@ This page describes all enhancements made in Adobe Workfront Fusion the week of 
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
 
-For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates) page and check for any updates labeled Workfront Fusion Maintenance Update.
+For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) page and check for any updates labeled Workfront Fusion Maintenance Update.
 
 ## Log in to Fusion through Adobe IMS
 
@@ -96,7 +96,29 @@ To make it easier to identify routes, we've added labels. Now, routes are labele
 For more information on routes, see [Add a Router module and configure routes](/help/workfront-fusion/create-scenarios/add-modules/router-module.md).
 ```
 
-&#x200B;---
+---
+
+## 範例3：新聯結器啟動
+
+根據`fusion-2026-7-27.md`。
+
+```markdown
+## Adobe Content Tagger connector and modules now available
+
+You can now use Workfront Fusion to tag content in Adobe documents.
+
+With the Adobe Content Tagger modules, you can:
+
+* Tag colors in an image, returning the percentage covered by different pixel colors
+* Tag keywords or key phrases that best describe the subject of a document
+* Tag text in an image, indicating whether text is present and returning it if so
+
+For more information, see [Adobe Content Tagger modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/content-tagging-modules.md).
+```
+
+對於這類聯結器啟動，請一律詢問（根據技能的步驟1）使用者是否要為其設定重新導向。
+
+---
 
 ## 概觀頁面(`fusion-release-activity.md`)更新模式
 
@@ -129,7 +151,7 @@ For more information on routes, see [Add a Router module and configure routes](/
 +++
 ```
 
-&#x200B;---
+---
 
 ## TOC.md更新模式
 
@@ -144,7 +166,22 @@ For more information on routes, see [Add a Router module and configure routes](/
         ...
 ```
 
-&#x200B;---
+---
+
+## 重新導向存放庫參考（適用於步驟7）
+
+同層級`redirects`存放庫(`Adobe-Enterprise-Docs/redirects`)在`redirects/`下的CSV檔案中保留1:1重新導向，每個環境一個： `redirects-dev.csv`、`redirects-stage.csv`、`redirects-prod.csv`。
+
+列規則（來自該存放庫的README）：
+
+- `source`必須以`/en`開頭（自動建立語言變數），且不含空格。
+- `destination`可以是以`/en`開頭的相對路徑，或是以`https`開頭的完整URL，而且不能包含空格。
+- 沒有重複的`source`，也沒有重複的`source`/`destination`配對。
+- 重新導向不得造成重新導向回圈。
+
+新增列後，仍需在`redirects`存放庫中提出PR並加以合併，才能讓該PR上線（1:1重新導向合併後約5分鐘）。 這項技能只會在使用者確認後新增該列 — 不會提高PR。
+
+---
 
 ## 現有頁面中的已知不一致（僅供參考 — 請勿將這些內容複製到新頁面）
 

@@ -5,9 +5,13 @@ author: Becky
 feature: Workfront Fusion
 exl-id: af4da661-eeee-4033-a2bb-a2196e446a3d
 TQID: https://experienceleague.adobe.com/8yRmtq6RJPuw97tGe5lreoyUd85pd1BVvIFaZjmeof4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
 source-wordcount: 1515
@@ -55,7 +59,7 @@ Adobe Authenticator模組可讓您使用單一連線來連線至任何Adobe API�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -137,15 +141,15 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
         <td>如果您已選取OAuth連線，請輸入此連線所需的範圍。</td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
+        <td role="rowheader">[!UICONTROL 技術帳戶ID]</td>
         <td>如果您已選取JWT連線，請輸入您的[!DNL Adobe]技術帳戶ID。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL組織ID]</td>
+        <td role="rowheader">[!UICONTROL 組織ID]</td>
         <td>如果您已選取JWT連線，請輸入您的[!DNL Adobe]組織識別碼。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL Meta範圍]</td>
+        <td role="rowheader">[!UICONTROL Meta範圍]</td>
         <td>如果您已選取JWT連線，請輸入此連線所需的中繼範圍。 </td>
       </tr>
       <tr>
@@ -173,7 +177,7 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL基底URL]</td>
+        <td role="rowheader">[!UICONTROL 基底URL]</td>
         <td>您必須新增要此驗證器允許的基本URL。 稍後在情境中使用進行自訂API呼叫模組時，您將新增相對路徑至所選的URL。 在這裡輸入URL，您可以控制進行自訂API呼叫模組可以連線的專案，進而提高安全性。<p>針對您想要新增至驗證器的每個基底URL，按一下<b>新增專案</b>並輸入基底URL。</td>
       </tr>
       <tr>
@@ -207,7 +211,7 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL基底URL]</p>
+        <p>[!UICONTROL 基底URL]</p>
       </td>
       <td>
         <p>輸入您要連線之API點的基底URL。</p>
@@ -241,7 +245,7 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL主體型別]</td>
+      <td role="rowheader">[!UICONTROL 主體型別]</td>
    <td> 選取此API請求的內文型別：
    <ul>
    <li>原始</li>
@@ -251,7 +255,7 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
       </td>
       </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸出型別]  </td>
+      <td role="rowheader">[!UICONTROL 輸出型別]  </td>
       <td>
         <p>選取您要模組輸出的資料型別。 如果您未選取型別，模組會自動選取型別。</p>
       </td>
@@ -273,7 +277,7 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL基底URL]</p>
+        <p>[!UICONTROL 基底URL]</p>
       </td>
       <td>
         <p>輸入您要連線之API點的基底URL。</p>
@@ -330,7 +334,7 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[！UICONTROL基底URL]</p>
+        <p>[!UICONTROL 基底URL]</p>
       </td>
       <td>
         <p>輸入您要連線之API點的基底URL。</p>
@@ -364,7 +368,7 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL主體型別]</td>
+      <td role="rowheader">[!UICONTROL 主體型別]</td>
    <td> 選取此API請求的內文型別：
    <ul>
    <li>原始</li>
@@ -374,25 +378,25 @@ Adobe Authenticator連線會連線至Adobe Developer Console上的單一專案�
       </td>
       </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Repeat Until]  </td>
+      <td role="rowheader">[!UICONTROL Repeat Until]  </td>
       <td>
         <p>設定條件式篩選器，判斷輪詢何時應停止。 您可以使用點標籤法（例如<code>body.status</code>、<code>body.data.state</code>或<code>headers.status</code>）參考回應資料。 會在每次執行後評估條件，並持續輪詢，直到條件評估為<code>true</code>為止。 支援的運運算元包括： <code>Equal to</code>、<code>Not equal to</code>、<code>Exists</code>、 <code>Does not exist</code></p><p>例如，您可以設定<code>body.status not equal completed</code>以持續輪詢，直到API回應指出程式完成。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL重複延遲]  </td>
+      <td role="rowheader">[!UICONTROL 重複延遲]  </td>
       <td>
         <p>輸入或對應執行之間的延遲（以秒為單位）。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL重複限制]  </td>
+      <td role="rowheader">[!UICONTROL 重複限制]  </td>
       <td>
         <p>輸入或對應您希望API呼叫執行的最大次數。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸出型別]  </td>
+      <td role="rowheader">[!UICONTROL 輸出型別]  </td>
       <td>
         <p>選取您要模組輸出的資料型別。 如果您未選取型別，模組會自動選取型別。</p>
       </td>

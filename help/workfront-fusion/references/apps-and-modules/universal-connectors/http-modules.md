@@ -5,8 +5,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 7db97e6e-262d-4be2-823b-423f56a7d886
 TQID: https://experienceleague.adobe.com/OMMUuYStE-zaML4-bBkPQmq9jTprC-GKYx-yt3tiFzQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
 source-wordcount: 633
@@ -64,7 +66,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -94,7 +96,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL將所有狀態評估為錯誤（2xx和3xx除外）] </td> 
+   <td role="rowheader">[!UICONTROL 將所有狀態評估為錯誤（2xx和3xx除外）] </td> 
    <td> <p>使用此選項來設定錯誤處理。</p> <p>如需詳細資訊，請參閱Adobe Workfront Fusion中的<a href="/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md" class="MCXref xref">錯誤處理</a>。</p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +104,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
    <td> <p>輸入或對應您要下載之檔案的URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL與其他HTTP模組共用Cookie] </td> 
+   <td role="rowheader">[!UICONTROL 與其他HTTP模組共用Cookie] </td> 
    <td> <p>如果您希望此網站的Cookie對其他模組可用，請啟用此選項。 </p> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +124,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 方法] </td> 
-   <td> <p>選取您要使用[！UICONTROL HEAD]方法或[！UICONTROL GET]方法。</p> </td> 
+   <td> <p>選取您要使用[!UICONTROL HEAD]方法或[!UICONTROL GET]方法。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -138,7 +140,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Source模組]</td> 
+   <td role="rowheader">[!UICONTROL Source模組]</td> 
    <td> <p> 選取您要從中擷取標題的模組。</p> </td> 
   </tr> 
  </tbody> 

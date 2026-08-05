@@ -5,16 +5,13 @@ author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
 TQID: https://experienceleague.adobe.com/MIMXln44-LWfrQf0w-lZXfZJ3020Flty2CgwSC3JI9c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
-source-wordcount: 647
-ht-degree: 26%
+source-wordcount: 649
+ht-degree: 25%
 
 ---
 
@@ -51,7 +48,7 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>作業型：適用於擁有作業型授權的組織</p>
    <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
@@ -64,7 +61,7 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -89,19 +86,19 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL WSDL]</td> 
+   <td>[！UICONTROL WSDL]</td> 
    <td> 選取您希望模組使用的WSDL。 若要建立WSDL，請按一下欄位旁的<b>新增</b>並填寫欄位。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL HTTP標頭]</td> 
+   <td>[！UICONTROL HTTP標頭]</td> 
    <td> 針對您想要新增的每個HTTP標頭，按一下<b>新增專案</b>並輸入標頭的名稱和值。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL SOAP headers]</td> 
+   <td>[！UICONTROL SOAP headers]</td> 
    <td> 針對您要新增的每個SOAP標頭，按一下<b>新增專案</b>並輸入標頭的名稱、值、名稱空間及XMLNS。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Force SOAP headers]</td> 
+   <td>[！UICONTROL Force SOAP headers]</td> 
    <td> 啟用此選項以設定SOAP 1.2的標頭。 </td> 
   </tr> 
   </tbody> 
@@ -157,19 +154,19 @@ SOAP聯結器僅包含一個模組：執行SOAP動作
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 方法]</td> 
-      <td> <p>[!UICONTROL POST]</p> </td> 
+      <td> <p>[！UICONTROL POST]</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 主體型別]</td> 
-      <td> <p>[!UICONTROL Raw]</p> </td>
+      <td role="rowheader">[！UICONTROL主體型別]</td> 
+      <td> <p>[！UICONTROL Raw]</p> </td>
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 內容型別]</td> 
-      <td> <p>[!UICONTROL XML (application/xml)]</p> </td> 
+      <td role="rowheader">[！UICONTROL內容型別]</td> 
+      <td> <p>[！UICONTROL XML (application/xml)]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 剖析回應]</td> 
-      <td>[!UICONTROL 已啟用]</td> 
+      <td role="rowheader">[！UICONTROL剖析回應]</td> 
+      <td>[！UICONTROL已啟用]</td> 
      </tr> 
     </tbody> 
    </table>

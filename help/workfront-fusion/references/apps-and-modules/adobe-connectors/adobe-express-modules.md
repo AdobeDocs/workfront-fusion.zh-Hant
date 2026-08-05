@@ -3,9 +3,9 @@ title: Adobe Express模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Adobe Express的工作流程。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: eab04db9a38020ed973f98d7f8f290ccd183251c
+source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1374'
 ht-degree: 17%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 17%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>作業型：適用於擁有作業型授權的組織</p>
    <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
@@ -50,7 +50,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 

@@ -5,17 +5,13 @@ author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 361e6c9c-1497-4f47-85bb-503619744968
 TQID: https://experienceleague.adobe.com/x0Sf-4GkVLQ2JkOXOPQdmwcVWVrM8b9JF3P6LV6BE6U
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
-source-wordcount: 3823
-ht-degree: 100%
+source-wordcount: 3825
+ht-degree: 99%
 
 ---
 
@@ -46,7 +42,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>作業型：適用於擁有作業型授權的組織</p>
    <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
@@ -70,7 +66,7 @@ ht-degree: 100%
 * 您必須具備 Adobe Experience Manager Assets 帳戶才能使用這些模組。
 * 您必須在 Adobe Developer Console 中設定伺服器對伺服器流程。
 
-  關於在 Adobe Developer Console 中設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
+  關於在 Adobe Developer Console 中設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
 * 您的 Adobe Experience Manager 技術帳戶必須擁有寫入權限。
 
   關於將寫入權限新增至您的 Adobe Experience Manager 技術帳戶的說明，請參閱 Adobe Experience Manager 文件中的[服務認證](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)。
@@ -121,7 +117,7 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
 >
 >* 要填入這些欄位的資訊是在 Adobe Developer Console 上設定伺服器對伺服器流程的過程中產生的。 您可以在設定過程中產生的服務認證 JSON 檔案中找到這些值。
 >
->   關於在 Adobe Developer Console 上設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=zh-Hant#the-server-to-server-flow)。
+>   關於在 Adobe Developer Console 上設定伺服器對伺服器流程的說明，請參閱[為伺服器端 API 產生存取權杖](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)。
 >
 >* 您的 Adobe Experience Manager 技術帳戶必須擁有寫入權限。
 >

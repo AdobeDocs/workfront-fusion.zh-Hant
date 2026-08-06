@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
-source-wordcount: 1513
-ht-degree: 34%
+source-wordcount: 1515
+ht-degree: 33%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Authenticator模組可讓您使用單一連線來連線至任何Adobe API�
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>作業型：適用於擁有作業型授權的組織</p>
    <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
@@ -71,10 +71,10 @@ Adobe Authenticator模組可讓您使用單一連線來連線至任何Adobe API�
 * 您必須擁有Adobe Developer Console的存取權。
 * 您在Adobe Developer Console上必須有專案，其中包含您想要模組連線至的API。 您可以：
 
-   * 使用API建立新專案。
+  * 使用API建立新專案。
 
-     或
-   * 將API新增至現有專案。
+    或
+  * 將API新增至現有專案。
 
   如需有關在Adobe Developer Console上建立或新增API至專案的資訊，請參閱Adobe檔案中的[建立專案](https://developer.adobe.com/dep/guides/dev-console/create-project/)。
 

@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
-source-wordcount: 1022
-ht-degree: 15%
+source-wordcount: 1024
+ht-degree: 14%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 15%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>作業型：適用於擁有作業型授權的組織</p>
    <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 

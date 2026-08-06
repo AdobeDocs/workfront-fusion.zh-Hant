@@ -3,9 +3,9 @@ title: Adobe內容標籤模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Adobe內容標籤的工作流程，並將其連結至多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 737e9b07237960d5833cd21e110ef573ddd0a72c
+source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1098'
 ht-degree: 20%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 20%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>作業型：適用於擁有作業型授權的組織</p>
    <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 

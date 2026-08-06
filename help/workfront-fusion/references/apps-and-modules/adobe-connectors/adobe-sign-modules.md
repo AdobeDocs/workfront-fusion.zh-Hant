@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
 workflow-type: tm+mt
-source-wordcount: 6796
+source-wordcount: 6798
 ht-degree: 11%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 11%
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion 授權</td> 
    <td>
-   <p>作業型：無 Workfront Fusion 授權要求</p>
+   <p>作業型：適用於擁有作業型授權的組織</p>
    <p>連接器型 (舊版)：Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
@@ -131,7 +131,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 尋找文字]</td> 
-   <td> <p>輸入您要搜尋的字詞。 模組會傳回包含這些字詞作為欄位值的記錄。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">Adobe Sign搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
+   <td> <p>輸入您要搜尋的字詞。 模組會傳回包含這些字詞作為欄位值的記錄。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">Adobe Sign搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 傳回協議的最大數量]</td> 
@@ -980,7 +980,7 @@ Adobe Acrobat Sign聯結器會使用以下專案：
     <ul> 
      <li> <p><b>[!UICONTROL 尋找文字]</b> </p> <p>輸入要在合約中繼資料中尋找的文字。 每個字都會被視為個別的文字專案。 </p> </li> 
      <li> <p><b>[!UICONTROL 在]</b>中尋找文字 </p> <p>選取您要尋找文字的中繼資料欄位。 如果您未選取任何專案，模組會搜尋所有中繼資料。</p> </li> 
-    </ul> <p>模組會傳回任何包含任何選定欄位中輸入文字的協定。 範例：輸入"spring campaign"並選取Title和Note選項會傳回在Title或Note中包含"Spring"或"Campaign"字詞的任何合約。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign]搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
+    </ul> <p>模組會傳回任何包含任何選定欄位中輸入文字的協定。 範例：輸入"spring campaign"並選取Title和Note選項會傳回在Title或Note中包含"Spring"或"Campaign"字詞的任何合約。</p> <p>如需在[!DNL Adobe Acrobat Sign]中搜尋欄位的詳細資訊，請參閱<a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign]搜尋中的「文字搜尋如何運作」 — 其運作方式</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 建立日期]</td> 

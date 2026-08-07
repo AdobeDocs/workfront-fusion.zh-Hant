@@ -10,10 +10,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: e6873ab923b73175d1889b44df5d7c1baf9d42fb
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 31%
+source-wordcount: 529
+ht-degree: 34%
 
 ---
 
@@ -63,27 +63,32 @@ Workfront Fusion中有以下錯誤處理指示。
    <td> <ul><li><p>案例執行會立即停止。</li><li>所有模組都會啟動復原階段，嘗試將所有模組回復到其初始狀態。 </li><li>後續模組不會處理。</p></li><li> <p>在大多數情況下，案例會在案例設定下指定的連續錯誤數之後停用。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#number-of-consecutive-errors" class="MCXref xref">連續錯誤數</a>。</p> </li><li><p>案例執行狀態會標示為「錯誤」。</p></li></ul> <p><b>注意</b>：如果沒有將錯誤處理常式路由附加到模組，而且未核取<a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow-storing-incomplete-executions" class="MCXref xref">允許儲存不完整的執行</a>案例設定，則這是預設行為。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>認可</p> <p> <img src="assets/commit.png"> </p> </td> 
-   <td> <ul><li><p>案例執行會立即停止。</li><li>認可階段在所有模組上啟動。 </li><li>後續模組不會處理。</p></li><li> <p>會忽略所有未處理的組合。</p> </li><li><p>情境執行狀態標記為「成功」。 </p> </li></ul></td> 
+   <td role="rowheader"> <p>中斷</p> <p> <img src="assets/break.png"> </p> </td> 
+   <td><ul><li> <p>情境執行的狀態儲存在未完成執行作業的佇列中，而錯誤可以手動解決。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">檢視並解決不完整的執行</a>。</p> <p>不過，也有一些例外。 如需詳細資訊，請參閱「設定案例設定」一文中的<a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow" class="MCXref xref">允許儲存未完成的執行</a></a>。</p></li><li> <p>後續模組不會處理。</p></li><li> <p>若有未處理的套件，情境執行將按正常情況繼續。</p> </li><li><p>停用[!UICONTROL 自動完成執行]選項時，案例執行狀態會標示為「警告」。</p></li></ul> <p>如需詳細資訊，請參閱本文中的<a href="#break" class="MCXref xref">[!UICONTROL 分頁符號]</a>一節</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>繼續</p> <p> <img src="assets/resume.png"> </p> </td> 
    <td> <ul><li><p>指定替代輸出並提供給發生錯誤的模組。</p> </li><li><p>後續模組會進行處理。</p></li>如果錯誤處理常式位於路由器上，則案例會依預期進行路由。<li></li><li> <p>情境執行狀態標記為「成功」。</p></li></ul> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"> <p>認可</p> <p> <img src="assets/commit.png"> </p> </td> 
+   <td> <ul><li><p>案例執行會立即停止。</li><li>認可階段在所有模組上啟動。 </li><li>後續模組不會處理。</p></li><li> <p>會忽略所有未處理的組合。</p> </li><li><p>情境執行狀態標記為「成功」。 </p> </li></ul></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"> <p>忽略</p> <p> <img src="assets/ignore.png"> </p> </td> 
    <td><ul><li> <p>忽略錯誤。</li><li> 後續模組不會處理。</p> </li><li><p>若有未處理的套件，情境執行將按正常情況繼續。</p> </li><li>如果錯誤處理常式位於路由器上，則會略過該路由器的後續路由。</li><li><p>情境執行狀態標記為「成功」。</p> </li></ul></td> 
-  </tr> 
+  </tr>
+
+<!--
+
   <tr> 
-   <td role="rowheader"> <p>中斷</p> <p> <img src="assets/break.png"> </p> </td> 
-   <td><ul><li> <p>情境執行的狀態儲存在未完成執行作業的佇列中，而錯誤可以手動解決。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">檢視並解決不完整的執行</a>。</p> <p>不過，也有一些例外。 如需詳細資訊，請參閱「設定案例設定」一文中的<a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow" class="MCXref xref">允許儲存未完成的執行</a></a>。</p></li><li> <p>後續模組不會處理。</p></li><li> <p>若有未處理的套件，情境執行將按正常情況繼續。</p> </li><li><p>停用[!UICONTROL 自動完成執行]選項時，案例執行狀態會標示為「警告」。</p></li></ul> <p>如需詳細資訊，請參閱本文中的<a href="#break" class="MCXref xref">[!UICONTROL 分頁符號]</a>一節</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>重試</p> <p> <img src="assets/retry.png"> </p> </td> 
-   <td> <p>在某些情況下，當失敗的原因可能隨著時間推移而過去時，重新執行失敗模組可能會很有用。</p> <p>Workfront Fusion目前不提供Retry指示詞，不過可採取數個因應措施來模擬其功能。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/create-scenarios/config-error-handling/retry.md" class="MCXref xref">重試錯誤處理</a>。</p> </td> 
+   <td role="rowheader"> <p>Retry</p> <p> <img src="assets/retry.png"> </p> </td> 
+   <td> <p>In some cases it may be useful to re-execute a failing module when there is a chance that the reason for the failure might pass over time.</p> <p>Workfront Fusion currently does not offer the Retry directive, though several workarounds can be employed to mimic its functionality. For more information, see <a href="/help/workfront-fusion/create-scenarios/config-error-handling/retry.md" class="MCXref xref">Retry error handling</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 >[!NOTE]
 >
@@ -96,3 +101,4 @@ Workfront Fusion中有以下錯誤處理指示。
 
 * 如需有關復原和復原階段的資訊，請參閱案例執行、循環和階段一文中的[復原](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#rollback)。
 * 如需有關「認可」階段的資訊，請參閱案例執行、週期和階段一文中的[認可](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#commit)。
+

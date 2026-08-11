@@ -14,10 +14,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: 2f14ef21d36e4307363386563c9861c9306e9cb1
+source-git-commit: 73f52ca232e84750fb67ad7ea8e11d7cb00822dd
 workflow-type: tm+mt
-source-wordcount: 1549
-ht-degree: 87%
+source-wordcount: 1560
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 87%
 Adobe Workfront Fusion 能順暢連接您的應用程式和網頁服務，讓您可以專心處理新任務，而不是一再重複相同的任務。
 
 ## 2026 年的 Fusion 發行版本
+
+### 2026年8月
+
+* [Workfront Fusion發行活動： 2026年8月10日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-10.md)
 
 ### 2026年7月
 

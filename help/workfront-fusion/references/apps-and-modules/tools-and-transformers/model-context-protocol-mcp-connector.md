@@ -8,16 +8,14 @@ exl-id: 748055ad-d305-4513-9a5c-9c970b74a96e
 TQID: https://experienceleague.adobe.com/KC5YvcNC-EQG4bnPA5pOVbGWZHdqa0XKYHKPMLwY-24
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 4d8599c771c76ee9b6713fd7c8e1b2907fe9599f
 workflow-type: tm+mt
-source-wordcount: 488
+source-wordcount: 490
 ht-degree: 18%
 
 ---
 
 # MCP代理程式模組
-
-<!--SET UP REDIRECTS-->
 
 模型上下文通訊協定(MCP)是一種將AI語言模型與其他應用程式安全連線的方法。 您可以設定MCP伺服器，讓AI模型存取應用程式。 然後，您可以向AI模型傳送提示，它可以從應用程式返回資訊。
 
@@ -83,7 +81,7 @@ ht-degree: 18%
        <li><b>LLM</b>：選取與此索引鍵關聯的大型語言模型。</li>
        <li><b>Key</b>：輸入或對應您所選模型的API金鑰。</li>
        <li><b>模型</b>：選取金鑰將使用的LLM模型。</li>
-       <li><b>Token數目上限</b>：輸入或對映LLM在其回應中可產生的最大Token數目。<p>一個語彙基元通常等於四個字元，或一個英文單字的0.75。 「Hello world」會等於兩個權杖，而「Authentication」會等於一到兩個權杖。</li>
+       <li><b>Token數目上限</b>：輸入或對應LLM在其回應中可產生的最大Token數目。<p>一個語彙基元通常等於四個字元，或一個英文單字的0.75。 「Hello world」會等於兩個權杖，而「Authentication」會等於一到兩個權杖。</li>
       </ul>
     </td> 
   </tr> 

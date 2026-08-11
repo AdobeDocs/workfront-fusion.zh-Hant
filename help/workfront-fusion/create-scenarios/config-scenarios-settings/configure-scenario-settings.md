@@ -6,11 +6,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
 TQID: https://experienceleague.adobe.com/3EtKXHUMeJ7FL9pEJpYVpT59fvnlyeC1BMpMK2KGD6M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 7c16e9411b334d32e63b88b18f538f69e494b360
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1366
 ht-degree: 7%
 
 ---
@@ -44,7 +43,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -182,6 +181,12 @@ Workfront >監看記錄模組中的最大週期數設為`10`。
 >[!NOTE]
 >
 >如果案例以立即觸發器開始，則會忽略設定，並在發生第一個錯誤後立即停用案例。
+
+### 警告時通知/發生錯誤時通知/情況停用時通知
+
+若要設定通知型別的案例層級覆寫，請核取或取消核取通知型別旁的方塊。
+
+如需通知設定的相關資訊，包括案例層級覆寫，請參閱[設定通知選項](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.md)。
 
 ### 工作者集區
 

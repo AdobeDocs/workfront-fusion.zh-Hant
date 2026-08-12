@@ -7,10 +7,10 @@ exl-id: 47ccecf0-751c-4026-96a9-329c33cb6801
 TQID: https://experienceleague.adobe.com/0NhWgeBcqYtVJ7XKqZ30O1lg3fKSs7YijEhhYBQ-jfg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 93887116991b505676f5c51762b47829dae9bb7a
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 18%
+source-wordcount: 659
+ht-degree: 16%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 18%
 
 | 動作 | 詳細資料 |
 | ---------- | ---------- |
-| 儲存 <p>![儲存圖示](assets/save-icon.png)</p> | 儲存您的情境後，三點選單底下將顯示新版本，以備您日後需要存取時使用。 之前儲存的情境版本只能保留 60 天。 |
+| 儲存 <p>![儲存圖示](assets/save-icon.png)</p> | <p>儲存您的情境後，三點選單底下將顯示新版本，以備您日後需要存取時使用。 先前儲存的案例版本可在建立下一個案例版本後的60天內使用。 </p><p>為了保留超過60天的案例版本歷史記錄以供稽核，我們建議將案例的藍圖儲存並封存到其他位置。</p> |
 | 案例設定 <p>![案例設定圖示](assets/scenario-settings-icon.png)</p> | 情境設定面板包含情境的進階設定。 如需有關可用設定的詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)。 |
 | 附註  <p>![筆記圖示](assets/notes-icon.png)</p> | 記錄情境。 其他使用者在情境中時可以檢視這些附註。 |
 | 自動對齊 <p>![自動對齊圖示](assets/auto-align-icon.png)</p> | 自動對齊案例中的模組。 |

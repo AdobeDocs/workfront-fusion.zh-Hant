@@ -5,12 +5,11 @@ author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
 TQID: https://experienceleague.adobe.com/xVihxZH-fwPCIkryQAQEOWgeShtPTMXth4jEl5OLdbo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: e24fc726107fcfa34e9288e9a35af445fc0cc765
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 93887116991b505676f5c51762b47829dae9bb7a
 workflow-type: tm+mt
-source-wordcount: 713
-ht-degree: 12%
+source-wordcount: 754
+ht-degree: 11%
 
 ---
 
@@ -19,6 +18,11 @@ ht-degree: 12%
 Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 
 您可以檢視、還原、重新命名或下載情境舊版的Blueprint。
+
+>[!NOTE]
+>
+>先前儲存的案例版本可在建立下一個案例版本後的60天內使用。
+>為了保留超過該時間範圍的案例版本歷史記錄以供稽核，我們建議將案例的藍圖儲存並封存到其他位置。
 
 ## 存取權要求
 
@@ -45,7 +49,7 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -55,10 +59,10 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 1. 按一下畫面底部的[!UICONTROL 更多]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 舊版]**。
 
    先前版本的清單隨即顯示。
-1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。**&#x200B;**
+1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。****
 
    建議您提供名稱，說明針對此版本所做的變更。
-1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]&#x200B;**&#x200B;**。
+1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]****。
 1. （選擇性）若要比較兩個版本之間的變更，請按一下該版本的&#x200B;**檢視變更**。
 
    如需比較版本的詳細資訊與指示，請參閱本文中的[比較案例版本](#compare-scenario-versions)。
@@ -80,7 +84,7 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 1. 按一下畫面底部的[!UICONTROL 更多]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 舊版]**。
 
    先前版本的清單隨即顯示。
-&#x200B;
+   &#x200B;
 1. 按一下您要檢視之情境版本的&#x200B;**檢視變更**。
 1. **檢閱變更**&#x200B;檢視會開啟，並將該版本與您目前的案例進行比較。
 
@@ -102,7 +106,7 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 
 ### 檢查變更
 
-
+&#x200B;
 每個變更都會顯示在其所屬的一側，並以還原的方式著色
 執行：
 
@@ -110,7 +114,9 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 * 綠色（右）：此變更位於右側，如果版本已還原，則會新增此變更。
 
 如果發生變更，則值會在左側以紅色顯示，在右側以綠色顯示，而不是移除或新增。
+&#x200B;
 變更會分組為多個區段：
+&#x200B;
 
 * **案例**：名稱、說明和型別。
 * **案例設定**：排程與處理選項。
@@ -119,5 +125,7 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 * **路由器路由**：路由及其內容。
 * **錯誤處理常式**：錯誤處理分支。
 * **孤立群組**：畫布上的模組已中斷連線。
+&#x200B;
 如果兩個版本相同，檢視會顯示訊息/ **找不到差異**。
+&#x200B;
 

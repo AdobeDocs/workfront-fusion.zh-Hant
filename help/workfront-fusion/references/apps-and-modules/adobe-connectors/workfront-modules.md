@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 86ecf8da00cbae38b4ae48f616ac37e759f84494
+source-git-commit: 997d5af3ff9fe9354976552bbd30edf530da3beb
 workflow-type: tm+mt
-source-wordcount: 7518
-ht-degree: 95%
+source-wordcount: 7626
+ht-degree: 94%
 
 ---
 
@@ -217,13 +217,11 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 ### 觸發程序
 
-<!--
-* [Watch Events](#watch-events) 
-* [Watch Record](#watch-record) 
-* [Watch Field](#watch-field)
--->
+* [觀看事件](#watch-events)
+* [觀看欄位](#watch-field)
+* [觀看記錄](#watch-record)
 
-+++ **[!UICONTROL 監視事件]**
+#### [!UICONTROL 監視事件]
 
 在 Workfront 中新增、更新或刪除特定類型的物件時，此觸發程序模組會即時執行某個情境。
 
@@ -294,9 +292,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
 
-+++
-
-+++ **[!UICONTROL 監視欄位]**
+#### [!UICONTROL 監視欄位]
 
 當您指定的欄位更新時，此觸發程序模組會執行一個情境。 模組會同時傳回指定欄位舊的值和新的值。 您可以在情境內之後的模組中對應此資訊。
 
@@ -331,9 +327,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
 
-+++
-
-+++ **[!UICONTROL 監視記錄]**
+#### [!UICONTROL 監視記錄]
 
 此觸發程序模組會在新增、更新或是同時新增和更新特定類型的物件時執行情境。 模組會傳回與記錄相關聯的所有標準欄位，以及連線存取的任何自訂欄位和值。 您可以在情境內之後的模組中對應此資訊。
 
@@ -384,25 +378,21 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
 
-+++
-
-
 ### 動作
 
-<!--
-* [Convert object](#convert-object) 
-* [Create a record (attaching custom forms)](#create-a-record-attaching-custom-forms) 
-* [Create a record](#create-a-record) 
-* [Custom API Call](#custom-api-call) 
-* [Delete Record](#delete-record) 
-* [Download Document](#download-document) 
-* [Misc Action](#misc-action) 
-* [Read a Record](#read-a-record) 
-* [Update Record](#update-record) 
-* [Upload Document](#upload-document)
--->
+* [轉換物件](#convert-object)
+* [建立記錄](#create-a-record)
+* [自訂API呼叫](#custom-api-call)
+* [刪除記錄](#delete-record)
+* [下載文件](#download-document)
+* [取得預先簽署的檔案URL](#get-a-presigned-file-url)
+* [其他動作](#misc-action)
+* [讀取記錄](#read-a-record)
+* [更新事件裝載版本](#update-events-payload-version)
+* [更新記錄](#update-a-record)
+* [上傳檔案](#upload-document)
 
-+++ **[!UICONTROL 轉換物件]**
+#### [!UICONTROL 轉換物件]
 
 此動作模組會進行下列其中一種轉換：
 
@@ -457,9 +447,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
  </tbody> 
 </table>
 
-+++
-
-+++ **[!UICONTROL 建立記錄]** 
+#### [!UICONTROL 建立記錄]
 
 此動作模組會建立物件，例如 Workfront 中的專案、任務或問題，並讓您在新物件中新增自訂表單。 您可以透過模組選取在模組中可以使用物件的哪些欄位。
 
@@ -525,8 +513,6 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 >
 >   相關說明請參閱 Adobe 文件中的[管理多個使用者 | 上傳大量 CSV](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
 
-+++
-
 <!--
 
 +++ **[!UICONTROL Create Record (Legacy)]**
@@ -580,7 +566,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 -->
 
-+++ **[!UICONTROL 自訂 API 呼叫]**
+#### [!UICONTROL 自訂 API 呼叫]
 
 您可以利用此動作模組，對 Workfront API 進行已驗證的自訂呼叫。 如此一來，您就可以建立其他 Workfront 模組無法完成的資料流程自動化。
 
@@ -637,9 +623,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
 
-+++
-
-+++ **[!UICONTROL 刪除記錄]**
+#### [!UICONTROL 刪除記錄]
 
 此動作模組會刪除物件，例如 Workfront 中的專案、任務或問題。
 
@@ -686,9 +670,7 @@ See a list of the Workfront object types for which you can use this module in [W
 >1. 將錯誤處理新增至刪除記錄模組，以便忽略因為 40 秒逾時造成的錯誤。
 
 
-+++
-
-+++ **[!UICONTROL 下載文件]**
+#### [!UICONTROL 下載文件]
 
 此動作模組會從 Workfront 下載文件。
 
@@ -715,9 +697,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
 
-+++
-
-+++ **取得預先簽署的檔案 URL**
+#### 取得預先簽署的檔案URL
 
 此動作模組會取得預先簽署的檔案 URL，稍後可供其他 API 使用。
 
@@ -740,9 +720,7 @@ See a list of the Workfront object types for which you can use this module in [W
  </tbody> 
 </table>
 
-+++
-
-+++ **[!UICONTROL 其他動作]**
+#### [!UICONTROL 其他動作]
 
 此動作模組讓您對 API 執行動作。
 
@@ -789,13 +767,13 @@ See a list of the Workfront object types for which you can use this module in [W
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
 
-#### 其他動作選項
+##### 其他動作選項
 
 * [任務](#task)
 * [問題](#issue)
 * [專案](#project)
 
-##### 任務
+###### 任務
 
 <table style="table-layout:auto">
  <col> 
@@ -843,7 +821,7 @@ See a list of the Workfront object types for which you can use this module in [W
  </tbody> 
 </table>
 
-##### 問題
+###### 問題
 
 <table style="table-layout:auto">
  <col> 
@@ -890,7 +868,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 
 
-##### 專案
+###### 專案
 
 <table style="table-layout:auto">
  <col> 
@@ -943,9 +921,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 
 
-+++
-
-+++ **[!UICONTROL 讀取記錄]**
+#### [!UICONTROL 讀取記錄]
 
 此動作模組會從單一記錄檢索資料。
 
@@ -995,8 +971,6 @@ See a list of the Workfront object types for which you can use this module in [W
 </table>
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
-
-+++
 
 <!--
 
@@ -1052,11 +1026,9 @@ When you are configuring this module, the following fields display.
 
 See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-+++
-
 -->
 
-+++ **更新事件承載版本**
+#### 更新事件裝載版本
 
 Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workfront API 有所變更，而是變更事件訂閱功能。 此動作模組會更新此情境所使用的事件承載版本。
 
@@ -1080,9 +1052,7 @@ Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workf
 </table>
 
 
-+++
-
-+++ **更新記錄**
+#### 更新記錄
 
 
 此動作模組會更新物件，例如專案、任務或問題。 您可以透過模組選取在模組中可以使用物件的哪些欄位。
@@ -1128,8 +1098,6 @@ Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workf
 >
 > 輸入自訂欄位或[!UICONTROL 備註]物件 (註解或回覆) 的文字時，您可以在「[!UICONTROL 備註文字]」欄位中使用 HTML 標記來建立 RTF 文字，例如粗體或斜體文字。
 
-
-+++
 
 <!--
 
@@ -1180,11 +1148,9 @@ See a list of the Workfront object types for which you can use this module in [W
 >* When entering the ID of an object, you can begin typing the name of the object, then select it from the list. The module then enters the appropriate ID into the field.
 >* When entering the text for a custom field or a [!UICONTROL Note] object (Comment or reply), you can use HTML tags in the [!UICONTROL Note Text] field to create rich text, such as bold or italic text.
 
-+++
-
 -->
 
-+++ **[!UICONTROL 上傳文件]**
+#### [!UICONTROL 上傳文件]
 
 此動作模組會將文件上傳至 Workfront 物件，例如專案、任務或問題。 此模組會以區塊形式上傳文件，讓 Workfront 的上傳流程更為順暢。
 
@@ -1224,8 +1190,6 @@ See a list of the Workfront object types for which you can use this module in [W
 </table>
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
-
-+++
 
 <!--
 
@@ -1274,12 +1238,11 @@ See a list of the Workfront object types for which you can use this module in [W
 
 ### 搜尋
 
-<!--
-* [Read Related Records](#read-related-records) 
-* [Search](#search)
--->
+* [讀取相關記錄](#read-related-records)
+* [搜尋](#search)
+* [搜尋（舊版）](#search-legacy)
 
-+++ **[!UICONTROL 讀取關聯的記錄]**
+#### [!UICONTROL 讀取關聯的記錄]
 
 此搜尋模組會讀取在特定上層物件中，符合您指定之搜尋查詢的記錄。
 
@@ -1314,9 +1277,7 @@ See a list of the Workfront object types for which you can use this module in [W
  </tbody> 
 </table>
 
-+++
-
-+++ **[!UICONTROL 搜尋]**
+#### [!UICONTROL 搜尋]
 
 此搜尋模組會在 Workfront 中尋找物件中符合您指定之搜尋查詢的記錄。
 
@@ -1371,14 +1332,12 @@ See a list of the Workfront object types for which you can use this module in [W
  </tbody> 
 </table>
 
-+++
-
-+++ **[!UICONTROL 搜尋 (舊版)]**
+#### [!UICONTROL 搜尋 (舊版)]
 
 >[!IMPORTANT]
 >
->此模組已由搜尋記錄模組取代。我們建議在新案例中使用該模組。
->使用此模組的現有案例將繼續如預期般運作。此模組將於2025年5月從模組選擇器中移除。
+>搜尋記錄模組已經取代這個模組。 我們建議在新情境中使用該模組。
+>使用這個模組的現有情境將繼續如常運作。 這個模組將在 2025 年 5 月從模組選擇器中移除。
 
 此搜尋模組會在 Workfront 中尋找物件中符合您指定之搜尋查詢的記錄。
 
@@ -1428,8 +1387,6 @@ See a list of the Workfront object types for which you can use this module in [W
   </tr> 
  </tbody> 
 </table>
-
-+++
 
 <!--
 not visible Jan 6, 2025
@@ -1488,13 +1445,11 @@ See a list of the Workfront object types for which you can use this module in [W
 
 ## 各 Workfront 模組可用的 Workfront 物件類型
 
-<!--
-[Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module)
-* [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module) 
-* [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)
--->
+* [每個Workfront觸發程式模組可用的物件型別](#object-types-available-for-each-workfront-trigger-module)
+* [每個Workfront動作模組可用的物件型別](#object-types-available-for-each-workfront-action-module)
+* [每個Workfront搜尋模組可用的物件型別](#object-types-available-for-each-workfront-search-module)
 
-+++**各 Workfront 觸發程序模組可用的物件類型**
+### 每個Workfront觸發程式模組可用的物件型別
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1758,9 +1713,7 @@ See a list of the Workfront object types for which you can use this module in [W
  </tbody> 
 </table>
 
-+++
-
-+++**各 Workfront 動作模組可用的物件類型**
+### 每個Workfront動作模組可用的物件型別
 
 >[!NOTE]
 >
@@ -2181,9 +2134,7 @@ See a list of the Workfront object types for which you can use this module in [W
  </tbody> 
 </table>
 
-+++
-
-+++**各 Workfront 搜尋模組可用的物件類型**
+### 每個Workfront搜尋模組可用的物件型別
 
 <table style="table-layout:auto"> 
  <col> 
@@ -2381,8 +2332,6 @@ See a list of the Workfront object types for which you can use this module in [W
 </table>
 
 我們建議您再次檢查，以確保其運作方式符合預期。
-
-+++
 
 ## Workfront > [!UICONTROL 監視事件]模組中的事件訂閱篩選器
 

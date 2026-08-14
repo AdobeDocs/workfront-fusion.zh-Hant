@@ -5,10 +5,16 @@ author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
 TQID: https://experienceleague.adobe.com/CjzJP-U4P5bVop8ktivUH3pPOjVVgamqqc--cUsLm8U
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: b7d7ae3c0a4ce47428ca993fd173f21994a58653
 workflow-type: tm+mt
 source-wordcount: 7689
@@ -64,7 +70,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -274,7 +280,7 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
        </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL啟用安全鉤點]</td> 
+      <td>[!UICONTROL 啟用安全鉤點]</td> 
       <td>
        <p>選擇您是否要為此webhook啟用authToken型安全性。</p><p>
        <b>注意</b>： 2026年8月23日之後，Fusion將依預設為所有Workfront &gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以在2026年8月23日之前關閉「啟用安全鉤點」選項。</p>

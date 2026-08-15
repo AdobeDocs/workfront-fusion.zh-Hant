@@ -11,9 +11,9 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f0e185778e01b71a91837531a082e88485e97ca2
+source-git-commit: b7d7ae3c0a4ce47428ca993fd173f21994a58653
 workflow-type: tm+mt
-source-wordcount: 6075
+source-wordcount: 6097
 ht-degree: 34%
 
 ---
@@ -206,7 +206,8 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 
 >[!IMPORTANT]
 >
->本節中的模組屬於Workfront Planning V2聯結器。如需Workfront規劃V1聯結器中的模組，請參閱[[!DNL Adobe Workfront Planning] 第1版模組及其欄位](#adobe-workfront-planning-version-1-modules-and-their-fields)。
+>本節中的模組屬於Workfront Planning V2聯結器。
+>如需Workfront規劃V1聯結器中的模組，請參閱[[!DNL Adobe Workfront Planning] 第1版模組及其欄位](#adobe-workfront-planning-version-1-modules-and-their-fields)。
 
 當您設定Workfront Planning模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 Workfront 欄位。 在模組中，粗體標題表示那是必要欄位。
 
@@ -1467,6 +1468,11 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 >
 >如需有關編輯webhook的詳細資訊，請參閱[編輯webhook](/help/workfront-fusion/manage-scenarios/edit-webhooks.md)。
 
+>[!NOTE]
+>
+>2026年8月23日後，Fusion將依預設為所有Workfront規劃>觀看活動模組（包括現有模組）啟用authToken型安全性。
+
+
 <table style="table-layout:auto"> 
   <col/>
   <col/>
@@ -1531,7 +1537,8 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 
 >[!IMPORTANT]
 >
->本節中的模組屬於Workfront規劃V1聯結器。如需Workfront規劃V2聯結器中的模組，請參閱[[!DNL Adobe Workfront Planning] 版本2模組及其欄位](#adobe-workfront-planning-version-2-modules-and-their-fields)。
+>本節中的模組屬於Workfront規劃V1聯結器。
+>如需Workfront規劃V2聯結器中的模組，請參閱[[!DNL Adobe Workfront Planning] 版本2模組及其欄位](#adobe-workfront-planning-version-2-modules-and-their-fields)。
 
 當您設定Workfront Planning模組時，Workfront Fusion會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 Workfront 欄位。 在模組中，粗體標題表示那是必要欄位。
 

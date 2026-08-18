@@ -9,8 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: bbc94bb0-7432-44c5-8000-9aea25916b28
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 source-git-commit: 925a8ee910434c474d527c2914897d7c42e4a3d1
 workflow-type: tm+mt
 source-wordcount: 1236
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> **角色：**&#x200B;建立和部署需要&#x200B;**開發人員**&#x200B;角色；提交核准要求以發佈需要&#x200B;**系統管理員**角色。
+> **角色：**&#x200B;建立和部署需要&#x200B;**開發人員**&#x200B;角色；提交核准要求以發佈需要&#x200B;**系統管理員**&#x200B;角色。
 >如需詳細資訊，請參閱：
 >
 > * [設定UI擴充功能工具和帳戶](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-custom-extensions/custom-extension-02-set-up-tools-account.md)
@@ -82,7 +84,7 @@ aio app deploy
 
 >[!TIP]
 >
-> **如果部署失敗，並顯示「擴充點&#39;fusion/nav-organization/1&#39;不存在」（錯誤1060）：**您的組織尚未啟用Fusion擴充點。 這是上線步驟，不是程式碼中的錯誤。
+> **如果部署失敗，並顯示「擴充點&#39;fusion/nav-organization/1&#39;不存在」（錯誤1060）：**&#x200B;您的組織尚未啟用Fusion擴充點。 這是上線步驟，不是程式碼中的錯誤。
 >如需詳細資訊，請參閱疑難排解文章中的[擴充點不存在](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-custom-extensions/custom-extension-08-troubleshooting.md#error-1060-extension-point-does-not-exist)。
 
 ### 步驟4：在Fusion設定檔中開啟中繼測試

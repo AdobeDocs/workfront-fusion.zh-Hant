@@ -3,12 +3,11 @@ title: 重新觸發特定案例執行
 description: 您可以重新觸發特定案例執行，以使用更新的案例藍圖處理資料，或檢視其資料流程。
 author: Becky
 feature: Workfront Fusion
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 5859bbef4f45fd4741d89ba1795df8a67fa5beaa
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: a078120f0c16d7c2f2084c95a6129844489cfdb6
 workflow-type: tm+mt
-source-wordcount: 523
-ht-degree: 18%
+source-wordcount: 561
+ht-degree: 17%
 
 ---
 
@@ -53,11 +52,15 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
 ## 重新觸發執行
+
+>[!NOTE]
+>
+>執行歷程記錄中最多只會保留256 KB的資料。 因此，無法重新觸發輸入資料超過256 KB的執行。 任何嘗試重新觸發此類執行都會失敗，並出現錯誤訊息。
 
 您可以從情境的圖表、情境的歷程記錄區域或特定情境執行的頁面重新觸發情境執行。
 

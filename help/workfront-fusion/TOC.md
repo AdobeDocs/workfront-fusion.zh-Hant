@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: ba08d797f0376cc8d19fdc815087ae59a01eb537
+source-git-commit: a482c81a3813d1f3a2e37e5f123907f98b216655
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2586'
 ht-degree: 51%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 51%
 * Fusion 發行活動 {#fusion-release-activity}
   * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
   * Fusion版本 — 2026 {#fusion-releases-2026}
+    * [Workfront Fusion發行活動： 2026年8月17日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-17.md)
     * [Workfront Fusion發行活動： 2026年8月10日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-10.md)
     * [Workfront Fusion發行活動： 2026年7月27日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-7-27.md)
     * [Workfront Fusion發行活動： 2026年7月20日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-7-20.md)
@@ -478,7 +479,7 @@ ht-degree: 51%
       * [Markdown 模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/markdown-modules.md)
       * [數學模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/math-module.md)
       * [MIME 模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md)
-      * {hide-from-toc}[MCP代理程式（模型內容通訊協定）模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/model-context-protocol-mcp-connector.md)
+      * [MCP代理程式（模型內容通訊協定）模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/model-context-protocol-mcp-connector.md)
       * [文字剖析器模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md)
       * [工具模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/tools-modules.md)
       * [XML 模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/xml-modules.md)

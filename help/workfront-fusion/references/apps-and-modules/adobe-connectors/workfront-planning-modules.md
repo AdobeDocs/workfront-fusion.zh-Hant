@@ -11,10 +11,10 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: b7d7ae3c0a4ce47428ca993fd173f21994a58653
+source-git-commit: 6a90d388cc362b24cc9313a000aa5170f015cbf8
 workflow-type: tm+mt
-source-wordcount: 6097
-ht-degree: 34%
+source-wordcount: 6620
+ht-degree: 32%
 
 ---
 
@@ -642,17 +642,61 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 
 ### 記錄(V2)
 
-* [建立記錄](#create-a-record-v2)
+* [建立記錄(V2)](#create-a-record-v2)
+* [建立記錄（舊版）](#create-a-record-legacy)
 * [刪除記錄](#delete-a-record-v2)
 * [取得記錄](#get-a-record-v2)
 * [依記錄型別取得記錄](#get-records-by-record-type-v2)
 * [移動記錄](#move-records-v2)
-* [搜尋記錄](#search-records-v2)
-* [更新記錄](#update-a-record-v2)
+* [搜尋記錄(V2)](#search-records-v2)
+* [搜尋記錄（舊版）](#search-records-legacy)
+* [更新記錄(V2)](#update-a-record-v2)
+* [更新記錄（舊版）](#update-a-record-legacy)
 
 #### 建立記錄(V2)
 
+這個動作會在Workfront Planning中建立單一記錄。 此版本的模組可讓您選取要提供值的欄位，這會在建立記錄時建立較小且更有效的裝載。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Workspace]</p>
+      </td>
+      <td>選取您要建立記錄的工作區。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 記錄類型]</p>
+      </td>
+      <td>選取您要建立的記錄類型。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>選取要對應的欄位</p>
+      </td>
+      <td>選取建立模組時您想要提供值的欄位。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>其他欄位</p>
+      </td>
+      <td>輸入您希望新記錄具有的值。 這些欄位是以您選取的記錄型別和欄位為基礎，對您的Workfront Planning組織而言是唯一的。</td> 
+    </tr>
+  </tbody>
+</table>
+
+#### 建立記錄（舊版）
+
 這個動作會在Workfront Planning中建立單一記錄。
+
+我們建議您使用新的「建立記錄」模組，此模組可讓您選取要為其提供值的欄位。 選取欄位可在建立記錄時建立較小、更有效的裝載。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -799,7 +843,48 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 
 #### 搜尋記錄(V2)
 
+根據您指定的條件傳回記錄。此版本的模組可讓您選取要為其提供值的欄位，這會在搜尋記錄時建立較小且更有效的裝載。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Workspace]</p>
+      </td>
+      <td>選取包含您要擷取之記錄的工作區。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 記錄類型]</p>
+      </td>
+      <td>選取包含您要擷取之記錄的記錄型別。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>選取要對應的欄位</p>
+      </td>
+      <td>選取您要在其中更新值的欄位。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 其他欄位]</p>
+      </td>
+      <td>針對您想要作為篩選依據的每個欄位，輸入該欄位的運運算元和值。 這些欄位是以您選取的記錄型別和欄位為基礎，對您的Workfront Planning組織而言是唯一的。</td> 
+    </tr>
+  </tbody>
+</table>
+
+#### 搜尋記錄（舊版）
+
 根據您指定的條件傳回記錄
+
+我們建議您使用新的「更新記錄」模組，此模組可讓您選取要為其提供值的欄位。 選取欄位會在更新記錄時建立更小、更有效的裝載。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -832,8 +917,56 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 
 #### 更新記錄(V2)
 
+此模組會更新指定的記錄。 此版本的模組可讓您選取要提供值的欄位，這會在更新記錄時建立更小、更有效的裝載。
+
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Workspace]</p>
+      </td>
+      <td>選取包含您要更新之記錄的工作區。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 記錄型別ID]</p>
+      </td>
+      <td>選取您要更新的記錄型別。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 記錄ID]</p>
+      </td>
+      <td>輸入或對應您要更新的記錄ID。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>選取要對應的欄位</p>
+      </td>
+      <td>選取您要在其中更新值的欄位。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 其他欄位]</p>
+      </td>
+      <td>輸入其他欄位的值。 可用欄位取決於所選的記錄和欄位。</td> 
+    </tr>
+  </tbody>
+</table>
+
+
+#### 更新記錄（舊版）
+
 此模組會更新指定的記錄。
 
+我們建議您使用新的「更新記錄」模組，此模組可讓您選取要為其提供值的欄位。 選取欄位會在更新記錄時建立更小、更有效的裝載。
 
 
 <table style="table-layout:auto"> 
@@ -870,7 +1003,6 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
     </tr>
   </tbody>
 </table>
-
 
 ### 欄位(V2)
 

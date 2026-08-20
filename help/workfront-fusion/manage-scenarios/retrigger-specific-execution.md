@@ -5,10 +5,10 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 5859bbef4f45fd4741d89ba1795df8a67fa5beaa
+source-git-commit: a7b9f754dfc987330e3a446830f37b004f7b2e4e
 workflow-type: tm+mt
-source-wordcount: 523
-ht-degree: 18%
+source-wordcount: 599
+ht-degree: 16%
 
 ---
 
@@ -27,6 +27,12 @@ ht-degree: 18%
 如需 Webhook 的詳細資訊，請參閱[即時觸發程序 (Webhook)](/help/workfront-fusion/references/modules/webhooks-reference.md)。
 
 如需連結情境的詳細資訊，請參閱[將多個情境連結在一起](/help/workfront-fusion/create-scenarios/plan-a-scenario/chain-scenarios.md)。
+
+
+
+>[!NOTE]
+>
+>執行歷程記錄中最多只會保留256 KB的資料。 因此，無法重新觸發輸入資料超過256 KB的執行。 任何嘗試重新觸發此類執行都會失敗，並出現錯誤訊息。
 
 ## 存取權要求
 
@@ -58,6 +64,10 @@ ht-degree: 18%
 +++
 
 ## 重新觸發執行
+
+>[!NOTE]
+>
+>執行歷程記錄中最多只會保留256 KB的資料。 因此，無法重新觸發輸入資料超過256 KB的執行。 任何嘗試重新觸發此類執行都會失敗，並出現錯誤訊息。
 
 您可以從情境的圖表、情境的歷程記錄區域或特定情境執行的頁面重新觸發情境執行。
 

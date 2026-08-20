@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: a482c81a3813d1f3a2e37e5f123907f98b216655
+source-git-commit: 94492dbd382eee2f4e66e53d53a441ca82492bfb
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2590'
 ht-degree: 51%
 
 ---
@@ -295,7 +295,7 @@ ht-degree: 51%
   * [檢視和管理鏈結的案例關係](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md)
   * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
   * [檢視 Webhook 的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
-  * {hide-from-toc}[Workfront Fusion中的AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
+  * Workfront Fusion中的{hide-from-toc}[AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
   * [執行情境評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
   * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
   * [從案例區域管理案例](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)
@@ -402,6 +402,7 @@ ht-degree: 51%
       * [Adobe 儲存空間模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-storage-modules.md)
       * [Adobe Target 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
       * [Adobe 使用者管理模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-user-management-modules.md)
+      * [Adobe Workfront MCP模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-mcp-modules.md)
       * [Adobe Workfront 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md)
       * [Adobe Workfront 規劃模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-planning-modules.md)
       * [Adobe Workfront整合式檢閱和核准模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-review-and-approvals-modules.md)

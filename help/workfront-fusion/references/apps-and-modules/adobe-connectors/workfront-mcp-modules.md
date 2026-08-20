@@ -3,11 +3,10 @@ title: Adobe Workfront MCP模組
 description: 透過Adobe Workfront MCP模組，您可以傳送純英文提示給Adobe Workfront的MCP伺服器，讓AI模型執行要求。
 author: Becky
 feature: Workfront Fusion
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 94492dbd382eee2f4e66e53d53a441ca82492bfb
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 71573ee33f852111d4541ee61567a51b137c7df5
 workflow-type: tm+mt
-source-wordcount: 841
+source-wordcount: 871
 ht-degree: 17%
 
 ---
@@ -19,6 +18,8 @@ Adobe Workfront MCP聯結器是Adobe Workfront自己的模型內容通訊協定(
 例如，您可以輸入提示「尋找所有進度落後且摘要其狀態的我作用中專案」，而模組會傳回合成答案，而不必將數個「取得」和「篩選」模組鏈結在一起。
 
 您可以限制AI可以執行哪些Workfront動作，以便即使自動情景也可以保證不會執行非預期的破壞性動作。
+
+依預設，此模組使用Adobe Managed AI，其使用`claude-sonnet-5`模型。 您可以使用提供的金鑰和其他認證，將模組設定為使用不同的LLM。
 
 如需有關Fusion案例中MCP的詳細資訊，請參閱[將AI提示加入您的案例](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md)。
 
@@ -47,7 +48,7 @@ Adobe Workfront MCP聯結器是Adobe Workfront自己的模型內容通訊協定(
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -133,7 +134,7 @@ Adobe Workfront MCP聯結器使用OAuth 2.0連線至Workfront。 不像其他Wor
   </tr>  </tbody> 
 </table>
 
-如需您可以為唯讀工具及寫入/刪除工具欄位選取的工具清單，請參閱Workfront檔案中的[Adobe Workfront MCP伺服器工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-tools)。
+如需您可以為唯讀工具及寫入/刪除工具欄位選取的工具清單，請參閱Workfront檔案中的[Adobe Workfront MCP伺服器工具](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-tools)。
 
 模組會傳回下列資訊，您可在情境中的後續模組中加以對應：
 

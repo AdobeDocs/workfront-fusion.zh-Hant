@@ -5,9 +5,9 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 94492dbd382eee2f4e66e53d53a441ca82492bfb
+source-git-commit: 71573ee33f852111d4541ee61567a51b137c7df5
 workflow-type: tm+mt
-source-wordcount: 841
+source-wordcount: 871
 ht-degree: 17%
 
 ---
@@ -19,6 +19,8 @@ Adobe Workfront MCP聯結器是Adobe Workfront自己的模型內容通訊協定(
 例如，您可以輸入提示「尋找所有進度落後且摘要其狀態的我作用中專案」，而模組會傳回合成答案，而不必將數個「取得」和「篩選」模組鏈結在一起。
 
 您可以限制AI可以執行哪些Workfront動作，以便即使自動情景也可以保證不會執行非預期的破壞性動作。
+
+依預設，此模組使用Adobe Managed AI，其使用`claude-sonnet-5`模型。 您可以使用提供的金鑰和其他認證，將模組設定為使用不同的LLM。
 
 如需有關Fusion案例中MCP的詳細資訊，請參閱[將AI提示加入您的案例](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md)。
 

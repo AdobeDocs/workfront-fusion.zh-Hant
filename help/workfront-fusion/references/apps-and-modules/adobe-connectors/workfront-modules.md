@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b7d7ae3c0a4ce47428ca993fd173f21994a58653
+source-git-commit: 39436d53fd350158b8ee95061b7b9b49ae8f6d63
 workflow-type: tm+mt
-source-wordcount: 7689
+source-wordcount: 7687
 ht-degree: 93%
 
 ---
@@ -282,8 +282,8 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
      <tr> 
       <td>[!UICONTROL 啟用安全鉤點]</td> 
       <td>
-       <p>選擇您是否要為此webhook啟用authToken型安全性。</p><p>
-       <b>注意</b>： 2026年8月23日之後，Fusion將依預設為所有Workfront &gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以在2026年8月23日之前關閉「啟用安全鉤點」選項。</p>
+       <p>選擇是否要為此webhook啟用authToken型安全性。</p><p>
+       <b>注意</b>：自2026年8月23日起，Fusion將依預設為所有Workfront &gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以關閉「啟用安全鉤點」選項。</p>
        </td> 
      </tr> 
     </tbody> 

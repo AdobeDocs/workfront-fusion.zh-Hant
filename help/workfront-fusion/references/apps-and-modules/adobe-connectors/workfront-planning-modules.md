@@ -11,9 +11,9 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 6a90d388cc362b24cc9313a000aa5170f015cbf8
+source-git-commit: 39436d53fd350158b8ee95061b7b9b49ae8f6d63
 workflow-type: tm+mt
-source-wordcount: 6620
+source-wordcount: 6660
 ht-degree: 32%
 
 ---
@@ -1600,11 +1600,6 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 >
 >如需有關編輯webhook的詳細資訊，請參閱[編輯webhook](/help/workfront-fusion/manage-scenarios/edit-webhooks.md)。
 
->[!NOTE]
->
->2026年8月23日後，Fusion將依預設為所有Workfront規劃>觀看活動模組（包括現有模組）啟用authToken型安全性。
-
-
 <table style="table-layout:auto"> 
   <col/>
   <col/>
@@ -1654,6 +1649,13 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
         <p>[!UICONTROL 排除此連線所做的更新]</p>
       </td>
       <td>啟用此選項可防止此模組使用的連線進行變更時觸發此案例。 如此可防止在此案例執行觸發動作時觸發另一個案例例項。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL 啟用安全鉤點]</td>
+      <td>
+       <p>選擇是否要為此webhook啟用authToken型安全性。</p><p>
+       <b>注意</b>：自2026年8月23日起，Fusion將預設為所有Workfront規劃&gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以關閉「啟用安全鉤點」選項。</p>
+      </td>
     </tr>
   </tbody>
 </table>

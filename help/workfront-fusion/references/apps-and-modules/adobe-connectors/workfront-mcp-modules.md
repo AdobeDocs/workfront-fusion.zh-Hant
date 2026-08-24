@@ -139,7 +139,7 @@ Adobe Workfront MCP聯結器使用OAuth 2.0連線至Workfront。 不像其他Wor
   </tr>  </tbody> 
 </table>
 
-如需您可以為唯讀工具及寫入/刪除工具欄位選取的工具清單，請參閱Workfront檔案中的[Adobe Workfront MCP伺服器工具](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-tools)。
+如需您可以為唯讀工具及寫入/刪除工具欄位選取的工具清單，請參閱Workfront檔案中的[Adobe Workfront MCP伺服器工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-tools)。
 
 模組會傳回下列資訊，您可在情境中的後續模組中加以對應：
 

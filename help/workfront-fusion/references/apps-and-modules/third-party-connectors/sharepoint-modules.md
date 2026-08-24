@@ -5,9 +5,13 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 1a09aa86-5e0e-4347-b4cf-2b0a95e5b049
 TQID: https://experienceleague.adobe.com/WmECfdPt-a3l2-WT9LMX2HB-7-p-BLIO4F2i3OAc7D0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 0b7298ce53bf59695ce52cb46cb8d25b6ede5fc8
 workflow-type: tm+mt
 source-wordcount: 4846
@@ -55,7 +59,7 @@ ht-degree: 12%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -124,11 +128,11 @@ SharePoint聯結器會使用以下專案：
       <td>輸入您要連線之SharePoint應用程式的使用者端ID。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL使用者端密碼]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 使用者端密碼]</p> </td> 
       <td>輸入您要連線之SharePoint應用程式的使用者端密碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL租使用者ID]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 租使用者ID]</p> </td> 
       <td>輸入您要連線之SharePoint應用程式的租使用者ID。</td> 
      </tr> 
     </tbody> 
@@ -167,7 +171,7 @@ SharePoint聯結器會使用以下專案：
       <td>輸入您要連線之SharePoint應用程式的使用者端ID。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[！UICONTROL指紋]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL 指紋]</p> </td> 
       <td>輸入您要連線的SharePoint應用程式指紋。</td> 
      </tr> 
       <tr>
@@ -261,7 +265,7 @@ SharePoint聯結器會使用以下專案：
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[！UICONTROL租使用者ID]</td>
+   <td role="rowheader">[!UICONTROL 租使用者ID]</td>
    <td>在概觀頁面上，標示為<b>目錄（租使用者） ID</b>。</td>
   </tr>
   <tr>
@@ -330,11 +334,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站、磁碟機和資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和資料夾ID]</td> 
    <td> <p>選取您要如何識別要擷取變更的資料夾位置。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要建立檔案之位置的<strong>[！UICONTROL站台識別碼]</strong>、<strong>[！UICONTROL磁碟機識別碼]</strong>和<strong>[！UICONTROL資料夾識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取您要建立檔案的位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要建立檔案之位置的<strong>[!UICONTROL 站台識別碼]</strong>、<strong>[!UICONTROL 磁碟機識別碼]</strong>和<strong>[!UICONTROL 資料夾識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取您要建立檔案的位置。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -360,11 +364,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站、磁碟機和資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和資料夾ID]</td> 
    <td> <p>選取您要如何識別要擷取變更的資料夾位置。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要建立檔案之位置的<strong>[！UICONTROL站台識別碼]</strong>、<strong>[！UICONTROL磁碟機識別碼]</strong>和<strong>[！UICONTROL資料夾識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取您要建立檔案的位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要建立檔案之位置的<strong>[!UICONTROL 站台識別碼]</strong>、<strong>[!UICONTROL 磁碟機識別碼]</strong>和<strong>[!UICONTROL 資料夾識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取您要建立檔案的位置。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -386,15 +390,15 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站、磁碟機和資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和資料夾ID]</td> 
    <td> <p>選取要如何識別要建立的資料夾位置。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要建立資料夾位置的<strong>[！UICONTROL站台識別碼]</strong>、<strong>[！UICONTROL磁碟機識別碼]</strong>和<strong>[！UICONTROL資料夾識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取您要建立資料夾的位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要建立資料夾位置的<strong>[!UICONTROL 站台識別碼]</strong>、<strong>[!UICONTROL 磁碟機識別碼]</strong>和<strong>[!UICONTROL 資料夾識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取您要建立資料夾的位置。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL資料夾名稱]</td> 
+   <td role="rowheader">[!UICONTROL 資料夾名稱]</td> 
    <td>輸入或對應新資料夾的名稱。</td> 
   </tr>
   </tbody> 
@@ -413,11 +417,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站、磁碟機和資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和資料夾ID]</td> 
    <td> <p>選取您要如何識別要取得之檔案的位置。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>針對您要擷取的檔案，輸入或對應<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL清單識別碼]</strong>和<strong>[！UICONTROL檔案識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取檔案的位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>針對您要擷取的檔案，輸入或對應<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 檔案識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取檔案的位置。 </p> </li> 
     </ul> </td> 
   </tr> 
 </tbody> 
@@ -436,11 +440,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站、磁碟機和檔案ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和檔案ID]</td> 
    <td> <p>選取您要如何識別要取得之檔案的位置。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>針對您要擷取的資料夾，輸入或對映<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL清單識別碼]</strong>和<strong>[！UICONTROL資料夾路徑]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取資料夾的位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>針對您要擷取的資料夾，輸入或對映<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 資料夾路徑]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取資料夾的位置。 </p> </li> 
     </ul> </td> 
   </tr> 
 </tbody> 
@@ -459,11 +463,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站、磁碟機和檔案ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和檔案ID]</td> 
    <td> <p>選取您要如何識別要取得之檔案的位置。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>針對您要擷取的資料夾或檔案，輸入或對應<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL清單識別碼]</strong>和<strong>[！UICONTROL資料夾或專案識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取資料夾的位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>針對您要擷取的資料夾或檔案，輸入或對應<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 資料夾或專案識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取資料夾的位置。 </p> </li> 
     </ul> </td> 
   </tr> 
   </tr> 
@@ -486,11 +490,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站、磁碟機和資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和資料夾ID]</td> 
    <td> <p>選取您要如何識別要取得之檔案的位置。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>在出現的欄位中輸入或對映<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL清單識別碼]</strong>和<strong>[！UICONTROL資料夾識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取要監視的資料夾位置。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>在出現的欄位中輸入或對映<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 資料夾識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取要監視的資料夾位置。 </p> </li> 
     </ul> </td> 
   </tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 
@@ -529,16 +533,16 @@ SharePoint聯結器會使用以下專案：
    <td role="rowheader">輸入站台、磁碟機和資料夾ID</td> 
    <td> <p>選取您要如何識別包含您要複製之專案的場地和磁碟機。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要複製之專案的<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL磁碟機識別碼]</strong>和<strong>[！UICONTROL專案識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>在「專案型別」欄位中，選取您要移動欄位或資料夾。  選取包含您要複製之專案的網站，然後選取清單，再選取專案。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要複製之專案的<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 磁碟機識別碼]</strong>和<strong>[!UICONTROL 專案識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>在「專案型別」欄位中，選取您要移動欄位或資料夾。  選取包含您要複製之專案的網站，然後選取清單，再選取專案。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL目的地ID]</td> 
+   <td role="rowheader">[!UICONTROL 目的地ID]</td> 
    <td> 輸入或對應您要複製專案的資料夾識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL新名稱]</td> 
+   <td role="rowheader">[!UICONTROL 新名稱]</td> 
    <td>輸入或對應專案新復本的名稱。 </td> 
   </tr> 
  </tbody> 
@@ -557,11 +561,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL建立專案]</td> 
+   <td role="rowheader">[!UICONTROL 建立專案]</td> 
    <td> <p>選取您要如何識別網站及要建立專案的磁碟機。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要建立專案的<strong>[！UICONTROL網站識別碼]</strong>和<strong>[！UICONTROL清單識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要建立專案之清單的網站，然後選取清單。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要建立專案的<strong>[!UICONTROL 網站識別碼]</strong>和<strong>[!UICONTROL 清單識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要建立專案之清單的網站，然後選取清單。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -584,11 +588,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL更新專案]</td> 
+   <td role="rowheader">[!UICONTROL 更新專案]</td> 
    <td> <p>選取您要如何識別網站以及包含您要刪除之專案的清單。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要刪除之專案的<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL清單識別碼]</strong>和<strong>[！UICONTROL專案識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要刪除之專案的網站，然後選取清單，再選取專案。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要刪除之專案的<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 專案識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要刪除之專案的網站，然後選取清單，再選取專案。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -607,11 +611,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL取得專案]</td> 
+   <td role="rowheader">[!UICONTROL 取得專案]</td> 
    <td> <p>選取您要如何識別網站以及包含您要取得之專案的清單。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要傳回資料之專案的<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL清單識別碼]</strong>和<strong>[！UICONTROL專案識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要擷取專案之清單的網站，然後選取清單，再選取專案。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要傳回資料之專案的<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 專案識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要擷取專案之清單的網站，然後選取清單，再選取專案。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -649,11 +653,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL清單專案]</td> 
+   <td role="rowheader">[!UICONTROL 清單專案]</td> 
    <td> <p>選取您要如何識別要從中擷取專案的清單。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>針對您要列出專案的清單，輸入或對映<strong>[！UICONTROL網站識別碼]</strong>和<strong>[！UICONTROL清單識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要從中擷取專案的清單的網站，然後選取清單。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>針對您要列出專案的清單，輸入或對映<strong>[!UICONTROL 網站識別碼]</strong>和<strong>[!UICONTROL 清單識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要從中擷取專案的清單的網站，然後選取清單。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -679,16 +683,16 @@ SharePoint聯結器會使用以下專案：
    <td role="rowheader">輸入站台、磁碟機和資料夾ID</td> 
    <td> <p>選取您要如何識別網站以及包含您要移動之專案的清單。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>針對您要移動的專案，輸入或對映<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL清單識別碼]</strong>和<strong>[！UICONTROL專案識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>在「專案型別」欄位中，選取您要移動欄位或資料夾。 選取包含您要複製之專案的網站，然後選取清單，再選取專案。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>針對您要移動的專案，輸入或對映<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 專案識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>在「專案型別」欄位中，選取您要移動欄位或資料夾。 選取包含您要複製之專案的網站，然後選取清單，再選取專案。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL目的地ID]</td> 
+   <td role="rowheader">[!UICONTROL 目的地ID]</td> 
    <td> 輸入或對應您要移動專案的資料夾識別碼。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL新名稱]</td> 
+   <td role="rowheader">[!UICONTROL 新名稱]</td> 
    <td>輸入或對應已移動專案的名稱。 </td> 
   </tr> 
  </tbody> 
@@ -707,11 +711,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL更新專案]</td> 
+   <td role="rowheader">[!UICONTROL 更新專案]</td> 
    <td> <p>選取您要如何識別包含您要更新之專案的場地與清單。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要更新之專案的<strong>[！UICONTROL網站識別碼]</strong>、<strong>[！UICONTROL清單識別碼]</strong>和<strong>[！UICONTROL專案識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要更新之專案的網站，然後選取清單，再選取專案。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要更新之專案的<strong>[!UICONTROL 網站識別碼]</strong>、<strong>[!UICONTROL 清單識別碼]</strong>和<strong>[!UICONTROL 專案識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要更新之專案的網站，然後選取清單，再選取專案。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -734,15 +738,15 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL監看清單]</td> 
+   <td role="rowheader">[!UICONTROL 監看清單]</td> 
    <td>選取您要依建立時間（新專案）還是依修改時間（更新專案）來監視清單。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站和清單ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站和清單ID]</td> 
    <td> <p>選取您要如何識別要觀看的網站和清單。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要觀看的<strong>[！UICONTROL網站識別碼]</strong>和<strong>[！UICONTROL清單識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取您要觀看的網站，然後選取清單。 這些下拉式清單只會擷取追蹤的網站。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要觀看的<strong>[!UICONTROL 網站識別碼]</strong>和<strong>[!UICONTROL 清單識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取您要觀看的網站，然後選取清單。 這些下拉式清單只會擷取追蹤的網站。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -772,15 +776,15 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站ID]</td> 
    <td> <p>選取您要如何識別要建立清單的網站。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要建立清單的<strong>[！UICONTROL網站識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取您要建立清單的網站。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要建立清單的<strong>[!UICONTROL 網站識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取您要建立清單的網站。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL顯示名稱]</td> 
+   <td role="rowheader">[!UICONTROL 顯示名稱]</td> 
    <td>輸入或對應新清單的名稱。</td> 
   </tr> 
   <tr> 
@@ -788,8 +792,8 @@ SharePoint聯結器會使用以下專案：
    <td>輸入或對應新清單的說明。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL新增欄]</td> 
-   <td>針對您想要為新清單設定的每個資料行，按一下<b>新增專案</b>，輸入欄位的<strong>[！UICONTROL名稱]</strong>，然後選取您想要新資料行具有的值<strong>[！UICONTROL型別]</strong>。</td> 
+   <td role="rowheader">[!UICONTROL 新增欄]</td> 
+   <td>針對您想要為新清單設定的每個資料行，按一下<b>新增專案</b>，輸入欄位的<strong>[!UICONTROL 名稱]</strong>，然後選取您想要新資料行具有的值<strong>[!UICONTROL 型別]</strong>。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -807,11 +811,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL取得清單]</td> 
+   <td role="rowheader">[!UICONTROL 取得清單]</td> 
    <td> <p>選取您要如何識別網站以及包含您要取得之專案的清單。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您要傳回的<strong>[！UICONTROL網站識別碼]</strong>與<strong>清單識別碼</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要擷取之清單的網站，然後選取清單。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您要傳回的<strong>[!UICONTROL 網站識別碼]</strong>與<strong>清單識別碼</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要擷取之清單的網站，然後選取清單。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -830,11 +834,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL清單清單]</td> 
+   <td role="rowheader">[!UICONTROL 清單清單]</td> 
    <td> <p>選取您要如何識別要從中擷取清單的網站。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應包含您要傳回清單的<strong>[！UICONTROL網站識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要擷取之清單的網站。 下拉式清單只會擷取您關注的網站。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應包含您要傳回清單的<strong>[!UICONTROL 網站識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要擷取之清單的網站。 下拉式清單只會擷取您關注的網站。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -857,15 +861,15 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL監看清單]</td> 
+   <td role="rowheader">[!UICONTROL 監看清單]</td> 
    <td>選取您要依建立時間（新專案）還是依修改時間（更新專案）來監視清單。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站ID]</td> 
    <td> <p>選取您要如何識別要監視清單的網站。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應您想要監視清單的<strong>[！UICONTROL網站識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取您要觀看的網站。 下拉式清單只會擷取您追蹤的網站。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應您想要監視清單的<strong>[!UICONTROL 網站識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取您要觀看的網站。 下拉式清單只會擷取您追蹤的網站。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -899,11 +903,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL取得頁面]</td> 
+   <td role="rowheader">[!UICONTROL 取得頁面]</td> 
    <td> <p>選取您要如何識別要擷取的頁面。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應<strong>[！UICONTROL網站識別碼]</strong>和<strong>[！UICONTROL頁面識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要擷取之頁面的網站，然後選取頁面。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應<strong>[!UICONTROL 網站識別碼]</strong>和<strong>[!UICONTROL 頁面識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要擷取之頁面的網站，然後選取頁面。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -922,11 +926,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL清單頁面]</td> 
+   <td role="rowheader">[!UICONTROL 清單頁面]</td> 
    <td> <p>選取您要如何識別要列出的頁面。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應包含您要列出之頁面的網站<strong>[！UICONTROL網站識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要列出頁面的網站。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應包含您要列出之頁面的網站<strong>[!UICONTROL 網站識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要列出頁面的網站。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -949,11 +953,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL發佈頁面]</td> 
+   <td role="rowheader">[!UICONTROL 發佈頁面]</td> 
    <td> <p>選取您要如何識別要發佈的頁面。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應<strong>[！UICONTROL網站識別碼]</strong>和<strong>[！UICONTROL頁面識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含您要發佈之頁面的網站，然後選取頁面。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應<strong>[!UICONTROL 網站識別碼]</strong>和<strong>[!UICONTROL 頁面識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含您要發佈之頁面的網站，然後選取頁面。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -972,11 +976,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站ID]</td> 
    <td> <p>選取您要如何識別要列出的頁面。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應包含您要觀看之頁面的網站<strong>[！UICONTROL網站識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從您關注的清單中選取]</strong> </p> <p>選取包含您要觀看之頁面的網站。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應包含您要觀看之頁面的網站<strong>[!UICONTROL 網站識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從您關注的清單中選取]</strong> </p> <p>選取包含您要觀看之頁面的網站。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1004,11 +1008,11 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL取得網站]</td> 
+   <td role="rowheader">[!UICONTROL 取得網站]</td> 
    <td> <p>選取您要如何識別要擷取的頁面。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>輸入或對應<strong>[！UICONTROL網站識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取您要擷取的網站。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>輸入或對應<strong>[!UICONTROL 網站識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取您要擷取的網站。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1027,7 +1031,7 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">顯示名稱的[！UICONTROL關鍵字]</td> 
+   <td role="rowheader">顯示名稱的[!UICONTROL 關鍵字]</td> 
    <td> <p>輸入或對應您要搜尋網站的搜尋字詞。</p> </td> 
   </tr> 
   <tr> 
@@ -1056,15 +1060,15 @@ SharePoint聯結器會使用以下專案：
    <td> <p>如需有關將Microsoft SharePoint Online帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">將Microsoft SharePoint Online連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸入網站、磁碟機和資料夾ID]</td> 
+   <td role="rowheader">[!UICONTROL 輸入網站、磁碟機和資料夾ID]</td> 
    <td> <p>選取您要如何識別包含您要更新之專案的場地與磁碟機。</p> 
     <ul> 
-     <li> <p><strong>[！UICONTROL手動輸入]</strong> </p> <p>在出現的欄位中輸入或對映<strong>[！UICONTROL站台識別碼]</strong>、<strong>[！UICONTROL磁碟機識別碼]</strong>和<strong>[！UICONTROL資料夾識別碼]</strong>。</p> </li> 
-     <li> <p><strong>[！UICONTROL從清單中選取]</strong> </p> <p>選取包含要更新專案的網站，然後選取磁碟機，再選取資料夾。 </p> </li> 
+     <li> <p><strong>[!UICONTROL 手動輸入]</strong> </p> <p>在出現的欄位中輸入或對映<strong>[!UICONTROL 站台識別碼]</strong>、<strong>[!UICONTROL 磁碟機識別碼]</strong>和<strong>[!UICONTROL 資料夾識別碼]</strong>。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從清單中選取]</strong> </p> <p>選取包含要更新專案的網站，然後選取磁碟機，再選取資料夾。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Token]</td> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
    <td> 代號會識別模組應該從何時開始擷取變更。  </td> 
   </tr> 
  </tbody> 
@@ -1125,7 +1129,7 @@ SharePoint聯結器會使用以下專案：
    <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your Microsoft SharePoint Online account to Workfront Fusion, see <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Microsoft SharePoint Online to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
--->
+  -->
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
    <td> <p>選取現有的webhook，或按一下「新增」並輸入連線以建立新的webhook。</p> 

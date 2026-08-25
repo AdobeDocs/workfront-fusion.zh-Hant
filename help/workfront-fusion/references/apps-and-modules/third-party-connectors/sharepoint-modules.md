@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+source-git-commit: 0b7298ce53bf59695ce52cb46cb8d25b6ede5fc8
 workflow-type: tm+mt
-source-wordcount: 4305
-ht-degree: 13%
+source-wordcount: 4846
+ht-degree: 12%
 
 ---
 
@@ -97,6 +97,7 @@ SharePoint聯結器會使用以下專案：
 * [使用 [!DNL Microsoft] 帳戶將Microsoft SharePoint Online連線至Workfront Fusion](#connect-microsoft-sharepoint-online-to-workfront-fusion-using-a-microsoft-account)
 * [使用進階設定將Microsoft SharePoint Online連線至Workfront Fusion](#connect-microsoft-sharepoint-online-to-workfront-fusion-using-advanced-settings)
 * [使用憑證授權將Microsoft SharePoint Online連線至Workfront Fusion](#connect-microsoft-sharepoint-online-to-workfront-fusion-using-certificate-authorization)
+* [使用服務主體將Microsoft SharePoint Online連線至Workfront Fusion](#connect-microsoft-sharepoint-online-to-workfront-fusion-using-a-service-principal)
 
 ### 使用[!DNL Microsoft]帳戶將Microsoft SharePoint Online連線至Workfront Fusion
 
@@ -204,6 +205,97 @@ SharePoint聯結器會使用以下專案：
 
 1. 按一下「**繼續**」，儲存連線並返回模組。
 
+### 使用服務主體將Microsoft SharePoint Online連線至Workfront Fusion
+
+您可以建立使用服務主體（應用程式API連線）而不是個人帳戶的連線。 如果您希望連線以應用程式或服務身分執行，而非以特定人員執行（例如，如果該人員離開公司或變更其密碼，整合不會中斷），則此功能會很有用。
+
+>[!IMPORTANT]
+>
+>此連線型別僅適用於[進行API呼叫](#make-an-api-call)模組。 其他SharePoint模組需要本文所述的其他連線型別之一。
+
+* [使用服務主體將Microsoft SharePoint Online連線到Workfront Fusion的先決條件](#prerequisites-to-connecting-microsoft-sharepoint-online-to-workfront-fusion-using-a-service-principal)
+* [在Microsoft Entra ID中建立應用程式註冊](#create-the-app-registration-in-microsoft-entra-id)
+* [建立使用者端密碼](#create-a-client-secret)
+* [授予API許可權](#grant-api-permissions)
+* [收集您的連線詳細資料](#collect-your-connection-details)
+* [建立連線](#create-the-connection)
+
+#### 使用服務主體將Microsoft SharePoint Online連線到Workfront Fusion的先決條件
+
+您需要Microsoft Entra ID中的&#x200B;**全域管理員**、**應用程式管理員**&#x200B;或&#x200B;**有特殊許可權的角色管理員**&#x200B;存取權，才能註冊應用程式並授予其許可權。 如果您沒有此存取權，請要求您IT或身分團隊中的某人為您完成這些步驟。
+
+繼續[在Microsoft Entra ID](#create-the-app-registration-in-microsoft-entra-id)中建立應用程式註冊。
+
+#### 在Microsoft Entra ID中建立應用程式註冊
+
+1. 登入[!DNL Microsoft Entra]系統管理中心。
+1. 移至&#x200B;**[!UICONTROL 應用程式註冊]** > **[!UICONTROL 新註冊]**。
+1. 為應用程式提供一個清晰且可辨識的名稱。 例如 `Make - SharePoint Integration`。
+1. 將&#x200B;**[!UICONTROL 重新導向URI]**&#x200B;保留空白。 此連線不涉及任何人透過瀏覽器登入。
+1. 選取&#x200B;**[!UICONTROL 註冊]**。
+1. 繼續[建立使用者端密碼](#create-a-client-secret)。
+
+#### 建立使用者端密碼
+
+1. 在您的新應用程式註冊中，移至&#x200B;**[!UICONTROL 憑證與密碼]**。
+1. 選取&#x200B;**[!UICONTROL 新增使用者端密碼]**、新增說明，並選擇到期期間。
+1. 選取&#x200B;**[!UICONTROL 新增]**。
+1. 立即複製密碼的&#x200B;**[!UICONTROL 值]**。 它只會顯示一次。 如果您在複製它之前瀏覽離開，則必須建立一個新的專案。
+1. 繼續[授予API許可權](#grant-api-permissions)。
+
+#### 授予API許可權
+
+>[!IMPORTANT]
+>
+>BECKY CHECK ME：不同於Azure DevOps，Microsoft Graph直接在此步驟中支援應用程式許可權。 在發佈此區段之前，請先確認進行API呼叫模組所需的確切許可權（例如網站許可權範圍），並據此更新下列步驟。
+
+1. 在您的應用程式註冊中，移至&#x200B;**[!UICONTROL API許可權]**。
+1. 選取&#x200B;**[!UICONTROL 新增許可權]**，然後選取&#x200B;**[!UICONTROL Microsoft圖表]**。
+1. 選取&#x200B;**[!UICONTROL 應用程式許可權]**。
+1. 選取API呼叫所需的許可權或許可權，然後選取&#x200B;**[!UICONTROL 新增許可權]**。
+1. 選取&#x200B;**[!UICONTROL 為您的組織]**&#x200B;授予管理員同意，然後確認。
+1. 繼續[收集您的連線詳細資料](#collect-your-connection-details)。
+
+#### 收集您的連線詳細資料
+
+從應用程式註冊的&#x200B;**[!UICONTROL 總覽]**&#x200B;頁面，請注意下列值。 在模組中建立連線時，請輸入這些連線。
+
+<table style="table-layout:auto">
+ <col>
+ <col>
+ <tbody>
+  <tr>
+   <td role="rowheader">[!UICONTROL 租使用者ID]</td>
+   <td>在概觀頁面上，標示為<b>目錄（租使用者） ID</b>。</td>
+  </tr>
+  <tr>
+   <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
+   <td>在概觀頁面上，標示為<b>應用程式（使用者端） ID</b>。</td>
+  </tr>
+  <tr>
+   <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
+   <td>您在<a href="#create-a-client-secret" class="MCXref xref">中複製的值建立使用者端密碼</a>。</td>
+  </tr>
+ </tbody>
+</table>
+
+繼續[建立連線](#create-the-connection)。
+
+#### 建立連線
+
+1. 在[!UICONTROL 進行API呼叫]模組中，按一下[連線]欄位附近的&#x200B;**[!UICONTROL 新增]**&#x200B;以開啟&#x200B;**[!UICONTROL 建立連線]**&#x200B;方塊。
+1. 按一下&#x200B;**[!UICONTROL 顯示進階設定]**。
+1. 在[!UICONTROL 連線型別]欄位中，選取&#x200B;**[!UICONTROL 服務主體]**。
+1. 輸入下列：
+
+   * [!UICONTROL 租使用者識別碼]
+   * [!UICONTROL 使用者端識別碼]
+   * [!UICONTROL 使用者端密碼]
+
+1. 按一下「**繼續**」，儲存連線並返回模組。
+
+   如果一切設定正確，連線都會成功驗證。
+
 ## Microsoft SharePoint模組及其欄位
 
 當您設定Microsoft SharePoint Online模組時，Workfront Fusion會顯示下列欄位。 除此之外，可能還會顯示其他Microsoft SharePoint Online欄位，視您應用程式或服務中的存取層級等因素而定。 在模組中，粗體標題表示那是必要欄位。
@@ -222,6 +314,7 @@ SharePoint聯結器會使用以下專案：
 ### 磁碟機專案
 
 * [建立檔案](#create-a-file)
+* [建立檔案（舊版）](#create-a-file-legacy)
 * [建立資料夾](#create-a-folder)
 * [取得檔案](#get-a-file)
 * [取得資料夾](#get-a-folder)
@@ -952,7 +1045,7 @@ SharePoint聯結器會使用以下專案：
 
 * [取得變更](#get-changes)
 * [進行API呼叫](#make-an-api-call)
-* [觀看事件](#watch-events)
+* [監視事件](#watch-events)
 
 #### 取得變更
 

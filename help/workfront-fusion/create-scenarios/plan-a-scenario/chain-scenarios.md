@@ -5,12 +5,11 @@ author: Becky
 feature: Workfront Fusion
 exl-id: def8d4c1-fc20-4b93-b1fd-be2f60300464
 TQID: https://experienceleague.adobe.com/ypbKUSaT72N2r75oYX9tZsJaj6H39cUCumApjMw69j0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 81d1dfcdb5c15f6a93e2793f9a0e41821b65c7e3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 936fc6b4d5688e42ad6d762d4f43abf8be47e5af
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 9%
+source-wordcount: 1744
+ht-degree: 8%
 
 ---
 
@@ -33,6 +32,8 @@ ht-degree: 9%
 如需Fusion效能護欄（包括逾時）的詳細資訊，請參閱[Fusion效能護欄](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md)。
 
 如需設定鏈結模組的說明，請參閱[鏈結模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md)。
+
+如需在情境中選取現有模組並將它們移動到新子情境中的指示，請參閱[將模組移動到鏈結](/help/workfront-fusion/manage-scenarios/move-modules-to-a-chain.md)。
 
 ## 父方案和子方案
 
@@ -112,7 +113,7 @@ Workfront Fusion會使用資料結構，將資訊從父案例傳輸到子案例�
 >* **當某個情境導致遞迴時，Fusion 工程團隊會停用該情境，以避免出現更多效能問題。**
 >* 由於遞迴是情境設計所導致的結果，因此設計情境時必須確保情境不包含會觸發情境本身的動作。
 >* 您可以檢視父案例與子案例之間的關係圖。
->   如需指示，請參閱[檢視鏈結案例關係](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md)。
+>   如需指示，請參閱[檢視鏈結的案例關係](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md)。
 
 ### 使用錯誤處理來確保回應
 

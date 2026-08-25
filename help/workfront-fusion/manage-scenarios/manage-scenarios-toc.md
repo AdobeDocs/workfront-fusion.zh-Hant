@@ -7,12 +7,11 @@ feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b2e48618-cc55-429e-9bed-c62ba60a6249
 TQID: https://experienceleague.adobe.com/EUSuZIyMovl2W3PlmmGaJ6rivpwQWZIJMKbZ4VGJDgw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 336cdb956b69b996b2eaa7f08508e2efaae56a0e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 936fc6b4d5688e42ad6d762d4f43abf8be47e5af
 workflow-type: tm+mt
-source-wordcount: 110
-ht-degree: 53%
+source-wordcount: 115
+ht-degree: 51%
 
 ---
 
@@ -30,6 +29,7 @@ ht-degree: 53%
 * [檢視webhook的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
 * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
 * [檢視鏈結案例關係](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md)
+* [將模組移至鏈結](/help/workfront-fusion/manage-scenarios/move-modules-to-a-chain.md)
 * [Workfront Fusion 中的 AI 助理](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
 * [執行情境評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
 * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)

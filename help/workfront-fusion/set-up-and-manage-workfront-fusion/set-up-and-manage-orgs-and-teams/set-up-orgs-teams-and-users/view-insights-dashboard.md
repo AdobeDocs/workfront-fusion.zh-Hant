@@ -1,5 +1,5 @@
 ---
-title: 檢視組織的效能儀表板
+title: 檢視組織的前瞻分析控制面板
 description: Fusion管理員可以檢視顯示組織執行度量的控制面板。
 author: Becky
 feature: Workfront Fusion
@@ -7,16 +7,16 @@ exl-id: 8f80f86a-69e5-48a1-9812-87322a4959a6
 TQID: https://experienceleague.adobe.com/tBZCbpImQxY42gOE8e04aQwCJC8EKgrDTIAt6Sw1KaU
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: fac09ae8c8b2e248ef9c0731c38a4be58cea2994
 workflow-type: tm+mt
 source-wordcount: 694
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
-# 檢視組織的效能儀表板
+# 檢視組織的前瞻分析控制面板
 
-Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發生延遲的位置，以及您的背景工作集區的運作成效。 這可提供執行磁碟區、佇列深度、集區使用率和案例層級效能的即時可見度。
+Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、發生延遲的位置，以及您的背景工作集區的運作效率。 這可提供執行磁碟區、佇列深度、集區使用率和案例層級效能的即時可見度。
 
 ## 存取權要求
 
@@ -47,7 +47,7 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
 
 +++
 
-## 效能儀表板元件
+## 前瞻分析儀表板元件
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
 
 -->
 
-在Fusion效能控制面板中，您可以看到下列量度。
+在Fusion Insights儀表板中，您可以看到以下量度。
 
 * **個等待處理的執行**
 此圖表顯示在指定時間點等待處理的執行數目（也稱為執行待處理專案）。
@@ -80,9 +80,9 @@ Fusion Performance Dashboard可讓您快速檢視哪些案例執行最多、發�
 
   您可以使用此圖表來識別花費較平常更長的情境，包括受連線應用程式或服務問題影響的情境。
 
-## 檢視Fusion效能儀表板
+## 檢視Fusion Insights控制面板
 
-1. 在Fusion中，按一下左側導覽中的&#x200B;**效能**。
+1. 在Fusion中，按一下左側導覽中的&#x200B;**深入分析**。
 
    「圖示板」隨即開啟。
 

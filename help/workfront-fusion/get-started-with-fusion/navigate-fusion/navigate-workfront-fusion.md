@@ -7,10 +7,10 @@ exl-id: 427ec131-d68d-4401-b620-998d3d5162da
 TQID: https://experienceleague.adobe.com/95RrU217DFpxtEVaO3FyIx0wNR6p-sJw9J4ZDaqPkXw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: fac09ae8c8b2e248ef9c0731c38a4be58cea2994
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 94%
+source-wordcount: 895
+ht-degree: 82%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 94%
 | 區域 | 說明 | 如需詳細資訊，請參閱 |
 | --- | --- | --- |
 | 組織概觀<br> ![組織圖示](assets/org-icon.png) | 在這裡可以看到關於您的 Fusion 組織的資訊。 您可以檢視此組織中由情境執行的作業數量，以及使用中情境的清單。 您也可以檢視此組織的團隊、使用者和環境的清單。<br>目前選取的組織會顯示在此圖示上方。 | [組織與團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md) |
+| 深入分析<br> ![深入分析圖示](assets/insights-icon.png) | 在這裡，您可以看到組織執行量度的控制面板，例如哪些案例執行最多、延遲發生在哪裡，以及工作者集區的運作效率。 | [檢視組織的深入分析儀表板](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-insights-dashboard.md) |
 | 團隊概觀<br> ![團隊圖示](assets/team-icon.png) | 在這裡，您可以看到關於 Fusion 團隊的資訊，例如此團隊中由情境執行的作業數量，以及使用中情境的清單。 您也可以檢視及管理此團隊的使用者。 檢視團隊時，您可以從本頁面頂端的下拉式選單中選取不同的團隊。<br>目前選取的團隊會顯示在此圖示上方。<br>您可能需要先建立團隊，才能看到團隊概觀或這篇文章列出的任何團隊區段。 | [組織與團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md) |
 | 情境<br> ![情境圖示](assets/scenarios-icon.png) | Fusion 中的情境代表自動化的工作流程。 例如，一個情境可以監視傳入的 Workfront 請求並將其轉換成專案，而另一個情境可以產生影像、將影像上傳給文件提供者，以及將核准任務新增至 Workfront。 您在 Fusion 中的大部分工作是設定和管理各個情境。 在「情境」區域中，您可以檢視及組織團隊的情境清單、選取個別情境進行檢視或修改，或者開始建立新情境。 | [情境概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md) |
 | 範本<br> ![範本圖示](assets/templates-icon.png) | 範本是預先建立的情境，而您可以針對自己的使用案例進行設定。 在這裡，您可以看到 Workfront Fusion 提供的公開情境，以及您的團隊建立的範本。 | [建立和管理範本：文章索引](/help/workfront-fusion/create-and-manage-templates/create-manage-templates-toc.md) |
@@ -32,6 +33,8 @@ ht-degree: 94%
 | 資料存放庫<br> ![資料存放庫圖示](assets/data-store-icon.png) | 資料存放庫是存在於情境以外的小型資料庫。 您可以利用資料存放庫在不同情境之間，或在某個情境的個別執行之間轉移資料。 在「資料存放庫」區域中，您可以檢視和管理您團隊擁有的資料存放庫。 | [資料存放庫](/help/workfront-fusion/create-scenarios/map-data/data-stores.md) |
 | 資料結構<br> ![資料結構圖示](assets/data-structure-icon.png) | 資料結構說明傳輸至 Fusion 的資料之格式，通常用於序列化或剖析 JSON、XML 和 CSV 等格式。 在「資料結構」中，您可以檢視和管理您的團隊擁有的資料結構。 | [資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md) |
 | 函式<br> ![功能圖示](assets/functions-icon.png) | 自訂函式是可新增至情境的JavaScript函式，可操控和轉換資料。 <br>您的組織必須擁有Adobe App Builder的授權，才能建立及使用自訂函式。 | [使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md) |
+| 封裝<br> ![封裝圖示](assets/packages-icon.png) | 套件可讓您在Fusion中建置並執行自己的自訂邏輯，而不需離開Fusion介面。 在「封裝」區域中，您可以檢視和管理團隊所擁有的封裝。 | [使用自訂函式套件](/help/workfront-fusion/create-scenarios/map-data/use-custom-function-packages.md) |
+| 儲存空間<br> ![儲存圖示](assets/storage-icon.png) | 儲存空間可讓您的團隊直接存取您的Adobe Enterprise Storage Management (ESM)存放庫。 您可以瀏覽資料夾、上傳和下載檔案、檢視檔案版本記錄以及建立自動化案例，所有這些操作都不需要離開Fusion。 | [儲存概述](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/storage-overview.md) |
 
 >[!NOTE]
 >

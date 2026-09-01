@@ -9,10 +9,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+source-git-commit: 936fc6b4d5688e42ad6d762d4f43abf8be47e5af
 workflow-type: tm+mt
-source-wordcount: 914
-ht-degree: 11%
+source-wordcount: 941
+ht-degree: 10%
 
 ---
 
@@ -83,6 +83,10 @@ ht-degree: 11%
 1. 將貼上的模組拖曳至情境中的適當位置，以將模組連結至情境。
 
    您也可以使用鍵盤快速鍵來複製和貼上。
+
+>[!NOTE]
+>
+>您可以將一組模組移至新的鏈結情境，而不複製一組模組。 如需指示，請參閱[將模組移至鏈結](/help/workfront-fusion/manage-scenarios/move-modules-to-a-chain.md)。
 
 ## 複製情境
 

@@ -3,10 +3,10 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: fedd3e509b76cb7db5bf814c1677a2a5a6699aa7
+source-git-commit: fac09ae8c8b2e248ef9c0731c38a4be58cea2994
 workflow-type: tm+mt
-source-wordcount: '2604'
-ht-degree: 50%
+source-wordcount: '2652'
+ht-degree: 49%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 50%
 * Fusion 發行活動 {#fusion-release-activity}
   * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
   * Fusion版本 — 2026 {#fusion-releases-2026}
+    * [Workfront Fusion發行活動： 2026年8月31日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-31.md)
     * [Workfront Fusion發行活動： 2026年8月24日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-24.md)
     * [Workfront Fusion發行活動： 2026年8月17日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-17.md)
     * [Workfront Fusion發行活動： 2026年8月10日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-10.md)
@@ -208,7 +209,7 @@ ht-degree: 50%
       * [將使用者新增至團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-a-user-to-a-team.md)
       * [設定通知選項](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.md)
       * [檢視組織的活動記錄](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.md)
-      * [檢視組織的效能儀表板](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-performance-dashboard.md)
+      * [檢視組織的前瞻分析控制面板](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-insights-dashboard.md)
     * 管理使用者與團隊 {#manage-users-and-teams}
       * [管理使用者與團隊：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/manage-users-and-teams.md)
       * [檢視組織中的使用者](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-users-in-an-org.md)
@@ -231,6 +232,16 @@ ht-degree: 50%
     * [管理範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/manage-templates-toc.md)
     * [核准或不核准範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/approve-templates.md)
     * [編輯範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/edit-templates.md)
+  * 使用Workfront儲存空間 {#use-workfront-storage}
+    * [使用Workfront儲存空間](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/use-workfront-storage-toc.md)
+    * [儲存空間概觀](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/storage-overview.md)
+    * [初始化儲存空間](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/initialize-storage.md)
+    * [在Workfront Fusion中檢視及管理儲存空間](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/view-and-manage-storage-in-workfront-fusion.md)
+    * [上傳檔案至儲存空間](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/upload-files-to-storage.md)
+    * [從儲存體下載檔案](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/download-files-from-storage.md)
+    * [從儲存中刪除檔案](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/delete-files-from-storage.md)
+    * [檢視儲存體中的檔案版本記錄](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/view-storage-file-version-history.md)
+    * [從儲存空間建立案例](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/create-scenarios-from-storage.md)
 * 建立情境 {#create-scenarios}
   * [建立情境](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)
   * 規劃情境 {#plan-a-scenario}
@@ -297,7 +308,7 @@ ht-degree: 50%
   * [將模組移至鏈結](/help/workfront-fusion/manage-scenarios/move-modules-to-a-chain.md)
   * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
   * [檢視 Webhook 的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
-  * {hide-from-toc}[Workfront Fusion中的AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
+  * Workfront Fusion中的{hide-from-toc}[AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
   * [執行情境評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
   * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
   * [從案例區域管理案例](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)

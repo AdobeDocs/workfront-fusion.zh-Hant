@@ -1,0 +1,96 @@
+---
+title: 檢視組織的前瞻分析控制面板
+description: Fusion管理員可以檢視顯示組織執行度量的控制面板。
+author: Becky
+feature: Workfront Fusion
+exl-id: 8f80f86a-69e5-48a1-9812-87322a4959a6
+TQID: https://experienceleague.adobe.com/tBZCbpImQxY42gOE8e04aQwCJC8EKgrDTIAt6Sw1KaU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: fac09ae8c8b2e248ef9c0731c38a4be58cea2994
+workflow-type: tm+mt
+source-wordcount: 694
+ht-degree: 5%
+
+---
+
+# 檢視組織的前瞻分析控制面板
+
+Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、發生延遲的位置，以及您的背景工作集區的運作效率。 這可提供執行磁碟區、佇列深度、集區使用率和案例層級效能的即時可見度。
+
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>Adobe Workfront工作流程Ultimate和Adobe Workfront自動化與整合Ultimate</p><p>Workfront Ultimate</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>標準</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> 
+     <p>您必須是組織的Workfront Fusion管理員。</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+
++++
+
+## 前瞻分析儀表板元件
+
+>[!NOTE]
+>
+>度量會依工作者集區顯示。 若要檢視不同的Worker集區，請按一下控制面板左上角附近的「集區」欄位，然後選取您要檢視量度的集區。
+
+<!--
+
+>[!NOTE]
+>
+>Organizations can request provisioning for one additional worker pool (for a total of 2).
+
+-->
+
+在Fusion Insights儀表板中，您可以看到以下量度。
+
+* **個等待處理的執行**
+此圖表顯示在指定時間點等待處理的執行數目（也稱為執行待處理專案）。
+
+  等待處理的大量執行可能會影響Fusion執行個體的效能。 如果您的執行待辦專案達到5000個執行，您將會收到通知。 我們建議識別負責的情境，並修改或停用它們。 如果高執行積壓持續存在，Fusion團隊會停用負責的情境，藉此保護Fusion執行個體的效能。
+* **集區使用率**
+此圖表顯示一段時間內的工作者集區使用率。 如果此圖表定期顯示工作者集區使用率，您可能會想要將某些案例指派給另一個集區。
+
+  如果集區的使用率接近100%，則使用相同集區的其他資源可能會延遲或中斷。 如果發生這種情況，我們建議將高使用率案例重新指派給另一個工作者集區，或將現有案例修改為資源密集度較低的案例。
+* 每個情境有&#x200B;**個執行專案**
+此圖表顯示每個案例的執行次數。 不同的顏色代表不同的情境。 當您將滑鼠停留在圖表上時，會出現一個視窗，顯示哪個顏色是哪個案例。
+
+  您可以使用此圖表來識別哪些案例可能會導致執行待處理專案或高工作者集區使用率。
+* **執行期間**
+此圖表顯示每個案例的執行次數。 不同的顏色代表不同的情境。 當您將滑鼠停留在圖表上時，會出現一個視窗，顯示哪個顏色是哪個案例。
+
+  您可以使用此圖表來識別花費較平常更長的情境，包括受連線應用程式或服務問題影響的情境。
+
+## 檢視Fusion Insights控制面板
+
+1. 在Fusion中，按一下左側導覽中的&#x200B;**深入分析**。
+
+   「圖示板」隨即開啟。
+
+1. 若要檢視特定時間點的資料，請將游標暫留在控制面板上，並將游標調整為您要檢視的時間點。
+
+   所有圖形上都會在該時間點上出現一條線條，而每個圖形上都會出現一個顯示該時間資料的視窗。
+1. 若要在「每個案例的執行次數」圖表或「執行持續時間」圖表中檢視特定案例的資料，請按一下您要檢視資料之案例的顏色長條。 若要返回顯示所有情境的檢視，請再次按一下圖表。
+1. 若要移至「每個案例的執行次數」圖表或「執行持續時間」圖表中顯示的特定案例，請以滑鼠右鍵按一下案例的顏色列，然後選取&#x200B;**在新標籤中開啟案例**。
+1. 若要展開圖表，請按一下該圖表右上角的&#x200B;**展開**&#x200B;圖示![展開圖示](assets/expand-icon.png)。
+1. 若要變更控制面板的時間範圍，請在控制面板右上角的「時間範圍」欄位中選取新的時間範圍。 可用的最長時段為24小時，最短時段為15分鐘。
+1. 若要重新整理圖表，請按一下控制面板右上角附近的重新整理圖示。
+1. 若要檢視不同的Worker集區，請按一下控制面板左上角附近的「集區」欄位，然後選取您要檢視的集區。

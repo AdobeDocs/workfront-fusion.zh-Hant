@@ -3,7 +3,8 @@ title: 儲存空間概觀
 description: 儲存是Workfront Fusion中的頁面，可讓團隊直接存取其Adobe Enterprise Storage Management (ESM)儲存庫，讓使用者瀏覽資料夾、上傳和下載檔案、檢視版本記錄和建立自動化案例。
 author: Becky
 feature: Workfront Fusion
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: d5568479d43bd5518adae5b66b132b4075e7f356
 workflow-type: tm+mt
 source-wordcount: 279

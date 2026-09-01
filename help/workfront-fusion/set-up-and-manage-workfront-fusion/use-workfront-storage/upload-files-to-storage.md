@@ -3,7 +3,8 @@ title: 上傳檔案至儲存空間
 description: 您可以直接將檔案上傳到Storage中的資料夾，或建立自動化案例來處理上傳。
 author: Becky
 feature: Workfront Fusion
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: a2632cb3184cd555555136288e78ab1e05e4ea9d
 workflow-type: tm+mt
 source-wordcount: 196

@@ -3,7 +3,8 @@ title: 檢視儲存體中的檔案版本記錄
 description: Adobe儲存體中的檔案可以有多個版本。 您可以檢視檔案的版本記錄並下載任何先前的版本。
 author: Becky
 feature: Workfront Fusion
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: a2632cb3184cd555555136288e78ab1e05e4ea9d
 workflow-type: tm+mt
 source-wordcount: 129
@@ -22,7 +23,7 @@ Adobe儲存體中的檔案可以有多個版本。
 1. 在Workfront Fusion中，按一下左側導覽中的&#x200B;**儲存空間**。
 1. 導覽至儲存庫和資料夾，其中包含您要檢視版本的檔案。
 1. 選取檔案並按一下動作列中的&#x200B;**「版本」**。
-**版本記錄**面板隨即開啟。
+**版本記錄**&#x200B;面板隨即開啟。
 版本以最新為先列出，每個都顯示：
    * 版本號碼
    * 日期

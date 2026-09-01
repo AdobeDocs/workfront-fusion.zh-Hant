@@ -3,7 +3,8 @@ title: 初始化儲存空間
 description: 當使用者第一次導覽到儲存體時，他們會看到初始化畫面，該畫面會代表團隊建立與Adobe儲存體的安全連線。
 author: Becky
 feature: Workfront Fusion
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: a2632cb3184cd555555136288e78ab1e05e4ea9d
 workflow-type: tm+mt
 source-wordcount: 216

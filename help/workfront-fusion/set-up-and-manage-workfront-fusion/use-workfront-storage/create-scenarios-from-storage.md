@@ -3,7 +3,8 @@ title: 從儲存空間建立案例
 description: 儲存裝置與Fusion的案例產生器整合，因此您可以直接從「儲存裝置」頁面建立預先設定的案例，以下載或上傳檔案。
 author: Becky
 feature: Workfront Fusion
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: aef1685cb25c0cdcb0dcdf9b0c73fb482d392e5f
 workflow-type: tm+mt
 source-wordcount: 272

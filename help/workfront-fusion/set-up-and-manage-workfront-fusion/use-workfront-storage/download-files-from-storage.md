@@ -3,7 +3,8 @@ title: 從儲存體下載檔案
 description: 您可以下載儲存空間中檔案的最新版本，或下載特定的舊版本。
 author: Becky
 feature: Workfront Fusion
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: a2632cb3184cd555555136288e78ab1e05e4ea9d
 workflow-type: tm+mt
 source-wordcount: 211
@@ -22,7 +23,7 @@ ht-degree: 0%
 1. 在Workfront Fusion中，按一下左側導覽中的&#x200B;**儲存空間**。
 1. 導覽至存放庫和包含您要下載的檔案的資料夾。
 1. 按一下表格中的檔案來選取檔案。
-1. 在出現的動作列中，按一下[下載]。****
+1. 在出現的動作列中，按一下[下載]。**&#x200B;**
 
 **進度橫幅**&#x200B;會出現在右上方，並顯示：
 

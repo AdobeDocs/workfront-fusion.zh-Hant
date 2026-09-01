@@ -5,7 +5,8 @@ description: 本節包含與在Adobe Workfront Fusion中使用儲存體相關的
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 21da39fa108568d9614dcb4f2841255b03fb6847
 workflow-type: tm+mt
 source-wordcount: 55

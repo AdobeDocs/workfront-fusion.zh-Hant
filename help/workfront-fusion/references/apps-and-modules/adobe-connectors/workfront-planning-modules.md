@@ -11,9 +11,9 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 39436d53fd350158b8ee95061b7b9b49ae8f6d63
+source-git-commit: 9521866c29e4e08eaf815080162735f0f70299a5
 workflow-type: tm+mt
-source-wordcount: 6660
+source-wordcount: 6739
 ht-degree: 32%
 
 ---
@@ -408,6 +408,7 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
 * [取得全域記錄型別](#get-global-record-types-v2)
 * [取得記錄型別](#get-a-record-type-v2)
 * [取得記錄型別](#get-record-types-v2)
+* [重新快取記錄型別設定](#recast-record-type-configuration-v2)
 * [更新記錄型別](#update-a-record-type-v2)
 
 #### 建立記錄型別(V2)
@@ -553,6 +554,27 @@ Workfront Planning聯結器使用OAuth 2.0連線至Workfront Planning。
         <p>[!UICONTROL 傳回記錄型別的最大數目]</p>
       </td>
       <td>輸入或對應模組在一個執行週期內傳回的最大記錄型別數目。</td> 
+    </tr>
+  </tbody>
+</table>
+
+#### 重新快取記錄型別設定(V2)
+
+此模組會擷取工作區中所有記錄型別（依其區段分組），以及每個記錄型別的欄位和每個欄位的選取選項。 輸出會結構化為「區段>記錄型別>欄位」。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL 連線]</td>
+      <td>關於建立與 [!DNL Adobe Workfront Planning] 的連線的說明，請參閱這篇文章中的<a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >建立與 [!DNL Adobe Workfront Planning]</a> 的連線。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 工作區 ID]</p>
+      </td>
+      <td>輸入或對應您要擷取記錄型別組態的工作區ID。</td> 
     </tr>
   </tbody>
 </table>

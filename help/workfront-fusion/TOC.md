@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: fac09ae8c8b2e248ef9c0731c38a4be58cea2994
+source-git-commit: b2d2634c72b044898b656852e57ef36a8b5f2fe9
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2655'
 ht-degree: 49%
 
 ---
@@ -420,6 +420,7 @@ ht-degree: 49%
       * [Adobe Workfront 規劃模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-planning-modules.md)
       * [Adobe Workfront整合式檢閱和核准模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-review-and-approvals-modules.md)
       * [Workfront 展示板模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-boards-modules.md)
+      * [Workfront Fusion模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-fusion-modules.md)
       * [Workfront Proof 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-proof-modules.md)
     * 第三方應用程式的連接器 {#third-party-app-connectors}
       * [Airtable 模組](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/airtable-modules.md)

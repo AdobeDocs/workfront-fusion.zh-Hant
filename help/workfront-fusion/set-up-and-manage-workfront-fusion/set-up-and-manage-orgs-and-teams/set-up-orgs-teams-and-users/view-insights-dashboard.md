@@ -5,11 +5,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 8f80f86a-69e5-48a1-9812-87322a4959a6
 TQID: https://experienceleague.adobe.com/tBZCbpImQxY42gOE8e04aQwCJC8EKgrDTIAt6Sw1KaU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 557ec6de4ccf0753005fed3e4772d2eb9317537d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 069ab0fd3d72da3b67d50e4f8e62823c825ef934
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: 849
 ht-degree: 4%
 
 ---
@@ -43,7 +42,7 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -63,6 +62,9 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
 
 在Fusion Insights儀表板中，您可以看到以下量度。
 
+* **失敗的執行記錄檔**
+此表格列出整個組織中每個失敗或警告案例的執行情形，因此您可以在不離開控制面板的情況下尋找問題執行並進行疑難排解。
+
 * **個等待處理的執行**
 此圖表顯示在指定時間點等待處理的執行數目（也稱為執行待處理專案）。
 
@@ -79,8 +81,6 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
 此圖表顯示每個案例的執行次數。 不同的顏色代表不同的情境。 當您將滑鼠停留在圖表上時，會出現一個視窗，顯示哪個顏色是哪個案例。
 
   您可以使用此圖表來識別花費較平常更長的情境，包括受連線應用程式或服務問題影響的情境。
-* **執行記錄**
-此表格列出整個組織中每個失敗或警告案例的執行情形，因此您可以在不離開控制面板的情況下尋找問題執行並進行疑難排解。
 
 ## 檢視Fusion Insights控制面板
 
@@ -114,8 +114,8 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
    對於大多數的篩選器，您可以選擇僅符合您選取的值，或除了這些值之外的所有值。
 
 1. 按一下執行以檢視有關其錯誤的更多詳細資料。
-1. 若要重新啟用一或多個在重複失敗後自動停用的案例，請選取執行，然後按一下[啟用]。**&#x200B;**
+1. 若要重新啟用一或多個在重複失敗後自動停用的案例，請選取執行，然後按一下[啟用]。****
 
-   <!-- BECKY CHECK ME: confirm this button's exact label against the live UI. The Slack feature request calls it "Activate," but a related community post describes the same action as "Reactivate." -->
-
-   在重新啟用案例之前，請調查失敗的原因，例如過期的憑證或聯結器問題，因此案例不會立即再次失敗。
+   >[!NOTE]
+   >
+   >在重新啟用案例之前，請調查失敗的原因，例如過期的憑證或聯結器問題，因此案例不會立即再次失敗。

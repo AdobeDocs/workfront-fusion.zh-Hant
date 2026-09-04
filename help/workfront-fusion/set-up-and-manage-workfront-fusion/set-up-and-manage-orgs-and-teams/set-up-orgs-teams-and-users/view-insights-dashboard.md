@@ -5,12 +5,11 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 8f80f86a-69e5-48a1-9812-87322a4959a6
 TQID: https://experienceleague.adobe.com/tBZCbpImQxY42gOE8e04aQwCJC8EKgrDTIAt6Sw1KaU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: fac09ae8c8b2e248ef9c0731c38a4be58cea2994
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 557ec6de4ccf0753005fed3e4772d2eb9317537d
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 5%
+source-wordcount: 848
+ht-degree: 4%
 
 ---
 
@@ -43,7 +42,7 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -79,6 +78,8 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
 此圖表顯示每個案例的執行次數。 不同的顏色代表不同的情境。 當您將滑鼠停留在圖表上時，會出現一個視窗，顯示哪個顏色是哪個案例。
 
   您可以使用此圖表來識別花費較平常更長的情境，包括受連線應用程式或服務問題影響的情境。
+* **執行記錄**
+此表格列出整個組織中每個失敗或警告案例的執行情形，因此您可以在不離開控制面板的情況下尋找問題執行並進行疑難排解。
 
 ## 檢視Fusion Insights控制面板
 
@@ -95,3 +96,25 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
 1. 若要變更控制面板的時間範圍，請在控制面板右上角的「時間範圍」欄位中選取新的時間範圍。 可用的最長時段為24小時，最短時段為15分鐘。
 1. 若要重新整理圖表，請按一下控制面板右上角附近的重新整理圖示。
 1. 若要檢視不同的Worker集區，請按一下控制面板左上角附近的「集區」欄位，然後選取您要檢視的集區。
+
+## 在執行記錄中篩選和分類執行
+
+使用執行記錄尋找在您的組織中失敗或傳回警告的案例執行，並重新啟用在重複失敗後自動停用的任何案例。
+
+1. 在執行記錄中，依下列任一專案篩選執行：
+
+   * [!UICONTROL 團隊]
+   * [!UICONTROL 情境]
+   * [!UICONTROL 執行型別]
+   * [!UICONTROL 日期範圍]
+   * [!UICONTROL 停用狀態]
+   * [!UICONTROL 錯誤訊息]
+
+   對於大多數的篩選器，您可以選擇僅符合您選取的值，或除了這些值之外的所有值。
+
+1. 按一下執行以檢視有關其錯誤的更多詳細資料。
+1. 若要重新啟用一或多個在重複失敗後自動停用的案例，請選取執行，然後按一下[啟用]。****
+
+   <!-- BECKY CHECK ME: confirm this button's exact label against the live UI. The Slack feature request calls it "Activate," but a related community post describes the same action as "Reactivate." -->
+
+   在重新啟用案例之前，請調查失敗的原因，例如過期的憑證或聯結器問題，因此案例不會立即再次失敗。

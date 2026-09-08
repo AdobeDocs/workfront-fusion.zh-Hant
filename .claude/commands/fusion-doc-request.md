@@ -1,9 +1,9 @@
 ---
 name: fusion-doc-request
 description: 處理#fusion-documentation Slack範本中的Fusion檔案請求 — 更新此存放庫中的相關Fusion檔案文章，然後在產品檔案Workfront專案中建立相符的工作，並在自訂表單中填入功能說明和格式化發行說明。 當使用者共用Fusion功能的Slack檔案請求對話串/訊息，或針對一個功能說「請更新並建立任務」之類的話時使用。
-source-git-commit: 6726c582294758de0bbab19d6014ad80bb66e553
+source-git-commit: 2b1e8c3281334ac0846bd7cc6297f972dc1bad61
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1215'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 步驟1：取得請求詳細資料
 
-如果指定了Slack連結，請從URL剖析`channel_id`和`message_ts`，並擷取執行緒（`slack_get_thread_replies`或`slack_read_thread`，視所連線的Slack MCP工具而定 — 如果其中一個失敗，請嘗試兩者）。 保留執行緒的永久連結/URL — 步驟3中需要它。
+如果指定了Slack連結，請從URL剖析`channel_id`和`message_ts`，並擷取執行緒（`slack_get_thread_replies`或`slack_read_thread`，視所連線的Slack MCP工具而定 — 如果其中一個失敗，請嘗試兩者）。 保留對話串的永久連結/URL — 步驟4中需要它。
 
 此環境中的Slack連線不穩定（權杖已過期，工作階段期間中斷連線）。 如果擷取失敗：
 - 重試一次。
@@ -33,9 +33,17 @@ ht-degree: 0%
 
 如果要求連結至具有完整規格的Confluence Wiki頁面，請先擷取該頁面(`get_wiki_content`)，然後再撰寫檔案。 請勿僅仰賴Slack摘要來取得技術細節（確切的欄位名稱、步驟、UI標籤），請在連結時從Wiki規格提取這些內容。
 
-如果請求改為連結到非Confluence次要來源（例如Experience League社群貼文、支援文章、AI產生的摘要）而不是權威規格，您可能會使用它來填入Slack文字缺少的技術細節，但將其視為低於Slack請求本身的信賴度。 當它與Slack文字衝突或新增時（相同按鈕/欄位的不同名稱，Slack中完全未提及的細節），請勿無訊息地選擇一個 — 使用Slack請求的措辭作為主要來源寫入檔案，並根據步驟2中的指南在HTML註解內標示差異（例如`<!-- BECKY CHECK ME: Slack calls this "Activate," but the linked community post calls it "Reactivate" - confirm against the live UI. -->`）。
+如果請求改為連結到非Confluence次要來源（例如Experience League社群貼文、支援文章、AI產生的摘要）而不是權威規格，您可能會使用它來填入Slack文字缺少的技術細節，但將其視為低於Slack請求本身的信賴度。 當它與Slack文字衝突或新增時（相同按鈕/欄位的不同名稱，Slack中完全未提及的細節），請勿無訊息地選擇一個 — 使用Slack請求的措辭作為主要來源寫入檔案，並根據步驟3中的指南在HTML註解內標示差異（例如`<!-- BECKY CHECK ME: Slack calls this "Activate," but the linked community post calls it "Reactivate" - confirm against the live UI. -->`）。
 
-## 步驟2：更新檔案
+## 步驟2：建立請求的分支
+
+在接觸任何檔案之前，請為此請求建立新的Git分支並將其簽出。 從目前的預設分支(`main`)中分支，而不是從要取出的任何分支中分支。
+
+為分支`becky-{short-kebab-case-description}`命名（衍生自&#x200B;**功能標題**） — 第一個字必須是`becky`，符合此存放庫的現有分支慣例（例如`becky-webhook-update`、`becky-storage-beta-sos`）。 簡短 — 幾個字，不是完整的標題。
+
+如果工作樹狀結構不乾淨（來自不相關工作的未認可變更），請停止並告訴使用者，而不是將其分支。
+
+## 步驟3：更新檔案
 
 在此存放庫中尋找相關的現有文章（相關模組名稱、UI標籤或設定名稱的問候 — 請勿猜測檔案）。 依照該文章的現有結構、標題層級和房屋樣式，更新它們以反映變更。
 
@@ -46,7 +54,7 @@ ht-degree: 0%
   - 任何內容中的子索引/登陸頁面也會連結至此類文章（例如，新聯結器模組頁面的`apps-and-modules-toc.md`）。
     明確檢查兩者，並確認新專案位於相同的清單中、位於相同的巢狀層級，因為其最接近的同層級文章位於每個檔案中 — 請勿假設將其新增至一個會遮蓋另一個專案。
 
-## 步驟3：建立Workfront工作
+## 步驟4：建立Workfront工作
 
 專案： **產品檔案任務 — 需要傳訊的開發問題**。 使用`insights_find_id_by_name` （實體`project`）解析其ID，而非將其硬式編碼，以防其變更 — 請參閱下列已知值以瞭解最後解析的ID。
 
@@ -81,10 +89,11 @@ For more information, see [{Article title}](/help/workfront-fusion/{path-to-arti
 
 在建立呼叫之前，使用`workfront://tools/create-any-object`呼叫`read_workflow_docs` — 此呼叫會設定自訂欄位和列舉值(`DE:Preview Date Known`)，這需要MCP伺服器的規則。
 
-## 步驟4：確認返回使用者
+## 步驟5：確認返回使用者
 
 簡單報告：
 
+&#x200B;* 您建立的分支。
 &#x200B;* 您變更了哪些doc檔案以及新增了哪些內容。
 &#x200B;* 工作名稱和URL。
 &#x200B;* 您設定的確切欄位值，包括預覽日期欄位。

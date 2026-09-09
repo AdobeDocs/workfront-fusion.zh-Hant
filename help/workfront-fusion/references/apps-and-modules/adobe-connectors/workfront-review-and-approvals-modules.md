@@ -4,16 +4,13 @@ description: 使用Adobe Workfront內容和核准模組，您可以取得核准�
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e9ea91840c9be594e98b97202cb46dfa009349a9
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 68b973fd27c2c5a40000096a29b38b46481ae190
 workflow-type: tm+mt
-source-wordcount: 3743
-ht-degree: 15%
+source-wordcount: 4194
+ht-degree: 14%
 
 ---
 
@@ -21,7 +18,7 @@ ht-degree: 15%
 
 使用Adobe Workfront整合式檢閱和核准模組，您可以取得核准詳細資訊、對資產做出決定、新增或刪除核准參與者、新增或更新核准階段、鎖定或解鎖階段，以及進行自訂API呼叫。
 
-如需Workfront統一檢閱和核准的相關資訊，請參閱Workfront檔案中的[統一檢閱和核准總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/document-approvals-overview)。
+如需Workfront統一檢閱和核准的相關資訊，請參閱Workfront檔案中的[統一檢閱和核准總覽](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-approvals-overview)。
 
 ## 存取權要求
 
@@ -48,7 +45,7 @@ ht-degree: 15%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -136,16 +133,21 @@ ht-degree: 15%
 * [大量刪除範本](#bulk-delete-templates)
 * [建立範本](#create-a-template)
 * [建立核准](#create-an-approval)
+* [建立群組核准](#create-grouped-approval)
 * [建立階段](#create-stages)
 * [刪除階段上的決定](#delete-a-decision-on-a-stage)
 * [刪除階段](#delete-a-stage)
 * [刪除範本](#delete-a-template)
 * [刪除核准](#delete-an-approval)
 * [刪除決定](#delete-decisions)
+* [刪除分組的核准](#delete-grouped-approval)
 * [刪除參與者](#delete-participants)
 * [鎖定階段](#lock-a-stage)
 * [做出決定](#make-a-decision)
 * [在階段上做出決定](#make-a-decision-on-a-stage)
+* [管理群組核准的Assets](#manage-assets-on-a-grouped-approval)
+* [管理階段參與者](#manage-stage-participants)
+* [管理群組核准的階段](#manage-stages-on-a-grouped-approval)
 * [提醒舞台上的參與者](#remind-a-participant-on-a-stage)
 * [提醒參與者](#remind-participant)
 * [提醒尚未決定的參與者](#remind-undecided-participants)
@@ -154,6 +156,7 @@ ht-degree: 15%
 * [更新階段](#update-a-stage)
 * [更新範本](#update-a-template)
 * [更新所有階段](#update-all-stages)
+* [更新分組的核准（完整狀態）](#update-grouped-approval-full-state)
 
 
 #### 新增或更新參與者
@@ -269,6 +272,23 @@ ht-degree: 15%
       </tr>
   </tbody>
 </table>
+
+#### 建立群組核准
+
+此動作模組會建立分組核准。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Create Grouped Approval"), without field detail. -->
 
 #### 建立階段
 
@@ -404,6 +424,23 @@ ht-degree: 15%
   </tbody>
 </table>
 
+#### 刪除分組的核准
+
+此動作模組會刪除指定的群組核准。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Delete Grouped Approval"), without field detail. -->
+
 #### 刪除參與者
 
 此動作模組會從核准中刪除參與者。
@@ -515,6 +552,57 @@ ht-degree: 15%
       </tr>
   </tbody>
 </table>
+
+#### 管理群組核准的Assets
+
+此動作模組會管理哪些資產包含在群組核准中。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Manage Assets on a Grouped Approval"), without field detail. -->
+
+#### 管理階段參與者
+
+此動作模組會管理舞台上的參與者。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Manage Stage Participants"), without field detail. -->
+
+#### 管理群組核准的階段
+
+此動作模組會管理群組核准的階段。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Manage Stages on a Grouped Approval"), without field detail. -->
 
 #### 提醒舞台上的參與者
 
@@ -755,16 +843,37 @@ ht-degree: 15%
   </tbody>
 </table>
 
+#### 更新分組的核准（完整狀態）
+
+此動作模組會取代指定之群組核准的完整狀態。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Update Grouped Approval (Full State)"), without field detail. -->
+
 ### 搜尋
 
 * [取得範本](#get-a-template)
 * [取得核准詳細資料](#get-approval-details)
+* [在群組核准中取得核准](#get-approvals-in-a-grouped-approval)
+* [取得分組的核准詳細資料](#get-grouped-approval-details)
 * [取得多個核准](#get-multiple-approvals)
 * [取得建議的核准](#get-suggested-approvals)
 * [取得建議的參與者](#get-suggested-participants)
 * [清單機器人](#list-bots)
+* [按父級列出群組核准](#list-grouped-approvals-by-parent)
 * [清單範本](#list-templates)
 * [搜尋AI品牌檢閱者](#search-ai-brand-reviews)
+* [搜尋群組核准](#search-grouped-approvals)
 
 
 #### 取得範本
@@ -816,6 +925,40 @@ ht-degree: 15%
       </tr>
   </tbody>
 </table>
+
+#### 在群組核准中取得核准
+
+此搜尋模組會傳回群組核准中包含的個別核准。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Get Approvals in a Grouped Approval"), without field detail. -->
+
+#### 取得分組的核准詳細資料
+
+此搜尋模組會擷取指定之群組核准的詳細資料。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Get Grouped Approval Details"), without field detail. -->
 
 #### 取得多個核准
 
@@ -925,6 +1068,23 @@ ht-degree: 15%
   </tbody>
 </table>
 
+#### 按父級列出群組核准
+
+此搜尋模組會傳回指定父項的群組核准清單。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("List Grouped Approvals by Parent"), without field detail. -->
+
 #### 清單範本
 
 此模組會傳回目前使用者可用的所有核准範本清單。 目前的使用者是在此模組使用的連線中使用其認證的使用者。
@@ -984,6 +1144,23 @@ ht-degree: 15%
        </tr>
   </tbody>
 </table>
+
+#### 搜尋群組核准
+
+此搜尋模組會搜尋符合指定條件的群組核准。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Search Grouped Approvals"), without field detail. -->
 
 ### 其他
 

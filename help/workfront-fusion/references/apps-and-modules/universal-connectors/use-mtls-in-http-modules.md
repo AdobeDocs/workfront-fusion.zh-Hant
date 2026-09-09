@@ -5,9 +5,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 1e0b4c3b-9a0b-491d-aaf2-0011d8386abe
 TQID: https://experienceleague.adobe.com/L-0fyqwvahM--LXM15no9APxcFNkAsoYqHwAqO1bAno
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: ffd91f83940f37b15229b79fa04b5a3596bd97fb
 workflow-type: tm+mt
 source-wordcount: 901
 ht-degree: 15%
@@ -64,7 +63,7 @@ ht-degree: 15%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -95,12 +94,12 @@ ht-degree: 15%
 
 下載下列zip檔案，將其解壓縮，然後將PEM檔案用於您的資料中心。
 
-[下載Workfront Fusion 2026憑證](assets/2026-certs/fusion-prod-mtls-certificate-2026.zip)
+[下載Workfront Fusion 2026憑證](assets/fusion-prod-mtls-certificate-2026-updated.zip)
 
 | 資料中心 | 下載連 | 有效日期 |
 | --- | --- | --- |
 | 美國AWS資料中心 | `fusion-prod-us-mtls-certificate-2026.pem` | 2026年1月29日至2027年3月2日 |
-| 美國Azure叢集 | `fusion-prod-az-mtls-certificate.pem` | 2025年9月21日至2026年10月23日 |
+| 美國Azure叢集 | `fusion-prod-az-mtls-certificate-2026-sept.pem` | 2026年8月19日至2027年3月6日 |
 | 歐盟AWS資料中心 | `fusion-prod-eu-mtls-certificate-2026.pem` | 2026年1月29日至2027年3月2日 |
 | 歐盟Azure叢集 | `fusion-prod-eu-az-mtls-certificate-2026.pem` | 2026年2月4日至2027年3月8日 |
 

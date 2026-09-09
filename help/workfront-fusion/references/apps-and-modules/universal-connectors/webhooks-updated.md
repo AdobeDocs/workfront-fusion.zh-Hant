@@ -5,14 +5,12 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
 TQID: https://experienceleague.adobe.com/VuJQ4w3kfMUJ4H-m1PdN-F8242KOJRPz1holJRxSE0Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 49e408630449952f67d3530f03b7a8755e0e6f6a
 workflow-type: tm+mt
-source-wordcount: 2420
-ht-degree: 8%
+source-wordcount: 3236
+ht-degree: 6%
 
 ---
 
@@ -56,7 +54,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -68,13 +66,24 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 >
 >若要呼叫第三方webhook （傳出webhook），請使用其中一個HTTP模組。 如需詳細資訊，請參閱[HTTP模組](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)。
 
-若要使用webhook將應用程式連線到Workfront Fusion，您可以設定webhook使用使用者端憑證(mTLS)、基本驗證或Adobe Identity Management系統(IMS)進行驗證。
+若要使用webhook將應用程式連線至Workfront Fusion，您可以設定webhook使用使用者端憑證(mTLS)、基本驗證、Adobe Identity Management System (IMS)、API金鑰或HMAC簽章進行驗證。
+
+>[!NOTE]
+>
+>**API金鑰驗證現在是新Webhook的預設授權型別**。 以前不會預先選取任何授權。 您仍然可以將webhook的Authorization型別變更為任何其他型別，或選取空白值以不授權。
+
+* [設定webhook](#configure-a-webhook)
+* [設定webhook的資料結構](#configure-the-webhook-s-data-structure)
+
+### 設定webhook
 
 * [搭配使用者端憑證(mTLS)使用webhook](#use-a-webhook-with-a-client-certificate-mtls)
 * [搭配基本驗證使用webhook](#use-a-webhook-with-basic-authentication)
 * [搭配Adobe Identity Management System (IMS)使用webhook](#use-a-webhook-with-adobe-identity-management-system-ims)
+* [使用具有API金鑰驗證的webhook](#use-a-webhook-with-api-key-authentication)
+* [使用webhook搭配HMAC簽章驗證](#use-a-webhook-with-hmac-signature-authentication)
 
-### 搭配使用者端憑證(mTLS)使用webhook
+#### 搭配使用者端憑證(mTLS)使用webhook
 
 若使用mTLS，您可以提供使用者端憑證和私密金鑰。 Fusion在呼叫webhook時使用憑證和金鑰向目的地服務驗證自身。 此雙向驗證可讓您的webhook比基本驗證更安全。
 
@@ -85,7 +94,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 1. 按一下Webhook欄位旁的&#x200B;**[!UICONTROL 新增]**，然後輸入新webhook的名稱。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 進階設定]**。
 1. 在&#x200B;**[!UICONTROL IP限制]**&#x200B;欄位中，輸入模組可以接受資料的IP位址清單（以逗號分隔）。
-1. （選擇性）在&#x200B;**[!UICONTROL 來源限制]**&#x200B;欄位中，針對您想要允許呼叫此webhook的每個來源，按一下&#x200B;**新增專案**&#x200B;並輸入來源模式。 如果您想要允許任何來源，請將此欄位留空。
+1. （選擇性）在&#x200B;**[!UICONTROL 允許的原始項]**&#x200B;欄位中，針對您想要允許呼叫此webhook的每個原始項，按一下&#x200B;**新增專案**&#x200B;並輸入原始模式。 如果您想要允許任何來源，請將此欄位留空。
 
    此欄位接受以下模式：
 
@@ -117,7 +126,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 >
 >建立webhook後，您可以一次用於多個情境。
 
-### 搭配基本驗證使用webhook
+#### 搭配基本驗證使用webhook
 
 基本驗證會使用使用者名稱和密碼來驗證您所連線的服務。
 
@@ -126,7 +135,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 1. 按一下Webhook欄位旁的&#x200B;**[!UICONTROL 新增]**，然後輸入新webhook的名稱。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 進階設定]**。
 1. 在&#x200B;**[!UICONTROL IP限制]**&#x200B;欄位中，輸入模組可以接受資料的IP位址清單（以逗號分隔）。
-1. （選擇性）在&#x200B;**[!UICONTROL 來源限制]**&#x200B;欄位中，針對您想要允許呼叫此webhook的每個來源，按一下&#x200B;**新增專案**&#x200B;並輸入來源模式。 如果您想要允許任何來源，請將此欄位留空。
+1. （選擇性）在&#x200B;**[!UICONTROL 允許的原始項]**&#x200B;欄位中，針對您想要允許呼叫此webhook的每個原始項，按一下&#x200B;**新增專案**&#x200B;並輸入原始模式。 如果您想要允許任何來源，請將此欄位留空。
 
    此欄位接受以下模式：
 
@@ -147,7 +156,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 >
 >建立webhook後，您可以一次用於多個情境。
 
-### 搭配Adobe Identity Management System (IMS)使用webhook
+#### 搭配Adobe Identity Management System (IMS)使用webhook
 
 Adobe Identity Management系統(IMS)驗證會使用您組織的Adobe IMS憑證，以驗證您連線的服務。
 
@@ -156,7 +165,7 @@ Adobe Identity Management系統(IMS)驗證會使用您組織的Adobe IMS憑證�
 1. 按一下Webhook欄位旁的&#x200B;**[!UICONTROL 新增]**，然後輸入新webhook的名稱。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 進階設定]**。
 1. 在&#x200B;**[!UICONTROL IP限制]**&#x200B;欄位中，輸入模組可以接受資料的IP位址清單（以逗號分隔）。
-1. （選擇性）在&#x200B;**[!UICONTROL 來源限制]**&#x200B;欄位中，針對您想要允許呼叫此webhook的每個來源，按一下&#x200B;**新增專案**&#x200B;並輸入來源模式。 如果您想要允許任何來源，請將此欄位留空。
+1. （選擇性）在&#x200B;**[!UICONTROL 允許的原始項]**&#x200B;欄位中，針對您想要允許呼叫此webhook的每個原始項，按一下&#x200B;**新增專案**&#x200B;並輸入原始模式。 如果您想要允許任何來源，請將此欄位留空。
 
    此欄位接受以下模式：
 
@@ -170,6 +179,80 @@ Adobe Identity Management系統(IMS)驗證會使用您組織的Adobe IMS憑證�
 1. （選擇性）在&#x200B;**允許的使用者端**&#x200B;欄位中，輸入允許呼叫此webhook的使用者端ID的逗號分隔清單。 將此設定留空以接受任何由受信任的簽發者和對象有效簽署權杖的使用者端。
 1. （選擇性）在&#x200B;**允許的使用者**&#x200B;欄位中，輸入允許呼叫此webhook的使用者ID清單（以逗號分隔）。 將此設定留空以允許任何使用者。
 1. （選擇性）在&#x200B;**必要的範圍**&#x200B;欄位中，輸入必須在權杖的`scope`宣告中存在的範圍清單（以逗號分隔）。 留空將略過範圍檢查。
+1. 視需要啟用其他設定。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**
+
+建立webhook之後，會顯示唯一的URL。 這是webhook傳送資料的地址。 Workfront Fusion會驗證傳送到此位址的資料，然後傳遞它以用於案例中的處理。
+
+>[!NOTE]
+>
+>建立webhook後，您可以一次用於多個情境。
+
+#### 使用具有API金鑰驗證的webhook
+
+API金鑰驗證使用單一金鑰保護webhook端點，以請求標頭或查詢引數的形式傳送。 這是新Webhook的預設授權型別。
+
+1. 將&#x200B;**[!UICONTROL Webhook]** > **[!UICONTROL 自訂Webhook]**&#x200B;即時觸發模組新增至您的情境。
+
+1. 按一下Webhook欄位旁的&#x200B;**[!UICONTROL 新增]**，然後輸入新webhook的名稱。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 進階設定]**。
+1. 在&#x200B;**[!UICONTROL IP限制]**&#x200B;欄位中，輸入模組可以接受資料的IP位址清單（以逗號分隔）。
+1. （選擇性）在&#x200B;**[!UICONTROL 允許的原始項]**&#x200B;欄位中，針對您想要允許呼叫此webhook的每個原始項，按一下&#x200B;**新增專案**&#x200B;並輸入原始模式。 如果您想要允許任何來源，請將此欄位留空。
+
+   此欄位接受以下模式：
+
+   * 確切的主機名稱： `app.example.com`
+   * 萬用字元子網域： `*.example.com`
+   * 符合配置資格：` https://app.example.com`或`https://*.example.com`
+1. 如果您要驗證傳入的資料，請在&#x200B;**資料結構**&#x200B;欄位中，選取或新增您要使用的資料結構。
+
+   如需資料結構的詳細資訊，請參閱[資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)。
+1. 在&#x200B;**授權型別**&#x200B;欄位中，選取&#x200B;**[!UICONTROL API金鑰驗證]** （如果尚未選取）。
+1. 在&#x200B;**金鑰**&#x200B;欄位中，選取要用於授權的API金鑰，或按一下&#x200B;**新增**&#x200B;並輸入新認證來新增新的API金鑰：
+   1. 輸入新認證金鑰的名稱。
+   1. 在&#x200B;**金鑰**&#x200B;欄位中，輸入您要驗證的金鑰值。 使用欄位旁的眼睛圖示，在輸入時顯示或隱藏欄位。
+   1. 在&#x200B;**API金鑰位置**&#x200B;欄位中，選取金鑰是在標頭中傳送還是作為查詢引數傳送。
+   1. 在&#x200B;**API金鑰引數名稱**&#x200B;欄位中，輸入金鑰傳送所在的標頭或查詢引數名稱，例如`X-API-Key`。
+   1. 按一下&#x200B;**建立金鑰**。
+   1. 返回webhook面板，在&#x200B;**認證**&#x200B;欄位中選取新金鑰。
+1. 視需要啟用其他設定。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**
+
+建立webhook之後，會顯示唯一的URL。 這是webhook傳送資料的地址。 Workfront Fusion會驗證傳送到此位址的資料，然後傳遞它以用於案例中的處理。
+
+>[!NOTE]
+>
+>建立webhook後，您可以一次用於多個情境。
+
+#### 使用webhook搭配HMAC簽章驗證
+
+HMAC簽名驗證會驗證傳入的請求是否使用共用的簽署密碼簽署，防止竄改和詐騙呼叫，而不會在每次請求時都傳送密碼本身。
+
+1. 將&#x200B;**[!UICONTROL Webhook]** > **[!UICONTROL 自訂Webhook]**&#x200B;即時觸發模組新增至您的情境。
+
+1. 按一下Webhook欄位旁的&#x200B;**[!UICONTROL 新增]**，然後輸入新webhook的名稱。
+1. （選擇性）按一下&#x200B;**[!UICONTROL 進階設定]**。
+1. 在&#x200B;**[!UICONTROL IP限制]**&#x200B;欄位中，輸入模組可以接受資料的IP位址清單（以逗號分隔）。
+1. （選擇性）在&#x200B;**[!UICONTROL 允許的原始項]**&#x200B;欄位中，針對您想要允許呼叫此webhook的每個原始項，按一下&#x200B;**新增專案**&#x200B;並輸入原始模式。 如果您想要允許任何來源，請將此欄位留空。
+
+   此欄位接受以下模式：
+
+   * 確切的主機名稱： `app.example.com`
+   * 萬用字元子網域： `*.example.com`
+   * 符合配置資格：` https://app.example.com`或`https://*.example.com`
+1. 如果您要驗證傳入的資料，請在&#x200B;**資料結構**&#x200B;欄位中，選取或新增您要使用的資料結構。
+
+   如需資料結構的詳細資訊，請參閱[資料結構](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)。
+1. 在&#x200B;**授權型別**&#x200B;欄位中，選取&#x200B;**[!UICONTROL HMAC簽章]**。
+1. 在&#x200B;**key**&#x200B;欄位中，選取要用於授權的簽章，或按一下&#x200B;**新增**&#x200B;並輸入新認證，以新增簽章。
+   1. 輸入新認證金鑰的名稱。
+   1. 在&#x200B;**簽署密碼**&#x200B;欄位中，輸入您要使用的共用密碼。 使用欄位旁的眼睛圖示，在輸入時顯示或隱藏欄位。
+   1. 在&#x200B;**演演算法**&#x200B;欄位中，選取要使用的雜湊演演算法，例如SHA-256。
+   1. 在&#x200B;**簽章標頭**&#x200B;欄位中，輸入從中讀取簽章的標頭名稱，例如`x-fusion-signature-256`。
+   1. 在&#x200B;**簽章編碼**&#x200B;欄位中，選取簽章值的編碼，例如十六進位。
+   1. （選擇性）在&#x200B;**簽章前置詞**&#x200B;欄位中，如果簽章值必須加上前置詞，請輸入前置詞，例如`sha256=`。
+   1. 按一下&#x200B;**建立金鑰**。
+   1. 返回webhook面板，在&#x200B;**認證**&#x200B;欄位中選取新金鑰。
 1. 視需要啟用其他設定。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**
 
@@ -195,22 +278,22 @@ Adobe Identity Management系統(IMS)驗證會使用您組織的Adobe IMS憑證�
     <tbody> 
      <tr> 
       <td role="rowheader"><p>[!UICONTROL URL] </p></td> 
-      <td>輸入webhook的URL。 您可以在用來設定webhook的[!UICONTROL Webhooks]模組中找到此URL。</td> 
+      <td>輸入webhook的URL。 您可以在用來設定webhook的[！UICONTROL Webhooks]模組中找到此URL。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 方法] </td> 
-      <td><p>[!UICONTROL POST]</p></td> 
+      <td><p>[！UICONTROL POST]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 主體型別]</td> 
-      <td><p> [!UICONTROL Raw]</p></td> 
+      <td role="rowheader">[！UICONTROL主體型別]</td> 
+      <td><p> [！UICONTROL Raw]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 內容型別]</td> 
+      <td role="rowheader">[！UICONTROL內容型別]</td> 
       <td><p> JSON (application/json)</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 要求內容]</td> 
+      <td role="rowheader">[！UICONTROL要求內容]</td> 
       <td><p>webhook中需要原始JSON</p></td> 
      </tr> 
     </tbody> 
@@ -389,27 +472,27 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >設定[!UICONTROL Webhook回應]模組，如下所示：
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL 狀態] </td> 
->&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL 正文] </td> 
->&gt;   <td> <p>HTML程式碼</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>[!UICONTROL 自訂標頭]</p> </td> 
->&gt;   <td> 
->&gt;    <ul> 
->&gt;     <li><strong>索引鍵</strong>： Content-type</li> 
->&gt;     <li><strong>值</strong>： text/html</li> 
->&gt;    </ul> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[！UICONTROL狀態] </td> 
+&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[!UICONTROL 正文] </td> 
+&gt;   <td> <p>HTML程式碼</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>[！UICONTROL自訂標頭]</p> </td> 
+&gt;   <td> 
+&gt;    <ul> 
+&gt;     <li><strong>索引鍵</strong>： Content-type</li> 
+&gt;     <li><strong>值</strong>： text/html</li> 
+&gt;    </ul> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
 >
 >![自訂標頭](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
@@ -424,23 +507,23 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >**範例：**&#x200B;設定[!UICONTROL Webhook回應]模組，如下所示：
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL 狀態] </td> 
->&gt;   <td> <p>3xx重新導向HTTP狀態代碼，例如303</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>[!UICONTROL 自訂標頭]</p> </td> 
->&gt;   <td> 
->&gt;    <ul> 
->&gt;     <li><strong>[!UICONTROL 索引鍵]</strong>：位置</li> 
->&gt;     <li><strong>[!UICONTROL 值]</strong>：您要重新導向的URL。</li> 
->&gt;    </ul> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[！UICONTROL狀態] </td> 
+&gt;   <td> <p>3xx重新導向HTTP狀態代碼，例如303</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>[！UICONTROL自訂標頭]</p> </td> 
+&gt;   <td> 
+&gt;    <ul> 
+&gt;     <li><strong>[！UICONTROL索引鍵]</strong>：位置</li> 
+&gt;     <li><strong>[！UICONTROL值]</strong>：您要重新導向的URL。</li> 
+&gt;    </ul> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
 >
 >![Webhook回應](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 

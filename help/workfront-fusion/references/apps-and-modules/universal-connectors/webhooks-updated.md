@@ -5,8 +5,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
 TQID: https://experienceleague.adobe.com/VuJQ4w3kfMUJ4H-m1PdN-F8242KOJRPz1holJRxSE0Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 49e408630449952f67d3530f03b7a8755e0e6f6a
 workflow-type: tm+mt
 source-wordcount: 3236
@@ -54,7 +56,7 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -278,22 +280,22 @@ HMAC簽名驗證會驗證傳入的請求是否使用共用的簽署密碼簽署�
     <tbody> 
      <tr> 
       <td role="rowheader"><p>[!UICONTROL URL] </p></td> 
-      <td>輸入webhook的URL。 您可以在用來設定webhook的[！UICONTROL Webhooks]模組中找到此URL。</td> 
+      <td>輸入webhook的URL。 您可以在用來設定webhook的[!UICONTROL Webhooks]模組中找到此URL。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 方法] </td> 
-      <td><p>[！UICONTROL POST]</p></td> 
+      <td><p>[!UICONTROL POST]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL主體型別]</td> 
-      <td><p> [！UICONTROL Raw]</p></td> 
+      <td role="rowheader">[!UICONTROL 主體型別]</td> 
+      <td><p> [!UICONTROL Raw]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL內容型別]</td> 
+      <td role="rowheader">[!UICONTROL 內容型別]</td> 
       <td><p> JSON (application/json)</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL要求內容]</td> 
+      <td role="rowheader">[!UICONTROL 要求內容]</td> 
       <td><p>webhook中需要原始JSON</p></td> 
      </tr> 
     </tbody> 
@@ -472,27 +474,27 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >設定[!UICONTROL Webhook回應]模組，如下所示：
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">[！UICONTROL狀態] </td> 
-&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">[!UICONTROL 正文] </td> 
-&gt;   <td> <p>HTML程式碼</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>[！UICONTROL自訂標頭]</p> </td> 
-&gt;   <td> 
-&gt;    <ul> 
-&gt;     <li><strong>索引鍵</strong>： Content-type</li> 
-&gt;     <li><strong>值</strong>： text/html</li> 
-&gt;    </ul> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">[!UICONTROL 狀態] </td> 
+>&gt;   <td> <p>2xx成功HTTP狀態代碼，例如200</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">[!UICONTROL 正文] </td> 
+>&gt;   <td> <p>HTML程式碼</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>[!UICONTROL 自訂標頭]</p> </td> 
+>&gt;   <td> 
+>&gt;    <ul> 
+>&gt;     <li><strong>索引鍵</strong>： Content-type</li> 
+>&gt;     <li><strong>值</strong>： text/html</li> 
+>&gt;    </ul> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
 >
 >![自訂標頭](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
@@ -507,23 +509,23 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 >**範例：**&#x200B;設定[!UICONTROL Webhook回應]模組，如下所示：
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">[！UICONTROL狀態] </td> 
-&gt;   <td> <p>3xx重新導向HTTP狀態代碼，例如303</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>[！UICONTROL自訂標頭]</p> </td> 
-&gt;   <td> 
-&gt;    <ul> 
-&gt;     <li><strong>[！UICONTROL索引鍵]</strong>：位置</li> 
-&gt;     <li><strong>[！UICONTROL值]</strong>：您要重新導向的URL。</li> 
-&gt;    </ul> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">[!UICONTROL 狀態] </td> 
+>&gt;   <td> <p>3xx重新導向HTTP狀態代碼，例如303</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>[!UICONTROL 自訂標頭]</p> </td> 
+>&gt;   <td> 
+>&gt;    <ul> 
+>&gt;     <li><strong>[!UICONTROL 索引鍵]</strong>：位置</li> 
+>&gt;     <li><strong>[!UICONTROL 值]</strong>：您要重新導向的URL。</li> 
+>&gt;    </ul> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
 >
 >![Webhook回應](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 

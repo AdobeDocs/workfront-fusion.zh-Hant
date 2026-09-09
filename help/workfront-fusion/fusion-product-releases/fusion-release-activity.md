@@ -14,9 +14,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: f2b7b40ff08b50b45f9b0e7aea9734320b1860c1
+source-git-commit: 3df43d17c2e6ecd9625e67f4aa75eea8c8b4eecc
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: 1598
 ht-degree: 85%
 
 ---
@@ -27,14 +27,18 @@ Adobe Workfront Fusion 能順暢連接您的應用程式和網頁服務，讓您
 
 ## 2026 年的 Fusion 發行版本
 
-### 2026年8月
+### 2026年9月
+
+* [Workfront Fusion發行活動： 2026年9月7日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-9-7.md)
+
+### 2026 年 8 月
 
 * [Workfront Fusion發行活動： 2026年8月31日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-31.md)
 * [Workfront Fusion發行活動： 2026年8月24日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-24.md)
 * [Workfront Fusion發行活動：2026年8月17日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-17.md)
 * [Workfront Fusion發行活動： 2026年8月10日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-8-10.md)
 
-### 2026年7月
+### 2026 年 7 月
 
 * [Workfront Fusion發行活動： 2026年7月27日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-7-27.md)
 * [Workfront Fusion發行活動： 2026年7月20日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-7-20.md)

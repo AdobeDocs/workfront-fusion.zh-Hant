@@ -8,10 +8,10 @@ exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
 TQID: https://experienceleague.adobe.com/3EtKXHUMeJ7FL9pEJpYVpT59fvnlyeC1BMpMK2KGD6M
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 7c16e9411b334d32e63b88b18f538f69e494b360
+source-git-commit: 5c5f46e2ec05d6f3e1fdde8d13fb1e38d2a99690
 workflow-type: tm+mt
-source-wordcount: 1366
-ht-degree: 7%
+source-wordcount: 1389
+ht-degree: 6%
 
 ---
 
@@ -65,6 +65,8 @@ ht-degree: 7%
 ### 說明
 
 您可以在此輸入情境的說明，此說明將顯示在「情境」清單中。 說明上限為240個字元。
+
+按一下&#x200B;**[!UICONTROL 使用AI描述]**，讓AI根據情境的模組和組態自動為您產生情境描述。
 
 ### [!UICONTROL 循序處理]
 

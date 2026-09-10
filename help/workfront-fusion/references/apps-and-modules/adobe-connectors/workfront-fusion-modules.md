@@ -3,12 +3,11 @@ title: Workfront Fusion模組
 description: 使用Workfront Fusion聯結器，您可以從情境中管理自己的Fusion組織，包括記錄、鉤點、情境和連線。
 author: Becky
 feature: Workfront Fusion
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 557ec6de4ccf0753005fed3e4772d2eb9317537d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 7606f1b15aac0f2baef1b4ef16e3bcaa39dad27c
 workflow-type: tm+mt
-source-wordcount: 1374
-ht-degree: 21%
+source-wordcount: 1430
+ht-degree: 20%
 
 ---
 
@@ -45,7 +44,7 @@ ht-degree: 21%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -68,18 +67,18 @@ ht-degree: 21%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 用戶端 ID]</td> 
-      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td> 
+      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]詳細資訊區段中找到。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 用戶端密碼]</td> 
-      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td> 
+      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]詳細資訊區段中找到。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 組織ID]</td> 
+      <td role="rowheader">[！UICONTROL組織ID]</td> 
       <td>輸入您的[!DNL Adobe] IMS組織ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 區域]</td> 
+      <td role="rowheader">[！UICONTROL區域]</td> 
       <td>選取此連線的Fusion區域。</td> 
      </tr> 
     </tbody> 
@@ -276,6 +275,9 @@ ht-degree: 21%
 
 ### 匯出
 
+* [匯出活動記錄](#export-activity-logs)
+* [匯出案例](#export-scenarios)
+
 #### 匯出活動記錄
 
 此模組會匯出活動記錄。
@@ -311,6 +313,25 @@ ht-degree: 21%
   <tr> 
    <td role="rowheader">方向</td> 
    <td>選取您要以遞增或遞減方式排序結果。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 匯出案例
+
+此模組會匯出一或多個案例的Fusion Blueprint。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>如需有關將Workfront Fusion連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-fusion-to-workfront-fusion" class="MCXref xref">將Workfront Fusion連線到Workfront Fusion</a>。</p> </td> 
+  <tr> 
+   <td role="rowheader">案例ID</td> 
+   <td>針對您想要匯出的每個案例，按一下<b>新增專案</b>並輸入案例識別碼。</td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>

@@ -1,9 +1,9 @@
 ---
 name: fusion-release-notes
 description: 建立新的Workfront Fusion每週發行說明頁面，並將其連結至發行活動概觀頁面和目錄。 當使用者想要撰寫、新增或草擬新的Fusion版本注意事項或每週發行頁面，或要求為版本記錄新的Fusion功能時使用。 請勿在product-announcements/product-releases中使用Workfront (Quicksilver)發行說明 — 針對這些使用發行說明 — formatter。
-source-git-commit: 94492dbd382eee2f4e66e53d53a441ca82492bfb
+source-git-commit: 6610b43b1f313e29654acd8cfcd339240a718f5d
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -145,10 +145,11 @@ For more information, see [{Help article title}](/help/workfront-fusion/{path-to
 - 如果&#x200B;**是**，請收集：
   - **來源路徑** （必須以`/en`開頭，不含空格）
   - **目的地** — 以`/en`開頭的相對路徑，或完整的`https` URL （無空格）
-- 將資料列新增至同層級`Adobe-Enterprise-Docs/redirects`存放庫，在`redirects/`底下，每個環境(`redirects-dev.csv`、`redirects-stage.csv`、`redirects-prod.csv`)一個檔案。
+- 將資料列新增至同層級`Adobe-Enterprise-Docs/redirects`存放庫，新增至`redirects/redirects-prod.csv` **且沒有其他檔案**。 切勿將其新增至存放庫中的`redirects-dev.csv`、`redirects-stage.csv`或任何其他檔案 — prod是此技能唯一觸及的環境，分支應僅包含該檔案的變更。
 - 列規則（來自該存放庫的README）：
   - 沒有重複的`source`，也沒有重複的`source`/`destination`配對。
   - 重新導向不可造成重新導向回圈。
+- 在`redirects`存放庫的新分支上進行變更，名稱為`workfront-{month}-{day}-{year}-{topic}` （小寫，例如`workfront-sep-10-2026-aem-mcp-redirect`） — 永遠不要在那裡直接認可給`main`。
 - **此技能只會在使用者確認後新增CSV列。** 在`redirects`存放庫中提升PR是此技能沒有的個別步驟 — 告知使用者PR仍需要在重新導向上線之前開啟並合併（合併1:1重新導向後約5分鐘）。
 
 ## 步驟8：最終檢查清單

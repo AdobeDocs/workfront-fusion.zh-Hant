@@ -5,10 +5,10 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 557ec6de4ccf0753005fed3e4772d2eb9317537d
+source-git-commit: 7606f1b15aac0f2baef1b4ef16e3bcaa39dad27c
 workflow-type: tm+mt
-source-wordcount: 1374
-ht-degree: 21%
+source-wordcount: 1430
+ht-degree: 20%
 
 ---
 
@@ -276,6 +276,9 @@ ht-degree: 21%
 
 ### 匯出
 
+* [匯出活動記錄](#export-activity-logs)
+* [匯出案例](#export-scenarios)
+
 #### 匯出活動記錄
 
 此模組會匯出活動記錄。
@@ -311,6 +314,25 @@ ht-degree: 21%
   <tr> 
    <td role="rowheader">方向</td> 
    <td>選取您要以遞增或遞減方式排序結果。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 匯出案例
+
+此模組會匯出一或多個案例的Fusion Blueprint。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>如需有關將Workfront Fusion連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-fusion-to-workfront-fusion" class="MCXref xref">將Workfront Fusion連線到Workfront Fusion</a>。</p> </td> 
+  <tr> 
+   <td role="rowheader">案例ID</td> 
+   <td>針對您想要匯出的每個案例，按一下<b>新增專案</b>並輸入案例識別碼。</td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>

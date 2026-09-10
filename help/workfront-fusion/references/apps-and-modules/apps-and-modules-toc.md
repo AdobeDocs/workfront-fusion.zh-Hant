@@ -11,10 +11,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 57887f779ac8dcae346056764d39d116a300cbf3
+source-git-commit: 06271bbe8dd3c5eb7e3c6b45b71e7e0f7fd4d444
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 93%
+source-wordcount: 523
+ht-degree: 92%
 
 ---
 
@@ -51,6 +51,7 @@ Fusion 為許多 Adobe 產品和服務提供連接器。
 * [Adobe Creative Cloud Libraries 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/creative-cloud-libraries-modules.md)
 * [Adobe Experience Manager Assets 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
 * [Adobe Experience Manager Forms 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
+* [Adobe Experience Manager MCP模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-mcp-modules.md)
 * [Adobe Express模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-express-modules.md)
 * [Adobe Firefly音訊與視訊模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-audio-video.md)
 * [Adobe Firefly 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
@@ -159,3 +160,4 @@ Fusion 為許多第三方應用程式提供連接器。
 * [文字剖析器模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md)
 * [工具模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/tools-modules.md)
 * [XML 模組](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/xml-modules.md)
+

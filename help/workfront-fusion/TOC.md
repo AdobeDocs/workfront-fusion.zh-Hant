@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 3df43d17c2e6ecd9625e67f4aa75eea8c8b4eecc
+source-git-commit: cf0fb30b7cf399846a5eb7a859589d12d685f078
 workflow-type: tm+mt
-source-wordcount: '2664'
+source-wordcount: '2669'
 ht-degree: 49%
 
 ---
@@ -399,6 +399,7 @@ ht-degree: 49%
       * [Adobe Creative Cloud Libraries 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/creative-cloud-libraries-modules.md)
       * [Adobe Experience Manager Assets 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
       * [Adobe Experience Manager Forms 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
+      * [Adobe Experience Manager MCP模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-mcp-modules.md)
       * [Adobe Express模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-express-modules.md)
       * [Adobe Firefly音訊與視訊模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-audio-video.md)
       * [Adobe Firefly 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)

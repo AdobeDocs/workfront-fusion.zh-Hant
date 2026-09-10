@@ -3,9 +3,8 @@ title: Adobe Experience Manager MCP模組
 description: 透過Adobe Experience Manager MCP模組，您可以傳送純英文提示給Adobe Experience Manager的MCP伺服器，讓AI模型執行要求。
 author: Becky
 feature: Workfront Fusion
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 4c23409465b4be9fd10ff6938a750bc662ba2fe4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+source-git-commit: 06271bbe8dd3c5eb7e3c6b45b71e7e0f7fd4d444
 workflow-type: tm+mt
 source-wordcount: 1020
 ht-degree: 11%
@@ -56,7 +55,7 @@ Adobe Experience Manager MCP聯結器是Adobe Experience Manager自己的模型�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -136,3 +135,4 @@ Adobe Experience Manager MCP聯結器使用OAuth連線至Adobe Experience Manage
 </table>
 
 模組會以文字形式傳回AI的最終答案，連同產生該答案時發生的記錄，包括呼叫了哪些工具、每次呼叫是否成功以及處理耗時多長。
+

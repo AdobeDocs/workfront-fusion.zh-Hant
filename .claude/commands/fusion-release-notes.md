@@ -1,9 +1,9 @@
 ---
 name: fusion-release-notes
 description: 建立新的Workfront Fusion每週發行說明頁面，並將其連結至發行活動概觀頁面和目錄。 當使用者想要撰寫、新增或草擬新的Fusion版本注意事項或每週發行頁面，或要求為版本記錄新的Fusion功能時使用。 請勿在product-announcements/product-releases中使用Workfront (Quicksilver)發行說明 — 針對這些使用發行說明 — formatter。
-source-git-commit: 94492dbd382eee2f4e66e53d53a441ca82492bfb
+source-git-commit: fcdbfd246808c5cc7a81c4f01990a077ca189112
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ This page describes all enhancements made in Adobe Workfront Fusion the week of 
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
 
-For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates) page and check for any updates labeled Workfront Fusion Maintenance Update.
+For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) page and check for any updates labeled Workfront Fusion Maintenance Update.
 
 ## {Feature title}
 
@@ -98,7 +98,6 @@ For more information, see [{Help article title}](/help/workfront-fusion/{path-to
   
   {Regular description paragraph(s).}
   ```
-
 - 每個功能都應以「如需詳細資訊，請參閱[...]」結尾 相關說明文章的連結。 確認存放庫中存在連結目標。
 
 ## 步驟4：將頁面新增至綜覽索引
@@ -113,7 +112,6 @@ For more information, see [{Help article title}](/help/workfront-fusion/{path-to
   ```markdown
   * [Workfront Fusion release activity: Week of {Month} {Day}, {Year}](/help/workfront-fusion/fusion-product-releases/fusion-releases-{YYYY}/fusion-{YYYY}-{M}-{D}.md)
   ```
-
 - 如果這是新年的第一版，請在前一年標題上方新增新的`## Fusion releases in {YYYY}`標題，並在`+++ **Click to open**` / `+++`可摺疊區塊中包裝&#x200B;*previous*&#x200B;年的區段（如果尚未包裝） （僅目前年份保持展開）。
 
 ## 步驟5：將頁面新增至目錄
@@ -126,7 +124,6 @@ For more information, see [{Help article title}](/help/workfront-fusion/{path-to
   ```markdown
         * [Workfront Fusion release activity: Week of {Month} {Day}, {Year}](/help/workfront-fusion/fusion-product-releases/fusion-releases-{YYYY}/fusion-{YYYY}-{M}-{D}.md)
   ```
-
 - 如果目前年份的標題尚不存在，請在前一年標題上方新增`* Fusion releases - {YYYY} {#fusion-releases-{YYYY}}`。
 - **不要**&#x200B;新增`{hide-from-toc}`首碼至新專案 — 僅用於較舊的專案一旦超過可見導覽的期限（請參閱下列已知的不一致性）。
 
@@ -145,7 +142,7 @@ For more information, see [{Help article title}](/help/workfront-fusion/{path-to
 - 如果&#x200B;**是**，請收集：
   - **來源路徑** （必須以`/en`開頭，不含空格）
   - **目的地** — 以`/en`開頭的相對路徑，或完整的`https` URL （無空格）
-- 將資料列新增至同層級`Adobe-Enterprise-Docs/redirects`存放庫，在`redirects/`底下，每個環境(`redirects-dev.csv`、`redirects-stage.csv`、`redirects-prod.csv`)一個檔案。
+- 將資料列新增至同層級`Adobe-Enterprise-Docs/redirects`存放庫，位於`redirects/redirects-prod.csv` **only**&#x200B;下。 切勿將其新增至`redirects-dev.csv`或`redirects-stage.csv` — prod是此技能接觸的唯一環境。
 - 列規則（來自該存放庫的README）：
   - 沒有重複的`source`，也沒有重複的`source`/`destination`配對。
   - 重新導向不可造成重新導向回圈。

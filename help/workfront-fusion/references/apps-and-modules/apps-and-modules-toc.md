@@ -7,14 +7,12 @@ feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
 TQID: https://experienceleague.adobe.com/fz3CilAsruX0-J7Sm7Z21e7zGRBKdoqxREbC8I9YkNo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 57887f779ac8dcae346056764d39d116a300cbf3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: be970139d0911dfbaa01efd26438158656167c49
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 93%
+source-wordcount: 523
+ht-degree: 92%
 
 ---
 
@@ -51,6 +49,7 @@ Fusion 為許多 Adobe 產品和服務提供連接器。
 * [Adobe Creative Cloud Libraries 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/creative-cloud-libraries-modules.md)
 * [Adobe Experience Manager Assets 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
 * [Adobe Experience Manager Forms 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
+* [Adobe Experience Manager MCP模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-mcp-modules.md)
 * [Adobe Express模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-express-modules.md)
 * [Adobe Firefly音訊與視訊模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-audio-video.md)
 * [Adobe Firefly 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)

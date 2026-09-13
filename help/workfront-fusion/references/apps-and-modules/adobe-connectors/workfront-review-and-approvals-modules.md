@@ -4,16 +4,13 @@ description: 使用Adobe Workfront內容和核准模組，您可以取得核准�
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: edf962333554869d75f0956dfceccce04dd36ec6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: bb6db3153c3c85ef1df1a0d49d127c3e712dbc3c
 workflow-type: tm+mt
-source-wordcount: 3743
-ht-degree: 15%
+source-wordcount: 3631
+ht-degree: 16%
 
 ---
 
@@ -21,7 +18,7 @@ ht-degree: 15%
 
 使用Adobe Workfront整合式檢閱和核准模組，您可以取得核准詳細資訊、對資產做出決定、新增或刪除核准參與者、新增或更新核准階段、鎖定或解鎖階段，以及進行自訂API呼叫。
 
-如需Workfront統一檢閱和核准的相關資訊，請參閱Workfront檔案中的[統一檢閱和核准總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/document-approvals-overview)。
+如需Workfront統一檢閱和核准的相關資訊，請參閱Workfront檔案中的[統一檢閱和核准總覽](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-approvals-overview)。
 
 ## 存取權要求
 
@@ -48,7 +45,7 @@ ht-degree: 15%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -135,7 +132,6 @@ ht-degree: 15%
 * [新增或更新參與者](#add-or-update-participants)
 * [大量刪除範本](#bulk-delete-templates)
 * [建立範本](#create-a-template)
-* [建立核准](#create-an-approval)
 * [建立階段](#create-stages)
 * [刪除階段上的決定](#delete-a-decision-on-a-stage)
 * [刪除階段](#delete-a-stage)
@@ -237,35 +233,6 @@ ht-degree: 15%
     <tr>
       <td role="rowheader"><p>共用對象</p></td>
       <td>對於您想要與其共用範本的每個使用者，按一下<b>新增專案</b>和使用者ID和所需的存取層級。</td> 
-      </tr>
-  </tbody>
-</table>
-
-#### 建立核准
-
-此動作模組會為Adobe雲端儲存空間上的檔案建立核准，包括階段資料或範本。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">連線</td>
-      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
-    </tr>
-     <tr>
-      <td role="rowheader"><p>文件 ID</p></td>
-      <td>輸入或對應您要建立核准之資產的ID。</td> 
-      </tr>
-     <tr>
-      <td role="rowheader">
-        <p>階段</p>
-      </td>
-      <td>針對您要新增的每個階段，按一下<b>新增專案</b>並輸入階段資料。<p>如需詳細資訊，請參閱本文中的<a href="#stages-fields" class="MCXref xref" >階段欄位</a>。 </p> </td> 
-      </tr>
-    <tr>
-      <td role="rowheader"><p>範本 ID</p></td>
-      <td>輸入或對應您要用於此核准的範本ID。</td> 
       </tr>
   </tbody>
 </table>

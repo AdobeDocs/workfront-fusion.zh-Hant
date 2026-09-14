@@ -7,13 +7,12 @@ exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
 TQID: https://experienceleague.adobe.com/TARMza99lJaSq6kUUr3xxMf0ExtoQBNk6L-KzzEEL8U
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: c9c182d6c6acc34295970f9138067a6cb6c2ba2a
+    internal-label: Workfront
+source-git-commit: e9450b468ff8df80286ebd8a0c1aa4070b6cb01b
 workflow-type: tm+mt
-source-wordcount: 1360
-ht-degree: 76%
-
+source-wordcount: '1445'
+ht-degree: 72%
 ---
-
 # Fusion 效能護欄
 
 工作自動化需具備快速處理的能力，於是為了達成高效能而設計出 Adobe Workfront Fusion。 由於長時間執行的情境可能會拖累您的工作速度，因此我們設計出 Workfront Fusion 並具備保持效能的護欄，能夠限制執行時間、資料大小和其他情境參數。 Workfront Fusion 設計師應該了解這些護欄，並將這些護欄納入其設計實踐中。
@@ -32,13 +31,13 @@ ht-degree: 76%
   >
   > 雖然鏈結可讓工作流程執行超過40分鐘，這應視為設計風險訊號，而不是支援的因應措施。 跨多個長期執行子案例的父案例沒有整體逾時界限。 如果子案例掛起或遇到平台問題，父案例會無限期等待，且沒有錯誤，也不會自動復原。
   >
-  > 如果您的情境設計需要鏈結以避免40分鐘的限制，請在部署到生產環境之前檢視您的架構。 如需設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
+  > 如果您的情境設計需要鏈結以避免40分鐘的限制，請在部署到生產環境之前檢視您的架構。 如需設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
 * 情境藍圖的大小上限為 **5 MB**，但建議您將情境大小維持在 **3 MB** 以下。
 
   使用大量欄位建立或更新資料的應用程式模組，可能會產生非常大的藍圖。
 
-   * 使用 Workfront 應用程式時，請務必僅選取建立或更新使用案例所需的欄位。
-   * 使用其他應用程式時，請使用自訂 API 模組與任何具有大量欄位的記錄類型互動。
+  * 使用 Workfront 應用程式時，請務必僅選取建立或更新使用案例所需的欄位。
+  * 使用其他應用程式時，請使用自訂 API 模組與任何具有大量欄位的記錄類型互動。
 
 * 雖然情境中的模組數量沒有上限，但超過 150 個模組的情境會對您的 Workfront Fusion 系統效能產生負面影響。 因此，我們不建議建立包含超過 150 個模組的情境。
 * 案例名稱不能超過120個字元。
@@ -79,10 +78,14 @@ ht-degree: 76%
 * 承載的預設大小上限為 **5 MB**。
 * Webhook 限制為&#x200B;**每秒 100 個請求**。 達到此限制時，Workfront Fusion 會傳送 429 ([!UICONTROL 請求數量過多]) 狀態。
 * Workfront Fusion 會儲存 Webhook 承載長達 30 天。 在收到 Webhook 承載超過 30 天後存取承載，會導致「[!UICONTROL 無法讀取儲存空間中的檔案]」錯誤。
+* webhook的佇列最多可容納&#x200B;**100,000**&#x200B;個佇列事件。 當使用webhook的情境關閉或設定為按排程執行而非立即執行時，佇列會填滿。 當佇列達到100,000個事件時，新事件會遭拒，並產生「佇列已滿」錯誤和400狀態碼。
+
+  針對Workfront和Planning事件，如果佇列在較長時間內保持已滿狀態，事件訂閱會停用，然後凍結，而Workfront Fusion會停止接收該訂閱的事件。
+
 * 若符合下列任一條件，Webhook 便會自動停用：
 
-   * Webhook 已超過 5 天未連接至任何情境
-   * 僅在非使用中的情境中使用 Webhook，而非使用中狀態已經超過 30 天。
+  * Webhook 已超過 5 天未連接至任何情境
+  * 僅在非使用中的情境中使用 Webhook，而非使用中狀態已經超過 30 天。
 
 * 如果停用的 Webhook 未連接任何情境，且處於停用狀態已超過 30 天，則會自動刪除和取消註冊。
 * Webhook 回應的逾時限制為 5 分鐘。

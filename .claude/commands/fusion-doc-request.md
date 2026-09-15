@@ -1,13 +1,11 @@
 ---
 name: fusion-doc-request
-description: 處理#fusion-documentation Slack範本中的Fusion檔案請求 — 更新此存放庫中的相關Fusion檔案文章，然後在產品檔案Workfront專案中建立相符的工作，並在自訂表單中填入功能說明和格式化發行說明。 當使用者共用Fusion功能的Slack檔案請求對話串/訊息，或針對一個功能說「請更新並建立任務」之類的話時使用。
-source-git-commit: ac9a22b254b591ccf55270df62a85d158bb03697
+description: 處理來自的Fusion檔案請求 #fusion-documentation Slack template - update the relevant Fusion docs article(s) in this repo, then create a matching task in the Product Documentation Workfront project with the feature description and a formatted release note filled in on the custom form. Use when the user shares a Slack documentation-request thread/message for a Fusion feature, or says something like "please update and create a task" for one.
+source-git-commit: faa0716f7e0a8ce496f8f65085de32288a4b6066
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1454'
 ht-degree: 0%
-
 ---
-
 
 # Fusion檔案要求
 
@@ -25,11 +23,11 @@ ht-degree: 0%
 
 請求範本有下列欄位 — 擷取每個欄位：
 
-&#x200B;* **功能標題**
-&#x200B;* **說明**
-&#x200B;* **要新增至檔案的點** *（有時顯示 — 要求者要涵蓋的特定區段/詳細資訊；視這些為必要，若有提供則為選用）*
-&#x200B;* **預計發行日期**
-&#x200B;* **需要宣告** *(是/否 — 僅供參考；請參閱上面的備註。 不要在此欄位上動作。)*
+* **功能標題**
+* **說明**
+* **要新增至檔案的點** *（有時顯示 — 要求者要涵蓋的特定區段/詳細資訊；視這些為必要，若有提供則為選用）*
+* **預計發行日期**
+* **需要宣告** *(是/否 — 僅供參考；請參閱上面的備註。 不要在此欄位上動作。)*
 
 如果要求連結至具有完整規格的Confluence Wiki頁面，請先擷取該頁面(`get_wiki_content`)，然後再撰寫檔案。 請勿僅仰賴Slack摘要來取得技術細節（確切的欄位名稱、步驟、UI標籤），請在連結時從Wiki規格提取這些內容。
 
@@ -43,16 +41,19 @@ ht-degree: 0%
 
 如果工作樹狀結構不乾淨（來自不相關工作的未認可變更），請停止並告訴使用者，而不是將其分支。
 
+此技能會建立並認可分支，但不會推送分支或開啟提取請求，除非使用者另外要求您，否則請將其留給使用者。
+
 ## 步驟3：更新檔案
 
 在此存放庫中尋找相關的現有文章（相關模組名稱、UI標籤或設定名稱的問候 — 請勿猜測檔案）。 依照該文章的現有結構、標題層級和房屋樣式，更新它們以反映變更。
 
-&#x200B;* 請勿發明不在Slack要求或連結Wiki規格中的技術細節（確切欄位名稱、許可權範圍、設定步驟）。 如果某專案未確認，請將其內嵌標示為HTML註解（例如`<!-- BECKY CHECK ME: confirm the exact permission scope before publishing -->`），而非猜測 — 不要將它標示為可見的圖說文字。 它不得在已發佈的頁面上呈現。
-&#x200B;* 如果這需要全新的文章檔案（不僅是對現有文章檔案的編輯），請遵循此存放庫的現有慣例：前端內容中沒有偽造的`exl-id`/`TQID`，並在建立檔案後將其轉換為CRLF/no-BOM （`Write`工具預設為LF）。
-&#x200B;* 將新頁面連線到「目錄」中意指兩者兼而有之，而不僅僅一個 — 頁面可以從子索引連結，同時讀者仍然看不到：
+* 請勿發明不在Slack要求或連結Wiki規格中的技術細節（確切欄位名稱、許可權範圍、設定步驟）。 如果某專案未確認，請將其內嵌標示為HTML註解（例如`<!-- BECKY CHECK ME: confirm the exact permission scope before publishing -->`），而非猜測 — 不要將它標示為可見的圖說文字。 它不得在已發佈的頁面上呈現。
+* 如果這需要全新的文章檔案（不僅是對現有文章檔案的編輯），請遵循此存放庫的現有慣例：前端內容中沒有偽造的`exl-id`/`TQID`，並在建立檔案後將其轉換為CRLF/no-BOM （`Write`工具預設為LF）。
+* 將新頁面連線到「目錄」中意指兩者兼而有之，而不僅僅一個 — 頁面可以從子索引連結，同時讀者仍然看不到：
   - 產品區域的主要導覽檔案（例如`help/workfront-fusion/TOC.md`） — 這是實際驅動已發佈導覽樹狀結構的專案。
   - 任何內容中的子索引/登陸頁面也會連結至此類文章（例如，新聯結器模組頁面的`apps-and-modules-toc.md`）。
     明確檢查兩者，並確認新專案位於相同的清單中、位於相同的巢狀層級，因為其最接近的同層級文章位於每個檔案中 — 請勿假設將其新增至一個會遮蓋另一個專案。
+* 讓分支上的檔案變更保持未認可。 請勿在此技能中執行`git commit` （或`git add`） — 使用者在檢閱變更後，在準備就緒後進行認可。 只有當使用者明確要求您時，才提交。
 
 ## 步驟4：建立Workfront工作
 
@@ -78,6 +79,11 @@ ht-degree: 0%
 
 新任務預設為持續時間為0的「儘快」限制，其中`plannedStartDate`/`plannedCompletionDate`為排程器衍生，對其中一個的直接寫入會無訊息捨棄（沒有錯誤，日期不會變更）。 以`constraintDate`設定`taskConstraint: "MFO"`是將計畫完成日期釘選到Slack訊息中所引用日期的可靠方式。 在此寫入之前讀取`workfront://knowledge/task/update` — 它是根據MCP伺服器的規則排程/日期欄位。
 
+`description`欄位有4000個字元的硬性限制。 如果完整的Slack訊息文字不符：
+
+1. 首先改用簡短的`description`建立任務：功能標題、預計發行日期、需求公告、請求的一行摘要、指出完整請求文字已發佈為任務上的第一個註解的備註，以及Slack對話串連結。
+1. 接著，透過`comment-stream_create_comment` （`objectCode` `task`，`objectID`新任務的ID），將完整、逐字的Slack訊息文字（所有範本欄位，而非轉譯）張貼為新建立之任務的註解 — 此工具沒有可比較的長度限制。 同時包含`content` （純文字）和`contentHTML` （以標題/清單建構，而不只是空的`<p>`標籤）。
+
 `DE:Release notes`欄位的發行說明格式。 一律從`***FUSION***`開始於自己的行，然後是空白行，然後是標題 — 這會一目瞭然地將附註標籤為屬於Fusion （與核心Workfront相反）：
 
 ```markdown
@@ -96,17 +102,18 @@ For more information, see [{Article title}](/help/workfront-fusion/{path-to-arti
 
 簡單報告：
 
-&#x200B;* 您建立的分支。
-&#x200B;* 您變更了哪些doc檔案以及新增了哪些內容。
-&#x200B;* 工作名稱和URL。
-&#x200B;* 您設定的確切欄位值，包括預覽日期欄位。
-&#x200B;* 您未完全放心的任何事情 — 例如Slack無法連線，而您只使用貼上的文字，目標檔案文章模稜兩可，或技術細節不在原始資料中，並被標籤而非猜測。
+* 您建立的分支（在本機認可、未推送，且未開啟提取請求 — 根據步驟2）。
+* 您變更了哪些doc檔案以及新增了哪些內容。
+* 分支上的變更未認可，正在等待使用者的檢閱。
+* 工作名稱和URL。
+* 您設定的確切欄位值，包括預覽日期欄位。
+* 您未完全放心的任何事情 — 例如Slack無法連線，而您只使用貼上的文字，目標檔案文章模稜兩可，或技術細節不在原始資料中，並被標籤而非猜測。
 
 ## 已知值（來自先前執行）
 
 確認這些仍會解決，而不是假設它們是永久性的：
 
-&#x200B;* 專案「產品檔案任務 — 適用於需要傳訊的開發問題」對應至ID `5e69583f00236b9f767c3e3944100ee4`
-&#x200B;* 父系任務「Becky - Fusion-Documentation頻道中的任務」對應到ID `6a9b065100003a7554832780c2015e93` （在相同專案中） — 使用`insights_find_id_by_name` （實體`task`）解析，而不是硬式編碼，以防它變更
-&#x200B;* 產品檔案自訂表單(`categoryID`)為`5d7275b9000514604bd969d418725843`
-&#x200B;* 使用的自訂欄位： `DE:Release notes`、`DE:Preview Date Known`、`DE:Preview Date`
+* 專案「產品檔案任務 — 適用於需要傳訊的開發問題」對應至ID `5e69583f00236b9f767c3e3944100ee4`
+* 父系任務「Becky - Fusion-Documentation頻道中的任務」對應到ID `6a9b065100003a7554832780c2015e93` （在相同專案中） — 使用`insights_find_id_by_name` （實體`task`）解析，而不是硬式編碼，以防它變更
+* 產品檔案自訂表單(`categoryID`)為`5d7275b9000514604bd969d418725843`
+* 使用的自訂欄位： `DE:Release notes`、`DE:Preview Date Known`、`DE:Preview Date`

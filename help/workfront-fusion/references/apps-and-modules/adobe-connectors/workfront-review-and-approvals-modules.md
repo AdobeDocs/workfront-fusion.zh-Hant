@@ -6,17 +6,18 @@ feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bb6db3153c3c85ef1df1a0d49d127c3e712dbc3c
+    internal-label: Customer experience
+source-git-commit: 4f637dcb9d7865f73b41faa5b0acf397944bb559
 workflow-type: tm+mt
-source-wordcount: 3631
-ht-degree: 16%
-
+source-wordcount: '5202'
+ht-degree: 11%
 ---
-
 # Adobe Workfront整合式檢閱和核准模組
 
 使用Adobe Workfront整合式檢閱和核准模組，您可以取得核准詳細資訊、對資產做出決定、新增或刪除核准參與者、新增或更新核准階段、鎖定或解鎖階段，以及進行自訂API呼叫。
@@ -135,16 +136,14 @@ ht-degree: 16%
 * [新增或更新參與者](#add-or-update-participants)
 * [大量刪除範本](#bulk-delete-templates)
 * [建立範本](#create-a-template)
+* [建立群組核准](#create-grouped-approval)
 * [建立階段](#create-stages)
-* [刪除階段上的決定](#delete-a-decision-on-a-stage)
-* [刪除階段](#delete-a-stage)
-* [刪除範本](#delete-a-template)
-* [刪除核准](#delete-an-approval)
-* [刪除決定](#delete-decisions)
-* [刪除參與者](#delete-participants)
 * [鎖定階段](#lock-a-stage)
 * [做出決定](#make-a-decision)
 * [在階段上做出決定](#make-a-decision-on-a-stage)
+* [管理已分組核准的資產](#manage-assets-on-a-grouped-approval)
+* [管理階段參與者](#manage-stage-participants)
+* [管理群組核准的階段](#manage-stages-on-a-grouped-approval)
 * [提醒舞台上的參與者](#remind-a-participant-on-a-stage)
 * [提醒參與者](#remind-participant)
 * [提醒尚未決定的參與者](#remind-undecided-participants)
@@ -153,6 +152,7 @@ ht-degree: 16%
 * [更新階段](#update-a-stage)
 * [更新範本](#update-a-template)
 * [更新所有階段](#update-all-stages)
+* [更新分組的核准（完整狀態）](#update-grouped-approval-full-state)
 
 
 #### 新增或更新參與者
@@ -240,26 +240,66 @@ ht-degree: 16%
   </tbody>
 </table>
 
-<!--
+#### 建立群組核准
 
-#### Create Grouped Approval
-
-This action module creates a grouped approval.
+此動作模組會建立群組核准：一組檔案版本，它們會透過一或多個核准路徑一起移動，每個版本都有一系列與其自身參與者排序的階段。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>名稱</p></td>
+      <td>輸入或對應群組核准的顯示名稱。 名稱必須介於1到255個字元之間。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>資產</p></td>
+      <td>針對您想要加入群組的每個檔案版本，按一下<b>新增專案</b>並輸入檔案版本(DOCV) ID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>路徑</p></td>
+      <td>針對您要新增的每個核准路徑，按一下<b>新增專案</b>並輸入路徑ID、名稱和階段。 每個路徑都包含循序的階段順序。 對於每個階段，在「階段」欄位中，按一下<b>新增專案</b>並輸入下列資料：
+      <ul>
+      <li><b>階段ID</b><p>輸入階段的使用者端指派識別碼，在所有路徑中唯一。 必須為英數字元，允許使用底線或連字型大小，且不得超過64個字元。</p></li>
+      <li><b>階段名稱</b><p>輸入或對映舞台的名稱。</p></li>
+      <li><b>父級階段ID</b><p>針對您想要新增至階段的每個父階段，按一下<b>新增專案</b>並輸入父識別碼。</p></li>
+      <li><b>參與者</b><p>針對您想要新增至階段的每個參與者，按一下<b>新增專案</b>並輸入參與者詳細資料。
+      <ul>
+      <li><b>參與者ID</b><p>輸入或對應參與者的ID。</p></li>
+      <li><b>參與者型別</b><p>選取參與者是使用者還是團隊。</p></li>
+      <li><b>參與者角色</b><p>選取參與者是核准者還是稽核者。</p></li>
+      </ul>
+      </p></li>
+      <li><b>截止日期</b><p>如果截止日期是特定日期，請輸入或對應日期。</p></li>
+      <li><b>截止日期前的營業日</b><p>如果截止日期在特定業務天數之後，請輸入或對映天數。</p></li>
+      <li><b>截止時間：小時</b><p>輸入或對應截止日期(0-23)的當天某小時。 與截止日期時間配對：分鐘。</p></li>
+      <li><b>截止時間：分鐘</b><p>輸入或對應截止日期(0-59)的小時小時數分鐘。 與截止日期時間配對：小時。</p></li>
+      <li><b>自訂訊息</b><p>輸入或對應階段的自訂訊息。</p></li>
+      </ul>
+      </td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>父物件ID</p></td>
+      <td>輸入或對應您想要與群組核准建立關聯的Workfront父系物件（例如專案或任務）ID。 如果您使用此欄位，也必須輸入「物件代碼」。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>物件程式碼</p></td>
+      <td>輸入或對應上層物件的Workfront物件型別代碼（例如，<code>PROJ</code>或<code>TASK</code>）。 如果您輸入父物件ID，則此為必要專案。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>範本 ID</p></td>
+      <td>（選擇性）輸入或對映範本ID，以記錄可追蹤性的群組核准。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
-
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Create Grouped Approval"), without field detail.
-
--->
 
 #### 建立階段
 
@@ -291,115 +331,12 @@ BECKY CHECK ME: confirm this module's field-level UI before publishing - the Sla
   </tbody>
 </table>
 
-#### 刪除階段上的決定
-
-此模組會從指定的階段移除目前使用者的決定。 目前的使用者是在此模組使用的連線中使用其認證的使用者。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">連線</td>
-      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
-    </tr>
-     <tr>
-      <td role="rowheader"><p>文件 ID</p></td>
-      <td>輸入或對應您要刪除其決定之檔案的ID。</td> 
-      </tr>
-     <tr>
-      <td role="rowheader"><p>階段ID</p></td>
-      <td>輸入或對應您要刪除的階段ID。</td> 
-      </tr>
-   </tbody>
-</table>
-
-
-#### 刪除階段
-
-此動作模組會從核准中刪除指定的階段。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">連線</td>
-      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
-    </tr>
-     <tr>
-      <td role="rowheader"><p>文件 ID</p></td>
-      <td>輸入或對應您要從中刪除階段的檔案ID。</td> 
-      </tr>
-     <tr>
-      <td role="rowheader"><p>階段ID</p></td>
-      <td>輸入或對應您要刪除的階段ID。</td> 
-      </tr>
-  </tbody>
-</table>
-
-#### 刪除範本
-
-此模組會刪除指定的核准範本。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">連線</td>
-      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
-    </tr>
-     <tr>
-      <td role="rowheader"><p>範本 ID</p></td>
-      <td>輸入或對應您要刪除之範本的ID。</td> 
-      </tr>
-  </tbody>
-</table>
-
-#### 刪除核准
-
-此動作模組會刪除指定檔案的核准。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">連線</td>
-      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
-    </tr>
-     <tr>
-      <td role="rowheader"><p>文件 ID</p></td>
-      <td>輸入或對應您要刪除核准的檔案ID。</td> 
-      </tr>
-  </tbody>
-</table>
-
-#### 刪除決定
-
-此模組會從指定的階段移除目前使用者的決定。 目前的使用者是在此模組使用的連線中使用其認證的使用者。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">連線</td>
-      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
-    </tr>
-     <tr>
-      <td role="rowheader"><p>文件 ID</p></td>
-      <td>輸入或對應您要刪除其決定之檔案的ID。</td> 
-      </tr>
-  </tbody>
-</table>
-
 <!--
+BECKY CHECK ME: The following block of Delete-prefixed Actions modules (Delete a decision on a stage, Delete a stage, Delete a template, Delete an approval, Delete decisions, Delete grouped approval, Delete participants) is not confirmed to be current in the live connector as of this update - status uncertain. Commented out for now; restore (and remove this comment) once confirmed, or delete for good if confirmed removed.
 
-#### Delete Grouped Approval
+#### Delete a decision on a stage
 
-This action module deletes the specified grouped approval.
+This module removes the current user's decision from the specified stage. The current user is the user whose credentials are used in the connection used in this module.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -409,43 +346,152 @@ This action module deletes the specified grouped approval.
       <td role="rowheader">Connection</td>
       <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
     </tr>
-  </tbody>
+     <tr>
+      <td role="rowheader"><p>Document ID</p></td>
+      <td>Enter or map the ID of the document that you want to delete a decision from.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>Stage ID</p></td>
+      <td>Enter or map the ID of the stage that you want to delete.</td> 
+      </tr>
+   </tbody>
 </table>
 
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Delete Grouped Approval"), without field detail.
 
--->
+#### Delete a stage
 
-#### 刪除參與者
-
-此動作模組會從核准中刪除參與者。
+This action module deletes the specified stage from the approval.
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">連線</td>
-      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
+      <td role="rowheader">Connection</td>
+      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
     </tr>
      <tr>
-      <td role="rowheader"><p>文件 ID</p></td>
-      <td>輸入或對應您要從中刪除參與者的資產ID。</td> 
+      <td role="rowheader"><p>Document ID</p></td>
+      <td>Enter or map the ID of the document that you want to delete a stage from.</td> 
       </tr>
      <tr>
-      <td role="rowheader">
-        <p>參與者型別</p>
-      </td>
-      <td>選取參與者是使用者還是團隊。</td> 
-      </tr>
-     <tr>
-      <td role="rowheader">
-        <p>參與者ID</p>
-      </td>
-      <td>輸入或對應參與者的ID。</td> 
+      <td role="rowheader"><p>Stage ID</p></td>
+      <td>Enter or map the ID of the stage that you want to delete.</td> 
       </tr>
   </tbody>
 </table>
+
+#### Delete a template
+
+This module deletes the specified approval template.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader"><p>Template ID</p></td>
+      <td>Enter or map the ID of the template that you want to delete.</td> 
+      </tr>
+  </tbody>
+</table>
+
+#### Delete an approval
+
+This action module deletes the approval for the given document.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader"><p>Document ID</p></td>
+      <td>Enter or map the ID of the document that you want to delete an approval from.</td> 
+      </tr>
+  </tbody>
+</table>
+
+#### Delete decisions
+
+This module removes the current user's decision from the specified stage. The current user is the user whose credentials are used in the connection used in this module.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader"><p>Document ID</p></td>
+      <td>Enter or map the ID of the document that you want to delete a decision from.</td> 
+      </tr>
+  </tbody>
+</table>
+
+#### Delete grouped approval
+
+This action module deletes a grouped approval, cascading to its child asset approvals and paths.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader"><p>Group GUID</p></td>
+      <td>Enter or map the GUID of the grouped approval that you want to delete.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>Limit</p></td>
+      <td>Enter or map the maximum number of results you want the module to work with during each scenario execution cycle.</td> 
+      </tr>
+  </tbody>
+</table>
+
+#### Delete participants
+
+This action module deletes participants from an approval.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader"><p>Document ID</p></td>
+      <td>Enter or map the ID of the asset that you want to delete participants from.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>Participant type</p>
+      </td>
+      <td>Select whether the participants is a user or a team.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>Participant ID</p>
+      </td>
+      <td>Enter or map the ID of the participant.</td> 
+      </tr>
+  </tbody>
+</table>
+-->
 
 #### 鎖定階段
 
@@ -528,68 +574,143 @@ BECKY CHECK ME: confirm this module's field-level UI before publishing - the Sla
   </tbody>
 </table>
 
-<!--
+#### 管理已分組核准的資產
 
-#### Manage Assets on a Grouped Approval
-
-This action module manages which assets are included in a grouped approval.
+此動作模組在群組核準時新增和/或移除檔案版本。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>群組核准ID</p></td>
+      <td>輸入或對應您要管理資產的群組核准的GUID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>新增Assets</p></td>
+      <td>針對您想要新增至群組的每個檔案版本，按一下<b>新增專案</b>並輸入檔案版本(DOCV) ID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>移除Assets</p></td>
+      <td>針對您想要從群組移除的每個檔案版本，按一下<b>新增專案</b>並輸入檔案版本(DOCV) ID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
 
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Manage Assets on a Grouped Approval"), without field detail.
+#### 管理階段參與者
 
--->
-
-<!--
-
-#### Manage Stage Participants
-
-This action module manages participants on a stage.
+此動作模組在群組核准的特定階段新增、更新和/或移除參與者。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>群組核准ID</p></td>
+      <td>輸入或對應群組核准的GUID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>階段ID</p></td>
+      <td>輸入或對應您要管理參與者的階段ID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>新增參與者</p></td>
+      <td>針對您想要新增至階段的每個參與者，按一下<b>新增專案</b>並輸入下列詳細資料：
+      <ul>
+      <li><b>參與者型別</b><p>選取參與者是使用者還是團隊。</p></li>
+      <li><b>參與者</b><p>輸入或對應參與者的ID。</p></li>
+      <li><b>角色</b><p>選取參與者是核准者還是稽核者。</p></li>
+      </ul>
+      </td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>更新參與者</p></td>
+      <td>對於您要在階段上更新的每個參與者，請按一下[新增專案] <b> </b>，然後輸入下列詳細資料：
+      <ul>
+      <li><b>參與者型別</b><p>選取參與者是使用者還是團隊。</p></li>
+      <li><b>參與者</b><p>輸入或對應參與者的ID。</p></li>
+      <li><b>角色</b><p>選取參與者是核准者還是稽核者。</p></li>
+      </ul>
+      </td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>移除參與者</p></td>
+      <td>針對您想要從階段移除的每個參與者，按一下<b>新增專案</b>並輸入下列詳細資料：
+      <ul>
+      <li><b>參與者型別</b><p>選取參與者是使用者還是團隊。</p></li>
+      <li><b>參與者</b><p>輸入或對應參與者的ID。</p></li>
+      </ul>
+      </td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
 
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Manage Stage Participants"), without field detail.
+#### 管理群組核准的階段
 
--->
-
-<!--
-
-#### Manage Stages on a Grouped Approval
-
-This action module manages the stages on a grouped approval.
+此動作模組會新增、更新和/或移除群組核准中的階段。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>群組核准ID</p></td>
+      <td>輸入或對應群組核准的GUID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>新增階段</p></td>
+      <td>針對您要新增的每個階段，按一下<b>新增專案</b>並輸入下列詳細資料：
+      <ul>
+      <li><b>階段ID</b><p>輸入或對應階段的識別碼。</p></li>
+      <li><b>階段名稱</b><p>輸入或對映舞台的名稱。</p></li>
+      <li><b>截止日期</b><p>如果截止日期是特定日期，請輸入或對應日期。</p></li>
+      <li><b>截止日期前的營業日</b><p>如果截止日期在特定業務天數之後，請輸入或對映天數。</p></li>
+      <li><b>自訂訊息</b><p>輸入或對應階段的自訂訊息。</p></li>
+      </ul>
+      </td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>更新階段</p></td>
+      <td>針對您要更新的每個階段，按一下[新增專案] <b> </b>並輸入下列詳細資料：
+      <ul>
+      <li><b>階段ID</b><p>輸入或對應您要更新的階段ID。</p></li>
+      <li><b>階段名稱</b><p>輸入或對映舞台的名稱。</p></li>
+      <li><b>截止日期</b><p>如果截止日期是特定日期，請輸入或對應日期。</p></li>
+      <li><b>截止日期前的營業日</b><p>如果截止日期在特定業務天數之後，請輸入或對映天數。</p></li>
+      <li><b>自訂訊息</b><p>輸入或對應階段的自訂訊息。</p></li>
+      </ul>
+      </td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>移除階段</p></td>
+      <td>針對您要移除的每個階段，按一下<b>新增專案</b>並輸入階段ID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
-
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Manage Stages on a Grouped Approval"), without field detail.
-
--->
 
 #### 提醒舞台上的參與者
 
@@ -830,37 +951,73 @@ BECKY CHECK ME: confirm this module's field-level UI before publishing - the Sla
   </tbody>
 </table>
 
-<!--
+#### 更新分組的核准（完整狀態）
 
-#### Update Grouped Approval (Full State)
-
-This action module replaces the full state of the specified grouped approval.
+此動作模組會套用完整狀態更新至群組核准。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>群組核准ID</p></td>
+      <td>輸入或對應您要更新之群組核准的GUID。 例如 <code>9f8b60820000462ecf66c409d1248fa9</code>。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>路徑</p></td>
+      <td>對於您希望群組核准擁有的每個核准路徑，按一下<b>新增專案</b>並輸入路徑ID、名稱和階段。 Fusion會根據目前的狀態來協調此專案，新增、更新和移除路徑以符合您傳送的內容。 每個路徑都包含循序的階段順序。 對於每個階段，在「階段」欄位中，按一下<b>新增專案</b>並輸入下列資料：
+      <ul>
+      <li><b>階段ID</b><p>輸入階段的使用者端指派識別碼，在所有路徑中唯一。 必須為英數字元，允許使用底線或連字型大小，且不得超過64個字元。</p></li>
+      <li><b>階段名稱</b><p>輸入或對映舞台的名稱。</p></li>
+      <li><b>父級階段ID</b><p>針對您想要新增至階段的每個父階段，按一下<b>新增專案</b>並輸入父識別碼。</p></li>
+      <li><b>參與者</b><p>針對您想要新增至階段的每個參與者，按一下<b>新增專案</b>並輸入參與者詳細資料。
+      <ul>
+      <li><b>參與者ID</b><p>輸入或對應參與者的ID。</p></li>
+      <li><b>參與者型別</b><p>選取參與者是使用者還是團隊。</p></li>
+      <li><b>參與者角色</b><p>選取參與者是核准者還是稽核者。</p></li>
+      </ul>
+      </p></li>
+      <li><b>截止日期</b><p>如果截止日期是特定日期，請輸入或對應日期。</p></li>
+      <li><b>截止日期前的營業日</b><p>如果截止日期在特定業務天數之後，請輸入或對映天數。</p></li>
+      <li><b>截止時間：小時</b><p>輸入或對應截止日期(0-23)的當天某小時。 與截止日期時間配對：分鐘。</p></li>
+      <li><b>截止時間：分鐘</b><p>輸入或對應截止日期(0-59)的小時小時數分鐘。 與截止日期時間配對：小時。</p></li>
+      <li><b>自訂訊息</b><p>輸入或對應階段的自訂訊息。</p></li>
+      </ul>
+      </td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>資產</p></td>
+      <td>（選擇性）針對您希望群組包含的每個檔案版本，按一下<b>新增專案</b>並輸入檔案版本(DOCV) ID。 如果您省略此欄位，目前的資產會保持不變。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>冪等金鑰</p></td>
+      <td>（選擇性）輸入或對應使用者端提供的金鑰（最多128個字元），讓重試的請求安全無虞。 如果您再次傳送相同的金鑰，模組不會再次套用更新。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
-
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Update Grouped Approval (Full State)"), without field detail.
-
--->
 
 ### 搜尋
 
 * [取得範本](#get-a-template)
 * [取得核准詳細資料](#get-approval-details)
+* [在群組核准中取得核准](#get-approvals-in-a-grouped-approval)
+* [取得分組的核准詳細資料](#get-grouped-approval-details)
 * [取得多個核准](#get-multiple-approvals)
 * [取得建議的核准](#get-suggested-approvals)
 * [取得建議的參與者](#get-suggested-participants)
 * [清單機器人](#list-bots)
+* [依父項列出群組核准](#list-grouped-approvals-by-parent)
 * [清單範本](#list-templates)
-* [搜尋AI品牌檢閱者](#search-ai-brand-reviews)
+* [搜尋AI品牌評論](#search-ai-brand-reviews)
+* [搜尋群組核准](#search-grouped-approvals)
 
 
 #### 取得範本
@@ -913,47 +1070,55 @@ BECKY CHECK ME: confirm this module's field-level UI before publishing - the Sla
   </tbody>
 </table>
 
-<!--
+#### 在群組核准中取得核准
 
-#### Get Approvals in a Grouped Approval
-
-This search module returns the individual approvals contained in a grouped approval.
+此搜尋模組會傳回構成群組核准的個別資產核准。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>群組GUID</p></td>
+      <td>輸入或對應您要取得核准之群組核准的GUID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>檔案版本資料</p></td>
+      <td>選擇是否將Redrock documentVersion記錄附加到每個檔案版本(DOCV)核准。 </td>
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
 
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Get Approvals in a Grouped Approval"), without field detail.
+#### 取得分組的核准詳細資料
 
--->
-
-<!--
-
-#### Get Grouped Approval Details
-
-This search module retrieves details for the specified grouped approval.
+此搜尋模組會依照其GUID傳回群組核准。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>群組GUID</p></td>
+      <td>輸入或對應您要取得詳細資訊之群組核准的GUID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
-
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Get Grouped Approval Details"), without field detail.
-
--->
 
 #### 取得多個核准
 
@@ -1063,26 +1228,32 @@ BECKY CHECK ME: confirm this module's field-level UI before publishing - the Sla
   </tbody>
 </table>
 
-<!--
+#### 依父項列出群組核准
 
-#### List Grouped Approvals by Parent
-
-This search module returns a list of grouped approvals for the specified parent.
+此搜尋模組會傳回與Workfront父物件相關聯的分組核准。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>父級 ID</p></td>
+      <td>輸入或對應您要為其取得群組核准的Workfront父系物件（例如專案或任務）的ID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>物件程式碼</p></td>
+      <td>（選擇性）輸入或對應上層物件的Workfront物件型別代碼（例如，<code>PROJ</code>或<code>TASK</code>）。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
-
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("List Grouped Approvals by Parent"), without field detail.
-
--->
 
 #### 清單範本
 
@@ -1144,26 +1315,42 @@ BECKY CHECK ME: confirm this module's field-level UI before publishing - the Sla
   </tbody>
 </table>
 
-<!--
+#### 搜尋群組核准
 
-#### Search Grouped Approvals
-
-This search module searches for grouped approvals matching the specified criteria.
+此搜尋模組使用已命名的檢視來搜尋群組核准。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-      <td>For instructions on creating a connection to Adobe Workfront Unified Review and Approvals, see <a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >Connect to Adobe Workfront Unified Review and Approvals</a> in this article.</td>
+      <td role="rowheader">連線</td>
+      <td>如需有關建立與Adobe Workfront整合式檢閱和核准的連線的指示，請參閱本文中的<a href="#connect-to-adobe-workfront-unified-review-and-approvals" class="MCXref xref" >連線到Adobe Workfront整合式檢閱和核准</a>。</td>
     </tr>
+     <tr>
+      <td role="rowheader"><p>檢視</p></td>
+      <td>（選擇性）選取或對應已命名檢視，以決定回應的形狀。 目前僅支援等待核准。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>（選擇性）輸入或對映結果第一頁的頁面大小。 最大值為100，預設值為20。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>游標</p></td>
+      <td>（選擇性）輸入或對應上一個回應中的不透明游標，以擷取下一頁的結果。 如果您提供游標，模組會忽略「限制」欄位。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>團隊 ID</p></td>
+      <td>（選擇性）針對您也想要比對群組核准的每一個團隊（團隊是參與者），按一下<b>新增專案</b>並輸入團隊ID。</td> 
+      </tr>
+     <tr>
+      <td role="rowheader"><p>限制</p></td>
+      <td>輸入或對應每個案例執行週期中您希望模組使用的最大結果數量。</td> 
+      </tr>
   </tbody>
 </table>
 
-BECKY CHECK ME: confirm this module's field-level UI before publishing - the Slack request only listed this module by name ("Search Grouped Approvals"), without field detail.
-
--->
+<!-- BECKY CHECK ME: the screenshot shows two separate fields both labeled "Limit" - an optional pagination page-size field (max 100, default 20, ignored if Cursor is set) and a required general execution-cycle limit, matching the Limit field used in every other module in this article. Confirm this isn't a UI labeling issue before publishing, and that both rows are needed/correctly distinguished. -->
 
 ### 其他
 
@@ -1284,4 +1471,3 @@ BECKY CHECK ME: confirm this module's field-level UI before publishing - the Sla
       <td>輸入或對應階段的自訂訊息。</td> 
       </tr>
 </table>
-

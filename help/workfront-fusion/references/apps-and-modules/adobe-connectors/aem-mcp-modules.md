@@ -5,13 +5,12 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 06271bbe8dd3c5eb7e3c6b45b71e7e0f7fd4d444
+    internal-label: Workfront
+source-git-commit: f39af7ec908c7ae62924635ef2d08584cf79310a
 workflow-type: tm+mt
-source-wordcount: 1020
+source-wordcount: '1020'
 ht-degree: 11%
-
 ---
-
 # Adobe Experience Manager MCP模組
 
 Adobe Experience Manager MCP聯結器是Adobe Experience Manager自己的模型內容通訊協定(MCP)伺服器的專用Fusion整合。 不像傳統聯結器，每個模組都會執行一個固定動作，此聯結器有一個模組可接受開放式、純英文指示，並讓AI模型決定需要哪些Adobe Experience Manager作業才能完成，如網站、數位資產、內容片段、資料夾、內容存放庫和內容AI等領域。
@@ -56,7 +55,7 @@ Adobe Experience Manager MCP聯結器是Adobe Experience Manager自己的模型�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -98,7 +97,7 @@ Adobe Experience Manager MCP聯結器使用OAuth連線至Adobe Experience Manage
 
 因為每次執行都是獨立的，模組本身沒有先前執行的記憶體。 若要在多次執行中建立多圈、對話式的體驗，請儲存上一個問題和答案。 您可以使用資料存放區進行此操作，然後在下一個提示的開頭將該記錄作為文字加入，然後是新問題。
 
-如需資料存放區的資訊，請參閱[資料存放區](/help/workfront-fusion/create-scenarios/data-stores/data-store-overview.md)。
+如需資料存放區的資訊，請參閱[資料存放區](/help/workfront-fusion/create-scenarios/map-data/data-stores.md)。
 
 <table style="table-layout:auto"> 
  <col/>

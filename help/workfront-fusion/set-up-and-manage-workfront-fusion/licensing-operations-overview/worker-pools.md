@@ -3,13 +3,12 @@ title: 工作者集區
 description: 工作者集區是專用於一或多個特定組織的Workfront Fusion處理資源數量。 所有Fusion作業和處理都會在組織的已指派工作者集區的內容中進行。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: bb94083eb9f58dc3ae9f94a59288da43317b567b
+exl-id: 8bf508a8-d1f9-455f-af89-62f688289137
+source-git-commit: b95974d19c3dcb2fea0d6323c2b747665216a2e7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # 工作者集區
 
 工作者集區是專用於特定組織的Workfront Fusion處理資源數量。 所有Fusion作業和處理都會在組織的已指派工作者集區的內容中進行。

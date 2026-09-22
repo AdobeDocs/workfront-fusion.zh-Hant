@@ -7,16 +7,21 @@ exl-id: 6e2df1a0-c1f9-4833-b1c2-65efb3be9657
 TQID: https://experienceleague.adobe.com/t3FcOEcjniaGfX9Ag25kYrcU6-2LKwaIdnRojHRpI5Q
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+source-git-commit: ed2fc06e4c43fe84b5f88792cc24115468059431
 workflow-type: tm+mt
-source-wordcount: 767
-ht-degree: 2%
-
+source-wordcount: '801'
+ht-degree: 3%
 ---
-
 # Adobe Workfront Fusion 授權
 
 Workfront Fusion有兩種授權模型，一種新的以操作為基礎的模型，以及舊有的以聯結器為基礎的模型。
+
+>[!NOTE]
+>
+>Workfront Fusion案例中的大型檔案支援僅適用於Workfront Ultimate套件上的組織，無論您的組織使用哪種Fusion授權模式。
+>
+>如需詳細資訊，請參閱[處理大型檔案](/help/workfront-fusion/references/scenarios/fusion-large-files.md)。
 
 ## 以作業為基礎的授權模式（新）
 
@@ -60,14 +65,14 @@ Workfront流程自動化的優點包括：
 * Webhook
 * 工具和轉換器模組，例如：
 
-   * 封存
-   * CSV
-   * 資料存放區
-   * 影像
-   * JSON
-   * 數學
-   * MIME
-   * XML
+  * 封存
+  * CSV
+  * 資料存放區
+  * 影像
+  * JSON
+  * 數學
+  * MIME
+  * XML
 
 #### 工作自動化的Workfront Fusion範例
 

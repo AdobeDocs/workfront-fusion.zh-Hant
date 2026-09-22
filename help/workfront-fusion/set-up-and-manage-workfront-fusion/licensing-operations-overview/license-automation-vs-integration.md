@@ -8,9 +8,9 @@ TQID: https://experienceleague.adobe.com/t3FcOEcjniaGfX9Ag25kYrcU6-2LKwaIdnRojHR
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 1feb4fce42c7759ca8fc91d4270dd00c0a59da24
+source-git-commit: ed2fc06e4c43fe84b5f88792cc24115468059431
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '801'
 ht-degree: 3%
 ---
 # Adobe Workfront Fusion 授權
@@ -19,7 +19,7 @@ Workfront Fusion有兩種授權模型，一種新的以操作為基礎的模型�
 
 >[!NOTE]
 >
->Workfront Fusion案例中的大型檔案支援僅適用於Workfront Ultimate套件上的組織，無論您使用哪種Fusion授權模式。
+>Workfront Fusion案例中的大型檔案支援僅適用於Workfront Ultimate套件上的組織，無論您的組織使用哪種Fusion授權模式。
 >
 >如需詳細資訊，請參閱[處理大型檔案](/help/workfront-fusion/references/scenarios/fusion-large-files.md)。
 

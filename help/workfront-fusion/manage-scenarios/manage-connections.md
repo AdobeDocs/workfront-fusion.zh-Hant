@@ -4,16 +4,18 @@ description: 您可以在「連線」區域中檢視和管理您的專案團隊�
 author: Becky
 feature: Workfront Fusion
 exl-id: b7e4d3ac-ccbe-4ee2-ba73-b37032980696
-TQID: https://experienceleague.adobe.com/xFZcmAmM-VcJnDeO36aeLzQQaYNN0vm1plXdhMs7u60
+TQID: 'https://experienceleague.adobe.com/xFZcmAmM-VcJnDeO36aeLzQQaYNN0vm1plXdhMs7u60'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 25%
-
 ---
-
 # 管理連線
 
 您可以在「連線」區域中檢視和管理您的專案團隊連線。
@@ -43,7 +45,7 @@ ht-degree: 25%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -57,14 +59,14 @@ ht-degree: 25%
 >
 >若要選取新專案團隊，請按一下頁面頂端附近專案團隊名稱旁的下拉箭頭。 從清單中選取新的專案團隊。
 
-1. 若要開啟[連線]區域，請按一下左側導覽中的[連線] ![&#x200B; [連線]圖示](assets/connections-icon.png)。
+1. 若要開啟[連線]區域，請按一下左側導覽中的[連線] ![ [連線]圖示](assets/connections-icon.png)。
 1. （可選）若要指定環境或型別，請按一下環境和型別下拉式清單，然後選取選項。
 
    >[!NOTE]
    >
    >環境和型別僅供您方便識別連線之用。 它們並不會對連線的功能造成任何影響。
 
-1. （選擇性）若要檢視授予Workfront Fusion的連線許可權，請按一下[檢視]圖示&lbrack;![檢視該連線的連線許可權](assets/view-connection-permissions.png)。
+1. （選擇性）若要檢視授予Workfront Fusion的連線許可權，請按一下[檢視]圖示![[檢視該連線的連線許可權](assets/view-connection-permissions.png)。
 1. （選擇性）若要重新命名或編輯連線的名稱，請按一下名稱並進行變更。
 1. （選擇性）若要重新授權連線，請按一下該連線列中的&#x200B;**重新授權**。
 1. （選擇性）若要確認服務連線是否正常運作，請按一下該連線列中的&#x200B;**驗證**。
@@ -76,5 +78,5 @@ Workfront Fusion通常會在無限制的時段內取得特定服務的存取權�
 
 若要更新連線：
 
-1. 若要開啟[連線]區域，請按一下左側導覽中的[連線] ![&#x200B; [連線]圖示](assets/connections-icon.png)。
+1. 若要開啟[連線]區域，請按一下左側導覽中的[連線] ![ [連線]圖示](assets/connections-icon.png)。
 1. （選擇性）若要重新授權連線，請按一下該連線列中的&#x200B;**重新授權**。

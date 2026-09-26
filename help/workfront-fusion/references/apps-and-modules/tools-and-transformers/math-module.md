@@ -4,16 +4,18 @@ description: 在Adobe Workfront Fusion案例中，您可以使用數學模組計
 author: Becky
 feature: Workfront Fusion
 exl-id: ebbe74ea-d274-481d-8584-a71ddb1d959b
-TQID: https://experienceleague.adobe.com/4TaxxJxhszGpSGBnMCGPQ4uKH-AfkV9jDRRXhbCh-Eo
+TQID: 'https://experienceleague.adobe.com/4TaxxJxhszGpSGBnMCGPQ4uKH-AfkV9jDRRXhbCh-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: '165'
 ht-degree: 55%
-
 ---
-
 # [!UICONTROL 數學]
 
 在[!DNL Adobe Workfront Fusion scenario]中，您可以使用數學模組來計算數學運算式。
@@ -43,7 +45,7 @@ ht-degree: 55%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -58,7 +60,7 @@ ht-degree: 55%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 運算式]</td> 
+   <td role="rowheader">[！UICONTROL運算式]</td> 
    <td> <p>輸入您希望模組評估的運算式。 </p> <p> </p> <p>如需如何撰寫數學運算式的資訊，請參閱mathjs.org上的<a href="https://mathjs.org/docs/expressions/syntax.html">運算式語法</a>。</p> </td> 
   </tr> 
  </tbody> 

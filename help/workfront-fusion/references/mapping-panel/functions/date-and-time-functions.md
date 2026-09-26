@@ -4,18 +4,21 @@ description: 下列日期和時間函式可在Adobe Workfront Fusion對應面板
 author: Becky
 feature: Workfront Fusion
 exl-id: 92813dac-4bf0-4681-9b71-7bd2e92a89a4
-TQID: https://experienceleague.adobe.com/E77KZbLpHtYJ-D7haukgux3AnmhfkIh-xqh0j6NbNiU
+TQID: 'https://experienceleague.adobe.com/E77KZbLpHtYJ-D7haukgux3AnmhfkIh-xqh0j6NbNiU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e6873ab923b73175d1889b44df5d7c1baf9d42fb
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 2392
+source-wordcount: '2392'
 ht-degree: 2%
-
 ---
-
 # 日期與時間函式
 
 ## 變數
@@ -519,7 +522,7 @@ ht-degree: 2%
 
 指定從0到59的數字。 如果數字超出該範圍，此函式會傳回前一分鐘的第二秒（代表負數）或後續的分鐘（代表正數）。
 
-如果您需要指定超出範圍的數字，建議您使用[!UICONTROL &#x200B; addSeconds]，如上節[addSeconds (date； number)](#addseconds-date-number)所述。
+如果您需要指定超出範圍的數字，建議您使用[!UICONTROL  addSeconds]，如上節[addSeconds (date； number)](#addseconds-date-number)所述。
 
 >[!BEGINSHADEBOX]
 
@@ -686,17 +689,17 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 日期] </td> 
+   <td>[！UICONTROL日期] </td> 
    <td>日期 </td> 
    <td> <p>將日期值轉換為文字值。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 格式] </td> 
+   <td>[！UICONTROL格式] </td> 
    <td>文字 </td> 
    <td> <p>可讓您使用日期/時間格式代號來指定格式。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">日期與時間格式的</a>代號。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 時區] </td> 
+   <td>[！UICONTROL時區] </td> 
    <td>文字 </td> 
    <td> <p>（選用）可讓您指定用於轉換的時區。 </p> <p>如需可辨識時區的清單，請參閱Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"> tz資料庫時區清單</a>中的「TZ資料庫名稱」欄。 函式只會將此欄中列出的值辨識為有效時區。 系統會忽略任何其他值，而改用設定檔中指定的案例時區。 </p> <p>如果您忽略此引數，則會套用設定檔設定中指定的情境時區。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>Europe/Prague</code>， <code>UTC</code></p> </td> 
   </tr> 
@@ -754,17 +757,17 @@ ht-degree: 2%
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL text] </td> 
+   <td>[！UICONTROL text] </td> 
    <td>文字 </td> 
    <td> <p>將日期值轉換為文字值。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 格式] </td> 
+   <td>[！UICONTROL格式] </td> 
    <td>文字 </td> 
    <td> <p>可讓您使用日期/時間格式代號來指定格式。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">日期與時間格式的</a>代號。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 時區] </td> 
+   <td>[！UICONTROL時區] </td> 
    <td>文字 </td> 
    <td> <p>（選用）可讓您指定用於轉換的時區。 </p> <p>如需可辨識時區的清單，請參閱Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"> tz資料庫時區清單</a>中的「TZ資料庫名稱」欄。 函式只會將此欄中列出的值辨識為有效時區。 系統會忽略任何其他值，而改用設定檔中指定的案例時區。 </p> <p>如果您忽略此引數，則會套用設定檔設定中指定的情境時區。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>Europe/Prague</code>， <code>UTC</code></p> </td> 
   </tr> 

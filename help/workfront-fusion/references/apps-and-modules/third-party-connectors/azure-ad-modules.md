@@ -1,21 +1,24 @@
 ---
 title: Azure Active Directory 模組
-description: 在Adobe Workfront Fusion案例中，您可以自動化使用 [!DNL Azure] Active Directory的工作流程，以及將其連線到多個協力廠商應用程式和服務。
+description: 在Adobe Workfront Fusion案例中，您可以自動化使用[!DNL Azure] Active Directory的工作流程，以及將其連線至多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 96455ae4-ef68-46b5-a172-429cf9f982fb
-TQID: https://experienceleague.adobe.com/FS2TZrWeFQ-6hQZlmu7pd46bIHjnVvIU6g61hxWFkWc
+TQID: 'https://experienceleague.adobe.com/FS2TZrWeFQ-6hQZlmu7pd46bIHjnVvIU6g61hxWFkWc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: '1116'
 ht-degree: 58%
-
 ---
-
 # [!DNL Azure Active Directory] 模組
 
 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Azure Active Directory] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
@@ -56,7 +59,7 @@ ht-degree: 58%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -118,7 +121,7 @@ Azure Active Directory聯結器會使用下列專案：
    <td>選取您要監視使用者記錄還是群組記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 記錄數上限]</td> 
+   <td role="rowheader">[！UICONTROL記錄數上限]</td> 
    <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td> 
   </tr> 
  </tbody> 
@@ -152,7 +155,7 @@ Azure Active Directory聯結器會使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 記錄類型]</td> 
-   <td>選取您要讀取[!UICONTROL User]記錄還是[!UICONTROL Group]記錄。</td> 
+   <td>選取您要讀取[！UICONTROL User]記錄還是[！UICONTROL Group]記錄。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 輸出]</td> 
@@ -185,10 +188,10 @@ Azure Active Directory聯結器會使用下列專案：
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 記錄類型]</td> 
-   <td>選取您要讀取[!UICONTROL User]記錄還是[!UICONTROL Group]記錄。</td> 
+   <td>選取您要讀取[！UICONTROL User]記錄還是[！UICONTROL Group]記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 其他欄位]</td> 
+   <td role="rowheader">[！UICONTROL其他欄位]</td> 
    <td>填寫這些欄位以設定新記錄的值。</td> 
   </tr> 
  </tbody> 
@@ -254,15 +257,15 @@ Azure Active Directory聯結器會使用下列專案：
    <td> <p>如需有關將您的[!DNL Azure Active Directory]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 搜尋條件]</td> 
-   <td> <p>輸入要在搜尋中使用的條件。</p> <p>如需使用之引數的相關資訊，例如「[!UICONTROL $filter]」，請參閱[!DNL Microsoft] API檔案中的<a href="https://docs.microsoft.com/en-us/graph/query-parameters">使用查詢引數來自訂回應</a>。</p> </td> 
+   <td role="rowheader">[！UICONTROL搜尋條件]</td> 
+   <td> <p>輸入要在搜尋中使用的條件。</p> <p>如需使用之引數的相關資訊，例如「[！UICONTROL $filter]」，請參閱[!DNL Microsoft] API檔案中的<a href="https://docs.microsoft.com/en-us/graph/query-parameters">使用查詢引數來自訂回應</a>。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL 輸出]</td> 
    <td>選取要包含在此模組的輸出組合包中的資訊。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL 最大記錄數]</td> 
+   <td role="rowheader">[！UICONTROL最大記錄數]</td> 
    <td>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</td> 
   </tr> 
  </tbody> 

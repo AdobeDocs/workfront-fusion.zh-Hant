@@ -4,18 +4,20 @@ description: 在Adobe Workfront Fusion案例中，您可以將封存（例如壓
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b5ff3d5-601c-4119-ad70-3612ad5ba1ab
-TQID: https://experienceleague.adobe.com/hcfjBqNDF3zEVJMLmekD-O8lmzMLyKk6Xp9JKTXcVWc
+TQID: 'https://experienceleague.adobe.com/hcfjBqNDF3zEVJMLmekD-O8lmzMLyKk6Xp9JKTXcVWc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 651
+source-wordcount: '651'
 ht-degree: 32%
-
 ---
-
 # [!UICONTROL 封存]模組
 
 在Adobe Workfront Fusion情境中，您可以在情境中使用封存（例如壓縮檔案），讓您將其用於自動化或整合。
@@ -47,7 +49,7 @@ ht-degree: 32%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -105,27 +107,27 @@ ht-degree: 32%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Source模組]</td> 
+   <td>[！UICONTROL Source模組]</td> 
    <td> <p> 選取您要從中擷取檔案的模組。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 類型] </td> 
-   <td> <p>選取您要將檔案新增至[!UICONTROL ZIP]、GZIP或[!UICONTROL TAR]封存。</p> </td> 
+   <td> <p>選取您要將檔案新增至[！UICONTROL ZIP]、GZIP或[！UICONTROL TAR]封存。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 註解]</td> 
+   <td>[！UICONTROL註解]</td> 
    <td>輸入要新增到封存的註解。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Group by]</td> 
+   <td>[！UICONTROL Group by]</td> 
    <td> <p>定義要將彙總輸出分組依據的運算式。 此運算式可包含一或多個對應專案。 接著，彙總的資料會使用此運算式的值分隔成群組。 每個群組會輸出一個單獨的組合，內含索引鍵（運算式）和值（彙總文字）。 您可以在後續模組中使用該索引鍵作為篩選條件。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 在空白彙總後停止處理]</td> 
+   <td>[！UICONTROL在空白彙總後停止處理]</td> 
    <td>選取此選項可在沒有結果時停止情境。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 封存名稱]</td> 
+   <td>[！UICONTROL封存名稱]</td> 
    <td> <p> 輸入已建立封存檔的名稱。 請勿新增副檔名。</p> </td> 
   </tr> 
   <tr> 
@@ -157,7 +159,7 @@ ht-degree: 32%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料] </td> 
+   <td>[！UICONTROL資料] </td> 
    <td> <p>使用deflate函式輸入或對應您要壓縮的資料。</p> </td> 
   </tr> 
  </tbody> 
@@ -172,7 +174,7 @@ ht-degree: 32%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料] </td> 
+   <td>[！UICONTROL資料] </td> 
    <td> <p>使用膨脹函式，輸入或對應您要解壓縮的資料。</p> </td> 
   </tr> 
  </tbody> 

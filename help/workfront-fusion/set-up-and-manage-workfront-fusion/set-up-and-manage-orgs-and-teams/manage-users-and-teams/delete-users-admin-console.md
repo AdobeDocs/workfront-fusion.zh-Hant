@@ -6,16 +6,18 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: aa570f28-7387-47c5-9968-e3554921b0f5
-TQID: https://experienceleague.adobe.com/ouJ-qNCBSqKotZOJ7lGeOm2sAv6gqTPpUv8CpfaSg7M
+TQID: 'https://experienceleague.adobe.com/ouJ-qNCBSqKotZOJ7lGeOm2sAv6gqTPpUv8CpfaSg7M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '483'
 ht-degree: 21%
-
 ---
-
 # 透過[!DNL Adobe Admin Console]刪除使用者
 
 您只能從Adobe Workfront Fusion移除使用者，保留存取任何其他[!DNL Adobe]產品設定檔，或者您可以從[!DNL Adobe Admin Console]完全移除使用者。
@@ -51,7 +53,7 @@ ht-degree: 21%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

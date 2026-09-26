@@ -5,13 +5,15 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: a2632cb3184cd555555136288e78ab1e05e4ea9d
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: '211'
 ht-degree: 0%
-
 ---
-
 # 從儲存體下載檔案
 
 使用Fusion Storage區域，您可以從您的Adobe儲存空間下載檔案。
@@ -23,7 +25,7 @@ ht-degree: 0%
 1. 在Workfront Fusion中，按一下左側導覽中的&#x200B;**儲存空間**。
 1. 導覽至存放庫和包含您要下載的檔案的資料夾。
 1. 按一下表格中的檔案來選取檔案。
-1. 在出現的動作列中，按一下[下載]。**&#x200B;**
+1. 在出現的動作列中，按一下[下載]。****
 
 **進度橫幅**&#x200B;會出現在右上方，並顯示：
 

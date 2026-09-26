@@ -4,16 +4,18 @@ description: 有些觸發程式模組可讓您選取要開始擷取套件的第�
 author: Becky
 feature: Workfront Fusion
 exl-id: 83628fa5-82e2-4f67-bfed-70a4c3c19f7f
-TQID: https://experienceleague.adobe.com/Lbl9yIbiWEhwajpe-9EEp513IN9ASXE3PZHP1gAktx4
+TQID: 'https://experienceleague.adobe.com/Lbl9yIbiWEhwajpe-9EEp513IN9ASXE3PZHP1gAktx4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 330
+source-wordcount: '330'
 ht-degree: 33%
-
 ---
-
 # 選擇觸發程序模組在哪裡啟動
 
 有些觸發程式模組可讓您選取要開始擷取套件的第一個套裝。
@@ -47,7 +49,7 @@ ht-degree: 33%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -73,19 +75,19 @@ ht-degree: 33%
     <col> 
     <tbody>
     <tr>
-    <td>[!UICONTROL 從現在起] （預設）</td>
+    <td>[！UICONTROL從現在起] （預設）</td>
     <td>擷取選取此選項後新增或更新的所有組合（視設定而定）</td>
     </tr>
      <tr>
-    <td>[!UICONTROL 從特定日期起]</td>
+    <td>[！UICONTROL從特定日期起]</td>
     <td>擷取在指定日期和時間之後新增或更新的所有組合（視設定而定）</td>
       </tr>
       <tr>
-    <td>[!UICONTROL All]</td>
+    <td>[！UICONTROL All]</td>
     <td>擷取所有可用的組合</td>
      </tr>
       <tr>
-    <td>[!UICONTROL 手動選擇]</td>
+    <td>[！UICONTROL手動選擇]</td>
     <td>可讓您選取要開始擷取束的第一個束</td>
      </tr>
      </tbody>

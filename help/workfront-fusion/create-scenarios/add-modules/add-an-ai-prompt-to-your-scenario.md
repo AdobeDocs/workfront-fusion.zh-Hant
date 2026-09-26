@@ -4,13 +4,17 @@ description: 您可以在情境中加入AI提示，此提示會連線至您的
 author: Becky
 feature: Workfront Fusion
 exl-id: d0ac0d0b-e3a0-46de-801d-e53c1c4d63ff
-source-git-commit: 3d957c219cdc5fed4fdf9b0649cab724fae21871
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
-
 ---
-
 # 將AI提示新增至您的情境
 
 您可以使用結合大型語言模型(LLM)的「模型上下文通訊協定」(MCP)，在情境中加入AI提示。 在MCP代理程式模組中設定這些專案，您可以使用人工智慧來設定高效率、安全且有彈性的工作流程。

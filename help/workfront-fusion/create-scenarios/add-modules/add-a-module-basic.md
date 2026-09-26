@@ -4,16 +4,18 @@ description: 本文說明將模組新增至案例的基本程式。
 author: Becky
 feature: Workfront Fusion
 exl-id: f3757468-3e11-4862-a83e-ed447805545b
-TQID: https://experienceleague.adobe.com/R2JCX7aaYzmYHgiLqj1WDlVFHI-s-qanltoOrycQ5JU
+TQID: 'https://experienceleague.adobe.com/R2JCX7aaYzmYHgiLqj1WDlVFHI-s-qanltoOrycQ5JU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 684
+source-wordcount: '684'
 ht-degree: 18%
-
 ---
-
 # 在情境中加入模組
 
 情境由一系列模組所組成，這些模組會指出如何在應用程式內轉換資料，或在應用程式和網頁服務之間如何轉移資料。 您可以透過新增和設定模組來建置模組。
@@ -45,7 +47,7 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -75,11 +77,11 @@ ht-degree: 18%
 
 1. 如果您不在您要新增模組的情境的情境編輯器中，請按一下左側面板中的&#x200B;**[!UICONTROL 情境]**&#x200B;索引標籤。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 若要將模組新增至另一個模組，請將滑鼠游標停留在模組的右側控制代碼上，之後您要新增模組，然後在其出現時按一下[新增另一個模組] **&#x200B;**。
+1. 若要將模組新增至另一個模組，請將滑鼠游標停留在模組的右側控制代碼上，之後您要新增模組，然後在其出現時按一下[新增另一個模組] ****。
 
    聯結器清單隨即開啟，顯示情景中已經使用的任何聯結器。
 
-1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] **&#x200B;**，然後選取聯結器。 您可以在清單的搜尋列中鍵入聯結器的名稱，以篩選清單。
+1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] ****，然後選取聯結器。 您可以在清單的搜尋列中鍵入聯結器的名稱，以篩選清單。
 1. 設定模組。
 
    如需有關設定特定模組的說明，請參閱所選應用程式的文章，列於[Fusion應用程式及其模組參考中：文章索引](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)。
@@ -93,7 +95,7 @@ ht-degree: 18%
 
 聯結器清單隨即開啟，顯示情景中已經使用的任何聯結器。
 
-1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] **&#x200B;**，然後選取聯結器。 您可以在清單的搜尋列中鍵入聯結器的名稱，以篩選清單。
+1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] ****，然後選取聯結器。 您可以在清單的搜尋列中鍵入聯結器的名稱，以篩選清單。
 1. 設定模組。
 
    如需有關設定特定模組的說明，請參閱所選應用程式的文章，列於[Fusion應用程式及其模組參考中：文章索引](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)。

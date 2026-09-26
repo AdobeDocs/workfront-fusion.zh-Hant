@@ -5,13 +5,15 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 88515edc81bafe2d1a81df627fd51dd4ed674c02
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 884
+source-wordcount: '884'
 ht-degree: 16%
-
 ---
-
 # Adobe Workfront MCP模組
 
 Adobe Workfront MCP聯結器是Adobe Workfront自己的模型內容通訊協定(MCP)伺服器的專用Fusion整合。 不像一個典型的聯結器，每個模組都會執行一個固定動作，這個聯結器具有一個模組，這個模組會接受開放式、純英文的指示，並讓AI模型決定需要哪些Workfront操作才能完成它。
@@ -53,7 +55,7 @@ Adobe Workfront MCP聯結器是Adobe Workfront自己的模型內容通訊協定(
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -139,7 +141,7 @@ Adobe Workfront MCP聯結器使用OAuth 2.0連線至Workfront。 不像其他Wor
   </tr>  </tbody> 
 </table>
 
-如需您可以為唯讀工具及寫入/刪除工具欄位選取的工具清單，請參閱Workfront檔案中的[Adobe Workfront MCP伺服器工具](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-tools)。
+如需您可以為唯讀工具及寫入/刪除工具欄位選取的工具清單，請參閱Workfront檔案中的[Adobe Workfront MCP伺服器工具](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-tools)。
 
 模組會傳回下列資訊，您可在情境中的後續模組中加以對應：
 

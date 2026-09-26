@@ -4,21 +4,25 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Datado
 author: Becky
 feature: Workfront Fusion
 exl-id: c8c5f2e3-5af1-4957-bb6f-6c19c35102c5
-TQID: https://experienceleague.adobe.com/DM-90ye4UKybFarHch-ubk4vOt4Ofh69EBXTmAO-Hmw
+TQID: 'https://experienceleague.adobe.com/DM-90ye4UKybFarHch-ubk4vOt4Ofh69EBXTmAO-Hmw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: '961'
 ht-degree: 46%
-
 ---
-
 # [!DNL Datadog] 模組
 
 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Datadog] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
@@ -59,7 +63,7 @@ ht-degree: 46%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -111,7 +115,7 @@ Datadog聯結器會使用下列專案：
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 連線名稱]</td> 
+      <td role="rowheader">[！UICONTROL連線名稱]</td> 
       <td> <p> 輸入此連線的名稱。</p> </td> 
      </tr> 
         <tr>
@@ -123,15 +127,15 @@ Datadog聯結器會使用下列專案：
         <td>選取要連接至服務帳戶或者個人帳戶。</td>
         </tr>
      <tr> 
-      <td role="rowheader">[!UICONTROL 網域] </td> 
+      <td role="rowheader">[！UICONTROL網域] </td> 
       <td> <p>選取您要連線的網域（美國或歐盟）。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL API金鑰位置] </td> 
+      <td role="rowheader">[！UICONTROL API金鑰位置] </td> 
       <td> <p>選取在標頭或查詢字串中包含API金鑰。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL API Key]</td> 
+      <td role="rowheader">[！UICONTROL API Key]</td> 
       <td> <p> 輸入您的[!DNL Datadog] API金鑰。 </p> <p>如需擷取API金鑰的指示，請參閱本文中的<a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">擷取您的API金鑰和應用程式金鑰</a>。</p> </td> 
      </tr> 
     </tbody> 
@@ -165,7 +169,7 @@ Datadog聯結器會使用下列專案：
    <td> <p>關於將您的 [!DNL Datadog] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">將 [!DNL Datadog] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 使用專用網域]</td> 
+   <td role="rowheader">[！UICONTROL使用專用網域]</td> 
    <td>有些Datadog API端點預期會有大量傳入流量，但在其專用網域中執行。 核取此方塊以使用您API呼叫的專用網域。</td> 
   </tr> 
   <tr> 
@@ -232,15 +236,15 @@ URL： `/v1/dashboard`
    </ul>
    </td> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 間隔]</td> 
+   <td role="rowheader">[！UICONTROL間隔]</td> 
    <td> 如果度量的型別是「比率」或「計數」，請定義對應的間隔。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 點]</td> 
+   <td role="rowheader">[！UICONTROL點]</td> 
    <td><p>新增與量度相關的點。</p> <p>這是JSON點陣列。 每個點的格式如下： <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>注意：  <p>時間戳記必須以秒為單位。</p> <p>時間戳記必須是最新的。 「目前」的定義是未來不超過10分鐘，或過去不超過1小時。</p> <p> 數值格式應為浮點數值。</p> </p> <p>此欄位必須至少包含1個專案。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 主機]</td> 
+   <td role="rowheader">[！UICONTROL主機]</td> 
    <td>輸入產生測量結果的主機名稱。 </td> 
   </tr> 
   <tr> 

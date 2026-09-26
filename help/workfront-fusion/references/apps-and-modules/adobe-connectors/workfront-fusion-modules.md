@@ -5,13 +5,15 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 7606f1b15aac0f2baef1b4ef16e3bcaa39dad27c
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1430
+source-wordcount: '1430'
 ht-degree: 20%
-
 ---
-
 # Workfront Fusion模組
 
 使用Workfront Fusion聯結器，您可以從情境中管理自己的Fusion組織。 有別於將Fusion連線至協力廠商應用程式或服務的其他聯結器，此聯結器可讓案例呼叫Fusion自己的API，其方式類似於Adobe Workfront聯結器讓案例管理Workfront的方式。
@@ -45,7 +47,7 @@ ht-degree: 20%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -68,18 +70,18 @@ ht-degree: 20%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 用戶端 ID]</td> 
-      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td> 
+      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]詳細資訊區段中找到。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 用戶端密碼]</td> 
-      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td> 
+      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]詳細資訊區段中找到。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 組織ID]</td> 
+      <td role="rowheader">[！UICONTROL組織ID]</td> 
       <td>輸入您的[!DNL Adobe] IMS組織ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 區域]</td> 
+      <td role="rowheader">[！UICONTROL區域]</td> 
       <td>選取此連線的Fusion區域。</td> 
      </tr> 
     </tbody> 

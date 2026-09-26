@@ -3,13 +3,17 @@ title: 使用自訂函式套件
 description: 對應項目時，您可以使用函式來建立簡單或複雜的公式。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4ec81401b5a76edd620b9779414ee578966b4315
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 5%
-
 ---
-
 
 # 使用自訂函式套件
 
@@ -50,7 +54,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -73,7 +77,7 @@ ht-degree: 5%
 1. 選取此封裝將屬於的Adobe App Builder專案：
 
    * 若要選取現有專案，請開始輸入專案名稱，然後在其出現時選取它。
-   * 若要建立新專案，請輸入不存在的名稱，然後按一下[新建] **&#x200B;**。
+   * 若要建立新專案，請輸入不存在的名稱，然後按一下[新建] ****。
    * 如果您將此保留為空白，Fusion會使用預設專案。
 
 1. 選取「**繼續**」。
@@ -104,8 +108,8 @@ ht-degree: 5%
 
    套件會自動開啟。
 
-1. 若要稍後重新開啟封裝，請從[封裝]清單中選取它，然後選取[檢視]。**&#x200B;**
-1. 若要刪除封裝，請從[封裝]清單中選取它，然後選擇[刪除]。**&#x200B;**
+1. 若要稍後重新開啟封裝，請從[封裝]清單中選取它，然後選取[檢視]。****
+1. 若要刪除封裝，請從[封裝]清單中選取它，然後選擇[刪除]。****
 
    >[!WARNING]
    >
@@ -181,7 +185,7 @@ ht-degree: 5%
    * 您可以讀取您定義的輸入、重複使用變數，以及呼叫其他函式。
    * 當您輸入時，建議隨即顯示。
 
-1. 若要清除功能格式，請按一下[美化] **&#x200B;**。
+1. 若要清除功能格式，請按一下[美化] ****。
 
 1. （選擇性）在&#x200B;**引數**&#x200B;索引標籤上，定義函式預期的輸入。
 
@@ -195,7 +199,7 @@ ht-degree: 5%
 
    或
 
-   若要發佈函式，請按一下[發佈]。**&#x200B;**
+   若要發佈函式，請按一下[發佈]。****
 
    >[!NOTE]
    >

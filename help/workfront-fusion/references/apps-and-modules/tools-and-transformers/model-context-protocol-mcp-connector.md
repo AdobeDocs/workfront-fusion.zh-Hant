@@ -4,16 +4,18 @@ description: 「模型上下文通訊協定」(MCP)模組可讓您使用MCP處�
 author: Becky
 feature: Workfront Fusion
 exl-id: 748055ad-d305-4513-9a5c-9c970b74a96e
-TQID: https://experienceleague.adobe.com/KC5YvcNC-EQG4bnPA5pOVbGWZHdqa0XKYHKPMLwY-24
+TQID: 'https://experienceleague.adobe.com/KC5YvcNC-EQG4bnPA5pOVbGWZHdqa0XKYHKPMLwY-24'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: a482c81a3813d1f3a2e37e5f123907f98b216655
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: '490'
 ht-degree: 18%
-
 ---
-
 # MCP代理程式模組
 
 模型上下文通訊協定(MCP)是一種將AI語言模型與其他應用程式安全連線的方法。 您可以設定MCP伺服器，讓AI模型存取應用程式。 然後，您可以向AI模型傳送提示，它可以從應用程式返回資訊。
@@ -49,7 +51,7 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

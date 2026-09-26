@@ -10,10 +10,12 @@ product_v2:
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 4f637dcb9d7865f73b41faa5b0acf397944bb559
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
 source-wordcount: '5202'
 ht-degree: 11%
@@ -22,7 +24,7 @@ ht-degree: 11%
 
 使用Adobe Workfront整合式檢閱和核准模組，您可以取得核准詳細資訊、對資產做出決定、新增或刪除核准參與者、新增或更新核准階段、鎖定或解鎖階段，以及進行自訂API呼叫。
 
-如需Workfront統一檢閱和核准的相關資訊，請參閱Workfront檔案中的[統一檢閱和核准總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/document-approvals-overview)。
+如需Workfront統一檢閱和核准的相關資訊，請參閱Workfront檔案中的[統一檢閱和核准總覽](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-approvals-overview)。
 
 ## 存取權要求
 
@@ -49,7 +51,7 @@ ht-degree: 11%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

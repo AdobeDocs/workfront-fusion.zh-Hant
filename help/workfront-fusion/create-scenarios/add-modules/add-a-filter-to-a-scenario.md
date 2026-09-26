@@ -4,16 +4,18 @@ description: 在某些情況下，您只需要使用符合特定條件的組合�
 author: Becky
 feature: Workfront Fusion
 exl-id: b507dca0-0e85-4ab7-8310-b6e6bcb7ae12
-TQID: https://experienceleague.adobe.com/YMoeIdlzd7omGJoEFHUPTYl3eKayIp0LfbqkohVEXjs
+TQID: 'https://experienceleague.adobe.com/YMoeIdlzd7omGJoEFHUPTYl3eKayIp0LfbqkohVEXjs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '528'
 ht-degree: 19%
-
 ---
-
 # 在情境中加入篩選器
 
 在某些情況下，您只需要使用符合特定條件的組合。 篩選可讓您選取這些組合。
@@ -50,7 +52,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

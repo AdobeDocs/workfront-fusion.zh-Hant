@@ -3,13 +3,22 @@ title: Adobe Firefly音訊與視訊模組
 description: 在Adobe Workfront Fusion情境中，您可以自動化使用Adobe Firefly音訊和視訊的工作流程，並將其連線到多個協力廠商應用程式和服務。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 14%
-
 ---
-
 # Adobe Firefly音訊與視訊模組
 
 在Adobe Workfront Fusion情境中，您可以自動化使用Adobe Firefly音訊和視訊的工作流程，並將其連線到多個協力廠商應用程式和服務。
@@ -50,7 +59,7 @@ ht-degree: 14%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 

@@ -4,16 +4,18 @@ description: 依照此一般工作流程建立情境
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-TQID: https://experienceleague.adobe.com/5j4My9ds8RdA3frEKdRHBFiWpQr-6fI0DfVyWSIgBPc
+TQID: 'https://experienceleague.adobe.com/5j4My9ds8RdA3frEKdRHBFiWpQr-6fI0DfVyWSIgBPc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 782
+source-wordcount: '782'
 ht-degree: 3%
-
 ---
-
 # 建立情境的工作流程
 
 情境的建置符合您組織的需求，包含可處理使用案例的應用程式和模組。 但是，無論使用案例如何，建立案例時都會遵循相同的基本工作流程。 本文會說明建立情境的基本程式。
@@ -141,37 +143,37 @@ ht-degree: 3%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 儲存] </td> 
+   <td role="rowheader">[！UICONTROL儲存] </td> 
    <td>Ctrl+Shift+S</td> 
    <td>Cmd+Shift+S</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 執行一次]</td> 
+   <td role="rowheader">[！UICONTROL執行一次]</td> 
    <td>Ctrl+Shift+Enter</td> 
    <td>Cmd+Shift+Enter</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 開啟開發工具]</td> 
+   <td role="rowheader">[！UICONTROL開啟開發工具]</td> 
    <td>F12</td> 
    <td>Ctrl+Fn+F12</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 選取多個模組]</td> 
+   <td role="rowheader">[！UICONTROL選取多個模組]</td> 
    <td>Shift+拖曳</td> 
    <td>Shift+拖曳</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 副本]</td> 
+   <td role="rowheader">[！UICONTROL副本]</td> 
    <td>Ctrl+C</td> 
    <td>Cmd+C</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 貼上]</td> 
+   <td role="rowheader">[！UICONTROL貼上]</td> 
    <td>Ctrl+V</td> 
    <td>Cmd+V</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 搜尋模組]</td> 
+   <td role="rowheader">[！UICONTROL搜尋模組]</td> 
    <td>Ctrl+K</td> 
    <td>Cmd+K</span> </td> 
   </tr> 

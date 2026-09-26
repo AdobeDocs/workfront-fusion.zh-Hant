@@ -5,13 +5,17 @@ description: 本節包含與在Adobe Workfront Fusion中管理情境相關的文
 author: Becky
 feature: Workfront Fusion
 exl-id: 4e2f1bbb-fcd6-4724-bd0f-c028f3ea8d69
-source-git-commit: e63ec5927f2844f94fd0c7cd3f9890b7d236aede
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 19%
-
 ---
-
 # 從案例區域管理案例
 
 在「案例」區域中，您可以檢視團隊所擁有案例的相關資訊。 您也可以複製、移動或刪除情境，或將它們指派給特定工作者集區。
@@ -45,7 +49,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -61,7 +65,7 @@ ht-degree: 19%
 1. 若要複製情境，請按一下該情境列中的核取方塊，然後從畫面底部的列中選取&#x200B;**複製**。
 
    如需複製案例的詳細資訊，請參閱複製模組或案例一文中的[複製案例](/help/workfront-fusion/create-scenarios/add-modules/copy-modules-or-scenarios.md#copy-a-scenario-by-cloning)。
-1. 若要將一或多個情境移至資料夾，請按一下您要移動之各情境旁的核取方塊，然後按一下畫面底部列中的&#x200B;**移至資料夾**。 在出現的視窗中，選取您要移動情境的資料夾，然後按一下[移動]。**&#x200B;**
+1. 若要將一或多個情境移至資料夾，請按一下您要移動之各情境旁的核取方塊，然後按一下畫面底部列中的&#x200B;**移至資料夾**。 在出現的視窗中，選取您要移動情境的資料夾，然後按一下[移動]。****
 1. 若要將一或多個案例指派給背景工作集區，請按一下您要指派給集區的每個案例旁的核取方塊，然後按一下畫面底部列中的&#x200B;**指派給背景工作集區**。 選取您要指派案例的工作者集區。
 1. 若要刪除情境，請按一下您要刪除情境旁的核取方塊，然後按一下頁面底部列中的&#x200B;**刪除**。
 1. 若要隱藏清單欄，請按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/glist-column.png)並核取或取消核取欄名稱旁的方塊。

@@ -4,16 +4,18 @@ description: 您可以在Adobe Workfront Fusion中使用MIME型別。 多用途�
 author: Becky
 feature: Workfront Fusion
 exl-id: 9259356b-5b42-4b6d-9854-fce9718d14e3
-TQID: https://experienceleague.adobe.com/65lJuH7aL35rZCYDowjJuxuQAh88LHNyL3XRQVDJoOY
+TQID: 'https://experienceleague.adobe.com/65lJuH7aL35rZCYDowjJuxuQAh88LHNyL3XRQVDJoOY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 358
+source-wordcount: '358'
 ht-degree: 25%
-
 ---
-
 # [!UICONTROL MIME]模組
 
 您可以在Adobe Workfront Fusion中使用MIME型別。 多用途網際網路郵件延伸模組(MIME)型別是標籤，可讓軟體識別網際網路上共用的不同資料型別。 Web伺服器和瀏覽器會使用MIME型別來決定應該對檔案執行的操作。 例如，MIME型別為`text/html`的檔案在瀏覽器中的處理方式與MIME型別為`image/jpeg`的檔案不同。 MIME型別獨立於作業系統和硬體。
@@ -43,7 +45,7 @@ ht-degree: 25%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -63,7 +65,7 @@ ht-degree: 25%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL MIME型別]</td> 
+   <td role="rowheader">[！UICONTROL MIME型別]</td> 
    <td> <p>輸入或對應您要決定副檔名的MIME型別。 </p> </td> 
   </tr> 
  </tbody> 
@@ -78,12 +80,12 @@ ht-degree: 25%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 檔案]</td> 
+   <td role="rowheader">[！UICONTROL檔案]</td> 
    <td> <p>輸入或對應您要決定其MIME型別的檔案。 </p> <p>您可以使用以下方式輸入檔案：</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 檔案路徑]</strong> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>/file/image.jpeg</p> </li> 
-     <li><strong>[!UICONTROL 檔案名稱]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>image.jpeg</p> </li> 
-     <li><strong>[!UICONTROL 副檔名]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>jpeg</p> </li> 
+     <li> <p><strong>[！UICONTROL檔案路徑]</strong> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>/file/image.jpeg</p> </li> 
+     <li><strong>[！UICONTROL檔案名稱]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>image.jpeg</p> </li> 
+     <li><strong>[！UICONTROL副檔名]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span>jpeg</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

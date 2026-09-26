@@ -5,24 +5,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 823aa376-fbfe-4750-82dc-4f34224c1a48
-TQID: https://experienceleague.adobe.com/DtdOS-HFHhcq5lm8LTtc9gdVGgDwtg9tfh9shZPwNDs
+TQID: 'https://experienceleague.adobe.com/DtdOS-HFHhcq5lm8LTtc9gdVGgDwtg9tfh9shZPwNDs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Administration
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 2%
-
 ---
-
 # 文件的存取權要求
 
 Adobe Workfront Fusion檔案操作說明文章包含一個表格，其中說明該程式所需的存取和許可權要求。 此存取需求表格可讓您瞭解您是否可以在Fusion中執行特定動作，或為何無法執行。 本文說明存取需求表格的每個元素，並提供疑難排解提示和連結，以取得更深入的資訊。
@@ -45,7 +51,7 @@ Adobe Workfront Fusion檔案操作說明文章包含一個表格，其中說明�
    <td role="rowheader">Adobe Workfront 封裝 
    <td> Adobe Workfront套件是指您的組織已購買的一組功能。 大部分的Fusion功能都可在所有計畫中使用，但有一些例外情況僅適用於具有Ultimate Workfront套件的組織。 
    <ul><li>若要瞭解您的組織使用哪個Adobe Workfront套件，包括您的組織使用新的或目前的封裝模式，請聯絡您的Workfront管理員。</li>
-   <li>如需Workfront管理員如何找到您組織的Workfront封裝的說明，請參閱防火牆概觀一文中的<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-package">檢視您組織的叢集和Workfront計畫</a>。</li><li>如需有關新Workfront套件的詳細資訊，請參閱<a href="https://business.adobe.com/tw/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul> </td> 
+   <li>如需Workfront管理員如何找到您組織的Workfront封裝的說明，請參閱防火牆概觀一文中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-package">檢視您組織的叢集和Workfront計畫</a>。</li><li>如需有關新Workfront套件的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -54,9 +60,9 @@ Adobe Workfront Fusion檔案操作說明文章包含一個表格，其中說明�
    <li>若要瞭解系統指派給您的授權，請連絡Workfront管理員。</li>
    <li>Adobe Workfront正在轉換至新的定價與封裝模式。 如需授權的相關資訊，請參閱：
    <ul>
-   <li>新增： <a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/add-users/access-levels/licenses-overview">新授權總覽</a></li>
-   <li>目前： <a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/add-users/legacy-access-levels/wf-licenses">授權總覽</a></li></ul></li>
-   <li>如果您擁有正確的存取層級，但仍然沒有存取權，請詢問您的Workfront管理員，他們是否對您的存取層級設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/add-users/configure-access/create-modify-access-levels" class="MCXref xref">建立和修改自訂存取層級</a>。
+   <li>新增： <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/access-levels/licenses-overview">新授權總覽</a></li>
+   <li>目前： <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/legacy-access-levels/wf-licenses">授權總覽</a></li></ul></li>
+   <li>如果您擁有正確的存取層級，但仍然沒有存取權，請詢問您的Workfront管理員，他們是否對您的存取層級設定其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/configure-access/create-modify-access-levels" class="MCXref xref">建立和修改自訂存取層級</a>。
    </ul>
       </p> </td> 
   </tr> 

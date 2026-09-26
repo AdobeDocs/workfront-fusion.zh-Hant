@@ -4,16 +4,18 @@ description: Adobe Workfront Fusion 需要 Adobe Workfront 授權以及 Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: de81ad4c-27e5-4b6c-acf0-f01a8c85922e
-TQID: https://experienceleague.adobe.com/3bzje0OOFp4aA6KeWzSGU-hIUHSCBhAerh8GIX3GNWc
+TQID: 'https://experienceleague.adobe.com/3bzje0OOFp4aA6KeWzSGU-hIUHSCBhAerh8GIX3GNWc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 705
+source-wordcount: '705'
 ht-degree: 100%
-
 ---
-
 # 情境概觀
 
 Adobe Workfront Fusion 的角色是將您的流程自動化，讓您的使用者不需要花費太多時間處理例行性任務。 其將應用程式和服務內部及兩者之間的動作連結起來，並建立一個自動轉移和轉換您的資料的情境。 您建立的情境會監視應用程式或服務中的資料，並處理該資料以便提供您想要的結果。
@@ -111,5 +113,5 @@ Workfront Fusion 可連接至其他應用程式和網頁服務。 您可以存�
 * 如需 Workfront Fusion 所使用詞語的字彙表，請參閱 [Adobe Workfront Fusion 字彙表](/help/workfront-fusion/get-started-with-fusion/understand-fusion/fusion-glossary.md)。
 * 若要開始建置練習情境，請參閱[建立基本情境](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md)。
 * 如需建立和管理情境的詳細資訊，請參閱下列文章：
-   * [建立情境](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)
-   * [管理情境](/help/workfront-fusion/manage-scenarios/manage-scenarios-toc.md)
+  * [建立情境](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)
+  * [管理情境](/help/workfront-fusion/manage-scenarios/manage-scenarios-toc.md)

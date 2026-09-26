@@ -5,16 +5,18 @@ description: 本文說明情境如何執行以及資料如何流經情境。 本
 author: Becky
 feature: Workfront Fusion
 exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
-TQID: https://experienceleague.adobe.com/gze4-OOI8ekVaS71VgkFeT3Yef1xUoqumWYauC9Es2I
+TQID: 'https://experienceleague.adobe.com/gze4-OOI8ekVaS71VgkFeT3Yef1xUoqumWYauC9Es2I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 28b8a270f6cb0e7a42c81153493b983d5b9e428b
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '771'
 ht-degree: 1%
-
 ---
-
 # 情境執行流程
 
 本文說明案例如何執行、資料如何流經案例，以及如何檢視每個模組處理的資料。

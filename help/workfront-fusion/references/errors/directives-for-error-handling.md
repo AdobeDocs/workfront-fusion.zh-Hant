@@ -5,18 +5,21 @@ description: 本文說明可用於在Adobe Workfront Fusion案例中處理錯誤
 author: Becky
 feature: Workfront Fusion
 exl-id: d7b0141f-d99d-4ab7-a60f-ed552a76f05d
-TQID: https://experienceleague.adobe.com/4vL9oj7UXeRWQuSzDZP7GJU30oHUg1m75gWGVUkfCfA
+TQID: 'https://experienceleague.adobe.com/4vL9oj7UXeRWQuSzDZP7GJU30oHUg1m75gWGVUkfCfA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e6873ab923b73175d1889b44df5d7c1baf9d42fb
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 529
+source-wordcount: '529'
 ht-degree: 34%
-
 ---
-
 # 錯誤處理的指示詞
 
 錯誤處理指令可讓您選擇案例發生錯誤時發生的情形。
@@ -46,7 +49,7 @@ ht-degree: 34%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -64,7 +67,7 @@ Workfront Fusion中有以下錯誤處理指示。
   </tr> 
   <tr> 
    <td role="rowheader"> <p>中斷</p> <p> <img src="assets/break.png"> </p> </td> 
-   <td><ul><li> <p>情境執行的狀態儲存在未完成執行作業的佇列中，而錯誤可以手動解決。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">檢視並解決不完整的執行</a>。</p> <p>不過，也有一些例外。 如需詳細資訊，請參閱「設定案例設定」一文中的<a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow" class="MCXref xref">允許儲存未完成的執行</a></a>。</p></li><li> <p>後續模組不會處理。</p></li><li> <p>若有未處理的套件，情境執行將按正常情況繼續。</p> </li><li><p>停用[!UICONTROL 自動完成執行]選項時，案例執行狀態會標示為「警告」。</p></li></ul> <p>如需詳細資訊，請參閱本文中的<a href="#break" class="MCXref xref">[!UICONTROL 分頁符號]</a>一節</p> </td> 
+   <td><ul><li> <p>情境執行的狀態儲存在未完成執行作業的佇列中，而錯誤可以手動解決。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">檢視並解決不完整的執行</a>。</p> <p>不過，也有一些例外。 如需詳細資訊，請參閱「設定案例設定」一文中的<a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow" class="MCXref xref">允許儲存未完成的執行</a></a>。</p></li><li> <p>後續模組不會處理。</p></li><li> <p>若有未處理的套件，情境執行將按正常情況繼續。</p> </li><li><p>停用[！UICONTROL自動完成執行]選項時，案例執行狀態會標示為「警告」。</p></li></ul> <p>如需詳細資訊，請參閱本文中的<a href="#break" class="MCXref xref">[！UICONTROL分頁符號]</a>一節</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>繼續</p> <p> <img src="assets/resume.png"> </p> </td> 

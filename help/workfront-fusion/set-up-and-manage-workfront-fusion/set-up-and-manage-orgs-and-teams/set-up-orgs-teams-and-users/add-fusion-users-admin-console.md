@@ -8,23 +8,25 @@ description: 您可以將使用者新增到Adobe Admin Console並將他們指派
 author: Becky
 feature: Workfront Fusion
 exl-id: 7cb1c1a7-3c7a-459a-818f-d9cefcb9988b
-TQID: https://experienceleague.adobe.com/jo9dNX5czLlg7Wi4iFBR6FlOM-fmM-i3zoEhh5sgsqc
+TQID: 'https://experienceleague.adobe.com/jo9dNX5czLlg7Wi4iFBR6FlOM-fmM-i3zoEhh5sgsqc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: '607'
 ht-degree: 20%
-
 ---
-
 # 透過 Adobe Admin Console 將使用者新增至 Adobe Workfront Fusion
 
 您可以將使用者新增到[!DNL Adobe Admin Console]並將他們指派到Adobe Workfront Fusion，或將[!DNL Adobe Admin Console]中的現有使用者指派到Workfront Fusion。
 
-如需在[!DNL Adobe Admin Console]中說明Workfront Fusion的影片，包括如何新增使用者，請參閱Adobe IMS[&#128279;](https://video.tv.adobe.com/v/3412464/){target=_blank}上的[!DNL Fusion] 。
+如需在[!DNL Adobe Admin Console]中說明Workfront Fusion的影片，包括如何新增使用者，請參閱Adobe IMS](https://video.tv.adobe.com/v/3412464/){target=_blank}上的[[!DNL Fusion] 。
 
 ## 存取權要求
 
@@ -63,7 +65,7 @@ ht-degree: 20%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -104,7 +106,7 @@ ht-degree: 20%
 
    使用者是在Workfront Fusion中建立。
 
-1. （選用）繼續在Workfront Fusion[&#128279;](#change-a-users-access-level-in-workfront-fusion)中變更使用者的存取層級。
+1. （選用）繼續在Workfront Fusion](#change-a-users-access-level-in-workfront-fusion)中[變更使用者的存取層級。
 
 ## 在Workfront Fusion中變更使用者的存取層級
 

@@ -4,18 +4,21 @@ description: 您可以在Adobe Workfront Fusion中複製模組、模組群組或
 author: Becky
 feature: Workfront Fusion
 exl-id: 5cece7d4-b2c7-4276-8a6f-f65bad799c7a
-TQID: https://experienceleague.adobe.com/JLouqKhRBefW2RU5BnwYQfapJz-SWcSmtqAqg--kOjo
+TQID: 'https://experienceleague.adobe.com/JLouqKhRBefW2RU5BnwYQfapJz-SWcSmtqAqg--kOjo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 936fc6b4d5688e42ad6d762d4f43abf8be47e5af
+    internal-label: Troubleshooting
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: '941'
 ht-degree: 10%
-
 ---
-
 # 複製模組或情境
 
 您可以在Adobe Workfront Fusion中複製模組、模組群組或整個案例。 此功能可讓您重複使用案例或案例的一部分，而無需再次建置它們。
@@ -45,7 +48,7 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

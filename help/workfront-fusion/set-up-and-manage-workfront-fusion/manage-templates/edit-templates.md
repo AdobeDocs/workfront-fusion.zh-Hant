@@ -6,22 +6,27 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 473dba8b-faa4-432f-9357-c2146e86b261
-TQID: https://experienceleague.adobe.com/J7kDB9abxI53dRs6xZikcHRDbgHZZfEhWLzGDUw2CRg
+TQID: 'https://experienceleague.adobe.com/J7kDB9abxI53dRs6xZikcHRDbgHZZfEhWLzGDUw2CRg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Privacy
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 2%
-
 ---
-
 # 編輯範本
 
 Adobe Workfront Fusion範本是預先建立的情境，旨在自動化和簡化各種工作流程。 這些範本可協助您快速設定整合和自動化，而不需要從頭開始建立所有內容。
@@ -44,7 +49,7 @@ Adobe Workfront Fusion範本是預先建立的情境，旨在自動化和簡化�
     </tr>
     <tr data-mc-conditions="">
       <td role="rowheader">Adobe Workfront授權</td>
-      <td><p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p></td>
+      <td><p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p></td>
     </tr>
     <tr>
       <td role="rowheader">Adobe Workfront Fusion授權**</td>
@@ -59,8 +64,8 @@ Adobe Workfront Fusion範本是預先建立的情境，旨在自動化和簡化�
       <td>
         <p>新增:</p>
         <ul>
-          <li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li>
-          <li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li>
+          <li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li>
+          <li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li>
         </ul>
         <p>或</p>
         <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>
@@ -83,7 +88,7 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
 1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 所有範本]**。
 1. 按一下您要編輯的範本右邊的&#x200B;**[!UICONTROL 詳細資料]**。
 1. （選擇性）按一下右上角的&#x200B;**選項**&#x200B;並選取&#x200B;**重新命名**，以重新命名範本。
-1. （選擇性）若要變更範本的語言，請按一下[建立新範本] **![&#x200B; [案例設定]圖示](assets/fusion-scenario-settings-icon.png)，然後從[語言]下拉式清單中選取語言。**
+1. （選擇性）若要變更範本的語言，請按一下[建立新範本] ]**![ [案例設定]圖示](assets/fusion-scenario-settings-icon.png)，然後從[語言]下拉式清單中選取語言。**[!UICONTROL 
 
    >[!IMPORTANT]
    >

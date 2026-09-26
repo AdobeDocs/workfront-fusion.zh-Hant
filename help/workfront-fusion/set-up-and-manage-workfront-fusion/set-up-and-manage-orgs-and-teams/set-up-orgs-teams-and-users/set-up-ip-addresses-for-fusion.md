@@ -4,18 +4,21 @@ description: Fusion使用特定的IP位址和網域進行Web通訊。 必須先�
 author: Becky
 feature: Workfront Fusion
 exl-id: 406dd45c-0863-4270-a80e-c1c115e0b367
-TQID: https://experienceleague.adobe.com/-ogVZgc8Jan8jmPV-l8PzajHzJrZ1np6dS-h7OAYY10
+TQID: 'https://experienceleague.adobe.com/-ogVZgc8Jan8jmPV-l8PzajHzJrZ1np6dS-h7OAYY10'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Security
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 569
-ht-degree: 8%
-
+source-wordcount: '554'
+ht-degree: 6%
 ---
-
 # 在組織的允許清單中設定 Fusion 的 IP 位址
 
 由於Adobe Workfront Fusion會與貴組織的網路通訊，因此貴組織的防火牆必須設定為允許該通訊。 防火牆是高度有效的安全措施，可將組織的網路與網際網路隔離開來。 它們可確保只有選取的資料和網路流量可以移入或移出組織的網路。 防火牆會根據傳送或接收資料的網站，允許或封鎖資料。 身為Fusion管理員，您必須確保傳送至或來自Fusion的資料可透過您組織的防火牆。

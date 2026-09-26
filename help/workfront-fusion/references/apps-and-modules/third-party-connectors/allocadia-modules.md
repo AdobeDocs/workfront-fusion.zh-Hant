@@ -4,18 +4,21 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Alloca
 author: Becky
 feature: Workfront Fusion
 exl-id: 9a6fccd6-6eee-42dc-a678-c1f34280d139
-TQID: https://experienceleague.adobe.com/bCfkq5fzw21hmZWLrWztL27g2RAlBbyk9vPEQ-v6bBU
+TQID: 'https://experienceleague.adobe.com/bCfkq5fzw21hmZWLrWztL27g2RAlBbyk9vPEQ-v6bBU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1469'
 ht-degree: 56%
-
 ---
-
 # [!DNL Allocadia] 模組
 
 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Allocadia] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
@@ -56,7 +59,7 @@ ht-degree: 56%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -119,11 +122,11 @@ Allocadia聯結器使用下列專案：
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL 連線]</p> </td> 
-   <td> <p>如需有關將Allocadia帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia]到Workfront Fusion</a>。</p> </td> 
+   <td> <p>如需有關將Allocadia帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[！UICONTROL Connect Allocadia]到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">篩選器</td> 
-   <td> <p>選取您希望情境只觀看「新記錄」、「&lbrack;！UICONTROL僅更新記錄」，還是「新記錄和更新記錄」。</p> </td> 
+   <td> <p>選取您希望情境只觀看「新記錄」、「[！UICONTROL僅更新記錄」，還是「新記錄和更新記錄」。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">實體型別</td> 
@@ -209,12 +212,12 @@ Allocadia聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL Allocadia] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將 [!DNL Allocadia] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 實體型別]</td> 
+   <td role="rowheader">[！UICONTROL實體型別]</td> 
    <td>選取您希望模組讀取的[!DNL Allocadia]記錄型別。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 輸出]</td> 
-   <td> <p>選取您要納入模組輸出的欄位。 可用欄位取決於您選取的[!UICONTROL 實體型別]。</p> </td> 
+   <td> <p>選取您要納入模組輸出的欄位。 可用欄位取決於您選取的[！UICONTROL實體型別]。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -240,11 +243,11 @@ Allocadia聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL Allocadia] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將 [!DNL Allocadia] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 實體型別]</td> 
+   <td role="rowheader">[！UICONTROL實體型別]</td> 
    <td>選取您要建立以線上專案或欄選擇為基礎的新記錄。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 預算]</td> 
+   <td role="rowheader">[！UICONTROL預算]</td> 
    <td> <p>選取您要建立記錄的預算。</p> </td> 
   </tr> 
   <tr> 
@@ -277,12 +280,12 @@ Allocadia聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL Allocadia] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將 [!DNL Allocadia] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 實體型別]</td> 
+   <td role="rowheader">[！UICONTROL實體型別]</td> 
    <td> <p>選取要刪除的實體型別。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 條列專案]</strong> </p> <p>輸入明細專案識別碼</p> </li> 
-     <li> <p><strong>[!UICONTROL 資料行選擇]</strong> </p> <p>選取您要刪除記錄的預算，然後輸入「欄位識別碼」與「選擇識別碼」。</p> </li> 
-     <li> <p><strong>[!UICONTROL 預測標籤]</strong> </p> <p>選取您要刪除記錄的預算，然後輸入盤點單識別碼。</p> </li> 
+     <li> <p><strong>[！UICONTROL條列專案]</strong> </p> <p>輸入明細專案識別碼</p> </li> 
+     <li> <p><strong>[！UICONTROL資料行選擇]</strong> </p> <p>選取您要刪除記錄的預算，然後輸入「欄位識別碼」與「選擇識別碼」。</p> </li> 
+     <li> <p><strong>[！UICONTROL預測標籤]</strong> </p> <p>選取您要刪除記錄的預算，然後輸入盤點單識別碼。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -304,14 +307,14 @@ Allocadia聯結器使用下列專案：
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
-   <td> <p>如需有關將您的[!UICONTROL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
+   <td> <p>如需有關將您的[！UICONTROL Allocadia]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將[!DNL Allocadia]連線到Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 實體型別]</td> 
+   <td role="rowheader">[！UICONTROL實體型別]</td> 
    <td>選取您希望模組更新的[!DNL Allocadia]記錄型別。 其他欄位會根據您選取的實體型別而顯示。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 預算]</td> 
+   <td role="rowheader">[！UICONTROL預算]</td> 
    <td> <p>選取您要更新記錄的預算。 </p> </td> 
   </tr> 
  </tbody> 
@@ -338,19 +341,19 @@ Allocadia聯結器使用下列專案：
    <td> <p>關於將您的 [!DNL Allocadia] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">將 [!DNL Allocadia] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 實體型別]</td> 
+   <td role="rowheader">[！UICONTROL實體型別]</td> 
    <td>選取您要模組搜尋的[!DNL Allocadia]記錄型別。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 預算]</td> 
+   <td role="rowheader">[！UICONTROL預算]</td> 
    <td> <p>選取您要搜尋的預算。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 結果集]</td> 
+   <td role="rowheader">[！UICONTROL結果集]</td> 
    <td>選取您希望模組傳回「所有比對記錄」，還是隻傳回「第一個比對記錄」。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 最大記錄數]</td> 
+   <td role="rowheader">[！UICONTROL最大記錄數]</td> 
    <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
   <tr> 

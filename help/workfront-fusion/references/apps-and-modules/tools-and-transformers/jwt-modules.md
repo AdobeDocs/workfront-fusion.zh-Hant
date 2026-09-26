@@ -4,16 +4,18 @@ description: Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提�
 author: Becky
 feature: Workfront Fusion
 exl-id: 380f60db-b2ec-411a-86ee-0d5699f19b41
-TQID: https://experienceleague.adobe.com/90zhDiLzi34ES2MPE-hg26mmSHZ-XQIgZJIFeW4vwy4
+TQID: 'https://experienceleague.adobe.com/90zhDiLzi34ES2MPE-hg26mmSHZ-XQIgZJIFeW4vwy4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '528'
 ht-degree: 18%
-
 ---
-
 # [!UICONTROL JWT]模組
 
 Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提供的演演算法建立JWT權杖的模組。
@@ -43,7 +45,7 @@ Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提供的演演�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -75,7 +77,7 @@ JWT聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 演演算法]</td> 
+   <td role="rowheader">[！UICONTROL演演算法]</td> 
    <td> <p>選取您要用來產生JWT的演演算法。</p> <ul>
    <li><b>HS256</b>：使用SHA-256雜湊演演算法的HMAC</li>
    <li><b>HS384</b>：使用SHA-384雜湊演演算法的HMAC</li>
@@ -92,7 +94,7 @@ JWT聯結器使用下列專案：
    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 裝載] </td> 
+   <td role="rowheader">[！UICONTROL裝載] </td> 
    <td> <p>針對您要新增的每個裝載專案，按一下<b>新增專案</b>並輸入專案的索引鍵和值。</p> </td> 
   </tr> 
   <tr> 

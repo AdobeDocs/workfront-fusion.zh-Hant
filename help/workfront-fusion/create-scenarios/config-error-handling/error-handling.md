@@ -4,16 +4,18 @@ description: 當在執行案例期間發生錯誤時，通常是因為服務因�
 author: Becky
 feature: Workfront Fusion
 exl-id: 82ddaf73-ecf9-4fd6-8f8e-909351023c77
-TQID: https://experienceleague.adobe.com/3Ro1DMD2tIXSZuXo77JEw2EtlVpoS-D6CNGyR9QcFXg
+TQID: 'https://experienceleague.adobe.com/3Ro1DMD2tIXSZuXo77JEw2EtlVpoS-D6CNGyR9QcFXg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1156
+source-wordcount: '1156'
 ht-degree: 9%
-
 ---
-
 # 新增錯誤處理
 
 執行情境期間可能會發生錯誤。
@@ -31,7 +33,7 @@ ht-degree: 9%
 
 如需預設錯誤處理的詳細資訊，請參閱[錯誤型別](/help/workfront-fusion/references/errors/error-processing.md)。
 
-如需錯誤處理指示的詳細資訊，請參閱錯誤處理[&#128279;](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的指示。
+如需錯誤處理指示的詳細資訊，請參閱錯誤處理](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的[指示。
 
 >[!NOTE]
 >
@@ -63,7 +65,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -171,7 +173,7 @@ ht-degree: 9%
 
 ## 處理指示時發生錯誤
 
-這些指示詞會簡要說明如下。 如需詳細資訊，請參閱錯誤處理[&#128279;](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的指示。
+這些指示詞會簡要說明如下。 如需詳細資訊，請參閱錯誤處理](/help/workfront-fusion/references/errors/directives-for-error-handling.md)的[指示。
 
 有五個指令，可根據錯誤後案例執行是否繼續分組為下列類別。
 

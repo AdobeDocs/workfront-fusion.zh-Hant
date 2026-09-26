@@ -4,16 +4,18 @@ description: 您可以檢視、還原、重新命名或下載情境舊版的Blue
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-TQID: https://experienceleague.adobe.com/xVihxZH-fwPCIkryQAQEOWgeShtPTMXth4jEl5OLdbo
+TQID: 'https://experienceleague.adobe.com/xVihxZH-fwPCIkryQAQEOWgeShtPTMXth4jEl5OLdbo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 93887116991b505676f5c51762b47829dae9bb7a
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 11%
-
 ---
-
 # 檢視和管理案例版本
 
 Adobe Workfront Fusion會在每次變更時儲存案例的版本。
@@ -50,7 +52,7 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -60,10 +62,10 @@ Adobe Workfront Fusion會在每次變更時儲存案例的版本。
 1. 按一下畫面底部的[!UICONTROL 更多]圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 舊版]**。
 
    先前版本的清單隨即顯示。
-1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。**&#x200B;**
+1. （選擇性）若要重新命名版本，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，選取&#x200B;**[編輯]**，然後在欄位中輸入名稱。 按一下[儲存]儲存新名稱。****
 
    建議您提供名稱，說明針對此版本所做的變更。
-1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]&#x200B;**&#x200B;**。
+1. （選擇性）若要下載舊版的Blueprint，請按一下該版本行上的[更多]功能表![[更多]功能表](assets/more-icon-vertical.png)，然後選取[下載]****。
 1. （選擇性）若要比較兩個版本之間的變更，請按一下該版本的&#x200B;**檢視變更**。
 
    如需比較版本的詳細資訊與指示，請參閱本文中的[比較案例版本](#compare-scenario-versions)。

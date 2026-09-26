@@ -4,16 +4,18 @@ description: 資料結構是一份檔案，詳細說明要傳輸至Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 93abf8a5-a3a1-448e-834b-1cc81b88036b
-TQID: https://experienceleague.adobe.com/e8cGFEEP3-wxExVZNNRG8bf-6CbpN56xGTGbHSV6MVg
+TQID: 'https://experienceleague.adobe.com/e8cGFEEP3-wxExVZNNRG8bf-6CbpN56xGTGbHSV6MVg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 1%
-
 ---
-
 # 資料結構
 
 資料結構是一種檔案或模式，詳細說明了Adobe Workfront Fusion中正在處理的資料格式。 根據此檔案，案例編輯器能夠確定哪個模組傳回或接收哪種資料。 資料結構檔案最常用於序列化/剖析資料格式，例如JSON、XML、CSV等。

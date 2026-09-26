@@ -4,16 +4,18 @@ description: 您可以顯示情境的事件或執行相關資訊，也可以搜�
 author: Becky
 feature: Workfront Fusion
 exl-id: 974b32b4-d86a-48cd-a8d4-1ae2cf309b9b
-TQID: https://experienceleague.adobe.com/V2lG2ns3rokHSCoYYsfjfZiRfsqqOUteLJTD52RcQdQ
+TQID: 'https://experienceleague.adobe.com/V2lG2ns3rokHSCoYYsfjfZiRfsqqOUteLJTD52RcQdQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 915
+source-wordcount: '915'
 ht-degree: 12%
-
 ---
-
 # 檢視情境的執行歷史記錄
 
 您可以顯示情境的事件或執行相關資訊，也可以搜尋情境的所有執行以尋找特定資料。
@@ -51,7 +53,7 @@ ht-degree: 12%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -118,7 +120,7 @@ ht-degree: 12%
 
 您可以篩選執行歷史記錄，以僅檢視具有指定值的執行。
 
-1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤[&#128279;](#view-scenario-history-on-the-history-tab)上的檢視情境執行歷程記錄中所述。
+1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤](#view-scenario-history-on-the-history-tab)上的[檢視情境執行歷程記錄中所述。
 1. 按一下您要作為篩選依據之欄標題中的[!UICONTROL 篩選器]圖示![情境篩選器圖示](assets/fusion-scenario-filter-icon.png)。
 1. 在[!UICONTROL 篩選器]對話方塊中，輸入您要作為篩選依據的值。
 1. 按一下「**[!UICONTROL 儲存]**」。
@@ -138,13 +140,13 @@ You can sort the scenario execution history.
 
 ## 搜尋情境的所有執行
 
-1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤[&#128279;](#view-scenario-history-on-the-history-tab)上的檢視情境執行歷程記錄中所述。
+1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤](#view-scenario-history-on-the-history-tab)上的[檢視情境執行歷程記錄中所述。
 1. 按一下執行清單頂端的&#x200B;**[!UICONTROL 全文檢索搜尋]**。
 
    或
 
    輸入&#x200B;**Ctrl+Shift+F** (Windows)或&#x200B;**Cmd+Shift+F** (Mac)
-會開啟[!UICONTROL 搜尋歷史記錄]視窗。
+   會開啟[!UICONTROL 搜尋歷史記錄]視窗。
 
 1. （選擇性）若要搜尋包含特定文字的執行，請在&#x200B;**[!UICONTROL 在歷程記錄]**&#x200B;視窗中搜尋的搜尋列中輸入文字。
 

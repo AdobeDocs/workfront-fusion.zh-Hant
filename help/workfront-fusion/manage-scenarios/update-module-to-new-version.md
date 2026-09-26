@@ -4,16 +4,18 @@ description: 由於Workfront Fusion連線到的應用程式可能會更新或發
 author: Becky
 feature: Workfront Fusion
 exl-id: b7f07fa5-9d81-48b3-b0ce-7a18b3b44508
-TQID: https://experienceleague.adobe.com/UZ0f1dI1YPiM9C7dYJYyCg0dhd5F025yG10K5-M5YrM
+TQID: 'https://experienceleague.adobe.com/UZ0f1dI1YPiM9C7dYJYyCg0dhd5F025yG10K5-M5YrM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 373
+source-wordcount: '373'
 ht-degree: 27%
-
 ---
-
 # 將模組升級至新版本
 
 由於Workfront Fusion連線到的應用程式可能會更新或發行新版本，因此Fusion偶爾需要為這些應用程式發行更新的模組。
@@ -49,7 +51,7 @@ ht-degree: 27%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -60,8 +62,8 @@ ht-degree: 27%
 1. 選擇下列其中一項：
 
    * 若要選取新的模組來取代此模組（而非升級模組），請按一下[選擇新的] **，然後按照[將非Workfront模組升級為新版本] [中的說明繼續進行。](#upgrade-a-non-workfront-module-to-a-new-version)**
-   * 若要僅升級此模組，保留模組組態，請按一下[升級]。**&#x200B;**
-   * 若要升級案例中的所有Workfront模組，請按一下[全部升級]。**&#x200B;**
+   * 若要僅升級此模組，保留模組組態，請按一下[升級]。****
+   * 若要升級案例中的所有Workfront模組，請按一下[全部升級]。****
 
 1. 儲存情境。
 

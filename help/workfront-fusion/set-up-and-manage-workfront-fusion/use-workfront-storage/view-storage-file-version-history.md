@@ -5,13 +5,15 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: a2632cb3184cd555555136288e78ab1e05e4ea9d
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 129
+source-wordcount: '129'
 ht-degree: 0%
-
 ---
-
 # 檢視儲存體中的檔案版本記錄
 
 如需儲存的概述，請參閱[儲存概述](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/storage-overview.md)。
@@ -23,7 +25,7 @@ Adobe儲存體中的檔案可以有多個版本。
 1. 在Workfront Fusion中，按一下左側導覽中的&#x200B;**儲存空間**。
 1. 導覽至儲存庫和資料夾，其中包含您要檢視版本的檔案。
 1. 選取檔案並按一下動作列中的&#x200B;**「版本」**。
-**版本記錄**&#x200B;面板隨即開啟。
+**版本記錄**面板隨即開啟。
 版本以最新為先列出，每個都顯示：
    * 版本號碼
    * 日期

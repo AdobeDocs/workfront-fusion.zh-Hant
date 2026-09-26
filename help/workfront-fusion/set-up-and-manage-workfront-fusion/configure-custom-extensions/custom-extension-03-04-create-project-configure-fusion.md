@@ -11,15 +11,17 @@ recommendations: noDisplay, noCatalog
 exl-id: bbc94bb0-7432-44c5-8000-9aea25916b28
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: a9dd86f7dc4070ad98c7c4a526a6a38939097940
+    internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: '1360'
 ht-degree: 0%
-
 ---
-
 # 建立UI擴充性的專案
 
 >[!NOTE]
@@ -186,7 +188,7 @@ ht-degree: 0%
 
    我們建議在延伸點(`fusion-nav-organization-1`)之後命名資料夾。 確切的名稱由您決定，但必須符合您在`app.config.yaml`中參照的名稱。
 
-1. 繼續在`app.config.yaml`[&#128279;](#declare-the-extension-point-in-appconfigyaml)中宣告擴充點。
+1. 繼續在`app.config.yaml`](#declare-the-extension-point-in-appconfigyaml)中[宣告擴充點。
 
 ## 在`app.config.yaml`中宣告擴充點
 

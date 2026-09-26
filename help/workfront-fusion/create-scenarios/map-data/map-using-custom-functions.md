@@ -4,13 +4,17 @@ description: 對應項目時，您可以使用函式來建立簡單或複雜的�
 author: Becky
 feature: Workfront Fusion
 exl-id: dc4e697a-a65c-48bc-99de-8e26fbeb7ba7
-source-git-commit: 314c4535a5ef14794458f40002a53ee529c1a4b6
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 15%
-
 ---
-
 # 使用自訂函式對應資料
 
 您可以在Fusion的「函式」區域中建立自訂函式。 然後，以Adobe App Builder模組的形式，將這些函式新增到您的情境中。
@@ -52,7 +56,7 @@ Workfront Fusion也包含內建函式，可讓您建立簡單或複雜的公式�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

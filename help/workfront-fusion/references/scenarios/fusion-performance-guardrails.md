@@ -4,11 +4,14 @@ description: 工作自動化需具備快速處理的能力，於是為了達成�
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-TQID: https://experienceleague.adobe.com/TARMza99lJaSq6kUUr3xxMf0ExtoQBNk6L-KzzEEL8U
+TQID: 'https://experienceleague.adobe.com/TARMza99lJaSq6kUUr3xxMf0ExtoQBNk6L-KzzEEL8U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: e9450b468ff8df80286ebd8a0c1aa4070b6cb01b
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 72%
@@ -31,7 +34,7 @@ ht-degree: 72%
   >
   > 雖然鏈結可讓工作流程執行超過40分鐘，這應視為設計風險訊號，而不是支援的因應措施。 跨多個長期執行子案例的父案例沒有整體逾時界限。 如果子案例掛起或遇到平台問題，父案例會無限期等待，且沒有錯誤，也不會自動復原。
   >
-  > 如果您的情境設計需要鏈結以避免40分鐘的限制，請在部署到生產環境之前檢視您的架構。 如需設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
+  > 如果您的情境設計需要鏈結以避免40分鐘的限制，請在部署到生產環境之前檢視您的架構。 如需設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
 * 情境藍圖的大小上限為 **5 MB**，但建議您將情境大小維持在 **3 MB** 以下。
 
   使用大量欄位建立或更新資料的應用程式模組，可能會產生非常大的藍圖。

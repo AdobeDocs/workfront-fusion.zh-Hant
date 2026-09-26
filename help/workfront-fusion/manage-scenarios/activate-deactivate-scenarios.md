@@ -4,16 +4,18 @@ description: 本文說明為什麼作用中或停用案例在不同情況下很�
 author: Becky
 feature: Workfront Fusion
 exl-id: ecfcab45-5492-4e20-af8d-63ec9d233046
-TQID: https://experienceleague.adobe.com/QaZIR-nQ7cvBLmy2XfGDfqm1C7KrZqoY9Kz4sqRPDFA
+TQID: 'https://experienceleague.adobe.com/QaZIR-nQ7cvBLmy2XfGDfqm1C7KrZqoY9Kz4sqRPDFA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '300'
 ht-degree: 34%
-
 ---
-
 # 啟用或停用情境
 
 您可以處理作用中或非作用中狀態的案例：
@@ -55,7 +57,7 @@ ht-degree: 34%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

@@ -1,21 +1,24 @@
 ---
 title: Marketo 模組
-description: 在 Adobe Workfront Fusion 情境中，您可以將使用  [!DNL Marketo] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
+description: 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Marketo] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: da417ac7-e532-45f7-86d9-3643b5f9f203
-TQID: https://experienceleague.adobe.com/7slKvK8YZmGtubvR-n5D2jx7EDqh07td3Ow9n01PXo8
+TQID: 'https://experienceleague.adobe.com/7slKvK8YZmGtubvR-n5D2jx7EDqh07td3Ow9n01PXo8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 2257
+source-wordcount: '2257'
 ht-degree: 99%
-
 ---
-
 # [!DNL Marketo] 模組
 
 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Marketo] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
@@ -60,7 +63,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 

@@ -4,16 +4,18 @@ description: 您可以在「連線」區域中檢視和管理您的專案團隊�
 author: Becky
 feature: Workfront Fusion
 exl-id: 7bedf002-061b-40fc-a0f8-c12d2930bcf9
-TQID: https://experienceleague.adobe.com/T1mLjporbj48nc4521HQllDf0Bw040XGqZG0upeTRrg
+TQID: 'https://experienceleague.adobe.com/T1mLjporbj48nc4521HQllDf0Bw040XGqZG0upeTRrg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 184
+source-wordcount: '184'
 ht-degree: 55%
-
 ---
-
 # 刪除情境元素
 
 您可以在Adobe Workfront Fusion帳戶的下列區域中儲存和刪除情境元素：
@@ -52,7 +54,7 @@ ht-degree: 55%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -65,4 +67,4 @@ ht-degree: 55%
    例如，如果您想要刪除情境，請按一下左側面板中的&#x200B;**[!UICONTROL 情境]**。
 
 1. 按一下要刪除專案右側的向下箭頭，然後按一下&#x200B;**[!UICONTROL 刪除]**。
-1. 按一下「**&#x200B;**」確認。
+1. 按一下「****」確認。

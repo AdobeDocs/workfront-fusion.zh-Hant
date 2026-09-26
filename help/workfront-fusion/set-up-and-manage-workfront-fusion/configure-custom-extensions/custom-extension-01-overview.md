@@ -11,15 +11,17 @@ recommendations: noDisplay, noCatalog
 exl-id: bbc94bb0-7432-44c5-8000-9aea25916b28
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: 925a8ee910434c474d527c2914897d7c42e4a3d1
+    internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 0%
-
 ---
-
 # UI擴充性概觀
 
 UI擴充性可讓您將自訂邏輯和UI （使用者介面）匯入Adobe Workfront Fusion。 透過使用Adobe App Builder，您可以修改組織的Workfront Fusion體驗，以更符合組織的需求，同時仍仰賴Fusion的核心功能。

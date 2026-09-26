@@ -6,21 +6,25 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: dafecd8b-96e5-46da-9ab6-15f0bc9b52a4
-TQID: https://experienceleague.adobe.com/YxbvSHbDGHOsRUv8UJ8aDUct1daxudv2IGAqG3dkGZU
+TQID: 'https://experienceleague.adobe.com/YxbvSHbDGHOsRUv8UJ8aDUct1daxudv2IGAqG3dkGZU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Administration
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 4%
-
 ---
-
 # 核准或不核准公用索引標籤的範本
 
 Adobe Workfront Fusion範本是預先建立的情境，旨在自動化和簡化各種工作流程。 這些範本可協助使用者快速設定整合和自動化，而不需要從頭開始建立所有內容。
@@ -45,7 +49,7 @@ Adobe Workfront Fusion範本是預先建立的情境，旨在自動化和簡化�
     </tr>
     <tr data-mc-conditions="">
       <td role="rowheader">Adobe Workfront授權</td>
-      <td><p>新增：標準</p><p>或</p><p>目前： [!UICONTROL Work]或更高版本</p></td>
+      <td><p>新增：標準</p><p>或</p><p>目前： [！UICONTROL Work]或更高版本</p></td>
     </tr>
     <tr>
       <td role="rowheader">Adobe Workfront Fusion授權**</td>
@@ -60,8 +64,8 @@ Adobe Workfront Fusion範本是預先建立的情境，旨在自動化和簡化�
       <td>
         <p>新增:</p>
         <ul>
-          <li>[!UICONTROL Select]或[!UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li>
-          <li>[!UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li>
+          <li>[！UICONTROL Select]或[！UICONTROL Prime] Workfront計畫：您的組織必須購買Adobe Workfront Fusion。</li>
+          <li>[！UICONTROL Ultimate] Workfront計畫：包含Workfront Fusion。</li>
         </ul>
         <p>或</p>
         <p>目前：您的組織必須購買Adobe Workfront Fusion。</p>

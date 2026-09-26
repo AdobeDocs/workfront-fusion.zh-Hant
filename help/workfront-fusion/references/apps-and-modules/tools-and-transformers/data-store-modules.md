@@ -4,18 +4,21 @@ description: Adobe Workfront Fusion資料存放區（類似於資料庫或簡單
 author: Becky
 feature: Workfront Fusion
 exl-id: 0338b822-b345-429e-850d-3978b692231d
-TQID: https://experienceleague.adobe.com/xxcj73D3UZawazZrK92lAZTYaFTVj92o74zPRsnfFPA
+TQID: 'https://experienceleague.adobe.com/xxcj73D3UZawazZrK92lAZTYaFTVj92o74zPRsnfFPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Troubleshooting
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 30%
-
 ---
-
 # [!UICONTROL 資料存放區]模組
 
 Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可以儲存情境中的資料，以便在個別情境或情境執行之間傳輸資料。 您可以在同步期間使用資料存放區來儲存來自不同系統的新資料。
@@ -53,7 +56,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -104,7 +107,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料存放區]</td> 
+   <td>[！UICONTROL資料存放區]</td> 
    <td> <p> 選取或新增要建立記錄的資料存放區。 </p> </td> 
   </tr> 
   <tr> 
@@ -112,11 +115,11 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
    <td> <p>輸入您要模組新增或取代之記錄的唯一索引鍵。 此金鑰稍後可用於擷取記錄。 如果您將此欄位留空，則會自動產生索引鍵。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 覆寫現有記錄] </td> 
+   <td>[！UICONTROL覆寫現有記錄] </td> 
    <td> <p>啟用此選項以覆寫記錄。 您必須在上方的[索引鍵]欄位中指定您要覆寫的記錄。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 記錄] </td> 
+   <td>[！UICONTROL記錄] </td> 
    <td> <p>在記錄的欄位中輸入所需的值。</p> </td> 
   </tr> 
  </tbody> 
@@ -133,7 +136,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料存放區] </td> 
+   <td>[！UICONTROL資料存放區] </td> 
    <td> <p>選取您要檢查記錄是否存在的資料存放區。</p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +159,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料存放區] </td> 
+   <td>[！UICONTROL資料存放區] </td> 
    <td> <p>選取包含您要計算之記錄的資料存放區。</p> </td> 
   </tr> 
  </tbody> 
@@ -175,7 +178,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料存放區] </td> 
+   <td>[！UICONTROL資料存放區] </td> 
    <td> <p>選取您要檢查記錄是否存在的資料存放區。</p> </td> 
   </tr> 
   <tr> 
@@ -196,7 +199,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料存放區] </td> 
+   <td>[！UICONTROL資料存放區] </td> 
    <td> <p>選取要刪除所有記錄的資料存放區。</p> </td> 
   </tr> 
  </tbody> 
@@ -215,7 +218,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料存放區]</td> 
+   <td>[！UICONTROL資料存放區]</td> 
    <td> <p> 選取您要從中擷取記錄的資料存放區</p> </td> 
   </tr> 
   <tr> 
@@ -238,7 +241,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料存放區]</td> 
+   <td>[！UICONTROL資料存放區]</td> 
    <td> <p> 選取您要搜尋的資料存放區。</p> </td> 
   </tr> 
   <tr> 
@@ -246,15 +249,15 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
    <td> <p>設定搜尋的篩選器。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 排序]</p> </td> 
-   <td> <p style="font-weight: normal;">針對您要排序的每個欄位，填寫以下欄位：</p> <p style="font-weight: bold;">[!UICONTROL 索引鍵]</p> <p>選取要作為結果排序依據的欄名稱。</p> <p style="font-weight: bold;">[!UICONTROL 順序]</p> <p>選取您要以遞增或遞減順序排序結果。</p> </td> 
+   <td> <p>[！UICONTROL排序]</p> </td> 
+   <td> <p style="font-weight: normal;">針對您要排序的每個欄位，填寫以下欄位：</p> <p style="font-weight: bold;">[!UICONTROL 索引鍵]</p> <p>選取要作為結果排序依據的欄名稱。</p> <p style="font-weight: bold;">[！UICONTROL順序]</p> <p>選取您要以遞增或遞減順序排序結果。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 限制]</td> 
    <td> <p> 設定Workfront Fusion在一個執行週期內傳回的搜尋結果數上限。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 即使模組未傳回任何結果，仍繼續執行路由]</td> 
+   <td>[！UICONTROL即使模組未傳回任何結果，仍繼續執行路由]</td> 
    <td> <p> 如果啟用，即使此模組未傳回任何結果，此模組所屬的路由仍會繼續處理。</p> </td> 
   </tr> 
  </tbody> 
@@ -275,7 +278,7 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 資料存放區]</td> 
+   <td>[！UICONTROL資料存放區]</td> 
    <td> <p> 選取或新增要建立記錄的資料存放區。 </p> </td> 
   </tr> 
   <tr> 
@@ -283,11 +286,11 @@ Adobe Workfront Fusion資料存放區（類似於資料庫或簡單表格）可�
    <td> <p>輸入您要模組更新的記錄唯一索引鍵。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 插入遺漏的記錄] </td> 
+   <td>[！UICONTROL插入遺漏的記錄] </td> 
    <td> <p>啟用此選項以在指定索引鍵的記錄不存在時建立新記錄。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 記錄]</td> 
+   <td>[！UICONTROL記錄]</td> 
    <td> <p> 在您要更新的記錄欄位中輸入所需的值。</p> </td> 
   </tr> 
  </tbody> 

@@ -4,16 +4,18 @@ description: 使用這些模組，您可以將案例連結在一起，進行另�
 author: Becky
 feature: Workfront Fusion
 exl-id: 21429f94-fe4c-4ccc-a8c0-d7573657fecc
-TQID: https://experienceleague.adobe.com/AlHUrliXikCc3OVHiBTjLNQFndCf5qLzOLuBvnDTUfA
+TQID: 'https://experienceleague.adobe.com/AlHUrliXikCc3OVHiBTjLNQFndCf5qLzOLuBvnDTUfA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 936fc6b4d5688e42ad6d762d4f43abf8be47e5af
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: '913'
 ht-degree: 10%
-
 ---
-
 # 鏈結模組
 
 >[!IMPORTANT]
@@ -60,7 +62,7 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -100,7 +102,7 @@ ht-degree: 10%
 > * **將此模組放在疊代器內時請小心。** 為大型疊代器中的每個料號分派子案例會建立顯著的平台負載。 考慮內嵌子情境的邏輯，或在迭代器外預先計算共用查詢。
 > * **引發並忘記**&#x200B;表示父系無法檢視子系是否執行或成功。 只有在獨立監視子項失敗時才使用。
 >
-> 如需完整的設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
+> 如需完整的設計手冊，請參閱[將多個案例鏈結在一起](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/chain-scenarios)。
 
 >[!NOTE]
 >

@@ -4,18 +4,21 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Cvent�
 author: Becky
 feature: Workfront Fusion
 exl-id: b7e16180-1db8-4aff-bb7b-69ca98194b00
-TQID: https://experienceleague.adobe.com/3Zi0MPk58Fvcshiq87skNQ3LlAMwGyRJ54KnktwX8cw
+TQID: 'https://experienceleague.adobe.com/3Zi0MPk58Fvcshiq87skNQ3LlAMwGyRJ54KnktwX8cw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1136
+source-wordcount: '1136'
 ht-degree: 34%
-
 ---
-
 # [!DNL Cvent] 模組
 
 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Cvent] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
@@ -56,7 +59,7 @@ ht-degree: 34%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -173,7 +176,7 @@ Cvent聯結器使用下列專案：
    <td>選取您要讀取之記錄的專案型態。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 聯絡人] / [!UICONTROL 事件] / [!UICONTROL 邀請者ID]</td> 
+   <td role="rowheader">[！UICONTROL聯絡人] / [！UICONTROL事件] / [！UICONTROL邀請者ID]</td> 
    <td> <p>輸入或對應您要讀取的專案識別碼。</p> </td> 
   </tr> 
   <tr> 
@@ -219,11 +222,11 @@ Cvent聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 聯絡人ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL聯絡人ID]</p> </td> 
    <td> <p>輸入或對應您要新增至事件的連絡人ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 事件ID]</td> 
+   <td role="rowheader">[！UICONTROL事件ID]</td> 
    <td> <p>輸入或對應您要新增連絡人的事件ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -242,7 +245,7 @@ Cvent聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 聯絡人ID]</td> 
+   <td role="rowheader">[！UICONTROL聯絡人ID]</td> 
    <td> <p>輸入或對應您要刪除之連絡人的ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -261,7 +264,7 @@ Cvent聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 聯絡人ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL聯絡人ID]</p> </td> 
    <td> <p>輸入或對應您要更新的連絡人ID。</p> </td> 
   </tr> 
   <tr> 
@@ -269,7 +272,7 @@ Cvent聯結器使用下列專案：
    <td> <p>選取您要輸入資訊的欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 自訂欄位]</td> 
+   <td role="rowheader">[！UICONTROL自訂欄位]</td> 
    <td> <p>選取您要輸入資訊的欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
  </tbody> 
@@ -288,19 +291,19 @@ Cvent聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Cvent]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">將[!DNL Cvent]連線到Adobe Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 表單ID]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL表單ID]</p> </td> 
    <td> <p>輸入或對應您要用來建立新會議要求的表單ID。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 會議要求欄位]</td> 
+   <td role="rowheader">[！UICONTROL會議要求欄位]</td> 
    <td> <p>選取您要輸入資訊的會議邀請欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 事件請求欄位]</td> 
+   <td role="rowheader">[！UICONTROL事件請求欄位]</td> 
    <td> <p>選取您要輸入資訊的事件請求欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL RFP要求欄位]</td> 
+   <td role="rowheader">[！UICONTROL RFP要求欄位]</td> 
    <td> <p>選取您要輸入資訊的提案請求欄位，然後填寫這些欄位的所需值。</p> </td> 
   </tr> 
  </tbody> 
@@ -330,7 +333,7 @@ Cvent聯結器使用下列專案：
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 事件ID]</td> 
+   <td role="rowheader">[！UICONTROL事件ID]</td> 
    <td> <p>如果您要列出被邀請者或工作階段，請輸入或對應與被邀請者或工作階段相關聯之事件的ID。</p> </td> 
   </tr> 
  </tbody> 

@@ -4,16 +4,18 @@ description: '[!UICONTROL 未完成的執行]資料夾會儲存由於錯誤而�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8891b4d7-a39a-4f14-8521-8c2ca186ca6e
-TQID: https://experienceleague.adobe.com/iTS5K7IjJzZdlqX2kCuPBCKojdmM-Id9xa-lRrY2FKI
+TQID: 'https://experienceleague.adobe.com/iTS5K7IjJzZdlqX2kCuPBCKojdmM-Id9xa-lRrY2FKI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '584'
 ht-degree: 7%
-
 ---
-
 # 檢視和解決未完成的執行
 
 [!UICONTROL 未完成的執行]資料夾會儲存由於錯誤而未成功完成的案例執行。 每個儲存的不完整執行都可以手動或自動解析。
@@ -98,18 +100,18 @@ ht-degree: 7%
 
 * 針對下列錯誤型別，儲存具有自動重試的不完整執行記錄：
 
-   * `ConnectionError`
-   * `RateLimitError`
-   * `OutOfSpaceError`
-   * `ModuleTimeoutError`
+  * `ConnectionError`
+  * `RateLimitError`
+  * `OutOfSpaceError`
+  * `ModuleTimeoutError`
 
 * 針對下列錯誤型別，儲存了未完成且未自動重試的執行記錄：
 
-   * `DataError`
-   * `InvalidConfigurationError`
-   * `InvalidAccessTokenError`
-   * `UnexpectedError`
-   * `MaxFileSizeExceededError`
-   * `MaxResultsExceededError`
+  * `DataError`
+  * `InvalidConfigurationError`
+  * `InvalidAccessTokenError`
+  * `UnexpectedError`
+  * `MaxFileSizeExceededError`
+  * `MaxResultsExceededError`
 
 * 如果錯誤類型不是上述任何一項，則執行失敗。

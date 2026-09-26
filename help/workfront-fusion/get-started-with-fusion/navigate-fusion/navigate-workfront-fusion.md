@@ -4,16 +4,18 @@ description: 開啟 Fusion 時，您有許多動作選項。 這篇文章可協�
 author: Becky
 feature: Workfront Fusion
 exl-id: 427ec131-d68d-4401-b620-998d3d5162da
-TQID: https://experienceleague.adobe.com/95RrU217DFpxtEVaO3FyIx0wNR6p-sJw9J4ZDaqPkXw
+TQID: 'https://experienceleague.adobe.com/95RrU217DFpxtEVaO3FyIx0wNR6p-sJw9J4ZDaqPkXw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: fac09ae8c8b2e248ef9c0731c38a4be58cea2994
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: '895'
 ht-degree: 82%
-
 ---
-
 # 導覽 Adobe Workfront Fusion
 
 您可以使用左側的導覽面板來導覽 Adobe Workfront Fusion 的不同區域。 您可以在這裡找到 Fusion 的所有主要區域，並可以快速從一個區域移動到另一個區域。

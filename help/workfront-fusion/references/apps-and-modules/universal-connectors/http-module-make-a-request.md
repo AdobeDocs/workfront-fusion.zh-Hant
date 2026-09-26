@@ -4,18 +4,21 @@ description: Adobe Workfront Fusion HTTP >提出請求模組是通用模組，�
 author: Becky
 feature: Workfront Fusion
 exl-id: 42f6176e-86e0-489e-868b-66823a932daf
-TQID: https://experienceleague.adobe.com/-SRXhwpwmvCKhZVVqiUf8Pvh5h0hN8H5CyazYxNLCXw
+TQID: 'https://experienceleague.adobe.com/-SRXhwpwmvCKhZVVqiUf8Pvh5h0hN8H5CyazYxNLCXw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 991
+source-wordcount: '991'
 ht-degree: 19%
-
 ---
-
 # [!UICONTROL HTTP] > [!UICONTROL 提出要求]模組
 
 Adobe Workfront Fusion [!UICONTROL HTTP] > [!UICONTROL 發出要求模組]是通用模組，可讓您設定HTTP要求並將其提交至伺服器。 接收的HTTP回應隨後會包含在輸出套件組合中。

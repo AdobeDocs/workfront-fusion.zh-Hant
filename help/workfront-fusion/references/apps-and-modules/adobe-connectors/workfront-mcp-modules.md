@@ -5,13 +5,15 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 88515edc81bafe2d1a81df627fd51dd4ed674c02
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 884
+source-wordcount: '884'
 ht-degree: 16%
-
 ---
-
 # Adobe Workfront MCP模組
 
 Adobe Workfront MCP聯結器是Adobe Workfront自己的模型內容通訊協定(MCP)伺服器的專用Fusion整合。 不像一個典型的聯結器，每個模組都會執行一個固定動作，這個聯結器具有一個模組，這個模組會接受開放式、純英文的指示，並讓AI模型決定需要哪些Workfront操作才能完成它。

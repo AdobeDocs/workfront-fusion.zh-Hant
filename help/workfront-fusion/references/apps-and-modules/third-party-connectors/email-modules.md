@@ -4,18 +4,21 @@ description: 在Adobe Workfront Fusion案例中，您可以將電子郵件帳戶
 author: Becky
 feature: Workfront Fusion
 exl-id: 28a04bad-d3ef-4f3a-be93-8b04761a75e4
-TQID: https://experienceleague.adobe.com/rHcxYxYNQchgOxfpU1Y3jc-sOxHxG3FNAKmbIsp9Dl4
+TQID: 'https://experienceleague.adobe.com/rHcxYxYNQchgOxfpU1Y3jc-sOxHxG3FNAKmbIsp9Dl4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: '2509'
 ht-degree: 10%
-
 ---
-
 # 電子郵件模組
 
 在Adobe Workfront Fusion案例中，您可以將電子郵件帳戶連線至多個協力廠商應用程式和服務。這可讓您透過IMAP下載電子郵件、透過SMTP傳送電子郵件、建立新草稿、將電子郵件從一個資料夾移動和複製到另一個資料夾、將電子郵件標示為已讀取或未讀取，以及刪除電子郵件。

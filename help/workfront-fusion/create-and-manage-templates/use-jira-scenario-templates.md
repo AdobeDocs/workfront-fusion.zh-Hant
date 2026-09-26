@@ -7,24 +7,30 @@ description: 使用這些範本自動化Adobe Workfront Fusion和Jira之間的�
 author: Becky
 feature: Workfront Fusion
 exl-id: 7e30c105-54be-4499-b573-949137e6a5e6
-TQID: https://experienceleague.adobe.com/1p8mg0HzgKs1U67uaAGxXshn5POSXIll9qTDfZmrzUM
+TQID: 'https://experienceleague.adobe.com/1p8mg0HzgKs1U67uaAGxXshn5POSXIll9qTDfZmrzUM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Administration
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 4277
+source-wordcount: '4283'
 ht-degree: 3%
-
 ---
-
 # 使用範本來連結 Adobe Workfront Fusion 和 Jira
 
 Adobe Workfront Fusion提供可自動化Fusion和Jira之間常用工作流程的範本。
@@ -228,10 +234,10 @@ When configuring this application, you will need the following scopes:
 * **wfBaseURL**： Workfront執行個體的基底URL。  通常： `https://<domain>.my.workfront.com`，其中`<domain>`是您特定的Workfront網域名稱。
 * **defaultJIRAReporterID**：在JIRA中建立問題的使用者識別碼。 （範例： `557058:5aedf933-2312-40bc-b328-0c21314167f0`）
 您可以執行下列任一項作業來取得此ID：
-   * 在JIRA中按一下使用者的設定檔，然後檢查瀏覽器中的URL。
-（範例`https://myjira.atlassian.net/jira/people/<JiraUserID>`）
-   * 在您的JIRA執行個體上執行以下API呼叫，以取得JIRA中特定帳戶的ID：
-     `GET /rest/api/3/user/search?query=email@example.com`
+  * 在JIRA中按一下使用者的設定檔，然後檢查瀏覽器中的URL。
+    （範例`https://myjira.atlassian.net/jira/people/<JiraUserID>`）
+  * 在您的JIRA執行個體上執行以下API呼叫，以取得JIRA中特定帳戶的ID：
+    `GET /rest/api/3/user/search?query=email@example.com`
 
 
 ### 案例1：Workfront至Jira：從Workfront任務或問題指派建立JIRA問題

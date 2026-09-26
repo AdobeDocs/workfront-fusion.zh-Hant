@@ -4,18 +4,21 @@ description: 您可以將陣列或個別陣列元素對應到Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: 0534ad8a-af80-46d2-857d-de882a235edb
-TQID: https://experienceleague.adobe.com/4C5kCTIb-pX7zlMxx0tMHn-0UeMPkunWAlkov-lEqPQ
+TQID: 'https://experienceleague.adobe.com/4C5kCTIb-pX7zlMxx0tMHn-0UeMPkunWAlkov-lEqPQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Metadata
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 898
+source-wordcount: '898'
 ht-degree: 10%
-
 ---
-
 # 對應陣列或陣列元素
 
 陣列是可以包含下列專案的組合專案：
@@ -141,28 +144,28 @@ Workfront Fusion中的某些欄位可讓您將元素對應至陣列。 例如，
 
 * `map`
 
-   1. `map()`函式的第一個引數是整個陣列專案。
-   1. 第二個引數是值專案的原始名稱。 若要取得原始名稱，請將游標停留在[!UICONTROL 對應]面板中的專案上：
+  1. `map()`函式的第一個引數是整個陣列專案。
+  1. 第二個引數是值專案的原始名稱。 若要取得原始名稱，請將游標停留在[!UICONTROL 對應]面板中的專案上：
 
-      ![取得原始名稱](assets/obtain-raw-name-350x124.png)
+     ![取得原始名稱](assets/obtain-raw-name-350x124.png)
 
-      >[!NOTE]
-      >
-      >所有引數都區分大小寫。 即使在此特定範例中，專案的標籤與其原始名稱不同（僅在大寫中），但必須使用原始名稱。
+     >[!NOTE]
+     >
+     >所有引數都區分大小寫。 即使在此特定範例中，專案的標籤與其原始名稱不同（僅在大寫中），但必須使用原始名稱。
 
-   1. 第三個引數是關鍵專案的原始名稱：
+  1. 第三個引數是關鍵專案的原始名稱：
 
-      ![第三個引數](assets/3rd-parameter-350x166.png)
+     ![第三個引數](assets/3rd-parameter-350x166.png)
 
-   1. 第四個引數是指定的機碼值。
+  1. 第四個引數是指定的機碼值。
 
   由於`map()`函式傳回陣列（因為可能有更多具有指定索引鍵值的元素），所以必須套用`get()`函式才能取得其第一個元素：
 
 * `get`
 
-   1. `get()`函式的第一個引數是`map()`函式的結果。
+  1. `get()`函式的第一個引數是`map()`函式的結果。
 
-   1. 第二個引數是元素的索引。 在此範例中，索引為`1`。
+  1. 第二個引數是元素的索引。 在此範例中，索引為`1`。
 
 此範例會產生下列輸出：
 

@@ -4,18 +4,21 @@ description: 在Adobe Workfront Fusion案例中，您可以自動化使用Quickb
 author: Becky
 feature: Workfront Fusion
 exl-id: 808fbb54-6b60-4c1f-aef3-b0db9a350dfd
-TQID: https://experienceleague.adobe.com/B--y4kY-WgY5rMBOk7j3gr7PggwkGrLJ5FqCYnMYpsA
+TQID: 'https://experienceleague.adobe.com/B--y4kY-WgY5rMBOk7j3gr7PggwkGrLJ5FqCYnMYpsA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '458'
 ht-degree: 78%
-
 ---
-
 # [!DNL Quickbase] 模組
 
 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Quickbase] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。

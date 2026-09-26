@@ -5,20 +5,23 @@ description: 有時候，執行情境期間可能會發生錯誤。 如果服務
 author: Becky
 feature: Workfront Fusion
 exl-id: abf5f844-d13b-416e-a8b8-2d4ee1786262
-TQID: https://experienceleague.adobe.com/t5chLg0xd7CSUyitvH-NCc-YUbMAEXu111sU497Uspc
+TQID: 'https://experienceleague.adobe.com/t5chLg0xd7CSUyitvH-NCc-YUbMAEXu111sU497Uspc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Administration
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1227'
 ht-degree: 8%
-
 ---
-
 # 錯誤類型
 
 有時候，執行情境期間可能會發生錯誤。 如果服務因無法連線至服務而無法使用，或驗證失敗，通常就會發生這種情況。
@@ -63,10 +66,10 @@ Adobe Workfront Fusion會區分幾種基本錯誤型別。 錯誤的型別會決
 * 如果第一個模組發生錯誤，則會終止案例的執行並顯示警告訊息。 Workfront Fusion接著會不斷嘗試以遞增的時間間隔重新執行案例。 如果所有嘗試都失敗，Workfront Fusion會停用該案例。
 * 如果連線錯誤發生在第一個模組以外的其他模組，則後續步驟取決於情景進階設定中的「允許儲存不完整的執行」選項：
 
-   * 如果啟用此選項，則情境的執行會移至[!UICONTROL 未完成執行]資料夾，其中Workfront Fusion會不斷嘗試以遞增的時間間隔重新執行情境。 如果所有嘗試都失敗，執行將保留在「未完成執行」資料夾中，等待使用者手動解析。
+  * 如果啟用此選項，則情境的執行會移至[!UICONTROL 未完成執行]資料夾，其中Workfront Fusion會不斷嘗試以遞增的時間間隔重新執行情境。 如果所有嘗試都失敗，執行將保留在「未完成執行」資料夾中，等待使用者手動解析。
 
-     如需不完整執行的詳細資訊，請參閱[檢視並解決不完整的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)。
-   * 如果停用此選項，則案例的執行會以錯誤結束，然後是復原階段。 Workfront Fusion接著會不斷嘗試以遞增的時間間隔重新執行案例。 如果所有嘗試都失敗，Workfront Fusion會停用該案例。
+    如需不完整執行的詳細資訊，請參閱[檢視並解決不完整的執行](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md)。
+  * 如果停用此選項，則案例的執行會以錯誤結束，然後是復原階段。 Workfront Fusion接著會不斷嘗試以遞增的時間間隔重新執行案例。 如果所有嘗試都失敗，Workfront Fusion會停用該案例。
 
   如需「允許儲存未完成的執行」設定的詳細資訊，請參閱「設定案例設定」一文中的[允許儲存未完成的執行](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow-storing-incomplete-executions)。
 

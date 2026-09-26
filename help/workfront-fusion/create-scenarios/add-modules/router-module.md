@@ -4,16 +4,18 @@ description: 路由器模組可讓您將流量分支至數個路由，並以不�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8344cde4-df3e-4b72-9d10-46ff4b186400
-TQID: https://experienceleague.adobe.com/ZKrvE8zGuVmfPCTMx7LZHw979aPLo89lARWejMCSETs
+TQID: 'https://experienceleague.adobe.com/ZKrvE8zGuVmfPCTMx7LZHw979aPLo89lARWejMCSETs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 986
+source-wordcount: '986'
 ht-degree: 11%
-
 ---
-
 # 新增路由器模組及設定路由
 
 「路由器」模組可讓您將情境分支為數個路由，並以不同方式處理每個路由中的資料。 路由器模組收到束時，會依照路由連線到路由器模組的順序，將其轉送到每個連線的路由。

@@ -1,22 +1,26 @@
 ---
 title: Adobe Campaign v7/v8模組
-description: 透過 [!DNL Adobe Campaign] 模組，您可以根據 [!DNL Adobe Campaign] 帳戶中的事件來啟動Adobe Workfront Fusion案例、建立、讀取或更新合約及其他記錄、使用您設定的條件搜尋記錄，以及上傳檔案。
+description: 透過[!DNL Adobe Campaign]模組，您可以根據[!DNL Adobe Campaign]帳戶中的事件來啟動Adobe Workfront Fusion案例、建立、讀取或更新合約及其他記錄、使用您設定的條件搜尋記錄，以及上傳檔案。
 author: Becky
 feature: Workfront Fusion
 exl-id: 9fdff26c-c7c0-4eb8-a36f-4aeaf432b333
-TQID: https://experienceleague.adobe.com/XOlUFhvSj8JNu8MS5Kgm0VEwEPmrpVwbTggi6rU4jfk
+TQID: 'https://experienceleague.adobe.com/XOlUFhvSj8JNu8MS5Kgm0VEwEPmrpVwbTggi6rU4jfk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Security
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1451
+source-wordcount: '1453'
 ht-degree: 33%
-
 ---
-
 # [!DNL Adobe Campaign] 模組
 
 透過[!DNL Adobe Campaign]模組，您可以根據[!DNL Adobe Campaign v7/v8]帳戶中的事件啟動Adobe Workfront Fusion案例、建立、讀取或更新記錄、使用您設定的條件搜尋記錄，以及執行自訂API呼叫。

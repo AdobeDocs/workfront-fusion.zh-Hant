@@ -5,13 +5,15 @@ author: Becky
 feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 7606f1b15aac0f2baef1b4ef16e3bcaa39dad27c
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1430
+source-wordcount: '1430'
 ht-degree: 20%
-
 ---
-
 # Workfront Fusion模組
 
 使用Workfront Fusion聯結器，您可以從情境中管理自己的Fusion組織。 有別於將Fusion連線至協力廠商應用程式或服務的其他聯結器，此聯結器可讓案例呼叫Fusion自己的API，其方式類似於Adobe Workfront聯結器讓案例管理Workfront的方式。

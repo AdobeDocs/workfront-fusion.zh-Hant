@@ -4,18 +4,21 @@ description: 疊代器模組是一種特殊的模組，可將陣列轉換為一�
 author: Becky
 feature: Workfront Fusion
 exl-id: 43d39955-3dd7-453d-8eb0-3253a768e114
-TQID: https://experienceleague.adobe.com/FYIH3-R283fCXOmTCvpoGaQb5V05dWU-EHIjYf3IhyM
+TQID: 'https://experienceleague.adobe.com/FYIH3-R283fCXOmTCvpoGaQb5V05dWU-EHIjYf3IhyM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Troubleshooting
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: '616'
 ht-degree: 15%
-
 ---
-
 # [!UICONTROL 迭代器]模組
 
 [!UICONTROL 疊代器]是一種將陣列轉換為一系列束的模組。 每個陣列專案都會以個別的套件組合輸出。

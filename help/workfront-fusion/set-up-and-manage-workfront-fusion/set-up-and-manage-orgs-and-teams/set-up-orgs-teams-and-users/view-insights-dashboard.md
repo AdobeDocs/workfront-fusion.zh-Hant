@@ -4,16 +4,18 @@ description: Fusion管理員可以檢視顯示組織執行度量的控制面板�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8f80f86a-69e5-48a1-9812-87322a4959a6
-TQID: https://experienceleague.adobe.com/tBZCbpImQxY42gOE8e04aQwCJC8EKgrDTIAt6Sw1KaU
+TQID: 'https://experienceleague.adobe.com/tBZCbpImQxY42gOE8e04aQwCJC8EKgrDTIAt6Sw1KaU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 069ab0fd3d72da3b67d50e4f8e62823c825ef934
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: '849'
 ht-degree: 4%
-
 ---
-
 # 檢視組織的前瞻分析控制面板
 
 Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、發生延遲的位置，以及您的背景工作集區的運作效率。 這可提供執行磁碟區、佇列深度、集區使用率和案例層級效能的即時可見度。

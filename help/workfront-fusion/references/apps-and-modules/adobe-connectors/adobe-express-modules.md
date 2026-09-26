@@ -3,13 +3,22 @@ title: Adobe Express模組
 description: 在Adobe Workfront Fusion案例中，您可以自動化使用Adobe Express的工作流程。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 17%
-
 ---
-
 # Adobe Express模組
 
 在Adobe Workfront Fusion案例中，您可以自動化使用Adobe Express的工作流程，並將其連結至多個協力廠商應用程式和服務。

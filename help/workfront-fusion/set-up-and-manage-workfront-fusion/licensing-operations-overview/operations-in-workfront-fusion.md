@@ -4,16 +4,18 @@ description: Adobe Workfront Fusion中的作業是由模組執行的任務。 �
 author: Becky
 feature: Workfront Fusion
 exl-id: c14e2bb2-1cce-48ff-8bea-acc9829d3cf2
-TQID: https://experienceleague.adobe.com/wkdEgGMzJVgzuiZpNJy4Y8-Fd435VqlQFON-WIRjwmA
+TQID: 'https://experienceleague.adobe.com/wkdEgGMzJVgzuiZpNJy4Y8-Fd435VqlQFON-WIRjwmA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '413'
 ht-degree: 1%
-
 ---
-
 # 作業
 
 Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目的，模組所執行的任何成功動作都是作業。
@@ -26,10 +28,10 @@ Adobe Workfront Fusion中的作業是由模組執行的任務。 基於追蹤目
 * 操作值可能有所不同。 有些將更小、更簡單的操作，而有些將更複雜。 無論操作有多簡單或複雜，都會計入您的總計。
 * 作業在案例執行的[!UICONTROL 最終處理]階段計算。
 * 下列&#x200B;**不是**&#x200B;計入為作業：
-   * 任何篩選步驟。
-   * 任何發生錯誤或中斷的動作。
-   * 任何因不符合路由規則而不執行的路由，例如遞補或停用的路由。
-   * 未執行的任何動作，可能是因為篩選器不允許資料通過，或因為案例因錯誤而停止。
+  * 任何篩選步驟。
+  * 任何發生錯誤或中斷的動作。
+  * 任何因不符合路由規則而不執行的路由，例如遞補或停用的路由。
+  * 未執行的任何動作，可能是因為篩選器不允許資料通過，或因為案例因錯誤而停止。
 
 >[!NOTE]
 >

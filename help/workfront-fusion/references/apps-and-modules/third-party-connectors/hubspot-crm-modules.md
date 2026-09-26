@@ -1,22 +1,26 @@
 ---
 title: hubspot CRM模組
-description: Adobe Workfront Fusion HubSpot CRM模組可讓您監視 [!DNL HubSpot CRM] 帳戶中的事件、記錄、連絡人、預約、檔案和表單提交，或建立、擷取、更新和刪除記錄、連絡人、預約、事件或檔案。
+description: Adobe Workfront Fusion HubSpot CRM模組可讓您監視事件、記錄、連絡人、參與、檔案和表單提交，或建立、擷取、更新和刪除您[!DNL HubSpot CRM]帳戶中的記錄、連絡人、參與、事件或檔案。
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-TQID: https://experienceleague.adobe.com/F-jLL4aF0bSUiFpDjJr-DVBU8ZnbqNHKiFzjEjmalxw
+TQID: 'https://experienceleague.adobe.com/F-jLL4aF0bSUiFpDjJr-DVBU8ZnbqNHKiFzjEjmalxw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 7331
+source-wordcount: '7329'
 ht-degree: 10%
-
 ---
-
 # [!DNL HubSpot CRM] 模組
 
 Adobe Workfront Fusion [!DNL HubSpot CRM]模組可讓您監視事件、記錄、連絡人、預約、檔案和表單提交，或建立、擷取、更新和刪除您[!DNL HubSpot CRM]帳戶中的記錄、連絡人、預約、事件或檔案。

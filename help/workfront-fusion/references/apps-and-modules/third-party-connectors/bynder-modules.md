@@ -1,22 +1,26 @@
 ---
 title: Bynder 模組
-description: 在 Adobe Workfront Fusion 情境中，您可以將使用  [!DNL Bynder] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
+description: 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Bynder] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0a45f8a7-12cc-41cc-9135-92f4779afac0
-TQID: https://experienceleague.adobe.com/2NCbEM8bb0s7m30uCFTWK-wYdhCYKEZC-W01Zr21mRw
+TQID: 'https://experienceleague.adobe.com/2NCbEM8bb0s7m30uCFTWK-wYdhCYKEZC-W01Zr21mRw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 5f20b0ae5439723dffbc3d2f2ba1f608fbd068b3
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1865
+source-wordcount: '1865'
 ht-degree: 31%
-
 ---
-
 # [!DNL Bynder] 模組
 
 在 Adobe Workfront Fusion 情境中，您可以將使用 [!DNL Bynder] 的工作流程自動化，以及將其連接至多個第三方應用程式和服務。
@@ -481,7 +485,7 @@ Bynder聯結器會使用以下專案：
    <td> <p>如需有關將您的[!DNL Bynder]帳戶連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">將[!DNL Bynder]連線到Workfront Fusion </a>。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">事件型別</td>
+    <td role="rowheader">事件類型</td>
     <td>選取您是否要在建立新資產或更新現有資產時啟動案例。</td>
   </tr> 
   <tr>

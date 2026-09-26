@@ -4,18 +4,21 @@ description: 此Adobe Workfront Fusion動作模組會傳送HTTPS要求至需要A
 author: Becky
 feature: Workfront Fusion
 exl-id: 362b80b5-42f4-4b82-b06c-39c7c5a1eb1a
-TQID: https://experienceleague.adobe.com/4LxMME-Uc9BFZZ9yF7VOJZfar8qhex5QCJXsUUszttg
+TQID: 'https://experienceleague.adobe.com/4LxMME-Uc9BFZZ9yF7VOJZfar8qhex5QCJXsUUszttg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 801e8cb1a4c807aaa4275382c2d6211cf3cd6d1f
+    internal-label: Customer experience
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: '1118'
 ht-degree: 22%
-
 ---
-
 # HTTP > [!UICONTROL 發出API金鑰授權要求]
 
 此Adobe Workfront Fusion動作模組會傳送HTTPS要求至需要API金鑰驗證授權的指定URL，並處理回應。

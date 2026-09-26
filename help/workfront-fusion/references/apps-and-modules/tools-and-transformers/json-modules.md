@@ -4,19 +4,23 @@ description: Adobe Workfront Fusion JSON應用程式提供可處理JSON格式資
 author: Becky
 feature: Workfront Fusion
 exl-id: f8b281c5-bb63-4412-98c5-d82f45f8eafc
-TQID: https://experienceleague.adobe.com/hyUiO-ocxPsI8Wz0A34ZZ2LyBNbJWGrY5CbquHVQvHI
+TQID: 'https://experienceleague.adobe.com/hyUiO-ocxPsI8Wz0A34ZZ2LyBNbJWGrY5CbquHVQvHI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Troubleshooting
+source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: '1230'
 ht-degree: 14%
-
 ---
-
 # [!UICONTROL JSON]模組
 
 Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資料的模組，讓Adobe Workfront Fusion可以進一步處理資料內容，或建立新的JSON內容。
@@ -67,7 +71,7 @@ Adobe Workfront Fusion [!UICONTROL JSON]應用程式提供可處理JSON格式資
 1. 手動執行情境。 這可讓[!UICONTROL 剖析JSON]模組從您提供的JSON中識別JSON結構。
 1. 您現在可以連線下列模組。 剖析JSON模組中的專案現在可用於對應。
 
-如需詳細資訊，請參閱[!UICONTROL Adobe Workfront Fusion][&#128279;](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)中的資料結構。
+如需詳細資訊，請參閱[!UICONTROL Adobe Workfront Fusion]&#x200B;[&#128279;](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md)中的資料結構。
 
 ### 集合與陣列
 

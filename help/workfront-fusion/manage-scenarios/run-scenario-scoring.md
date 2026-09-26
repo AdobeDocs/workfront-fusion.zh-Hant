@@ -49,7 +49,7 @@ ht-degree: 32%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -81,4 +81,4 @@ ht-degree: 32%
   如需詳細資訊，請參閱[融合效能護欄](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md#scenarios)。
 * 若使用Workfront即時觸發程式模組，則必須加以篩選。
 
-  如需指示，請參閱Workfront > [!UICONTROL 觀看活動]模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules)中的[活動訂閱篩選器。
+  如需指示，請參閱Workfront > [!UICONTROL 觀看活動]模組[&#128279;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules)中的活動訂閱篩選器。

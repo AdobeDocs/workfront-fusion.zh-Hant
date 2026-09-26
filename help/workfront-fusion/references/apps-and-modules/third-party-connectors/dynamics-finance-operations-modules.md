@@ -67,7 +67,7 @@ ht-degree: 39%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -79,7 +79,7 @@ ht-degree: 39%
 
 若要建立Microsoft Dynamics 365 Finance and Operations模組的連線：
 
-1. 在任何Microsoft Dynamics 365 Finance and Operations模組中，按一下[連線]方塊旁的[新增]。****
+1. 在任何Microsoft Dynamics 365 Finance and Operations模組中，按一下[連線]方塊旁的[新增]。**&#x200B;**
 
 1. 填寫下列欄位：
 
@@ -103,14 +103,14 @@ ht-degree: 39%
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-        <td>輸入您的Dynamics Finance and Operations [！UICONTROL使用者端ID]。</td>
+        <td>輸入您的Dynamics Finance and Operations [!UICONTROL 使用者端ID]。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-        <td>輸入您的Dynamics Finance and Operations [！UICONTROL使用者端密碼]。 </td>
+        <td>輸入您的Dynamics Finance and Operations [!UICONTROL 使用者端密碼]。 </td>
         </tr>
         <tr>
-        <td role="rowheader">[！UICONTROL租使用者ID]</td>
+        <td role="rowheader">[!UICONTROL 租使用者ID]</td>
         <td>輸入您的Dynamics Finance and Operations租使用者ID。</td>
         </tr>
         <tr>
@@ -149,7 +149,7 @@ ht-degree: 39%
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[！UICONTROL實體]</td>
+    <td>[!UICONTROL 實體]</td>
      <td>輸入或對應您要建立的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
@@ -174,11 +174,11 @@ ht-degree: 39%
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[！UICONTROL實體]</td>
+    <td>[!UICONTROL 實體]</td>
      <td>輸入或對應您要刪除的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
-    <td>[！UICONTROL主鍵欄位]</td>
+    <td>[!UICONTROL 主鍵欄位]</td>
      <td> 主索引鍵欄位可識別專案。 針對您想要提供的每個主索引鍵欄位，按一下<b>新增專案</b>，然後輸入或對應識別該專案的唯一索引鍵和值。 </td> 
   </tr> 
  </tbody> 
@@ -237,11 +237,11 @@ ht-degree: 39%
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[！UICONTROL實體]</td>
+    <td>[!UICONTROL 實體]</td>
      <td>輸入或對應您要讀取的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
-    <td>[！UICONTROL主鍵欄位]</td>
+    <td>[!UICONTROL 主鍵欄位]</td>
      <td> 主索引鍵欄位可識別專案。 針對您想要提供的每個主索引鍵欄位，按一下<b>新增專案</b>，然後輸入或對應識別該專案的唯一索引鍵和值。 </td> 
   </tr> 
  </tbody> 
@@ -258,11 +258,11 @@ ht-degree: 39%
     <td> <p>如需有關將Microsoft Dynamics 365 Finance and Operations連線到Workfront Fusion的說明，請參閱本文中的<a href="#create-a-connection" class="MCXref xref">建立連線</a>。</p> </td> 
   </tr> 
   <tr> 
-    <td>[！UICONTROL實體]</td>
+    <td>[!UICONTROL 實體]</td>
      <td>輸入或對應您要更新的Dynamics Finance and Operations實體型別。</td> 
   </tr>  
   <tr> 
-    <td>[！UICONTROL主鍵欄位]</td>
+    <td>[!UICONTROL 主鍵欄位]</td>
      <td> 主索引鍵欄位可識別專案。 針對您想要提供的每個主索引鍵欄位，按一下<b>新增專案</b>，然後輸入或對應識別該專案的唯一索引鍵和值。 </td> 
   </tr> 
   <tr> 
@@ -285,7 +285,7 @@ ht-degree: 39%
    <td> <p>關於將 Workfront 應用程式連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">將 Workfront 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL實體]</td> 
+   <td>[!UICONTROL 實體]</td> 
    <td>輸入或對應您要搜尋的Dynamics Finance and Operations實體型別。</td> 
   </tr> 
   <tr> 
@@ -297,7 +297,7 @@ ht-degree: 39%
    <td> <p>輸入或對應您要此模組在每個情境執行週期中傳回的最大記錄數量。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[！UICONTROL排序依據]</td> 
+   <td>[!UICONTROL 排序依據]</td> 
    <td> <p>輸入或對應您要排序結果的欄位。</p> </td> 
   </tr> 
  </tbody> 

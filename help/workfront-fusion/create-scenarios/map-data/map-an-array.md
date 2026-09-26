@@ -59,7 +59,7 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -76,7 +76,7 @@ ht-degree: 10%
 
    您可以新增任意數量的專案至陣列。
 
-您可以使用疊代器將陣列分割成個別的組合。 如需詳細資訊，請參閱Adobe Workfront Fusion](/help/workfront-fusion/references/modules/iterator-module.md)中的[[!UICONTROL 迭代器]模組。
+您可以使用疊代器將陣列分割成個別的組合。 如需詳細資訊，請參閱Adobe Workfront Fusion[&#128279;](/help/workfront-fusion/references/modules/iterator-module.md)中的[!UICONTROL 迭代器]模組。
 
 ## 將專案對應至新陣列
 

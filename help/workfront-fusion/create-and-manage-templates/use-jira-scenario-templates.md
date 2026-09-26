@@ -64,7 +64,7 @@ Adobe Workfront Fusion提供可自動化Fusion和Jira之間常用工作流程的
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -269,7 +269,7 @@ When configuring this application, you will need the following scopes:
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取[僅新增記錄]。
-1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
 1. 繼續[將範本模組連線至Workfront和Jira](#connect-template-modules-to-workfront-and-jira)
 
 #### 將範本模組連線至Workfront和Jira
@@ -288,7 +288,7 @@ When configuring this application, you will need the following scopes:
    | JiraBaseURL | 輸入您要連線之Jira帳戶的基底URL。 |
    | wfBaseURL | 輸入您要連線之Workfront帳戶的基底URL。 |
 
-1. 繼續在Jira](#map-custom-fields-in-jira)中[對應自訂欄位
+1. 繼續在Jira[&#128279;](#map-custom-fields-in-jira)中對應自訂欄位
 
 <!--
 #### Map custom fields in Jira.
@@ -321,7 +321,7 @@ Awaiting feedback
 
 1. 設定webhook篩選器
 
-1. 繼續在Jira](#configure-a-webhook-in-jira)中[設定webhook
+1. 繼續在Jira[&#128279;](#configure-a-webhook-in-jira)中設定webhook
 
 #### 在Jira中設定webhook
 
@@ -341,7 +341,7 @@ Awaiting feedback
 #### 將範本模組連線至Workfront和Jira （模組2）
 
 1. 在&#x200B;**每個** Workfront模組的「連線」欄位中，選取您在[在Workfront Fusion中設定連線](#configure-connections-in-workfront-fusion)中所建立的Workfront連線，然後按一下&#x200B;**確定**&#x200B;以儲存與該模組的連線。
-1. 在&#x200B;**每個** Jira模組的「連線」欄位中，選取您在[在Workfront Fusion中設定連線](#configure-connections-in-workfront-fusion)中所建立的Workfront連線，然後按一下&#x200B;**確定**以儲存與該模組的連線。
+1. 在&#x200B;**每個** Jira模組的「連線」欄位中，選取您在[在Workfront Fusion中設定連線](#configure-connections-in-workfront-fusion)中所建立的Workfront連線，然後按一下&#x200B;**確定**&#x200B;以儲存與該模組的連線。
    <!--#### Map custom fields-->
 
 +++
@@ -372,7 +372,7 @@ Awaiting feedback
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`Updated record only`。
-1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
 1. 在&#x200B;**設定JIRA變數**&#x200B;模組中，設定下列變數，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
    | 變數名稱 | 變數值 |
@@ -414,7 +414,7 @@ Awaiting feedback
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`Updated record only`。
-1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
 1. 在&#x200B;**設定JIRA變數**&#x200B;模組中，設定下列變數，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
    | 變數名稱 | 變數值 |
@@ -451,7 +451,7 @@ Awaiting feedback
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`New record only`。
-1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
 1. 在&#x200B;**設定變數**&#x200B;模組中，設定下列變數，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
    | 變數名稱 | 變數值 |
@@ -488,7 +488,7 @@ Awaiting feedback
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`Deleted record only`。
-1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
 1. 在第二個模組中，設定下列變數，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
    | 變數名稱 | 變數值 |
@@ -532,7 +532,7 @@ Awaiting feedback
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`New record only`。
-1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
 1. 在&#x200B;**每個** Workfront模組的「連線」欄位中，選取使用系統整合認證的Workfront連線，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 1. 在&#x200B;**每個** Jira模組的「連線」欄位中，選取使用系統整合認證的Jira連線，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 
@@ -569,7 +569,7 @@ Awaiting feedback
 
 1. 啟用&#x200B;**排除此連線所做的更新**&#x200B;選項。
 1. 在&#x200B;**記錄來源**&#x200B;欄位中，選取`Deleted record only`。
-1. 按一下[儲存]****&#x200B;儲存webhook，然後按一下[確定]**儲存觸發程式模組。**
+1. 按一下[儲存]&#x200B;**&#x200B;**&#x200B;儲存webhook，然後按一下[確定]&#x200B;**儲存觸發程式模組。**
 1. 在&#x200B;**每個** Workfront模組的「連線」欄位中，選取使用系統整合認證的Workfront連線，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 1. 在&#x200B;**每個** Jira模組的「連線」欄位中，選取使用系統整合認證的Jira連線，然後按一下&#x200B;**確定**&#x200B;以儲存模組。
 

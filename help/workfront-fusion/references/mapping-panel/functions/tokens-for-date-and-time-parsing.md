@@ -45,7 +45,7 @@ ht-degree: 17%
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>-25</code> </td> 
-   <td> <p>[！UICONTROL Year with any number of digits and sign]</p> </td> 
+   <td> <p>[!UICONTROL Year with any number of digits and sign]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 

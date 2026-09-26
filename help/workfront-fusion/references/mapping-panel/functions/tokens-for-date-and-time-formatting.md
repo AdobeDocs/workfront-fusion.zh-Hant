@@ -45,7 +45,7 @@ ht-degree: 16%
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>1970 1971 ... 9999 +10000 +10001</code> </td> 
-   <td> <p>[！UICONTROL Year with any number of digits and sign]</p> </td> 
+   <td> <p>[!UICONTROL Year with any number of digits and sign]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
@@ -65,7 +65,7 @@ ht-degree: 16%
   <tr> 
    <td><code>Mo </code> </td> 
    <td><code>1st 2nd ... 11th 12th</code> </td> 
-   <td> <p>含序數的[！UICONTROL Month]</p> </td> 
+   <td> <p>含序數的[!UICONTROL Month]</p> </td> 
   </tr> 
   <tr> 
    <td><code>MM</code> </td> 
@@ -105,7 +105,7 @@ ht-degree: 16%
   <tr> 
    <td><code>DDDo</code> </td> 
    <td><code>1st 2nd ... 364th 365th</code> </td> 
-   <td> <p>[！UICONTROL Day of year] （含序數）</p> </td> 
+   <td> <p>[!UICONTROL Day of year] （含序數）</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDDD </code> </td> 
@@ -137,7 +137,7 @@ ht-degree: 16%
   <tr> 
    <td><code>do</code> </td> 
    <td><code>0th 1st ... 5th 6th </code> </td> 
-   <td> <p>[！UICONTROL Day of week with ordinal]</p> </td> 
+   <td> <p>[!UICONTROL Day of week with ordinal]</p> </td> 
   </tr> 
   <tr> 
    <td><code>dd </code> </td> 
@@ -167,7 +167,7 @@ ht-degree: 16%
   <tr> 
    <td><code>wo </code> </td> 
    <td><code>1st 2nd ... 52nd 53rd</code> </td> 
-   <td> <p>[！UICONTROL包含序數的年中的第幾週]</p> </td> 
+   <td> <p>[!UICONTROL 包含序數的年中的第幾週]</p> </td> 
   </tr> 
   <tr> 
    <td><code>ww </code> </td> 
@@ -274,7 +274,7 @@ ht-degree: 16%
   <tr> 
    <td><code>mm</code> </td> 
    <td><code>00 01 ... 58 59</code> </td> 
-   <td> <p>[！UICONTROL分鐘，帶]開頭零</p> </td> 
+   <td> <p>[!UICONTROL 分鐘，帶]開頭零</p> </td> 
   </tr> 
   <tr> 
    <td><code>s</code> </td> 

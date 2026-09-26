@@ -45,7 +45,7 @@ Adobe Workfront Fusion [!UICONTROL JWT]應用程式提供根據提供的演演�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -77,7 +77,7 @@ JWT聯結器使用下列專案：
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL演演算法]</td> 
+   <td role="rowheader">[!UICONTROL 演演算法]</td> 
    <td> <p>選取您要用來產生JWT的演演算法。</p> <ul>
    <li><b>HS256</b>：使用SHA-256雜湊演演算法的HMAC</li>
    <li><b>HS384</b>：使用SHA-384雜湊演演算法的HMAC</li>
@@ -94,7 +94,7 @@ JWT聯結器使用下列專案：
    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL裝載] </td> 
+   <td role="rowheader">[!UICONTROL 裝載] </td> 
    <td> <p>針對您要新增的每個裝載專案，按一下<b>新增專案</b>並輸入專案的索引鍵和值。</p> </td> 
   </tr> 
   <tr> 

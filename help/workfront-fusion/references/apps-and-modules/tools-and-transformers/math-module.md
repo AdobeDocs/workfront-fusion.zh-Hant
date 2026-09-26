@@ -45,7 +45,7 @@ ht-degree: 55%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -60,7 +60,7 @@ ht-degree: 55%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL運算式]</td> 
+   <td role="rowheader">[!UICONTROL 運算式]</td> 
    <td> <p>輸入您希望模組評估的運算式。 </p> <p> </p> <p>如需如何撰寫數學運算式的資訊，請參閱mathjs.org上的<a href="https://mathjs.org/docs/expressions/syntax.html">運算式語法</a>。</p> </td> 
   </tr> 
  </tbody> 

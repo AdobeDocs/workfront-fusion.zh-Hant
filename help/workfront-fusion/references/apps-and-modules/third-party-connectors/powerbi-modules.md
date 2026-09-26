@@ -62,7 +62,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -130,7 +130,7 @@ Microsoft Power BI聯結器使用下列專案：
       <td>輸入或對應控制面板的名稱。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應將擁有新儀表板的群組ID。</td>
     </tr>
   </tbody>
@@ -149,19 +149,19 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入儀表板ID]</td>
+      <td role="rowheader">[!UICONTROL 輸入儀表板ID]</td>
       <td>
         <p>選取或對應選項，以選擇要擷取中繼資料的控制面板。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL儀表板ID]</td>
+      <td role="rowheader">[!UICONTROL 儀表板ID]</td>
       <td>
         <p>輸入或對應您要擷取中繼資料之控制面板的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應擁有您要擷取中繼資料之控制面板的群組ID。</td>
     </tr>
   </tbody>
@@ -180,23 +180,23 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入儀表板ID]</td>
+      <td role="rowheader">[!UICONTROL 輸入儀表板ID]</td>
       <td>
         <p>選取或對應選項，以選擇要擷取的控制面板詳細資訊。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL儀表板ID]</td>
+      <td role="rowheader">[!UICONTROL 儀表板ID]</td>
       <td>
         <p>輸入或對應您要擷取其詳細資訊之控制面板的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL拼貼ID]</td>
+      <td role="rowheader">[!UICONTROL 拼貼ID]</td>
       <td>輸入或對應您要擷取詳細資料的[!DNL Power BI]圖磚識別碼。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應擁有您要擷取之圖磚之群組的ID。</td>
     </tr>
   </tbody>
@@ -215,19 +215,19 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
   </tr>
   <tr>
-    <td role="rowheader">[！UICONTROL輸入儀表板ID]</td>
+    <td role="rowheader">[!UICONTROL 輸入儀表板ID]</td>
     <td>
       <p>選取或對應選項，以選擇要列出圖磚的控制面板。</p>
     </td>
   </tr>
   <tr>
-    <td role="rowheader">[！UICONTROL儀表板ID]</td>
+    <td role="rowheader">[!UICONTROL 儀表板ID]</td>
     <td>
       <p>輸入或對應包含您要列出之圖磚之控制面板的ID。</p>
     </td>
   </tr>
   <tr>
-    <td role="rowheader">[！UICONTROL群組ID]  </td>
+    <td role="rowheader">[!UICONTROL 群組ID]  </td>
     <td>選取或對應擁有控制面板的群組ID，控制面板包含您要列出的圖磚。</td>
   </tr>
   <tr>
@@ -252,7 +252,7 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>
         <p>選取或對應擁有您要列出之控制面板的群組ID。</p>
       </td>
@@ -286,23 +286,23 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
+      <td role="rowheader">[!UICONTROL 輸入報表ID]</td>
       <td>
         <p>選取或對應選項，以選擇要複製的報表。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td role="rowheader">[!UICONTROL 報表ID]</td>
       <td>
         <p>輸入或對應您要複製之報表的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應擁有您要複製之報表之群組的ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL新複製的報表名稱]</td>
+      <td role="rowheader">[!UICONTROL 新複製的報表名稱]</td>
       <td>輸入或對應新報表的名稱。</td>
     </tr>
   </tbody>
@@ -321,19 +321,19 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
+      <td role="rowheader">[!UICONTROL 輸入報表ID]</td>
       <td>
         <p>選取或對應選項，以選擇要刪除的報表。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td role="rowheader">[!UICONTROL 報表ID]</td>
       <td>
         <p>輸入或對應您要刪除之報表的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應擁有您要刪除之報表之群組的ID。</td>
     </tr>
   </tbody>
@@ -352,19 +352,19 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
+      <td role="rowheader">[!UICONTROL 輸入報表ID]</td>
       <td>
         <p>選取或對應選項，以選擇要擷取中繼資料的報表。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td role="rowheader">[!UICONTROL 報表ID]</td>
       <td>
         <p>輸入或對應您要擷取中繼資料之報表的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應擁有您要擷取中繼資料之報表的群組ID。</td>
     </tr>
   </tbody>
@@ -383,7 +383,7 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>
         <p>選取或對應擁有您要列出之報告的群組ID。</p>
       </td>
@@ -420,49 +420,49 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入表格]</td>
+      <td role="rowheader">[!UICONTROL 輸入表格]</td>
       <td>選取或對應選項以選取包含您要調整之表格的資料集。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料集ID]</td>
+      <td role="rowheader">[!UICONTROL 資料集ID]</td>
       <td>輸入或對應包含您要新增或刪除之列的資料集ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料表名稱]  </td>
+      <td role="rowheader">[!UICONTROL 資料表名稱]  </td>
       <td>
         <p>輸入或對應包含您要新增或刪除之資料列的表格名稱。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>輸入或對應擁有資料集之群組的ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL選取動作]</td>
+      <td role="rowheader">[!UICONTROL 選取動作]</td>
       <td>
         <p>選取或對應您要執行的動作。</p>
         <ul>
           <li>
-            <p>[！UICONTROL新增列]</p>
+            <p>[!UICONTROL 新增列]</p>
           </li>
           <li>
-            <p>[！UICONTROL Delete All Rows]</p>
+            <p>[!UICONTROL Delete All Rows]</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL列]</td>
+      <td role="rowheader">[!UICONTROL 列]</td>
       <td>
         <p>新增列欄位。</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL索引鍵]</b>
+            <p><b>[!UICONTROL 索引鍵]</b>
             </p>
             <p>輸入或對應金鑰名稱。</p>
           </li>
           <li>
-            <p><b>[！UICONTROL欄位型別]</b>
+            <p><b>[!UICONTROL 欄位型別]</b>
             </p>
             <p>選取或對應欄位型別：</p>
             <ul>
@@ -507,19 +507,19 @@ Microsoft Power BI聯結器使用下列專案：
       <td>輸入或對應資料集的名稱。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應將擁有新資料集的群組ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL預設模式]</td>
+      <td role="rowheader">[!UICONTROL 預設模式]</td>
       <td>
         <p>選取或對應資料集的預設模式：</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL As Azure]</b>：與有即時連線的資料集 [!DNL Azure Analysis Service]</p>
+            <p><b>[!UICONTROL As Azure]</b>：與有即時連線的資料集 [!DNL Azure Analysis Service]</p>
           </li>
           <li>
-            <p><b>[！UICONTROL As on Prem]</b>：與[!DNL On-premise Analysis]服務有即時連線的資料集</p>
+            <p><b>[!UICONTROL As on Prem]</b>：與[!DNL On-premise Analysis]服務有即時連線的資料集</p>
           </li>
           <li>
             <p><b>[!DNL Push]</b>：允許以程式設計方式存取資料，以推送資料至的資料集 [!DNL Power BI]</p>
@@ -547,10 +547,10 @@ Microsoft Power BI聯結器使用下列專案：
         <p>選取或對應資料集的刻意原則：</p>
         <ul>
           <li>
-            <p>[！UICONTROL無]</p>
+            <p>[!UICONTROL 無]</p>
           </li>
           <li>
-            <p>[！UICONTROL基本FIFO]</p>
+            <p>[!UICONTROL 基本FIFO]</p>
           </li>
         </ul>
       </td>
@@ -571,36 +571,36 @@ Microsoft Power BI聯結器使用下列專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL欄]</td>
+      <td role="rowheader">[!UICONTROL 欄]</td>
       <td>
         <p>新增欄：</p>
         <ul>
           <li>
-            <p><b>[！UICONTROL名稱]</b>
+            <p><b>[!UICONTROL 名稱]</b>
             </p>
             <p>輸入（對應）欄名稱。</p>
           </li>
           <li>
-            <p><b>[！UICONTROL資料型別]</b>
+            <p><b>[!UICONTROL 資料型別]</b>
             </p>
             <p>選取或對應資料型別：</p>
             <ul>
               <li>
-                <p>[！UICONTROL字串]</p>
+                <p>[!UICONTROL 字串]</p>
               </li>
               <li>
-                <p>[！UICONTROL整數]</p>
+                <p>[!UICONTROL 整數]</p>
               </li>
               <li>
-                <p>[！UICONTROL Boolean]</p>
+                <p>[!UICONTROL Boolean]</p>
               </li>
               <li>
-                <p>[！UICONTROL日期時間]</p>
+                <p>[!UICONTROL 日期時間]</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>[！UICONTROL格式字串]</b>
+            <p><b>[!UICONTROL 格式字串]</b>
             </p>
             <p>輸入（對應）格式字串。</p>
           </li>
@@ -608,11 +608,11 @@ Microsoft Power BI聯結器使用下列專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL列]</td>
+      <td role="rowheader">[!UICONTROL 列]</td>
       <td>輸入或對應列詳細資料。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Measures]</td>
+      <td role="rowheader">[!UICONTROL Measures]</td>
       <td>新增表格的測量。</td>
     </tr>
   </tbody>
@@ -625,13 +625,13 @@ Microsoft Power BI聯結器使用下列專案：
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[！UICONTROL資料庫]  </td>
+      <td role="rowheader">[!UICONTROL 資料庫]  </td>
       <td>
         <p>輸入或對應您要使用的資料庫。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL Server]  </td>
+      <td role="rowheader">[!UICONTROL Server]  </td>
       <td>
         <p>輸入或對應您要使用的伺服器名稱。</p>
       </td>
@@ -643,19 +643,19 @@ Microsoft Power BI聯結器使用下列專案：
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料來源ID]</td>
+      <td role="rowheader">[!UICONTROL 資料來源ID]</td>
       <td>
         <p>  輸入或對應資料來源的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料來源型別]  </td>
+      <td role="rowheader">[!UICONTROL 資料來源型別]  </td>
       <td>
         <p>選取或對應資料來源型別。 範例： SQL。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL閘道ID]  </td>
+      <td role="rowheader">[!UICONTROL 閘道ID]  </td>
       <td>輸入或對應您要使用的閘道識別碼。</td>
     </tr>
   </tbody>
@@ -674,19 +674,19 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
+      <td role="rowheader">[!UICONTROL 輸入報表ID]</td>
       <td>
         <p>選取或對應選項，以選擇要刪除的資料集。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td role="rowheader">[!UICONTROL 報表ID]</td>
       <td>
         <p>輸入或對應您要刪除之資料集的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應擁有您要刪除之資料集的群組ID。</td>
     </tr>
   </tbody>
@@ -705,19 +705,19 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入報表ID]</td>
+      <td role="rowheader">[!UICONTROL 輸入報表ID]</td>
       <td>
         <p>選取或對應選項，以選擇要擷取中繼資料的報表。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td role="rowheader">[!UICONTROL 報表ID]</td>
       <td>
         <p>輸入或對應您要擷取中繼資料之資料集的ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應擁有您要擷取中繼資料之資料集的群組ID。</td>
     </tr>
   </tbody>
@@ -736,7 +736,7 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>選取或對應擁有您要擷取中繼資料之報表的群組ID。</td>
     </tr>
     <tr>
@@ -761,36 +761,36 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL輸入資料集]</td>
+      <td role="rowheader">[!UICONTROL 輸入資料集]</td>
       <td>選取或對應選項，以選取您要重新整理的資料集。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料集ID]</td>
+      <td role="rowheader">[!UICONTROL 資料集ID]</td>
       <td>輸入或對應您要重新整理之資料集的ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL資料表名稱]  </td>
+      <td role="rowheader">[!UICONTROL 資料表名稱]  </td>
       <td>
         <p>輸入或對應包含您要新增或刪除之資料列的表格名稱。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL群組ID]  </td>
+      <td role="rowheader">[!UICONTROL 群組ID]  </td>
       <td>輸入或對應擁有資料集之群組的ID。</td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL通知選項]  </td>
+      <td role="rowheader">[!UICONTROL 通知選項]  </td>
       <td>
         <p>選取或對應選項以通知：</p>
         <ul>
           <li>
-            <p>[！UICONTROL Mail on Completion]</p>
+            <p>[!UICONTROL Mail on Completion]</p>
           </li>
           <li>
-            <p>[！UICONTROL郵件失敗]</p>
+            <p>[!UICONTROL 郵件失敗]</p>
           </li>
           <li>
-            <p>[！UICONTROL無通知]</p>
+            <p>[!UICONTROL 無通知]</p>
           </li>
         </ul>
       </td>
@@ -821,7 +821,7 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
+      <td role="rowheader">[!UICONTROL 應用程式ID]  </td>
       <td>
         <p>選取或對應您要擷取的應用程式ID。</p>
       </td>
@@ -842,13 +842,13 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
+      <td role="rowheader">[!UICONTROL 應用程式ID]  </td>
       <td>
         <p>選取或對應包含您要擷取之控制面板的應用程式ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td role="rowheader">[!UICONTROL 報表ID]</td>
       <td>
         <p>  選取或對應您要擷取之控制面板的ID。</p>
       </td>
@@ -869,13 +869,13 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]  </td>
+      <td role="rowheader">[!UICONTROL 應用程式ID]  </td>
       <td>
         <p>選取或對應包含您要擷取之報表的應用程式ID。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL報表ID]</td>
+      <td role="rowheader">[!UICONTROL 報表ID]</td>
       <td>
         <p>  選取或對應您要擷取之報表的ID。</p>
       </td>
@@ -917,7 +917,7 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]</td>
+      <td role="rowheader">[!UICONTROL 應用程式ID]</td>
       <td>選取或對應您要列出控制面板之應用程式的ID。</td>
     </tr>
     <tr>
@@ -942,7 +942,7 @@ Microsoft Power BI聯結器使用下列專案：
    <td> <p>如需有關將您的[!DNL Power BI]帳戶連線到Workfront Fusion的說明，請參閱<a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">建立與Adobe Workfront Fusion的連線 — 基本說明</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[！UICONTROL應用程式ID]</td>
+      <td role="rowheader">[!UICONTROL 應用程式ID]</td>
       <td>選取或對應您要從中列出報表之應用程式的ID。</td>
     </tr>
     <tr>
@@ -1002,7 +1002,7 @@ Microsoft Power BI聯結器使用下列專案：
         <p>[!UICONTROL 方法]</p>
       </td>
       <td>
-        <p>選取設定API呼叫所需的[！UICONTROL HTTP]要求方法。 如需詳細資訊，請參閱[！UICONTROL HTTP]要求方法。</p>
+        <p>選取設定API呼叫所需的[!UICONTROL HTTP]要求方法。 如需詳細資訊，請參閱[!UICONTROL HTTP]要求方法。</p>
       </td>
     </tr>
     <tr>

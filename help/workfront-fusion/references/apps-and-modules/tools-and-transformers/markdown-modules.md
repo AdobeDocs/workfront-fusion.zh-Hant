@@ -49,7 +49,7 @@ ht-degree: 47%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 47%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Markdown]</td> 
+   <td role="rowheader">[!UICONTROL Markdown]</td> 
    <td> <p>輸入您要轉換成Markdown的HTML程式碼。</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ ht-degree: 47%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Markdown]</td> 
+   <td role="rowheader">[!UICONTROL Markdown]</td> 
    <td> <p>輸入Markdown格式的純文字。</p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ ht-degree: 47%
    <td> <p>啟用此選項以將GitHub Flavored Markdown轉換為HTML。</p> <p>如需詳細資訊，請參閱[!DNL GitHub]檔案中的Markdown速查表。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Sanize]</td> 
+   <td role="rowheader">[!UICONTROL Sanize]</td> 
    <td>選取選項以指出是否要從文字中移除HTML標籤或逸出HTML。</td> 
   </tr> 
  </tbody> 

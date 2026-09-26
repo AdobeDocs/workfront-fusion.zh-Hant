@@ -56,7 +56,7 @@ Adobe Workfront Fusion管理員可以在Workfront Fusion中管理使用者詳細
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -67,4 +67,4 @@ Adobe Workfront Fusion管理員可以檢視和更新使用者詳細資訊。
 1. 以Workfront Fusion管理員身分登入時，在左側導覽中選取&#x200B;**[!UICONTROL 所有使用者]**。
 1. 在您要檢視的使用者列中，按一下&#x200B;**[!UICONTROL 詳細資料]**。
 1. （選擇性）若要更新使用者的詳細資料，請按一下畫面右上角的&#x200B;**[!UICONTROL 選項]**，然後選取&#x200B;**[!UICONTROL 變更詳細資料]**。
-1. 編輯詳細資料，然後按一下[儲存]。****
+1. 編輯詳細資料，然後按一下[儲存]。**&#x200B;**

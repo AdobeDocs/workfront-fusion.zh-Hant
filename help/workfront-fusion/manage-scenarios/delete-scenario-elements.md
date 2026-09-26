@@ -54,7 +54,7 @@ ht-degree: 55%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -67,4 +67,4 @@ ht-degree: 55%
    例如，如果您想要刪除情境，請按一下左側面板中的&#x200B;**[!UICONTROL 情境]**。
 
 1. 按一下要刪除專案右側的向下箭頭，然後按一下&#x200B;**[!UICONTROL 刪除]**。
-1. 按一下「****」確認。
+1. 按一下「**&#x200B;**」確認。

@@ -188,7 +188,7 @@ ht-degree: 0%
 
    我們建議在延伸點(`fusion-nav-organization-1`)之後命名資料夾。 確切的名稱由您決定，但必須符合您在`app.config.yaml`中參照的名稱。
 
-1. 繼續在`app.config.yaml`](#declare-the-extension-point-in-appconfigyaml)中[宣告擴充點。
+1. 繼續在`app.config.yaml`[&#128279;](#declare-the-extension-point-in-appconfigyaml)中宣告擴充點。
 
 ## 在`app.config.yaml`中宣告擴充點
 

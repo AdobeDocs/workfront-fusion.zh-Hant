@@ -62,7 +62,7 @@ ht-degree: 49%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -120,13 +120,13 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL執行個體URL，不含尾隨斜線]</td>
+        <td role="rowheader">[!UICONTROL 執行個體URL，不含尾隨斜線]</td>
         <td>
           <p>輸入您用來存取帳戶的URL，不含最後一個斜線。</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL IMS端點]</td>
+        <td role="rowheader">[!UICONTROL IMS端點]</td>
         <td>
           <p><code>https://ims-na1.adobelogin.com</code></p>
         </td>
@@ -140,15 +140,15 @@ Adobe Experience Manager Assets 連接器會使用以下項目：
         <td>輸入您的[!DNL Adobe]使用者端密碼。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL組織ID]</td>
+        <td role="rowheader">[!UICONTROL 組織ID]</td>
         <td>輸入您的[!DNL Adobe]組織識別碼。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL技術帳戶ID]</td>
+        <td role="rowheader">[!UICONTROL 技術帳戶ID]</td>
         <td>輸入您的[!DNL Adobe]技術帳戶ID。 此資訊可在 [!DNL Adobe Developer Console] 的[!UICONTROL 認證詳細資訊]區段中找到。
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL Meta範圍]</td>
+        <td role="rowheader">[!UICONTROL Meta範圍]</td>
         <td>輸入任何適當的中繼範圍       </td>
       </tr>
       <tr>

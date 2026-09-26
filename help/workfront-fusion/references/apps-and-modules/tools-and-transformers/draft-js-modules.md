@@ -49,7 +49,7 @@ ht-degree: 52%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -66,7 +66,7 @@ ht-degree: 52%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Draft.js]</td> 
+   <td role="rowheader">[!UICONTROL Draft.js]</td> 
    <td> <p>輸入或對應您要轉換成HTML的Draft.js文字。</p> </td> 
   </tr> 
  </tbody> 
@@ -81,7 +81,7 @@ ht-degree: 52%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL HTML]</td> 
+   <td role="rowheader">[!UICONTROL HTML]</td> 
    <td> <p>輸入或對應您要轉換成Draft.js的HTML程式碼。</p> </td> 
   </tr> 
  </tbody> 

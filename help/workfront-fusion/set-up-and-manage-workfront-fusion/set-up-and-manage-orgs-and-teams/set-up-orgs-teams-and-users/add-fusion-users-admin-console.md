@@ -26,7 +26,7 @@ ht-degree: 20%
 
 您可以將使用者新增到[!DNL Adobe Admin Console]並將他們指派到Adobe Workfront Fusion，或將[!DNL Adobe Admin Console]中的現有使用者指派到Workfront Fusion。
 
-如需在[!DNL Adobe Admin Console]中說明Workfront Fusion的影片，包括如何新增使用者，請參閱Adobe IMS](https://video.tv.adobe.com/v/3412464/){target=_blank}上的[[!DNL Fusion] 。
+如需在[!DNL Adobe Admin Console]中說明Workfront Fusion的影片，包括如何新增使用者，請參閱Adobe IMS[&#128279;](https://video.tv.adobe.com/v/3412464/){target=_blank}上的[!DNL Fusion] 。
 
 ## 存取權要求
 
@@ -65,7 +65,7 @@ ht-degree: 20%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -106,7 +106,7 @@ ht-degree: 20%
 
    使用者是在Workfront Fusion中建立。
 
-1. （選用）繼續在Workfront Fusion](#change-a-users-access-level-in-workfront-fusion)中[變更使用者的存取層級。
+1. （選用）繼續在Workfront Fusion[&#128279;](#change-a-users-access-level-in-workfront-fusion)中變更使用者的存取層級。
 
 ## 在Workfront Fusion中變更使用者的存取層級
 

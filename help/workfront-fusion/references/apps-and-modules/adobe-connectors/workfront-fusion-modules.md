@@ -47,7 +47,7 @@ ht-degree: 20%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -70,18 +70,18 @@ ht-degree: 20%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 用戶端 ID]</td> 
-      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]詳細資訊區段中找到。</td> 
+      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 用戶端密碼]</td> 
-      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]詳細資訊區段中找到。</td> 
+      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL組織ID]</td> 
+      <td role="rowheader">[!UICONTROL 組織ID]</td> 
       <td>輸入您的[!DNL Adobe] IMS組織ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL區域]</td> 
+      <td role="rowheader">[!UICONTROL 區域]</td> 
       <td>選取此連線的Fusion區域。</td> 
      </tr> 
     </tbody> 

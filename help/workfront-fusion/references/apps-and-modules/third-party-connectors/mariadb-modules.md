@@ -60,7 +60,7 @@ ht-degree: 59%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -94,19 +94,19 @@ ht-degree: 59%
         <td>選取要連接至服務帳戶或者個人帳戶。</td>
         </tr>
      <tr> 
-      <td role="rowheader">[！UICONTROL主機]</td> 
+      <td role="rowheader">[!UICONTROL 主機]</td> 
       <td> <p>輸入資料庫執行處理的IP位址或主機名稱。 此主機必須可從您的網路外部存取。</p> <p>範例： <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL連線埠]</td> 
+      <td role="rowheader">[!UICONTROL 連線埠]</td> 
       <td>預設連線埠為3306。 如果您使用非標準連線埠，請將此號碼設定為您的連線埠。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL資料庫]</td> 
+      <td role="rowheader">[!UICONTROL 資料庫]</td> 
       <td>輸入您要與其互動的資料庫名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL使用者]</td> 
+      <td role="rowheader">[!UICONTROL 使用者]</td> 
       <td>輸入您的使用者名稱。</td> 
      </tr> 
      <tr> 
@@ -139,7 +139,7 @@ ht-degree: 59%
    <td>關於將您的 [!DNL MariaDB] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">將 [!DNL MariaDB] 連接至 Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Query]</td> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
    <td> <p>輸入您希望模組用來擷取資料的SQL查詢。</p> <p>重要：查詢中使用的變數不會經過淨化。 請務必正確清理變數，以防止SQL插入。</p> </td> 
   </tr> 
  </tbody> 
@@ -158,7 +158,7 @@ ht-degree: 59%
    <td>關於將您的 [!DNL MariaDB] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">將 [!DNL MariaDB] 連接至 Workfront Fusion</a>。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL表格]</td> 
+   <td role="rowheader">[!UICONTROL 表格]</td> 
    <td> <p>選取包含要讀取之記錄的表格。</p> </td> 
   </tr> 
   <tr> 
@@ -171,8 +171,8 @@ ht-degree: 59%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL排序] </td> 
-   <td> <p>針對您想要排序結果的每個層級，按一下<strong>[！UICONTROL新增專案]</strong>，然後選取您想要排序結果的欄位，以及您想要以升序或降序排序</p> </td> 
+   <td role="rowheader">[!UICONTROL 排序] </td> 
+   <td> <p>針對您想要排序結果的每個層級，按一下<strong>[!UICONTROL 新增專案]</strong>，然後選取您想要排序結果的欄位，以及您想要以升序或降序排序</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 限制]</td> 

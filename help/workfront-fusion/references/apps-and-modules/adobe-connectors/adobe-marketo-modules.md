@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: e84d0b7b77dd55c6f045c0b8d4d13aa16bfd29e6
 workflow-type: tm+mt
-source-wordcount: '2257'
-ht-degree: 99%
+source-wordcount: '2657'
+ht-degree: 86%
 ---
 # [!DNL Marketo] 模組
 
@@ -63,7 +63,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -214,9 +214,12 @@ Marketo 連接器會使用以下內容：
 
 * [[!UICONTROL 將商機新增至清單]](#add-leads-to-a-list)
 * [[!UICONTROL 原地複製一個方案]](#clone-a-program)
+* [[!UICONTROL 建立大量擷取工作]](#create-a-bulk-extract-job)
 * [[!UICONTROL 建立記錄]](#create-a-record)
 * [[!UICONTROL 自訂 API 呼叫]](#custom-api-call)
+* [[!UICONTROL 下載大量擷取檔案]](#download-a-bulk-extract-file)
 * [[!UICONTROL 下載檔案]](#download-a-file)
+* [[!UICONTROL 取得大量擷取工作狀態]](#get-bulk-extract-job-status)
 * [[!UICONTROL 讀取記錄]](#read-a-record)
 * [[!UICONTROL 從清單中移除商機]](#remove-leads-from-a-list)
 * [[!UICONTROL 安排行銷活動的時間]](#schedule-a-campaign)
@@ -269,6 +272,45 @@ Marketo 連接器會使用以下內容：
   <tr> 
    <td role="rowheader">[!UICONTROL 資料夾 ID]</td> 
    <td>輸入或對應您要放置新方案的資料夾之 ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 建立大量擷取工作]
+
+此動作模組會建立「銷售機會」與「人員」記錄的批次擷取工作。 使用[!UICONTROL 取得大量擷取工作狀態]以檢查工作，然後[!UICONTROL 下載大量擷取檔案]以擷取完成的匯出。 此模組會傳回狀態和下載模組使用的匯出ID。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
+   <td> <p>關於將您的 [!DNL Marketo] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將 [!DNL Marketo] 連接至 Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 欄位]</td> 
+   <td> <p>針對您想要新增至大量擷取工作的每個欄位，按一下<b>新增專案</b>並輸入欄位API名稱。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL輸出格式]</td> 
+   <td> <p>選取擷取的檔案格式：CSV、TSV或SSV。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL篩選依據]</td> 
+   <td> <p>選取此模組的篩選器，然後在顯示的欄位中輸入要求的資訊：</p>
+   <ul> 
+    <li> <p><strong>[！UICONTROL智慧清單]</strong> </p> <p>輸入或對應「智慧列示ID」。</p> </li> 
+    <li> <p><strong>[！UICONTROL建立的日期範圍]</strong> </p> <p>選取您要搜尋的開始和結束日期。</p> </li> 
+   </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL自訂欄標題]</td> 
+   <td> <p>針對您想要包含在擷取作業中的每個自訂欄標題，按一下<b>新增專案</b>並輸入欄位的API名稱和欄標題文字。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL立即將工作排入佇列]</td> 
+   <td> <p>選取是可將工作排入佇列，以便在建立後立即執行。 選取否，稍後再使用個別步驟將工作排入佇列。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -362,6 +404,33 @@ Marketo 連接器會使用以下內容：
    <td role="rowheader">[!UICONTROL 欄位]</td> 
    <td> <p>對於您要新增至 API 呼叫的每個欄位，按一下「<b>新增項目</b>」，然後輸入欄位的索引鍵和值。</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL主體型別]</td> 
+   <td> <p>選取要求內容的格式： <b>[！UICONTROL URL編碼（欄位）]</b>或<b>[！UICONTROL JSON]</b>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL要求內文(JSON)]</td> 
+   <td> <p>僅當[！UICONTROL Body Type]設定為[！UICONTROL JSON]時使用。 輸入原始JSON內文。</p> <p>重要：使用JSON時，請將上方的[！UICONTROL Content-Type]標頭從<code>application/x-www-form-urlencoded</code>變更為<code>application/json</code>，否則Marketo可能會拒絕要求。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 下載大量擷取檔案]
+
+此動作模組會擷取檔案以擷取已完成的批次擷取作業。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
+   <td> <p>關於將您的 [!DNL Marketo] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將 [!DNL Marketo] 連接至 Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL匯出ID]</td> 
+   <td>輸入或對應您要下載檔案的大量擷取工作的ID。</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -380,6 +449,25 @@ Marketo 連接器會使用以下內容：
   <tr> 
    <td role="rowheader">[!UICONTROL 檔案 ID]</td> 
    <td>輸入或對應您要下載的檔案之 ID。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 取得大量擷取工作狀態]
+
+此動作模組會使用其作業ID來擷取大量擷取作業的狀態。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL 連線]</p> </td> 
+   <td> <p>關於將您的 [!DNL Marketo] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將 [!DNL Marketo] 連接至 Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[！UICONTROL匯出ID]</td> 
+   <td>輸入或對映您要檢查其狀態的大量擷取作業的ID。</td> 
   </tr> 
  </tbody> 
 </table>

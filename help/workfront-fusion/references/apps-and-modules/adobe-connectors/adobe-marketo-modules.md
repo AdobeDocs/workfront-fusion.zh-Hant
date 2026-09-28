@@ -63,7 +63,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -293,23 +293,23 @@ Marketo 連接器會使用以下內容：
    <td> <p>針對您想要新增至大量擷取工作的每個欄位，按一下<b>新增專案</b>並輸入欄位API名稱。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL輸出格式]</td> 
+   <td role="rowheader">[!UICONTROL 輸出格式]</td> 
    <td> <p>選取擷取的檔案格式：CSV、TSV或SSV。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL篩選依據]</td> 
+   <td role="rowheader">[!UICONTROL 篩選依據]</td> 
    <td> <p>選取此模組的篩選器，然後在顯示的欄位中輸入要求的資訊：</p>
    <ul> 
-    <li> <p><strong>[！UICONTROL智慧清單]</strong> </p> <p>輸入或對應「智慧列示ID」。</p> </li> 
-    <li> <p><strong>[！UICONTROL建立的日期範圍]</strong> </p> <p>選取您要搜尋的開始和結束日期。</p> </li> 
+    <li> <p><strong>[!UICONTROL 智慧清單]</strong> </p> <p>輸入或對應「智慧列示ID」。</p> </li> 
+    <li> <p><strong>[!UICONTROL 建立的日期範圍]</strong> </p> <p>選取您要搜尋的開始和結束日期。</p> </li> 
    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL自訂欄標題]</td> 
+   <td role="rowheader">[!UICONTROL 自訂欄標題]</td> 
    <td> <p>針對您想要包含在擷取作業中的每個自訂欄標題，按一下<b>新增專案</b>並輸入欄位的API名稱和欄標題文字。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL立即將工作排入佇列]</td> 
+   <td role="rowheader">[!UICONTROL 立即將工作排入佇列]</td> 
    <td> <p>選取是可將工作排入佇列，以便在建立後立即執行。 選取否，稍後再使用個別步驟將工作排入佇列。</p> </td> 
   </tr> 
  </tbody> 
@@ -405,12 +405,12 @@ Marketo 連接器會使用以下內容：
    <td> <p>對於您要新增至 API 呼叫的每個欄位，按一下「<b>新增項目</b>」，然後輸入欄位的索引鍵和值。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL主體型別]</td> 
-   <td> <p>選取要求內容的格式： <b>[！UICONTROL URL編碼（欄位）]</b>或<b>[！UICONTROL JSON]</b>。</p> </td> 
+   <td role="rowheader">[!UICONTROL 主體型別]</td> 
+   <td> <p>選取要求內容的格式： <b>[!UICONTROL URL編碼（欄位）]</b>或<b>[!UICONTROL JSON]</b>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL要求內文(JSON)]</td> 
-   <td> <p>僅當[！UICONTROL Body Type]設定為[！UICONTROL JSON]時使用。 輸入原始JSON內文。</p> <p>重要：使用JSON時，請將上方的[！UICONTROL Content-Type]標頭從<code>application/x-www-form-urlencoded</code>變更為<code>application/json</code>，否則Marketo可能會拒絕要求。</p> </td> 
+   <td role="rowheader">[!UICONTROL 要求內文(JSON)]</td> 
+   <td> <p>僅當[!UICONTROL Body Type]設定為[!UICONTROL JSON]時使用。 輸入原始JSON內文。</p> <p>重要：使用JSON時，請將上方的[!UICONTROL Content-Type]標頭從<code>application/x-www-form-urlencoded</code>變更為<code>application/json</code>，否則Marketo可能會拒絕要求。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -428,7 +428,7 @@ Marketo 連接器會使用以下內容：
    <td> <p>關於將您的 [!DNL Marketo] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將 [!DNL Marketo] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL匯出ID]</td> 
+   <td role="rowheader">[!UICONTROL 匯出ID]</td> 
    <td>輸入或對應您要下載檔案的大量擷取工作的ID。</td> 
   </tr> 
  </tbody> 
@@ -466,7 +466,7 @@ Marketo 連接器會使用以下內容：
    <td> <p>關於將您的 [!DNL Marketo] 帳戶連接至 Workfront Fusion 的說明，請參閱這篇文章中的<a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">將 [!DNL Marketo] 連接至 Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL匯出ID]</td> 
+   <td role="rowheader">[!UICONTROL 匯出ID]</td> 
    <td>輸入或對映您要檢查其狀態的大量擷取作業的ID。</td> 
   </tr> 
  </tbody> 

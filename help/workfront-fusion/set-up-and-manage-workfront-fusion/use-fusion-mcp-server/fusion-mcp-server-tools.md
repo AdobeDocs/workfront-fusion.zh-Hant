@@ -1,7 +1,7 @@
 ---
 title: Adobe Workfront Fusion MCP伺服器工具
 description: Adobe Workfront Fusion MCP伺服器提供給AI代理平台和同事的工具參考清單。
-source-git-commit: 322a34df48a5218bc045e6cac6a5a8b3837e8c2e
+source-git-commit: 5f3bd6b7b8837632af245ea2c172205625e4ecba
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 7%
@@ -175,4 +175,5 @@ ht-degree: 7%
 ## 如何更新工具
 
 當Adobe發行新版Fusion MCP伺服器時，連線的代理程式會自動擷取更新的工具集。 您不需要重新連線。
+
 

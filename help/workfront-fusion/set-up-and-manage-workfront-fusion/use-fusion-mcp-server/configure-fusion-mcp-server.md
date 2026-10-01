@@ -1,7 +1,7 @@
 ---
 title: 設定Adobe Workfront Fusion MCP伺服器
 description: 將Adobe Workfront Fusion連線至與MCP相容的AI代理平台或同事（獨立版或在Fusion右側邊欄中）。
-source-git-commit: 6d447c16d199c69ae670f59bb56cf79464cbe057
+source-git-commit: 5f3bd6b7b8837632af245ea2c172205625e4ecba
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -178,3 +178,4 @@ claude mcp add --transport http fusion-mcp https://mcp.fusion.adobe.com/mcp
 ### 代理程式是否看到我的連線密碼？
 
 否。 連線和金鑰工具會傳回中繼資料（名稱、型別、範圍、有效期），而非認證或密碼值。
+

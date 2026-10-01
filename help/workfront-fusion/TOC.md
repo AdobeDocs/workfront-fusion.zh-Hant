@@ -3,10 +3,10 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 8b99d756bfddf8342a4a8cf672b13c3e98879f61
+source-git-commit: 740f7e0e96d0eb4e6290f42f52b75eb64de791dc
 workflow-type: tm+mt
-source-wordcount: '2687'
-ht-degree: 49%
+source-wordcount: '2710'
+ht-degree: 48%
 ---
 
 # Adobe Workfront Fusion 文件 {#using}
@@ -233,6 +233,10 @@ ht-degree: 49%
     * [管理範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/manage-templates-toc.md)
     * [核准或不核准範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/approve-templates.md)
     * [編輯範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/edit-templates.md)
+  * 使用Fusion MCP伺服器 {#use-fusion-mcp-server}
+    * [使用Fusion MCP伺服器：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-fusion-mcp-server/use-fusion-mcp-server-toc.md)
+    * [設定Adobe Workfront Fusion MCP伺服器](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-fusion-mcp-server/configure-fusion-mcp-server.md)
+    * [Adobe Workfront Fusion MCP伺服器工具](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-fusion-mcp-server/fusion-mcp-server-tools.md)
   * 使用Workfront儲存空間 {#use-workfront-storage}
     * [使用Workfront儲存空間](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/use-workfront-storage-toc.md)
     * [儲存空間概觀](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/storage-overview.md)
@@ -309,7 +313,7 @@ ht-degree: 49%
   * [將模組移至鏈結](/help/workfront-fusion/manage-scenarios/move-modules-to-a-chain.md)
   * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
   * [檢視 Webhook 的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
-  * {hide-from-toc}[Workfront Fusion中的AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
+  * Workfront Fusion中的{hide-from-toc}[AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
   * [執行情境評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
   * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
   * [從案例區域管理案例](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)

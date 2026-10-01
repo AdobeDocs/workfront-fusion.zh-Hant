@@ -19,10 +19,10 @@ feature_v2:
     internal-label: Integrations
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 740f7e0e96d0eb4e6290f42f52b75eb64de791dc
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 67%
+source-wordcount: '72'
+ht-degree: 63%
 ---
 # 設定和管理 Workfront Fusion：文章索引
 
@@ -30,4 +30,5 @@ ht-degree: 67%
 * [設定和管理組織與團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-and-manage-orgs-and-teams.md)
 * [設定自訂UI擴充功能](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-custom-extensions/custom-extension-00-readme.md)
 * [管理範本](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/manage-templates-toc.md)
+* [使用Fusion MCP伺服器](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-fusion-mcp-server/use-fusion-mcp-server-toc.md)
 * [使用Workfront儲存空間](/help/workfront-fusion/set-up-and-manage-workfront-fusion/use-workfront-storage/use-workfront-storage-toc.md)

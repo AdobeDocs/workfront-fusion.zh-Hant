@@ -243,6 +243,6 @@ AI只會在提示實際要求寫入、更新或刪除動作時才會進行。 �
 ## Reference links used while compiling this
 
 * Adobe Marketo Engage MCP server (developer documentation):
-  https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server
+  https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/mcp-server
 
   -->

@@ -69,7 +69,7 @@ Adobe Marketo Engage MCP模組可讓您使用AI模型來解譯請求，並呼叫
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -123,7 +123,7 @@ Adobe Marketo Engage MCP模組可讓您使用AI模型來解譯請求，並呼叫
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[！UICONTROL Munchkin ID]</td>
+        <td role="rowheader">[!UICONTROL Munchkin ID]</td>
         <td>
           <p>輸入您的Marketo執行個體的Munchkin ID （例如，'123-ABC-456'）。 Munchkin ID會顯示在Marketo的<b>管理員→Munchkin</b>下。</p>
         </td>

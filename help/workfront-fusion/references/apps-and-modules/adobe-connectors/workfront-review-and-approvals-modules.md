@@ -51,7 +51,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -1388,15 +1388,15 @@ This action module deletes participants from an approval.
       <td>選取您要模組觀看的核准記錄型別。</td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL組態型別]</td> 
+      <td>[!UICONTROL 組態型別]</td> 
       <td>選取您要使用簡單或進階篩選。<p>如需有關簡單或進階篩選的資訊，請參閱Workfront模組文章中的<a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#using-advanced-filters" class="MCXref xref">使用進階篩選</a>。</p></td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL事件篩選器裝載]</td> 
+      <td>[!UICONTROL 事件篩選器裝載]</td> 
       <td>如果您使用進階篩選器，請輸入說明該篩選器的JSON。</td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL Filter Connector]</td> 
+      <td>[!UICONTROL Filter Connector]</td> 
       <td>如果您使用進階篩選，請選取要用於篩選的聯結器。</td> 
      </tr> 
      <tr> 
@@ -1404,8 +1404,8 @@ This action module deletes participants from an approval.
       <td>如果您使用簡單篩選器，請選取您要觀看舊狀態還是新狀態。<ul><li><p><b>[!UICONTROL 新狀態]</b></p><p>當記錄變更<b>為</b>特定值時觸發一個情境。</p><p>例如，若狀態設定為「[!UICONTROL 新狀態]」而篩選器設定為「[!UICONTROL 狀態] [!UICONTROL 等於] [!UICONTROL 進行中]」，則當「[!UICONTROL 狀態]」變更為「[!UICONTROL 進行中]」時，無論先前的狀態為何，Webhook 會觸發一個情境。</p></li><li><p><b>[!UICONTROL 舊狀態]</b></p><p>當記錄<b>從</b>特定值變更為其他時會觸發一個情境。</p><p>例如，若狀態設定為「[!UICONTROL 舊狀態]」而篩選器設定為「[!UICONTROL 狀態] [!UICONTROL 等於] [!UICONTROL 進行中]」，則當目前為「[!UICONTROL 進行中]」的「[!UICONTROL 狀態]」變更為其他狀態時，Webhook 會觸發一個情境。</p></li></ul></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td> <p>[！UICONTROL事件篩選器]</p> </td> 
-      <td> <p>如果您使用簡單篩選器，請設定篩選器。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。 您可以新增 AND 規則，以便使用一個以上的篩選器。</p> <p><b>注意</b>：您無法編輯現有 Workfront Webhook 中的篩選器。 若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。</p> <p>如需事件篩選的詳細資訊，請參閱Workfront模組文章中的Workfront &gt; [！UICONTROL觀看活動]模組中的<a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">事件訂閱篩選</a>。</p> </td> 
+      <td> <p>[!UICONTROL 事件篩選器]</p> </td> 
+      <td> <p>如果您使用簡單篩選器，請設定篩選器。</p> <p>對於每個篩選器，輸入您要篩選器評估的欄位、運算子，以及要讓篩選器允許的值。 您可以新增 AND 規則，以便使用一個以上的篩選器。</p> <p><b>注意</b>：您無法編輯現有 Workfront Webhook 中的篩選器。 若要為 Workfront 事件訂閱設定不同的篩選器，請移除目前的 Webhook 並建立新的。</p> <p>如需事件篩選的詳細資訊，請參閱Workfront模組文章中的Workfront &gt; [!UICONTROL 觀看活動]模組中的<a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">事件訂閱篩選</a>。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>排除此連線所造成的事件</td> 
@@ -1419,16 +1419,16 @@ This action module deletes participants from an approval.
        </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL啟用安全鉤點]</td> 
+      <td>[!UICONTROL 啟用安全鉤點]</td> 
       <td>
        <p>選擇是否要為此webhook啟用authToken型安全性。</p><p>
        <b>注意</b>：自2026年8月23日起，Fusion將依預設為所有Workfront &gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以關閉「啟用安全鉤點」選項。</p>
        </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL自訂權杖]</td> 
+      <td>[!UICONTROL 自訂權杖]</td> 
       <td>
-       <p>（選用）如果[！UICONTROL啟用安全鉤點]設為[！UICONTROL是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
+       <p>（選用）如果[!UICONTROL 啟用安全鉤點]設為[!UICONTROL 是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
        </td> 
      </tr> 
     </tbody> 

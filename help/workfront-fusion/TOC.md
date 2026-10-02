@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 740f7e0e96d0eb4e6290f42f52b75eb64de791dc
+source-git-commit: 9e08c421a53c7ca499715fa8e32be6c10fbde1d9
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2715'
 ht-degree: 48%
 ---
 
@@ -415,6 +415,7 @@ ht-degree: 48%
       * [Adobe Journey Optimizer 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
       * [Adobe Lightroom 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
       * [Adobe Marketo 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
+      * [Adobe Marketo Engage MCP模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-engage-mcp-module.md)
       * [Adobe PDF Services 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/pdf-modules.md)
       * [Adobe Photoshop 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-photoshop-modules.md)
       * [Adobe Substance 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-substance-modules.md)

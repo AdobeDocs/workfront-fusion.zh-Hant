@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 9e08c421a53c7ca499715fa8e32be6c10fbde1d9
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 92%
+source-wordcount: '528'
+ht-degree: 91%
 ---
 # Fusion 應用程式及其模組參考資料：文章索引
 
@@ -66,6 +66,7 @@ Fusion 為許多 Adobe 產品和服務提供連接器。
 * [Adobe Journey Optimizer 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
 * [Adobe Marketo 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
+* [Adobe Marketo Engage MCP模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-engage-mcp-module.md)
 * [Adobe PDF Services 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/pdf-modules.md)
 * [Adobe Photoshop 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-photoshop-modules.md)
 * [Adobe 儲存空間模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-storage-modules.md)

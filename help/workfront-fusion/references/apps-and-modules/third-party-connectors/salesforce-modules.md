@@ -14,9 +14,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 08224dc1e04d56e422cb177c65efadf5db71b136
 workflow-type: tm+mt
-source-wordcount: '3056'
+source-wordcount: '3078'
 ht-degree: 34%
 ---
 # [!DNL Salesforce] 模組
@@ -115,6 +115,13 @@ Salesforce聯結器會使用以下專案：
 ## 建立與 [!DNL Salesforce] 的連線
 
 若要為您的[!DNL Salesforce]模組建立連線，您可以使用OAuth 2或PKCE進行驗證。
+
+>[!NOTE]
+>
+>如果您使用PKCE進行驗證，您必須在Salesforce中啟用以下範圍。
+>
+>* 完整存取權： `full`
+>* 隨時執行要求： `refresh_token`，`offline_access`
 
 1. 在任何 [!DNL Salesforce] 模組中，按一下「連線」方塊旁的「**[!UICONTROL 新增]**」。
 

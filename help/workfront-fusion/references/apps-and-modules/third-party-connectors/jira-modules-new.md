@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 818b14eb26bab6d81f95daf1c8c7ee831402c879
 workflow-type: tm+mt
-source-wordcount: '2406'
-ht-degree: 25%
+source-wordcount: '2675'
+ht-degree: 22%
 ---
 # Jira 模組
 
@@ -65,7 +65,7 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -78,10 +78,14 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
 
 ## 將Jira連線至Workfront Fusion
 
-建立與Jira的連線的程式會因您是要建立基本連線還是OAuth2連線而有所不同。
+建立與Jira連線的程式取決於您使用的帳戶型別和驗證方法。 當連線與個人Jira使用者相關聯時，使用個人帳戶連線。 當連線打算使用專用的自動化或非使用者身分執行時，請使用服務帳戶連線。
+
+在&#x200B;**連線型別**&#x200B;欄位中，為您的Jira帳戶選取適當的驗證方法：
 
 * [建立與Jira的OAuth2連線](#create-an-oauth2-connection-to-jira)
 * [建立與Jira的基本連線](#create-a-basic-connection-to-jira)
+* [建立與Jira的服務帳戶API權杖連線](#create-a-service-account-api-token-connection-to-jira)
+* [建立與Jira的服務帳戶OAuth2連線](#create-a-service-account-oauth2-connection-to-jira)
 
 ### 建立與Jira的OAuth2連線
 
@@ -97,13 +101,13 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
 >您必須擁有Jira Developer Console的存取權，才能為Jira連線建立和設定OAuth2應用程式。
 
 1. 移至[Jira Developer Console](https://developer.atlassian.com/console.myapps/)。
-1. 在[我的應用程式]區域中，按一下[建立]&#x200B;**&#x200B;**，然後選取[OAuth 2.0整合]&#x200B;**。**
-1. 輸入整合的名稱，同意開發人員條款，然後按一下[建立]。**&#x200B;**
+1. 在[我的應用程式]區域中，按一下[建立]****，然後選取[OAuth 2.0整合]**。**
+1. 輸入整合的名稱，同意開發人員條款，然後按一下[建立]。****
 
    應用程式隨即建立，您就會進入應用程式設定區域。
 1. 按一下左側導覽面板中的&#x200B;**許可權**。
 1. 在[許可權]區域中，找到&#x200B;**Jira API**&#x200B;行。
-1. 按一下Jira API行中的[新增]&#x200B;**&#x200B;**，然後按一下同一行中的[繼續]&#x200B;**&#x200B;**。
+1. 按一下Jira API行中的[新增]****，然後按一下同一行中的[繼續]****。
 1. 啟用下列範圍：
 
    * 檢視Jira問題資料(`read:jira-work`)
@@ -195,7 +199,7 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>連線類型</p> </td> 
-      <td> <p>選擇您要建立基本連線還是OAuth 2連線。</p> </td> 
+      <td> <p>選取此連線的<b>基本</b>。</p></td>
      </tr> 
      <tr> 
       <td role="rowheader"> <p>連線名稱</p> </td> 
@@ -243,7 +247,7 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>連線類型</p> </td> 
-      <td> <p>選擇您要建立基本連線還是OAuth 2連線。</p> </td> 
+      <td> <p>選取此連線的<b>基本</b>。</p></td>
      </tr> 
      <tr> 
       <td role="rowheader"> <p>連線名稱</p> </td> 
@@ -294,6 +298,33 @@ Jira聯結器可用於Jira Cloud和Jira Data Server。
 * `jira.rest.csrf.disabled = true`
 
 如果此檔案不存在，您必須建立它。
+
+### 建立與Jira的服務帳戶API權杖連線
+
+此選項用於使用API權杖驗證的Jira服務帳戶。 在&#x200B;**連線型別**&#x200B;欄位中，選取&#x200B;**服務帳戶API Token**。
+
+1. 在任何Jira模組中，按一下&#x200B;**連線**&#x200B;欄位旁的&#x200B;**新增**。
+1. 在&#x200B;**連線型別**&#x200B;欄位中，選取&#x200B;**服務帳戶API Token**。
+1. 輸入&#x200B;**連線名稱**。
+1. 輸入您Jira執行個體的&#x200B;**服務URL**。
+1. 選取適當的&#x200B;**Jira帳戶型別**。
+1. 輸入Jira服務帳戶的API權杖。
+1. 選取您要此連線使用的&#x200B;**API版本**。
+1. 按一下&#x200B;**繼續**&#x200B;以建立連線並返回模組。
+
+### 建立與Jira的服務帳戶OAuth2連線
+
+此選項用於透過OAuth 2驗證的Jira服務帳戶。 在&#x200B;**連線型別**&#x200B;欄位中，選取&#x200B;**服務帳戶OAuth 2**。
+
+1. 在任何Jira模組中，按一下&#x200B;**連線**&#x200B;欄位旁的&#x200B;**新增**。
+1. 在&#x200B;**連線型別**&#x200B;欄位中，選取&#x200B;**服務帳戶OAuth 2**。
+1. 輸入&#x200B;**連線名稱**。
+1. 輸入您Jira執行個體的&#x200B;**服務URL**。
+1. 選取適當的&#x200B;**Jira帳戶型別**。
+1. 輸入與服務帳戶相關聯之Jira OAuth 2應用程式的&#x200B;**使用者端識別碼**&#x200B;和&#x200B;**使用者端密碼**。
+1. 選擇性地輸入連線所需的任何&#x200B;**其他範圍**。
+1. 選取您要此連線使用的&#x200B;**API版本**。
+1. 按一下&#x200B;**繼續**&#x200B;以建立連線並返回模組。
 
 ## Jira模組及其欄位
 

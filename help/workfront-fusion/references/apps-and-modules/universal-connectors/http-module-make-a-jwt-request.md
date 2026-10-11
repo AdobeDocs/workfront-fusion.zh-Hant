@@ -67,7 +67,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP] > [!UICONTROL 發出JWT請求]模組會
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -159,67 +159,67 @@ Adobe Workfront Fusion [!UICONTROL HTTP] > [!UICONTROL 發出JWT請求]模組會
    <td><p>索引鍵/值格式的查詢字串引數。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL主體型別]</p></td>
+   <td role="rowheader"><p>[!UICONTROL 主體型別]</p></td>
    <td><p>要求內文的編碼方式。 選項包括Raw、application/x-www-form-urlencoded和multipart/form-data。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL剖析回應]</p></td>
+   <td role="rowheader"><p>[!UICONTROL 剖析回應]</p></td>
    <td><p>啟用時，Fusion會根據回應內容型別來剖析回應內文。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL JWT裝載（宣告）]</p></td>
+   <td role="rowheader"><p>[!UICONTROL JWT裝載（宣告）]</p></td>
    <td><p>JWT裝載中包含的宣告金鑰/值配對。 保留的宣告<code>exp</code>、<code>iat</code>和<code>nbf</code>必須是NumericDate — 自Unix紀元以來的秒數。 宣告值會保留其JSON型別，因此數字會保留數字，而布林值會保留布林值。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL逾時] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 逾時] （進階）</p></td>
    <td><p>指定要求逾時秒數(1-300)。 預設值為40秒。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL重試計數] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 重試計數] （進階）</p></td>
    <td><p>指定當請求因可重試的錯誤而失敗時，請求應該重試的次數。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL其他重試狀態碼] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 其他重試狀態碼] （進階）</p></td>
    <td><p>指定應視為可重試的其他HTTP狀態代碼。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL與其他HTTP模組共用Cookie] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 與其他HTTP模組共用Cookie] （進階）</p></td>
    <td><p>啟用此選項即可將伺服器的Cookie與案例中的所有HTTP模組共用。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL自我簽署憑證] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 自我簽署憑證] （進階）</p></td>
    <td><p>如果您想要使用自我簽署憑證的TLS，請上傳憑證。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL拒絕使用未驗證（自我簽署）憑證的連線] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 拒絕使用未驗證（自我簽署）憑證的連線] （進階）</p></td>
    <td><p>啟用此選項可拒絕使用未驗證TLS憑證的連線。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL遵循重新導向] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 遵循重新導向] （進階）</p></td>
    <td><p>啟用此選項可在3xx回應中跟隨URL重新導向。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL停用將多個相同的查詢字串索引鍵序列化為陣列] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 停用將多個相同的查詢字串索引鍵序列化為陣列] （進階）</p></td>
    <td><p>依預設，Workfront Fusion會針對與陣列相同的URL查詢字串引數索引鍵處理多個值。 例如，<code>www.test.com?foo=bar&amp;foo=baz</code>將轉換為<code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>。 啟動此選項以停用此功能。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL要求壓縮內容] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 要求壓縮內容] （進階）</p></td>
    <td><p>啟用此選項以請求網站的壓縮版本。 新增<code>[!UICONTROL Accept-Encoding]</code>標頭以要求壓縮內容。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL使用雙向TLS] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 使用雙向TLS] （進階）</p></td>
    <td><p>啟用此選項以在HTTP請求中使用雙向TLS。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL符號選項] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 符號選項] （進階）</p></td>
    <td><p>針對您想要新增至要求的每個符號選項，按一下<b>新增專案</b>並輸入引數的名稱和值。</p><p>傳遞給JWT簽署者的其他選項，例如<code>expiresIn</code>、<code>issuer</code>、<code>audience</code>、<code>subject</code>和<code>keyid</code>。 <code>jsonwebtoken</code>資料庫會解譯<code>expiresIn</code>等期間值。 純數字會被視為毫秒，因此請使用單位字串（例如<code>"1h"</code>或<code>"3600s"</code>）來明確顯示。 演演算法是從連線中取得的，並且無法在此處覆寫。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL標頭名稱] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 標頭名稱] （進階）</p></td>
    <td><p>輸入或對應接收已簽署JWT的請求標頭名稱。 預設值： <code>Authorization</code>。 標頭名稱不可包含點(<code>.</code>)，因為點狀名稱遭到拒絕，且無法在請求記錄中遮罩。</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><p>[！UICONTROL權杖型別] （進階）</p></td>
+   <td role="rowheader"><p>[!UICONTROL 權杖型別] （進階）</p></td>
    <td><p>輸入或對應置於Token之前的驗證配置，例如<code>Bearer</code>。 將此項保留空白可傳送不含前置詞的原始權杖。</p></td>
   </tr>
  </tbody>

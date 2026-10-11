@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: e3b9a5e08e78c9ddd4829ab288c353a058409a5c
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 19%
+source-wordcount: '1194'
+ht-degree: 16%
 ---
 # [!UICONTROL HTTP] > [!UICONTROL 提出要求]模組
 
@@ -128,6 +128,14 @@ Adobe Workfront Fusion [!UICONTROL HTTP] > [!UICONTROL 發出要求模組]是通
   <tr> 
    <td role="rowheader">[!UICONTROL 逾時] </td> 
    <td> <p>指定要求逾時秒數(1-300)。 預設值為40秒。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 重試計數]</td> 
+   <td> <p>指定發生連線錯誤(ETIMEDOUT、ECONNRESET、EPROTO)時重試要求的次數。 預設值為3。 設為0可停用重試。</p> <p>此設定只有在啟用[!UICONTROL Evaluate all states as errors]時才會生效。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 其他重試狀態碼]</td> 
+   <td> <p>指定啟用[!UICONTROL 評估所有狀態為錯誤]時，應視為可擷取的其他HTTP狀態代碼。 依預設，只有408、429和所有5xx程式碼可以擷取。</p> <p>當您新增狀態代碼至此欄位時，它會變成可重試的連線錯誤，並根據[!UICONTROL Retry Count]設定觸發重試。 此處未列出的狀態代碼會保留其預設行為。 通常無法重試的程式碼（例如404或422）可以在此處加入它們來使其可重試。</p> <p><b>範例：</b>如果您啟用[!UICONTROL Evaluate all states as errors]，將[!UICONTROL Retry Count]設定為4，並將422新增至此欄位，HTTP 422回應將會被視為可擷取的，並像其他連線型別失敗一樣重試。</p> <p><b>注意：</b> [!UICONTROL Timeout]設定可控制每次嘗試等待的時間。 它不會定義重試之間的暫停。 此設定只有在啟用[!UICONTROL Evaluate all states as errors]時才會生效。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 與其他HTTP模組共用Cookie]</td> 

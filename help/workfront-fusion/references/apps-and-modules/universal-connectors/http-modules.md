@@ -14,9 +14,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 50583b23190de0fee568f020722482d8e9aed76b
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '639'
 ht-degree: 24%
 ---
 # HTTP >其他模組
@@ -80,6 +80,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP]應用程式提供各種模組，以供�
 如需特定請求模組指示，請參閱下列文章：
 
 * [[!UICONTROL HTTP] > [!UICONTROL 提出要求]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL 發出JWT請求]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-jwt-request.md)
 * [[!UICONTROL HTTP] > [!UICONTROL 提出基本授權請求]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-basic-auth-request.md)
 * [[!UICONTROL HTTP] > [!UICONTROL 提出 OAuth 2.0 請求]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-oauth-2-request.md)
 * [[!UICONTROL HTTP] > [!UICONTROL 提出用戶端憑證授權請求]模組](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-client-cert-auth-request.md)

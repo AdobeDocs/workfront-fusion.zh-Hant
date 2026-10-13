@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 0922a5503bbeded91ae116849465d0f898ef4686
 workflow-type: tm+mt
-source-wordcount: '2647'
-ht-degree: 23%
+source-wordcount: '3789'
+ht-degree: 17%
 ---
 # [!DNL Azure DevOps] 模組
 
@@ -92,10 +92,200 @@ Azure DevOps聯結器使用下列專案：
 
 ## 將 [!DNL Azure DevOps] 連接至 Workfront Fusion {#connect-azure-devops-to-workfront-fusion}
 
+* [使用同盟連線將Azure DevOps連線至Workfront Fusion](#connect-azure-devops-to-workfront-fusion-using-a-federated-connection)
 * [使用EntraApp將Azure DevOps連線至Workfront Fusion](#connect-azure-devops-to-workfront-fusion-using-entraapp)
 * [使用服務主體將Azure DevOps連線至Workfront Fusion](#connect-azure-devops-to-workfront-fusion-using-a-service-principal)
 
+### 使用同盟連線將Azure DevOps連線至Adobe Workfront Fusion
+
+同盟連線的運作方式與服務主體連線類似，只是它不使用使用者端密碼。
+
+與其儲存秘密，不如告訴Microsoft Entra ID信任Workfront Fusion針對某個特定連線所發行的權杖。 連線執行時，Fusion會提供短暫的身分證明，且Microsoft Entra ID會傳回存取權杖。 因為沒有使用者端密碼，所以沒有到期的專案，也沒有要輪換或儲存的密碼。
+
++++ 展開以檢視使用同盟連線將Azure DevOps連線至Adobe Workfront Fusion的說明。
+
+>[!NOTE]
+>
+>* 設定此連線需要造訪Microsoft Entra管理中心兩次。 您先註冊應用程式，然後在Workfront Fusion中建立連線，然後傳回Microsoft Entra ID以新增同盟認證。 這是因為同盟認證識別了一個特定連線，而該識別碼在建立連線之前並不存在。
+>* 此連線的限制與服務主體連線相同。 少數管理員層級的動作（例如管理使用者授權）仍需要個人帳戶連線。
+
+* [使用同盟連線將Azure DevOps連線至Workfront Fusion的必要條件](#prerequisites-to-connecting-azure-devops-to-workfront-fusion-using-a-federated-connection)
+* [在Microsoft Entra ID （同盟連線）中建立應用程式註冊](#create-the-app-registration-in-microsoft-entra-id-federated-connection)
+* [收集您的連線詳細資料（同盟連線）](#collect-your-connection-details-federated-connection)
+* [在Workfront Fusion （同盟連線）中建立連線](#create-the-connection-in-workfront-fusion-federated-connection)
+* [在Microsoft Entra ID中新增Federated認證](#add-the-federated-credential-in-microsoft-entra-id)
+* [驗證連線（同盟連線）](#verify-the-connection-federated-connection)
+
+#### 使用同盟連線將Azure DevOps連線至Workfront Fusion的必要條件
+
+
+若要建立此連線，您需要下列專案：
+
+* Microsoft Entra ID中的全域管理員或應用程式管理員存取權，可註冊應用程式並新增同盟認證。 如果您沒有此存取權，請要求您IT或身分團隊中的某人為您完成這些步驟。
+* 您Azure DevOps組織中的專案集合管理員存取權，以將服務主體新增為成員。 管理Microsoft Entra ID的人通常不是這個人。
+* Azure DevOps組織的名稱。 您可以在Azure DevOps URL中找到此專案： `dev.azure.com/<your organization name>`。
+
+#### 在Microsoft Entra ID （同盟連線）中建立應用程式註冊
+
+1. 登入Microsoft Entra管理中心。
+1. 前往「應用程式註冊>新註冊」。
+1. 為應用程式提供一個清晰且可辨識的名稱。 例如 `Workfront Fusion Azure DevOps Integration`。
+1. 將重新導向URI保留空白。 此連線不涉及透過瀏覽器登入。
+1. 選取「註冊」。
+1. 請勿建立使用者端密碼。 同盟連線不使用。
+1. 繼續[收集您的連線詳細資料](#collect-your-connection-details-federated-connection)。
+
+
+#### 收集您的連線詳細資料（同盟連線）
+
+1. 從應用程式註冊的「概觀」頁面，請注意下列值。 在模組中建立連線時，請輸入這些連線。
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader">[!UICONTROL 租使用者ID]</td>
+      <td>在概觀頁面上，標示為<b>目錄（租使用者） ID</b>。</td>
+     </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
+      <td>在概觀頁面上，標示為<b>應用程式（使用者端） ID</b>。</td>
+     </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 組織]</td>
+      <td>您的Azure DevOps組織名稱。 例如，若您的URL為<code>dev.azure.com/yourorg</code>，請輸入<code>yourorg</code>。</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. 繼續[在Workfront Fusion](#create-the-connection-in-workfront-fusion-federated-connection)中建立連線。
+
+>[!NOTE]
+>
+>與服務主要連線一樣，您可以略過應用程式註冊的API許可權區域。 在下一個程式中，Azure DevOps的存取權會在Azure DevOps中授予。
+
+#### 在Workfront Fusion （同盟連線）中建立連線
+
+1. 在模組的連線設定畫面中，選取同盟連線型別。
+1. 輸入下列：
+
+   * 租使用者ID
+   * 用戶端 ID
+   * 組織
+
+1. 選取「**建立**」。
+
+   Workfront Fusion會顯示三個值。 請保持此頁面開啟，因為您稍後在建立連線的過程中會需要這些值。
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader">[!UICONTROL Issuer]</td>
+      <td><code>https://oidc.automations.adobe.com</code>.</td>
+     </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 主旨]</td>
+      <td>這會識別此連線。 它看起來像<code>fusion:6e5b1c2a345bd8d1ed98b6b4f1459818:28964</code>。 您建立的每個連線都不同。</td>
+     </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 對象]</td>
+      <td><code>api://AzureADTokenExchange</code>.</td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!IMPORTANT]
+   >
+   >請勿關閉面板或選取「取消」。 連線要等到您完成其餘程式後才會完成。 如果關閉面板，您必須刪除連線並重新開始，因為新的連線會收到新的主旨。
+
+1. 複製&#x200B;**主旨**&#x200B;值。
+1. 繼續[在Microsoft Entra ID](#add-the-federated-credential-in-microsoft-entra-id)中新增Federated認證。
+
+#### 在Microsoft Entra ID中新增Federated認證
+
+此程式會取代使用者端密碼。 它會通知Microsoft Entra ID接受Workfront Fusion針對這個連線所發行的代號。
+
+1. 在新的瀏覽器標籤中，返回Microsoft Entra管理中心並開啟您的應用程式註冊。
+1. 前往「憑證和密碼>同盟認證」。
+1. 選取「新增認證」。
+1. 在「同盟認證」案例中，選取「其他簽發者」。
+1. 輸入下列：
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader">[!UICONTROL Issuer]</td>
+      <td><code>https://oidc.automations.adobe.com</code></td>
+     </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 主體識別碼]</td>
+      <td>您從Workfront Fusion複製的主體。 完全貼上，不新增空格。</td>
+     </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 名稱]</td>
+      <td>可識別此連線的名稱，以便您稍後尋找。 例如 <code>workfront-fusion-connection-28964</code>。</td>
+     </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL 對象]</td>
+      <td><code>api://AzureADTokenExchange</code>. 這通常會為您填入。 保留預設值。</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. 按一下&#x200B;**新增**。
+1. 繼續[驗證連線](#verify-the-connection-federated-connection)。
+
+>[!NOTE]
+>
+>Microsoft Entra ID在單一應用程式註冊中最多可允許20個同盟認證，且主體識別碼必須完全相符。 不支援萬用字元。 由於每個Workfront Fusion連線都有自己的主旨，因此每個連線都需要有自己的同盟認證。 如果您需要超過20個連線，請註冊多個應用程式並在這些應用程式之間分配連線。
+
+
+#### 驗證連線（同盟連線）
+
+1. 返回Workfront Fusion瀏覽器索引標籤，其中連線面板仍處於開啟狀態。
+1. 按一下「**儲存**」。
+
+   * 如果所有專案皆已正確設定，連線將會成功驗證，您可以繼續設定模組。
+   * 如果驗證失敗，面板會保持開啟並顯示錯誤。 請更正Microsoft Entra ID或Azure DevOps中的問題，然後再次選取「儲存」。 您不需要重新建立連線，而且主旨不會變更。
+
+>[!NOTE]
+>
+>您在Microsoft Entra ID中新增的Federated Credential可能需要很短時間才會生效。 如果您在新增認證後驗證立即失敗，請稍候片刻，然後再次選取[儲存]，以進一步調查。
+
+
+疑難排解
+
+<table style="table-layout:auto">
+ <col>
+ <col>
+ <tbody>
+  <tr>
+   <td role="rowheader">連線驗證失敗，發生無效的使用者端或無效的請求錯誤</td>
+   <td>Microsoft Entra ID無法比對權杖與同盟認證。 檢查簽發者是否剛好是<code>https://oidc.automations.adobe.com</code>，沒有結尾斜線，而且主旨識別碼與Workfront Fusion中顯示的主旨完全相同（字元對字元）。 從不同連線複製的主體是最常見的原因。</td>
+  </tr>
+  <tr>
+   <td role="rowheader">連線會驗證，但模組從Azure DevOps傳回401或403</td>
+   <td>此身分值得信任，但無法存取您的Azure DevOps資料。 確認您已完成<a href="#add-the-service-principal-to-your-azure-devops-organization">將服務主體新增至您的Azure DevOps組織</a>，且服務主體已指派給模組使用的特定專案。</td>
+  </tr>
+  <tr>
+   <td role="rowheader">您無法新增其他同盟認證</td>
+   <td>您已達到該應用程式註冊的20個同盟認證限制。 註冊其他應用程式並針對其建立進一步的連線。</td>
+  </tr>
+ </tbody>
+</table>
+
++++
+
 ### 使用EntraApp將Azure DevOps連線至Workfront Fusion
+
+您可以使用EntraApp將Azure DevOps連線至Workfront Fusion。
+
++++ 展開以檢視使用EntraApp將Azure DevOps連線至Workfront Fusion的說明
 
 1. 將[!DNL Azure DevOps]模組新增至您的情境。
 1. 按一下[!UICONTROL 連線]欄位旁的&#x200B;**[!UICONTROL 新增]**。
@@ -133,20 +323,25 @@ Azure DevOps聯結器使用下列專案：
 1. 若要輸入Azure DevOps應用程式ID或使用者端密碼，請按一下[顯示進階設定] </b>，然後在開啟的欄位中輸入這些設定。<b>
 1. 按一下&#x200B;**[!UICONTROL 繼續]**&#x200B;完成連線的設定並繼續建立您的情境。
 
++++
+
 ### 使用服務主體將Azure DevOps連線至Workfront Fusion
 
 您可以建立使用服務主體（應用程式API連線）而不是個人帳戶的連線。 如果您希望連線以應用程式或服務身分而非特定人員的身分執行，這會很有用。 這可能會很有用，舉例來說，若某人離開公司或變更密碼，整合就不會中斷。
 
 此連線型別適用於所有Azure DevOps模組。
 
++++ 展開以檢視使用服務主體將Azure DevOps連線至Adobe Workfront Fusion的說明。
+
+
 >[!NOTE]
 >
 >服務主體驗證不支援所有Azure DevOps功能。 少數管理員層級的動作（例如管理使用者授權）仍需要個人帳戶連線。 如果您只需要工作專案、面板、存放庫或管道的驗證，請使用服務主體驗證。
 
 * [使用服務主體將Azure DevOps連線至Workfront Fusion的先決條件](#prerequisites-to-connecting-azure-devops-to-workfront-fusion-using-a-service-principal)
-* [在Microsoft Entra ID中建立應用程式註冊](#create-the-app-registration-in-microsoft-entra-id)
+* [在Microsoft Entra ID中建立應用程式註冊](#create-the-app-registration-in-microsoft-entra-id-service-principal)
 * [建立使用者端密碼](#create-a-client-secret)
-* [收集您的連線詳細資料](#collect-your-connection-details)
+* [收集您的連線詳細資料](#collect-your-connection-details-service-principal)
 * [將服務主體新增至您的Azure DevOps組織](#add-the-service-principal-to-your-azure-devops-organization)
 * [建立連線](#create-the-connection)
 
@@ -158,7 +353,7 @@ Azure DevOps聯結器使用下列專案：
 * 在您的Azure DevOps組織中&#x200B;**專案集合管理員**&#x200B;存取權，以將服務主體新增為成員。 管理Microsoft Entra ID的人通常不是這個人。
 * Azure DevOps組織的名稱。 您可以在Azure DevOps URL中找到此專案： `dev.azure.com/<your organization name>`。
 
-#### 在Microsoft Entra ID中建立應用程式註冊
+#### 在Microsoft Entra ID （服務主體）中建立應用程式註冊
 
 1. 登入[!DNL Microsoft Entra]系統管理中心。
 1. 移至&#x200B;**[!UICONTROL 應用程式註冊]** > **[!UICONTROL 新註冊]**。
@@ -175,7 +370,7 @@ Azure DevOps聯結器使用下列專案：
 1. 立即複製密碼的&#x200B;**[!UICONTROL 值]**。 它只會顯示一次。 如果您在複製它之前瀏覽離開，則必須建立一個新的專案。
 1. 繼續[收集您的連線詳細資料](#collect-your-connection-details)。
 
-#### 收集您的連線詳細資料
+#### 收集您的連線詳細資料（服務主體）
 
 1. 從應用程式註冊的&#x200B;**[!UICONTROL 總覽]**&#x200B;頁面，請注意下列值。 在模組中建立連線時，請輸入這些連線。
 
@@ -223,9 +418,9 @@ Azure DevOps聯結器使用下列專案：
 
 1. 按照您組織的一般存取實務，將服務主體指派給所需的特定專案。
 1. 選取&#x200B;**[!UICONTROL 新增]**。
-1. 繼續[建立連線](#create-the-connection)。
+1. 繼續[在Workfront Fusion](#create-the-connection-in-workfront-fusion-service-principal)中建立連線。
 
-#### 建立連線
+#### 在Workfront Fusion （服務主體）中建立連線
 
 1. 在模組的連線設定畫面中，選取&#x200B;**[!UICONTROL 服務主體]**&#x200B;連線型別。
 1. 輸入下列：
@@ -238,6 +433,8 @@ Azure DevOps聯結器使用下列專案：
 1. 儲存連線。
 
    如果一切設定正確，連線都會成功驗證。
+
++++
 
 ## [!UICONTROL Azure DevOps]模組及其欄位
 

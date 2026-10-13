@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 7c25013f7a94000651e8331199ad985d40651ae3
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 26%
+source-wordcount: '2637'
+ht-degree: 16%
 ---
 # AWS S3 模組
 
@@ -88,6 +88,195 @@ AWS S3聯結器使用下列專案：
 
 ## 將 [!DNL AWS] 連接至 Workfront Fusion {#connect-aws-to-workfront-fusion}
 
+* [使用同盟連線將AWS連線至Workfront Fusion](#connect-aws-to-workfront-fusion-using-a-federated-connection)
+* [使用API使用者將AWS連線至Workfront Fusion](#connect-aws-to-workfront-fusion-using-an-api-user)
+
+### 使用同盟連線將AWS連線至Workfront Fusion
+
++++ 展開以檢視此連線型別的指示。
+
+* [使用同盟連線將AWS連線至Workfront Fusion的必要條件](#prerequisites-to-connecting-aws-to-workfront-fusion-using-a-federated-connection)
+* [將Workfront Fusion新增為AWS中的身分提供者](#add-workfront-fusion-as-an-identity-provider-in-aws)
+* [建立IAM角色](#create-the-iam-role)
+* [在Workfront Fusion中建立連線](#create-the-connection-in-workfront-fusion)
+* [將連線新增至角色的信任原則](#add-the-connection-to-the-roles-trust-policy)
+* [驗證連線](#verify-the-connection)
+* [疑難排解](#troubleshooting)
+
+同盟連線可讓Workfront Fusion存取您的AWS帳戶，而不需要您在Fusion中建立IAM使用者或儲存存取金鑰。
+而是要將Workfront Fusion註冊為AWS帳戶中的信任身分提供者，並設定允許哪一個Fusion連線使用特定IAM角色。 連線執行時，Fusion會顯示短暫的身分證明，而AWS會傳回自行過期的暫時憑證。 不會建立、儲存或旋轉任何長效金鑰。
+
+>[!NOTE]
+>
+>設定此連線需要兩次造訪AWS主控台。 您先建立角色，然後在Workfront Fusion中建立連線，然後返回AWS完成信任原則。 這是因為信任原則的一部分會識別一個特定連線，而該識別碼在建立連線之前並不存在。
+
+#### 使用同盟連線將AWS連線至Workfront Fusion的必要條件
+
+若要建立此連線，您需要下列專案：
+
+* 在AWS IAM中建立身分提供者以及建立與編輯角色的許可權。 這通常表示原則或同等原則。 如果您沒有此存取權，請詢問雲端上的某人或
+安全團隊為您完成AWS步驟。
+* 能夠在Workfront Fusion中建立連線。
+
+
+#### 將Workfront Fusion新增為AWS中的身分提供者
+
+此步驟會告知Workfront Fusion所發行的權杖值得信任。 您為每個AWS帳戶執行此動作一次。 如果您組織中的某人已新增此提供者，請跳至[建立IAM角色](#create-the-iam-role)。
+
+1. 登入AWS主控台，並移至&#x200B;**IAM** > **身分識別服務提供者**。
+1. 選取&#x200B;**新增提供者**。
+1. 對於提供者型別，請選取&#x200B;**OpenID Connect**。
+1. 在提供者URL中輸入下列內容，然後選取&#x200B;**取得指紋**：
+
+   ```
+   https://oidc.automations.adobe.com
+   ```
+
+1. 在對象中，輸入下列內容：
+
+   ```
+   sts.amazonaws.com
+   ```
+
+1. 選取&#x200B;**新增提供者**。
+1. 繼續[建立IAM角色](#create-the-iam-role)。
+
+#### 建立IAM角色
+
+角色會定義在您的AWS帳戶中允許連線的功能。 您可以為每個連線建立一個角色，以便可以獨立授予和撤銷每個連線的存取權。
+
+1. 在IAM中，移至&#x200B;**角色**&#x200B;並選取&#x200B;**建立角色**。
+1. 對於信任的實體型別，請選取&#x200B;**網頁身分識別**。
+1. 在身分提供者中，選取`oidc.automations.adobe.com`。
+1. 在對象中，選取`sts.amazonaws.com`。
+1. 選取&#x200B;**下一步**，然後附加此連線所需的許可權原則。
+僅授予連線實際使用的許可權。 例如，只讀取下列專案的連線：
+一個儲存貯體不需要`AmazonS3FullAccess`。
+1. 為角色提供一個清晰的、可辨識的名稱。 例如 `WorkfrontFusionFederatedConnection`。
+1. 選取&#x200B;**建立角色**。
+1. 開啟您剛建立的角色，並從「摘要」區域複製其ARN。 看起來像這樣： `arn:aws:iam::123456789012:role/WorkfrontFusionFederatedConnection`
+
+1. 繼續[在Workfront Fusion](#create-the-connection-in-workfront-fusion)中建立連線。
+
+#### 在Workfront Fusion中建立連線
+
+1. 在模組的連線設定畫面中，選取同盟連線型別。
+1. 輸入您在[建立IAM角色](#create-the-iam-role)中複製的角色ARN。
+1. 選取「**建立**」。
+Workfront Fusion會顯示三個值。 您可以在下一個程式中使用它們。
+
+<table>
+  <tr>
+    <td>核發者</td>
+    <td>一律為<code>https://oidc.automations.adobe.com</code>。 這符合您在AWS中新增的身分提供者。</td>
+  </tr>
+  <tr>
+    <td>主旨</td>
+    <td>識別這個連線。 它看起來像<code>fusion:6e5b1c2a345bd8d1ed98b6b4f1459818:28964</code>。 您建立的每個連線都不同。</td>
+  </tr>
+  <tr>
+    <td>客群</td>
+    <td>一律為<code>sts.amazonaws.com</code>。</td>
+  </tr>
+</table>
+
+1. 請保持此面板開啟並複製主旨值。
+
+   >[!NOTE]
+   >
+   >請勿關閉面板或選取「取消」。 連線要等到您完成其餘程式後才會完成。 如果關閉面板，您必須刪除連線並重新開始，因為新的連線會收到新的主旨。
+
+1. 繼續[將連線新增至角色的信任原則](#add-the-connection-to-the-roles-trust-policy)。
+
+#### 將連線新增至角色的信任原則
+
+在您完成此程式之前，角色一般會信任Workfront Fusion，但尚未允許此特定連線使用它。
+
+1. 在新的瀏覽器標籤中，返回AWS主控台並開啟您建立的角色。
+1. 選取&#x200B;**信任關係**&#x200B;標籤，然後選取&#x200B;**編輯信任原則**。
+1. 以下列專案取代原則，並以您自己的值取代：
+
+   * 將`123456789012`取代為您的AWS帳戶ID
+   * 將`sub`值取代為您從Workfront Fusion複製的主旨。
+
+
+   ```
+   {
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Effect": "Allow", 
+         "Principal": {
+           "Federated": "arn:aws:iam::123456789012:oidc-provider/oidc.automations.adobe.com"
+       },
+       "Action": "sts:AssumeRoleWithWebIdentity", "Condition": {
+        "StringEquals": {
+          "oidc.automations.adobe.com:sub": "fusion:6e5b1c2a345bd8d1ed98b6b4f1459818:28964", 
+          "oidc.automations.adobe.com:aud": "sts.amazonaws.com"
+        }
+       }
+      }
+    ]
+   }
+   ```
+
+1. 選取&#x200B;**更新原則**。
+1. 繼續[驗證連線](#verify-the-connection)。
+
+>[!TIP]
+>
+>若要讓多個連線使用相同的角色，請將主體以陣列列出。 如果Token符合清單中的任一值，AWS可允許使用該角色：
+>
+>```
+>"oidc.automations.adobe.com:sub": [ "fusion:6e5b1c2a345bd8d1ed98b6b4f1459818:28964", "fusion:6e5b1c2a345bd8d1ed98b6b4f1459818:29011"
+>]
+>```
+>
+>請勿以萬用字元取代子值。 如此一來，組織中的所有連線都能使用角色，包括其他人稍後建立的連線
+
+
+#### 驗證連線
+
+1. 返回Workfront Fusion瀏覽器索引標籤，其中連線面板仍處於開啟狀態。
+1. 按一下「**儲存**」。
+
+   Workfront Fusion聯絡AWS，後者會檢查信任原則並傳回暫時憑證。 如果所有專案皆已正確設定，連線將會成功驗證，您可以繼續設定模組。
+   如果驗證失敗，面板會保持開啟並顯示錯誤。 請更正AWS中的問題，然後再次選取「儲存」。 您不需要重新建立連線，而且主旨不會變更。
+
+從這時開始，連線就會更新自己的認證。 沒有要旋轉的索引鍵，也沒有您需要維護的過期專案。
+
+#### 疑難排解
+
+
+<table>
+  <tr>
+    <th>錯誤</th>
+    <th>其含義</th>
+    <th>檢查內容</th>
+  </tr>
+  <tr>
+    <td>InvalidIdentityToken</td>
+    <td>AWS無法比對權杖與已註冊的身分提供者。</td>
+    <td>請確認您已將「新增Workfront Fusion」中所述的身分提供者新增為AWS中的身分提供者，並確認其URL完全為https://oidc.automations.adobe.com，且沒有尾隨斜線。</td>
+  </tr>
+  <tr>
+    <td>AccessDenied擔任角色</td>
+    <td>身分提供者已註冊，但信任原則不符合此連線。</td>
+    <td>檢查信任原則中的子值是否為與Workfront Fusion中顯示的主旨相同的字元對字元，且aud為sts.amazonaws.com。 從不同連線複製的主體是最常見的原因。</td>
+  </tr>
+  <tr>
+    <td>連線可正常運作，之後會失敗</td>
+    <td> </td>
+    <td>檢查角色的許可權原則是否已變更，或角色是否已刪除並重新建立。 重新建立角色不會變更其ARN，但會重設其信任原則。</td>
+  </tr>
+</table>
+
++++
+
+### 使用API使用者將AWS連線至Workfront Fusion
+
++++ 展開以檢視此連線型別的指示。
+
 若要將[!DNL AWS S3]連線至Workfront Fusion，您必須將您的[!DNL AWS]帳戶連線至Workfront Fusion。 若要這麼做，您必須先在[!DNL AWS] [!UICONTROL IAM]中建立API使用者。
 
 1. 登入您的[!DNL AWS] [!UICONTROL IAM]帳戶。
@@ -105,7 +294,12 @@ AWS S3聯結器使用下列專案：
 
 已建立連線。 您可以繼續設定模組。
 
++++
+
 ## [!DNL AWS S3] 模組及其欄位
+
+* [動作](#actions)
+* [搜尋](#searches)
 
 當您設定 [!DNL AWS S3] 模組時，Workfront Fusion 會顯示下列欄位。 除了這些欄位以外，也可能因為其他因素，例如您在應用程式或服務中的存取層級，而顯示其他 [!DNL AWS S3] 欄位。 在模組中，粗體標題表示那是必要欄位。
 

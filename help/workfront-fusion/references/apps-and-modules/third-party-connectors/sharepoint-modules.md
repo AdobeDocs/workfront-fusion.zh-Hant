@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: c9bf5c68e4977027944114c35414fa5f46ea8751
+source-git-commit: be0cf391e02e3f8c2547494aeac0de5b7296c85d
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5810'
 ht-degree: 10%
 ---
 # Microsoft SharePoint Online 模組
@@ -262,10 +262,6 @@ SharePoint聯結器會使用以下專案：
 1. 繼續[授予API許可權](#grant-api-permissions)。
 
 #### 授予API許可權（服務主體）
-
->[!IMPORTANT]
->
->BECKY CHECK ME：不同於Azure DevOps，Microsoft Graph直接在此步驟中支援應用程式許可權。 在發佈此區段之前，請先確認進行API呼叫模組所需的確切許可權（例如網站許可權範圍），並據此更新下列步驟。
 
 1. 在您的應用程式註冊中，移至&#x200B;**[!UICONTROL API許可權]**。
 1. 選取&#x200B;**[!UICONTROL 新增許可權]**，然後選取&#x200B;**[!UICONTROL Microsoft圖表]**。

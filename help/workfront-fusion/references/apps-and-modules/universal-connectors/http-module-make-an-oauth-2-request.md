@@ -16,7 +16,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 3cd582ee1b763897cbbaba7f2c040897e3581742
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 11%
@@ -95,7 +95,7 @@ Workfront Fusion支援下列OAuth 2.0驗證流程：
    1. 建立使用者端時，請在`[!UICONTROL Redirect URL]`或`[!UICONTROL Callback URL]`欄位中輸入適當的URL：
 
       | 美洲/APAC | `https://app.workfrontfusion.com/oauth/cb/oauth2` |
-      |---|---|
+      | --- | --- |
       | **EMEA** | `https://app-eu.workfrontfusion.com/oauth/cb/oauth2` |
 
    1. 建立使用者端後，指定的服務會顯示2個金鑰： `[!UICONTROL Client ID]`和`[!UICONTROL Client Secret]`。 某些服務會呼叫這些`[!UICONTROL App Key]`和`[!UICONTROL App Secret]`。 將金鑰和秘密儲存在安全位置，以便您在Workfront Fusion中建立連線時提供它們。

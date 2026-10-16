@@ -14,9 +14,9 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 983b7ab013c49747760da4a22a47715c68555ec0
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3219'
 ht-degree: 6%
 ---
 # Webhook
@@ -126,10 +126,6 @@ webhook是由事件觸發的HTTP呼叫。 您可以使用Webhook來啟動即時�
 1. 按一下&#x200B;**[!UICONTROL 儲存]**
 
 建立webhook之後，會顯示唯一的URL。 這是webhook傳送資料的地址。 Workfront Fusion會驗證傳送到此位址的資料，然後傳遞它以用於案例中的處理。
-
->[!NOTE]
->
->建立webhook後，您可以一次用於多個情境。
 
 #### 搭配基本驗證使用webhook
 
@@ -551,3 +547,4 @@ webhook呼叫的預設回應是文字「已接受」。 回應會傳回至應用
 ![重新決定資料結構](/help/workfront-fusion/references/apps-and-modules/assets/redetermine-data-structure-btn-350x195.png)
 
 然後遵循本文中[設定webhook的資料結構](#configure-the-webhook-s-data-structure)一節中所述的步驟。
+

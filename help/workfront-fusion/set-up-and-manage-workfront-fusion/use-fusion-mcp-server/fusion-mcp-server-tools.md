@@ -1,9 +1,9 @@
 ---
 title: Adobe Workfront Fusion MCP伺服器工具
 description: Adobe Workfront Fusion MCP伺服器提供給AI代理平台和同事的工具參考清單。
-source-git-commit: 5f3bd6b7b8837632af245ea2c172205625e4ecba
+source-git-commit: 1bfcdb6abe42eca27d2f3ae5a1a1d2cfd3901d33
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1546'
 ht-degree: 7%
 ---
 
@@ -31,6 +31,25 @@ ht-degree: 7%
 | --- | --- | --- | --- |
 | 列出組織 | `fusion_orgs_list` | 讀取 | 列出您可以存取的Fusion組織，包含ID、區域（區域）和標籤。 |
 | 設定使用中組織 | `fusion_orgs_set` | Session | 切換目前工作階段的使用中組織。 不會變更任何Fusion資料 |
+| 取得目前的組織 | `fusion_organizations_get` | 讀取 | 傳回目前組織。 |
+| 列出組織 | `fusion_organizations_list` | 讀取 | 列出您可以檢視的每個組織。 |
+
+## 團隊
+
+| 工具 | 名稱 | 動作 | 說明 |
+| --- | --- | --- | --- |
+| 列出團隊 | `fusion_teams_list` | 讀取 | 列出您可以檢視的組織團隊。 |
+| 取得團隊 | `fusion_teams_get` | 讀取 | 傳回組織中的單一團隊。 |
+| 刪除團隊 | `fusion_teams_delete` | 寫入 | 刪除團隊。 這也會停止其情境並移除其許可權。 無法透過API還原，並需要確認。 |
+
+## 使用者
+
+| 工具 | 名稱 | 動作 | 說明 |
+| --- | --- | --- | --- |
+| 取得Fusion區域 | `fusion_users_get_regions` | 讀取 | 傳回您可以存取的Fusion區域和組織。 用它來尋找有效的組織ID。 |
+| 取得目前使用者 | `fusion_users_get_me` | 讀取 | 傳回您的設定檔以及您的組織和團隊角色。 |
+| 列出使用者 | `fusion_users_list` | 讀取 | 列出組織的使用者。 |
+| 取得使用者 | `fusion_users_get` | 讀取 | 傳回組織中的單一使用者。 |
 
 ## 案例工具
 
@@ -40,6 +59,7 @@ ht-degree: 7%
 | --- | --- | --- | --- |
 | 列出案例 | `fusion_scenarios_list` | 讀取 | 列出組織中的案例。 |
 | 取得情境 | `fusion_scenarios_get` | 讀取 | 傳回情境，包括其完整的藍圖。 |
+| 取得案例連結 | `fusion_scenarios_get_link` | 讀取 | 傳回Fusion UI連結，以在瀏覽器中開啟案例。 |
 | 取得案例相依性 | `fusion_scenarios_getDependencies` | 讀取 | 傳回連線、金鑰、資料存放區、資料結構，以及Webhook情境的藍圖參照。 |
 | 尋找相依案例 | `fusion_scenarios_dependents` | 讀取 | 尋找參考指定webhook、資料存放區、資料結構、連線、索引鍵或案例的案例。 在變更或刪除資源之前進行影響分析很有用。 |
 | 驗證Blueprint | `fusion_scenarios_validate_blueprint` | 讀取 | 在結構上對團隊驗證Blueprint （模組參考、連線、必填欄位），而不儲存任何內容。 |
@@ -63,6 +83,7 @@ ht-degree: 7%
 | --- | --- | --- | --- |
 | 列出案例版本 | `fusion_scenario_versions_list` | 讀取 | 列出案例的已儲存版本。 依`version`、`createdAt`、`comment`篩選。 |
 | 取得案例版本 | `fusion_scenario_versions_get` | 讀取 | 傳回特定版本的Blueprint和中繼資料。 |
+| 建立案例版本 | `fusion_scenario_versions_create` | 寫入 | 將Blueprint發佈為新情境版本，這會成為即時Blueprint。 會保留舊版，而發佈相同的Blueprint不會產生任何效用。 |
 
 提示範例：
 
@@ -109,8 +130,10 @@ ht-degree: 7%
 | --- | --- | --- | --- |
 | 搜尋連線 | `fusion_connections_search` | 讀取 | 列出連線。 依`name`、`accountName`、`accountType`、`expire`、`teamId`、`scopesCount`、`editable`、`environmentType`、`authenticationType`篩選。 |
 | 取得連線 | `fusion_connections_get` | 讀取 | 傳回單一連線的詳細資料。 |
+| 刪除連線 | `fusion_connections_delete` | 寫入 | 刪除連線。 如果webhook仍然依賴它，則失敗。 若有案例使用它，則會中斷連結而非封鎖刪除。 |
 | 搜尋索引鍵 | `fusion_keys_search` | 讀取 | 列出索引鍵。 依`name`、`typeName`、`teamId`篩選。 |
 | 取得金鑰 | `fusion_keys_get` | 讀取 | 傳回單一金鑰的詳細資料。 |
+| Delete金鑰 | `fusion_keys_delete` | 寫入 | 刪除金鑰。 使用它的案例不會阻止刪除。 |
 
 提示範例：
 
@@ -124,6 +147,9 @@ ht-degree: 7%
 | --- | --- | --- | --- |
 | 列出Webhook | `fusion_hooks_list` | 讀取 | 列出Webhook （鉤點）。 依`name`、`teamId`、`type`、`enabled`、`gone`、`typeName`、`scenarioId`、`priority`、`detached`等篩選。 |
 | 取得webhook | `fusion_hooks_get` | 讀取 | 傳回webhook的設定、擁有者繫結和外部參照。 |
+| 取得webhook相依性 | `fusion_hooks_dependencies` | 讀取 | 列出webhook參照的連線、資料結構和金鑰。 請先執行，再複製。 |
+| 原地複製webhook | `fusion_hooks_clone` | 寫入 | 將具有新URL的webhook複製到另一個團隊（可選）。 可以取代其連線、資料結構或金鑰。 |
+| 刪除webhook | `fusion_hooks_delete` | 寫入 | 刪除webhook及其已佇列的事件。 只有webhook的建立者可以刪除它。 |
 | 尋找相依的Webhook | `fusion_hooks_dependents` | 讀取 | 尋找參考指定連線的Webhook。 |
 
 ### Webhook佇列
@@ -133,7 +159,7 @@ ht-degree: 7%
 | 取得佇列統計資料 | `fusion_queue_stats` | 讀取 | 傳回已排入佇列的事件數、佇列限制，以及是否已啟用webhook。 |
 | 清單佇列 | `fusion_queue_list` | 讀取 | 列出等待處理的已接收webhook事件。 |
 | 取得佇列專案 | `fusion_queue_get` | 讀取 | 傳回單一佇列的事件，包括其解碼的裝載。 |
-| 刪除佇列專案 | `fusion_queue_delete` | 寫入 | 刪除特定的佇列事件（最多50個）或清除佇列，選擇性地排除某些事件。 無法刪除目前處理中的事件。 |
+| 刪除佇列專案 | `fusion_hook_queue_delete` | 寫入 | 依ID刪除已排入佇列的webhook事件（最多50個），或全部刪除具有選擇性排除的專案。 連線的工具名稱是`fusion_hook_queue_delete`，與舊的`fusion_queue_delete`名稱不符。 |
 
 提示範例：
 
@@ -146,10 +172,14 @@ ht-degree: 7%
 | --- | --- | --- | --- |
 | 列出資料存放區 | `fusion_datastores_list` | 讀取 | 列出具有記錄計數、大小和大小上限的資料存放區。 |
 | 取得資料存放區 | `fusion_datastores_get` | 讀取 | 傳回資料存放區的中繼資料與使用方式、連結的資料結構，以及嚴格驗證設定。 |
+| 刪除資料存放區 | `fusion_datastores_delete` | 寫入 | 刪除資料存放區及其所有記錄。 如果案例仍使用它，則失敗。 |
 | 列出資料存放區記錄 | `fusion_data_list` | 讀取 | 使用位移分頁從資料存放區讀取記錄（索引鍵+ JSON資料）。 |
+| 刪除資料存放區記錄 | `fusion_data_stores_data_delete` | 寫入 | 按索引鍵刪除數個記錄，或刪除具有選擇性排除條件的所有記錄。 |
+| 刪除資料存放區記錄 | `fusion_data_stores_data_key_delete` | 寫入 | 依索引鍵刪除一筆記錄。 即使索引鍵不存在，也會成功。 |
 | 尋找相依資料存放區 | `fusion_datastores_dependents` | 讀取 | 尋找使用指定資料結構的資料存放區。 |
 | 搜尋資料結構 | `fusion_data_structures_search` | 讀取 | 列出資料結構。 依`name`、`strict`、`teamId`篩選。 |
 | 取得資料結構 | `fusion_data_structures_get` | 讀取 | 傳回資料結構，包括其完整欄位規格。 |
+| 刪除資料結構 | `fusion_data_structures_delete` | 寫入 | 刪除資料結構。 如果資料存放區仍使用它，則失敗。 |
 
 提示範例：
 
@@ -167,6 +197,12 @@ ht-degree: 7%
 
 * _過去7天刪除情境的訪客是誰？_
 * _將本季的所有連線變更匯出至Excel。_
+
+## 意見反應
+
+| 工具 | 名稱 | 動作 | 說明 |
+| --- | --- | --- | --- |
+| 提交意見 | `fusion_feedback_submit` | 寫入 | 將您的意見（錯誤、錯誤結果、功能要求、表揚或其他）傳送給Fusion團隊。 |
 
 ## 同事
 

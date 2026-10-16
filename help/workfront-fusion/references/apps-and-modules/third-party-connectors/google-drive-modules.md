@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cd90795caaf835de238b52e30fddbcc6da9e9443
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 15%
@@ -133,7 +133,7 @@ Google磁碟機聯結器使用下列專案：
 
 #### [!UICONTROL 觀看所有檔案]
 
-新增或修改您[!DNL Google Drive]中的檔案時，此觸發模組會啟動情境。
+此觸發模組會在您[!DNL Google Drive]中的檔案新增或修改時啟動案例。
 
 <table style="table-layout:auto"> 
  <col> 

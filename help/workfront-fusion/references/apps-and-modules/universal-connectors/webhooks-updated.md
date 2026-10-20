@@ -14,9 +14,9 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 983b7ab013c49747760da4a22a47715c68555ec0
+source-git-commit: c0d5bb30cb41d9ad8db07c1ea13a533df10bcb43
 workflow-type: tm+mt
-source-wordcount: '3219'
+source-wordcount: '3193'
 ht-degree: 6%
 ---
 # Webhook
@@ -325,10 +325,6 @@ HMAC簽名驗證會驗證傳入的請求是否使用共用的簽署密碼簽署�
 ## webhook佇列
 
 如果webhook收到資料，而且沒有作用中案例需要該資料，則資料會儲存在佇列中。 啟用情境後，它會依序處理佇列中等待的所有組合。
-
->[!IMPORTANT]
->
->Webhook佇列在使用相同webhook的情境之間共用。 如果其中一個案例已停用，所有傳入資料都會保留在佇列中。
 
 ## 支援的傳入資料格式
 

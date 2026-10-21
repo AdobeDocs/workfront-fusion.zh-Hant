@@ -9,10 +9,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: d50909b128b469ef3e25b93c7dbdede5d4226064
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 20%
+source-wordcount: '1550'
+ht-degree: 19%
 ---
 # Workfront Fusion模組
 
@@ -127,12 +127,12 @@ ht-degree: 20%
    <td> 選取您要複製的記錄型別。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">案例ID</td> 
-   <td> 輸入或對應您要複製之案例的ID。 </td> 
+   <td role="rowheader">案例ID /勾點ID /資料結構ID</td> 
+   <td> 輸入或對應您要複製的專案識別碼。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">名稱</td> 
-   <td> 輸入或對應新情境的名稱。</td> 
+   <td> 輸入或對應新案例、連結或資料結構的名稱。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -202,6 +202,10 @@ ht-degree: 20%
   <tr> 
    <td role="rowheader">記錄類型</td> 
    <td>選取您要傳回清單的記錄型別。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">欄位</td> 
+   <td>選取要包含在結果中的任何欄位。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">屬性</td> 
@@ -380,9 +384,36 @@ ht-degree: 20%
    <td> 選取您要擷取相依性的記錄型別。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">案例ID</td> 
+   <td role="rowheader">案例ID/勾點ID</td> 
    <td> 輸入或對應您要擷取相依性的記錄ID。 </td> 
   </tr> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### 取得記錄相依專案
+
+此模組會識別依賴指定資源的專案。 在刪除資源之前使用此模組，以檢查是否有任何內容依賴該資源且可能受其刪除影響。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>如需有關將Workfront Fusion連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-fusion-to-workfront-fusion" class="MCXref xref">將Workfront Fusion連線到Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄類型</td> 
+   <td>選取您要檢查相依項的記錄型別。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">種類</td> 
+   <td>選取要檢查的相依物件種類……</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">ID</td> 
+   <td>輸入或對應您要傳回相依項的記錄ID。</td> 
   </tr> 
  </tbody> 
 </table>

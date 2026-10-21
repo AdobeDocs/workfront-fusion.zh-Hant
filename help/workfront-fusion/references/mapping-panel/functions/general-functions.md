@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 8ea986eb6573bb49accfad312bb0796faa2642ab
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 8%
+source-wordcount: '746'
+ht-degree: 5%
 ---
 # 一般函式
 
@@ -22,11 +22,39 @@ ht-degree: 8%
 
 您可以使用這些一般變數來識別有關執行的詳細資訊：
 
-* `executionID`：此案例執行的識別碼
-* `triggerTimestamp`：觸發此執行的時間
-* `scenarioID`：目前已開啟情境的 ID
+* `executionId`：此案例執行的識別碼
+* `scenarioId`：目前已開啟情境的 ID
 * `scenarioName`：目前執行中情境的名稱
+* `scenarioUrl`： Fusion使用者介面中目前案例的連結
+* `executionUrl`： Fusion使用者介面中目前案例執行的連結
+* `scenarioApiUrl`：目前案例的Fusion API URL
+* `executionApiUrl`：目前執行詳細資訊的Fusion API URL
+* `teamId`：擁有目前情境的Fusion團隊識別碼
+* `organizationId`：與目前執行關聯的Fusion組織識別碼。 這不是Adobe IMS組織ID。
+* `triggerTimestamp`：觸發此執行的時間
 * `operationsConsumed`：在情境中該時間點使用的作業數量。
+
+變數名稱會區分大小寫。 例如，使用`scenarioUrl`，而不是`scenarioURL`。
+
+您可以在對應欄位中使用這些變數，而無需建立URL或為團隊和組織ID編寫硬式編碼。 例如，您可以在通知的對映文字欄位中加入以下內容：
+
+<pre><code>
+Scenario: &#123;&#123;scenarioName&#125;&#125;
+Open scenario: &#123;&#123;scenarioUrl&#125;&#125;
+Open execution: &#123;&#123;executionUrl&#125;&#125;
+Team: &#123;&#123;teamId&#125;&#125;
+Organization: &#123;&#123;organizationId&#125;&#125;
+</code></pre>
+
+使用這些變數時，請記得下列事項：
+
+* 案例執行時會解析值。 對應面板會列出變數，但不會預覽其值。
+* `scenarioUrl`和`executionUrl`連結至案例和Fusion使用者介面中的執行。 `scenarioApiUrl`和`executionApiUrl`是API端點URL，而不是連結到Fusion頁面。
+* API URL變數只會傳回文字。 他們不會提出要求或提供驗證認證。 一般API驗證和許可權仍然適用。
+* 連結不會授與額外存取權。 適用一般Fusion許可權。
+* 未針對未儲存至執行歷程記錄的執行（例如沙箱執行或在歷程記錄同步關閉的情況下執行）產生`executionUrl`。 產生的連結並不保證您使用它時就能取得執行詳細資訊。
+* 無法為範本或未儲存的案例產生`scenarioUrl`。
+* 如果無法產生URL，變數就沒有值。
 
 ## [!UICONTROL get （物件或陣列；路徑）]
 

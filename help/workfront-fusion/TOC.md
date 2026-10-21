@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 316b112552e5383fdca3f408223594a2fbb6f535
+source-git-commit: d31db4d825746ac3e7b19cd8f7efcc593bc03bf7
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2752'
 ht-degree: 48%
 ---
 
@@ -316,7 +316,7 @@ ht-degree: 48%
   * [將模組移至鏈結](/help/workfront-fusion/manage-scenarios/move-modules-to-a-chain.md)
   * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
   * [檢視 Webhook 的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
-  * {hide-from-toc}[Workfront Fusion中的AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
+  * Workfront Fusion中的{hide-from-toc}[AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
   * [執行情境評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
   * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
   * [從案例區域管理案例](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)
@@ -414,6 +414,7 @@ ht-degree: 48%
       * [Adobe Firefly Lightroom模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-lightroom.md)
       * [Adobe Frame.io Beta (V4) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md)
       * [Adobe Frame.io 舊版 (V3) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
+      * [Adobe Fusion MCP模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-fusion-mcp-modules.md)
       * [Adobe I/O Events 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
       * [Adobe InDesign 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/indesign-modules.md)
       * [Adobe Journey Optimizer 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)

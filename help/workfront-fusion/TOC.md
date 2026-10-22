@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 316b112552e5383fdca3f408223594a2fbb6f535
+source-git-commit: d31db4d825746ac3e7b19cd8f7efcc593bc03bf7
 workflow-type: tm+mt
-source-wordcount: '2748'
+source-wordcount: '2752'
 ht-degree: 48%
 ---
 
@@ -414,6 +414,7 @@ ht-degree: 48%
       * [Adobe Firefly Lightroom模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-lightroom.md)
       * [Adobe Frame.io Beta (V4) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md)
       * [Adobe Frame.io 舊版 (V3) 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
+      * [Adobe Fusion MCP模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-fusion-mcp-modules.md)
       * [Adobe I/O Events 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
       * [Adobe InDesign 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/indesign-modules.md)
       * [Adobe Journey Optimizer 模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)

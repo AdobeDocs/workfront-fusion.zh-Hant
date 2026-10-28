@@ -56,7 +56,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -105,7 +105,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 
    名稱區塊會顯示在函式中。
 
-   函式](assets/new-mapped-name-block.png)中的![名稱區塊
+   函式![&#128279;](assets/new-mapped-name-block.png)中的名稱區塊
 
 1. 按一下&#x200B;**確定**&#x200B;以儲存模組設定。
 
@@ -139,7 +139,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 ### 將更新記錄模組新增到您的情境(Classic)
 
 1. 在案例編輯器中開啟案例。
-1. 將滑鼠停留在第二個模組右邊的部分圓圈上，然後按一下[新增其他模組] ****。
+1. 將滑鼠停留在第二個模組右邊的部分圓圈上，然後按一下[新增其他模組] **&#x200B;**。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 更新記錄]**。
 1. 在ID欄位中，選取「轉換物件模組」下的ID區塊。 這是該模組輸出的專案ID。
 
@@ -171,7 +171,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 
    名稱區塊會顯示在函式中。
 
-   函式](assets/map-name.png)中的![名稱區塊
+   函式![&#128279;](assets/map-name.png)中的名稱區塊
 
 1. 按一下&#x200B;**確定**&#x200B;以儲存模組設定。
 

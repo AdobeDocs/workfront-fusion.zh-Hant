@@ -50,7 +50,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -230,7 +230,7 @@ Workfront >監看記錄模組中的最大週期數設為`10`。
 
 此變更立即生效。 您不需要儲存情境。
 
-當暫存偵錯記錄檔開啟時，設定會顯示其持續開啟的時間或剩餘的執行次數。 若要在此之前停止收集要求與回應詳細資料，請按一下[關閉]。****
+當暫存偵錯記錄檔開啟時，設定會顯示其持續開啟的時間或剩餘的執行次數。 若要在此之前停止收集要求與回應詳細資料，請按一下[關閉]。**&#x200B;**
 
 當時間或執行次數用完時，偵錯記錄會自動關閉。 每次執行都會計數，包括找不到新資料的排程執行。
 

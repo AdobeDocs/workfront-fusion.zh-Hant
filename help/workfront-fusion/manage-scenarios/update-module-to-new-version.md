@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 27%
 ---
 # 將模組升級至新版本
@@ -74,7 +74,7 @@ ht-degree: 27%
 ## 將非Workfront模組升級至新版本
 
 1. 按一下您要升級至新版本的模組上的&#x200B;**升級模組**&#x200B;圖示![升級圖示](assets/upgrade-icon.png)。
-   ![更新圖示](assets/update-indicator.png)
+   <!--![Update icon](assets/update-indicator.png)-->
 1. 按一下&#x200B;**選擇新的**。
 1. 選取您要取代前一個模組的模組。
 1. 以與現有模組相同的設定來設定模組。

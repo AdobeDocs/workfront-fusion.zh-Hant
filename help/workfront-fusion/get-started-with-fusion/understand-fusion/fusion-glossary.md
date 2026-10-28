@@ -16,15 +16,18 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 98%
+source-wordcount: '976'
+ht-degree: 93%
 ---
 # Adobe Workfront Fusion 字彙表
 
 以下字彙表說明 Adobe Workfront Fusion 中的一些常用詞語。
 
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 <table style="table-layout:auto">
  <col> 
@@ -88,7 +91,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>模組</p> </td> 
-   <td> <p>在相關的應用程式或服務內，在情境中執行函式 (例如建立記錄) 的單一步驟。</p> <p>每個應用程式或服務都有各種不同的模組，用於定義其回應請求的方式。</p>  <p> <img src="assets/module.png"> </p> <p>如需詳細資訊，請參閱<a href="/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md" class="MCXref xref">模組概觀</a>。</p> </td> 
+   <td> <p>在相關的應用程式或服務內，在情境中執行函式 (例如建立記錄) 的單一步驟。</p> <p>每個應用程式或服務都有各種不同的模組，用於定義其回應請求的方式。</p>  <p> <img src="assets/new-module.png"> </p> <p>如需詳細資訊，請參閱<a href="/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md" class="MCXref xref">模組概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>作業</p> </td> 
@@ -104,7 +107,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>情境</p> </td> 
-   <td> <p>使用者建立的一系列自動化步驟，每個步驟都代表一個模組且由一個模組執行。 情境的用途是移動及操作資料。</p> <p> <img src="assets/entire-scenario-blank.png" style="width: 350;height: 178;"> </p> <p> 如需詳細資訊，請參閱<a href="/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md" class="MCXref xref">情境概觀</a>。</p> </td> 
+   <td> <p>使用者建立的一系列自動化步驟，每個步驟都代表一個模組且由一個模組執行。 情境的用途是移動及操作資料。</p> <p> <img src="assets/new-scenario-example-unmarked.png" style="width: 350;height: 92;"> </p> <p> 如需詳細資訊，請參閱<a href="/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md" class="MCXref xref">情境概觀</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>情境區段</p> </td> 

@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 2%
@@ -67,6 +67,8 @@ ht-degree: 2%
 ### 復原
 
 如果任何模組的作業或認可階段發生錯誤，該階段會中止，而倒回階段會啟動，使指定週期中的所有作業失效。
+
+<!-- BECKY CHECK ME: acid-modules.png shows the classic module list with ACID badges (Watch Events, Watch Field, Watch Record). Retake it from the new module browser, and confirm the ACID badge still displays there (the release notes mention badges for private, premium, and beta apps only). -->
 
 >[!IMPORTANT]
 >

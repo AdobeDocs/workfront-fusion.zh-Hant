@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -115,7 +115,7 @@ Workfront Fusion目前不提供`retry`錯誤處理指示詞。 使用下列其�
 
 在此範例案例中，[!UICONTROL HTTP] > [!UICONTROL 提出要求]模組代表可能失敗的模組：
 
-![HTTP提出要求](assets/http-make-request.png)
+![HTTP提出要求](assets/new-http-make-request.png)
 
 >[!ENDSHADEBOX]
 

@@ -12,14 +12,18 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 1%
+source-wordcount: '821'
+ht-degree: 0%
 ---
 # 情境執行流程
 
 本文說明案例如何執行、資料如何流經案例，以及如何檢視每個模組處理的資料。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 若要檢視資料在作用中情境中的流動方式，請參閱[檢視執行中情境的資料流量](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)。
 
@@ -43,7 +47,7 @@ ht-degree: 1%
 
 如果第一個模組傳回束，則束會通過案例的其餘部分。 在此範例中，該套件組合會移至第二個模組，此模組會將請求轉換為專案。
 
-![Workfront案例的執行流程](assets/example-execution-flow-wf-only.png)
+![Workfront案例的執行流程](assets/new-example-execution-flow-wf-only.png)
 
 >[!ENDSHADEBOX]
 
@@ -51,13 +55,13 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**範例：**&#x200B;在此案例中，從Adobe Workfront下載檔案並將它們傳送到[!DNL Dropbox]中的資料夾，資料將以下列方式流動：
+**範例：**&#x200B;在此案例中，從Adobe Workfront下載檔案並將它們傳送到[!DNL Dropbox]中的資料夾，資料將依照以下方式流動：
 
 此情境的第一個步驟由第一個模組執行，就是在Workfront中監視檔案。 找到的每個檔案都會視為一個組合。 如果模組執行時未發現任何組合，則案例會在第一個模組後結束。
 
 如果傳回束，則束會通過場景的其餘部分。 在此範例中，此案例的其餘部分包含第二個模組，此模組會將套件組合上傳至[!DNL Dropbox]資料夾。
 
-![整合情境的執行流程](assets/example-execution-flow-wf-dropbox.png)
+![整合情境的執行流程](assets/new-example-execution-flow-wf-dropbox.png)
 
 如果第一個模組傳回多個組合，則在上傳第二個組合之前，會將第一個組合上傳至[!DNL Dropbox]。 然後上傳第二個套件，再上傳第三個套件，依此類推。
 
@@ -78,7 +82,7 @@ ht-degree: 1%
 
 案例執行完成後，每個模組都會顯示一個圖示，顯示已執行的運算元。 您可以按一下此圖示，以顯示流程中每個步驟之已處理套裝的詳細資訊。 您可以檢視已使用哪些模組設定，以及每個模組傳回哪些組合。
 
-![已處理的組合](assets/Info-processed-bundles.png)
+![已處理的組合](assets/new-Info-processed-bundles.png)
 
 在此範例中，模組收到如下所示的輸入資訊：
 

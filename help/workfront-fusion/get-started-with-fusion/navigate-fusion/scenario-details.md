@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '583'
 ht-degree: 18%
 ---
 # 情境詳細資訊概觀
@@ -59,11 +59,11 @@ ht-degree: 18%
 
    或
 
-   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
+   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](/help/workfront-fusion/manage-scenarios/assets/new-exit-editing-arrow.png)。
 
 1. 在顯示的頁面上，您可以檢閱下表列出的元素：
 
-   ![案例詳細資料](assets/scenario-detail-350x207.png)
+   ![案例詳細資料](assets/new-scenario-detail.png)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -111,9 +111,11 @@ ht-degree: 18%
       <td role="rowheader">[!UICONTROL 選項]</td> 
       <td> <p>此選單提供您額外的選項，您不必開啟案例編輯器。 這些功能包括：</p> 
        <ul> 
+        <li>[!UICONTROL 解除鎖定執行]</li> 
         <li>[!UICONTROL 排程]</li> 
         <li>[!UICONTROL 重新命名]</li> 
         <li>[!UICONTROL 原地複製]</li> 
+        <li>[!UICONTROL 復製為範本]</li> 
         <li>[!UICONTROL Delete]</li> 
        </ul> </td> 
      </tr> 

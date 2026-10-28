@@ -13,7 +13,7 @@ feature_v2:
     internal-label: APIs
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 59%
@@ -44,7 +44,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 | **日期與時間**<br> ![日期與時間函式](assets/toolbar-icon-date-time-functions.png) | <ul><li>[日期與時間函式](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md)</li><li>[日期與時間格式適用的語彙基元](/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md)</li><li> [日期與時間剖析用的語彙基元](/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-parsing.md)</li></ul> |
 | **搭配陣列使用的函式**<br> ![陣列函式](assets/toolbar-icon-functions-for-arrays.png) | [陣列函式](/help/workfront-fusion/references/mapping-panel/functions/array-functions.md) |
 
-![函式工具列](assets/functions-toolbar-350x189.png)
+![函式工具列](assets/new-functions-toolbar.png)
 
 ## 自訂函式
 
@@ -52,4 +52,4 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 
 由於自訂函式可透過Adobe App Builder運作，因此您的組織必須擁有Adobe App Builder授權才能使用它們。
 
-如需自訂函式的資訊和指示，請參閱使用自訂函式的存取點資料。
+如需自訂函式的資訊與指示，請參閱[使用自訂函式對應資料](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md)。

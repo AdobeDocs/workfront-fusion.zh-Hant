@@ -11,14 +11,18 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 12%
+source-wordcount: '950'
+ht-degree: 11%
 ---
 # 為錯誤處理路由新增篩選和嵌套功能
 
 您可以透過包含篩選和巢狀結構，將進階錯誤處理技術加入錯誤處理路由中。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 ## 存取權要求
 
@@ -74,7 +78,13 @@ ht-degree: 12%
 
 ### 範例：使用篩選器處理錯誤
 
+<!-- BECKY CHECK ME: this example scenario (through the end of the Nesting example below) is built and illustrated entirely in the classic experience. It needs a new example scenario built in the new experience (recommend using Workfront modules instead of Dropbox, consistent with other rebuilt articles) - not just new screenshots of this same Dropbox scenario. Flagging only, not editing - see tracking spreadsheet. -->
+
 >[!BEGINSHADEBOX]
+
+>[!NOTE]
+>
+>此範例使用傳統案例編輯器。
 
 此範例案例顯示這些篩選器如何處理錯誤。
 
@@ -122,7 +132,13 @@ Dropbox中的![錯誤](assets/dropbox.png)
 
 錯誤處理常式路由可在所有模組（路由器除外）上建立及設定。 因此，您可以為已經是現有錯誤處理常式路由一部分的模組建立錯誤處理常式路由。
 
+<!-- BECKY CHECK ME: this example scenario is built and illustrated entirely in the classic experience. It needs a new example scenario built in the new experience - see the flag on the "Example: Error handling with filters" example above. -->
+
 >[!BEGINSHADEBOX]
+
+>[!NOTE]
+>
+>此範例使用傳統案例編輯器。
 
 範例：
 

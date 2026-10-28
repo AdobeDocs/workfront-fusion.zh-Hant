@@ -11,14 +11,18 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 16%
+source-wordcount: '684'
+ht-degree: 15%
 ---
 # 流量控制
 
 當您建立或編輯案例時，可以設定設定來控制資料流經案例的方式。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 ## 存取權要求
 
@@ -75,7 +79,7 @@ ht-degree: 16%
 
 例如，您可以使用[!UICONTROL 中繼器]模組，傳送主題為「Hello 1」、「Hello 2」等的5封電子郵件，方法是將&#x200B;**[!UICONTROL 電子郵件] >[!UICONTROL 傳送電子郵件]**&#x200B;模組至[!UICONTROL 中繼器]模組。
 
-1. 按一下畫面底部的[!UICONTROL 流量控制項]圖示![流量控制項圖示](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif)，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL 中繼器]**。
+1. 按一下畫面底部的[!UICONTROL 流量控制項]圖示![流量控制項圖示](/help/workfront-fusion/references/apps-and-modules/assets/new-flow-control-icon.png)，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL 中繼器]**。
 1. 按一下[!UICONTROL 中繼器]模組，然後在顯示的方塊中按一下&#x200B;**[!UICONTROL 自動連線]**。
 
    中繼器模組隨即開啟。
@@ -84,7 +88,7 @@ ht-degree: 16%
 
    在此範例中，您應輸入5。
 
-   ![中繼器](/help/workfront-fusion/references/apps-and-modules/assets/repeater-2-350x207.png)
+   ![中繼器](/help/workfront-fusion/references/apps-and-modules/assets/new-repeater.png)
 
    每次重複時，專案的值會以&#x200B;**[!UICONTROL 步驟]**&#x200B;欄位中指定的值增加，您可以選取&#x200B;**[!UICONTROL 顯示進階設定]**&#x200B;來檢視該欄位。 此數字預設為1。
 
@@ -95,7 +99,7 @@ ht-degree: 16%
 
    在我們的電子郵件範例中，您會在[!UICONTROL 主旨]方塊中輸入Hello，然後從中繼器模組對應`i`。
 
-   ![中繼器](/help/workfront-fusion/references/apps-and-modules/assets/repeater-3-350x207.png)
+   ![中繼器](/help/workfront-fusion/references/apps-and-modules/assets/new-repeater-3.png)
 
 
 

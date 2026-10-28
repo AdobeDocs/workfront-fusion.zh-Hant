@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '580'
 ht-degree: 7%
 ---
 # 檢視和解決未完成的執行
@@ -26,9 +26,11 @@ ht-degree: 7%
 >
 >如需案例設定的詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)。
 
-## 全文文章的醒目提示預覽 {#highlighted-preview-article-level}
+完整文章{#highlighted-preview-article-level}的醒目提示預覽
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>##檢視未完成的執行
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
+
+## 檢視未完成的執行
 
 如果模組在操作期間遇到錯誤，則會將新的未完成執行新增到未完成執行資料夾。 每個未完成的執行都包含情境的藍圖，以及可對應到失敗模組的所有組合。 按一下案例詳細資訊頁面上的[!UICONTROL 未完成執行]索引標籤，即可開啟未完成執行清單。
 
@@ -61,7 +63,7 @@ ht-degree: 7%
 1. 開啟模組的記錄，其中顯示所有模組的操作。
 1. 找出失敗的作業，然後按一下&#x200B;**[!UICONTROL 解決]**：
 
-   ![解析按鈕](assets/resolve-btn-350x188.png)
+   <!--![Resolve button](assets/resolve-btn-350x188.png)-->
 
 
 
@@ -75,7 +77,7 @@ ht-degree: 7%
 1. 開啟模組的記錄，其中顯示所有模組的操作。
 1. 找出失敗的作業，然後按一下&#x200B;**[!UICONTROL 解決]**：
 
-   ![解析按鈕](assets/resolve-btn-350x188.png)
+   <!--![Resolve button](assets/resolve-btn-350x188.png)-->
 
 ## 與未完成執行相關的選項
 

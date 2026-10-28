@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 33%
@@ -64,7 +64,7 @@ ht-degree: 33%
 
    以滑鼠右鍵按一下觸發程式模組的圖示，然後選取&#x200B;**選擇開始位置**。
 
-   ![選擇開始位置](assets/choose-where-to-start.png)
+   ![選擇開始位置](assets/new-choose-where-to-start.png)
 
 1. 在出現的&#x200B;**[!UICONTROL 選擇開始位置]**&#x200B;方塊中選取選項。
 

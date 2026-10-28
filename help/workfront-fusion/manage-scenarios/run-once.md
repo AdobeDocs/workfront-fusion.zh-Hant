@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '370'
 ht-degree: 0%
 ---
 # 使用執行一次來測試案例
@@ -23,6 +23,10 @@ ht-degree: 0%
 >[!TIP]
 >
 >建議您經常在建立和調整情境時進行測試。
+
+>[!NOTE]
+>
+>在新版Experience中，「執行一次」一律會保留請求和回應詳細資料。 對於案例的定期執行，您可以透過在案例設定中開啟臨時偵錯記錄來收集它們。 如需詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#temporary-debug-logs)。
 
 ## 使用執行一次功能
 

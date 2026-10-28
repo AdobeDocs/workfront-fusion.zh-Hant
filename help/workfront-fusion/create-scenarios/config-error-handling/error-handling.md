@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 6%
 ---
 # 新增錯誤處理
 
@@ -39,6 +39,10 @@ ht-degree: 9%
 >
 >Workfront Fusion支援路由層級的錯誤處理，可讓您為每個路由定義一次錯誤處理邏輯，而不是將錯誤處理常式附加至每個個別模組。
 >由於路由層級的錯誤處理是管理錯誤的更可擴充、一致和架構上更乾淨的方法，尤其是在進階、多分支自動化中，因此我們建議使用路由層級錯誤處理作為最佳實務。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 ## 存取權要求
 
@@ -88,9 +92,9 @@ ht-degree: 9%
 
 ### 範例
 
-考量下列範例情境：
+請考量下列範例情境，以精簡的檢視方式顯示，以方便閱讀：
 
-![顯示路由和錯誤處理常式的範例案例](assets/error-handling-route-example-with-numbers.png)
+![顯示路由和錯誤處理常式的範例案例](assets/new-error-handler-examples-with-numbers.png)
 
 1. 此模組有錯誤處理常式。 此模組上的任何錯誤都由Commit指示詞處理。
 1. 此模組沒有錯誤處理常式。 如果此模組發生錯誤，建立模組路由的路由器上的處理常式會處理此錯誤。 此模組上的任何錯誤都由Rollback指示詞處理。
@@ -113,7 +117,41 @@ ht-degree: 9%
 
 ### 將錯誤處理常式新增至模組
 
-若要將錯誤處理常式新增至模組：
+* [將錯誤處理常式新增至新體驗中的模組（建議）](#add-an-error-handler-to-a-module-in-the-new-experience-recommended)
+* [將錯誤處理常式新增至傳統體驗中的模組](#add-an-error-handler-to-a-module-in-the-classic-experience)
+
+#### 將錯誤處理常式新增至新體驗中的模組（建議）
+
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
+1. 選取您要新增錯誤處理路由的案例。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
+1. 用滑鼠右鍵按一下要在其後新增錯誤處理常式路由的模組，然後選取&#x200B;**[!UICONTROL 新增錯誤處理常式]**：
+
+   ![在功能表中新增錯誤處理常式](assets/new-add-error-handler-in-menu.png)
+
+   錯誤處理常式路由已新增至模組。 如果模組是路由中的最後一個模組，則錯誤處理常式會直接追蹤該模組。 如果模組之後有更多模組，則會新增個別的錯誤處理常式路由。
+
+   錯誤處理模組會顯示指令清單，以及在您的情境中使用的應用程式。
+
+   ![處理指示時發生錯誤](assets/new-error-handling-directives.png)
+
+1. 選取其中一個指令。
+
+   或
+
+   新增一或多個模組至錯誤處理常式路由。
+
+   如果您將更多模組加入路由，則預設會套用「忽略」指令。 如果出現錯誤，則會處理該路由上的後續模組。
+
+   如需指令的詳細資訊，請參閱本文中的[處理指令時發生錯誤](#error-handling-directives)。
+
+1. （可選）將篩選器新增至錯誤處理路由。 如需指示，請參閱[新增篩選和巢狀至錯誤處理路由](/help/workfront-fusion/create-scenarios/config-error-handling/advanced-error-handling.md)。
+
+>[!NOTE]
+>
+>錯誤處理常式路由是以紅色的&#x200B;**[!UICONTROL 錯誤處理常式]**&#x200B;標籤的虛線標示。
+
+#### 將錯誤處理常式新增至傳統體驗中的模組
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增錯誤處理路由的案例。
@@ -145,6 +183,40 @@ ht-degree: 9%
 >請注意，錯誤處理常式路由是由透明圓組成，而一般路由是由實心圓組成。
 
 ### 將錯誤處理常式新增至路由器
+
+* [在新體驗中新增錯誤處理常式至路由器（建議選項）](#add-an-error-handler-to-a-router-in-the-new-experience-recommended)
+* [在傳統體驗中新增錯誤處理常式至路由器](#add-an-error-handler-to-a-router-in-the-classic-experience)
+
+#### 在新體驗中新增錯誤處理常式至路由器（建議選項）
+
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
+1. 選取您要新增錯誤處理路由的案例。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
+1. 用滑鼠右鍵按一下您要新增錯誤處理常式路由的路由器，然後選取&#x200B;**[!UICONTROL 新增錯誤處理常式]**。
+
+   已將錯誤處理常式路由新增至路由器。
+
+   錯誤處理模組會顯示指令清單，以及在您的情境中使用的應用程式。
+
+   ![處理指示時發生錯誤](assets/new-error-handling-directives.png)
+
+1. 選取其中一個指令。
+
+   或
+
+   新增一或多個模組至錯誤處理常式路由。
+
+   如果您將更多模組加入路由，則預設會套用「忽略」指令。 如果出現錯誤，則會處理該路由上的後續模組。
+
+   如需指令的詳細資訊，請參閱本文中的[處理指令時發生錯誤](#error-handling-directives)。
+
+1. （可選）將篩選器新增至錯誤處理路由。 如需指示，請參閱[新增篩選和巢狀至錯誤處理路由](/help/workfront-fusion/create-scenarios/config-error-handling/advanced-error-handling.md)。
+
+>[!NOTE]
+>
+>錯誤處理常式路由是以紅色的&#x200B;**[!UICONTROL 錯誤處理常式]**&#x200B;標籤的虛線標示。
+
+#### 在傳統體驗中新增錯誤處理常式至路由器
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增錯誤處理路由的案例。

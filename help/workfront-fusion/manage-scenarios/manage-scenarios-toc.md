@@ -13,16 +13,18 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 51%
+source-wordcount: '133'
+ht-degree: 44%
 ---
 # 管理案例：文章索引
 
 * [管理連線](/help/workfront-fusion/manage-scenarios/manage-connections.md)
 * [啟用或停用情境](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md)
 * [情境偵錯](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md)
+* [使用即時追蹤來檢閱案例執行](/help/workfront-fusion/manage-scenarios/live-trail.md)
+* [尋找和取代情境中的變數、來源和連線](/help/workfront-fusion/manage-scenarios/find-and-replace.md)
 * [還原情境版本](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md)
 * [將模組更新至新版本](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md)
 * [管理鎖定的情境](/help/workfront-fusion/manage-scenarios/view-manage-locked-scenario.md)

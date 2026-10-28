@@ -11,22 +11,38 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 36%
+source-wordcount: '392'
+ht-degree: 26%
 ---
 # 檢視執行中情境的資料流程
 
 您可以觀看執行中的情境，以瞭解資料如何流經該情境。
 
-當案例執行時，使用中模組會以模組周圍成長的環來標籤。 鈴聲只會顯示模組正在執行，而不會顯示其進度。 快速執行的模組可能只會顯示環的一小部分。
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
-![環繞模組](assets/ring-around-module.png)
+當案例執行時，使用中模組會在新體驗中模組圖示上以旋轉環標示，或在傳統體驗中模組周圍以增長環標示。 鈴聲只會顯示模組正在執行，而不會顯示其進度。 快速執行的模組可能只會顯示環的一小部分。
+
+新體驗
+
+新體驗中模組圖示上的![旋轉環](assets/new-spinning-icon.png)
+
+傳統體驗
+
+![在傳統體驗中圍繞模組](assets/ring-around-module.png)
 
 執行模組後，輸出指示器隨即顯示。
 
-![輸出指標](assets/data-flow-output.png)
+新體驗
+
+新體驗中的![輸出指標](assets/new-output-indicator.png)
+
+傳統體驗
+
+傳統體驗中的![輸出指標](assets/data-flow-output.png)
 
 如果模組處理多個組合，則每個已處理的組合都會出現環狀，而輸出指標會將其輸出的每個組合計算在內。
 
@@ -65,6 +81,7 @@ ht-degree: 36%
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要檢視資料流程的案例。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
 1. 如果案例未執行，請啟動它或按一下&#x200B;**執行一次**&#x200B;以開始案例執行。
 1. 選取您要在執行歷史記錄面板的「目前執行中」段落中檢視的執行。
 

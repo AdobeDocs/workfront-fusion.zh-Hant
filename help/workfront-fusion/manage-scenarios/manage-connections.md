@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 25%
+source-wordcount: '446'
+ht-degree: 22%
 ---
 # 管理連線
 
@@ -71,6 +71,10 @@ ht-degree: 25%
 1. （選擇性）若要重新授權連線，請按一下該連線列中的&#x200B;**重新授權**。
 1. （選擇性）若要確認服務連線是否正常運作，請按一下該連線列中的&#x200B;**驗證**。
 1. （選擇性）若要刪除連線，請按一下該連線列中的&#x200B;**刪除**，然後按一下&#x200B;**真的嗎？**。
+
+>[!NOTE]
+>
+>若要在情境的模組中使用不同的連線，您可以從情境編輯器中的相同應用程式，將連線複製到一或所有相容的模組。 如需詳細資訊，請參閱[尋找和取代情境中的變數、來源和連線](/help/workfront-fusion/manage-scenarios/find-and-replace.md)。
 
 ## 更新連線
 

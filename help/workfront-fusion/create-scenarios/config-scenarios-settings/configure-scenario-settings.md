@@ -12,14 +12,18 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 850372a59529141a31a1a55035c55a3e506e69fb
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 6%
+source-wordcount: '1757'
+ht-degree: 5%
 ---
 # 設定情境設定
 
 您可以在「情境設定」面板中設定情境的特定設定。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 ## 存取權要求
 
@@ -46,11 +50,28 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
 ## 開啟案例設定
+
+* [在新體驗中開啟案例設定（建議）](#open-the-scenario-settings-in-the-new-experience-recommended)
+* [在傳統體驗中開啟情境設定](#open-the-scenario-settings-in-the-classic-experience)
+
+### 在新體驗中開啟案例設定（建議）
+
+1. 按一下左側面板中的&#x200B;**情境**。
+1. 尋找您想要的情境，然後按一下名稱。
+1. 按一下情境上的任何位置以輸入情境編輯器。
+1. 按一下控制項區域中的&#x200B;**情境設定**&#x200B;圖示![情境設定圖示](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/scenario-settings-icon-new.png)。
+
+   您可能需要先按一下「控制項」區域中的三個點圖示才能檢視。
+
+   在顯示的[!UICONTROL 情境設定]面板中，您可以設定情境的各種進階設定。
+1. 視需要啟用或停用案例設定。 請參閱下方的[案例設定選項](#scenario-settings-options)。
+
+### 在傳統體驗中開啟情境設定
 
 1. 按一下左側面板中的&#x200B;**情境**。
 1. 尋找您想要的情境，然後按一下名稱。
@@ -150,13 +171,13 @@ ht-degree: 6%
 
 **範例：** Workfront > [!UICONTROL 觀看記錄]觀看新問題，而Workfront >[!UICONTROL 轉換物件]會將新要求轉換為專案，並指派適當的範本。
 
-![案例設定](assets/scenario-settings-ex-1-350x157.png)
+![案例設定](assets/new-scenario-settings-ex-1.png)
 
 [!UICONTROL 更多週期]設定只會在您排程情境執行時套用。 當您使用[!UICONTROL 執行一次]按鈕時，會考慮循環設定。
 
 #### 最大循環數設為1 （預設）
 
-![最大週期數](assets/max-number-cycles-1-350x201.png)
+![最大週期數](assets/new-max-number-cycles.png)
 
 Workfront >監看記錄模組中的最大週期數設為`10`。
 如果向Workfront提交100個請求，且「最大週期數」欄位設為10，則在執行一個案例後會有90個檔案未處理。 接下來10個檔案會在下一個排程案例執行中處理。
@@ -169,9 +190,7 @@ Workfront >監看記錄模組中的最大週期數設為`10`。
 
 所有檔案會在1個案例執行內處理。
 
-您可以在案例詳細資訊中檢視已執行的週期：
-
-![案例詳細資料](assets/scenario-detail-350x207.png)
+您可以在「案例詳細資訊」頁面的「歷史記錄」區域中檢視已執行的週期。
 
 如需此頁面的詳細資訊，請參閱[案例詳細資料](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md)。
 
@@ -192,6 +211,34 @@ Workfront >監看記錄模組中的最大週期數設為`10`。
 若要設定通知型別的案例層級覆寫，請核取或取消核取通知型別旁的方塊。
 
 如需通知設定的相關資訊，包括案例層級覆寫，請參閱[設定通知選項](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.md)。
+
+### 暫存偵錯記錄
+
+>[!NOTE]
+>
+>* 只有在新的案例設計工具中，而且您的組織已啟用此功能時，才能使用暫時的偵錯記錄檔。
+>* 變更設定需要編輯情境的許可權。
+
+不會針對每個排程或觸發的執行保留請求和回應詳細資料，因為它們會佔用大量儲存空間。 執行一次，一律會保留這些值。
+
+若要收集案例定期執行的要求和回應詳細資料，請選擇收集要求的時間：
+
+* 在接下來的1小時
+* 在接下來的1天
+* 下次執行
+* 在接下來的10個回合中
+
+此變更立即生效。 您不需要儲存情境。
+
+當暫存偵錯記錄檔開啟時，設定會顯示其持續開啟的時間或剩餘的執行次數。 若要在此之前停止收集要求與回應詳細資料，請按一下[關閉]。****
+
+當時間或執行次數用完時，偵錯記錄會自動關閉。 每次執行都會計數，包括找不到新資料的排程執行。
+
+>[!NOTE]
+>
+>暫時的偵錯記錄檔僅在新的體驗中可用，且僅在您的組織啟用此功能時可用。 若要變更此設定，您必須具有編輯情境的許可權。
+
+<!-- BECKY CHECK ME: section added from the 10/23/26 release notes. Confirm the exact option labels, where the setting sits in the panel (I placed it before Worker pool), and the access requirement wording. Add a screenshot. -->
 
 ### 工作者集區
 

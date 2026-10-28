@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 16%
 ---
 # 檢視和管理鏈結的案例關係
@@ -56,7 +56,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -64,21 +64,17 @@ ht-degree: 16%
 
 您可以檢視目前案例與其父項或子項案例的地圖。 地圖會顯示整個鏈結情境的資料流程圖表。
 
-![鏈結案例關係](assets/chained-scenario-relationships-2.png)
-
-<!--get a better picture-->
-
 若要檢視鏈結案例的關係對映，請執行下列動作：
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤，然後按一下案例。
 
    或
 
-   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
+   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](/help/workfront-fusion/manage-scenarios/assets/new-exit-editing-arrow.png)。
 
 1. 按一下「**關係**」標籤。
 
-   ![關聯性索引標籤](assets/relations-tab.png)
+   ![關聯性索引標籤](assets/new-relationships-tab.png)
 
 1. 如需各個鏈結案例的一般詳細資訊，請檢查標籤。
 

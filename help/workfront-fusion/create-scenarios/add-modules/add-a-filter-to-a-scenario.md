@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 19%
+source-wordcount: '942'
+ht-degree: 11%
 ---
 # 在情境中加入篩選器
 
@@ -26,6 +26,10 @@ ht-degree: 19%
 
 * 如果是，套件組合會傳遞至案例中的下一個模組。
 * 如果沒有，則會終止束的處理。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 ## 存取權要求
 
@@ -52,7 +56,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -60,7 +64,37 @@ ht-degree: 19%
 
 您必須先將兩個模組新增至情境，才能在它們之間新增篩選器。
 
-## 在兩個模組之間新增篩選器：
+## 在兩個模組之間新增篩選器
+
+* [在新體驗的兩個模組之間新增篩選器（建議）](#add-a-filter-between-two-modules-in-the-new-experience-recommended)
+* [在傳統體驗中的兩個模組之間新增篩選器](#add-a-filter-between-two-modules-in-the-classic-experience)
+
+### 在新體驗的兩個模組之間新增篩選器（建議）
+
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
+1. 選取您要新增篩選的案例。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
+1. 在您要新增篩選器的模組之間的路徑上按一下左鍵。
+
+   **[!UICONTROL 設定篩選器]**&#x200B;視窗會直接開啟。 （以滑鼠右鍵按一下路徑，會開啟另一個選單。）
+
+1. 在顯示的方塊中，輸入篩選的&#x200B;**[!UICONTROL 標籤]**。
+1. 定義篩選器&#x200B;**[!UICONTROL 條件]**。
+
+   在第一個欄位中輸入您要篩選的欄位、運運算元，以及（如有必要）您要比較欄位的值。
+
+   >[!TIP]
+   >
+   >您可以從對應面板在篩選欄位中輸入值
+   >如需對應的詳細資訊，請參閱[從一個模組對應到另一個模組的資訊](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)。
+
+   例如，如果您希望篩選器在Adobe Workfront中傳遞以XML結尾的檔案，您應在第一個方塊中輸入&#x200B;**[!UICONTROL 檔案名稱]**，並在第二個方塊中輸入。**[!UICONTROL xml]**。 在它們之間的下拉式功能表中，您可以選取&#x200B;**[!UICONTROL 結尾為（不區分大小寫）]**。 此篩選器將套用至來自第一個模組(Workfront)的傳入組合。 只有包含XML檔案的套件組合會傳遞至下一個模組。
+
+   ![設定篩選器](assets/new-filter-setup-xml-example.png)
+
+1. 按一下「**[!DNL OK]**」。
+
+### 在傳統體驗中的兩個模組之間新增篩選器
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增篩選的案例。
@@ -86,6 +120,22 @@ ht-degree: 19%
 
 您可以複製現有的篩選器，並將其貼到情境中的其他位置。
 
+* [在新體驗中複製篩選器（建議）](#copy-a-filter-in-the-new-experience-recommended)
+* [在傳統體驗中複製篩選器](#copy-a-filter-in-the-classic-experience)
+
+### 在新體驗中複製篩選器（建議）
+
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
+1. 選取您要新增篩選的案例。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
+1. 以滑鼠右鍵按一下篩選器所在模組之間的路徑。
+1. 選取&#x200B;**複製篩選器**。
+1. 以滑鼠右鍵按一下您想要貼上篩選器的模組之間的路徑。
+1. 選取&#x200B;**貼上篩選器**。
+1. （選擇性）若要調整篩選器，請按一下篩選器圖示或標籤，然後輸入值，如[本文中的新體驗](#add-a-filter-between-two-modules-in-the-new-experience-recommended)的兩個模組之間新增篩選器。
+
+### 在傳統體驗中複製篩選器
+
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增篩選的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
@@ -93,7 +143,7 @@ ht-degree: 19%
 1. 選取&#x200B;**複製篩選器**。
 1. 以滑鼠右鍵按一下您想要貼上篩選器的模組之間的連線點。
 1. 選取&#x200B;**貼上**&#x200B;篩選器
-1. （選擇性）若要調整篩選器，請按一下篩選器圖示或標籤，然後輸入值，如[本文中的「在兩個模組之間新增篩選器」](#add-a-filter-between-two-modules)中所述。
+1. （選擇性）若要調整篩選器，請按一下篩選器圖示或標籤，然後輸入值，如[本文中的傳統體驗中的兩個模組之間新增篩選器](#add-a-filter-between-two-modules-in-the-classic-experience)所述。
 
 
 

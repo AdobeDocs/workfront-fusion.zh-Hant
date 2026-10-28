@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 16%
@@ -61,7 +61,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -82,7 +82,7 @@ ht-degree: 16%
 1. 在頁面右側的執行清單中，找出您要重新觸發的執行。
 1. 按一下該案例的&#x200B;**重新觸發程式**。
 
-![從圖表重新觸發程式](assets/retrigger-from-diagram.png)
+![從圖表重新觸發程式](assets/new-retrigger-from-diagram.png)
 
 ### 從案例歷史記錄重新觸發執行
 
@@ -95,7 +95,7 @@ ht-degree: 16%
 1. 找到您要重新觸發的執行。 如有必要，您可以使用全文搜尋來尋找它。
 1. 按一下該案例的&#x200B;**重新觸發程式**。
 
-![從歷程記錄重新觸發程式](assets/retrigger-from-history.png)
+![從歷程記錄重新觸發程式](assets/new-retrigger-from-history.png)
 
 ### 從案例執行頁面重新觸發案例
 
@@ -108,7 +108,7 @@ ht-degree: 16%
 1. 在執行頁面上，按一下&#x200B;**重新觸發程式**。
 
 
-![從執行重新觸發程式](assets/retrigger-from-execution.png)
+![從執行重新觸發程式](assets/new-retrigger-from-execution.png)
 
 
 

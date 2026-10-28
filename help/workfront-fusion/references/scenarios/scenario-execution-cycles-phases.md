@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 2%
@@ -33,7 +33,7 @@ ht-degree: 2%
   * 認可或回覆
 * 最終處理
 
-在較小規模中，每個模組也會遵循這些階段。 有關模組階段的資訊可在已處理的套件資訊中找到，可在案例執行後每個模組右上角的編號泡泡中找到。 如需尋找已處理套裝資訊的詳細資訊，請參閱案例執行流程文章中有關已處理套裝的資訊[&#128279;](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md#information-about-processed-bundles)。
+在較小規模中，每個模組也會遵循這些階段。 有關模組階段的資訊可在已處理的套件資訊中找到，可在案例執行後每個模組右上角的編號泡泡中找到。 如需尋找已處理套裝資訊的詳細資訊，請參閱案例執行流程文章中有關已處理套裝的資訊[](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md#information-about-processed-bundles)。
 
 較大的案例階段相關資訊可在執行詳細資訊中找到。
 
@@ -67,6 +67,8 @@ ht-degree: 2%
 ### 復原
 
 如果任何模組的作業或認可階段發生錯誤，該階段會中止，而倒回階段會啟動，使指定週期中的所有作業失效。
+
+<!-- BECKY CHECK ME: acid-modules.png shows the classic module list with ACID badges (Watch Events, Watch Field, Watch Record). Retake it from the new module browser, and confirm the ACID badge still displays there (the release notes mention badges for private, premium, and beta apps only). -->
 
 >[!IMPORTANT]
 >

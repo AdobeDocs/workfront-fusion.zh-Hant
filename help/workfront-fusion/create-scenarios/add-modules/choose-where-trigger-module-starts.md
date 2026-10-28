@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 33%
@@ -49,7 +49,7 @@ ht-degree: 33%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 33%
 
    以滑鼠右鍵按一下觸發程式模組的圖示，然後選取&#x200B;**選擇開始位置**。
 
-   ![選擇開始位置](assets/choose-where-to-start.png)
+   ![選擇開始位置](assets/new-choose-where-to-start.png)
 
 1. 在出現的&#x200B;**[!UICONTROL 選擇開始位置]**&#x200B;方塊中選取選項。
 
@@ -75,19 +75,19 @@ ht-degree: 33%
     <col> 
     <tbody>
     <tr>
-    <td>[!UICONTROL 從現在起] （預設）</td>
+    <td>[！UICONTROL從現在起] （預設）</td>
     <td>擷取選取此選項後新增或更新的所有組合（視設定而定）</td>
     </tr>
      <tr>
-    <td>[!UICONTROL 從特定日期起]</td>
+    <td>[！UICONTROL從特定日期起]</td>
     <td>擷取在指定日期和時間之後新增或更新的所有組合（視設定而定）</td>
       </tr>
       <tr>
-    <td>[!UICONTROL All]</td>
+    <td>[！UICONTROL All]</td>
     <td>擷取所有可用的組合</td>
      </tr>
       <tr>
-    <td>[!UICONTROL 手動選擇]</td>
+    <td>[！UICONTROL手動選擇]</td>
     <td>可讓您選取要開始擷取束的第一個束</td>
      </tr>
      </tbody>

@@ -10,15 +10,15 @@ exl-id: aa082ac8-48e8-4569-880e-024dd77feaa1
 TQID: https://experienceleague.adobe.com/F0kYjSMVgit8t-gPAR4U7O-1v8Qxy7UxSRK6uYxKItg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Integrations
+source-git-commit: 4cd8b43e9ce9a16aca16397ce140cdd2467bf7d4
 workflow-type: tm+mt
-source-wordcount: 607
-ht-degree: 18%
-
+source-wordcount: '1116'
+ht-degree: 10%
 ---
-
 # 使用函式在基本情境中更新專案
 
 更新Workfront工作專案是Workfront Fusion的常見使用案例。 在此範例中，您將使用函式將專案名稱變更為大寫字母。
@@ -26,6 +26,10 @@ ht-degree: 18%
 Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏輯。 如需使用函式的詳細資訊，請參閱[函式概述](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md)。
 
 此範例修改在[建立基本案例](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md)中建立的案例。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 ## 存取權要求
 
@@ -52,7 +56,7 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -60,12 +64,82 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 
 在執行此程式之前，您必須先建立[建立基本案例](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md)中所述的案例。
 
-## 使用函式更新專案
+## 使用函式更新新體驗中的專案（建議）
 
-### 將更新記錄模組新增至您的情境
+* [將更新記錄模組新增到您的情境](#add-the-update-a-record-module-to-your-scenario)
+* [對應函式以進行名稱更新](#map-the-function-for-the-name-update)
+* [測試並啟動](#test-and-activate)
+
+### 將更新記錄模組新增到您的情境
 
 1. 在案例編輯器中開啟案例。
-1. 將滑鼠停留在第二個模組右邊的部分圓圈上，然後按一下[新增其他模組] **&#x200B;**。
+1. 暫留在第二個模組的右邊緣上，然後按一下&#x200B;**[!UICONTROL [新增另一個模組]**]。
+1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 更新記錄]**。
+1. 在ID欄位中，選取「轉換物件模組」下的ID區塊。 這是該模組輸出的專案ID。
+
+   ![更新記錄模組中的對應ID](assets/new-mapped-update-record.png)
+
+1. 在「記錄型別」欄位中，選取「專案」，因為要更新的物件是專案。
+1. 在「選擇要對應的欄位」區域中，選取「名稱」。
+
+   將會開啟「名稱」欄位。
+1. 繼續[對應名稱更新](#map-the-function-for-the-name-update)的函式。
+
+### 對應函式以進行名稱更新
+
+當此案例將請求轉換為專案時，專案名稱與請求相同。 此處的函式會採用該名稱並將其中的所有字母大寫。
+
+1. 按一下&#x200B;**名稱**&#x200B;欄位。
+
+   對應面板隨即開啟。
+1. 在對應面板中，按一下&#x200B;**文字和二進位函式**&#x200B;圖示。 ![文字函式圖示](assets/new-text-binary-function.png)
+1. 選取函式&#x200B;**upper**。
+
+   函式會顯示在「名稱」欄位中，包括預期輸入的格式。
+
+   此範例的輸入是專案轉換來源問題的名稱。
+
+1. 將游標移到括弧之間，因為這是輸入要移動的位置。
+1. 在對應面板中，按一下&#x200B;**模組輸出**&#x200B;圖示。 ![模組輸出圖示](assets/new-module-output-icon.png)
+1. 選取第一個模組輸出的名稱區塊。
+
+   名稱區塊會顯示在函式中。
+
+   函式](assets/new-mapped-name-block.png)中的![名稱區塊
+
+1. 按一下&#x200B;**確定**&#x200B;以儲存模組設定。
+
+### 測試並啟動
+
+1. 按一下&#x200B;**[!UICONTROL 執行一次]**&#x200B;圖示以測試情境。
+
+   執行一次，在新體驗中是僅限圖示。 將游標停留在圖示上以檢視&#x200B;**[!UICONTROL 執行一次]**&#x200B;工具提示。
+
+   ![執行案例按鈕](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/run-once-new.png)
+
+1. 檢查輸出，確保案例如預期般執行。
+1. 當您滿意情境如預期般運作時，請按一下&#x200B;**排程**&#x200B;切換至&#x200B;**開啟**。
+
+   這會啟用情境。 作用中情境會根據觸發程式模組中設定的排程執行。
+
+   ![排程切換](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/scheduling-new.png)
+
+1. 按一下[控制項]區域中的&#x200B;**儲存**&#x200B;圖示![儲存圖示](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/save-icon-new.png)，儲存您的情境進度。
+
+   >[!IMPORTANT]
+   >
+   >隨時儲存並測試情境。 您可能需要在Workfront帳戶中建立新問題才能觸發此情境。
+
+## 使用函式來更新傳統體驗中的專案
+
+* [將更新記錄模組新增到您的情境(Classic)](#add-the-update-a-record-module-to-your-scenario-classic)
+* [對應函式以進行名稱更新(Classic)](#map-the-function-for-the-name-update-classic)
+* [測試並啟動（傳統）](#test-and-activate-classic)
+
+### 將更新記錄模組新增到您的情境(Classic)
+
+1. 在案例編輯器中開啟案例。
+1. 將滑鼠停留在第二個模組右邊的部分圓圈上，然後按一下[新增其他模組] ****。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 更新記錄]**。
 1. 在ID欄位中，選取「轉換物件模組」下的ID區塊。 這是該模組輸出的專案ID。
 
@@ -75,9 +149,9 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 1. 在「選擇要對應的欄位」區域中，選取「名稱」。
 
    將會開啟「名稱」欄位。
-1. 繼續[對應名稱更新](#map-the-function-for-the-name-update)的函式。
+1. 繼續[對應名稱更新（傳統）](#map-the-function-for-the-name-update-classic)的函式。
 
-### 對應函式以進行名稱更新
+### 對應函式以進行名稱更新(Classic)
 
 當此案例將請求轉換為專案時，專案名稱與請求相同。 此處的函式會採用該名稱並將其中的所有字母大寫。
 
@@ -97,11 +171,11 @@ Fusion包含許多型別的函式，可讓您轉換資料並執行條件式邏�
 
    名稱區塊會顯示在函式中。
 
-   函式![&#128279;](assets/map-name.png)中的名稱區塊
+   函式](assets/map-name.png)中的![名稱區塊
 
 1. 按一下&#x200B;**確定**&#x200B;以儲存模組設定。
 
-### 測試並啟動
+### 測試並啟動（傳統）
 
 1. 在熒幕左下角按一下&#x200B;**執行一次**&#x200B;以測試情境。
 1. 檢查輸出，確保案例如預期般執行。

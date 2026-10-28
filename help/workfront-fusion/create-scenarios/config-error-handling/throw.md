@@ -17,7 +17,7 @@ feature_v2:
     internal-label: Integrations
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 25%
@@ -59,7 +59,7 @@ ht-degree: 25%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 25%
 
 若要有條件地擲回錯誤，您可以設定模組，使其在操作期間故意失敗。 一種可能是採用[!UICONTROL JSON] > [!UICONTROL 剖析JSON]模組，該模組設定為選擇性擲回錯誤（在此情況下為`BundleValidationError`）：
 
-![JSON錯誤](assets/json-parse-json.png)
+![JSON錯誤](assets/new-json-parse-json.png)
 
 然後，您可以將其中一個錯誤處理指示附加至錯誤處理路由：
 
@@ -78,4 +78,4 @@ ht-degree: 25%
 
 下列範例顯示[!DNL Rollback]指示詞的使用：
 
-![Rollback指令](assets/rollback-directive.png)
+![Rollback指令](assets/new-rollback-directive.png)

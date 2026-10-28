@@ -14,7 +14,7 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 17%
@@ -52,7 +52,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -75,7 +75,7 @@ ht-degree: 17%
    搜尋結果包含搜尋字詞，且不區分大小寫。
 1. 若要選取作為收集要素的值，請按一下該收集旁的箭頭，然後在元素出現時選取元素。
 
-   ![集合專案](assets/collection-dropdown.png)
+   ![集合專案](/help/workfront-fusion/get-started-with-fusion/understand-fusion/assets/new-collection-dropdown.png)
 
 1. 按一下對應面板中的專案以將其插入欄位中。
 
@@ -128,7 +128,7 @@ ht-degree: 17%
 若要執行單一模組：
 
 1. 在模組上按一下滑鼠右鍵，然後在顯示的功能表中按一下&#x200B;**[!UICONTROL 僅執行此模組]**。
-1. 提供輸入專案的範例值，然後按一下[確定]。**&#x200B;**
+1. 提供輸入專案的範例值，然後按一下[確定]。****
 1. 當模組完成執行時，按一下模組上方的泡泡圖示，以探索其完整輸出。
 
    後續模組的對應面板現在包含模組輸出中的所有專案。

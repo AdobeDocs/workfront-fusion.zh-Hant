@@ -10,20 +10,24 @@ exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
 TQID: https://experienceleague.adobe.com/4SeGiWeAsMRQbbk15I5IoL8-ZYe5WLeF6z9URFpTQQI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-source-git-commit: 219b9dbf3a7e4be1676b21bc3d3752d70d743b13
+    internal-label: Integrations
+source-git-commit: 347280547bea92c0ee498da519495569a3cac661
 workflow-type: tm+mt
-source-wordcount: 1426
-ht-degree: 12%
-
+source-wordcount: '2691'
+ht-degree: 6%
 ---
-
 # 建立基本情境
 
 Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心處理新任務，而不是一再重複相同的任務。 其將應用程式和服務內部及兩者之間的動作連結起來，並建立一個自動轉移和轉換您的資料的情境。 您建立的情境會監視應用程式或服務中的資料，並處理該資料以便提供您想要的結果。
 
 此範例會帶您進行建立情境的過程，以在Workfront中搜尋請求，並將其轉換為專案。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 ## 存取權要求
 
@@ -50,13 +54,180 @@ Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
-## 建立實務情境
+## 在新體驗中建立實踐情境（建議）
+
+* [開始建立情境](#begin-creating-the-scenario)
+* [新增並設定第一個模組](#add-and-configure-the-first-module)
+* [新增並設定第二個模組](#add-and-configure-the-second-module)
+* [測試情境](#test-the-scenario)
+* [啟動情境](#activate-the-scenario)
 
 ### 開始建立情境
+
+1. 在&#x200B;**案例**&#x200B;區域中，按一下&#x200B;**建立新案例**。
+
+   若要尋找「案例」區域，請參閱[導覽Workfront Fusion](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/navigate-workfront-fusion.md)。
+
+   接著會顯示案例編輯器，其中心包含一個空白的預留位置模組。
+
+   ![預留位置模組](assets/new-placeholder-module.png)
+
+1. 按一下左上角的案例名稱，然後輸入名稱。
+1. 繼續[新增並設定第一個模組](#add-and-configure-the-first-module)。
+
+### 新增並設定第一個模組
+
+1. 按一下預留位置模組，開啟應用程式和服務清單。
+
+   模組右側會開啟一個面板。
+
+   ![應用程式和服務選擇器](assets/new-connector-picker.png)
+
+1. 選取&#x200B;**Adobe Workfront**：
+
+   * 使用左側的面板依類別瀏覽（[!UICONTROL 我的最愛]、[!UICONTROL 所有應用程式]、[!UICONTROL Adobe Workfront]、[!UICONTROL Adobe Firefly Services]、[!UICONTROL Adobe Creative &amp; Content]、[!UICONTROL Adobe Cloud Services]、[!UICONTROL Generative AI]或[!UICONTROL 內建]），或
+   * 在搜尋方塊中輸入字詞以篩選清單。
+
+   清單會變更，以顯示您可以使用的所有Workfront模組。
+
+1. 按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;模組。
+
+   模組組態視窗隨即開啟。
+
+1. 在[!UICONTROL 連線]方塊中，選取您的Workfront連線。
+
+   如果您沒有Workfront連線，請參閱[建立連線](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+1. 在[!UICONTROL 記錄型別]方塊中，選取&#x200B;**[!UICONTROL 問題]**。 這會將模組設定為僅搜尋問題，包括請求。
+
+   如果您開始輸入&quot;[!UICONTROL 問題]&quot;，可以在清單中找到&#x200B;**[!UICONTROL 問題]**。
+
+1. 在&#x200B;**[!UICONTROL 結果集]**&#x200B;方塊中，選取&#x200B;**[!UICONTROL 第一個相符記錄]**。
+
+   這會將模組設定為只傳回它認為符合條件的第一個記錄。
+1. 在&#x200B;**[!UICONTROL 搜尋條件]**&#x200B;區域中，設定條件以傳回特定工作。
+
+   1. 在[!UICONTROL 搜尋條件]下的第一個方塊中，選取您要納入搜尋的欄位。 在此範例中，選取&#x200B;**[!UICONTROL 名稱]**。
+
+      如果您開始輸入「[!UICONTROL 名稱]」，可以在清單中找到&#x200B;**[!UICONTROL 名稱]**。
+   1. 對於運運算元，按一下&#x200B;**存在**&#x200B;旁的下拉箭頭，並將其變更為&#x200B;[!UICONTROL **包含（不區分大小寫）**]。
+
+      如此一來，模組便可尋找名稱中包含您所選字詞的專案，即使您並未輸入完整名稱或輸入大小寫不正確（例如全部大寫）的名稱亦然。
+   1. 在[!UICONTROL 搜尋條件]下的最後一個欄位中，輸入您知道位於搜尋任務名稱中的字詞或片語。
+
+1. 在&#x200B;**[!UICONTROL 輸出]**&#x200B;清單中，選取您要模組輸出的欄位。 在此範例中，請選取&#x200B;**[!UICONTROL ID]**&#x200B;和&#x200B;**[!UICONTROL Name]**&#x200B;欄位。
+
+   >[!TIP]
+   >
+   >您可以使用&#x200B;**Cmd+F** （[!DNL Mac]個作業系統）或&#x200B;**Ctrl-F** （[!DNL Windows]個作業系統）來快速尋找欄位。
+
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存模組組態。
+
+1. 以滑鼠右鍵按一下模組，按一下&#x200B;**[!UICONTROL 重新命名]**，然後輸入描述您希望模組執行之作業的名稱（例如「搜尋要求」），然後按一下&#x200B;**[!UICONTROL 確定]**。
+
+   名稱會出現在模組正下方。 其後，Workfront Fusion包含模組所執行動作型別的簡短說明。
+
+   ![已重新命名模組](assets/new-renamed-module.png)
+
+1. 繼續[新增並設定第二個模組](#add-and-configure-the-second-module)。
+
+### 新增並設定第二個模組
+
+1. 暫留在模組的右邊緣上，然後按一下&#x200B;**[!UICONTROL [新增另一個模組]**]。
+1. 從應用程式清單中選取&#x200B;**Adobe Workfront**，然後選擇模組&#x200B;**[!UICONTROL 轉換物件]**。
+1. 在「[!UICONTROL 連線]」欄位中，選取您在上一個模組中使用的相同Workfront連線。
+1. 在&#x200B;**[!UICONTROL 記錄型別]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL 問題]**，因為模組將會轉換問題。
+1. 在&#x200B;**[!UICONTROL 轉換成]**&#x200B;欄位中，選取&#x200B;**專案**。
+1. 在「任務ID」欄位旁，按一下地圖切換以啟用它。
+
+   切換在啟用時變成藍色。 這可讓您對應上一個模組的任務ID。
+
+   ![對應切換](assets/new-map-toggle.png)
+1. 按一下&#x200B;**[!UICONTROL 任務識別碼]**&#x200B;欄位。
+
+   會開啟一個面板，讓您選取要作為要轉換為專案之任務的ID使用的專案。 由於您啟用了對應，因此面板會包含任何先前模組的輸出。 您選取ID作為前一個模組的輸出，因此現在面板中可提供該ID。
+
+   此面板稱為對應面板。 如需對應面板的詳細資訊，請參閱[對應概觀](/help/workfront-fusion/get-started-with-fusion/understand-fusion/mapping-overview.md)。
+1. 在對應面板中選取&#x200B;**ID**。
+
+   ID區塊會顯示在ID欄位中。 其中顯示對應自該模組的編號，以及對應的欄位。
+
+   ![地圖ID](assets/new-map-id.png)
+
+1. 按一下&#x200B;**範本識別碼**&#x200B;欄位，開始輸入您要用於此專案的Workfront範本名稱，然後當它出現在清單中時選取它。
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存模組組態。
+
+1. 以滑鼠右鍵按一下模組，按一下&#x200B;**[!UICONTROL 重新命名]**，然後輸入描述您希望模組執行之作業的名稱（例如「轉換為專案」），然後按一下&#x200B;**[!UICONTROL 確定]**。
+
+1. 繼續[測試情境](#test-the-scenario)。
+
+### 測試情境
+
+在啟動情境之前，請務必執行情境至少一次，並檢視結果，以測試情境。 這有助於您瞭解資料如何流經此情境並找出任何錯誤。
+
+對於這種情況，成功的測試將導致找到請求並將其轉換為專案。
+
+1. 按一下&#x200B;**[!UICONTROL 執行一次]**&#x200B;圖示。
+
+   執行一次，在新體驗中是僅限圖示。 將游標停留在圖示上以檢視&#x200B;**[!UICONTROL 執行一次]**&#x200B;工具提示。
+
+   ![執行案例按鈕](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/run-once-new.png)
+
+1. 情境執行完畢後，按一下第一個模組上方的泡泡圖，即可檢視模組所處理資料束的相關資訊，包括從模組傳回的請求中擷取的資料。
+
+1. 按一下第二個模組上方的執行檢測器泡泡圖，以檢視輸入（請求）和輸出（轉換的專案）。
+
+   ![執行檢查器泡泡](assets/new-execution-bubble.png)
+
+   如需檢查泡泡中資料的詳細資訊，請參閱：
+
+   * 如需一般資訊，請參閱[案例執行流程](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md)。
+   * 如需已處理組合的相關資訊，請參閱[案例執行、週期和階段](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md)。
+
+1. 按一下[控制項]區域中的&#x200B;**儲存**&#x200B;圖示![儲存圖示](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/save-icon-new.png)，儲存您的情境進度。
+
+   >[!IMPORTANT]
+   >
+   >隨時儲存並測試情境。 您可能需要在Workfront帳戶中建立新問題才能觸發此情境。
+
+>[!TIP]
+>
+>我們建議您選擇加入每個模組相關附註的作法，但此作法相當實用。
+>
+>1. 以滑鼠右鍵按一下模組，然後選取&#x200B;**[!UICONTROL 新增附註]**。
+>1. 在顯示的附註中，輸入模組的概觀。
+>
+>    您可以為一個模組新增多個附註。
+>
+>1. 關閉&#x200B;**[!UICONTROL 附註]**&#x200B;區域。
+>
+>     將附註新增至情境後，「控制項」區域中的&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附有點](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/notes-icon-new.png)的附註圖示上會顯示點。
+>
+>1. 按一下&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附點](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/notes-icon-new.png)的附註圖示以檢視您的附註。 當註記開啟時，註記圖示周圍會出現一個圓圈。
+>
+
+### 啟動情境
+
+建立情境的最後一步是啟動情境。
+
+由於此情境正在搜尋特定問題，因此不需要啟用它。 啟用情境會使情境依排程執行，或當應用程式中發生特定動作時執行。 啟用案例後，預設會每15分鐘執行一次。 您可以定義何時以及多久執行一次來變更此專案。
+
+如需啟動案例的詳細資訊，請參閱[啟動或停用案例](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md)。
+
+如需排程的相關資訊，請參閱[排程情境](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md)。
+
+## 在傳統體驗中建立實務案例
+
+* [開始建立情境（傳統）](#begin-creating-the-scenario-classic)
+* [新增並設定第一個模組(Classic)](#add-and-configure-the-first-module-classic)
+* [新增並設定第二個模組（傳統）](#add-and-configure-the-second-module-classic)
+* [測試情境（傳統）](#test-the-scenario-classic)
+* [啟動情境（傳統）](#activate-the-scenario-classic)
+
+### 開始建立情境（傳統）
 
 1. 在&#x200B;**案例**&#x200B;區域中，按一下&#x200B;**建立新案例**。
 
@@ -65,9 +236,9 @@ Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心
    情境編輯器隨即顯示，其中心包含一個空白模組。
 
 1. 選取左上角的&#x200B;**[!UICONTROL 新案例]**&#x200B;預留位置名稱，然後輸入名稱。
-1. 繼續[新增並設定第一個模組](#add-and-configure-the-first-module)。
+1. 繼續[新增並設定第一個模組（傳統）](#add-and-configure-the-first-module-classic)。
 
-### 新增並設定第一個模組
+### 新增並設定第一個模組(Classic)
 
 1. 按一下空白模組，以選擇要從中選取模組的應用程式。
 
@@ -115,11 +286,11 @@ Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心
 
    ![已重新命名模組](assets/module-renamed-wf.png)
 
-1. 繼續[新增並設定第二個模組](#add-and-configure-the-second-module)。
+1. 繼續[新增並設定第二個模組（傳統）](#add-and-configure-the-second-module-classic)。
 
-## 新增並設定第二個模組
+### 新增並設定第二個模組（傳統）
 
-1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]&#x200B;**&#x200B;**。
+1. 暫留在模組右側的部分圓圈上，然後按一下[新增其他模組]****。
 1. 從應用程式清單中選取Adobe Workfront，然後選擇模組&#x200B;**[!UICONTROL 轉換物件]**。
 1. 在「[!UICONTROL 連線]」欄位中，選取您在上一個模組中使用的相同Workfront連線。
 1. 在&#x200B;**[!UICONTROL 記錄型別]**&#x200B;欄位中，選取&#x200B;**[!UICONTROL 問題]**，因為模組將會轉換問題。
@@ -145,9 +316,9 @@ Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心
 
 1. 以滑鼠右鍵按一下模組，按一下&#x200B;**[!UICONTROL 重新命名]**，然後輸入描述您希望模組執行之作業的名稱（例如「轉換為專案」），然後按一下&#x200B;**[!UICONTROL 確定]**。
 
-1. 繼續[測試情境](#test-the-scenario)。
+1. 繼續[測試情境（傳統）](#test-the-scenario-classic)。
 
-## 測試情境
+### 測試情境（傳統）
 
 在啟動情境之前，請務必執行情境至少一次，並檢視結果，以測試情境。 這有助於您瞭解資料如何流經此情境並找出任何錯誤。
 
@@ -185,7 +356,7 @@ Adobe Workfront Fusion 的角色是將您的流程自動化，讓您可以專心
 >1. 按一下&#x200B;**[!UICONTROL 附註]**&#x200B;圖示![附點](assets/notes-icon-w-dot.png)的附註圖示以檢視您的附註。 當註記開啟時，註記圖示周圍會出現一個圓圈。
 >
 
-## 啟動情境
+### 啟動情境（傳統）
 
 建立情境的最後一步是啟動情境。
 

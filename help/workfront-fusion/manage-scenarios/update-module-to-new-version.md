@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 27%
 ---
 # 將模組升級至新版本
@@ -51,7 +51,7 @@ ht-degree: 27%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -62,8 +62,8 @@ ht-degree: 27%
 1. 選擇下列其中一項：
 
    * 若要選取新的模組來取代此模組（而非升級模組），請按一下[選擇新的] **，然後按照[將非Workfront模組升級為新版本] [中的說明繼續進行。](#upgrade-a-non-workfront-module-to-a-new-version)**
-   * 若要僅升級此模組，保留模組組態，請按一下[升級]。**&#x200B;**
-   * 若要升級案例中的所有Workfront模組，請按一下[全部升級]。**&#x200B;**
+   * 若要僅升級此模組，保留模組組態，請按一下[升級]。****
+   * 若要升級案例中的所有Workfront模組，請按一下[全部升級]。****
 
 1. 儲存情境。
 
@@ -74,7 +74,7 @@ ht-degree: 27%
 ## 將非Workfront模組升級至新版本
 
 1. 按一下您要升級至新版本的模組上的&#x200B;**升級模組**&#x200B;圖示![升級圖示](assets/upgrade-icon.png)。
-   ![更新圖示](assets/update-indicator.png)
+   <!--![Update icon](assets/update-indicator.png)-->
 1. 按一下&#x200B;**選擇新的**。
 1. 選取您要取代前一個模組的模組。
 1. 以與現有模組相同的設定來設定模組。

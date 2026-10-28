@@ -9,10 +9,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 17%
+source-wordcount: '563'
+ht-degree: 16%
 ---
 # 將模組移至鏈結
 
@@ -21,6 +21,10 @@ ht-degree: 17%
 >此功能位於Beta中，不建議用於關鍵任務生產工作流程。 由於Beta功能，行為可能會變更，且邊緣案例可能無法完全處理。
 
 您可以在情境中選取一組模組，然後將它們移至新的鏈結情境，而無需手動重新建立對應或資料結構。 這提供了模組化大型情境的簡單方法。
+
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 將一組模組移至鏈結時，Workfront Fusion：
 
@@ -63,7 +67,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

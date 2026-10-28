@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 12%
+source-wordcount: '987'
+ht-degree: 11%
 ---
 # 檢視情境的執行歷史記錄
 
@@ -26,7 +26,13 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->情境歷史記錄會顯示情境過去30天的所有執行。
+>* 情境歷史記錄會顯示情境過去30天的所有執行。
+>* 在新版Experience中，案例編輯器也有「執行記錄」面板。 它會顯示每個回合的狀態、持續時間、作業和資料大小。 您可以：
+>
+>   * 依狀態篩選
+>   * 搜尋事件
+>   * 使用&#x200B;**Previous**&#x200B;和&#x200B;**Next**&#x200B;在執行之間移動，而不返回執行清單
+>   * 選取要置中的事件，並反白顯示畫布上的相符模組。 有可用的作業詳細資料時，將會針對該事件開啟請求和回應面板。
 
 ## 存取權要求
 
@@ -53,7 +59,7 @@ ht-degree: 12%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -72,7 +78,7 @@ ht-degree: 12%
 
    或
 
-   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
+   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/new-exit-editing-arrow.png)。
 
 1. 按一下情境名稱附近的&#x200B;**歷程記錄**。
    ![歷程記錄標籤](assets/history-tab.png)
@@ -103,7 +109,7 @@ ht-degree: 12%
 
    或
 
-   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
+   如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/new-exit-editing-arrow.png)。
 
 1. 按一下右側面板中的&#x200B;**[!UICONTROL 歷程記錄]**&#x200B;索引標籤。
 1. （選用）如需所選取案例執行的詳細資訊，請按一下右側面板中的執行。
@@ -120,7 +126,7 @@ ht-degree: 12%
 
 您可以篩選執行歷史記錄，以僅檢視具有指定值的執行。
 
-1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤[&#128279;](#view-scenario-history-on-the-history-tab)上的檢視情境執行歷程記錄中所述。
+1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤](#view-scenario-history-on-the-history-tab)上的[檢視情境執行歷程記錄中所述。
 1. 按一下您要作為篩選依據之欄標題中的[!UICONTROL 篩選器]圖示![情境篩選器圖示](assets/fusion-scenario-filter-icon.png)。
 1. 在[!UICONTROL 篩選器]對話方塊中，輸入您要作為篩選依據的值。
 1. 按一下「**[!UICONTROL 儲存]**」。
@@ -140,7 +146,7 @@ You can sort the scenario execution history.
 
 ## 搜尋情境的所有執行
 
-1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤[&#128279;](#view-scenario-history-on-the-history-tab)上的檢視情境執行歷程記錄中所述。
+1. 開啟情境的全頁記錄，如本文中[!UICONTROL 歷程記錄]索引標籤](#view-scenario-history-on-the-history-tab)上的[檢視情境執行歷程記錄中所述。
 1. 按一下執行清單頂端的&#x200B;**[!UICONTROL 全文檢索搜尋]**。
 
    或

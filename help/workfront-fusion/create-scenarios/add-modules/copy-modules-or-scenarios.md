@@ -14,9 +14,9 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: f11394266811578664228f44a6202bc6621a75a0
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '966'
 ht-degree: 10%
 ---
 # 複製模組或情境
@@ -48,7 +48,7 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -69,18 +69,19 @@ ht-degree: 10%
 
 ### 複製模組
 
-複製模組群組類似於複製單一模組。
+您可以複製單一模組或模組群組。
+
+
+>[!NOTE]
+>
+>按住[!UICONTROL Shift]並按一下您要複製的模組，即可選取多個模組。 複製模組群組也會複製它們之間的任何連線線、篩選器或路由邏輯。
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要複製模組的案例。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 以滑鼠右鍵按一下要複製的模組。
-
-   >[!NOTE]
-   >
-   >按住[!UICONTROL Shift]並按一下您要複製的模組，即可選取多個模組。 複製模組群組也會複製它們之間的任何連線線、篩選器或路由邏輯。
-
-1. 選取&#x200B;**[!UICONTROL 複製模組]**。
+1. 如果要複製多個模組，請按住Shift鍵並按一下要複製的模組。
+1. 以滑鼠右鍵按一下要複製的模組或其中一個模組。
+1. 選取&#x200B;**[!UICONTROL 複製模組]**&#x200B;或&#x200B;**[!UICONTROL 複製模組]**。
 1. 將游標移至您要複製情境的情境區域。
 1. 按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 貼上]**。
 1. 將貼上的模組拖曳至情境中的適當位置，以將模組連結至情境。
@@ -101,7 +102,7 @@ ht-degree: 10%
 
       或
 
-      如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/exit-editing-arrow.png)。
+      如果您正在案例編輯器中處理案例，請按一下視窗左上角附近的向左箭頭![結束編輯箭頭](assets/new-exit-editing-arrow.png)。
 
 1. 以滑鼠右鍵按一下頁面右上角的&#x200B;**[!UICONTROL 選項]**。
 1. 選取&#x200B;**[!UICONTROL 複製]**。

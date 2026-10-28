@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 11%
+source-wordcount: '1869'
+ht-degree: 6%
 ---
 # 新增路由器模組及設定路由
 
@@ -22,6 +22,9 @@ ht-degree: 11%
 
 路由會循序處理，而非並行處理。 直到前一個路由完全處理完後，才會將束傳送到下一個路由。
 
+>[!NOTE]
+>
+>Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間，傳統體驗和新體驗皆可使用，而且您可以隨時在它們之間切換。 我們建議您使用新體驗。 如需詳細資訊，請參閱文章「情境編輯器」中的[新體驗和傳統體驗](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#new-and-classic-experiences)。
 
 ## 存取權要求
 
@@ -48,13 +51,52 @@ ht-degree: 11%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
 ## 將路由器模組新增至情境
 
 您必須先新增路由器模組，才能設定路由。
+
+* [將路由器模組新增至新體驗中的案例（建議）](#add-a-router-module-to-a-scenario-in-the-new-experience-recommended)
+* [新增路由器模組至傳統體驗中的案例](#add-a-router-module-to-a-scenario-in-the-classic-experience)
+
+### 將路由器模組新增至新體驗中的案例（建議）
+
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
+1. 選取您要新增路由器的案例。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
+1. 將滑鼠停留在您要新增路由器的模組右邊緣上，然後按一下&#x200B;**[!UICONTROL [新增另一個模組]**]。 在開啟的清單中，選取&#x200B;**[!UICONTROL 內建]**&#x200B;類別，然後選取&#x200B;**[!UICONTROL 流量控制]** > **[!UICONTROL 路由器]**。
+
+   或
+
+   若要在兩個模組之間插入路由器模組，請在連線兩個模組的路徑上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 新增路由器]**。
+
+   ![在兩個模組之間新增路由器](assets/add-a-module-between-modules.png)
+
+1. 將游標移至路由器的右邊緣並新增模組（類似於新增任何模組），以新增通往路由器的第一條路由。
+1. 若要新增其他路由，請按一下路由器模組。 路由隨即出現。 視需要新增模組至此路由。
+
+   您可以新增任意數目的路由。
+
+1. 若要驗證路由的順序，請檢查每個路由的標籤。 「路由1」會先執行，然後執行「路由2」，依此類推。
+
+   或
+
+   按一下[控制]區域中的&#x200B;**自動對齊**&#x200B;圖示![自動對齊圖示](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/assets/auto-align-icon-new.png)。
+
+   路由會依其執行順序排列。 最上層路由會先執行。
+
+1. （選擇性）若要變更路由順序，請在路由器模組上按一下滑鼠右鍵，然後選取&#x200B;**排序路由**。 依照您希望路由執行的順序拖放路由。 路由會標示在路由器之後的第一個模組（路由的第一個模組）。
+1. （選擇性）若要停用路由，請以滑鼠右鍵按一下從路由器導向該路由的路徑，然後選取&#x200B;**停用路由**。
+
+   已停用的路由顯示從路由器到路由第一個模組的灰色點，並在標籤上顯示已停用的路由圖示![已停用的路由圖示](assets/disabled-route-icon.png)。
+
+1. （選擇性且條件式）若要啟用已停用的路由，請按一下路由標籤上的已停用路由圖示![已停用路由圖示](assets/disabled-route-icon.png)。
+1. 繼續[新增篩選器至新體驗](#add-a-filter-to-a-route-in-the-new-experience-recommended)中的路由。
+
+### 新增路由器模組至傳統體驗中的案例
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增路由器的案例。
@@ -90,7 +132,7 @@ ht-degree: 11%
    已停用的路由顯示從路由器到路由第一個模組的灰色點，並在標籤上顯示已停用的路由圖示![已停用的路由圖示](assets/disabled-route-icon.png)。
 
 1. （選擇性且條件式）若要啟用已停用的路由，請按一下路由標籤上的已停用路由圖示![已停用路由圖示](assets/disabled-route-icon.png)。
-1. 繼續[新增篩選器至路由](#add-a-filter-to-a-route)。
+1. 繼續[新增篩選器至傳統體驗](#add-a-filter-to-a-route-in-the-classic-experience)中的路由。
 
 ## 新增篩選器至路由
 
@@ -99,6 +141,32 @@ ht-degree: 11%
 如果資料經過一個以上路由的篩選，資料會由兩個路由處理。 頂端路由會先處理資料。
 
 具有篩選器的路由器會在路由標籤上顯示篩選圖示![篩選圖示](assets/fusion-scenario-filter-icon.png)。
+
+* [新增篩選器至新體驗中的路由（建議）](#add-a-filter-to-a-route-in-the-new-experience-recommended)
+* [新增篩選器至傳統體驗中的路由](#add-a-filter-to-a-route-in-the-classic-experience)
+
+### 新增篩選器至新體驗中的路由（建議）
+
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
+1. 選取您要新增篩選的案例。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
+1. 在您要設定篩選的路徑上按一下左鍵。 這是路由器模組與路由的第一個模組之間的路徑。
+
+   **[!UICONTROL 設定篩選器]**&#x200B;視窗會直接開啟。
+
+1. 在顯示的面板的標籤欄位中，新增標籤。 此標籤會顯示在情境中。
+1. 設定篩選條件。
+
+   如需詳細資訊，請參閱[在情境中加入篩選器](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md)。
+
+   ![在路由上設定篩選器](assets/new-filter-specific-user.png)
+
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存篩選器設定。
+1. （視條件而定）如果篩選器名稱太長而無法放入標籤，請將滑鼠指標暫留在標籤上以顯示整個名稱。
+
+1. 繼續[在新體驗](#configure-a-fallback-route-in-the-new-experience-recommended)中設定遞補路由。
+
+### 新增篩選器至傳統體驗中的路由
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增篩選的案例。
@@ -113,7 +181,7 @@ ht-degree: 11%
 1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存篩選器設定。
 1. （視條件而定）如果篩選器名稱太長而無法放入標籤，請將滑鼠指標暫留在標籤上以顯示整個名稱。
 
-1. 繼續[設定遞補路由](#configure-a-fallback-route)。
+1. 繼續[在傳統體驗中設定遞補路由](#configure-a-fallback-route-in-the-classic-experience)。
 
 ## 設定遞補路由
 
@@ -122,6 +190,29 @@ ht-degree: 11%
 遞補路由在標籤上顯示「遞補」。
 
 您可以在篩選面板中啟用遞補路由。
+
+* [在新體驗中設定遞補路由（建議）](#configure-a-fallback-route-in-the-new-experience-recommended)
+* [在傳統體驗中設定遞補路由](#configure-a-fallback-route-in-the-classic-experience)
+
+### 在新體驗中設定遞補路由（建議）
+
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
+1. 選取您要新增遞補路由的案例。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
+1. 在您要設定篩選的路徑上按一下左鍵。 這是路由器模組與路由的第一個模組之間的路徑。
+
+   **[!UICONTROL 設定篩選器]**&#x200B;視窗會直接開啟。
+
+1. 在顯示的面板的標籤欄位中，新增標籤。 此標籤會顯示在情境中。
+1. 啟用遞補路由核取方塊。
+
+   ![遞補路由](assets/fallback-route-new.png)
+
+1. 按一下&#x200B;**[!UICONTROL 確定]**&#x200B;以儲存篩選器設定。
+
+遞補路由的標籤以綠色顯示&#x200B;**遞補**。
+
+### 在傳統體驗中設定遞補路由
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
 1. 選取您要新增遞補路由的案例。
@@ -139,6 +230,25 @@ ht-degree: 11%
 
 ![箭頭登入路由器](assets/arrow-sign-in-router-module-350x361.png)
 
+## 摺疊路由器
+
+>[!NOTE]
+>
+>此功能僅在新的案例編輯器體驗中可用。
+
+在新的體驗中，您可以摺疊路由器以暫時隱藏其路由。 這在大型情況下相當實用。
+
+1. 在案例編輯器中以編輯模式開啟案例。
+1. 用滑鼠右鍵按一下要摺疊的路由器，然後選取&#x200B;**摺疊路由**
+
+摺疊的路由器會顯示隱藏的路由和模組數目，包括任何隱藏警告或錯誤的嚴重性。
+
+![摺疊式路由器](assets/fold-router.png)
+
+摺疊路由器不會移除或停用任何專案。 搜尋、驗證、即時追蹤及執行歷程記錄會自動展開摺疊的路由器（當它們需要顯示路由器內部的模組時）。
+
+摺疊狀態會與情境一起儲存，並適用於復原和重做。 當您檢閱案例執行時，一律會顯示完整的案例。
+
 ## 範例： `if/else`使用案例
 
 >[!BEGINSHADEBOX]
@@ -147,10 +257,10 @@ ht-degree: 11%
 
 在此範例中，第一個路由設定了篩選器。 這代表`if`元件。
 
-![在路由](assets/set-up-a-filter-2-350x242.png)中設定篩選器
+![在路由](assets/new-filter-specific-user-unmarked.png)中設定篩選器
 
 第二個路由設定為遞補路由。 這代表`else`元件。
 
-![啟用遞補選項](assets/enable-fallback-route-option-350x238.png)
+![啟用遞補選項](assets/new-not-specific-user-unmarked.png)
 
 >[!ENDSHADEBOX]

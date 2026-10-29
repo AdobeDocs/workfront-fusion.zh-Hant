@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 36bcfdbb0e88a4c742f7c3d0a6c9295a8e64b99a
 workflow-type: tm+mt
-source-wordcount: '7725'
+source-wordcount: '7804'
 ht-degree: 92%
 ---
 # Adobe Workfront 模組
@@ -78,7 +78,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -288,16 +288,16 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
        </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 啟用安全鉤點]</td> 
+      <td>[！UICONTROL啟用安全鉤點]</td> 
       <td>
        <p>選擇是否要為此webhook啟用authToken型安全性。</p><p>
        <b>注意</b>：自2026年8月23日起，Fusion將依預設為所有Workfront &gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以關閉「啟用安全鉤點」選項。</p>
        </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 自訂權杖]</td> 
+      <td>[！UICONTROL自訂權杖]</td> 
       <td>
-       <p>（選用）如果[!UICONTROL 啟用安全鉤點]設為[!UICONTROL 是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
+       <p>（選用）如果[！UICONTROL啟用安全鉤點]設為[！UICONTROL是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
        </td> 
      </tr> 
     </tbody> 
@@ -312,6 +312,13 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 如需詳細資訊，請參閱 Workfront 文件中「事件訂閱 API」文章中的[事件承載範例](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-api#examples-of-event-payloads)區段。
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
+
+>[!NOTE]
+>
+>重複資料偵測套用至包含`x-event-id`標題並將其`User-Agent`識別為`Workfront Event Subscription`的通知。
+>
+>當Fusion收到合格的通知時，會記錄該webhook的事件ID **一小時**。 如果另一個具有相同事件ID的通知在此期間到達相同的webhook，Fusion會確認該通知，而不會將其轉送以進行情景處理。
+>重複資料偵測特定於每個webhook。 不同的Webhook可以獨立處理相同事件。 接收副本不會重新啟動一小時期間。
 
 #### [!UICONTROL 監視欄位]
 
@@ -1055,7 +1062,7 @@ Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workf
 
 關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 
-關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 <table style="table-layout:auto">
  <col> 
@@ -2371,7 +2378,7 @@ See a list of the Workfront object types for which you can use this module in [W
 >
 >   關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 >
->   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+>   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 Workfront [!UICONTROL 監視事件]模組會根據在 Workfront API 中建立事件訂閱的 Webhook 觸發情境。 事件訂閱是一個資料集，用於決定哪些事件要傳送至 Webhook。 例如，若您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
 

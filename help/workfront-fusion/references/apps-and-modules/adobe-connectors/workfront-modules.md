@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 36bcfdbb0e88a4c742f7c3d0a6c9295a8e64b99a
 workflow-type: tm+mt
-source-wordcount: '7725'
+source-wordcount: '7804'
 ht-degree: 92%
 ---
 # Adobe Workfront 模組
@@ -312,6 +312,13 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
 如需詳細資訊，請參閱 Workfront 文件中「事件訂閱 API」文章中的[事件承載範例](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-api#examples-of-event-payloads)區段。
 
 在[各 Workfront 模組可用的 Workfront 物件類型](#workfront-object-types-available-for-each-workfront-module)中查看可使用此模組的 Workfront 物件類型清單。
+
+>[!NOTE]
+>
+>重複資料偵測套用至包含`x-event-id`標題並將其`User-Agent`識別為`Workfront Event Subscription`的通知。
+>
+>當Fusion收到合格的通知時，會記錄該webhook的事件ID **一小時**。 如果另一個具有相同事件ID的通知在此期間到達相同的webhook，Fusion會確認該通知，而不會將其轉送以進行情景處理。
+>重複資料偵測特定於每個webhook。 不同的Webhook可以獨立處理相同事件。 接收副本不會重新啟動一小時期間。
 
 #### [!UICONTROL 監視欄位]
 

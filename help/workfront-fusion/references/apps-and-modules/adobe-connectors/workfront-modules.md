@@ -78,7 +78,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -288,16 +288,16 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
        </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL啟用安全鉤點]</td> 
+      <td>[!UICONTROL 啟用安全鉤點]</td> 
       <td>
        <p>選擇是否要為此webhook啟用authToken型安全性。</p><p>
        <b>注意</b>：自2026年8月23日起，Fusion將依預設為所有Workfront &gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以關閉「啟用安全鉤點」選項。</p>
        </td> 
      </tr> 
      <tr> 
-      <td>[！UICONTROL自訂權杖]</td> 
+      <td>[!UICONTROL 自訂權杖]</td> 
       <td>
-       <p>（選用）如果[！UICONTROL啟用安全鉤點]設為[！UICONTROL是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
+       <p>（選用）如果[!UICONTROL 啟用安全鉤點]設為[!UICONTROL 是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
        </td> 
      </tr> 
     </tbody> 

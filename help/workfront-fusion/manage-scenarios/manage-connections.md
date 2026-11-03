@@ -45,7 +45,7 @@ ht-degree: 21%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -59,12 +59,12 @@ ht-degree: 21%
 >
 >若要選取新專案團隊，請按一下頁面頂端附近專案團隊名稱旁的下拉箭頭。 從清單中選取新的專案團隊。
 
-1. 若要開啟[連線]區域，請按一下左側導覽中的[連線] ![ [連線]圖示](assets/connections-icon.png)。
+1. 若要開啟[連線]區域，請按一下左側導覽中的[連線] ![&#x200B; [連線]圖示](assets/connections-icon.png)。
 1. （選擇性）若要重新命名或編輯連線的名稱，請按一下名稱並進行變更。
 1. 若要編輯連線的中繼資料，請按一下中繼資料欄位並進行變更。
 
    中繼資料是根據聯結器的文字或電子郵件欄位。 您可以使用此欄位來包含連線的相關資訊，這在相同聯結器有多個連線時很有用。
-1. （選擇性）若要檢視授予Workfront Fusion的連線許可權，請按一下[檢視]圖示![[檢視該連線的連線許可權](assets/view-connection-permissions.png)。
+1. （選擇性）若要檢視授予Workfront Fusion的連線許可權，請按一下[檢視]圖示&lbrack;![檢視該連線的連線許可權](assets/view-connection-permissions.png)。
 1. （可選）若要指定環境或型別，請按一下環境和型別下拉式清單，然後選取選項。
 
    >[!NOTE]
@@ -85,5 +85,5 @@ Workfront Fusion通常會在無限制的時段內取得特定服務的存取權�
 
 若要更新連線：
 
-1. 若要開啟[連線]區域，請按一下左側導覽中的[連線] ![ [連線]圖示](assets/connections-icon.png)。
+1. 若要開啟[連線]區域，請按一下左側導覽中的[連線] ![&#x200B; [連線]圖示](assets/connections-icon.png)。
 1. （選擇性）若要重新授權連線，請按一下該連線列中的&#x200B;**重新授權**。

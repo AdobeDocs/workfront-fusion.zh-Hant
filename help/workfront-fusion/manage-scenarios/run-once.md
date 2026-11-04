@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: 6e900ea61e12b9e5adfd6bc374479aeeff0408d5
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -59,6 +59,4 @@ ht-degree: 0%
    * **手動提供輸入**：您必須為案例輸入提供webhook裝載。 這必須是JSON格式。
 
      若要提供輸入，請在&#x200B;**Webhook承載**&#x200B;方塊中輸入文字，然後按一下&#x200B;**執行**。
-
-
 

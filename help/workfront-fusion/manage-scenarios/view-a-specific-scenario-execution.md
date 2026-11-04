@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 6e900ea61e12b9e5adfd6bc374479aeeff0408d5
+source-git-commit: 628fb65a2bd3aa7ed434cde26a55077d176f67f6
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 11%
+source-wordcount: '980'
+ht-degree: 10%
 ---
 # 檢視特定情境執行
 
@@ -47,7 +47,7 @@ ht-degree: 11%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -85,6 +85,7 @@ ht-degree: 11%
    若要檢視篩選器處理的特定組合，您可以使用篩選器的搜尋列，或篩選具有特定狀態（例如「通過」或「失敗」）的組合。
 1. 若要在執行面板中搜尋特定模組或事件，請在&#x200B;**搜尋執行事件**&#x200B;方塊中輸入搜尋字詞。 當您鍵入時，結果會顯示出來。
 1. 若要依「成功」或「警告」等狀態限制執行面板搜尋結果，請按一下&#x200B;**狀態篩選**&#x200B;下拉式清單，然後選取狀態。
+1. 若要取得執行中錯誤的簡單語言說明，請按一下錯誤底下的&#x200B;**[!UICONTROL 說明]**。 如需詳細資訊，請參閱[說明AI](/help/workfront-fusion/manage-scenarios/explain-errors-with-ai.md)的案例錯誤。
 
 
 

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 45c755a2f6152b6e230864e4c840d0334705bd22
+source-git-commit: 628fb65a2bd3aa7ed434cde26a55077d176f67f6
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1334'
 ht-degree: 2%
 ---
 # 檢視組織的前瞻分析控制面板
@@ -45,7 +45,7 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -208,7 +208,8 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
    對於大多數的篩選器，您可以選擇僅符合您選取的值，或除了這些值之外的所有值。
 
 1. 按一下執行以檢視有關其錯誤的更多詳細資料。
-1. 若要重新啟用一或多個在重複失敗後自動停用的案例，請選取執行，然後按一下[啟用]。**&#x200B;**
+1. 若要取得錯誤的簡單語言說明，請將游標移至失敗的執行上，然後按一下&#x200B;**[!UICONTROL 說明]**。 如需詳細資訊，請參閱[說明AI](/help/workfront-fusion/manage-scenarios/explain-errors-with-ai.md)的案例錯誤。
+1. 若要重新啟用一或多個在重複失敗後自動停用的案例，請選取執行，然後按一下[啟用]。****
 
    >[!NOTE]
    >

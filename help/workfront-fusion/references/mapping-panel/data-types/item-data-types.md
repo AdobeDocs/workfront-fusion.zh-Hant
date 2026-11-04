@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 8f8ecad04a66f3859bba69460b316e8ba20984e6
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 2%
+source-wordcount: '616'
+ht-degree: 1%
 ---
 # 項目資料類型
 
@@ -47,7 +47,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>日期</p> </td> 
-   <td> <p>日期是以ISO 8601日期格式輸入，例如<code>2015-09-18T11:58Z</code>。 您可以在設定檔設定中變更時區。 </p> <p>如果您按一下需要日期的欄位，模組設定中會顯示快顯行事曆。 某些專案不需要時間。</p> <p>日期專案的值會使用您在設定檔中選取的當地和網頁時區來格式化。 您可以將滑鼠懸停在專案上，以顯示日期專案值的ISO 8601版本。</p> <p>注意：如果ISO值未顯示，則專案可能是文字，而不是日期。</p> <p>時間以<code>hours:minutes:seconds</code>格式輸入，例如<code>14:03:52</code>。</p> </td> 
+   <td> <p>日期是以ISO 8601日期格式輸入，例如<code>2015-09-18T11:58Z</code>。 您可以在設定檔設定中變更時區。 </p> <p>如果您按一下需要日期的欄位，模組設定中會顯示快顯行事曆。 某些專案不需要時間。</p> <p>日期專案的值會使用您在設定檔中選取的當地和網頁時區來格式化。 您可以將滑鼠懸停在專案上，以顯示日期專案值的ISO 8601版本。</p> <p>如需有關檢視和管理Fusion設定檔中時區設定的資訊，請參閱[檢視和管理時區](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-fusion-account/view-and-manage-time-zones.md)。</p> <p>注意：如果ISO值未顯示，則專案可能是文字，而不是日期。</p> <p>時間以<code>hours:minutes:seconds</code>格式輸入，例如<code>14:03:52</code>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>緩衝區（二進位資料）</p> </td> 

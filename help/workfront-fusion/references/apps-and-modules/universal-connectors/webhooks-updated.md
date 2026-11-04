@@ -14,7 +14,7 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: c0d5bb30cb41d9ad8db07c1ea13a533df10bcb43
+source-git-commit: e2420c8a25fd9e38c4b0300b00560fe1837a5e43
 workflow-type: tm+mt
 source-wordcount: '3193'
 ht-degree: 6%
@@ -300,7 +300,7 @@ HMAC簽名驗證會驗證傳入的請求是否使用共用的簽署密碼簽署�
     </tbody> 
    </table>
 
-   ![新畫面設定](/help/workfront-fusion/references/apps-and-modules/assets/new-scenario-set-up-like-this-350x446.png)
+   ![新情境設定](/help/workfront-fusion/references/apps-and-modules/assets/new-scenario-set-up-like-this-350x446.png)
 
 1. 在單獨的瀏覽器標籤或視窗中開啟具有[!UICONTROL Webhooks]模組的情境。
 1. 在webhooks模組中，按一下&#x200B;**[!UICONTROL 重新決定資料結構]**。

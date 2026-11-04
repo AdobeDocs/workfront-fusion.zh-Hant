@@ -45,7 +45,7 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -209,7 +209,7 @@ Fusion Insights儀表板可讓您快速檢視哪些案例的執行最頻繁、�
 
 1. 按一下執行以檢視有關其錯誤的更多詳細資料。
 1. 若要取得錯誤的簡單語言說明，請將游標移至失敗的執行上，然後按一下&#x200B;**[!UICONTROL 說明]**。 如需詳細資訊，請參閱[說明AI](/help/workfront-fusion/manage-scenarios/explain-errors-with-ai.md)的案例錯誤。
-1. 若要重新啟用一或多個在重複失敗後自動停用的案例，請選取執行，然後按一下[啟用]。****
+1. 若要重新啟用一或多個在重複失敗後自動停用的案例，請選取執行，然後按一下[啟用]。**&#x200B;**
 
    >[!NOTE]
    >

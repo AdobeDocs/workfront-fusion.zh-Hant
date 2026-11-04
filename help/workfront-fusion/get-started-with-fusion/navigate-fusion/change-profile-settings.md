@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 8f8ecad04a66f3859bba69460b316e8ba20984e6
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 54%
+source-wordcount: '208'
+ht-degree: 47%
 ---
 # 變更設定檔設定
 
@@ -45,7 +45,7 @@ ht-degree: 54%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -59,3 +59,5 @@ ht-degree: 54%
 * 設定[!DNL Adobe Experience Cloud]的&#x200B;**[!UICONTROL 偏好設定]**，包括主要和次要語言偏好設定。
 * 存取您的&#x200B;**[!UICONTROL Workfront設定檔]**。 進入設定檔後，按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表並選取&#x200B;**[!UICONTROL 編輯]**。
 * **[!UICONTROL 登出]** Adobe Experience Cloud。
+
+您的Fusion設定檔也包含時區設定，這會影響日期和時間的顯示和解譯方式。 如需詳細資訊，請參閱[檢視和管理時區](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-fusion-account/view-and-manage-time-zones.md)。

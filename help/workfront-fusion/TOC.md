@@ -3,10 +3,10 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 628fb65a2bd3aa7ed434cde26a55077d176f67f6
+source-git-commit: 41ba069a36eeddbadbd993602a3b5f7ede60cefa
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 47%
+source-wordcount: '2821'
+ht-degree: 46%
 ---
 
 # Adobe Workfront Fusion 文件 {#using}
@@ -15,6 +15,7 @@ ht-degree: 47%
 * Fusion 發行活動 {#fusion-release-activity}
   * [Adobe Workfront Fusion 發行活動](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
   * Fusion版本 — 2026 {#fusion-releases-2026}
+    * [Workfront Fusion發行活動： 2026年11月2日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-11-2.md)
     * [Workfront Fusion發行活動： 2026年10月26日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-10-26.md)
     * [Workfront Fusion發行活動： 2026年10月19日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-10-19.md)
     * [Workfront Fusion發行活動： 2026年10月12日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-10-12.md)
@@ -195,7 +196,6 @@ ht-degree: 47%
     * [情境編輯器概觀](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md)
     * [情境詳細資訊概觀](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md)
     * [在組織或團隊之間進行切換](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/switch-orgs-or-teams.md)
-    * [變更設定檔設定](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/change-profile-settings.md)
 * 設定和管理 Workfront Fusion {#set-up-and-manage-fusion}
   * [設定和管理 Workfront Fusion](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-workfront-fusion-toc.md)
   * 授權與作業概觀 {#licensing-and-operations-overviews}
@@ -203,6 +203,10 @@ ht-degree: 47%
     * [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
     * [作業](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md)
     * [工作者集區](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/worker-pools.md)
+  * 設定您的Fusion帳戶 {#configure-fusion-account}
+    * [設定Fusion帳戶：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-fusion-account/configure-fusion-account-toc.md)
+    * [變更設定檔設定](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-fusion-account/change-profile-settings.md)
+    * [檢視和管理時區](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-fusion-account/view-and-manage-time-zones.md)
   * 設定和管理組織與團隊 {#set-up-and-manage-orgs-and-teams}
     * [設定和管理組織與團隊：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-and-manage-orgs-and-teams.md)
     * 設定組織與團隊 {#set-up-orgs-teams-and-users}
@@ -321,7 +325,7 @@ ht-degree: 47%
   * [將模組移至鏈結](/help/workfront-fusion/manage-scenarios/move-modules-to-a-chain.md)
   * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
   * [檢視 Webhook 的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
-  * {hide-from-toc}[Workfront Fusion中的AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
+  * Workfront Fusion中的{hide-from-toc}[AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
   * [執行情境評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
   * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
   * [從案例區域管理案例](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)

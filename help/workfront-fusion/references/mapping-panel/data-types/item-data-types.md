@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 8f8ecad04a66f3859bba69460b316e8ba20984e6
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 2%
+source-wordcount: '616'
+ht-degree: 1%
 ---
 # 項目資料類型
 
@@ -43,11 +43,11 @@ ht-degree: 2%
     <ul> 
      <li> <p>如果欄位是必填欄位且必須填寫，則會顯示必填核取方塊。</p> <p> <img src="assets/boolean-checkbox-350x158.jpg" style="width: 350;height: 158;"> </p> </li> 
      <li> <p>可保留空白的選用欄位會顯示為選取方塊，允許選取三個值： <code>Yes</code>、<code>No</code>和<code>Not defined</code> （預設）。</p> <p> <img src="assets/boolean-convert-file-350x129.jpg" style="width: 350;height: 129;"> </p> </li> 
-    </ul> <p>如果您需要將值對應到其他模組的專案，可以按一下<strong>[!UICONTROL Map]</strong>。</p> </td> 
+    </ul> <p>如果您需要將值對應到其他模組的專案，可以按一下<strong>[！UICONTROL Map]</strong>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>日期</p> </td> 
-   <td> <p>日期是以ISO 8601日期格式輸入，例如<code>2015-09-18T11:58Z</code>。 您可以在設定檔設定中變更時區。 </p> <p>如果您按一下需要日期的欄位，模組設定中會顯示快顯行事曆。 某些專案不需要時間。</p> <p>日期專案的值會使用您在設定檔中選取的當地和網頁時區來格式化。 您可以將滑鼠懸停在專案上，以顯示日期專案值的ISO 8601版本。</p> <p>注意：如果ISO值未顯示，則專案可能是文字，而不是日期。</p> <p>時間以<code>hours:minutes:seconds</code>格式輸入，例如<code>14:03:52</code>。</p> </td> 
+   <td> <p>日期是以ISO 8601日期格式輸入，例如<code>2015-09-18T11:58Z</code>。 您可以在設定檔設定中變更時區。 </p> <p>如果您按一下需要日期的欄位，模組設定中會顯示快顯行事曆。 某些專案不需要時間。</p> <p>日期專案的值會使用您在設定檔中選取的當地和網頁時區來格式化。 您可以將滑鼠懸停在專案上，以顯示日期專案值的ISO 8601版本。</p> <p>如需有關檢視和管理Fusion設定檔中時區設定的資訊，請參閱[檢視和管理時區](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-fusion-account/view-and-manage-time-zones.md)。</p> <p>注意：如果ISO值未顯示，則專案可能是文字，而不是日期。</p> <p>時間以<code>hours:minutes:seconds</code>格式輸入，例如<code>14:03:52</code>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>緩衝區（二進位資料）</p> </td> 
@@ -63,7 +63,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>陣列</p> </td> 
-   <td> <p>您可以使用陣列型別來處理相同型別的多個值，包括集合。 [!UICONTROL Email]模組就是一個範例：它們會傳回一系列附件，而每個附件都包含名稱、內容、大小等。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/create-scenarios/map-data/map-an-array.md" class="MCXref xref">對應陣列或陣列元素</a>。</p> </td> 
+   <td> <p>您可以使用陣列型別來處理相同型別的多個值，包括集合。 [！UICONTROL Email]模組就是一個範例：它們會傳回一系列附件，而每個附件都包含名稱、內容、大小等。 如需詳細資訊，請參閱<a href="/help/workfront-fusion/create-scenarios/map-data/map-an-array.md" class="MCXref xref">對應陣列或陣列元素</a>。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>驗證</p> </td> 

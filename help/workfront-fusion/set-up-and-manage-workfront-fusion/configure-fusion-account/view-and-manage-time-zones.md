@@ -65,7 +65,7 @@ Adobe Workfront Fusion包含組織和使用者層級的時區控制項。
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -73,7 +73,7 @@ Adobe Workfront Fusion包含組織和使用者層級的時區控制項。
 
 1. 在Fusion中，按一下畫面右上角的Adobe設定檔圖示。
 1. 在開啟的功能表中，選取&#x200B;**Fusion設定檔**。
-1. 選取&#x200B;**時區選項**標籤。 索引標籤直接位於您的名稱下方。
+1. 選取&#x200B;**時區選項**&#x200B;標籤。 索引標籤直接位於您的名稱下方。
 「時區選項」清單隨即開啟。
 1. 在「時區選項」清單的Web區域中，找出您的名稱。
 
@@ -91,7 +91,7 @@ Adobe Workfront Fusion包含組織和使用者層級的時區控制項。
 
 1. 在Fusion中，按一下畫面右上角的Adobe設定檔圖示。
 1. 在開啟的功能表中，選取&#x200B;**Fusion設定檔**。
-1. 選取&#x200B;**時區選項**標籤。 索引標籤直接位於您的名稱下方。
+1. 選取&#x200B;**時區選項**&#x200B;標籤。 索引標籤直接位於您的名稱下方。
 「時區選項」清單隨即開啟。
 1. 在「時區選項」清單的「案例」區域中，找出您要檢視或管理其時區的組織。
 

@@ -51,7 +51,7 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -126,11 +126,11 @@ ht-degree: 8%
 
 1. 如果您不在您要新增模組的情境的情境編輯器中，請按一下左側面板中的&#x200B;**[!UICONTROL 情境]**&#x200B;索引標籤。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 若要在其他模組之後新增模組，請將滑鼠移到模組的右邊緣，之後您想要新增模組，然後在其出現時按一下[新增其他模組]。****
+1. 若要在其他模組之後新增模組，請將滑鼠移到模組的右邊緣，之後您想要新增模組，然後在其出現時按一下[新增其他模組]。**&#x200B;**
 
    聯結器清單隨即開啟，顯示情景中已經使用的任何聯結器。
 
-1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] ****，然後選取聯結器：
+1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] **&#x200B;**，然後選取聯結器：
 
    * 使用左側的面板依類別瀏覽（[!UICONTROL 我的最愛]、[!UICONTROL 所有應用程式]、[!UICONTROL Adobe Workfront]、[!UICONTROL Adobe Firefly Services]、[!UICONTROL Adobe Creative &amp; Content]、[!UICONTROL Adobe Cloud Services]、[!UICONTROL Generative AI]或[!UICONTROL 內建]），或
    * 在搜尋方塊中輸入字詞。 輸入時會更新結果，在符合模組名稱和說明之前，會先列出符合的聯結器。
@@ -147,11 +147,11 @@ ht-degree: 8%
 
 1. 如果您不在您要新增模組的情境的情境編輯器中，請按一下左側面板中的&#x200B;**[!UICONTROL 情境]**&#x200B;索引標籤。
 1. 按一下情境上的任何位置，以輸入情境編輯器。
-1. 若要將模組新增至另一個模組，請將滑鼠游標停留在模組的右側控制代碼上，之後您要新增模組，然後在其出現時按一下[新增另一個模組] ****。
+1. 若要將模組新增至另一個模組，請將滑鼠游標停留在模組的右側控制代碼上，之後您要新增模組，然後在其出現時按一下[新增另一個模組] **&#x200B;**。
 
    聯結器清單隨即開啟，顯示情景中已經使用的任何聯結器。
 
-1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] ****，然後選取聯結器。 您可以在清單的搜尋列中鍵入聯結器的名稱，以篩選清單。
+1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] **&#x200B;**，然後選取聯結器。 您可以在清單的搜尋列中鍵入聯結器的名稱，以篩選清單。
 1. 設定模組。
 
    如需有關設定特定模組的說明，請參閱所選應用程式的文章，列於[Fusion應用程式及其模組參考中：文章索引](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)。
@@ -171,7 +171,7 @@ ht-degree: 8%
 
    聯結器清單隨即開啟，顯示情景中已經使用的任何聯結器。
 
-1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] ****，然後選取聯結器：
+1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] **&#x200B;**，然後選取聯結器：
 
    * 使用左側的面板依類別瀏覽（[!UICONTROL 我的最愛]、[!UICONTROL 所有應用程式]、[!UICONTROL Adobe Workfront]、[!UICONTROL Adobe Firefly Services]、[!UICONTROL Adobe Creative &amp; Content]、[!UICONTROL Adobe Cloud Services]、[!UICONTROL Generative AI]或[!UICONTROL 內建]），或
    * 在搜尋方塊中輸入字詞。 輸入時會更新結果，在符合模組名稱和說明之前，會先列出符合的聯結器。
@@ -204,7 +204,7 @@ ht-degree: 8%
 
 聯結器清單隨即開啟，顯示情景中已經使用的任何聯結器。
 
-1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] ****，然後選取聯結器。 您可以在清單的搜尋列中鍵入聯結器的名稱，以篩選清單。
+1. （選擇性）若要選取其他聯結器，請按一下[清單中新增其他模組] **&#x200B;**，然後選取聯結器。 您可以在清單的搜尋列中鍵入聯結器的名稱，以篩選清單。
 1. 設定模組。
 
    如需有關設定特定模組的說明，請參閱所選應用程式的文章，列於[Fusion應用程式及其模組參考中：文章索引](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)。

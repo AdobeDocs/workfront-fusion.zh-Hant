@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: 565302f1d994819607051014d18779ccfb2645cb
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '810'
 ht-degree: 3%
 ---
 # 建立情境的工作流程
@@ -143,12 +143,12 @@ ht-degree: 3%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 儲存] </td> 
+   <td role="rowheader">[！UICONTROL儲存] </td> 
    <td>Ctrl+Shift+S</td> 
    <td>Cmd+Shift+S</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 執行一次]</td> 
+   <td role="rowheader">[！UICONTROL執行一次]</td> 
    <td>Ctrl+Shift+Enter</td> 
    <td>Cmd+Shift+Enter</span> </td> 
   </tr> 
@@ -160,22 +160,22 @@ ht-degree: 3%
   </tr> 
 -->
   <tr> 
-   <td role="rowheader">[!UICONTROL 選取多個模組]</td> 
+   <td role="rowheader">[！UICONTROL選取多個模組]</td> 
    <td>Shift+拖曳</td> 
    <td>Shift+拖曳</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 副本]</td> 
+   <td role="rowheader">[！UICONTROL副本]</td> 
    <td>Ctrl+C</td> 
    <td>Cmd+C</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 貼上]</td> 
+   <td role="rowheader">[！UICONTROL貼上]</td> 
    <td>Ctrl+V</td> 
    <td>Cmd+V</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 搜尋模組]</td> 
+   <td role="rowheader">[！UICONTROL搜尋模組]</td> 
    <td>Ctrl+K</td> 
    <td>Cmd+K</span> </td> 
   </tr> 
@@ -185,6 +185,10 @@ ht-degree: 3%
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>
+>新的案例編輯器具有額外的鍵盤快速鍵，包括確認或關閉面板、在模組之間移動以及開啟所有快速鍵的清單。 如需詳細資訊，請參閱文章Scenario編輯器中的[鍵盤快速鍵](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md#keyboard-shortcuts)。
 
 
 

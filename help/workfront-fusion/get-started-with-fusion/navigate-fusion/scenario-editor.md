@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: 78612057a0bfc76a7c9bf9d0efd6fc632a152369
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2755'
 ht-degree: 5%
 ---
 # 案例編輯器
@@ -53,7 +53,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -72,6 +72,7 @@ Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間
 * [即時軌跡](/help/workfront-fusion/manage-scenarios/live-trail.md)，顯示實際執行情境的面板。
 * 情景編輯器中現在內建了數個開發人員工具。
 * 臨時偵錯記錄，您可以在情境設定中開啟此功能。
+* 搜尋，可尋找常用面板動作的模組名稱、對應值、模組設定和篩選條件，以及鍵盤快速鍵。
 
 若要在傳統體驗和新體驗之間切換：
 
@@ -110,6 +111,7 @@ Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間
 * [詢問AI](#ask-ai)
 * [畫布導覽](#canvas-navigation)
 * [畫布顯示](#canvas-display)
+* [鍵盤快速鍵](#keyboard-shortcuts)
 
 #### 編輯動作
 
@@ -148,7 +150,7 @@ Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間
 | 案例設定 <p>![案例設定圖示](assets/scenario-settings-icon-new.png)</p> | 情境設定面板包含情境的進階設定。 如需有關可用設定的詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)。 不會保留每次執行的要求和回應詳細資料。 若要收集案例的定期執行，請開啟暫存偵錯記錄。 如需詳細資訊，請參閱[暫時的偵錯記錄檔](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#temporary-debug-logs)。 |
 | 附註 <p>![筆記圖示](assets/notes-icon-new.png)</p> | 記錄情境。 其他使用者在情境中時可以檢視這些附註。 如需詳細資訊，請參閱[將附註新增至情境](/help/workfront-fusion/create-scenarios/config-scenarios-settings/add-notes-to-scenario.md)。 |
 | 自動對齊 <p>![自動對齊圖示](assets/auto-align-icon-new.png)</p> | 自動對齊案例中的模組。 |
-| 搜尋模組 <p>![搜尋模組圖示](assets/search-modules-icon-new.png)</p> | 從該清單中選取一個模組，移至情境中的該模組，或輸入搜尋字詞以找出模組，然後按一下要帶到該模組的搜尋結果。 您可以依模組名稱、ID、型別或應用程式來搜尋。 |
+| 搜尋 <p>![搜尋圖示](assets/search-modules-icon-new.png)</p> | 開啟搜尋（在Windows上按&#x200B;**Ctrl + K**&#x200B;或在Mac上按&#x200B;**⌘K**）。 搜尋會依名稱或ID尋找模組。 它也會尋找案例中的每個對應值、每個模組設定和每個篩選條件。 每個結果都會顯示找到相符專案的位置，例如&#x200B;_對應程式·核准識別碼_，並反白顯示相符的文字。 篩選器會列在其本身的區段中。 若要尋找每個使用值的位置，請貼上參照，例如`{{1.name}}`。 搜尋只會尋找該參考，而不會找到`{{21.name}}`或`{{1.names}}`。 按一下結果以開啟模組或篩選器。 相符的欄位會短暫反白並捲動到檢視中。 當您使用方向鍵移動篩選結果時，畫布會顯示篩選及其連線的兩個模組。<!-- BECKY CHECK ME: Search row rewritten from the 11/2/26 release note (fusion-2026-11-2.md) (renamed from 'Search modules' to 'Search'). The old text also said you can search by module type or application; the release note does not mention that, so I removed it. Confirm, and confirm the icon and the tool tip label. --> |
 | 尋找並取代 <p>![尋找和取代圖示](assets/find-and-replace-icon-new.png)</p> | <p>在情境的模組中搜尋並取代變數、對應的值來源或連線。 使用標籤可以：</p><ul><li>在整個案例或一個模組中取代對應變數。</li><li>將參考從一個來源模組重新對應到另一個來源模組。</li><li>將連線從相同應用程式複製到一或所有相容的模組。</li></ul><p>在您進行變更之前，面板會預覽將受影響的模組。 在預覽中選取一列，以前往畫布上的該模組。</p> <p>如需詳細資訊，請參閱[尋找和取代情境中的變數、來源和連線](/help/workfront-fusion/manage-scenarios/find-and-replace.md)。</p> |
 | 程式碼片段 <p>![程式碼片段圖示](assets/snippets-icon-new.png)</p> | <p>程式碼片段是儲存為單位的案例區段。 若要建立模組，請選取模組並將其儲存為程式碼片段。 在「程式碼片段」面板中，您可以搜尋、標籤、預覽、釘選、排序及拖放程式碼片段，以及匯入和匯出程式碼片段。 您可以與團隊或組織共用代碼片段，或直接將副本傳送給其他使用者。 共用的程式碼片段會顯示在自己的標籤上。</p> <p>如需詳細資訊，請參閱[儲存及重複使用包含程式碼片段的案例區段](/help/workfront-fusion/create-scenarios/add-modules/use-snippets.md)。</p> |
 | 說明流程 <p>![說明流程圖示](assets/explain-flow-icon-new.png)</p> | 檢視移動點顯示資料如何流經情境的動畫。 |
@@ -200,7 +202,7 @@ Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間
 
 新畫布也會變更您工作時的情境外觀。
 
-| 功能 | 詳細資料 |
+| 功能 | 詳細資訊 |
 | ---------- | ---------- |
 | 模組卡片 | 每個模組都是一張水準卡片，可顯示應用程式圖示、模組名稱、說明和模組ID。 路由器會顯示為精簡的分支圖磚，而指令會顯示為小型強調文字卡。 |
 | 連結 | 模組之間的連結是彎曲的，並以顯示方向的箭頭結尾。 錯誤處理常式連結以虛線顯示。 |
@@ -208,7 +210,25 @@ Workfront Fusion正在將案例編輯器轉換為新體驗。 在此轉換期間
 | 縮放詳細資料 | 當您放大顯示卡片詳細資訊。 縮小顯示時，模組會簡化為圖示，讓您仍可看到整個情境。 |
 | 摺疊路由器 | 在編輯模式中，您可以摺疊路由器以隱藏其路由。 如需詳細資訊，請參閱[摺疊路由器](/help/workfront-fusion/create-scenarios/add-modules/router-module.md#fold-a-router)。 |
 | 深色模式 | 畫布會遵循Adobe偏好設定下的深色外觀設定，包括模組卡片、連結、面板、控制項和狀態資訊。 |
-| 右側面板 | 模組設定、模組檢查、模組瀏覽器、尋找和取代、程式碼片段、[即時軌跡](/help/workfront-fusion/manage-scenarios/live-trail.md)以及要求和回應詳細資訊會在畫布右側的同一面板中開啟。 |
+| 開啟模組或篩選器 | 當您開啟模組時，畫布不再移動。 相反地，模組會取得移動虛線外框。 當您開啟篩選器時，它在連線上的標籤會取得相同的大綱。 外框顏色會配合模組的顏色，並自動調整，使其在明暗模式下保持可見。 |
+| 右側面板 | 模組設定、模組檢查、模組瀏覽器、尋找和取代、程式碼片段、[即時軌跡](/help/workfront-fusion/manage-scenarios/live-trail.md)以及要求和回應詳細資訊會在畫布右側的同一面板中開啟。 </br>若要調整面板大小，請拖曳其左邊緣使其變寬或變窄，或按兩下邊緣以回到預設寬度。 系統會記住您的寬度，包括您從其他瀏覽器登入時。 在較小的熒幕上，面板會自動配合視窗。 當面板最大化時，您無法變更其寬度。 |
+
+#### 鍵盤快速鍵
+
+這些捷徑可協助您在面板中工作，而不需移動滑鼠。
+
+| 捷徑(Mac / Windows) | 作用 |
+| ---------- | ---------- |
+| **⌘Enter** / **Ctrl + Enter** | 確認開啟的面板（與&#x200B;**確定**&#x200B;相同）。 在您輸入時有效。 沒有開啟面板，只會執行案例一次。 |
+| **Esc** | 關閉開啟的面板而不儲存。 如果對映面板已開啟，則僅關閉該面板。 |
+| **⌥←** / **⌥→** (Mac)，**Alt + ←** / **Alt + →** (Windows) | 確認面板並開啟上一個或下一個模組。 也可用作面板標頭中的&#x200B;**&#39; &#39;**&#x200B;按鈕。 當游標不在文字欄位中時運作。 |
+| **⌘Shift + Enter** / **Ctrl + Shift + Enter** | 確認已開啟的面板，然後執行情境一次。 如果面板發生錯誤，則不會執行任何動作。 |
+| **⌘K** / **Ctrl + K** | 開啟搜尋。 |
+| **?** | 顯示所有案例設計工具捷徑的清單。 也可從&#x200B;**鍵盤快速鍵**&#x200B;下的3點功能表取得。 |
+
+* 寬面板會在底部顯示確認和取消捷徑的提醒。
+* **執行一次**&#x200B;和&#x200B;**儲存**&#x200B;按鈕的工具提示中會顯示其捷徑。
+* 當您移至下一個或上一個模組，且隱藏在面板後或熒幕外時，畫布移動足以顯示它。
 
 ## 使用傳統體驗中的案例編輯器
 

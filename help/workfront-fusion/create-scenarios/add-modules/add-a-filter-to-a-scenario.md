@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: 565302f1d994819607051014d18779ccfb2645cb
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 11%
+source-wordcount: '1012'
+ht-degree: 10%
 ---
 # 在情境中加入篩選器
 
@@ -56,7 +56,7 @@ ht-degree: 11%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -77,6 +77,10 @@ ht-degree: 11%
 1. 在您要新增篩選器的模組之間的路徑上按一下左鍵。
 
    **[!UICONTROL 設定篩選器]**&#x200B;視窗會直接開啟。 （以滑鼠右鍵按一下路徑，會開啟另一個選單。）
+
+   篩選器面板會顯示篩選器位於哪些兩個模組之間。 在面板標題旁邊，您會看到模組ID，例如&#x200B;**→#13**。 在篩選設定上方，如&#x200B;**Between ● Router #12 → ● HTTP #13**&#x200B;的行會顯示每個模組的顏色和名稱。 將游標暫留在模組名稱上可檢視其動作。 當面板開啟時，連線對上濾鏡的標籤會有移動虛線輪廓。
+
+   ![篩選器面板](/help/workfront-fusion/fusion-product-releases/assets/04-filter-panel-light.png)
 
 1. 在顯示的方塊中，輸入篩選的&#x200B;**[!UICONTROL 標籤]**。
 1. 定義篩選器&#x200B;**[!UICONTROL 條件]**。

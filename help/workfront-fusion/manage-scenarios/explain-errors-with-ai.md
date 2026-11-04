@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: e2420c8a25fd9e38c4b0300b00560fe1837a5e43
+source-git-commit: 565302f1d994819607051014d18779ccfb2645cb
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '577'
 ht-degree: 15%
 ---
 # 說明人工智慧的案例錯誤
@@ -27,6 +27,8 @@ ht-degree: 15%
 >[!NOTE]
 >
 >**[!UICONTROL Explain]**&#x200B;按鈕僅在新的案例設計工具中可用。 舊版情境設計工具中不提供此功能。
+>
+>您的組織必須擁有AI授權才能使用此功能。
 
 ## 存取權要求
 
@@ -53,7 +55,7 @@ ht-degree: 15%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

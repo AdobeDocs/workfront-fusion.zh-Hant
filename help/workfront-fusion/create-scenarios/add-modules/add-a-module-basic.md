@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: 78612057a0bfc76a7c9bf9d0efd6fc632a152369
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1538'
 ht-degree: 8%
 ---
 # 在情境中加入模組
@@ -84,7 +84,7 @@ ht-degree: 8%
 
 1. 設定模組。
 
-   模組的設定會在畫布右側的面板中開啟。
+   模組的設定會在畫布右側的面板中開啟。 您可以拖曳面板的左邊緣來調整面板大小。
 
    如需有關設定特定模組的說明，請參閱所選應用程式的文章，列於[Fusion應用程式及其模組參考中：文章索引](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)。
 
@@ -139,7 +139,7 @@ ht-degree: 8%
 
 1. 設定模組。
 
-   模組的設定會在畫布右側的面板中開啟。
+   模組的設定會在畫布右側的面板中開啟。 您可以拖曳面板的左邊緣來調整面板大小。
 
    如需有關設定特定模組的說明，請參閱所選應用程式的文章，列於[Fusion應用程式及其模組參考中：文章索引](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)。
 
@@ -180,7 +180,7 @@ ht-degree: 8%
 
 1. 設定模組。
 
-   模組的設定會在畫布右側的面板中開啟。
+   模組的設定會在畫布右側的面板中開啟。 您可以拖曳面板的左邊緣來調整面板大小。
 
    如需有關設定特定模組的說明，請參閱所選應用程式的文章，列於[Fusion應用程式及其模組參考中：文章索引](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)。
 

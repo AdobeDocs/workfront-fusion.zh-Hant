@@ -6,9 +6,9 @@ feature: Workfront Fusion
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 94449f8511d7480f1a4fc0ac6e8db9b067977abd
+source-git-commit: 565302f1d994819607051014d18779ccfb2645cb
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '539'
 ht-degree: 17%
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 17%
 
 
 
-即時軌跡會在畫布右側的面板中開啟。 如果您在執行期間關閉面板，畫面右側的小索引標籤可讓您再次開啟面板，而不會遺失已擷取的事件。
+即時軌跡會在畫布右側的面板中開啟。 您可以拖曳面板的左邊緣來調整面板大小。 如果您在執行期間關閉面板，畫面右側的小索引標籤可讓您再次開啟面板，而不會遺失已擷取的事件。
 
 ## 在Live Trail中檢閱活動
 

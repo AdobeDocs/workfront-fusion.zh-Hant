@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 2e3a811de0e4336305997cbf46e86db3553f4770
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 11%
@@ -182,7 +182,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td>[!UICONTROL 模式] </td> 
-   <td> <p>輸入規則運算式模式。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span> <code>[+-]?(\d+(\.\d+)?|\.\d+)([eE]&#x200B;[+-]?\d+)?</code>會擷取所提供文字中的所有數字。</p> <p>注意：  <p>此模式應該包含至少一個括弧<code>()</code>中的擷取群組。 如果模式不包含任何擷取群組，則輸出組合為空白。</p> </p> </td> 
+   <td> <p>輸入規則運算式模式。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span> <code>&#91;+-&#93;?(\d+(\.\d+)?|\.\d+)(&#91;eE&#93;&#91;+-&#93;?\d+)?</code>會擷取所提供文字中的所有數字。</p> <p>注意：  <p>此模式應該包含至少一個括弧<code>()</code>中的擷取群組。 如果模式不包含任何擷取群組，則輸出組合為空白。</p> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 全域符合]</td> 

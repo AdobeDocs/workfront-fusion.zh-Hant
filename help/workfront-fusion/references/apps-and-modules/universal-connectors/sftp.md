@@ -14,7 +14,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 2e3a811de0e4336305997cbf46e86db3553f4770
 workflow-type: tm+mt
 source-wordcount: '2241'
 ht-degree: 14%
@@ -258,7 +258,7 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL 權限]</p> </td> 
-   <td> <p>設定所需的檔案夾許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?([r-]&#x200B;[w-]&#x200B;[x-]){3})|[0-7]{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
+   <td> <p>設定所需的檔案夾許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?(&#91;r-&#93;&#91;w-&#93;&#91;x-&#93;){3})|&#91;0-7&#93;{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -466,7 +466,7 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL 權限]</p> </td> 
-   <td> <p>設定所需的檔案許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?([r-]&#x200B;[w-]&#x200B;[x-]){3})|[0-7]{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
+   <td> <p>設定所需的檔案許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?(&#91;r-&#93;&#91;w-&#93;&#91;x-&#93;){3})|&#91;0-7&#93;{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -493,7 +493,7 @@ Adobe Workfront Fusion SFTP模組可讓您監視選取的資料夾/子資料夾�
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL 權限]</p> </td> 
-   <td> <p>為檔案或資料夾設定所需的許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?([r-]&#x200B;[w-]&#x200B;[x-]){3})|[0-7]{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
+   <td> <p>為檔案或資料夾設定所需的許可權。 使用chmod引數。 例如，<code>777</code>或<code>-rwxrwxrwx</code>。</p> <p>這些許可權必須符合模式 <code>/(.?(&#91;r-&#93;&#91;w-&#93;&#91;x-&#93;){3})|&#91;0-7&#93;{3}/.</code></p> <p>如需有關chmod的詳細資訊，請參閱<a href="https://ss64.com/bash/chmod.html">chmod檔案</a>。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL 緩衝區大小(B)]</p> </td> 

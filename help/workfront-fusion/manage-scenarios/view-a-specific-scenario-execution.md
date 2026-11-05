@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 628fb65a2bd3aa7ed434cde26a55077d176f67f6
+source-git-commit: 565302f1d994819607051014d18779ccfb2645cb
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '981'
 ht-degree: 10%
 ---
 # 檢視特定情境執行
@@ -127,7 +127,7 @@ ht-degree: 10%
 | 控制 | 詳細資訊 |
 | ---------- | ---------- |
 | 移至下一個錯誤或警告 | 顯示目前週期中有多少模組發生問題。 每次點選都會移到下一個專案，先是錯誤，然後從左到右依次顯示警告。 它會置中模組，並開啟第一個失敗的操作。 當執行沒有錯誤或警告時，按鈕會隱藏。 |
-| 搜尋模組 | 依名稱尋找模組，並將其置中在畫布上。 按Ctrl+K (Windows)或Command+K (Mac)。 |
+| 搜尋 | 依名稱或ID尋找模組，並將其置中在畫布上。 按Ctrl+K (Windows)或Command+K (Mac)。 |
 | 附註 | 顯示或隱藏情境的附註。 此控制項僅在案例具有附註，且附註在此為唯讀時顯示。 |
 | 說明流程 | 將案例模組執行的順序製成動畫。 再按一下，或按Esc停止。 |
 | 放大、縮小、聚焦和迷你地圖 | 與編輯模式中的工作方式相同。 |

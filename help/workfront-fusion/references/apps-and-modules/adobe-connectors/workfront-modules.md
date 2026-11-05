@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 36bcfdbb0e88a4c742f7c3d0a6c9295a8e64b99a
+source-git-commit: 4d64f865dd3e826daef02abaaf3c68daa7ed363e
 workflow-type: tm+mt
-source-wordcount: '7804'
-ht-degree: 92%
+source-wordcount: '7761'
+ht-degree: 90%
 ---
 # Adobe Workfront 模組
 
@@ -78,20 +78,21 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
 ## 將 Workfront 連接至 Workfront Fusion
 
-Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
-
 您可以直接從 Workfront Fusion 模組內部建立與 Workfront 帳戶的連線。
 
-* [使用用戶端 ID 和用戶端密碼連接至 Workfront](#connect-to-workfront-using-client-id-and-client-secret)
+新的連線以及您重新授權的連線，請使用您的Adobe帳戶（Adobe IMS或Experience Cloud登入）登入。 他們不使用Workfront OAuth2應用程式。
+
+* [使用您的Adobe帳戶連線Workfront](#connect-to-workfront-using-your-adobe-account)
+* [重新授權現有連線](#reauthorize-an-existing-connection)
 * [使用伺服器對伺服器連線連接 Workfront](#connect-to-workfront-using-a-server-to-server-connection)
 
-### 使用用戶端 ID 和用戶端密碼連接至 Workfront
+### 使用您的Adobe帳戶連線Workfront
 
 1. 在任何 Adobe Workfront 模組中，按一下「連線」欄位旁的「**新增**」。
 1. 填寫下列欄位：
@@ -115,32 +116,38 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-        <td>輸入您的 Workfront 用戶端 ID。 您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。 開啟您要連接的特定應用程式以便查看用戶端 ID。</td>
+        <td role="rowheader">[!UICONTROL 執行個體名稱]</td>
+        <td>
+          <p>輸入執行個體的名稱，也是您的網域。</p><p>範例：若您的 URL 為 <code>https://example.my.workfront.com</code>，請輸入 <code>example</code>。</p>
+        </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-        <td>輸入您的 Workfront 用戶端密碼。 您可在 Workfront「設定」區域的「OAuth2 應用程式」區域內找到此項資訊。 如果您在 Workfront 的 OAuth2 應用程式沒有用戶端密碼，您可以產生另一個密碼。 相關說明請參閱 Workfront 文件。</td>
+        <td role="rowheader">[!UICONTROL 執行個體路徑]</td>
+        <td>
+          <p>輸入此連線將連接的環境類型。</p><p>範例：若您的 URL 為 <code>https://example.my.workfront.com</code>，請輸入 <code>my</code>。</p>
+        </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 驗證 URL]</td>
-        <td>此欄位可維持預設值，或者您可以輸入 Workfront 實例的 URL 且後面接著 <code>/integrations/oauth2</code>。 <p>範例： <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+        <td role="rowheader">[！UICONTROL範圍] <i>（選擇性）</i></td>
+        <td>輸入此連線的任何其他範圍。 將此欄位保留空白以使用預設範圍。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 主機前置詞]</td>
-        <td>在大多數情況下，此值應為 <code>origin</code>。
+        <td>在大多數情況下，此值應為 <code>origin</code>。</td>
       </tr>
     </tbody>
     </table>
 
 1. 按一下「**[!UICONTROL 繼續]**」，儲存連線並返回模組。
 
-   若您未登入 Workfront，系統會將您導向至登入畫面。 登入後，您可以允許連線。
+   如果您尚未登入Adobe帳戶，系統會將您導向至Adobe登入頁面。 登入後，您可以允許連線。
 
 >[!NOTE]
 >
->* Workfront API 的 OAuth 2.0 連線不再依賴 API 金鑰。
->* 若要建立與 Workfront 沙箱環境的連線，您必須在該環境中建立 OAuth2 應用程式，然後在您的連線中使用該應用程式產生的用戶端 ID 和用戶端密碼。
+>您在2026年11月5日之前建立的連線仍可繼續運作。 若要將現有連線切換至Adobe登入，請重新授權。
+
+若要重新授權連線，請參閱[管理連線](/help/workfront-fusion/manage-scenarios/manage-connections.md)。
+
 
 ### 使用伺服器對伺服器連線連接 Workfront
 
@@ -288,16 +295,16 @@ Workfront 連接器使用 OAuth 2.0 連接至 Workfront。
        </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 啟用安全鉤點]</td> 
+      <td>[！UICONTROL啟用安全鉤點]</td> 
       <td>
        <p>選擇是否要為此webhook啟用authToken型安全性。</p><p>
        <b>注意</b>：自2026年8月23日起，Fusion將依預設為所有Workfront &gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以關閉「啟用安全鉤點」選項。</p>
        </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 自訂權杖]</td> 
+      <td>[！UICONTROL自訂權杖]</td> 
       <td>
-       <p>（選用）如果[!UICONTROL 啟用安全鉤點]設為[!UICONTROL 是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
+       <p>（選用）如果[！UICONTROL啟用安全鉤點]設為[！UICONTROL是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
        </td> 
      </tr> 
     </tbody> 
@@ -1062,7 +1069,7 @@ Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workf
 
 關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 
-關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 <table style="table-layout:auto">
  <col> 
@@ -2378,7 +2385,7 @@ See a list of the Workfront object types for which you can use this module in [W
 >
 >   關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 >
->   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+>   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 Workfront [!UICONTROL 監視事件]模組會根據在 Workfront API 中建立事件訂閱的 Webhook 觸發情境。 事件訂閱是一個資料集，用於決定哪些事件要傳送至 Webhook。 例如，若您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
 

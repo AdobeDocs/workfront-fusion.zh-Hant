@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: cb90aa39325068566e17bbb102969a537e527dc2
 workflow-type: tm+mt
-source-wordcount: '4127'
-ht-degree: 13%
+source-wordcount: '4353'
+ht-degree: 14%
 ---
 # Veeva Vault 模組
 
@@ -61,7 +61,7 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -1152,13 +1152,65 @@ ht-degree: 13%
 
 ### 其他
 
-* [進行自訂的 API 呼叫](#make-a-custom-api-call)
+* [進行自訂API呼叫](#make-a-custom-api-call)
+* [進行自訂API呼叫（舊版）](#make-a-custom-api-call-legacy)
 * [進行VQL查詢](#make-a-vql-query)
 * [讀取記錄](#read-logs)
 
-#### 進行自訂的 API 呼叫
+#### 進行自訂API呼叫
 
-此動作模組會對Veeva Vault API進行自訂呼叫。
+此動作模組會對Veeva Vault API進行自訂呼叫。 它支援多種請求內文型別。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線</td> 
+   <td> <p>如需有關將Veeva Vault帳戶連線至Workfront Fusion的說明，請參閱本文中的<a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref">將Veeva Vault連線至Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">URL</td> 
+   <td>輸入相對於 <code>baseurl/api/v</code> 的路徑。  例如: <code>/objects/documents</code>。 不要包含<code>baseurl/api/v/</code>，因為它已包含。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">方法</td> 
+   <td> <p>選取您設定 API 呼叫所需的 HTTP 要求方法。 如需詳細資訊，請參閱 <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">HTTP 要求方法</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">標頭</td> 
+   <td> <p>以標準 JSON 物件的形式新增要求標頭。</p> <p>例如， <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion會為您新增授權標頭。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">查詢字串</td> 
+   <td> <p>以標準 JSON 物件的形式新增 API 呼叫的查詢。</p> <p>例如： <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">內文型別</td> 
+   <td> <p>選取您要連同請求一起傳送的內文型別：</p>
+     <ul>
+       <li><code>urlencoded</code></li>
+       <li><code>multipart_form_data</code></li>
+       <li><code>raw</code></li>
+       <li><code>binary</code></li>
+     </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">要求內容</td> 
+   <td> <p>如果您使用原始或二進位內文型別，請為API呼叫輸入或對映內文內容。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">欄位</td> 
+   <td> <p>如果您使用Urlencoded或多部分表單資料本文型別，或二進位本文型別，針對您想要新增資料的每個欄位，按一下<b>新增專案</b>並輸入欄位的索引鍵和值。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+#### 進行自訂API呼叫（舊版）
+
+此動作模組會對Veeva Vault API進行自訂呼叫。 此模組僅支援`raw`主體型別。 若要使用其他內文型別，請使用[進行自訂API呼叫](#make-a-custom-api-call)模組。
 
 <table style="table-layout:auto"> 
  <col> 

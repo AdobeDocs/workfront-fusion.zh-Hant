@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4d64f865dd3e826daef02abaaf3c68daa7ed363e
+source-git-commit: d3bb4ef202fd92ab7663ad5c2816c70e8bab6685
 workflow-type: tm+mt
-source-wordcount: '7761'
-ht-degree: 90%
+source-wordcount: '7773'
+ht-degree: 89%
 ---
 # Adobe Workfront 模組
 
@@ -78,7 +78,7 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -128,7 +128,7 @@ ht-degree: 90%
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 範圍] <i>（選擇性）</i></td>
+        <td role="rowheader">[！UICONTROL範圍] <i>（選擇性）</i></td>
         <td>輸入此連線的任何其他範圍。 將此欄位保留空白以使用預設範圍。</td>
       </tr>
       <tr>
@@ -295,16 +295,16 @@ ht-degree: 90%
        </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 啟用安全鉤點]</td> 
+      <td>[！UICONTROL啟用安全鉤點]</td> 
       <td>
        <p>選擇是否要為此webhook啟用authToken型安全性。</p><p>
        <b>注意</b>：自2026年8月23日起，Fusion將依預設為所有Workfront &gt;觀看活動模組（包括現有模組）啟用authToken型安全性。 如果特定的webhook中斷，或由於相容性原因需要停用此功能，您可以關閉「啟用安全鉤點」選項。</p>
        </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL 自訂權杖]</td> 
+      <td>[！UICONTROL自訂權杖]</td> 
       <td>
-       <p>（選用）如果[!UICONTROL 啟用安全鉤點]設為[!UICONTROL 是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
+       <p>（選用）如果[！UICONTROL啟用安全鉤點]設為[！UICONTROL是]，您可以輸入自己的Token值來保護webhook。 如果您將此欄位留空，Fusion會自動為您產生代號。</p>
        </td> 
      </tr> 
     </tbody> 
@@ -1069,7 +1069,7 @@ Workfront 最近發行新版本的事件訂閱服務。 新版本並非對 Workf
 
 關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 
-關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 <table style="table-layout:auto">
  <col> 
@@ -2385,7 +2385,7 @@ See a list of the Workfront object types for which you can use this module in [W
 >
 >   關於事件訂閱新版本的詳細資訊，請參閱 Workfront 文件中的[事件訂閱版本設定](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning)
 >
->   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=zh-Hant)。
+>   關於在事件訂閱升級期間保留 Workfront Fusion 情境的資源，包括網路研討會錄影，請參閱[在事件訂閱 V2 升級期間保留 Fusion 情境](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182)。
 
 Workfront [!UICONTROL 監視事件]模組會根據在 Workfront API 中建立事件訂閱的 Webhook 觸發情境。 事件訂閱是一個資料集，用於決定哪些事件要傳送至 Webhook。 例如，若您設定監視問題的[!UICONTROL 監視事件]模組，則事件訂閱只會傳送與問題相關的事件。
 
@@ -2403,11 +2403,11 @@ Workfront > 監視事件篩選器中提供下列運算子：
 * 小於或等於
 * 包含
 * 存在
-  * 此運算子不需要值，且值欄位不存在。
+  * 此運運算元不需要值，因此值欄位不會包含在篩選器中。
 * 不存在
-  * 此運算子不需要值，且值欄位不存在。
+  * 此運運算元不需要值，因此值欄位不會包含在篩選器中。
 * 已變更
-  * 此運算子不需要值，且值欄位不存在。
+  * 此運運算元不需要值，因此值欄位不會包含在篩選器中。
   * 此運算子會忽略狀態欄位。
   * 使用 `Changed` 時，請在「**記錄來源**」欄位中選取「**僅更新事件**」。
 

@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4d64f865dd3e826daef02abaaf3c68daa7ed363e
+source-git-commit: d3bb4ef202fd92ab7663ad5c2816c70e8bab6685
 workflow-type: tm+mt
-source-wordcount: '7761'
-ht-degree: 90%
+source-wordcount: '7773'
+ht-degree: 89%
 ---
 # Adobe Workfront 模組
 
@@ -2403,11 +2403,11 @@ Workfront > 監視事件篩選器中提供下列運算子：
 * 小於或等於
 * 包含
 * 存在
-  * 此運算子不需要值，且值欄位不存在。
+  * 此運運算元不需要值，因此值欄位不會包含在篩選器中。
 * 不存在
-  * 此運算子不需要值，且值欄位不存在。
+  * 此運運算元不需要值，因此值欄位不會包含在篩選器中。
 * 已變更
-  * 此運算子不需要值，且值欄位不存在。
+  * 此運運算元不需要值，因此值欄位不會包含在篩選器中。
   * 此運算子會忽略狀態欄位。
   * 使用 `Changed` 時，請在「**記錄來源**」欄位中選取「**僅更新事件**」。
 

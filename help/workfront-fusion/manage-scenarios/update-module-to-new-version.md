@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: 1eeb0f543b77b52c18c45ebc773e0322391d2042
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 27%
@@ -22,7 +22,7 @@ ht-degree: 27%
 
 如果您在案例中的模組中看到綠色的升級模組圖示，表示Workfront Fusion已發行該模組的新版本。
 
-![更新圖示](assets/update-indicator-workfront.png)
+![更新圖示](assets/new-update-indicator-workfront.png)
 
 您可以更新模組而不建立新情境。
 
@@ -57,8 +57,8 @@ ht-degree: 27%
 
 ## 將Workfront模組升級至新版本
 
-1. 按一下您要升級至新版本的模組上的&#x200B;**升級模組**&#x200B;圖示![升級圖示](assets/upgrade-icon.png)。
-   ![更新圖示](assets/update-indicator-workfront.png)
+1. 按一下您要升級至新版本的模組上的&#x200B;**升級模組**&#x200B;圖示![升級圖示](assets/new-upgrade-icon.png)。
+   ![更新圖示](assets/new-update-indicator-workfront.png)
 1. 選擇下列其中一項：
 
    * 若要選取新的模組來取代此模組（而非升級模組），請按一下[選擇新的] **，然後按照[將非Workfront模組升級為新版本] [中的說明繼續進行。](#upgrade-a-non-workfront-module-to-a-new-version)**
@@ -73,7 +73,7 @@ ht-degree: 27%
 
 ## 將非Workfront模組升級至新版本
 
-1. 按一下您要升級至新版本的模組上的&#x200B;**升級模組**&#x200B;圖示![升級圖示](assets/upgrade-icon.png)。
+1. 按一下您要升級至新版本的模組上的&#x200B;**升級模組**&#x200B;圖示![升級圖示](assets/new-upgrade-icon.png)。
    <!--![Update icon](assets/update-indicator.png)-->
 1. 按一下&#x200B;**選擇新的**。
 1. 選取您要取代前一個模組的模組。

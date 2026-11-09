@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: ddf7d3e48a5aee72d8f39b5b6746d1e3e884a7d0
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '554'
 ht-degree: 7%
 ---
 # 檢視和解決未完成的執行
@@ -25,10 +25,6 @@ ht-degree: 7%
 >預設會停用未完成執行的儲存。 若要啟用它，請在案例進階設定中啟用[!UICONTROL 允許儲存未完成的執行]選項。
 >
 >如需案例設定的詳細資訊，請參閱[設定案例設定](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)。
-
-完整文章{#highlighted-preview-article-level}的醒目提示預覽
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 ## 檢視未完成的執行
 

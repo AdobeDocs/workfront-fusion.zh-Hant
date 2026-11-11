@@ -3,9 +3,9 @@ user-guide-title: Adobe Workfront Fusion 文件
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront Fusion。
 nudge: true
-source-git-commit: 41ba069a36eeddbadbd993602a3b5f7ede60cefa
+source-git-commit: f5e074eee39c7626f8ccd0ecb722d26d9667b908
 workflow-type: tm+mt
-source-wordcount: '2821'
+source-wordcount: '2826'
 ht-degree: 46%
 ---
 
@@ -225,6 +225,7 @@ ht-degree: 46%
       * [檢視或編輯使用者詳細資訊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-details.md)
       * [檢視或編輯使用者角色](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.md)
       * [檢視和管理團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-and-manage-teams.md)
+      * [檢視及管理專案團隊角色](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-and-manage-team-roles.md)
       * [在 Adobe Admin Console 中刪除使用者](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/delete-users-admin-console.md)
   * 設定自訂擴充功能 {#configure-custom-extensions}
     * [自訂UI擴充功能：文章索引](/help/workfront-fusion/set-up-and-manage-workfront-fusion/configure-custom-extensions/custom-extension-00-readme.md)
@@ -325,7 +326,7 @@ ht-degree: 46%
   * [將模組移至鏈結](/help/workfront-fusion/manage-scenarios/move-modules-to-a-chain.md)
   * [檢視執行中情境的資料流程](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md)
   * [檢視 Webhook 的佇列](/help/workfront-fusion/manage-scenarios/view-webhook-queue.md)
-  * {hide-from-toc}[Workfront Fusion中的AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
+  * Workfront Fusion中的{hide-from-toc}[AI小幫手](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
   * [執行情境評分專家](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
   * [刪除情境元素](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
   * [從案例區域管理案例](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)

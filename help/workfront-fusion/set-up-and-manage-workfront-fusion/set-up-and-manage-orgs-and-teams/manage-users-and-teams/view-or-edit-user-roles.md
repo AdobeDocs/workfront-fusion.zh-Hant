@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 62dff65d6de1c2301ca8e99f5aaeda05e6a34ffe
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 18%
+source-wordcount: '542'
+ht-degree: 17%
 ---
 # 檢視或編輯使用者角色
 
@@ -57,7 +57,7 @@ Adobe Workfront Fusion管理員可以在Workfront Fusion中管理使用者角色
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -87,7 +87,12 @@ Adobe Workfront Fusion管理員可以檢視和更新組織的使用者角色。
 
 Adobe Workfront Fusion管理員和團隊管理員可以檢視和更新使用者角色。
 
+>[!NOTE]
+>
+>除了預先定義的角色之外，專案團隊也可以擁有自訂角色。 如需有關建立和管理自訂角色的資訊，請參閱[檢視和管理團隊角色](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-and-manage-team-roles.md)。
+
 1. 以Workfront Fusion管理員身分登入時，在左側導覽中選取&#x200B;**[!UICONTROL 所有使用者]**。
 1. 在您要檢視的使用者列中，按一下&#x200B;**[!UICONTROL 詳細資料]**。
 1. 在包含您要檢視或編輯使用者角色的團隊的組織列中，**[!DNL Role]**&#x200B;欄中的「團隊」圖示按一下。
 1. （可選）若要更新團隊中使用者的角色，請在您要變更使用者角色的團隊列，按一下&#x200B;**[!DNL Role]**&#x200B;欄中的下拉式清單，然後選取新角色。
+

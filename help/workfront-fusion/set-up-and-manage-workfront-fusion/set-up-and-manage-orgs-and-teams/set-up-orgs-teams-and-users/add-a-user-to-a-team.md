@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: f9cdbcf936fc6b022f6513f47b9b377424731419
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 31%
+source-wordcount: '347'
+ht-degree: 29%
 ---
 # 將使用者新增至團隊
 
@@ -47,7 +47,7 @@ ht-degree: 31%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -66,3 +66,7 @@ ht-degree: 31%
 1. 按一下使用者名稱右邊的&#x200B;**無**，然後選取您希望他們在團隊中的角色。
 
    使用者會以您選取的角色新增至團隊。
+
+   >[!NOTE]
+   >
+   >除了預先定義的角色之外，專案團隊也可以擁有自訂角色。 如需建立自訂角色的相關資訊，請參閱[檢視及管理團隊角色](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-and-manage-team-roles.md)。

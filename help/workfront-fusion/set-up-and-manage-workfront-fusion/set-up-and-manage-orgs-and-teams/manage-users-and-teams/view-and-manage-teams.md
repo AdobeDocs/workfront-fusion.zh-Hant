@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: f9cdbcf936fc6b022f6513f47b9b377424731419
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 34%
+source-wordcount: '323'
+ht-degree: 32%
 ---
 # 檢視和管理團隊
 
@@ -29,6 +29,8 @@ ht-degree: 34%
 * 電子郵件通知設定
 
 您可以檢視組織團隊的清單，並編輯團隊名稱。
+
+若要建立和管理團隊中的角色，請參閱[檢視和管理團隊角色](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-and-manage-team-roles.md)。
 
 若要新增使用者至團隊，請參閱[新增使用者至團隊](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-a-user-to-a-team.md)。
 
@@ -64,7 +66,7 @@ ht-degree: 34%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 

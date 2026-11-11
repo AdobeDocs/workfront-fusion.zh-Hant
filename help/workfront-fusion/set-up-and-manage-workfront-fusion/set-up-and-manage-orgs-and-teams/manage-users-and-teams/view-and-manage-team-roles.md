@@ -51,13 +51,13 @@ ht-degree: 9%
   <tr data-mc-conditions=""> 
    <td role="rowheader">存取層級設定</td> 
    <td> 
-     <p>您必須在團隊中擁有<b>[！UICONTROL管理成員]</b>許可權。 在預先定義的角色中，此許可權包含在「專案團隊管理員」和「組織擁有者」角色中。</p>
+     <p>您必須在團隊中擁有<b>[!UICONTROL 管理成員]</b>許可權。 在預先定義的角色中，此許可權包含在「專案團隊管理員」和「組織擁有者」角色中。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -77,7 +77,7 @@ ht-degree: 9%
 
    標籤會列出專案團隊中可用的角色，包括預先定義的角色。 對於每個角色，清單會顯示角色名稱及其許可權的摘要，例如「無許可權」、「成員」或「自訂· 19許可權」。
 
-1. 若要建立角色，請按一下[建立角色]。****
+1. 若要建立角色，請按一下[建立角色]。**&#x200B;**
 
    或
 
@@ -97,11 +97,11 @@ ht-degree: 9%
    * 若要一次設定某個區域中的所有許可權，請按一下區域名稱旁的&#x200B;**[!UICONTROL 無存取權]**、**[!UICONTROL 僅檢視]**&#x200B;或&#x200B;**[!UICONTROL 完整存取權]**。
    * 若要選擇特定許可權，請選取或清除每個許可權的核取方塊。
 
-   如需許可權清單，請參閱本文章中可包含在角色](#permissions-that-you-can-include-in-a-role)中的[許可權。
+   如需許可權清單，請參閱本文章中可包含在角色[&#128279;](#permissions-that-you-can-include-in-a-role)中的許可權。
 
    <!-- BECKY CHECK ME: Confirm the options in the Role template dropdown and what each one selects. Confirm exactly what No access, View only, and Full access select in each area (in the screenshot, View only selects the view permissions). Confirm whether there is a Description field, and whether there are areas below Team on the page (the screenshots end at Team). -->
 
-1. 按一下「**[!UICONTROL 儲存]**」。 若要關閉頁面而不儲存，請按一下[取消]。****
+1. 按一下「**[!UICONTROL 儲存]**」。 若要關閉頁面而不儲存，請按一下[取消]。**&#x200B;**
 1. （選擇性）若要刪除角色，請在&#x200B;**[!UICONTROL 角色]**&#x200B;索引標籤上的角色列中按一下&#x200B;**[!UICONTROL 刪除]**。
 
    <!-- BECKY CHECK ME: Confirm why the Delete button is unavailable (dimmed) for some roles, such as Team Operator, Team Member, and Team Admin in the screenshot, whether there is a confirmation prompt, and what happens to users who have the role. Update this step and add a note, if needed. -->
@@ -121,39 +121,39 @@ ht-degree: 9%
  </thead>
  <tbody>
  <tr>
-   <td role="rowheader">[！UICONTROL Automations]</td>
+   <td role="rowheader">[!UICONTROL Automations]</td>
    <td>檢視清單、檢視詳細資訊、檢視執行歷史記錄、管理通知、重設統計資料、執行一次、編輯排程、啟用、停用、建立、編輯、發佈、刪除</td>
   </tr>
  <tr>
-   <td role="rowheader">[！UICONTROL未完成的執行]</td>
+   <td role="rowheader">[!UICONTROL 未完成的執行]</td>
    <td>檢視，管理</td>
   </tr>
  <tr>
-   <td role="rowheader">[！UICONTROL Webhooks]</td>
+   <td role="rowheader">[!UICONTROL Webhooks]</td>
    <td>檢視、檢視佇列、建立、編輯、管理佇列、變更優先順序、刪除</td>
   </tr>
  <tr>
-   <td role="rowheader">[！UICONTROL Connections]</td>
+   <td role="rowheader">[!UICONTROL Connections]</td>
    <td>檢視、建立、編輯、刪除</td>
   </tr>
  <tr>
-   <td role="rowheader">[！UICONTROL鍵]</td>
+   <td role="rowheader">[!UICONTROL 鍵]</td>
    <td>檢視、建立、編輯、刪除</td>
   </tr>
  <tr>
-   <td role="rowheader">[！UICONTROL資料存放區]</td>
+   <td role="rowheader">[!UICONTROL 資料存放區]</td>
    <td>檢視清單，瀏覽記錄，建立，編輯，刪除</td>
   </tr>
  <tr>
-   <td role="rowheader">[！UICONTROL資料結構]</td>
+   <td role="rowheader">[!UICONTROL 資料結構]</td>
    <td>檢視、建立、編輯、刪除</td>
   </tr>
  <tr>
-   <td role="rowheader">[！UICONTROL範本]</td>
+   <td role="rowheader">[!UICONTROL 範本]</td>
    <td>檢視清單、檢視詳細資訊、建立、編輯、刪除</td>
   </tr>
  <tr>
-   <td role="rowheader">[！UICONTROL團隊]</td>
+   <td role="rowheader">[!UICONTROL 團隊]</td>
    <td>檢視團隊、編輯團隊設定、管理成員、刪除團隊</td>
   </tr>
  </tbody>
@@ -181,33 +181,33 @@ ht-degree: 9%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Source role]</td> 
+      <td role="rowheader">[!UICONTROL Source role]</td> 
       <td> <p>目前團隊中的角色及其許可權摘要。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 動作]</td> 
-      <td> <p>如何處理角色。 例如，<b>[！UICONTROL Copy to existing role]</b>會將來源角色的許可權複製到目標團隊中已存在的角色中。</p> </td> 
+      <td> <p>如何處理角色。 例如，<b>[!UICONTROL Copy to existing role]</b>會將來源角色的許可權複製到目標團隊中已存在的角色中。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL目標]</td> 
+      <td role="rowheader">[!UICONTROL 目標]</td> 
       <td> <p>來源角色複製到的目標團隊中的角色。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL變更]</td> 
-      <td> <p>目標角色是否與來源角色不同。 例如，<b>[！UICONTROL已經在sync]</b>中，表示目標角色已經擁有與來源角色相同的許可權。</p> </td> 
+      <td role="rowheader">[!UICONTROL 變更]</td> 
+      <td> <p>目標角色是否與來源角色不同。 例如，<b>[!UICONTROL 已經在sync]</b>中，表示目標角色已經擁有與來源角色相同的許可權。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 使用者]</td> 
-      <td> <p>擁有角色之使用者的相關資訊。 例如，<b>[！UICONTROL沒有相符的使用者]</b>表示沒有可包含的使用者。</p> </td> 
+      <td> <p>擁有角色之使用者的相關資訊。 例如，<b>[!UICONTROL 沒有相符的使用者]</b>表示沒有可包含的使用者。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL狀態]</td> 
+      <td role="rowheader">[!UICONTROL 狀態]</td> 
       <td> <p>複製後角色的結果。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**[!UICONTROL 複製]**。 若要關閉頁面而不複製，請按一下[取消]。****
+1. 按一下&#x200B;**[!UICONTROL 複製]**。 若要關閉頁面而不複製，請按一下[取消]。**&#x200B;**
 
 <!-- BECKY CHECK ME: The screenshot shows the Clone roles to another team page after a target team is selected. Confirm the options in the Action dropdown (for example, whether you can create a new role in the target team), the options in the Target dropdown, what the checkbox in the Users column does (for example, whether it also assigns the role to matching users in the target team) and what "matching users" means, what the Changes column shows when the roles differ, and what the Status column shows before and after you clone. -->
 

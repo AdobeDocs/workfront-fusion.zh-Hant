@@ -1,13 +1,11 @@
 ---
 name: release-notes-formatter
 description: 格式化及驗證Workfront發行說明，以取得一致性、正確結構和正確連結。 僅用於產品版本目錄中的版本注意事項檔案，或者當使用者提及版本注意事項、產品版本或季度版本時。 請勿套用至作法文章或一般檔案。
-source-git-commit: 4d32e8aab5b3b8a12dbc23e61f517fc4fd6dc9e5
+source-git-commit: 873d91ff9db954bfad835ccb4d8f423ea7f46102
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 2%
-
+source-wordcount: '1013'
+ht-degree: 1%
 ---
-
 
 # 發行說明格式化程式
 
@@ -73,7 +71,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **內文**：功能說明，然後連結到說明檔案
+5. **內文**：功能說明，然後連結到說明檔案
 
 #### 總覽頁面
 
@@ -90,16 +88,19 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
-   - 在每個表格中，**最新功能排在前** — 最近的列會顯示在表格頂端（標題列之後）
+- 如果產品區域區段被標籤為註解，請從此清單中完全移除其連結。 請勿將連結往外註解。
 
-&#x200B;6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
+5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
+   - 在每個表格中，**最新功能排在前** — 最近的列會顯示在表格頂端（標題列之後）
+   - 如果某個功能有徽章（例如`[!BADGE Off schedule]{type=Neutral}`），請將其放在它自己的`<p>`中，直接放在功能連結段落的正下方，在說明段落之前。
+
+6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
 
 ### 步驟3：驗證連結
 
 - **產品區域頁面中的總覽連結**：必須指向同一季
-   - 正確： `26-q2-release-activity/26-q2-release-overview.md`
-   - 錯誤： `26-q1-release-activity/26-q1-release-overview.md`
+  - 正確： `26-q2-release-activity/26-q2-release-overview.md`
+  - 錯誤： `26-q1-release-activity/26-q1-release-overview.md`
 - 總覽中的&#x200B;**錨點連結**：必須符合H3 ID （小寫、連字型大小）
 - 總覽資料表中的&#x200B;**功能連結**：必須使用`class="MCXref xref" xrefformat="{para}"`
 - **說明檔案連結**：必須以`/help/quicksilver/`開頭
@@ -124,6 +125,9 @@ exl-id: <existing UUID — never generate or change>
 | 編號說明行中的額外空格 | 修剪尾隨空格 |
 | 產品區域頁面中的HTML | 維持為Markdown （HTML僅適用於概觀表格） |
 | 遺失`exl-id` | 將其忽略 — 不要產生一個 |
+| 在概觀表格中，將徽章放在說明之後 | 直接在功能連結下將其移至自己的`<p>` |
+| 備註區段的迷你TOC連結 | 從清單中移除連結；請勿將其註解 |
+| 概覽中的增強功能表格，沒有迷你目錄連結 | 以與表格相同的順序，新增連結至Adobe Workfront增強功能清單 |
 
 ### 步驟6：更新目錄
 
@@ -133,9 +137,9 @@ exl-id: <existing UUID — never generate or change>
 
 - 目錄(TOC)在標題下有每季的區段，例如`* 2026 Q3 Release {#release-26-q3}`。 如果季度標題尚不存在（新季度的第一頁），請將其新增到上一季度的上方，這樣最新季度就會位於最上方。
 - 在該季度標題下，以下列順序列出頁面：
-   1. **概觀**&#x200B;優先(`Third Quarter 2026 release overview`)。
-   2. **產品區域頁面**&#x200B;依區域名稱的字母順序（管理員、檔案、企業作業、專案、報告、請求）。
-   3. **其他增強功能**&#x200B;最後會出現（一律在按字母順序排列的產品區域之後）。
+  1. **概觀**&#x200B;優先(`Third Quarter 2026 release overview`)。
+  2. **產品區域頁面**&#x200B;依區域名稱的字母順序（管理員、檔案、企業作業、專案、報告、請求）。
+  3. **其他增強功能**&#x200B;最後會出現（一律在按字母順序排列的產品區域之後）。
 
 每個TOC專案都是一個Markdown連結，使用頁面標題和絕對存放庫路徑：
 
@@ -184,6 +188,8 @@ exl-id: <existing UUID — never generate or change>
 - [ 概覽中的]功能表格列符合產品區域頁面內容
 - [ ]沒有中斷的內部連結
 - [ 總覽中的]個錨點連結符合H3區段ID
+- [ ]總覽中未註解的每個增強功能表格在迷你目錄中都有一個相符的連結，因此未註解時新增回的區段不會遺失
+- [ ]總覽迷你目錄沒有指向註解區段的連結，且徽章直接位於功能連結下方
 - [ ]功能是以最新優先順序排列（產品區域頁面和概觀表格）
 - [ ]新發行說明頁面列在正確季度下的`help/quicksilver/TOC.md`中，概覽在前，產品區域按字母順序（其他在後）
 

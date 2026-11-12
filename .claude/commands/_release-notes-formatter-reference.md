@@ -1,9 +1,8 @@
 ---
-source-git-commit: 4d32e8aab5b3b8a12dbc23e61f517fc4fd6dc9e5
+source-git-commit: 873d91ff9db954bfad835ccb4d8f423ea7f46102
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '295'
 ht-degree: 0%
-
 ---
 # 發行說明參考範本
 
@@ -144,8 +143,7 @@ The enhancements on this page are available in the Preview environment. This pag
 - 功能儲存格： `<a>`標籤（含`class="MCXref xref" xrefformat="{para}"`），後面接著`<p>`說明
 - `href`連結至產品區域頁面（非特定錨點）
 - 日期儲存格：包裝在`<p>`標籤中
-- 對於排程外專案，在連結後新增`<p>[!BADGE Off schedule]{type=Neutral}</p>`
-- 不需要徽章時，可接受連結後清空`<p></p>`
+- 針對排程外專案，在說明段落前方直接在連結段落下方新增`<p>[!BADGE Off schedule]{type=Neutral}</p>`作為其本身的段落 — 連結後空白`<p></p>`可於不需要徽章時接受
 - 讓HTML縮排與現有檔案一致
 
 ### 總覽結尾區段

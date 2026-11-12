@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 29913d8252c39b66cfe4688d760bffb074dbf56c
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2732'
 ht-degree: 0%
 ---
 # 目前可用的 Adobe Workfront Fusion 範本
@@ -34,8 +34,6 @@ Adobe Workfront Fusion目前提供下列公用範本。
 這些範本會自動化Workfront流程和工作流程。
 
 ### Workfront — 當任務提早完成時，自動調整專案時間表
-
-<!--New June 10, 2025-->
 
 此範本的設計目的，是為了支援採用更靈活、「隨需計畫」方法的組織，而非嚴格的PMI專案管理方法。
 
@@ -165,13 +163,41 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 此範本會依序編號您的問題。 假設您已使用「Workfront — 循序編號序列：建立物件自訂表單和欄位」範本建立自訂表單和欄位，但您可以使用現有的表單和欄位。
 
+### Workfront — 使用AEM工作流程建立專案
+
+[!BADGE 新增！]{type=Informative}
+
+<!--New November 11, 2026-->
+
+<!-- BECKY CHECK ME: The request is titled "Automation New Templates" and lists the fields of two templates, "Create project with AEM workflow" and "Create multiple records". It does not give the exact template names, the trigger, or a description of what each template does. I wrote the descriptions from the field list. Confirm the template names as they appear in the Templates area, the trigger for each template, and the descriptions. -->
+
+此範本會從專案範本建立專案，並可建立針對專案範本設定的AEM連結資料夾，並將其連結至新專案。
+
+>[!TIP]
+>
+>* 只有在選取的專案範本已啟用的[AEM工作流程](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/configure-integrations/configure-aacs-integration#set-up-workflows-optional)，且至少有一個資料夾樹狀結構時，才會建立AEM連結資料夾。 如果沒有，則會建立沒有連結資料夾的專案。
+>* 當您儲存自動化時，資料夾樹狀結構會從專案範本中取得。 如果您稍後在專案範本上新增或移除資料夾樹狀結構，則必須再次編輯並儲存自動化以包含變更。
+
+### Workfront — 建立多個記錄
+
+[!BADGE 新增！]{type=Informative}
+
+<!--New November 11, 2026-->
+
+此範本會根據目前記錄上欄位中的選擇，在記錄型別上建立一或多個記錄。
+
+>[!TIP]
+>
+>* 系統會為目前記錄中出現的每個選擇建立一個記錄，且每個選擇都有欄位對應。 會略過沒有對應的選擇，且不會為其建立記錄。
+>* 若要為建立的記錄命名，請將來源欄位對應到新記錄型別的主要（名稱）欄位。 然後每個記錄命名為&#x200B;*[目前的記錄名稱]選擇值*。 如果您不對應主要欄位，則記錄的名稱會留空。
+>* 如果選取的記錄中沒有一個在選取的欄位中有對應的選擇，則不會建立任何記錄，並且訊息會告訴您哪個欄位是空的。
+>* 儲存自動化時，會從目前的記錄型別讀取欄位選擇和對應。 如果您稍後新增或變更欄位或選擇，則必須再次編輯並儲存自動化以包含變更。
+
 ## Workfront - Workfront Proof範本
 
 這些範本可自動化結合Workfront與Workfront Proof的工作流程。
 
 ### Workfront > Workfront Proof — 將校訂使用者角色變更為唯讀並在專案關閉時鎖定校訂
-
-<!--New March 12, 2025-->
 
 此範本會監視專案是否更新為等於已拒絕、已完成或廢棄的狀態。 之後，它會將任何具有待定校訂決定的使用者變更為唯讀。 最後，它會鎖定校樣並傳送更新至檔案。
 

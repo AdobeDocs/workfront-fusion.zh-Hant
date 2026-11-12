@@ -4,13 +4,11 @@ description: Adobe App Builder聯結器可讓您在情境中使用自訂函式�
 author: Becky
 feature: Workfront Fusion
 exl-id: 92661a0c-436b-4fbd-808a-a4fbe3cd2339
-source-git-commit: e24fc726107fcfa34e9288e9a35af445fc0cc765
+source-git-commit: 02c396f33b6398635462bac8741f446eb82bf5a9
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 19%
-
+source-wordcount: '754'
+ht-degree: 16%
 ---
-
 # Adobe App Builder模組
 
 您可以在Fusion的「函式」區域中建立自訂函式。 然後，以Adobe App Builder模組的形式，將這些函式新增到您的情境中。
@@ -45,6 +43,62 @@ ht-degree: 19%
 若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
+
+## 建立與Adobe App Builder的連線
+
+此連線使用App Builder專案工作區的Adobe I/O Runtime憑證。 在建立連線之前，請先從Adobe Developer Console取得這些認證。
+
+### 取得您的執行階段認證
+
+1. 使用擁有您Adobe Developer Console授權的組織登入[App Builder](https://developer.adobe.com/console)。
+1. 開啟包含您函式的App Builder專案，然後選取您要連線的工作區（例如，**生產**）。
+1. 按一下右上角的&#x200B;**全部下載**&#x200B;以下載工作區設定JSON檔案。
+1. 開啟檔案並找到`runtime`區段。 該檔案內含：
+
+   * `namespace`：要在&#x200B;**名稱空間**&#x200B;欄位中輸入的值
+   * `auth`：格式為`username:password`的值。 冒號前的部分是&#x200B;**使用者名稱**，冒號後的部分是&#x200B;**密碼**。
+
+   >[!NOTE]
+   >
+   >您也可以在Adobe I/O CLI中執行`aio runtime namespace get`或`aio app use`，以尋找名稱空間和驗證值。
+
+### 建立連線
+
+1. 在模組中，按一下&#x200B;**連線**&#x200B;欄位旁的&#x200B;**新增**。
+1. 填寫下列欄位：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 連線名稱]</td> 
+      <td>輸入此連線的名稱。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 環境]</td> 
+      <td>選取您要連線到生產或非生產環境。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 類型]</td> 
+      <td>選取<b>服務帳戶</b>。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 使用者名稱]</td> 
+      <td>從工作區的<code>auth</code>值（冒號之前的部分）輸入使用者名稱。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 密碼]</td> 
+      <td>從工作區的<code>auth</code>值（冒號後的部分）輸入密碼。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 名稱空間]</td> 
+      <td>從工作區組態檔的<code>runtime</code>區段中輸入<code>namespace</code>值。</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. 按一下&#x200B;**繼續**&#x200B;以儲存連線。
 
 ## Adobe App Builder模組
 

@@ -175,7 +175,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 >[!TIP]
 >
->* 只有在選取的專案範本已啟用的[AEM工作流程](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/configure-aacs-integration#set-up-workflows-optional)，且至少有一個資料夾樹狀結構時，才會建立AEM連結資料夾。 如果沒有，則會建立沒有連結資料夾的專案。
+>* 只有在選取的專案範本已啟用的[AEM工作流程](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/configure-integrations/configure-aacs-integration#set-up-workflows-optional)，且至少有一個資料夾樹狀結構時，才會建立AEM連結資料夾。 如果沒有，則會建立沒有連結資料夾的專案。
 >* 當您儲存自動化時，資料夾樹狀結構會從專案範本中取得。 如果您稍後在專案範本上新增或移除資料夾樹狀結構，則必須再次編輯並儲存自動化以包含變更。
 
 ### Workfront — 建立多個記錄
@@ -270,7 +270,7 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 這些範本支援Workfront-Anaplan整合，並且預期Workfront中的Anaplan會有特定設定。 如需這些範本及其所需設定的詳細資訊，請參閱各範本的相關文章。
 
-如需Workfront-Anaplan整合的詳細資訊，請參閱Workfront檔案中的[Adobe Workfront與Anaplan](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration)。
+如需Workfront-Anaplan整合的詳細資訊，請參閱Workfront檔案中的[Adobe Workfront與Anaplan](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration)。
 
 >[!NOTE]
 >
@@ -278,19 +278,19 @@ Adobe Workfront Fusion目前提供下列公用範本。
 
 ### 支出最佳化工作流程
 
-* [將Adobe Workfront專案更新傳送至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
-* [將Adobe Workfront費用傳送至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
-* [將Adobe Workfront實際時數更新傳送至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
+* [將Adobe Workfront專案更新傳送至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
+* [將Adobe Workfront費用傳送至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
+* [將Adobe Workfront實際時數更新傳送至 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
 
 ### 連結預算請求的工作流程
 
-* [從Adobe Workfront預算請求建立 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
-* [將 [!DNL Anaplan] 預算分配套用至Adobe Workfront專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects)
+* [從Adobe Workfront預算請求建立 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
+* [將 [!DNL Anaplan] 預算分配套用至Adobe Workfront專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects)
 
 ### 連結行銷活動請求的工作流程
 
-* [從Adobe Workfront行銷活動請求建立 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
-* [將 [!DNL Anaplan] 預算分配套用至Adobe Workfront行銷活動請求或行銷活動專案](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
+* [從Adobe Workfront行銷活動請求建立 [!DNL Anaplan] 清單專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
+* [將 [!DNL Anaplan] 預算分配套用至Adobe Workfront行銷活動請求或行銷活動專案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
 
 ## Workfront - Jira範本
 

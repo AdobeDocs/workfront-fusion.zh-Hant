@@ -1,9 +1,9 @@
 ---
 name: fusion-doc-request
 description: 處理來自的Fusion檔案請求 #fusion-documentation Slack template - update the relevant Fusion docs article(s) in this repo, then create a matching task in the Product Documentation Workfront project with the feature description and a formatted release note filled in on the custom form. Use when the user shares a Slack documentation-request thread/message for a Fusion feature, or says something like "please update and create a task" for one.
-source-git-commit: 535a10407766d054b00d31869e511753bf07a9b7
+source-git-commit: 17a2d521197e676e41b4b899f7be142430a18c2f
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1704'
 ht-degree: 0%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 0%
 ## 步驟2：建立請求的分支
 
 在接觸任何檔案之前，請為此請求建立新的Git分支並將其簽出。 從目前的預設分支(`main`)中分支，而不是從要取出的任何分支中分支。
+
+如果使用者已建立並命名分支，請使用該分支而非建立新分支，並在步驟4的工作的`Documentation Branch`欄位中記錄該名稱。
 
 為分支`becky-{short-kebab-case-description}`命名（衍生自&#x200B;**功能標題**） — 第一個字必須是`becky`，符合此存放庫的現有分支慣例（例如`becky-webhook-update`、`becky-storage-beta-sos`）。 簡短 — 幾個字，不是完整的標題。
 
@@ -74,9 +76,12 @@ ht-degree: 0%
 | `DE:Preview Date` | 預設為原始Slack訊息中引用的日期（請求的&#x200B;**預期發行日期**） |
 | `taskConstraint` + `constraintDate` | 將`taskConstraint`設為`MFO` （必須完成日期），其中`constraintDate` =原始Slack訊息中引用的日期（請求的&#x200B;**預期發行日期**），因此任務的計畫完成日期也符合該日期。 |
 | `DE:Articles to update` | 您為此請求建立或更新之文章的清單（請參閱下文） |
+| `DE:Documentation Branch` | 檔案變更所在的Git分支名稱（請參閱下文） |
 | 產品/區域 | 選取`Fusion` （[產品檔案]表單上的列舉欄位；若不清楚，請使用`insights_search_fields`確認確切的欄位名稱） |
 
 `DE:Articles to update` （產品檔案表單上的文字欄位）會列出您在步驟3中建立或變更的每個文章檔案，每行一個存放庫相對路徑（例如`help/workfront-fusion/manage-scenarios/explain-errors-with-ai.md`）。 包含新文章（在路徑後新增`(new)`）以及您編輯的任何TOC或索引檔案。 由於檔案編輯會在步驟3中進行，因此清單會在建立任務時已知，因此在相同的建立呼叫中設定它。 如果使用者要求您在不編輯檔案的情況下建立任務，請將該欄位留空，並在編輯檔案後進行更新。
+
+`DE:Documentation Branch` （產品檔案表單上的文字欄位）包含檔案編輯所在的Git分支的確切名稱，例如`becky-explain-errors-with-ai`。 使用名為的使用者分支，或您編輯的存放庫中的目前出庫的分支；不要發明名稱。 將其設定在與其他欄位相同的建立呼叫中。 如果使用者要求您在不編輯檔案的情況下建立任務，並且還沒有分支，請將該欄位留空並稍後更新。
 
 將預覽日期欄位和計畫完成日期設定為此相同建立呼叫的一部分 — 請勿將其留待稍後或等待詢問。 如果使用者稍後提供不同的日期，或說日期尚未實際知道，請據此更新，但預設為每次都填寫。
 
@@ -108,6 +113,7 @@ For more information, see [{Article title}](/help/workfront-fusion/{path-to-arti
 * 您建立的分支（在本機認可、未推送，且未開啟提取請求 — 根據步驟2）。
 * 您變更了哪些doc檔案以及新增了哪些內容。
 * 已變更的文章會列在任務的`Articles to update`欄位中。
+* 您在任務的`Documentation Branch`欄位中輸入的分支名稱。
 * 分支上的變更未認可，正在等待使用者的檢閱。
 * 工作名稱和URL。
 * 您設定的確切欄位值，包括預覽日期欄位。
@@ -120,4 +126,4 @@ For more information, see [{Article title}](/help/workfront-fusion/{path-to-arti
 * 專案「產品檔案任務 — 適用於需要傳訊的開發問題」對應至ID `5e69583f00236b9f767c3e3944100ee4`
 * 父系任務「Becky - Fusion-Documentation頻道中的任務」對應到ID `6a9b065100003a7554832780c2015e93` （在相同專案中） — 使用`insights_find_id_by_name` （實體`task`）解析，而不是硬式編碼，以防它變更
 * 產品檔案自訂表單(`categoryID`)為`5d7275b9000514604bd969d418725843`
-* 使用的自訂欄位： `DE:Release notes`、`DE:Preview Date Known`、`DE:Preview Date`
+* 使用的自訂欄位： `DE:Release notes`、`DE:Preview Date Known`、`DE:Preview Date`、`DE:Articles to update`、`DE:Documentation Branch`

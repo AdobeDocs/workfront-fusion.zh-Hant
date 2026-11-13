@@ -13,10 +13,10 @@ feature_v2:
     internal-label: APIs
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: 9396113bb466ef309e8fcdb06e423a100b6fb271
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 59%
+source-wordcount: '306'
+ht-degree: 57%
 ---
 # 函式概觀
 
@@ -38,11 +38,13 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 | 函式類型 | 如需詳細資訊，請參閱： |
 | --- | --- |
 | **從其他模組對應**<br>![&#x200B;從其他模組對應](assets/toolbar-icon-functions-you-map-from-other-modules.png) | [將資訊從一個模組對應到另一個模組](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md) |
+| **由AI填滿**<br>![&#x200B;由AI填滿](assets/toolbar-icon-fill-by-ai.png) | [使用AI產生運算式](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md#generate-an-expression-with-ai) |
 | **一般函式**<br>![&#x200B;一般函式](assets/toolbar-icon-general-function.png) | [一般函式](/help/workfront-fusion/references/mapping-panel/functions/general-functions.md) |
 | **數學函式**<br>![&#x200B;數學函式](assets/toolbar-icon-math-functions.png) | [數學函式](/help/workfront-fusion/references/mapping-panel/functions/math-functions.md) |
 | **文本和二進位函式**<br>![&#x200B;字串函式](assets/toolbar-icon-text-binary-functions.png) | [字串函式](/help/workfront-fusion/references/mapping-panel/functions/string-functions.md) |
 | **日期與時間**<br> ![日期與時間函式](assets/toolbar-icon-date-time-functions.png) | <ul><li>[日期與時間函式](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md)</li><li>[日期與時間格式適用的語彙基元](/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md)</li><li> [日期與時間剖析用的語彙基元](/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-parsing.md)</li></ul> |
 | **搭配陣列使用的函式**<br> ![陣列函式](assets/toolbar-icon-functions-for-arrays.png) | [陣列函式](/help/workfront-fusion/references/mapping-panel/functions/array-functions.md) |
+
 
 ![函式工具列](assets/new-functions-toolbar.png)
 

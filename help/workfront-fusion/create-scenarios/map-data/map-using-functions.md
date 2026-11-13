@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 9396113bb466ef309e8fcdb06e423a100b6fb271
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 23%
+source-wordcount: '1137'
+ht-degree: 15%
 ---
 # 使用內建函式對應專案
 
@@ -51,7 +51,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -84,7 +84,7 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 
    如需函式及其引數的詳細資訊，請參閱[函式參考下的文章：文章索引](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md)。
 
-1. 繼續設定模組，或按一下[確定]。**&#x200B;**
+1. 繼續設定模組，或按一下[確定]。****
 
 >[!TIP]
 >
@@ -125,7 +125,65 @@ Workfront Fusion包含內建函式，可讓您建立簡單或複雜的公式。 
 1. 在該函式中，按一下要巢狀函式移至何處。 在此範例中，巢狀函式會取代第一個引數。
 1. 在對映面板中，按一下巢狀函式。 在此範例中，這是`trim`函式。
 1. 繼續視需要設定函式。
-1. 繼續設定模組，或按一下[確定]。**&#x200B;**
+1. 繼續設定模組，或按一下[確定]。****
+
+### 使用AI產生運算式
+
+與其自己撰寫運算式的語法，您可以用純語言描述您想要的，AI會為您產生運算式。 例如，您可以要求下列專案：
+
+* 以逗號聯結這些名稱。
+* 將到期日新增三天。
+
+AI會將您的要求轉換為使用Workfront Fusion內建函式的運算式，因此在使用前結果容易讀取及檢閱。
+
+若要產生運算式，請執行下列動作：
+
+1. 按一下左側面板中的&#x200B;**[!UICONTROL 案例]**&#x200B;索引標籤。
+1. 選取您要對應資料的情境。
+1. 按一下情境上的任何位置，以輸入情境編輯器。
+1. 按一下您要新增運算式的模組，然後按一下欄位。
+
+   對應面板隨即開啟。
+
+1. 按一下對應面板中的&#x200B;**[!UICONTROL AI填滿]**&#x200B;標籤（魔術棒圖示）。
+
+   ![由AI標籤填滿](assets/fill-by-ai-tab.png)
+
+1. 在&#x200B;**[!UICONTROL 說明此欄位應包含的內容]**&#x200B;方塊中，以純文字說明您要的結果。
+
+   若要將先前模組的欄位新增至提示，請在&#x200B;**[!UICONTROL 可用欄位]**&#x200B;清單中按一下該欄位。 若要在提示中啟動新行，請按Shift+Enter。
+
+   例如，若要僅從電子郵件地址取得網域，您可以輸入以下提示：
+
+   `Show only the domain of {{1.data.json.email}} like "user@acme.com" -> "acme.com"`
+
+1. 按一下&#x200B;**[!UICONTROL 產生]**。
+
+   AI產生的運算式出現在&#x200B;**[!UICONTROL 建議的運算式]**&#x200B;下。
+
+   ![建議的運算式](assets/fill-by-ai-suggested-expression.png)
+
+1. 檢閱運算式，然後執行下列任一項作業：
+
+   * 按一下&#x200B;**[!UICONTROL 套用]**&#x200B;將運算式插入欄位。
+   * 按一下&#x200B;**[!UICONTROL 重新產生]**&#x200B;讓AI產生不同的運算式。
+
+1. （選用）如有需要，可在欄位中編輯運算式。
+
+1. 繼續設定模組，或按一下[確定]。****
+
+#### AI如何產生運算式
+
+AI產生運算式時，會執行下列動作：
+
+* **使用您情境的內容。** AI會考量可用於對應的欄位、其型別、目的地欄位，以及您的地區設定和時區設定。
+* **驗證運算式。** 在AI將運算式傳回為成功之前，會檢查不支援的函式、缺少引數、未知欄位參考以及陣列和日期的常見錯誤。
+* **更正並簡化運算式。** AI會修正常見的語法錯誤，並以內建函式取代已知的因應措施。
+* 如果驗證失敗，**再試一次。** AI會使用驗證的特定意見來重新產生運算式。 如果仍無法建立有效的運算式，則會傳回明確的錯誤，而非無效的結果。
+
+>[!NOTE]
+>
+>AI產生的運算式可能不完整或不準確。 在依賴結果之前，請檢閱每個運算式並測試您的案例。
 
 ### 使用[!DNL Google Sheets]函式
 

@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: cc160f0e8c2465b4f102b6d1755088335b2a9fe5
+source-git-commit: 9396113bb466ef309e8fcdb06e423a100b6fb271
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 75%
+source-wordcount: '522'
+ht-degree: 70%
 ---
 # 對應概觀
 
@@ -68,6 +68,9 @@ ht-degree: 75%
 第一個索引標籤會顯示您可以從其他模組對應的專案。
 
 其他索引標籤包括可用於建立公式的函式、運算子和關鍵字。 而這些項目會根據所處理的資料類型，分類至不同的索引標籤中。
+
+**[!UICONTROL 由AI填滿]**&#x200B;索引標籤可讓您以簡單的語言描述您希望欄位包含的內容，而AI會為您產生運算式。 如需詳細資訊，請參閱[使用AI產生運算式](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md#generate-an-expression-with-ai)。
+
 
 ![對應面板](assets/new-mapping-panel-blank.png)
 

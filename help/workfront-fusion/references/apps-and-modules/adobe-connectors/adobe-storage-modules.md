@@ -22,10 +22,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 231f1c67031a396b8752fb84a5ff6d017df94267
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 25%
+source-wordcount: '1542'
+ht-degree: 23%
 ---
 # Adobe 儲存空間模組
 
@@ -67,7 +67,7 @@ ht-degree: 25%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)。
 
@@ -84,9 +84,9 @@ ht-degree: 25%
 1. 在Adobe Developer Console中開啟您的專案。
 1. 按一下&#x200B;**新增至專案**，然後選取&#x200B;**API**。
 1. 從可用API清單中，選取&#x200B;**Adobe Cloud Platform和Collaboration API**。
-1. 在[選取驗證型別]畫面上，選取&#x200B;**OAuth伺服器對伺服器**，然後按一下[下一步]&#x200B;**&#x200B;**。
+1. 在Select驗證型別畫面上，選取&#x200B;**OAuth伺服器對伺服器**，然後按一下&#x200B;**下一步**。
 1. 新增憑證的名稱。
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後按一下[儲存設定的API]&#x200B;**&#x200B;**。
+1. 按一下[下一步]****，然後按一下[儲存設定的API]****。
 1. 記下提供的憑證，這些憑證將在Workfront Fusion中設定連線時使用。
 1. 繼續[將您的技術帳戶設為Adobe Admin Console的管理員](#make-your-technical-account-an-admin-in-the-adobe-admin-console)。
 
@@ -103,7 +103,7 @@ ht-degree: 25%
 
 1. 選取使用者清單上方的&#x200B;**管理員**&#x200B;索引標籤。
 1. 選取&#x200B;**新增管理員**。
-1. 在[新增產品設定檔管理員]方塊中，輸入技術帳戶的電子郵件地址，然後選取[儲存]。**&#x200B;**
+1. 在[新增產品設定檔管理員]方塊中，輸入技術帳戶的電子郵件地址，然後選取[儲存]。****
 
    技術帳戶會成為管理員。
 
@@ -134,14 +134,14 @@ ht-degree: 25%
         </td>
         </tr>
         <td role="rowheader">[!UICONTROL 用戶端 ID]</td>
-        <td>輸入您的[!UICONTROL Adobe] [!UICONTROL 使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL 認證詳細資料]區段中找到此專案。</td>
+        <td>輸入您的[！UICONTROL Adobe] [！UICONTROL使用者端ID]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL 用戶端密碼]</td>
-        <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[!UICONTROL 認證詳細資料]區段中找到此專案。</td>
+        <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 您可以在[!DNL Adobe Developer Console]中專案的[！UICONTROL認證詳細資料]區段中找到此專案。</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL IMS組織識別碼]</td>
+        <td role="rowheader">[！UICONTROL IMS組織識別碼]</td>
         <td>輸入或對應您的Adobe IMS組織ID。 這是格式為<code> 123abc@AdobeOrg</code>的字串，其中@之前的區段是十六進位數字。 您可以在Adobe Admin Console中，或在Adobe.IO主控台中，將此值視為您組織的URL路徑的一部分，以進行使用者管理整合。</td>
         </tr>
       </tbody>
@@ -268,7 +268,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td role="rowheader">角色</td> 
-   <td>選取您希望新邀請的使用者對資產擁有的角色。<ul><li>所有者</li><li>編輯者</li><li>檢視者</li></ul></td> 
+   <td>Select是您希望新受邀使用者對資產擁有的角色。<ul><li>所有者</li><li>編輯者</li><li>檢視者</li></ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">可以評論</td> 
@@ -366,4 +366,35 @@ ht-degree: 25%
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
   </tbody>
+</table>
+
+#### 上傳檔案
+
+此動作模組只需一步即可將檔案上傳至Adobe儲存空間。 它會建立目的地檔案、初始化上傳、透過預先簽署的URL傳輸檔案內容，以及完成上傳。 您不需要設定個別的傳輸和完成步驟。
+
+模組支援大型檔案。
+
+<!-- BECKY CHECK ME: Add the module's output (the screenshot shows only the setup fields). Confirm what the Project and Folder fields list, whether Folder is required, what the File Content field accepts (the hint says binary or text data), and whether the Limit field applies to this module, since the module uploads one file. Also confirm whether the Show advanced settings option contains any fields, and whether the request's comparison to "Generate Presigned Upload URL" should be mentioned here. That module is not documented in this article. -->
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">連線</td> 
+   <td>如需建立與Adobe儲存體連線的指示，請參閱本文中的<a href="#create-a-connection-to-adobe-storage" class="MCXref xref" >建立與Adobe儲存體的連線</a>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">專案</td> 
+   <td>Select包含您要上傳檔案之資料夾的專案。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">資料夾</td> 
+   <td>Select您要上傳檔案的資料夾。 若要將檔案上傳到專案的根目錄，請選取<code>/</code>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">來源檔案</td> 
+   <td>Select上一個模組的檔案，或對應檔案的名稱、內容和內容型別。</td> 
+  </tr> 
+ </tbody> 
 </table>

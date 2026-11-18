@@ -23,9 +23,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 904490f145f543dff7c340e5239dab90d583fe0e
+source-git-commit: 1c28e4007e3e9d6503618482002e506f9393ee57
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1683'
 ht-degree: 81%
 ---
 # Adobe Workfront Fusion 發行活動概觀
@@ -34,8 +34,9 @@ Adobe Workfront Fusion 能順暢連接您的應用程式和網頁服務，讓您
 
 ## 2026 年的 Fusion 發行版本
 
-### 2026年11月
+### 2026 年 11 月
 
+* [Workfront Fusion發行活動： 2026年11月16日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-11-16.md)
 * [Workfront Fusion發行活動： 2026年11月9日當週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-11-9.md)
 * [Workfront Fusion發行活動： 2026年11月2日起一週](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-11-2.md)
 

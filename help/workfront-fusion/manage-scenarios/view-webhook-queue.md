@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: 1c28e4007e3e9d6503618482002e506f9393ee57
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 29%
+source-wordcount: '590'
+ht-degree: 16%
 ---
 # 檢視webhook的佇列
 
@@ -49,7 +49,7 @@ ht-degree: 29%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -61,12 +61,40 @@ ht-degree: 29%
 
 ![佇列橫幅](assets/queue-banner.png)
 
-若要檢視webhook的佇列：
+webhook的佇列頁面具有與&#x200B;**[!UICONTROL 案例]**&#x200B;和&#x200B;**[!UICONTROL Webhook]**&#x200B;清單相同的配置。
+
+>[!NOTE]
+>
+>搜尋和排序只適用於目前載入表格中的事件，不適用於整個佇列。 若要包含更多事件，請先載入其他事件。
+
+若要檢視和管理webhook的佇列：
 
 1. 按一下左側功能表中的&#x200B;**[!UICONTROL Webhooks]**。
 1. 找到您要檢視其佇列的Webhook。
-1. 在「已接收事件」按鈕中找出事件數。
+1. 找出「完整佇列」欄中的事件數。
 
    ![Webhook佇列](assets/webhook-queue.png)
 
-1. 按一下按鈕，即可檢視佇列中事件的詳細資訊。
+1. 按一下&#x200B;**作業**&#x200B;按鈕，檢視佇列中事件的詳細資訊。
+
+   webhook的佇列頁面隨即開啟。 此頁面列出資料表中佇列的事件，其資料行如下： **[!UICONTROL ID]**、**[!UICONTROL 建立於]**、**[!UICONTROL 大小]**&#x200B;以及&#x200B;**[!UICONTROL 詳細資料]**。
+
+1. （選擇性）若要篩選表格中的事件，請在表格上方的&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位中輸入文字。
+1. （選擇性）若要排序事件，請按一下&#x200B;**[!UICONTROL ID]**、**[!UICONTROL 建立於]**，或&#x200B;**[!UICONTROL Size]**&#x200B;資料行標頭。
+1. （選擇性）若要變更每個頁面上顯示的事件數目，請在頁面底部的&#x200B;**[!UICONTROL 顯示]**&#x200B;下拉式清單中選取一個數字。
+1. （選擇性）若要在事件頁面之間移動，請按一下頁面底部的&#x200B;**[!UICONTROL 前]**、**[!UICONTROL 前]**、**[!UICONTROL 後]**&#x200B;或&#x200B;**[!UICONTROL 後]**。
+
+   當佇列只有一頁事件時，這些按鈕無法使用。
+
+1. （選擇性）若要檢視事件的裝載，請按一下事件列中的&#x200B;**[!UICONTROL 詳細資料]**。
+
+   詳細資訊對話方塊會開啟並顯示事件的裝載。
+
+1. （選擇性）若要刪除事件：
+
+   1. 執行下列任一項作業，在Select中刪除您要刪除的事件：
+
+      * Select會勾選您要選取之每個事件旁的核取方塊。
+      * Select **[!UICONTROL Select all]**&#x200B;核取方塊以選取整個佇列，而不只是目前載入的事件。 然後，您可以清除要從選取範圍中排除的任何事件的核取方塊。
+
+   1. 在熒幕底部附近的列中，按一下&#x200B;**刪除**。

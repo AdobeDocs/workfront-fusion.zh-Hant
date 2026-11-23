@@ -9,10 +9,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: d50909b128b469ef3e25b93c7dbdede5d4226064
+source-git-commit: 06b6c3b3a37d2b66eae61951ffc0aaf558d1b180
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 19%
+source-wordcount: '1806'
+ht-degree: 17%
 ---
 # Workfront Fusion模組
 
@@ -47,7 +47,7 @@ ht-degree: 19%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -62,7 +62,7 @@ ht-degree: 19%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 連線類型]</td> 
-      <td>選取您要建立的連線型別。</td> 
+      <td>Select您要建立的連線型別。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 連線名稱]</td> 
@@ -70,19 +70,19 @@ ht-degree: 19%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 用戶端 ID]</td> 
-      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td> 
+      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端 ID]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]詳細資訊區段中找到。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 用戶端密碼]</td> 
-      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 這可以在[!DNL Adobe Developer Console]的[!UICONTROL Credentials]詳細資訊區段中找到。</td> 
+      <td>輸入您的 [!DNL Adobe] [!UICONTROL 用戶端密碼]。 這可以在[!DNL Adobe Developer Console]的[！UICONTROL Credentials]詳細資訊區段中找到。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 組織ID]</td> 
+      <td role="rowheader">[！UICONTROL組織ID]</td> 
       <td>輸入您的[!DNL Adobe] IMS組織ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 區域]</td> 
-      <td>選取此連線的Fusion區域。</td> 
+      <td role="rowheader">[！UICONTROL區域]</td> 
+      <td>此連線的Fusion區域Select。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -97,9 +97,53 @@ ht-degree: 19%
 
 ![對應切換](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
+* [觸發程序](#triggers)
 * [動作](#actions)
 * [匯出](#export)
 * [雜項](#misc)
+
+### 觸發程序
+
+* [觀看記錄](#watch-records)
+
+#### 觀看記錄
+
+此觸發模組會在Workfront Fusion記錄建立、更新或兩者同時建立時啟動案例。 您可以使用篩選器來著重處理對團隊而言重要的變更，因此不必手動檢查Workfront Fusion。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 連線]</td> 
+   <td> <p>如需有關將Workfront Fusion連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-fusion-to-workfront-fusion" class="MCXref xref">將Workfront Fusion連線到Workfront Fusion</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">觀看</td> 
+   <td>Select您要模組留意的變更型別。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">記錄類型</td> 
+   <td>Select您要觀看的記錄型別： <b>案例</b>或<b>執行</b>。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">案例ID</td> 
+   <td><p>如果您正在監視執行，請選取或對應您要監視執行的情境。</p><p>此欄位為選用。 如果您將其留空，則模組會在整個組織中搜尋執行。</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">顯示檢查回合</td> 
+   <td><p>如果您正在觀看執行，請選取結果是否包含檢查執行：</p><ul><li><b>是</b>：包含檢查執行。</li><li><b>否</b>：不包含檢查回合。</li><li><b>未定義</b>：不要依據檢查執行來篩選結果。</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">篩選</td> 
+   <td>在<b>屬性</b>下，針對您要使用的每個屬性篩選，按一下<b>新增專案</b>，選取欄位和運運算元，然後輸入或對應您要篩選的值。 值欄位僅會對需要它的運運算元顯示。 例如，<b>Exists</b>之類的運運算元不需要值。 Scenario和Execution記錄型別的屬性篩選器相同。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">限制</td> 
+   <td>輸入或對映Workfront Fusion在一個執行週期內可處理的最大結果數量。 預設值為200。</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### 動作
 
@@ -124,7 +168,7 @@ ht-degree: 19%
   </tr> 
   <tr> 
    <td role="rowheader">記錄類型</td> 
-   <td> 選取您要複製的記錄型別。 </td> 
+   <td> Select您要複製的記錄型別。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">案例ID /勾點ID /資料結構ID</td> 
@@ -267,7 +311,7 @@ ht-degree: 19%
   </tr> 
   <tr> 
    <td role="rowheader">記錄類型</td> 
-   <td> 選取您要更新的記錄型別。 </td> 
+   <td> Select您要更新的記錄型別。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">名稱</td> 
@@ -299,7 +343,7 @@ ht-degree: 19%
   </tr> 
   <tr> 
    <td role="rowheader">檔案類型</td> 
-   <td>選取您要匯出記錄檔的檔案格式。</td> 
+   <td>Select您要匯出記錄檔的檔案格式。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">屬性</td> 
@@ -381,7 +425,7 @@ ht-degree: 19%
    <td> <p>如需有關將Workfront Fusion連線到Workfront Fusion的說明，請參閱本文中的<a href="#connect-workfront-fusion-to-workfront-fusion" class="MCXref xref">將Workfront Fusion連線到Workfront Fusion</a>。</p> </td> 
   <tr> 
    <td role="rowheader">記錄類型</td> 
-   <td> 選取您要擷取相依性的記錄型別。 </td> 
+   <td> Select您要擷取相依性的記錄型別。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">案例ID/勾點ID</td> 
@@ -405,11 +449,11 @@ ht-degree: 19%
   </tr> 
   <tr> 
    <td role="rowheader">記錄類型</td> 
-   <td>選取您要檢查相依項的記錄型別。</td> 
+   <td>Select您要檢查相依項的記錄型別。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">種類</td> 
-   <td>選取要檢查的相依物件種類……</td> 
+   <td>Select是您要檢查的相依性種類……</td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
@@ -471,8 +515,3 @@ ht-degree: 19%
   </tr> 
  </tbody> 
 </table>
-
-
-
-
-

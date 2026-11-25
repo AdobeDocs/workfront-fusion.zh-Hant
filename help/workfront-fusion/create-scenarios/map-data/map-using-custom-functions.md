@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 01689332f97c15b317e686d11a27cb4dc7e2e8bd
+source-git-commit: c716296d771974ffdb59e916f9865c9efb2ad5a9
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 15%
+source-wordcount: '930'
+ht-degree: 11%
 ---
 # 使用自訂函式對應資料
 
@@ -56,7 +56,7 @@ Workfront Fusion也包含內建函式，可讓您建立簡單或複雜的公式�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -72,6 +72,7 @@ Workfront Fusion也包含內建函式，可讓您建立簡單或複雜的公式�
 可在Workfront Fusion的函式區域中設定多個案例中使用的自訂函式。 設定函式後，您可以使用Adobe App Builder聯結器將其新增至案例。
 
 * [初始化您的執行階段環境](#initialize-your-runtime-environment)
+* [連線現有的App Builder專案](#connect-an-existing-app-builder-project)
 * [在函式區域中建立自訂函式](#create-a-custom-function-in-the-functions-area)
 
 #### 初始化您的執行階段環境
@@ -90,6 +91,30 @@ Workfront Fusion也包含內建函式，可讓您建立簡單或複雜的公式�
 1. 按一下&#x200B;**初始化執行階段**。
 
    一段時間後，會出現函式清單，內含兩個範例函式。
+
+#### 連線現有的App Builder專案
+
+Fusion建立App Builder專案時，會為您處理執行階段設定。 如果您的團隊已經有在您使用Fusion之前建立的App Builder專案，則必須透過建立使用該專案的執行階段名稱空間和認證的App Builder連線，以手動方式加以連線。 您不需要重新建立專案。
+
+>[!NOTE]
+>
+>您在Fusion中輸入的認證是「執行階段」認證。 它們不是您的Adobe登入詳細資料。 保持您下載的設定檔安全，並且不要共用其`auth`值。
+
+1. 在Fusion中，選取需要連線的團隊。
+1. 按一下左側面板中的&#x200B;**連線**&#x200B;索引標籤，然後按一下&#x200B;**建立連線**。
+1. Select **Adobe App Builder**&#x200B;作為連線型別，並輸入可識別現有專案的名稱。
+1. 在[Adobe Developer Console](https://developer.adobe.com/console)中，開啟現有的專案，然後選取您要連線的工作區。
+1. 在專案概述中，按一下&#x200B;**全部下載**&#x200B;以下載工作區組態JSON檔案，然後在文字編輯器中開啟檔案。
+1. 在檔案的`runtime`區段中，找出`namespace`值。 在Fusion中，在&#x200B;**名稱空間**&#x200B;欄位中輸入它。
+1. 在`runtime`區段中，找出`auth`值。 其格式為`username:password`。
+
+   * 在Fusion中，在&#x200B;**使用者名稱**&#x200B;欄位中輸入冒號之前的部分。
+   * 在Fusion中，在&#x200B;**密碼**&#x200B;欄位中輸入冒號之後的部分。
+
+1. 按一下&#x200B;**繼續**&#x200B;以儲存連線。
+1. 返回Fusion中的&#x200B;**函式**&#x200B;索引標籤，並視需要重新整理頁面。
+
+如需有關連線欄位的詳細資訊，請參閱[Adobe App Builder模組](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-app-builder.md#create-a-connection-to-adobe-app-builder)。
 
 #### 在函式區域中建立自訂函式
 

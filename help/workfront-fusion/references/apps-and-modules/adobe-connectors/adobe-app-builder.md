@@ -4,10 +4,10 @@ description: Adobe App Builder聯結器可讓您在情境中使用自訂函式�
 author: Becky
 feature: Workfront Fusion
 exl-id: 92661a0c-436b-4fbd-808a-a4fbe3cd2339
-source-git-commit: 02c396f33b6398635462bac8741f446eb82bf5a9
+source-git-commit: c716296d771974ffdb59e916f9865c9efb2ad5a9
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 16%
+source-wordcount: '787'
+ht-degree: 15%
 ---
 # Adobe App Builder模組
 
@@ -40,7 +40,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
 +++
 
@@ -64,6 +64,8 @@ ht-degree: 16%
 
 ### 建立連線
 
+使用這些步驟來連線已存在的App Builder專案。 如需使用此連線在Fusion中設定自訂函式的步驟，請參閱[連線現有的App Builder專案](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md#connect-an-existing-app-builder-project)。
+
 1. 在模組中，按一下&#x200B;**連線**&#x200B;欄位旁的&#x200B;**新增**。
 1. 填寫下列欄位：
 
@@ -77,14 +79,14 @@ ht-degree: 16%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 環境]</td> 
-      <td>選取您要連線到生產或非生產環境。</td> 
+      <td>無論您是連線到生產或非生產環境，Select皆然。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 類型]</td> 
-      <td>選取<b>服務帳戶</b>。</td> 
+      <td>Select <b>服務帳戶</b>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者名稱]</td> 
+      <td role="rowheader">[！UICONTROL使用者名稱]</td> 
       <td>從工作區的<code>auth</code>值（冒號之前的部分）輸入使用者名稱。</td> 
      </tr> 
      <tr> 
@@ -92,7 +94,7 @@ ht-degree: 16%
       <td>從工作區的<code>auth</code>值（冒號後的部分）輸入密碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名稱空間]</td> 
+      <td role="rowheader">[！UICONTROL名稱空間]</td> 
       <td>從工作區組態檔的<code>runtime</code>區段中輸入<code>namespace</code>值。</td> 
      </tr> 
     </tbody> 
@@ -112,10 +114,10 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td>
-   <td>選取包含您要執行之自訂函式的連線。 </td> 
+   <td>Select包含您要執行之自訂函式的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 程式碼區塊]</td> 
+   <td role="rowheader">[！UICONTROL程式碼區塊]</td> 
    <td>輸入您希望模組執行的程式碼區塊。<p>若要將程式碼格式化以便於閱讀，請按一下<b>格式化程式碼</b>圖示。</td> 
   </tr> 
    </tbody> 
@@ -133,15 +135,15 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td>
-   <td>選取包含您要執行之自訂函式的連線。 </td> 
+   <td>Select包含您要執行之自訂函式的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 套件]</td> 
-   <td>選取包含您要在此案例中執行之函式的套件。</td> 
+   <td role="rowheader">[！UICONTROL套件]</td> 
+   <td>Select此套件包含您要在情境中執行的函式。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 變數] </td> 
-   <td>選取您要在該案例中執行的函式。</p></td> 
+   <td role="rowheader">[！UICONTROL變數] </td> 
+   <td>Select您要在該案例中執行的函式。</p></td> 
   </tr> 
    </tbody> 
 </table>
@@ -158,15 +160,15 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td>
-   <td>選取包含您要執行之自訂函式的連線。 </td> 
+   <td>Select包含您要執行之自訂函式的連線。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 套件]</td> 
-   <td>選取包含您要納入情境之變數的套件。</td> 
+   <td role="rowheader">[！UICONTROL套件]</td> 
+   <td>Select此套件包含您要帶入情境的變數。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 變數] </td> 
-   <td>選取您要納入情境的變數。</p></td> 
+   <td role="rowheader">[！UICONTROL變數] </td> 
+   <td>Select是您要帶入情境的變數。</p></td> 
   </tr> 
    </tbody> 
 </table>
@@ -183,14 +185,14 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 連線]</td>
-   <td>選取包含您要執行之自訂函式的連線。 </td> 
+   <td>Select包含您要執行之自訂函式的連線。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 動作]</td> 
-   <td>選取您要執行的自訂函式。</td> 
+   <td>Select是您要執行的自訂函式。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 引數] </td> 
+   <td role="rowheader">[！UICONTROL引數] </td> 
    <td>輸入函式引數的值。 可用的引數是根據建立函式時設定的引數。<p>如果引數有預設值，您不會在欄位中看到它，但可以透過在欄位中輸入或對應值來覆寫它。</p></td> 
   </tr> 
    </tbody> 

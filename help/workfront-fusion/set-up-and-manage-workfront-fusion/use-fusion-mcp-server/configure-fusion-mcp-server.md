@@ -38,7 +38,7 @@ Adobe Workfront Fusion MCP伺服器可讓您在支援的AI代理平台上，透�
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -207,12 +207,12 @@ claude mcp add --transport http fusion-mcp https://mcp.fusion.adobe.com/mcp
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[！UICONTROL唯讀MCP工具]</td>
+   <td role="rowheader">[!UICONTROL 唯讀MCP工具]</td>
    <td>僅讀取資料的工具，例如列出和取得案例、執行、連線和資料存放區。</td>
   </tr>
   <tr>
-   <td role="rowheader">[！UICONTROL Write MCP tools]</td>
-   <td><p>用來建立、更新、刪除或執行專案的工具，例如建立或更新案例、執行案例或刪除連線。</p><p>您無法啟用<b>[！UICONTROL Write MCP tools]</b>，除非<b>[！UICONTROL Read-only MCP tools]</b>也已啟用。</p></td>
+   <td role="rowheader">[!UICONTROL Write MCP tools]</td>
+   <td><p>用來建立、更新、刪除或執行專案的工具，例如建立或更新案例、執行案例或刪除連線。</p><p>您無法啟用<b>[!UICONTROL Write MCP tools]</b>，除非<b>[!UICONTROL Read-only MCP tools]</b>也已啟用。</p></td>
   </tr>
  </tbody>
 </table>

@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: 6efe84af0487893a3c33ba2bf6e3db5200f25446
+source-git-commit: dbe4560cea79834a0d967cbaf6b98772d8ee09ce
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2153'
 ht-degree: 6%
 ---
 # Adobe CX Enterprise Coworker模組
@@ -24,8 +24,6 @@ ht-degree: 6%
 * **[!UICONTROL 取得執行狀態]**&#x200B;會檢查您先前啟動的要求。
 
 ## 存取權要求
-
-<!-- BECKY CHECK ME: This table is copied from other Fusion connector articles. The source material does not list access requirements, but says you need an Adobe account that has access to Coworker. Confirm the requirements and whether Coworker needs its own license or entitlement. -->
 
 +++ 展開以檢視這篇文章中所述功能的存取權要求。
 
@@ -82,7 +80,7 @@ ht-degree: 6%
       <tr>
         <td role="rowheader">環境</td>
         <td>
-          <p>選取您要連線到生產或非生產環境。</p>
+          <p>無論您是連線到生產或非生產環境，Select皆然。</p>
         </td>
       </tr>
       <tr>
@@ -134,7 +132,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td>[!UICONTROL 連線]</td> 
-   <td> <p>選取您在原始<b>[!UICONTROL 執行提示]</b>執行中所使用的相同連線。</p> </td> 
+   <td> <p>Select與您在原始<b>[!UICONTROL 執行提示]</b>執行中所使用的連線相同。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 任務ID]</td> 
@@ -155,7 +153,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td>[!UICONTROL 連線]</td> 
-   <td> <p>選取您的同事連線。 如需指示，請參閱本文中的<a href="#connect-adobe-cx-coworker-to-workfront-fusion" class="MCXref xref">將Adobe CX Enterprise Coworker連線至Workfront Fusion</a>。</p> </td> 
+   <td> <p>Select您的同事連線。 如需指示，請參閱本文中的<a href="#connect-adobe-cx-coworker-to-workfront-fusion" class="MCXref xref">將Adobe CX Enterprise Coworker連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 使用者提示]</td> 
@@ -164,6 +162,10 @@ ht-degree: 6%
   <tr> 
    <td>[!UICONTROL 等待完成] <i> （選用，進階）</i></td> 
    <td> <p>此選項預設為開啟。 如果您希望模組等待工作完成或需要注意，請啟用此選項。 將其關閉以立即傳回初始結果。</p><p>如需詳細資訊，請參閱本文中的<a href="#wait-for-completion">等待完成</a>。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL 確認所有工具動作] <i>（選擇性，進階）</i></td> 
+   <td> <p>此選項預設為關閉。 如果您希望Co-worker在此執行期間自動核准支援的工具許可權要求，請啟用此選項。 工具可能會修改或刪除資料。</p><p>如需詳細資訊，請參閱本文中的<a href="#confirm-all-tool-actions">確認所有工具動作</a>。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Include原始結果] <i> （選用，進階）</i></td> 
@@ -187,6 +189,19 @@ ht-degree: 6%
 等待受Fusion的模組逾時限制。 如果模組逾時或停止，Co-worker可能會繼續運作。 在這種情況下，您可能無法收到輸出或任務ID。
 
 若需要更長的時間，請關閉等待並儲存初始&#x200B;**[!UICONTROL 工作識別碼]**，以便您稍後可以檢查工作。 逾時後不要再自動執行提示。 第一個請求可能已在進行中，重複它可能會重複變更。
+
+#### 確認所有工具動作
+
+當&#x200B;**[!UICONTROL 確認所有工具動作]**&#x200B;開啟時，模組會在執行期間自動核准支援的工具許可權要求，最多可核准20輪次和100次工具呼叫。 此選項預設為關閉。
+
+>[!WARNING]
+>
+>工具可能會修改或刪除資料。 開啟此選項表示您僅同意此執行。 這不是永久的許可權授予。
+
+下列條件適用：
+
+* 此選項需要&#x200B;**[!UICONTROL 等待完成]**&#x200B;和相容的即時許可權資料流。
+* 限制、重播的請求、登入、問題和其他核准需要手動審查。
 
 
 ## 模組輸出
@@ -238,7 +253,7 @@ ht-degree: 6%
 
 同事可能需要更多資訊或授權，才能繼續。 發生此情況時，**[!UICONTROL 需要注意]**&#x200B;為true，而&#x200B;**[!UICONTROL 已完成]**&#x200B;為false。 將結果遞送給個人，而不是將其視為已完成的工作。
 
-這些模組無法代表您回答後續問題或核准動作。 **[!UICONTROL 取得執行狀態]**&#x200B;可以檢查工作狀態是否已變更，但是它無法解析輸入或授權的要求。
+這些模組無法回答後續問題或代表您核准動作，但&#x200B;**[!UICONTROL 確認所有工具動作]**&#x200B;自動核准的支援工具許可權要求除外。 **[!UICONTROL 取得執行狀態]**&#x200B;可以檢查工作狀態是否已變更，但是它無法解析輸入或授權的要求。
 
 ### 使用先前的答案
 
@@ -318,6 +333,7 @@ AI產生的措辭可能有所不同。 在正確性很重要的地方檢閱結�
 * 這些模組不提供限制個別工具的方法。 「不要變更任何專案」之類的指示說明了您的意圖，但並非強制的唯讀模式。
 * 可用的工具和技能因帳戶而異。 聯結器不提供技能選擇器或保證特定動作，例如建立歷程或更新專案。 請勿假設需要核准的請求會在無人參與的情況下完成。
 * 聯結器會啟動並檢查同事請求。 它不會監視專案變更或自動儲存其他應用程式的回答。 視需要將適當的觸發器、儲存和後續模組新增到情境中。
+* 開啟&#x200B;**[!UICONTROL 僅針對受信任的提示確認所有工具動作]**。 開啟此選項時，Co-worker會自動核准支援的工具許可權請求，而工具可能會修改或刪除資料。
 * AI產生的答案可能不完整或不準確。 使用重要結果進行變更或決定前，請先驗證這些結果。
 * 聯結器不會自動重試失敗的請求。 確定您情境的錯誤處理不會重複出現結果不確定的提示。
 
@@ -329,7 +345,7 @@ AI產生的措辭可能有所不同。 在正確性很重要的地方檢閱結�
  <tbody> 
   <tr> 
    <td role="rowheader">缺少必填欄位</td> 
-   <td> <p>選取連線並輸入必要的提示或工作ID。</p> </td> 
+   <td> <p>Select連線，並輸入所需的提示或工作ID。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">登入失敗或存取遭拒</td> 

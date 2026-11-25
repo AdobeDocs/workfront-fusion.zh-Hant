@@ -1,10 +1,10 @@
 ---
 title: 設定Adobe Workfront Fusion MCP伺服器
 description: 將Adobe Workfront Fusion連線至與MCP相容的AI代理平台或同事（獨立版或在Fusion右側邊欄中）。
-source-git-commit: d5861015b3bb0e9c176fcf4fd71db426671764dd
+source-git-commit: 6c1e5e8848003797c100a93086b615863ceb7244
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 7%
+source-wordcount: '1623'
+ht-degree: 6%
 ---
 
 # 設定Adobe Workfront Fusion MCP伺服器
@@ -112,7 +112,7 @@ Fusion MCP伺服器可與下列應用程式搭配使用。
 * 同事（獨立）：搭配其他Adobe應用程式使用Fusion。
 * Fusion右側邊欄中的同事：在Fusion UI內的面板中開啟同事。
 
-兩者都使用相同的Fusion MCP工具、您的Adobe ID和Fusion許可權。 「讀取」或「寫入」MCP工具設定會同時套用在這兩個工具中。 破壞性動作（例如刪除、清除佇列或覆寫）一律會要求確認。
+兩者都使用相同的Fusion MCP工具、您的Adobe ID和Fusion許可權。 組織的唯讀和寫入工具的MCP偏好設定同時適用於這兩者。 如需詳細資訊，請參閱[管理您組織的MCP喜好設定](#manage-mcp-preferences-for-your-organization)。 破壞性動作（例如刪除、清除佇列或覆寫）一律會要求確認。
 
 ### 在同事中使用Fusion
 
@@ -147,8 +147,8 @@ Fusion MCP伺服器可與下列應用程式搭配使用。
 
 1. 登入[克勞德](https://claude.ai)。
 1. 在左側功能表中，選取&#x200B;**自訂**。
-1. 選取&#x200B;**聯結器**。
-1. 選取&#x200B;**+**，然後選取&#x200B;**新增自訂聯結器**。
+1. Select **聯結器**。
+1. Select **+**，然後&#x200B;**新增自訂聯結器**。
 1. 輸入名稱（例如「Workfront Fusion」）和MCP伺服器URL：
 
    ```
@@ -156,7 +156,7 @@ Fusion MCP伺服器可與下列應用程式搭配使用。
    ```
 
 1. 按一下&#x200B;**連線**。
-1. 登入。 選取設定檔和Fusion組織。
+1. 登入。 Select a設定檔和Fusion組織。
 
 對於Claude程式碼，您可以從命令列新增伺服器：
 
@@ -196,6 +196,48 @@ claude mcp add --transport http fusion-mcp https://mcp.fusion.adobe.com/mcp
 1. 閱讀風險訊息並選取核取方塊。
 1. 按一下「**建立**」，然後使用您的登入。
 
+## 管理組織的MCP偏好設定
+
+組織擁有者和管理員可以選擇組織可以使用哪些Fusion MCP工具。 其他使用者無法變更此設定。
+
+您可以允許或停用下列型別的工具：
+
+<table style="table-layout:auto">
+ <col>
+ <col>
+ <tbody>
+  <tr>
+   <td role="rowheader">[!UICONTROL 唯讀MCP工具]</td>
+   <td>僅讀取資料的工具，例如列出和取得案例、執行、連線和資料存放區。</td>
+  </tr>
+  <tr>
+   <td role="rowheader">[!UICONTROL Write MCP tools]</td>
+   <td><p>用來建立、更新、刪除或執行專案的工具，例如建立或更新案例、執行案例或刪除連線。</p><p>您無法啟用<b>[!UICONTROL Write MCP tools]</b>，除非<b>[!UICONTROL Read-only MCP tools]</b>也已啟用。</p></td>
+  </tr>
+ </tbody>
+</table>
+
+此設定適用於整個組織。 儲存之後，每個連線到該組織的Fusion MCP伺服器的使用者只會取得允許的工具。 停用的工具不會出現在工具清單中，如果代理程式呼叫它們，Fusion會拒絕它們。
+
+>[!IMPORTANT]
+>
+>此設定只會限制使用本文中的MCP伺服器URL，透過正式Fusion MCP伺服器進行的工具呼叫。 使用者在Fusion使用者介面中、透過API或透過任何其他整合執行的動作，仍由每個使用者在Fusion中擁有的許可權控制。
+
+若要管理MCP偏好設定：
+
+1. 在Fusion中，按一下左側導覽中的&#x200B;**[!UICONTROL 組織]**。
+
+1. 按一下&#x200B;**[!UICONTROL 變更詳細資料]**。
+
+   **[!UICONTROL 變更詳細資料]**&#x200B;視窗隨即開啟。
+
+1. 在&#x200B;**[!UICONTROL MCP喜好設定]**&#x200B;下，選取或清除&#x200B;**[!UICONTROL 唯讀MCP工具]**&#x200B;和&#x200B;**[!UICONTROL 寫入MCP工具]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
+
+>[!NOTE]
+>
+>如果為組織停用AI功能，則無法編輯MCP偏好設定。
+
 ## 切換到其他Fusion組織
 
 您不需要中斷連線即可變更組織。 Fusion MCP伺服器可以在工作階段中切換作用中組織：
@@ -213,8 +255,8 @@ claude mcp add --transport http fusion-mcp https://mcp.fusion.adobe.com/mcp
 | 您不能在Claude或ChatGPT中新增自訂聯結器。 | 您的計畫會將自訂聯結器限製為擁有者或管理員。 | 請要求您的Claude或ChatGPT管理員新增聯結器或允許自訂MCP伺服器。 |
 | 您已連線，但看不到任何資料或資料錯誤。 | 錯誤的Fusion組織為作用中。 | 要求代理程式列出您的組織並切換至正確的組織。 |
 | 驗證失敗或連線已停止運作。 | 工作階段過期或連線錯誤。 | 中斷伺服器連線並重新連線。 |
-| 您會看到MCP存取被停用的訊息。 | 您的Fusion組織的MCP存取已關閉。 | 請要求您的Fusion管理員啟用它。 |
-| 代理程式可讀取情境，但無法建立、執行、更新或刪除情境。 | 寫入MCP工具已停用，或您的團隊角色不允許使用。 | 請要求Fusion管理員啟用寫入工具，或授予您必要的團隊角色。 |
+| 您會看到MCP存取被停用的訊息。 | 您的Fusion組織的MCP存取已關閉。 | 請要求您的Fusion管理員啟用它。 如需詳細資訊，請參閱[管理您組織的MCP喜好設定](#manage-mcp-preferences-for-your-organization)。 |
+| 代理程式可讀取情境，但無法建立、執行、更新或刪除情境。 | 寫入MCP工具已停用，或您的團隊角色不允許使用。 | 請要求Fusion管理員在組織的MCP偏好設定中啟用寫入工具，或授予您必要的專案團隊角色。 如需詳細資訊，請參閱[管理您組織的MCP喜好設定](#manage-mcp-preferences-for-your-organization)。 |
 | 自訂應用程式驗證遭拒。 | 回呼URL不在授權清單上。 | 請要求您的管理員新增精確的回呼URL。 |
 | Fusion未列在Co-worker中，或Fusion右側邊欄中缺少Co-worker。 | 您的組織未啟用此功能。 | 請連絡您的Fusion管理員。 |
 

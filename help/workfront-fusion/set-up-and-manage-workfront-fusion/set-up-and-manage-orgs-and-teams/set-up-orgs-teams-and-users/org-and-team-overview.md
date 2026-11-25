@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
     internal-label: Workfront Fusion
-source-git-commit: f9cdbcf936fc6b022f6513f47b9b377424731419
+source-git-commit: bf67d1764395a48715cd8a5f665318857d0bdff1
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
@@ -89,8 +89,6 @@ Workfront Fusion使用者屬於組織。
 如需每個專案團隊角色中使用者可用的特定動作資訊，請參閱[組織和專案團隊角色](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md)。
 
 ### 自訂團隊角色
-
-<!-- BECKY CHECK ME: The source material (the Slack announcement) says flexible permissions are live in QA and for internal customers, with a limited pilot with paid customers next, then general availability. Confirm availability at the 2026-11-12 release before publishing, and whether this section should say that the feature is available only to some organizations. -->
 
 除了預先定義的專案團隊角色之外，每個專案團隊都有&#x200B;**[!UICONTROL 角色]**&#x200B;標籤，您可以在其中建立自己的角色。 您可以建立、更新及刪除角色，並選擇每個角色包含的確切許可權。 您不再受限於固定角色集。
 

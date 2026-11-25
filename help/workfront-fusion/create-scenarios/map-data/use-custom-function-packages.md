@@ -54,7 +54,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -77,7 +77,7 @@ ht-degree: 5%
 1. Select此套件所屬的Adobe App Builder專案：
 
    * 若要選取現有專案，請開始輸入專案名稱，然後在其出現時選取它。
-   * 若要建立新專案，請輸入不存在的名稱，然後按一下[新建] ****。
+   * 若要建立新專案，請輸入不存在的名稱，然後按一下[新建] **&#x200B;**。
    * 如果您將此保留為空白，Fusion會使用預設專案。
 
    如果現有專案無法搭配&#x200B;**初始化執行階段**&#x200B;運作，請手動連線。 如需指示，請參閱[連線現有的App Builder專案](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md#connect-an-existing-app-builder-project)。
@@ -110,8 +110,8 @@ ht-degree: 5%
 
    套件會自動開啟。
 
-1. 若要稍後重新開啟封裝，請從[封裝]清單中選取它，然後選取[檢視]。****
-1. 若要刪除封裝，請從[封裝]清單中選取它，然後選擇[刪除]。****
+1. 若要稍後重新開啟封裝，請從[封裝]清單中選取它，然後選取[檢視]。**&#x200B;**
+1. 若要刪除封裝，請從[封裝]清單中選取它，然後選擇[刪除]。**&#x200B;**
 
    >[!WARNING]
    >
@@ -187,7 +187,7 @@ ht-degree: 5%
    * 您可以讀取您定義的輸入、重複使用變數，以及呼叫其他函式。
    * 當您輸入時，建議隨即顯示。
 
-1. 若要清除功能格式，請按一下[美化] ****。
+1. 若要清除功能格式，請按一下[美化] **&#x200B;**。
 
 1. （選擇性）在&#x200B;**引數**&#x200B;索引標籤上，定義函式預期的輸入。
 
@@ -201,7 +201,7 @@ ht-degree: 5%
 
    或
 
-   若要發佈函式，請按一下[發佈]。****
+   若要發佈函式，請按一下[發佈]。**&#x200B;**
 
    >[!NOTE]
    >

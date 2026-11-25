@@ -58,7 +58,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 +++
 
@@ -125,27 +125,27 @@ Workfront Fusion會處理OAuth使用者端註冊和權杖管理。 您沒有輸�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL LLM機碼] <i>（選擇性，進階）</i></td> 
-   <td> <p>將此欄位留空將使用您的Fusion管理員設定的Adobe Managed AI。 若要改用您自己的金鑰，請選取現有的OpenAI、Anthropic或Amazon Basrock金鑰，或按一下<b>[！UICONTROL Add]</b>建立金鑰。</p><p>您的Firefly登入與LLM認證不同。</p> </td> 
+   <td>[!UICONTROL LLM機碼] <i>（選擇性，進階）</i></td> 
+   <td> <p>將此欄位留空將使用您的Fusion管理員設定的Adobe Managed AI。 若要改用您自己的金鑰，請選取現有的OpenAI、Anthropic或Amazon Basrock金鑰，或按一下<b>[!UICONTROL Add]</b>建立金鑰。</p><p>您的Firefly登入與LLM認證不同。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 連線]</td> 
    <td> <p>模組用於探索和呼叫工具的Adobe Firefly Creative生產連線。 如需指示，請參閱本文中的<a href="#connect-adobe-firefly-creative-production-mcp-to-workfront-fusion" class="MCXref xref">將Adobe Firefly Creative Production MCP連線至Workfront Fusion</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL唯讀工具] <i>（選擇性）</i></td> 
+   <td>[!UICONTROL 唯讀工具] <i>（選擇性）</i></td> 
    <td> <p>Select是伺服器識別為唯讀的工具。 若要選取目前列出的每個工具，請選取<b>Select全部</b>。</p><p>列出的工具數目會顯示在欄位的標籤中。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL寫入/刪除工具] <i>（選擇性）</i></td> 
+   <td>[!UICONTROL 寫入/刪除工具] <i>（選擇性）</i></td> 
    <td> <p>Select伺服器未識別為唯讀的工具。 這些操作可以變更資料或執行工作流程。 若要選取目前列出的每個工具，請選取<b>Select全部</b>。</p><p>列出的工具數目會顯示在欄位的標籤中。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL其他工具（未知許可權）] <i>（選擇性）</i></td> 
+   <td>[!UICONTROL 其他工具（未知許可權）] <i>（選擇性）</i></td> 
    <td> <p>Select工具沒有可辨識的唯讀附註。 只有在這些工具可用時，才會顯示此欄位。 啟用這些工具之前，請先檢閱其行為。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL輸入提示]</td> 
+   <td>[!UICONTROL 輸入提示]</td> 
    <td> <p>說明您要的工作流程探索、構成或執行。 最大長度為10,000個JavaScript字串單位。 有些字元（包括許多Emoji）會計為兩個單位。</p><p>需要時明確要求執行或發佈。 執行工作流程可能會沖銷銷退折讓。 非同步執行可在執行完成之前傳回批次ID。</p> </td> 
   </tr> 
  </tbody> 
@@ -178,19 +178,19 @@ Workfront Fusion會處理OAuth使用者端註冊和權杖管理。 您沒有輸�
  <col> 
  <tbody> 
   <tr> 
-   <td>[！UICONTROL回應] (<code>data.response</code>)</td> 
+   <td>[!UICONTROL 回應] (<code>data.response</code>)</td> 
    <td> <p>最終文字回應。 其內容取決於提示和工具結果。 不保證是URL或結構化JSON。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL稽核軌跡] (<code>data.auditTrail</code>)</td> 
+   <td>[!UICONTROL 稽核軌跡] (<code>data.auditTrail</code>)</td> 
    <td> <p>有關如何處理提示和工具呼叫的詳細資訊，包括其引數、結果、時間和成功資訊。 根據您組織的資料處理要求處理這些詳細資訊。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL摘要] (<code>data.summary</code>)</td> 
+   <td>[!UICONTROL 摘要] (<code>data.summary</code>)</td> 
    <td> <p>工具呼叫次數、處理時間及執行狀態。 檢閱摘要以及回應和稽核軌跡，包括任何<code>partial_success</code>結果。</p> </td> 
   </tr> 
   <tr> 
-   <td>[！UICONTROL LLM使用方式] (<code>data.usage</code>)</td> 
+   <td>[!UICONTROL LLM使用方式] (<code>data.usage</code>)</td> 
    <td> <p>選填。 觀察到LLM回應中的總權杖使用量。 這不是Fusion無法觀察的Firefly伺服器內的提供者帳單、Firefly信用消耗或LLM活動。</p> </td> 
   </tr> 
  </tbody> 
